@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Local Posts Viewer — Multiword Search</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:18px;background:#f7f7f8;color:#111}
+    header{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    input[type=text]{flex:1;padding:10px;border:1px solid #ccc;border-radius:6px}
+    button{padding:10px 12px;border-radius:6px;border:1px solid #888;background:#fff;cursor:pointer}
+    .meta{font-size:13px;color:#555}
+    .post{background:#fff;padding:12px;border-radius:8px;margin-bottom:10px;border:1px solid #e2e2e2}
+    pre{white-space:pre-wrap;font-family:inherit;font-size:14px;margin:8px 0 0}
+    .small{font-size:13px;color:#666}
+    mark{background:yellow;color:#000;font-weight:bold}
+    #notice{background:#fff3cd;padding:10px;border-radius:6px;border:1px solid #ffeeba;margin-bottom:12px}
+    .controls{display:flex;gap:8px;align-items:center}
+  </style>
+</head>
+<body>
+<!-- 🌐 Navigation Bar -->
+    <nav style="
+      background:#fff;
+      padding:10px 16px;
+      border-bottom:1px solid #ddd;
+      display:flex;
+      gap:16px;
+      font-family:system-ui,Segoe UI,Roboto,Arial;
+    ">
+      <a href="index.html" style="text-decoration:none;color:#0070f3;">Home</a>
+      <a href="converter.html" style="text-decoration:none;color:#0070f3;">Converter</a>
+      <a href="deagel-forecast.html" style="text-decoration:none;color:#0070f3;">Deagel Forecast</a>
+      <a href="local-posts-viewer.html" style="text-decoration:none;color:#0070f3;">Posts Viewer</a>
+    </nav>
+  <header>
+    <h2 style="margin:0">Local Posts Viewer — Multiword Search</h2>
+    <div style="margin-left:auto" class="small">Place this file next to <code>posts.json</code> and open it.</div>
+  </header>
+
+  <div id="notice">If automatic load fails, the file picker will open automatically.</div>
+
+  <div class="controls" style="margin-bottom:12px">
+    <input id="search" type="text" placeholder='Search: post 17 | 455-470 | 11/2 | multiple words like "scare event"' />
+    <button id="clear">Clear</button>
+    <button id="loadFile">Load posts.json</button>
+    <input id="fileInput" type="file" accept="application/json" style="display:none" />
+  </div>
+
+  <div id="status" class="small"></div>
+  <div id="results"></div>
+
+  <script>
+    let POSTS = [];
+    const results = document.getElementById('results');
+    const status = document.getElementById('status');
+    const search = document.getElementById('search');
+    const clearBtn = document.getElementById('clear');
+    const loadFileBtn = document.getElementById('loadFile');
+    const fileInput = document.getElementById('fileInput');
+
+    function showStatus(msg){ status.textContent = msg; }
+
+    function highlightWords(text, words){
+      if(!words || words.length===0) return text;
+      let out = text;
+      for(const w of words){
+        const pattern = new RegExp(`(${w.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&')})`,'gi');
+        out = out.replace(pattern,'<mark>$1</mark>');
+      }
+      return out;
+    }
+
+    function renderPosts(list, words){
+      results.innerHTML = '';
+      if(!list || list.length===0){
+        results.innerHTML = '<div class="small">No posts match.</div>';
+        return;
+      }
+      for(const p of list){
+        const div = document.createElement('div');
+        div.className = 'post';
+        const meta = document.createElement('div');
+        const ts = p.post_metadata && p.post_metadata.time ? new Date(p.post_metadata.time*1000) : null;
+        let when = ts ? ts.toString() : 'unknown';
+        meta.innerHTML = `<div class="meta">` +
+          `ID: <strong>${p.post_metadata?.id ?? '—'}</strong>` +
+          ` &nbsp; • &nbsp; Author: ${p.post_metadata?.author ?? '—'}` +
+          ` &nbsp; • &nbsp; Time: <span class="small">${when}</span>` +
+          `</div>`;
+        div.appendChild(meta);
+        const pre = document.createElement('pre');
+        pre.innerHTML = highlightWords(p.text || '', words);
+        div.appendChild(pre);
+        results.appendChild(div);
+      }
+    }
+
+    function loadFromObject(obj){
+      if(!obj) { showStatus('posts.json appears empty or invalid'); return; }
+      if(Array.isArray(obj)) POSTS = obj;
+      else if(obj.posts && Array.isArray(obj.posts)) POSTS = obj.posts;
+      else if(obj.data && Array.isArray(obj.data)) POSTS = obj.data;
+      else { showStatus('Unrecognized JSON structure. Expected {"posts":[...]} or an array.'); return; }
+      POSTS.sort((a,b)=> (a.post_metadata?.time||0)-(b.post_metadata?.time||0));
+      showStatus(`Loaded ${POSTS.length} posts.`);
+      showTodaysPosts();
+    }
+
+    function showTodaysPosts(){
+      const now = new Date();
+      const m = now.getMonth()+1;
+      const d = now.getDate();
+      const filtered = POSTS.filter(p=>{
+        const t = p.post_metadata?.time ? new Date(p.post_metadata.time*1000) : null;
+        return t && (t.getMonth()+1)===m && t.getDate()===d;
+      });
+      renderPosts(filtered);
+      showStatus(`Showing ${filtered.length} posts for ${m}/${d} (from total ${POSTS.length}).`);
+    }
+
+    function performSearch(q){
+      q = (q||'').trim();
+      if(!q){ showTodaysPosts(); return; }
+
+      const rangeMatch = q.match(/^(\d+)\s*[-–]\s*(\d+)$/);
+      if(rangeMatch){
+        const start = Number(rangeMatch[1]);
+        const end = Number(rangeMatch[2]);
+        const found = POSTS.filter(p => {
+          const id = Number(p.post_metadata?.id);
+          return id>=start && id<=end;
+        });
+        renderPosts(found);
+        showStatus(`Search: posts ${start}-${end} — ${found.length} result(s).`);
+        return;
+      }
+
+      const postMatch = q.match(/^post\s*(\d+)$/i) || q.match(/^(\d+)$/);
+      if(postMatch){
+        const id = Number(postMatch[1]);
+        const found = POSTS.filter(p => Number(p.post_metadata?.id)===id);
+        renderPosts(found);
+        showStatus(`Search: post ${id} — ${found.length} result(s).`);
+        return;
+      }
+
+      const dateMatch = q.match(/^(\d{1,2})\s*[\/\-]\s*(\d{1,2})$/);
+      if(dateMatch){
+        const m = Number(dateMatch[1]);
+        const d = Number(dateMatch[2]);
+        const filtered = POSTS.filter(p=>{
+          const t = p.post_metadata?.time ? new Date(p.post_metadata.time*1000) : null;
+          return t && (t.getMonth()+1)===m && t.getDate()===d;
+        });
+        renderPosts(filtered);
+        showStatus(`Search: ${m}/${d} — ${filtered.length} result(s).`);
+        return;
+      }
+
+      const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+      const filtered = POSTS.filter(p=>{
+        const text = (p.text || '').toLowerCase();
+        return words.every(w => text.includes(w));
+      });
+
+      renderPosts(filtered, words);
+      showStatus(`Search: "${q}" — ${filtered.length} result(s).`);
+    }
+
+    async function tryAutoLoad(){
+      try{
+        const resp = await fetch('posts.json');
+        if(!resp.ok) throw new Error('fetch failed: ' + resp.status);
+        const obj = await resp.json();
+        loadFromObject(obj);
+      }catch(err){
+        showStatus('Automatic load failed. Opening file picker...');
+        fileInput.click(); // 🔥 Auto-open the picker
+      }
+    }
+
+    fileInput.addEventListener('change', e=>{
+      const f = e.target.files?.[0];
+      if(!f) return;
+      const reader = new FileReader();
+      reader.onload = ev=>{
+        try{ loadFromObject(JSON.parse(ev.target.result)); }
+        catch{ showStatus('Could not parse that file as JSON.'); }
+      };
+      reader.readAsText(f);
+    });
+
+    loadFileBtn.addEventListener('click', ()=> fileInput.click());
+    clearBtn.addEventListener('click', ()=>{ search.value=''; showTodaysPosts(); });
+    search.addEventListener('keydown', e=>{ if(e.key==='Enter'){ performSearch(search.value); } });
+
+    tryAutoLoad();
+  </script>
+</body>
+</html>

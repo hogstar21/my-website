@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deagel 2025 Forecast & Vaccine Correlation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .tab {
+            padding: 12px 24px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .tab.active {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .view {
+            display: none;
+        }
+        
+        .view.active {
+            display: block;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        
+        select, input {
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 20px;
+            border-radius: 3px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .content-box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+        
+        #mapContainer {
+            overflow: auto;
+        }
+        
+        #worldMap {
+            width: 100%;
+            min-height: 400px;
+        }
+        
+        .country-box {
+            display: inline-block;
+            padding: 8px 12px;
+            margin: 4px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .country-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        #tooltip {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.95);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            pointer-events: none;
+            display: none;
+            z-index: 1000;
+            max-width: 400px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .tooltip-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 8px;
+        }
+        
+        .tooltip-data {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        
+        .data-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        
+        .data-label {
+            opacity: 0.8;
+        }
+        
+        .data-value {
+            font-weight: bold;
+        }
+        
+        .positive {
+            color: #4ade80;
+        }
+        
+        .negative {
+            color: #f87171;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+        
+        .chart-container {
+            height: 500px;
+            position: relative;
+        }
+        
+        .correlation-info {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .correlation-value {
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            color: #f87171;
+        }
+        
+        .interpretation {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: #000;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background: rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- 🌐 Navigation Bar -->
+    <nav style="
+      background:#fff;
+      padding:10px 16px;
+      border-bottom:1px solid #ddd;
+      display:flex;
+      gap:16px;
+      font-family:system-ui,Segoe UI,Roboto,Arial;
+    ">
+      <a href="index.html" style="text-decoration:none;color:#0070f3;">Home</a>
+      <a href="converter.html" style="text-decoration:none;color:#0070f3;">Converter</a>
+      <a href="deagel-forecast.html" style="text-decoration:none;color:#0070f3;">Deagel Forecast</a>
+      <a href="local-posts-viewer.html" style="text-decoration:none;color:#0070f3;">Posts Viewer</a>
+    </nav>
+	
+    <div class="container">
+        <header>
+            <h1>🌍 Deagel 2025 Forecast & COVID Vaccine Correlation Analysis</h1>
+            <p class="subtitle">Analyzing the relationship between vaccination rates and population change projections</p>
+        </header>
+        
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('map')">📊 Country Map</div>
+            <div class="tab" onclick="switchTab('correlation')">💉 Vaccine Correlation</div>
+            <div class="tab" onclick="switchTab('coastal')">🌊 Coastal Vulnerability</div>
+            <div class="tab" onclick="switchTab('table')">📋 Data Table</div>
+        </div>
+        
+        <!-- MAP VIEW -->
+        <div id="mapView" class="view active">
+            <div class="controls">
+                <div class="control-group">
+                    <label>Metric:</label>
+                    <select id="metricSelect">
+                        <option value="population">Population Change %</option>
+                        <option value="vaccine">Vaccine Rate %</option>
+                        <option value="gdp">GDP Change %</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Search:</label>
+                    <input type="text" id="searchBox" placeholder="Search country...">
+                </div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #7f1d1d;"></div>
+                    <span>Severe Decline/Low (&lt; -50% / &lt;20%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #dc2626;"></div>
+                    <span>Major Decline/Low-Mid (-30% to -50% / 20-40%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f87171;"></div>
+                    <span>Moderate Decline/Mid (-10% to -30% / 40-60%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #fbbf24;"></div>
+                    <span>Minor Change/Mid-High (-10% to +10% / 60-80%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #86efac;"></div>
+                    <span>Moderate Growth/High (+10% to +30% / 80-90%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #22c55e;"></div>
+                    <span>Major Growth/Very High (&gt; +30% / &gt;90%)</span>
+                </div>
+            </div>
+            
+            <div class="content-box" id="mapContainer">
+                <div id="worldMap"></div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-label">World Population Change</div>
+                    <div class="stat-value negative">-4.9%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Vaccination Rate</div>
+                    <div class="stat-value">65.8%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Countries with Data</div>
+                    <div class="stat-value" id="countriesCount">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Largest Pop Decline</div>
+                    <div class="stat-value negative">UK -77.1%</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CORRELATION VIEW -->
+        <div id="correlationView" class="view">
+            <div class="content-box">
+                <h2 style="color: #000; margin-bottom: 20px; text-align: center;">💉 Vaccination Rate vs Population Change</h2>
+                <div class="chart-container">
+                    <canvas id="scatterChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="correlation-info">
+                <h3 style="margin-bottom: 15px; text-align: center;">Correlation Coefficient</h3>
+                <div class="correlation-value" id="correlationValue">-</div>
+                <div class="interpretation" id="interpretation">-</div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-label">Countries Analyzed</div>
+                    <div class="stat-value" id="correlationCount">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Vax (Declining Pop)</div>
+                    <div class="stat-value" id="avgVaxDeclining">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Vax (Growing Pop)</div>
+                    <div class="stat-value" id="avgVaxGrowing">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">High Vax, Big Decline</div>
+                    <div class="stat-value" id="highVaxDecline">-</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- COASTAL VULNERABILITY VIEW -->
+        <div id="coastalView" class="view">
+            <div class="content-box">
+                <h2 style="color: #000; margin-bottom: 20px; text-align: center;">🌊 Coastal Exposure vs Population Change</h2>
+                <div class="chart-container">
+                    <canvas id="coastalChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="correlation-info">
+                <h3 style="margin-bottom: 15px; text-align: center;">Coastal Vulnerability Analysis</h3>
+                <div class="correlation-value" id="coastalCorrelationValue">-</div>
+                <div class="interpretation" id="coastalInterpretation">-</div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-label">High Coastal Exposure</div>
+                    <div class="stat-value" id="highCoastalCount">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Decline (Coastal)</div>
+                    <div class="stat-value negative" id="avgDeclineCoastal">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Decline (Landlocked)</div>
+                    <div class="stat-value" id="avgDeclineLandlocked">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Island Nations Avg</div>
+                    <div class="stat-value" id="islandAvgDecline">-</div>
+                </div>
+            </div>
+            
+            <div class="content-box" style="margin-top: 20px;">
+                <h3 style="color: #000; margin-bottom: 15px;">Most Vulnerable Coastal Cities & Countries</h3>
+                <div style="color: #000; line-height: 1.8;">
+                    <p style="margin-bottom: 15px;"><strong>Countries with Highest Coastal Vulnerability & Severe Decline:</strong></p>
+                    <ul id="vulnerableList" style="margin-left: 20px;"></ul>
+                    
+                    <p style="margin: 20px 0 15px 0;"><strong>Major Coastal Cities at Risk:</strong></p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;" id="citiesList"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- TABLE VIEW -->
+        <div id="tableView" class="view">
+            <div class="content-box">
+                <h2 style="color: #000; margin-bottom: 20px;">Detailed Country Data</h2>
+                <input type="text" id="tableSearch" placeholder="Search in table..." style="width: 100%; margin-bottom: 15px; padding: 10px;">
+                <div style="overflow-x: auto;">
+                    <table id="dataTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">Country ↕</th>
+                                <th onclick="sortTable(1)">Pop Change % ↕</th>
+                                <th onclick="sortTable(2)">Vaccine Rate % ↕</th>
+                                <th onclick="sortTable(3)">Pop 2017 ↕</th>
+                                <th onclick="sortTable(4)">Pop 2025 ↕</th>
+                                <th onclick="sortTable(5)">GDP Change % ↕</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tooltip"></div>
+    
+    <script>
+        const vaccineData = {
+            "United States": 82, "United Kingdom": 79, "Germany": 78, "France": 84, "Italy": 85, "Spain": 87,
+            "Canada": 87, "Australia": 88, "Japan": 83, "South Korea": 88, "China": 90, "India": 74,
+            "Brazil": 87, "Russia": 61, "Mexico": 75, "Indonesia": 75, "Turkey": 69, "Saudi Arabia": 78,
+            "Argentina": 91, "Poland": 61, "Netherlands": 77, "Belgium": 80, "Sweden": 73, "Austria": 78,
+            "Switzerland": 70, "Israel": 82, "United Arab Emirates": 100, "Norway": 81, "Denmark": 81,
+            "Finland": 82, "Ireland": 86, "Portugal": 95, "Greece": 74, "Czechia": 65, "Romania": 42,
+            "Hungary": 65, "Bulgaria": 31, "Croatia": 57, "Slovakia": 52, "Slovenia": 60, "Lithuania": 70,
+            "Latvia": 70, "Estonia": 64, "Cyprus": 75, "Luxembourg": 75, "Malta": 88, "Iceland": 84,
+            "New Zealand": 88, "Singapore": 90, "Thailand": 83, "Vietnam": 93, "Philippines": 75,
+            "Malaysia": 87, "Bangladesh": 92, "Pakistan": 75, "Iran": 78, "Iraq": 28, "Afghanistan": 49,
+            "Egypt": 56, "Algeria": 18, "Morocco": 68, "Tunisia": 75, "Libya": 34, "Sudan": 35,
+            "South Africa": 41, "Nigeria": 46, "Kenya": 27, "Ethiopia": 46, "Ghana": 45, "Uganda": 44,
+            "Tanzania": 58, "Angola": 50, "Mozambique": 73, "Madagascar": 10, "Cameroon": 14, "Zambia": 64,
+            "Zimbabwe": 51, "Senegal": 16, "Chad": 31, "Mali": 22, "Niger": 26, "Burkina Faso": 29,
+            "Somalia": 56, "Rwanda": 84, "Botswana": 83, "Namibia": 25, "Mauritius": 88, "Gabon": 14,
+            "Congo": 13, "Benin": 30, "Togo": 27, "Sierra Leone": 71, "Liberia": 77, "Guinea": 66,
+            "Côte d'Ivoire": 51, "Gambia": 28, "Guinea-Bissau": 38, "Equatorial Guinea": 19, "Central African Republic": 54,
+            "Democratic Republic of the Congo": 19, "Colombia": 85, "Peru": 93, "Chile": 92, "Ecuador": 87,
+            "Venezuela": 78, "Guatemala": 50, "Cuba": 95, "Dominican Republic": 68, "Honduras": 67,
+            "El Salvador": 72, "Nicaragua": 97, "Costa Rica": 91, "Panama": 87, "Puerto Rico": 100,
+            "Jamaica": 24, "Trinidad and Tobago": 54, "Bahamas": 44, "Barbados": 57, "Belize": 59,
+            "Guyana": 63, "Suriname": 46, "Uruguay": 87, "Paraguay": 56, "Bolivia": 64,
+            "Jordan": 47, "Lebanon": 40, "Syria": 19, "Yemen": 4, "Oman": 64, "Kuwait": 81, "Bahrain": 73,
+            "Qatar": 99, "Nepal": 96, "Sri Lanka": 80, "Myanmar": 76, "Cambodia": 92, "Laos": 87,
+            "Mongolia": 70, "Brunei": 100, "Bhutan": 91, "Maldives": 74, "Timor-Leste": 67,
+            "Fiji": 79, "Papua New Guinea": 4, "Solomon Islands": 49, "Vanuatu": 58, "Samoa": 96,
+            "Tonga": 83, "Kiribati": 84, "Armenia": 39, "Azerbaijan": 54, "Georgia": 33, "Kazakhstan": 66,
+            "Kyrgyzstan": 23, "Tajikistan": 56, "Turkmenistan": 77, "Uzbekistan": 66, "Belarus": 68,
+            "Ukraine": 37, "Moldova": 28, "Albania": 47, "Bosnia and Herzegovina": 17, "Serbia": 49,
+            "Montenegro": 43, "North Macedonia": 41, "Kosovo": 50
+        };
+
+        const rawData = [
+            {"country":"Afghanistan","pop2025":33539680,"pop2017":34120000,"popChange":-1.7,"gdp2017":21060,"gdp2025":115605,"gdpChange":448.9,"me2017":187,"me2025":6329,"meChange":3285.6},
+            {"country":"Albania","pop2025":2840580,"pop2017":3050000,"popChange":-6.9,"gdp2017":13000,"gdp2025":24825,"gdpChange":91,"me2017":159,"me2025":280,"meChange":76.1},
+            {"country":"Algeria","pop2025":43638280,"pop2017":40970000,"popChange":6.5,"gdp2017":175500,"gdp2025":338397,"gdpChange":92.8,"me2017":11460,"me2025":13976,"meChange":22},
+            {"country":"Angola","pop2025":19564500,"pop2017":29310000,"popChange":-33.2,"gdp2017":124000,"gdp2025":137360,"gdpChange":10.8,"me2017":3660,"me2025":4150,"meChange":13.4},
+            {"country":"Argentina","pop2025":41008200,"pop2017":44290000,"popChange":-7.4,"gdp2017":619900,"gdp2025":610084,"gdpChange":-1.6,"me2017":5880,"me2025":4267,"meChange":-27.4},
+            {"country":"Armenia","pop2025":2891200,"pop2017":3050000,"popChange":-5.2,"gdp2017":11040,"gdp2025":14041,"gdpChange":27.2,"me2017":450,"me2025":481,"meChange":6.9},
+            {"country":"Australia","pop2025":15196600,"pop2017":23230000,"popChange":-34.6,"gdp2017":1390000,"gdp2025":420361,"gdpChange":-69.8,"me2017":27800,"me2025":2752,"meChange":-90.1},
+            {"country":"Austria","pop2025":6215000,"pop2017":8750000,"popChange":-29,"gdp2017":409300,"gdp2025":267077,"gdpChange":-34.7,"me2017":2780,"me2025":1080,"meChange":-61.2},
+            {"country":"Azerbaijan","pop2025":9630860,"pop2017":9960000,"popChange":-3.3,"gdp2017":39210,"gdp2025":110940,"gdpChange":182.9,"me2017":1430,"me2025":4853,"meChange":239.4},
+            {"country":"Bahrain","pop2025":837800,"pop2017":1410000,"popChange":-40.6,"gdp2017":33870,"gdp2025":16998,"gdpChange":-49.8,"me2017":1560,"me2025":376,"meChange":-75.9},
+            {"country":"Bangladesh","pop2025":178356440,"pop2017":157830000,"popChange":13,"gdp2017":250000,"gdp2025":396147,"gdpChange":58.5,"me2017":3600,"me2025":4468,"meChange":24.1},
+            {"country":"Belarus","pop2025":7863440,"pop2017":9550000,"popChange":-17.7,"gdp2017":52780,"gdp2025":60372,"gdpChange":14.4,"me2017":633,"me2025":451,"meChange":-28.8},
+            {"country":"Belgium","pop2025":8060900,"pop2017":11490000,"popChange":-29.8,"gdp2017":491700,"gdp2025":331996,"gdpChange":-32.5,"me2017":4270,"me2025":1915,"meChange":-55.2},
+            {"country":"Brazil","pop2025":210314920,"pop2017":207350000,"popChange":1.4,"gdp2017":2080000,"gdp2025":2813100,"gdpChange":35.2,"me2017":27460,"me2025":37598,"meChange":36.9},
+            {"country":"Bulgaria","pop2025":6128360,"pop2017":7100000,"popChange":-13.7,"gdp2017":55950,"gdp2025":89087,"gdpChange":59.2,"me2017":804,"me2025":1180,"meChange":46.8},
+            {"country":"Cambodia","pop2025":17454060,"pop2017":16200000,"popChange":7.7,"gdp2017":22250,"gdp2025":48847,"gdpChange":119.5,"me2017":411,"me2025":878,"meChange":113.6},
+            {"country":"Cameroon","pop2025":24507400,"pop2017":24990000,"popChange":-1.9,"gdp2017":30650,"gdp2025":66425,"gdpChange":116.7,"me2017":489,"me2025":942,"meChange":92.6},
+            {"country":"Canada","pop2025":26315760,"pop2017":35620000,"popChange":-26.1,"gdp2017":1640000,"gdp2025":1051840,"gdpChange":-35.9,"me2017":16200,"me2025":6375,"meChange":-60.6},
+            {"country":"Chad","pop2025":12431280,"pop2017":12070000,"popChange":3,"gdp2017":9740,"gdp2025":22085,"gdpChange":126.7,"me2017":270,"me2025":512,"meChange":89.6},
+            {"country":"Chile","pop2025":18098060,"pop2017":17790000,"popChange":1.7,"gdp2017":263200,"gdp2025":401817,"gdpChange":52.7,"me2017":4920,"me2025":7932,"meChange":61.2},
+            {"country":"China","pop2025":1358440000,"pop2017":1380000000,"popChange":-1.6,"gdp2017":11940000,"gdp2025":16967051,"gdpChange":42.1,"me2017":226000,"me2025":309528,"meChange":37},
+            {"country":"Colombia","pop2025":49240520,"pop2017":47700000,"popChange":3.2,"gdp2017":307500,"gdp2025":564868,"gdpChange":83.7,"me2017":10400,"me2025":18146,"meChange":74.5},
+            {"country":"Croatia","pop2025":3754250,"pop2017":4290000,"popChange":-12.5,"gdp2017":53480,"gdp2025":49537,"gdpChange":-7.4,"me2017":679,"me2025":660,"meChange":-2.8},
+            {"country":"Cuba","pop2025":10871820,"pop2017":11150000,"popChange":-2.5,"gdp2017":81560,"gdp2025":107987,"gdpChange":32.4,"me2017":2510,"me2025":3153,"meChange":25.6},
+            {"country":"Cyprus","pop2025":791720,"pop2017":1220000,"popChange":-35.1,"gdp2017":21110,"gdp2025":11545,"gdpChange":-45.3,"me2017":375,"me2025":158,"meChange":-57.9},
+            {"country":"Czechia","pop2025":9873060,"pop2017":10670000,"popChange":-7.5,"gdp2017":209700,"gdp2025":211405,"gdpChange":0.8,"me2017":2050,"me2025":2060,"meChange":0.5},
+            {"country":"Denmark","pop2025":3771760,"pop2017":5600000,"popChange":-32.6,"gdp2017":324100,"gdp2025":141763,"gdpChange":-56.3,"me2017":3730,"me2025":1037,"meChange":-72.2},
+            {"country":"Ecuador","pop2025":15519180,"pop2017":16290000,"popChange":-4.7,"gdp2017":98580,"gdp2025":115141,"gdpChange":16.8,"me2017":1670,"me2025":2688,"meChange":61},
+            {"country":"Egypt","pop2025":105306900,"pop2017":97040000,"popChange":8.5,"gdp2017":332300,"gdp2025":775038,"gdpChange":133.2,"me2017":9960,"me2025":14679,"meChange":47.4},
+            {"country":"El Salvador","pop2025":5291860,"pop2017":6170000,"popChange":-14.2,"gdp2017":27410,"gdp2025":29505,"gdpChange":7.6,"me2017":238,"me2025":260,"meChange":9.2},
+            {"country":"Estonia","pop2025":932320,"pop2017":1250000,"popChange":-25.4,"gdp2017":25680,"gdp2025":21980,"gdpChange":-14.4,"me2017":558,"me2025":351,"meChange":-37.1},
+            {"country":"Ethiopia","pop2025":100710020,"pop2017":105350000,"popChange":-4.4,"gdp2017":79740,"gdp2025":167007,"gdpChange":109.4,"me2017":534,"me2025":1339,"meChange":150.7},
+            {"country":"Finland","pop2025":5268640,"pop2017":5520000,"popChange":-4.6,"gdp2017":251500,"gdp2025":273656,"gdpChange":8.8,"me2017":3340,"me2025":3614,"meChange":8.2},
+            {"country":"France","pop2025":39114580,"pop2017":67100000,"popChange":-41.7,"gdp2017":2570000,"gdp2025":1077685,"gdpChange":-58.1,"me2017":58080,"me2025":10761,"meChange":-81.5},
+            {"country":"Georgia","pop2025":4724560,"pop2017":4930000,"popChange":-4.2,"gdp2017":15230,"gdp2025":25697,"gdpChange":68.7,"me2017":339,"me2025":567,"meChange":67.3},
+            {"country":"Germany","pop2025":28134920,"pop2017":80590000,"popChange":-65.1,"gdp2017":3650000,"gdp2025":620544,"gdpChange":-83,"me2017":43430,"me2025":2896,"meChange":-93.3},
+            {"country":"Ghana","pop2025":27991840,"pop2017":27500000,"popChange":1.8,"gdp2017":45460,"gdp2025":70343,"gdpChange":54.7,"me2017":182,"me2025":263,"meChange":44.5},
+            {"country":"Greece","pop2025":8055960,"pop2017":10770000,"popChange":-25.2,"gdp2017":204300,"gdp2025":123907,"gdpChange":-39.4,"me2017":5220,"me2025":1977,"meChange":-62.1},
+            {"country":"Guatemala","pop2025":16963080,"pop2017":15460000,"popChange":9.7,"gdp2017":70810,"gdp2025":78726,"gdpChange":11.2,"me2017":276,"me2025":287,"meChange":4},
+            {"country":"Hungary","pop2025":9378040,"pop2017":9850000,"popChange":-4.8,"gdp2017":132000,"gdp2025":181098,"gdpChange":37.2,"me2017":1330,"me2025":1531,"meChange":15.1},
+            {"country":"Iceland","pop2025":195927,"pop2017":339747,"popChange":-42.3,"gdp2017":24850,"gdp2025":4169,"gdpChange":-83.2,"me2017":25,"me2025":1,"meChange":-96},
+            {"country":"India","pop2025":1341720000,"pop2017":1280000000,"popChange":4.8,"gdp2017":2440000,"gdp2025":5124297,"gdpChange":110,"me2017":59280,"me2025":110071,"meChange":85.7},
+            {"country":"Indonesia","pop2025":267136480,"pop2017":260580000,"popChange":2.5,"gdp2017":1011000,"gdp2025":1826198,"gdpChange":80.6,"me2017":8890,"me2025":14284,"meChange":60.7},
+            {"country":"Iran","pop2025":81976680,"pop2017":82020000,"popChange":-0.1,"gdp2017":427700,"gdp2025":822021,"gdpChange":92.2,"me2017":11490,"me2025":18629,"meChange":62.1},
+            {"country":"Iraq","pop2025":33754520,"pop2017":31860000,"popChange":5.9,"gdp2017":221800,"gdp2025":359975,"gdpChange":62.3,"me2017":6360,"me2025":21651,"meChange":240.4},
+            {"country":"Ireland","pop2025":1318740,"pop2017":4770000,"popChange":-72.4,"gdp2017":220900,"gdp2025":24440,"gdpChange":-88.9,"me2017":1210,"me2025":28,"meChange":-97.7},
+            {"country":"Israel","pop2025":3982480,"pop2017":7710000,"popChange":-48.3,"gdp2017":272700,"gdp2025":70478,"gdpChange":-74.2,"me2017":15530,"me2025":1659,"meChange":-89.3},
+            {"country":"Italy","pop2025":43760260,"pop2017":61480000,"popChange":-28.8,"gdp2017":2070000,"gdp2025":1310580,"gdpChange":-36.7,"me2017":35000,"me2025":12942,"meChange":-63},
+            {"country":"Jamaica","pop2025":2763480,"pop2017":2910000,"popChange":-5,"gdp2017":14390,"gdp2025":15756,"gdpChange":9.5,"me2017":123,"me2025":111,"meChange":-9.8},
+            {"country":"Japan","pop2025":103047280,"pop2017":127250000,"popChange":-19,"gdp2017":5000000,"gdp2025":3050260,"gdpChange":-39,"me2017":49000,"me2025":17808,"meChange":-63.7},
+            {"country":"Jordan","pop2025":6888740,"pop2017":6480000,"popChange":6.3,"gdp2017":34080,"gdp2025":44093,"gdpChange":29.4,"me2017":1580,"me2025":1625,"meChange":2.8},
+            {"country":"Kazakhstan","pop2025":18141480,"pop2017":17740000,"popChange":2.3,"gdp2017":224900,"gdp2025":221014,"gdpChange":-1.7,"me2017":2720,"me2025":1886,"meChange":-30.7},
+            {"country":"Kenya","pop2025":50320160,"pop2017":44040000,"popChange":14.3,"gdp2017":45310,"gdp2025":126631,"gdpChange":179.5,"me2017":887,"me2025":2142,"meChange":141.5},
+            {"country":"Kuwait","pop2025":2401080,"pop2017":2690000,"popChange":-10.7,"gdp2017":179500,"gdp2025":100830,"gdpChange":-43.8,"me2017":9270,"me2025":2922,"meChange":-68.5},
+            {"country":"Kyrgyzstan","pop2025":5753600,"pop2017":5550000,"popChange":3.7,"gdp2017":7230,"gdp2025":9888,"gdpChange":36.8,"me2017":31,"me2025":102,"meChange":229},
+            {"country":"Latvia","pop2025":1755520,"pop2017":2180000,"popChange":-19.5,"gdp2017":30380,"gdp2025":32876,"gdpChange":8.2,"me2017":280,"me2025":367,"meChange":31.1},
+            {"country":"Lebanon","pop2025":6585900,"pop2017":4130000,"popChange":59.5,"gdp2017":43490,"gdp2025":84518,"gdpChange":94.3,"me2017":1750,"me2025":3286,"meChange":87.8},
+            {"country":"Libya","pop2025":3253820,"pop2017":6000000,"popChange":-45.8,"gdp2017":70920,"gdp2025":17328,"gdpChange":-75.6,"me2017":0,"me2025":0,"meChange":0},
+            {"country":"Lithuania","pop2025":2709640,"pop2017":3510000,"popChange":-22.8,"gdp2017":46710,"gdp2025":51542,"gdpChange":10.3,"me2017":453,"me2025":618,"meChange":36.4},
+            {"country":"Luxembourg","pop2025":199020,"pop2017":514862,"popChange":-61.3,"gdp2017":60540,"gdp2025":5792,"gdpChange":-90.4,"me2017":363,"me2025":8,"meChange":-97.8},
+            {"country":"Malaysia","pop2025":33358220,"pop2017":29630000,"popChange":12.6,"gdp2017":312400,"gdp2025":722005,"gdpChange":131.1,"me2017":4840,"me2025":10899,"meChange":125.2},
+            {"country":"Mali","pop2025":16208120,"pop2017":15970000,"popChange":1.5,"gdp2017":11370,"gdp2025":28047,"gdpChange":146.7,"me2017":164,"me2025":539,"meChange":228.7},
+            {"country":"Mexico","pop2025":124717740,"pop2017":118820000,"popChange":5,"gdp2017":1330000,"gdp2025":1315800,"gdpChange":-1.1,"me2017":7850,"me2025":6123,"meChange":-22},
+            {"country":"Moldova","pop2025":2750860,"pop2017":3620000,"popChange":-24,"gdp2017":7880,"gdp2025":7686,"gdpChange":-2.5,"me2017":23,"me2025":21,"meChange":-8.7},
+            {"country":"Mongolia","pop2025":3118360,"pop2017":2910000,"popChange":7.2,"gdp2017":11140,"gdp2025":21331,"gdpChange":91.5,"me2017":124,"me2025":187,"meChange":50.8},
+            {"country":"Morocco","pop2025":33767920,"pop2017":32650000,"popChange":3.4,"gdp2017":104800,"gdp2025":209263,"gdpChange":99.7,"me2017":3730,"me2025":7114,"meChange":90.8},
+            {"country":"Myanmar","pop2025":58638300,"pop2017":55120000,"popChange":6.4,"gdp2017":66970,"gdp2025":194931,"gdpChange":191.1,"me2017":2730,"me2025":4951,"meChange":81.4},
+            {"country":"Nepal","pop2025":33825620,"pop2017":30430000,"popChange":11.2,"gdp2017":19340,"gdp2025":57324,"gdpChange":196.4,"me2017":272,"me2025":781,"meChange":187.1},
+            {"country":"Netherlands","pop2025":16809740,"pop2017":16800000,"popChange":0.1,"gdp2017":800500,"gdp2025":858167,"gdpChange":7.2,"me2017":10160,"me2025":9670,"meChange":-4.8},
+            {"country":"New Zealand","pop2025":3290300,"pop2017":4360000,"popChange":-24.5,"gdp2017":181100,"gdp2025":72605,"gdpChange":-59.9,"me2017":2040,"me2025":343,"meChange":-83.2},
+            {"country":"Nigeria","pop2025":187254300,"pop2017":174510000,"popChange":7.3,"gdp2017":292000,"gdp2025":708608,"gdpChange":142.7,"me2017":2600,"me2025":4970,"meChange":91.2},
+            {"country":"Norway","pop2025":3833960,"pop2017":5080000,"popChange":-24.5,"gdp2017":515800,"gdp2025":173609,"gdpChange":-66.3,"me2017":7220,"me2025":1457,"meChange":-79.8},
+            {"country":"Pakistan","pop2025":218871280,"pop2017":193240000,"popChange":13.3,"gdp2017":236500,"gdp2025":825648,"gdpChange":249.1,"me2017":7170,"me2025":26016,"meChange":262.8},
+            {"country":"Peru","pop2025":31899960,"pop2017":29850000,"popChange":6.9,"gdp2017":210300,"gdp2025":270215,"gdpChange":28.5,"me2017":2690,"me2025":3032,"meChange":12.7},
+            {"country":"Philippines","pop2025":117031940,"pop2017":105720000,"popChange":10.7,"gdp2017":272200,"gdp2025":672337,"gdpChange":147,"me2017":3240,"me2025":8302,"meChange":156.4},
+            {"country":"Poland","pop2025":33230780,"pop2017":38380000,"popChange":-13.4,"gdp2017":513900,"gdp2025":419545,"gdpChange":-18.4,"me2017":9800,"me2025":6056,"meChange":-38.2},
+            {"country":"Portugal","pop2025":8113860,"pop2017":10790000,"popChange":-24.8,"gdp2017":219300,"gdp2025":175602,"gdpChange":-19.9,"me2017":3900,"me2025":2188,"meChange":-43.9},
+            {"country":"Puerto Rico","pop2025":1165780,"pop2017":3640000,"popChange":-68,"gdp2017":93520,"gdp2025":20977,"gdpChange":-77.6,"me2017":0,"me2025":0,"meChange":0},
+            {"country":"Qatar","pop2025":1764240,"pop2017":2040000,"popChange":-13.5,"gdp2017":213100,"gdp2025":98028,"gdpChange":-54,"me2017":18000,"me2025":3360,"meChange":-81.3},
+            {"country":"Romania","pop2025":21014080,"pop2017":21790000,"popChange":-3.6,"gdp2017":183800,"gdp2025":338930,"gdpChange":84.4,"me2017":2370,"me2025":4384,"meChange":85},
+            {"country":"Russia","pop2025":141830780,"pop2017":142500000,"popChange":-0.5,"gdp2017":2110000,"gdp2025":4324406,"gdpChange":104.9,"me2017":93870,"me2025":186146,"meChange":98.3},
+            {"country":"Saudi Arabia","pop2025":25297620,"pop2017":26940000,"popChange":-6.1,"gdp2017":718500,"gdp2025":564418,"gdpChange":-21.4,"me2017":57300,"me2025":36891,"meChange":-35.6},
+            {"country":"Serbia","pop2025":5966200,"pop2017":7240000,"popChange":-17.6,"gdp2017":43680,"gdp2025":44758,"gdpChange":2.5,"me2017":965,"me2025":583,"meChange":-39.6},
+            {"country":"Singapore","pop2025":4958900,"pop2017":5460000,"popChange":-9.2,"gdp2017":287400,"gdp2025":191769,"gdpChange":-33.3,"me2017":10100,"me2025":4164,"meChange":-58.8},
+            {"country":"Slovakia","pop2025":5078180,"pop2017":5490000,"popChange":-7.5,"gdp2017":96960,"gdp2025":103332,"gdpChange":6.6,"me2017":1080,"me2025":1083,"meChange":0.3},
+            {"country":"Slovenia","pop2025":1723800,"pop2017":1990000,"popChange":-13.4,"gdp2017":46820,"gdp2025":43325,"gdpChange":-7.5,"me2017":552,"me2025":386,"meChange":-30.1},
+            {"country":"South Africa","pop2025":45945100,"pop2017":48600000,"popChange":-5.5,"gdp2017":353900,"gdp2025":325718,"gdpChange":-8,"me2017":4100,"me2025":2344,"meChange":-42.8},
+            {"country":"South Korea","pop2025":37092820,"pop2017":48950000,"popChange":-24.2,"gdp2017":1200000,"gdp2025":892900,"gdpChange":-25.6,"me2017":33600,"me2025":13722,"meChange":-59.2},
+            {"country":"Spain","pop2025":27763280,"pop2017":47370000,"popChange":-41.4,"gdp2017":1350000,"gdp2025":553380,"gdpChange":-59,"me2017":11600,"me2025":2111,"meChange":-81.8},
+            {"country":"Sri Lanka","pop2025":22791540,"pop2017":21670000,"popChange":5.2,"gdp2017":65120,"gdp2025":168746,"gdpChange":159.1,"me2017":1580,"me2025":3683,"meChange":133.1},
+            {"country":"Sudan","pop2025":40691900,"pop2017":34850000,"popChange":16.8,"gdp2017":52500,"gdp2025":147803,"gdpChange":181.5,"me2017":1550,"me2025":2811,"meChange":81.4},
+            {"country":"Sweden","pop2025":7191400,"pop2017":9650000,"popChange":-25.5,"gdp2017":552000,"gdp2025":236863,"gdpChange":-57.1,"me2017":6510,"me2025":1379,"meChange":-78.8},
+            {"country":"Switzerland","pop2025":5342540,"pop2017":7990000,"popChange":-33.1,"gdp2017":646200,"gdp2025":217367,"gdpChange":-66.4,"me2017":4910,"me2025":748,"meChange":-84.8},
+            {"country":"Syria","pop2025":16201040,"pop2017":22460000,"popChange":-27.9,"gdp2017":64700,"gdp2025":51799,"gdpChange":-19.9,"me2017":3820,"me2025":4445,"meChange":16.4},
+            {"country":"Taiwan","pop2025":18538200,"pop2017":23300000,"popChange":-20.4,"gdp2017":484700,"gdp2025":453433,"gdpChange":-6.5,"me2017":10250,"me2025":7266,"meChange":-29.1},
+            {"country":"Tanzania","pop2025":42526920,"pop2017":48260000,"popChange":-11.9,"gdp2017":31940,"gdp2025":77726,"gdpChange":143.4,"me2017":360,"me2025":828,"meChange":130},
+            {"country":"Thailand","pop2025":64978140,"pop2017":67500000,"popChange":-3.7,"gdp2017":400900,"gdp2025":788386,"gdpChange":96.7,"me2017":5880,"me2025":11273,"meChange":91.7},
+            {"country":"Turkey","pop2025":71556440,"pop2017":80690000,"popChange":-11.3,"gdp2017":821800,"gdp2025":781172,"gdpChange":-4.9,"me2017":18990,"me2025":9826,"meChange":-48.3},
+            {"country":"Uganda","pop2025":36458240,"pop2017":34760000,"popChange":4.9,"gdp2017":22600,"gdp2025":47902,"gdpChange":112,"me2017":327,"me2025":692,"meChange":111.6},
+            {"country":"Ukraine","pop2025":31628980,"pop2017":44570000,"popChange":-29,"gdp2017":175500,"gdp2025":114864,"gdpChange":-34.6,"me2017":4850,"me2025":2412,"meChange":-50.3},
+            {"country":"United Arab Emirates","pop2025":4664700,"pop2017":5470000,"popChange":-14.7,"gdp2017":390000,"gdp2025":186478,"gdpChange":-52.2,"me2017":21000,"me2025":4751,"meChange":-77.4},
+            {"country":"United Kingdom","pop2025":14517860,"pop2017":63390000,"popChange":-77.1,"gdp2017":2490000,"gdp2025":197472,"gdpChange":-92.1,"me2017":62000,"me2025":1396,"meChange":-97.7},
+            {"country":"United States","pop2025":99553100,"pop2017":316440000,"popChange":-68.5,"gdp2017":16720000,"gdp2025":2445124,"gdpChange":-85.4,"me2017":726000,"me2025":32061,"meChange":-95.6},
+            {"country":"Uruguay","pop2025":2818460,"pop2017":3320000,"popChange":-15.1,"gdp2017":57110,"gdp2025":45494,"gdpChange":-20.3,"me2017":1110,"me2025":453,"meChange":-59.2},
+            {"country":"Uzbekistan","pop2025":30541480,"pop2017":28660000,"popChange":6.6,"gdp2017":55180,"gdp2025":115212,"gdpChange":108.8,"me2017":1800,"me2025":3217,"meChange":78.7},
+            {"country":"Venezuela","pop2025":29243520,"pop2017":28460000,"popChange":2.8,"gdp2017":367500,"gdp2025":276737,"gdpChange":-24.7,"me2017":3850,"me2025":1701,"meChange":-55.8},
+            {"country":"Vietnam","pop2025":99030160,"pop2017":92470000,"popChange":7.1,"gdp2017":170000,"gdp2025":468749,"gdpChange":175.7,"me2017":4030,"me2025":11163,"meChange":177},
+            {"country":"Yemen","pop2025":27486640,"pop2017":25340000,"popChange":8.5,"gdp2017":43890,"gdp2025":44632,"gdpChange":1.7,"me2017":1760,"me2025":1344,"meChange":-23.6},
+            {"country":"Zambia","pop2025":15322840,"pop2017":14220000,"popChange":7.8,"gdp2017":22240,"gdp2025":30955,"gdpChange":39.2,"me2017":344,"me2025":403,"meChange":17.2},
+            {"country":"Zimbabwe","pop2025":14638960,"pop2017":13180000,"popChange":11.1,"gdp2017":10480,"gdp2025":15289,"gdpChange":45.9,"me2017":308,"me2025":323,"meChange":4.9}
+        ];
+
+        const coastalData = {
+            "United States": { exposure: 95, type: "high", cities: ["New York", "Los Angeles", "Miami", "San Francisco", "Boston", "Seattle", "Houston"] },
+            "United Kingdom": { exposure: 100, type: "island", cities: ["London", "Liverpool", "Glasgow", "Southampton", "Bristol"] },
+            "Japan": { exposure: 100, type: "island", cities: ["Tokyo", "Osaka", "Yokohama", "Fukushima", "Nagoya"] },
+            "Australia": { exposure: 90, type: "high", cities: ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide"] },
+            "Indonesia": { exposure: 100, type: "archipelago", cities: ["Jakarta", "Surabaya", "Medan", "Bandung", "Semarang"] },
+            "Philippines": { exposure: 100, type: "archipelago", cities: ["Manila", "Cebu", "Davao", "Quezon City"] },
+            "China": { exposure: 70, type: "high", cities: ["Shanghai", "Hong Kong", "Guangzhou", "Shenzhen", "Tianjin"] },
+            "India": { exposure: 60, type: "moderate", cities: ["Mumbai", "Chennai", "Kolkata", "Hyderabad", "Kochi"] },
+            "Canada": { exposure: 85, type: "high", cities: ["Vancouver", "Toronto", "Montreal", "Halifax"] },
+            "Italy": { exposure: 80, type: "peninsula", cities: ["Rome", "Naples", "Venice", "Genoa", "Palermo"] },
+            "Spain": { exposure: 75, type: "peninsula", cities: ["Barcelona", "Valencia", "Malaga", "Bilbao", "Seville"] },
+            "France": { exposure: 60, type: "moderate", cities: ["Marseille", "Nice", "Bordeaux", "Le Havre"] },
+            "Germany": { exposure: 40, type: "moderate", cities: ["Hamburg", "Bremen", "Rostock"] },
+            "Netherlands": { exposure: 100, type: "high", cities: ["Amsterdam", "Rotterdam", "The Hague"] },
+            "Belgium": { exposure: 50, type: "moderate", cities: ["Antwerp", "Bruges", "Ostend"] },
+            "Greece": { exposure: 100, type: "peninsula", cities: ["Athens", "Thessaloniki", "Patras"] },
+            "Turkey": { exposure: 70, type: "peninsula", cities: ["Istanbul", "Izmir", "Antalya"] },
+            "Norway": { exposure: 100, type: "high", cities: ["Oslo", "Bergen", "Stavanger", "Trondheim"] },
+            "Sweden": { exposure: 80, type: "high", cities: ["Stockholm", "Gothenburg", "Malmö"] },
+            "Denmark": { exposure: 100, type: "peninsula", cities: ["Copenhagen", "Aarhus", "Odense"] },
+            "Finland": { exposure: 70, type: "high", cities: ["Helsinki", "Turku", "Oulu"] },
+            "Poland": { exposure: 30, type: "low", cities: ["Gdansk", "Szczecin"] },
+            "Portugal": { exposure: 85, type: "high", cities: ["Lisbon", "Porto", "Faro"] },
+            "Ireland": { exposure: 100, type: "island", cities: ["Dublin", "Cork", "Galway", "Limerick"] },
+            "Iceland": { exposure: 100, type: "island", cities: ["Reykjavik"] },
+            "New Zealand": { exposure: 100, type: "island", cities: ["Auckland", "Wellington", "Christchurch"] },
+            "South Korea": { exposure: 90, type: "peninsula", cities: ["Seoul", "Busan", "Incheon"] },
+            "Taiwan": { exposure: 100, type: "island", cities: ["Taipei", "Kaohsiung", "Taichung"] },
+            "Singapore": { exposure: 100, type: "island", cities: ["Singapore"] },
+            "Malaysia": { exposure: 80, type: "high", cities: ["Kuala Lumpur", "Penang", "Johor Bahru"] },
+            "Thailand": { exposure: 75, type: "high", cities: ["Bangkok", "Phuket", "Pattaya"] },
+            "Vietnam": { exposure: 80, type: "high", cities: ["Ho Chi Minh City", "Hanoi", "Da Nang"] },
+            "Bangladesh": { exposure: 85, type: "high", cities: ["Dhaka", "Chittagong", "Cox's Bazar"] },
+            "Pakistan": { exposure: 40, type: "moderate", cities: ["Karachi"] },
+            "Iran": { exposure: 35, type: "moderate", cities: ["Tehran", "Bandar Abbas"] },
+            "Saudi Arabia": { exposure: 55, type: "moderate", cities: ["Jeddah", "Dammam"] },
+            "United Arab Emirates": { exposure: 100, type: "high", cities: ["Dubai", "Abu Dhabi", "Sharjah"] },
+            "Israel": { exposure: 70, type: "moderate", cities: ["Tel Aviv", "Haifa"] },
+            "Egypt": { exposure: 50, type: "moderate", cities: ["Alexandria", "Port Said", "Cairo"] },
+            "South Africa": { exposure: 60, type: "moderate", cities: ["Cape Town", "Durban", "Port Elizabeth"] },
+            "Nigeria": { exposure: 45, type: "moderate", cities: ["Lagos", "Port Harcourt"] },
+            "Kenya": { exposure: 30, type: "low", cities: ["Mombasa"] },
+            "Brazil": { exposure: 65, type: "moderate", cities: ["Rio de Janeiro", "São Paulo", "Salvador", "Recife"] },
+            "Argentina": { exposure: 50, type: "moderate", cities: ["Buenos Aires", "Mar del Plata"] },
+            "Chile": { exposure: 90, type: "high", cities: ["Santiago", "Valparaíso", "Concepción"] },
+            "Peru": { exposure: 60, type: "moderate", cities: ["Lima", "Callao"] },
+            "Mexico": { exposure: 70, type: "high", cities: ["Cancún", "Veracruz", "Acapulco", "Tijuana"] },
+            "Cuba": { exposure: 100, type: "island", cities: ["Havana", "Santiago de Cuba"] },
+            "Puerto Rico": { exposure: 100, type: "island", cities: ["San Juan", "Ponce"] },
+            "Jamaica": { exposure: 100, type: "island", cities: ["Kingston", "Montego Bay"] },
+            "Colombia": { exposure: 50, type: "moderate", cities: ["Cartagena", "Barranquilla"] },
+            "Venezuela": { exposure: 50, type: "moderate", cities: ["Caracas", "Maracaibo"] },
+            "Ecuador": { exposure: 60, type: "moderate", cities: ["Guayaquil", "Quito"] },
+            "Russia": { exposure: 50, type: "moderate", cities: ["St. Petersburg", "Vladivostok", "Murmansk"] },
+            "Ukraine": { exposure: 35, type: "low", cities: ["Odessa"] },
+            "Romania": { exposure: 25, type: "low", cities: ["Constanța"] },
+            "Bulgaria": { exposure: 30, type: "low", cities: ["Varna", "Burgas"] },
+            "Croatia": { exposure: 90, type: "high", cities: ["Split", "Dubrovnik", "Rijeka"] },
+            "Albania": { exposure: 70, type: "high", cities: ["Durrës", "Vlorë"] },
+            "Morocco": { exposure: 60, type: "moderate", cities: ["Casablanca", "Tangier"] },
+            "Algeria": { exposure: 45, type: "moderate", cities: ["Algiers", "Oran"] },
+            "Tunisia": { exposure: 70, type: "high", cities: ["Tunis", "Sfax"] },
+            "Libya": { exposure: 90, type: "high", cities: ["Tripoli", "Benghazi"] },
+            "Sri Lanka": { exposure: 100, type: "island", cities: ["Colombo", "Galle"] },
+            "Myanmar": { exposure: 55, type: "moderate", cities: ["Yangon"] },
+            "Cambodia": { exposure: 40, type: "low", cities: ["Phnom Penh", "Sihanoukville"] },
+            "Austria": { exposure: 0, type: "landlocked", cities: [] },
+            "Switzerland": { exposure: 0, type: "landlocked", cities: [] },
+            "Czechia": { exposure: 0, type: "landlocked", cities: [] },
+            "Slovakia": { exposure: 0, type: "landlocked", cities: [] },
+            "Hungary": { exposure: 0, type: "landlocked", cities: [] },
+            "Serbia": { exposure: 0, type: "landlocked", cities: [] },
+            "Belarus": { exposure: 0, type: "landlocked", cities: [] },
+            "Afghanistan": { exposure: 0, type: "landlocked", cities: [] },
+            "Nepal": { exposure: 0, type: "landlocked", cities: [] },
+            "Mongolia": { exposure: 0, type: "landlocked", cities: [] },
+            "Kazakhstan": { exposure: 15, type: "low", cities: [] },
+            "Uzbekistan": { exposure: 0, type: "landlocked", cities: [] },
+            "Ethiopia": { exposure: 0, type: "landlocked", cities: [] },
+            "Uganda": { exposure: 0, type: "landlocked", cities: [] },
+            "Zambia": { exposure: 0, type: "landlocked", cities: [] },
+            "Zimbabwe": { exposure: 0, type: "landlocked", cities: [] },
+            "Mali": { exposure: 0, type: "landlocked", cities: [] },
+            "Niger": { exposure: 0, type: "landlocked", cities: [] },
+            "Chad": { exposure: 0, type: "landlocked", cities: [] }
+        };
+
+        const data = rawData.map(d => ({
+            ...d,
+            vaccine: vaccineData[d.country] || null,
+            coastal: coastalData[d.country] || { exposure: 0, type: "unknown", cities: [] }
+        }));
+
+        let currentMetric = 'population';
+        let scatterChart = null;
+        let coastalChart = null;
+
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            
+            const clickedTab = event ? event.target : document.querySelector('.tab');
+            clickedTab.classList.add('active');
+            const viewElement = document.getElementById(tab + 'View');
+            if (viewElement) {
+                viewElement.classList.add('active');
+            }
+            
+            if (tab === 'correlation') {
+                renderCorrelation();
+            } else if (tab === 'coastal') {
+                renderCoastalAnalysis();
+            } else if (tab === 'table') {
+                renderTable();
+            }
+        }
+
+        function getColor(value, metric) {
+            if (metric === 'vaccine') {
+                if (value < 20) return '#7f1d1d';
+                if (value < 40) return '#dc2626';
+                if (value < 60) return '#f87171';
+                if (value < 80) return '#fbbf24';
+                if (value < 90) return '#86efac';
+                return '#22c55e';
+            } else {
+                if (value < -50) return '#7f1d1d';
+                if (value < -30) return '#dc2626';
+                if (value < -10) return '#f87171';
+                if (value < 10) return '#fbbf24';
+                if (value < 30) return '#86efac';
+                return '#22c55e';
+            }
+        }
+        
+        function formatNumber(num) {
+            return new Intl.NumberFormat().format(num);
+        }
+        
+        function renderMap() {
+            const mapContainer = document.getElementById('worldMap');
+            mapContainer.innerHTML = '';
+            
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            
+            let filteredData = data;
+            if (searchTerm) {
+                filteredData = data.filter(d => d.country.toLowerCase().includes(searchTerm));
+            }
+            
+            filteredData.sort((a, b) => {
+                const metricKey = currentMetric === 'population' ? 'popChange' : 
+                                  currentMetric === 'gdp' ? 'gdpChange' : 
+                                  currentMetric === 'vaccine' ? 'vaccine' : 'meChange';
+                const aVal = a[metricKey] !== null ? a[metricKey] : -999;
+                const bVal = b[metricKey] !== null ? b[metricKey] : -999;
+                return aVal - bVal;
+            });
+            
+            let withVaccineData = 0;
+            filteredData.forEach(country => {
+                const box = document.createElement('div');
+                box.className = 'country-box';
+                
+                let value, displayText;
+                if (currentMetric === 'population') {
+                    value = country.popChange;
+                    displayText = `${country.country} (${value > 0 ? '+' : ''}${value.toFixed(1)}%)`;
+                } else if (currentMetric === 'vaccine') {
+                    value = country.vaccine;
+                    if (value !== null) {
+                        displayText = `${country.country} (${value}%)`;
+                        withVaccineData++;
+                    } else {
+                        displayText = `${country.country} (N/A)`;
+                        value = -50;
+                    }
+                } else if (currentMetric === 'gdp') {
+                    value = country.gdpChange;
+                    displayText = `${country.country} (${value > 0 ? '+' : ''}${value.toFixed(1)}%)`;
+                } else {
+                    value = country.meChange;
+                    displayText = `${country.country} (${value > 0 ? '+' : ''}${value.toFixed(1)}%)`;
+                }
+                
+                box.style.backgroundColor = getColor(value, currentMetric);
+                box.style.color = (value < -30 && currentMetric !== 'vaccine') || value > 30 || (currentMetric === 'vaccine' && (value < 20 || value > 90)) ? '#fff' : '#000';
+                box.textContent = displayText;
+                
+                box.addEventListener('mouseenter', (e) => showTooltip(e, country));
+                box.addEventListener('mousemove', (e) => moveTooltip(e));
+                box.addEventListener('mouseleave', hideTooltip);
+                
+                mapContainer.appendChild(box);
+            });
+            
+            if (currentMetric === 'vaccine') {
+                document.getElementById('countriesCount').textContent = withVaccineData;
+            } else {
+                document.getElementById('countriesCount').textContent = filteredData.length;
+            }
+        }
+        
+        function showTooltip(e, country) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'block';
+            
+            const vaccineInfo = country.vaccine !== null ? 
+                `<span class="data-value">${country.vaccine}%</span>` : 
+                `<span class="data-value" style="opacity:0.5">No data</span>`;
+            
+            tooltip.innerHTML = `
+                <div class="tooltip-title">${country.country}</div>
+                <div class="tooltip-data">
+                    <div class="data-row">
+                        <span class="data-label">💉 Vaccine Rate:</span>
+                        ${vaccineInfo}
+                    </div>
+                    <hr style="margin: 10px 0; opacity: 0.3;">
+                    <div class="data-row">
+                        <span class="data-label">Population 2017:</span>
+                        <span class="data-value">${formatNumber(country.pop2017)}</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">Population 2025:</span>
+                        <span class="data-value">${formatNumber(country.pop2025)}</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">Pop Change:</span>
+                        <span class="data-value ${country.popChange >= 0 ? 'positive' : 'negative'}">
+                            ${country.popChange > 0 ? '+' : ''}${country.popChange.toFixed(1)}%
+                        </span>
+                    </div>
+                    <hr style="margin: 10px 0; opacity: 0.3;">
+                    <div class="data-row">
+                        <span class="data-label">GDP Change:</span>
+                        <span class="data-value ${country.gdpChange >= 0 ? 'positive' : 'negative'}">
+                            ${country.gdpChange > 0 ? '+' : ''}${country.gdpChange.toFixed(1)}%
+                        </span>
+                    </div>
+                </div>
+            `;
+            
+            moveTooltip(e);
+        }
+        
+        function moveTooltip(e) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.left = (e.clientX + 15) + 'px';
+            tooltip.style.top = (e.clientY + 15) + 'px';
+        }
+        
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+
+        function calculateCorrelation() {
+            const validData = data.filter(d => d.vaccine !== null);
+            const n = validData.length;
+            
+            if (n === 0) return { r: 0, count: 0 };
+            
+            let sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0, sumY2 = 0;
+            
+            validData.forEach(d => {
+                sumX += d.vaccine;
+                sumY += d.popChange;
+                sumXY += d.vaccine * d.popChange;
+                sumX2 += d.vaccine * d.vaccine;
+                sumY2 += d.popChange * d.popChange;
+            });
+            
+            const numerator = n * sumXY - sumX * sumY;
+            const denominator = Math.sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY));
+            
+            return {
+                r: numerator / denominator,
+                count: n
+            };
+        }
+
+        function renderCorrelation() {
+            const validData = data.filter(d => d.vaccine !== null);
+            const correlation = calculateCorrelation();
+            
+            document.getElementById('correlationValue').textContent = correlation.r.toFixed(3);
+            document.getElementById('correlationCount').textContent = correlation.count;
+            
+            let interpretation = '';
+            const absR = Math.abs(correlation.r);
+            if (absR > 0.7) {
+                interpretation = '🔴 <strong>Strong negative correlation</strong>: Higher vaccination rates are strongly associated with larger population declines in this dataset.';
+            } else if (absR > 0.4) {
+                interpretation = '🟠 <strong>Moderate negative correlation</strong>: There is a moderate association between higher vaccination rates and population decline.';
+            } else if (absR > 0.2) {
+                interpretation = '🟡 <strong>Weak negative correlation</strong>: A weak association exists between vaccination rates and population decline.';
+            } else {
+                interpretation = '🟢 <strong>Very weak or no correlation</strong>: Little to no linear relationship between vaccination rates and population change.';
+            }
+            document.getElementById('interpretation').innerHTML = interpretation;
+            
+            const decliningPop = validData.filter(d => d.popChange < 0);
+            const growingPop = validData.filter(d => d.popChange >= 0);
+            
+            const avgVaxDeclining = decliningPop.reduce((sum, d) => sum + d.vaccine, 0) / decliningPop.length;
+            const avgVaxGrowing = growingPop.reduce((sum, d) => sum + d.vaccine, 0) / growingPop.length;
+            
+            document.getElementById('avgVaxDeclining').textContent = avgVaxDeclining.toFixed(1) + '%';
+            document.getElementById('avgVaxGrowing').textContent = avgVaxGrowing.toFixed(1) + '%';
+            
+            const highVaxBigDecline = validData.filter(d => d.vaccine >= 80 && d.popChange < -20).length;
+            document.getElementById('highVaxDecline').textContent = highVaxBigDecline;
+            
+            if (scatterChart) {
+                scatterChart.destroy();
+            }
+            
+            const ctx = document.getElementById('scatterChart').getContext('2d');
+            scatterChart = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Countries',
+                        data: validData.map(d => ({
+                            x: d.vaccine,
+                            y: d.popChange,
+                            country: d.country
+                        })),
+                        backgroundColor: validData.map(d => {
+                            if (d.popChange < -50) return 'rgba(127, 29, 29, 0.7)';
+                            if (d.popChange < -30) return 'rgba(220, 38, 38, 0.7)';
+                            if (d.popChange < -10) return 'rgba(248, 113, 113, 0.7)';
+                            if (d.popChange < 10) return 'rgba(251, 191, 36, 0.7)';
+                            return 'rgba(134, 239, 172, 0.7)';
+                        }),
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.raw.country + ': ' + 
+                                           context.raw.x + '% vaccinated, ' + 
+                                           context.raw.y.toFixed(1) + '% pop change';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Vaccination Rate (%)',
+                                font: { size: 14 }
+                            },
+                            min: 0,
+                            max: 100
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Population Change (%)',
+                                font: { size: 14 }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderCoastalAnalysis() {
+            const validData = data.filter(d => d.coastal.exposure !== undefined);
+            
+            let sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0, sumY2 = 0;
+            const n = validData.length;
+            
+            validData.forEach(d => {
+                sumX += d.coastal.exposure;
+                sumY += d.popChange;
+                sumXY += d.coastal.exposure * d.popChange;
+                sumX2 += d.coastal.exposure * d.coastal.exposure;
+                sumY2 += d.popChange * d.popChange;
+            });
+            
+            const numerator = n * sumXY - sumX * sumY;
+            const denominator = Math.sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY));
+            const correlation = numerator / denominator;
+            
+            document.getElementById('coastalCorrelationValue').textContent = correlation.toFixed(3);
+            
+            let interpretation = '';
+            const absR = Math.abs(correlation);
+            if (correlation < -0.5) {
+                interpretation = '🔴 <strong>Strong negative correlation</strong>: Higher coastal exposure is strongly associated with larger population declines. Island nations and heavily coastal countries show the most severe projections.';
+            } else if (correlation < -0.3) {
+                interpretation = '🟠 <strong>Moderate negative correlation</strong>: Countries with significant coastlines and coastal populations show notably higher decline projections.';
+            } else if (correlation < -0.1) {
+                interpretation = '🟡 <strong>Weak negative correlation</strong>: Some association exists between coastal exposure and population decline.';
+            } else {
+                interpretation = '🟢 <strong>Weak or no correlation</strong>: Coastal exposure alone does not strongly predict population change in this dataset.';
+            }
+            document.getElementById('coastalInterpretation').innerHTML = interpretation;
+            
+            const highCoastal = validData.filter(d => d.coastal.exposure >= 70);
+            const landlocked = validData.filter(d => d.coastal.exposure === 0);
+            const islands = validData.filter(d => d.coastal.type === "island" || d.coastal.type === "archipelago");
+            
+            document.getElementById('highCoastalCount').textContent = highCoastal.length;
+            
+            const avgCoastal = highCoastal.reduce((sum, d) => sum + d.popChange, 0) / highCoastal.length;
+            const avgLandlocked = landlocked.length > 0 ? landlocked.reduce((sum, d) => sum + d.popChange, 0) / landlocked.length : 0;
+            const avgIsland = islands.length > 0 ? islands.reduce((sum, d) => sum + d.popChange, 0) / islands.length : 0;
+            
+            document.getElementById('avgDeclineCoastal').textContent = avgCoastal.toFixed(1) + '%';
+            document.getElementById('avgDeclineLandlocked').textContent = avgLandlocked.toFixed(1) + '%';
+            document.getElementById('islandAvgDecline').textContent = avgIsland.toFixed(1) + '%';
+            
+            const vulnerable = validData
+                .filter(d => d.coastal.exposure >= 70 && d.popChange < -20)
+                .sort((a, b) => a.popChange - b.popChange)
+                .slice(0, 15);
+            
+            const vulnerableList = document.getElementById('vulnerableList');
+            vulnerableList.innerHTML = vulnerable.map(d => 
+                `<li><strong>${d.country}</strong>: ${d.popChange.toFixed(1)}% decline, ${d.coastal.exposure}% coastal exposure (${d.coastal.type})</li>`
+            ).join('');
+            
+            const citiesAtRisk = [];
+            vulnerable.forEach(d => {
+                if (d.coastal.cities && d.coastal.cities.length > 0) {
+                    d.coastal.cities.forEach(city => {
+                        citiesAtRisk.push({ country: d.country, city: city, decline: d.popChange });
+                    });
+                }
+            });
+            
+            const citiesList = document.getElementById('citiesList');
+            citiesList.innerHTML = citiesAtRisk.slice(0, 30).map(c => 
+                `<div style="padding: 8px; background: rgba(220, 38, 38, 0.1); border-radius: 5px;">
+                    <strong>${c.city}</strong>, ${c.country}<br>
+                    <span style="color: #dc2626; font-size: 0.9em;">${c.decline.toFixed(1)}% country decline</span>
+                </div>`
+            ).join('');
+            
+            if (coastalChart) {
+                coastalChart.destroy();
+            }
+            
+            const ctx = document.getElementById('coastalChart').getContext('2d');
+            coastalChart = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Countries',
+                        data: validData.map(d => ({
+                            x: d.coastal.exposure,
+                            y: d.popChange,
+                            country: d.country,
+                            type: d.coastal.type
+                        })),
+                        backgroundColor: validData.map(d => {
+                            if (d.coastal.type === "island" || d.coastal.type === "archipelago") return 'rgba(220, 38, 38, 0.8)';
+                            if (d.coastal.exposure >= 70) return 'rgba(248, 113, 113, 0.7)';
+                            if (d.coastal.exposure >= 40) return 'rgba(251, 191, 36, 0.7)';
+                            if (d.coastal.exposure > 0) return 'rgba(134, 239, 172, 0.7)';
+                            return 'rgba(148, 163, 184, 0.7)';
+                        }),
+                        pointRadius: validData.map(d => {
+                            if (d.coastal.type === "island" || d.coastal.type === "archipelago") return 8;
+                            return 6;
+                        }),
+                        pointHoverRadius: 10
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.raw.country + ': ' + 
+                                           context.raw.x + '% coastal exposure (' + context.raw.type + '), ' + 
+                                           context.raw.y.toFixed(1) + '% pop change';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Coastal Exposure (% of territory/population near coast)',
+                                font: { size: 14 }
+                            },
+                            min: 0,
+                            max: 100
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Population Change (%)',
+                                font: { size: 14 }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderTable() {
+            const tableBody = document.getElementById('tableBody');
+            const searchTerm = document.getElementById('tableSearch').value.toLowerCase();
+            
+            let filteredData = data.filter(d => 
+                d.country.toLowerCase().includes(searchTerm)
+            );
+            
+            tableBody.innerHTML = filteredData.map(d => `
+                <tr>
+                    <td>${d.country}</td>
+                    <td style="color: ${d.popChange < 0 ? '#dc2626' : '#22c55e'}">${d.popChange.toFixed(1)}%</td>
+                    <td>${d.vaccine !== null ? d.vaccine + '%' : 'N/A'}</td>
+                    <td>${formatNumber(d.pop2017)}</td>
+                    <td>${formatNumber(d.pop2025)}</td>
+                    <td style="color: ${d.gdpChange < 0 ? '#dc2626' : '#22c55e'}">${d.gdpChange.toFixed(1)}%</td>
+                </tr>
+            `).join('');
+        }
+
+        let sortDirection = {};
+        function sortTable(columnIndex) {
+            const table = document.getElementById('dataTable');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            
+            const dir = sortDirection[columnIndex] === 'asc' ? 'desc' : 'asc';
+            sortDirection[columnIndex] = dir;
+            
+            rows.sort((a, b) => {
+                let aVal = a.cells[columnIndex].textContent;
+                let bVal = b.cells[columnIndex].textContent;
+                
+                if (columnIndex > 0 && columnIndex !== 2) {
+                    aVal = parseFloat(aVal.replace(/[,%]/g, ''));
+                    bVal = parseFloat(bVal.replace(/[,%]/g, ''));
+                } else if (columnIndex === 2) {
+                    if (aVal === 'N/A') aVal = -1;
+                    else aVal = parseFloat(aVal);
+                    if (bVal === 'N/A') bVal = -1;
+                    else bVal = parseFloat(bVal);
+                }
+                
+                if (dir === 'asc') {
+                    return aVal > bVal ? 1 : -1;
+                } else {
+                    return aVal < bVal ? 1 : -1;
+                }
+            });
+            
+            rows.forEach(row => tbody.appendChild(row));
+        }
+        
+        document.getElementById('metricSelect').addEventListener('change', (e) => {
+            currentMetric = e.target.value;
+            renderMap();
+        });
+        
+        document.getElementById('searchBox').addEventListener('input', renderMap);
+        document.getElementById('tableSearch').addEventListener('input', renderTable);
+        
+        renderMap();
+    </script>
+</body>
+</html>

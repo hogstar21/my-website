@@ -8,15 +8,31 @@
         body {
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             font-family: Arial, sans-serif;
         }
 
+        nav {
+            background: #fff;
+            padding: 10px 16px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            gap: 16px;
+            font-family: system-ui, Segoe UI, Roboto, Arial;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0070f3;
+        }
+
         .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             padding: 20px;
         }
@@ -65,20 +81,6 @@
     </style>
 </head>
 <body>
- <!-- 🌐 Navigation Bar -->
-    <nav style="
-      background:#fff;
-      padding:10px 16px;
-      border-bottom:1px solid #ddd;
-      display:flex;
-      gap:16px;
-      font-family:system-ui,Segoe UI,Roboto,Arial;
-    ">
-      <a href="index.html" style="text-decoration:none;color:#0070f3;">Home</a>
-      <a href="local-posts-viewer.html" style="text-decoration:none;color:#0070f3;">Posts Viewer</a>
-	  <a href="Pics.html" style="text-decoration:none;color:#0070f3;">Pics</a>
-	  <a href="clock.html" style="text-decoration:none;color:#0070f3;">Clock</a>
-    </nav>
     <div class="container">
         <div class="clock-wrapper">
             <div class="marker"></div>

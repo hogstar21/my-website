@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year Calendar Clock</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .clock-wrapper {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        .calendar-clock {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.5s ease-out;
+            transform-origin: center center;
+        }
+
+        .info {
+            margin-top: 30px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .info h2 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        .info p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+
+        .marker {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 40px;
+            background: red;
+            box-shadow: 0 0 10px rgba(255,0,0,0.8);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="clock-wrapper">
+            <div class="marker"></div>
+            <img src="calendar-wheel.png" alt="Year Calendar" class="calendar-clock" id="calendarClock">
+        </div>
+        <div class="info">
+            <h2 id="currentDate"></h2>
+            <p id="dayOfYear"></p>
+            <p id="rotationAngle"></p>
+        </div>
+    </div>
+
+    <script>
+        function updateCalendarRotation() {
+            const now = new Date();
+            const startOfYear = new Date(now.getFullYear(), 0, 1);
+            const dayOfYear = Math.floor((now - startOfYear) / (1000 * 60 * 60 * 24)) + 1;
+            
+            // Check if leap year
+            const isLeapYear = (now.getFullYear() % 4 === 0 && now.getFullYear() % 100 !== 0) || (now.getFullYear() % 400 === 0);
+            const daysInYear = isLeapYear ? 366 : 365;
+            
+            // Calculate rotation angle
+            // Day 1 (Jan 1) should be at 0 degrees (12 o'clock)
+            // Each day represents 360/daysInYear degrees
+            const degreesPerDay = 360 / daysInYear;
+            const rotation = -(dayOfYear - 1) * degreesPerDay;
+            
+            // Apply rotation to the image
+            const clockImg = document.getElementById('calendarClock');
+            clockImg.style.transform = `rotate(${rotation}deg)`;
+            
+            // Update info display
+            document.getElementById('currentDate').textContent = now.toLocaleDateString('en-US', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+            document.getElementById('dayOfYear').textContent = `Day ${dayOfYear} of ${daysInYear}`;
+            document.getElementById('rotationAngle').textContent = `Rotation: ${rotation.toFixed(2)}°`;
+        }
+
+        // Update on load
+        updateCalendarRotation();
+        
+        // Update every hour to account for day changes
+        setInterval(updateCalendarRotation, 3600000);
+        
+        // Also update at midnight
+        function scheduleNextMidnight() {
+            const now = new Date();
+            const night = new Date(
+                now.getFullYear(),
+                now.getMonth(),
+                now.getDate() + 1,
+                0, 0, 0
+            );
+            const msToMidnight = night.getTime() - now.getTime();
+            
+            setTimeout(function() {
+                updateCalendarRotation();
+                scheduleNextMidnight();
+            }, msToMidnight);
+        }
+        
+        scheduleNextMidnight();
+    </script>
+</body>
+</html>

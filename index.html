@@ -288,6 +288,28 @@
     </style>
 </head>
 <body>
+	<div id="secret-hotspot"></div>
+
+<style>
+#secret-hotspot {
+  position: fixed;
+  top: 50px;   /* adjust these */
+  right: 50px; /* adjust these */
+  width: 80px; 
+  height: 80px;
+
+  background: rgba(255, 0, 0, 0.4); /* visible red box */
+  border: 2px solid red;            /* outline to help positioning */
+  cursor: pointer;
+}
+</style>
+
+<script>
+document.getElementById("secret-hotspot").onclick = function() {
+  window.location.href = "secret.html";  
+};
+</script>
+	
     <!-- 🌐 Navigation Bar -->
     <nav style="
       background:#fff;

@@ -5,31 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Year Calendar Clock</title>
     <style>
-        body {
+        * {
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        body {
             min-height: 100vh;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            background: #fff;
+            padding: 10px 16px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            gap: 16px;
+            font-family: system-ui, Segoe UI, Roboto, Arial;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0070f3;
         }
 
         .container {
-            text-align: center;
-            padding: 20px;
             flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 40px 20px;
         }
 
         .clock-wrapper {
             position: relative;
-            width: 1000px;
-            height: 1000px;
-            margin: 0 auto;
+            width: 800px;
+            height: 800px;
+            overflow: hidden;
         }
 
         .calendar-clock {
@@ -42,10 +59,23 @@
             transform-origin: center center;
         }
 
+        .marker {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 6px;
+            height: 80px;
+            background: red;
+            box-shadow: 0 0 10px rgba(255,0,0,0.8);
+            z-index: 10;
+        }
+
         .info {
-            margin-top: 30px;
+            margin-top: 40px;
             color: white;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-align: center;
         }
 
         .info h2 {
@@ -57,35 +87,16 @@
             font-size: 1.2em;
             margin: 5px 0;
         }
-
-        .marker {
-            position: absolute;
-            top: -50px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 6px;
-            height: 60px;
-            background: red;
-            box-shadow: 0 0 10px rgba(255,0,0,0.8);
-            z-index: 10;
-        }
     </style>
 </head>
 <body>
- <!-- 🌐 Navigation Bar -->
-    <nav style="
-      background:#fff;
-      padding:10px 16px;
-      border-bottom:1px solid #ddd;
-      display:flex;
-      gap:16px;
-      font-family:system-ui,Segoe UI,Roboto,Arial;
-    ">
-      <a href="index.html" style="text-decoration:none;color:#0070f3;">Home</a>
-      <a href="local-posts-viewer.html" style="text-decoration:none;color:#0070f3;">Posts Viewer</a>
-	  <a href="Pics.html" style="text-decoration:none;color:#0070f3;">Pics</a>
-	  <a href="clock.html" style="text-decoration:none;color:#0070f3;">Clock</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="local-posts-viewer.html">Posts Viewer</a>
+        <a href="Pics.html">Pics</a>
+        <a href="clock.html">Clock</a>
     </nav>
+    
     <div class="container">
         <div class="clock-wrapper">
             <div class="marker"></div>
@@ -109,8 +120,6 @@
             const daysInYear = isLeapYear ? 366 : 365;
             
             // Calculate rotation angle
-            // Day 1 (Jan 1) should be at 0 degrees (12 o'clock)
-            // Each day represents 360/daysInYear degrees
             const degreesPerDay = 360 / daysInYear;
             const rotation = -(dayOfYear - 1) * degreesPerDay;
             
@@ -132,10 +141,10 @@
         // Update on load
         updateCalendarRotation();
         
-        // Update every hour to account for day changes
+        // Update every hour
         setInterval(updateCalendarRotation, 3600000);
         
-        // Also update at midnight
+        // Update at midnight
         function scheduleNextMidnight() {
             const now = new Date();
             const night = new Date(

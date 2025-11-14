@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gematria Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .input-section {
+            margin-bottom: 30px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 20px;
+            font-size: 1.3em;
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 8px;
+            color: #888;
+            transition: all 0.3s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #666;
+            color: #fff;
+        }
+        
+        .results-box {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .cipher-result {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .cipher-label {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        .cipher-label.ordinal {
+            color: #00ff00;
+        }
+        
+        .cipher-label.reduction {
+            color: #4169ff;
+        }
+        
+        .cipher-label.reverse {
+            color: #00ff00;
+        }
+        
+        .cipher-label.reverse-reduction {
+            color: #00d4ff;
+        }
+        
+        .cipher-value {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        
+        .cipher-value.ordinal {
+            color: #00ff00;
+        }
+        
+        .cipher-value.reduction {
+            color: #4169ff;
+        }
+        
+        .cipher-value.reverse {
+            color: #00ff00;
+        }
+        
+        .cipher-value.reverse-reduction {
+            color: #00d4ff;
+        }
+        
+        .word-count {
+            text-align: center;
+            color: #fff;
+            font-size: 1.1em;
+        }
+        
+        .cipher-chart {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(13, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .chart-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .chart-letter {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #ff8c00;
+        }
+        
+        .chart-number {
+            font-size: 1.1em;
+            color: #ff8c00;
+        }
+        
+        .chart-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .chart-btn {
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 1.5em;
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+        
+        .chart-btn:hover {
+            color: #fff;
+        }
+        
+        .chart-label {
+            font-size: 1.2em;
+            color: #00ff00;
+            font-weight: bold;
+        }
+        
+        .history {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 12px;
+            padding: 30px;
+        }
+        
+        .history h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        .history-item {
+            background: #1a1a1a;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .history-item:hover {
+            background: #333;
+        }
+        
+        .history-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .history-text {
+            color: #fff;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .history-values {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+        
+        .history-cipher {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+        
+        .history-cipher-label {
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+        
+        .history-cipher-value {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .history-cipher.ordinal .history-cipher-label,
+        .history-cipher.ordinal .history-cipher-value {
+            color: #00ff00;
+        }
+        
+        .history-cipher.reduction .history-cipher-label,
+        .history-cipher.reduction .history-cipher-value {
+            color: #4169ff;
+        }
+        
+        .history-cipher.reverse .history-cipher-label,
+        .history-cipher.reverse .history-cipher-value {
+            color: #00ff00;
+        }
+        
+        .history-cipher.reverse-reduction .history-cipher-label,
+        .history-cipher.reverse-reduction .history-cipher-value {
+            color: #00d4ff;
+        }
+        
+        .clear-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .clear-btn:hover {
+            background: #c82333;
+        }
+        
+        .empty-state {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .results-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+            
+            .chart-grid {
+                grid-template-columns: repeat(7, 1fr);
+                gap: 10px;
+            }
+            
+            .chart-letter {
+                font-size: 1em;
+            }
+            
+            .chart-number {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <input type="text" id="textInput" placeholder="Enter Word, Phrase, or #(s):" autofocus>
+        </div>
+        
+        <div class="results-box">
+            <div class="results-grid">
+                <div class="cipher-result">
+                    <div class="cipher-label ordinal">Ordinal</div>
+                    <div class="cipher-value ordinal" id="ordinal">0</div>
+                </div>
+                <div class="cipher-result">
+                    <div class="cipher-label reduction">Reduction</div>
+                    <div class="cipher-value reduction" id="reduction">0</div>
+                </div>
+                <div class="cipher-result">
+                    <div class="cipher-label reverse">Reverse</div>
+                    <div class="cipher-value reverse" id="reverse">0</div>
+                </div>
+                <div class="cipher-result">
+                    <div class="cipher-label reverse-reduction">Reverse Reduction</div>
+                    <div class="cipher-value reverse-reduction" id="reverseReduction">0</div>
+                </div>
+            </div>
+            <div class="word-count" id="wordCount">(0 words, 0 letters)</div>
+        </div>
+        
+        <div class="cipher-chart">
+            <div class="chart-grid" id="chartGrid"></div>
+            <div class="chart-controls">
+                <button class="chart-btn" id="prevBtn">▲</button>
+                <span class="chart-label" id="chartLabel">Ordinal</span>
+                <button class="chart-btn" id="nextBtn">▼</button>
+            </div>
+        </div>
+        
+        <div class="history">
+            <h2>History</h2>
+            <div id="historyList"></div>
+        </div>
+    </div>
+
+    <script>
+        const charts = {
+            'Ordinal': Array.from({length: 26}, (_, i) => ({
+                letter: String.fromCharCode(97 + i),
+                value: i + 1
+            })),
+            'Reduction': Array.from({length: 26}, (_, i) => {
+                const val = i + 1;
+                return {
+                    letter: String.fromCharCode(97 + i),
+                    value: val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val
+                };
+            }),
+            'Reverse': Array.from({length: 26}, (_, i) => ({
+                letter: String.fromCharCode(97 + i),
+                value: 26 - i
+            })),
+            'Reverse Reduction': Array.from({length: 26}, (_, i) => {
+                const val = 26 - i;
+                return {
+                    letter: String.fromCharCode(97 + i),
+                    value: val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val
+                };
+            })
+        };
+
+        const ciphers = {
+            'Ordinal': (char) => {
+                const code = char.toUpperCase().charCodeAt(0);
+                return (code >= 65 && code <= 90) ? code - 64 : 0;
+            },
+            'Reduction': (char) => {
+                const code = char.toUpperCase().charCodeAt(0);
+                if (code >= 65 && code <= 90) {
+                    const val = code - 64;
+                    return val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val;
+                }
+                return 0;
+            },
+            'Reverse': (char) => {
+                const code = char.toUpperCase().charCodeAt(0);
+                return (code >= 65 && code <= 90) ? 91 - code : 0;
+            },
+            'Reverse Reduction': (char) => {
+                const code = char.toUpperCase().charCodeAt(0);
+                if (code >= 65 && code <= 90) {
+                    const val = 91 - code;
+                    return val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val;
+                }
+                return 0;
+            }
+        };
+
+        const history = [];
+        const textInput = document.getElementById('textInput');
+        const chartNames = Object.keys(charts);
+        let currentChartIndex = 0;
+
+        function calculate(text) {
+            const results = {};
+            let letterCount = 0;
+            
+            for (const [cipherName, cipherFunc] of Object.entries(ciphers)) {
+                let total = 0;
+                
+                for (let char of text) {
+                    const value = cipherFunc(char);
+                    if (value > 0) {
+                        total += value;
+                        if (cipherName === 'Ordinal') letterCount++;
+                    }
+                }
+                
+                results[cipherName] = total;
+            }
+
+            const words = text.trim().split(/\s+/).filter(w => w.length > 0);
+            const wordCount = text.trim() === '' ? 0 : words.length;
+
+            displayResults(results, wordCount, letterCount);
+            return results;
+        }
+
+        function displayResults(results, wordCount, letterCount) {
+            document.getElementById('ordinal').textContent = results['Ordinal'];
+            document.getElementById('reduction').textContent = results['Reduction'];
+            document.getElementById('reverse').textContent = results['Reverse'];
+            document.getElementById('reverseReduction').textContent = results['Reverse Reduction'];
+            document.getElementById('wordCount').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
+        }
+
+        function displayChart() {
+            const chartName = chartNames[currentChartIndex];
+            const chartData = charts[chartName];
+            const chartGrid = document.getElementById('chartGrid');
+            const chartLabel = document.getElementById('chartLabel');
+            
+            chartGrid.innerHTML = '';
+            chartData.forEach(item => {
+                const cell = document.createElement('div');
+                cell.className = 'chart-cell';
+                cell.innerHTML = `
+                    <span class="chart-letter">${item.letter}</span>
+                    <span class="chart-number">${item.value}</span>
+                `;
+                chartGrid.appendChild(cell);
+            });
+            
+            chartLabel.textContent = chartName;
+        }
+
+        function addToHistory(text, results) {
+            const entry = {
+                text: text,
+                ordinal: results['Ordinal'],
+                reduction: results['Reduction'],
+                reverse: results['Reverse'],
+                reverseReduction: results['Reverse Reduction']
+            };
+            
+            const existingIndex = history.findIndex(h => h.text === text);
+            if (existingIndex !== -1) {
+                history.splice(existingIndex, 1);
+            }
+            
+            history.unshift(entry);
+            if (history.length > 20) history.pop();
+            
+            updateHistoryDisplay();
+        }
+
+        function updateHistoryDisplay() {
+            const historyList = document.getElementById('historyList');
+            
+            if (history.length === 0) {
+                historyList.innerHTML = '<div class="empty-state">No calculations yet - press Enter to add to history</div>';
+                return;
+            }
+
+            historyList.innerHTML = '';
+            
+            history.forEach((entry, index) => {
+                const item = document.createElement('div');
+                item.className = 'history-item';
+                
+                item.innerHTML = `
+                    <div class="history-header">
+                        <span class="history-text">${entry.text}</span>
+                        <button class="clear-btn" onclick="removeFromHistory(${index})">×</button>
+                    </div>
+                    <div class="history-values">
+                        <div class="history-cipher ordinal">
+                            <span class="history-cipher-label">Ordinal</span>
+                            <span class="history-cipher-value">${entry.ordinal}</span>
+                        </div>
+                        <div class="history-cipher reduction">
+                            <span class="history-cipher-label">Reduction</span>
+                            <span class="history-cipher-value">${entry.reduction}</span>
+                        </div>
+                        <div class="history-cipher reverse">
+                            <span class="history-cipher-label">Reverse</span>
+                            <span class="history-cipher-value">${entry.reverse}</span>
+                        </div>
+                        <div class="history-cipher reverse-reduction">
+                            <span class="history-cipher-label">Reverse Reduction</span>
+                            <span class="history-cipher-value">${entry.reverseReduction}</span>
+                        </div>
+                    </div>
+                `;
+                
+                item.addEventListener('click', (e) => {
+                    if (!e.target.classList.contains('clear-btn')) {
+                        textInput.value = entry.text;
+                        calculate(entry.text);
+                    }
+                });
+                
+                historyList.appendChild(item);
+            });
+        }
+
+        function removeFromHistory(index) {
+            history.splice(index, 1);
+            updateHistoryDisplay();
+        }
+
+        textInput.addEventListener('input', (e) => {
+            calculate(e.target.value);
+        });
+
+        textInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && textInput.value.trim() !== '') {
+                const results = calculate(textInput.value);
+                addToHistory(textInput.value, results);
+            }
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            currentChartIndex = (currentChartIndex - 1 + chartNames.length) % chartNames.length;
+            displayChart();
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            currentChartIndex = (currentChartIndex + 1) % chartNames.length;
+            displayChart();
+        });
+
+        // Initialize
+        displayChart();
+        updateHistoryDisplay();
+        calculate('');
+    </script>
+</body>
+</html>

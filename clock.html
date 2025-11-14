@@ -23,14 +23,17 @@
 
         .clock-wrapper {
             position: relative;
-            width: 600px;
-            height: 600px;
+            width: 1000px;
+            height: 1000px;
             margin: 0 auto;
         }
 
         .calendar-clock {
             width: 200%;
             height: 200%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
             transition: transform 0.5s ease-out;
             transform-origin: center center;
         }
@@ -53,11 +56,11 @@
 
         .marker {
             position: absolute;
-            top: 90px;
+            top: 180px;
             left: 50%;
             transform: translateX(-50%);
-            width: 4px;
-            height: 40px;
+            width: 6px;
+            height: 50px;
             background: red;
             box-shadow: 0 0 10px rgba(255,0,0,0.8);
             z-index: 10;
@@ -109,7 +112,7 @@
             
             // Apply rotation to the image
             const clockImg = document.getElementById('calendarClock');
-            clockImg.style.transform = `rotate(${rotation}deg)`;
+            clockImg.style.transform = `translate(-50%, -50%) rotate(${rotation}deg)`;
             
             // Update info display
             document.getElementById('currentDate').textContent = now.toLocaleDateString('en-US', { 

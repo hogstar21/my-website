@@ -52,6 +52,71 @@
             margin-bottom: 30px;
         }
         
+        .breakdown-section {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #444;
+        }
+        
+        .breakdown-title {
+            color: #fff;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        
+        .breakdown-title .phrase {
+            color: #fff;
+        }
+        
+        .breakdown-title .value {
+            color: #00ff00;
+        }
+        
+        .breakdown-letters {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .breakdown-letter {
+            color: #ff8c00;
+            font-size: 1.6em;
+            font-weight: bold;
+            min-width: 20px;
+        }
+        
+        .breakdown-numbers {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .breakdown-number {
+            color: #ff8c00;
+            font-size: 1.3em;
+            min-width: 20px;
+        }
+        
+        .breakdown-total {
+            color: #00ff00;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .breakdown-cipher {
+            color: #00ff00;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
         .results-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -307,6 +372,16 @@
         </div>
         
         <div class="results-box">
+            <div class="breakdown-section" id="breakdownSection" style="display: none;">
+                <div class="breakdown-title">
+                    "<span class="phrase" id="breakdownPhrase"></span>" = <span class="value" id="breakdownValue">0</span> (Ordinal)
+                </div>
+                <div class="breakdown-letters" id="breakdownLetters"></div>
+                <div class="breakdown-numbers" id="breakdownNumbers"></div>
+                <div class="breakdown-total" id="breakdownTotal">0</div>
+                <div class="breakdown-cipher">Ordinal</div>
+                <div class="word-count" id="wordCountBreakdown">(0 words, 0 letters)</div>
+            </div>
             <div class="results-grid">
                 <div class="cipher-result">
                     <div class="cipher-label ordinal">Ordinal</div>
@@ -404,6 +479,10 @@
         function calculate(text) {
             const results = {};
             let letterCount = 0;
+            const ordinalBreakdown = {
+                letters: [],
+                values: []
+            };
             
             for (const [cipherName, cipherFunc] of Object.entries(ciphers)) {
                 let total = 0;
@@ -412,26 +491,73 @@
                     const value = cipherFunc(char);
                     if (value > 0) {
                         total += value;
-                        if (cipherName === 'Ordinal') letterCount++;
+                        if (cipherName === 'Ordinal') {
+                            letterCount++;
+                            ordinalBreakdown.letters.push(char.toLowerCase());
+                            ordinalBreakdown.values.push(value);
+                        }
+                    } else if (cipherName === 'Ordinal' && /\d/.test(char)) {
+                        const numValue = parseInt(char);
+                        total += numValue;
+                        ordinalBreakdown.letters.push(char);
+                        ordinalBreakdown.values.push(numValue);
                     }
                 }
                 
-                results[cipherName] = total;
+                if (cipherName === 'Ordinal') {
+                    results[cipherName] = total;
+                } else {
+                    for (let char of text) {
+                        if (/\d/.test(char)) {
+                            total += parseInt(char);
+                        }
+                    }
+                    results[cipherName] = total;
+                }
             }
 
             const words = text.trim().split(/\s+/).filter(w => w.length > 0);
             const wordCount = text.trim() === '' ? 0 : words.length;
 
-            displayResults(results, wordCount, letterCount);
+            displayResults(results, wordCount, letterCount, text, ordinalBreakdown);
             return results;
         }
 
-        function displayResults(results, wordCount, letterCount) {
+        function displayResults(results, wordCount, letterCount, text, breakdown) {
             document.getElementById('ordinal').textContent = results['Ordinal'];
             document.getElementById('reduction').textContent = results['Reduction'];
             document.getElementById('reverse').textContent = results['Reverse'];
             document.getElementById('reverseReduction').textContent = results['Reverse Reduction'];
             document.getElementById('wordCount').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
+            
+            const breakdownSection = document.getElementById('breakdownSection');
+            if (text.trim() !== '' && letterCount > 0) {
+                breakdownSection.style.display = 'block';
+                document.getElementById('breakdownPhrase').textContent = text;
+                document.getElementById('breakdownValue').textContent = results['Ordinal'];
+                document.getElementById('breakdownTotal').textContent = results['Ordinal'];
+                document.getElementById('wordCountBreakdown').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
+                
+                const lettersContainer = document.getElementById('breakdownLetters');
+                lettersContainer.innerHTML = '';
+                breakdown.letters.forEach(letter => {
+                    const span = document.createElement('span');
+                    span.className = 'breakdown-letter';
+                    span.textContent = letter;
+                    lettersContainer.appendChild(span);
+                });
+                
+                const numbersContainer = document.getElementById('breakdownNumbers');
+                numbersContainer.innerHTML = '';
+                breakdown.values.forEach(value => {
+                    const span = document.createElement('span');
+                    span.className = 'breakdown-number';
+                    span.textContent = value;
+                    numbersContainer.appendChild(span);
+                });
+            } else {
+                breakdownSection.style.display = 'none';
+            }
         }
 
         function displayChart() {
@@ -550,7 +676,6 @@
             displayChart();
         });
 
-        // Initialize
         displayChart();
         updateHistoryDisplay();
         calculate('');

@@ -834,9 +834,58 @@
         });
     </script>
 </body>
+</html>
+</body>
+</html>
+	<div id="secret-hotspot"></div>
 
+<style>
+#secret-hotspot {
+  position: fixed;
+  top: 50px;   /* adjust these */
+  right: 50px; /* adjust these */
+  width: 80px; 
+  height: 80px;
+
+  background: rgba(255, 0, 0, 0.4); /* visible red box */
+  border: 2px solid red;            /* outline to help positioning */
+  cursor: pointer;
+}
+</style>
+
+<script>
+document.getElementById("secret-hotspot").onclick = function() {
+  window.location.href = "gematria-calculator.html";  
+};
+</script>
 	
-   
+    <!-- 🌐 Navigation Bar -->
+    <nav style="
+      background:#fff;
+      padding:10px 16px;
+      border-bottom:1px solid #ddd;
+      display:flex;
+      gap:16px;
+      font-family:system-ui,Segoe UI,Roboto,Arial;
+    ">
+      <a href="index.html" style="text-decoration:none;color:#0070f3;">Home</a>
+      <a href="local-posts-viewer.html" style="text-decoration:none;color:#0070f3;">Posts Viewer</a>
+	  <a href="Pics.html" style="text-decoration:none;color:#0070f3;">Pics</a>
+	  <a href="clock.html" style="text-decoration:none;color:#0070f3;">Clock</a>
+    </nav>
+	
+    <div class="container">
+        <header>
+            <h1>🌍 Deagel 2025 Forecast & COVID Vaccine Correlation Analysis</h1>
+            <p class="subtitle">Analyzing the relationship between vaccination rates and population change projections</p>
+        </header>
+        
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('map')">📊 Country Map</div>
+            <div class="tab" onclick="switchTab('correlation')">💉 Vaccine Correlation</div>
+            <div class="tab" onclick="switchTab('coastal')">🌊 Coastal Vulnerability</div>
+            <div class="tab" onclick="switchTab('table')">📋 Data Table</div>
+        </div>
         
         <!-- MAP VIEW -->
         <div id="mapView" class="view active">

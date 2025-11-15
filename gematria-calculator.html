@@ -366,6 +366,551 @@
     </style>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V Weapon Wheel Navigation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Pricedown', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        /* Navigation Toggle Button */
+        .nav-toggle-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(20, 20, 20, 0.95));
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .nav-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(0, 0, 0, 0.7);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .nav-toggle-btn .icon {
+            font-size: 28px;
+            margin-bottom: 3px;
+        }
+
+        .nav-toggle-btn .label {
+            font-size: 10px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+        }
+
+        /* Wheel Overlay */
+        .wheel-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(10px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .wheel-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(220, 38, 38, 0.9);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .close-btn:hover {
+            background: rgba(239, 68, 68, 1);
+            transform: scale(1.1);
+        }
+
+        .wheel-container {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: scale(0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .wheel-overlay.active .wheel-container {
+            transform: scale(1);
+        }
+
+        .wheel {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: rgba(50, 50, 50, 0.95);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8), inset 0 0 30px rgba(0, 0, 0, 0.5);
+            transform: rotate(-90deg);
+        }
+
+        .wheel-segment {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            transform-origin: 100% 100%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+        }
+
+        .wheel-segment::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(80, 80, 80, 0.7);
+            border: 2px solid rgba(150, 150, 150, 0.3);
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+            transition: all 0.3s ease;
+        }
+
+        .wheel-segment:hover::before {
+            background: rgba(120, 120, 120, 0.9);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .wheel-segment.active::before {
+            background: rgba(140, 200, 255, 0.8);
+            border-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .segment-content {
+            position: absolute;
+            top: 20%;
+            left: 60%;
+            text-align: center;
+            pointer-events: none;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .segment-icon {
+            font-size: 32px;
+            margin-bottom: 5px;
+            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.8));
+        }
+
+        .segment-label {
+            font-size: 12px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+            letter-spacing: 0.5px;
+        }
+
+        .wheel-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(20, 20, 20, 0.95));
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid rgba(100, 100, 100, 0.5);
+            z-index: 10;
+            cursor: pointer;
+        }
+
+        .center-text {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+            margin-bottom: 8px;
+        }
+
+        .page-title {
+            color: #5bc0de;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        .instruction {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 16px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+            text-align: center;
+        }
+
+        /* Position each segment */
+        .segment-0 { transform: rotate(0deg); }
+        .segment-1 { transform: rotate(45deg); }
+        .segment-2 { transform: rotate(90deg); }
+        .segment-3 { transform: rotate(135deg); }
+        .segment-4 { transform: rotate(180deg); }
+        .segment-5 { transform: rotate(225deg); }
+        .segment-6 { transform: rotate(270deg); }
+        .segment-7 { transform: rotate(315deg); }
+
+        /* Adjust content rotation and position for each segment */
+        .segment-0 .segment-content { 
+            transform: rotate(90deg); 
+            top: 25%;
+            left: 60%;
+        }
+        .segment-1 .segment-content { 
+            transform: rotate(45deg); 
+            top: 20%;
+            left: 55%;
+        }
+        .segment-2 .segment-content { 
+            transform: rotate(360deg); 
+            top: 25%;
+            left: 57%;
+        }
+        .segment-3 .segment-content { 
+            transform: rotate(315deg); 
+            top: 25%;
+            left: 55%;
+        }
+        .segment-4 .segment-content { 
+            transform: rotate(270deg); 
+            top: 25%;
+            left: 55%;
+        }
+        .segment-5 .segment-content { 
+            transform: rotate(225deg); 
+            top: 25%;
+            left: 52%;
+        }
+        .segment-6 .segment-content { 
+            transform: rotate(180deg); 
+            top: 25%;
+            left: 55%;
+        }
+        .segment-7 .segment-content { 
+            transform: rotate(137deg); 
+            top: 25%;
+            left: 60%;
+        }
+
+        @media (max-width: 768px) {
+    .wheel-container {
+        width: 75vmin !important;
+        height: 75vmin !important;
+        max-width: 340px !important;
+        max-height: 340px !important;
+    }
+    
+    .wheel-center {
+        width: 110px !important;
+        height: 110px !important;
+    }
+    
+    .center-text {
+        font-size: 12px !important;
+    }
+    
+    .page-title {
+        font-size: 9px !important;
+    }
+    
+    .segment-icon {
+        font-size: 20px !important;
+    }
+    
+    .segment-label {
+        font-size: 8px !important;
+    }
+    
+    .segment-content {
+        width: 65px !important;
+        top: 16% !important;
+        left: 58% !important;
+    }
+    
+    .nav-toggle-btn {
+        width: 60px !important;
+        height: 60px !important;
+        bottom: 20px !important;
+        right: 20px !important;
+    }
+    
+    .nav-toggle-btn .icon {
+        font-size: 24px !important;
+    }
+    
+    .nav-toggle-btn .label {
+        font-size: 9px !important;
+    }
+    
+    .wheel-instruction {
+        font-size: 10px !important;
+        bottom: 10px !important;
+        padding: 0 15px !important;
+        max-width: 95% !important;
+        line-height: 1.3 !important;
+    }
+    
+    .close-btn {
+        width: 45px !important;
+        height: 45px !important;
+        font-size: 22px !important;
+        top: 10px !important;
+        right: 10px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .wheel-container {
+        width: 70vmin !important;
+        height: 70vmin !important;
+        max-width: 280px !important;
+        max-height: 280px !important;
+    }
+    
+    .wheel-center {
+        width: 95px !important;
+        height: 95px !important;
+    }
+    
+    .center-text {
+        font-size: 11px !important;
+    }
+    
+    .page-title {
+        font-size: 8px !important;
+    }
+    
+    .segment-icon {
+        font-size: 16px !important;
+    }
+    
+    .segment-label {
+        font-size: 7px !important;
+    }
+    
+    .segment-content {
+        width: 55px !important;
+        top: 14% !important;
+    }
+    
+    .wheel-instruction {
+        font-size: 9px !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Toggle Button -->
+    <div class="nav-toggle-btn" id="toggleBtn">
+        <div class="icon">🎯</div>
+        <div class="label">Menu</div>
+    </div>
+
+    <!-- Wheel Overlay -->
+    <div class="wheel-overlay" id="wheelOverlay">
+        <div class="close-btn" id="closeBtn">✕</div>
+        
+        <div class="wheel-container">
+            <div class="wheel" id="wheel">
+                <!-- Segment 0 - Pictures -->
+                <div class="wheel-segment segment-0" data-page="Pics.html">
+                    <div class="segment-content">
+                        <div class="segment-icon">🖼️</div>
+                        <div class="segment-label">Pictures</div>
+                    </div>
+                </div>
+
+                <!-- Segment 1 - Clock -->
+                <div class="wheel-segment segment-1" data-page="clock.html">
+                    <div class="segment-content">
+                        <div class="segment-icon">🕐</div>
+                        <div class="segment-label">Clock</div>
+                    </div>
+                </div>
+
+                <!-- Segment 2 - Calculator -->
+                <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
+                    <div class="segment-content">
+                        <div class="segment-icon">🔢</div>
+                        <div class="segment-label">Calculator</div>
+                    </div>
+                </div>
+
+                <!-- Segment 3 - Empty (Future) -->
+                <div class="wheel-segment segment-3" data-page="">
+                    <div class="segment-content">
+                        <div class="segment-icon">❓</div>
+                        <div class="segment-label">Empty</div>
+                    </div>
+                </div>
+
+                <!-- Segment 4 - Posts -->
+                <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
+                    <div class="segment-content">
+                        <div class="segment-icon">📝</div>
+                        <div class="segment-label">Posts</div>
+                    </div>
+                </div>
+
+                <!-- Segment 5 - Empty (Future) -->
+                <div class="wheel-segment segment-5" data-page="">
+                    <div class="segment-content">
+                        <div class="segment-icon">❓</div>
+                        <div class="segment-label">Empty</div>
+                    </div>
+                </div>
+
+                <!-- Segment 6 - Empty (Future) -->
+                <div class="wheel-segment segment-6" data-page="">
+                    <div class="segment-content">
+                        <div class="segment-icon">❓</div>
+                        <div class="segment-label">Empty</div>
+                    </div>
+                </div>
+
+                <!-- Segment 7 - Empty (Future) -->
+                <div class="wheel-segment segment-7" data-page="">
+                    <div class="segment-content">
+                        <div class="segment-icon">❓</div>
+                        <div class="segment-label">Empty</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wheel-center" onclick="window.location.href='index.html'">
+                <div class="center-text">🏠 HOME</div>
+                <div class="page-title" id="pageTitle">Select Page</div>
+            </div>
+        </div>
+
+        <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const wheelOverlay = document.getElementById('wheelOverlay');
+        const segments = document.querySelectorAll('.wheel-segment');
+        const pageTitle = document.getElementById('pageTitle');
+
+        // Open wheel
+        toggleBtn.addEventListener('click', () => {
+            wheelOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close wheel
+        function closeWheel() {
+            wheelOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            segments.forEach(s => s.classList.remove('active'));
+            pageTitle.textContent = 'Select Page';
+        }
+
+        closeBtn.addEventListener('click', closeWheel);
+
+        // Close on overlay click (outside wheel)
+        wheelOverlay.addEventListener('click', (e) => {
+            if (e.target === wheelOverlay) {
+                closeWheel();
+            }
+        });
+
+        // Close on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && wheelOverlay.classList.contains('active')) {
+                closeWheel();
+            }
+        });
+
+        // Segment interactions
+        segments.forEach(segment => {
+            segment.addEventListener('mouseenter', function() {
+                segments.forEach(s => s.classList.remove('active'));
+                this.classList.add('active');
+                
+                const page = this.dataset.page;
+                const label = this.querySelector('.segment-label').textContent;
+                
+                if (page) {
+                    pageTitle.textContent = label;
+                } else {
+                    pageTitle.textContent = 'Coming Soon';
+                }
+            });
+
+            segment.addEventListener('click', function() {
+                const page = this.dataset.page;
+                if (page) {
+                    window.location.href = page;
+                }
+            });
+        });
+
+        document.querySelector('.wheel').addEventListener('mouseleave', function() {
+            segments.forEach(s => s.classList.remove('active'));
+            pageTitle.textContent = 'Select Page';
+        });
+    </script>
     <div class="container">
         <div class="input-section">
             <input type="text" id="textInput" placeholder="Enter Word, Phrase, or #(s):" autofocus>

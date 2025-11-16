@@ -119,8 +119,8 @@
         
         .results-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 30px;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -153,6 +153,10 @@
             color: #00d4ff;
         }
         
+        .cipher-label.capitals-added {
+            color: #ff69b4;
+        }
+        
         .cipher-value {
             font-size: 3em;
             font-weight: bold;
@@ -172,6 +176,10 @@
         
         .cipher-value.reverse-reduction {
             color: #00d4ff;
+        }
+        
+        .cipher-value.capitals-added {
+            color: #ff69b4;
         }
         
         .word-count {
@@ -282,7 +290,7 @@
         
         .history-values {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 10px;
             text-align: center;
         }
@@ -323,6 +331,11 @@
             color: #00d4ff;
         }
         
+        .history-cipher.capitals-added .history-cipher-label,
+        .history-cipher.capitals-added .history-cipher-value {
+            color: #ff69b4;
+        }
+        
         .clear-btn {
             background: #dc3545;
             color: white;
@@ -344,48 +357,6 @@
             font-style: italic;
         }
 
-        @media (max-width: 768px) {
-            .results-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 30px;
-            }
-            
-            .chart-grid {
-                grid-template-columns: repeat(7, 1fr);
-                gap: 10px;
-            }
-            
-            .chart-letter {
-                font-size: 1em;
-            }
-            
-            .chart-number {
-                font-size: 0.9em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA V Weapon Wheel Navigation</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Pricedown', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-
-        /* Navigation Toggle Button */
         .nav-toggle-btn {
             position: fixed;
             bottom: 30px;
@@ -424,7 +395,6 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
         }
 
-        /* Wheel Overlay */
         .wheel-overlay {
             position: fixed;
             top: 0;
@@ -599,7 +569,6 @@
             text-align: center;
         }
 
-        /* Position each segment */
         .segment-0 { transform: rotate(0deg); }
         .segment-1 { transform: rotate(45deg); }
         .segment-2 { transform: rotate(90deg); }
@@ -609,7 +578,6 @@
         .segment-6 { transform: rotate(270deg); }
         .segment-7 { transform: rotate(315deg); }
 
-        /* Adjust content rotation and position for each segment */
         .segment-0 .segment-content { 
             transform: rotate(90deg); 
             top: 25%;
@@ -652,126 +620,90 @@
         }
 
         @media (max-width: 768px) {
-    .wheel-container {
-        width: 75vmin !important;
-        height: 75vmin !important;
-        max-width: 340px !important;
-        max-height: 340px !important;
-    }
-    
-    .wheel-center {
-        width: 110px !important;
-        height: 110px !important;
-    }
-    
-    .center-text {
-        font-size: 12px !important;
-    }
-    
-    .page-title {
-        font-size: 9px !important;
-    }
-    
-    .segment-icon {
-        font-size: 20px !important;
-    }
-    
-    .segment-label {
-        font-size: 8px !important;
-    }
-    
-    .segment-content {
-        width: 65px !important;
-        top: 16% !important;
-        left: 58% !important;
-    }
-    
-    .nav-toggle-btn {
-        width: 60px !important;
-        height: 60px !important;
-        bottom: 20px !important;
-        right: 20px !important;
-    }
-    
-    .nav-toggle-btn .icon {
-        font-size: 24px !important;
-    }
-    
-    .nav-toggle-btn .label {
-        font-size: 9px !important;
-    }
-    
-    .wheel-instruction {
-        font-size: 10px !important;
-        bottom: 10px !important;
-        padding: 0 15px !important;
-        max-width: 95% !important;
-        line-height: 1.3 !important;
-    }
-    
-    .close-btn {
-        width: 45px !important;
-        height: 45px !important;
-        font-size: 22px !important;
-        top: 10px !important;
-        right: 10px !important;
-    }
-}
+            .results-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+            
+            .history-values {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .chart-grid {
+                grid-template-columns: repeat(7, 1fr);
+                gap: 10px;
+            }
+            
+            .chart-letter {
+                font-size: 1em;
+            }
+            
+            .chart-number {
+                font-size: 0.9em;
+            }
 
-@media (max-width: 480px) {
-    .wheel-container {
-        width: 70vmin !important;
-        height: 70vmin !important;
-        max-width: 280px !important;
-        max-height: 280px !important;
-    }
-    
-    .wheel-center {
-        width: 95px !important;
-        height: 95px !important;
-    }
-    
-    .center-text {
-        font-size: 11px !important;
-    }
-    
-    .page-title {
-        font-size: 8px !important;
-    }
-    
-    .segment-icon {
-        font-size: 16px !important;
-    }
-    
-    .segment-label {
-        font-size: 7px !important;
-    }
-    
-    .segment-content {
-        width: 55px !important;
-        top: 14% !important;
-    }
-    
-    .wheel-instruction {
-        font-size: 9px !important;
-    }
-}
+            .wheel-container {
+                width: 75vmin;
+                height: 75vmin;
+                max-width: 340px;
+                max-height: 340px;
+            }
+            
+            .wheel-center {
+                width: 110px;
+                height: 110px;
+            }
+            
+            .center-text {
+                font-size: 12px;
+            }
+            
+            .page-title {
+                font-size: 9px;
+            }
+            
+            .segment-icon {
+                font-size: 20px;
+            }
+            
+            .segment-label {
+                font-size: 8px;
+            }
+            
+            .segment-content {
+                width: 65px;
+                top: 16%;
+                left: 58%;
+            }
+            
+            .nav-toggle-btn {
+                width: 60px;
+                height: 60px;
+                bottom: 20px;
+                right: 20px;
+            }
+            
+            .nav-toggle-btn .icon {
+                font-size: 24px;
+            }
+            
+            .nav-toggle-btn .label {
+                font-size: 9px;
+            }
+        }
     </style>
 </head>
 <body>
-    <!-- Toggle Button -->
     <div class="nav-toggle-btn" id="toggleBtn">
         <div class="icon">🎯</div>
         <div class="label">Menu</div>
     </div>
 
-    <!-- Wheel Overlay -->
     <div class="wheel-overlay" id="wheelOverlay">
         <div class="close-btn" id="closeBtn">✕</div>
         
         <div class="wheel-container">
             <div class="wheel" id="wheel">
-                <!-- Segment 0 - Pictures -->
                 <div class="wheel-segment segment-0" data-page="Pics.html">
                     <div class="segment-content">
                         <div class="segment-icon">🖼️</div>
@@ -779,7 +711,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 1 - Clock -->
                 <div class="wheel-segment segment-1" data-page="clock.html">
                     <div class="segment-content">
                         <div class="segment-icon">🕐</div>
@@ -787,7 +718,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 2 - Calculator -->
                 <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
                     <div class="segment-content">
                         <div class="segment-icon">🔢</div>
@@ -795,7 +725,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 3 - Empty (Future) -->
                 <div class="wheel-segment segment-3" data-page="">
                     <div class="segment-content">
                         <div class="segment-icon">❓</div>
@@ -803,7 +732,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 4 - Posts -->
                 <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
                     <div class="segment-content">
                         <div class="segment-icon">📝</div>
@@ -811,7 +739,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 5 - Empty (Future) -->
                 <div class="wheel-segment segment-5" data-page="">
                     <div class="segment-content">
                         <div class="segment-icon">❓</div>
@@ -819,7 +746,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 6 - Empty (Future) -->
                 <div class="wheel-segment segment-6" data-page="">
                     <div class="segment-content">
                         <div class="segment-icon">❓</div>
@@ -827,7 +753,6 @@
                     </div>
                 </div>
 
-                <!-- Segment 7 - Empty (Future) -->
                 <div class="wheel-segment segment-7" data-page="">
                     <div class="segment-content">
                         <div class="segment-icon">❓</div>
@@ -845,72 +770,6 @@
         <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
     </div>
 
-    <script>
-        const toggleBtn = document.getElementById('toggleBtn');
-        const closeBtn = document.getElementById('closeBtn');
-        const wheelOverlay = document.getElementById('wheelOverlay');
-        const segments = document.querySelectorAll('.wheel-segment');
-        const pageTitle = document.getElementById('pageTitle');
-
-        // Open wheel
-        toggleBtn.addEventListener('click', () => {
-            wheelOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-
-        // Close wheel
-        function closeWheel() {
-            wheelOverlay.classList.remove('active');
-            document.body.style.overflow = 'auto';
-            segments.forEach(s => s.classList.remove('active'));
-            pageTitle.textContent = 'Select Page';
-        }
-
-        closeBtn.addEventListener('click', closeWheel);
-
-        // Close on overlay click (outside wheel)
-        wheelOverlay.addEventListener('click', (e) => {
-            if (e.target === wheelOverlay) {
-                closeWheel();
-            }
-        });
-
-        // Close on ESC key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && wheelOverlay.classList.contains('active')) {
-                closeWheel();
-            }
-        });
-
-        // Segment interactions
-        segments.forEach(segment => {
-            segment.addEventListener('mouseenter', function() {
-                segments.forEach(s => s.classList.remove('active'));
-                this.classList.add('active');
-                
-                const page = this.dataset.page;
-                const label = this.querySelector('.segment-label').textContent;
-                
-                if (page) {
-                    pageTitle.textContent = label;
-                } else {
-                    pageTitle.textContent = 'Coming Soon';
-                }
-            });
-
-            segment.addEventListener('click', function() {
-                const page = this.dataset.page;
-                if (page) {
-                    window.location.href = page;
-                }
-            });
-        });
-
-        document.querySelector('.wheel').addEventListener('mouseleave', function() {
-            segments.forEach(s => s.classList.remove('active'));
-            pageTitle.textContent = 'Select Page';
-        });
-    </script>
     <div class="container">
         <div class="input-section">
             <input type="text" id="textInput" placeholder="Enter Word, Phrase, or #(s):" autofocus>
@@ -943,6 +802,10 @@
                 <div class="cipher-result">
                     <div class="cipher-label reverse-reduction">Reverse Reduction</div>
                     <div class="cipher-value reverse-reduction" id="reverseReduction">0</div>
+                </div>
+                <div class="cipher-result">
+                    <div class="cipher-label capitals-added">Capitals Added</div>
+                    <div class="cipher-value capitals-added" id="capitalsAdded">0</div>
                 </div>
             </div>
             <div class="word-count" id="wordCount">(0 words, 0 letters)</div>
@@ -986,7 +849,17 @@
                     letter: String.fromCharCode(97 + i),
                     value: val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val
                 };
-            })
+            }),
+            'Capitals Added': [
+                ...Array.from({length: 26}, (_, i) => ({
+                    letter: String.fromCharCode(97 + i),
+                    value: i + 1
+                })),
+                ...Array.from({length: 26}, (_, i) => ({
+                    letter: String.fromCharCode(65 + i),
+                    value: 27 + i
+                }))
+            ]
         };
 
         const ciphers = {
@@ -1011,6 +884,15 @@
                 if (code >= 65 && code <= 90) {
                     const val = 91 - code;
                     return val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val;
+                }
+                return 0;
+            },
+            'Capitals Added': (char) => {
+                const code = char.charCodeAt(0);
+                if (code >= 97 && code <= 122) {
+                    return code - 96;
+                } else if (code >= 65 && code <= 90) {
+                    return code - 38;
                 }
                 return 0;
             }
@@ -1073,6 +955,7 @@
             document.getElementById('reduction').textContent = results['Reduction'];
             document.getElementById('reverse').textContent = results['Reverse'];
             document.getElementById('reverseReduction').textContent = results['Reverse Reduction'];
+            document.getElementById('capitalsAdded').textContent = results['Capitals Added'];
             document.getElementById('wordCount').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
             
             const breakdownSection = document.getElementById('breakdownSection');
@@ -1131,7 +1014,8 @@
                 ordinal: results['Ordinal'],
                 reduction: results['Reduction'],
                 reverse: results['Reverse'],
-                reverseReduction: results['Reverse Reduction']
+                reverseReduction: results['Reverse Reduction'],
+                capitalsAdded: results['Capitals Added']
             };
             
             const existingIndex = history.findIndex(h => h.text === text);
@@ -1181,6 +1065,10 @@
                             <span class="history-cipher-label">Reverse Reduction</span>
                             <span class="history-cipher-value">${entry.reverseReduction}</span>
                         </div>
+                        <div class="history-cipher capitals-added">
+                            <span class="history-cipher-label">Capitals Added</span>
+                            <span class="history-cipher-value">${entry.capitalsAdded}</span>
+                        </div>
                     </div>
                 `;
                 
@@ -1219,6 +1107,66 @@
         document.getElementById('nextBtn').addEventListener('click', () => {
             currentChartIndex = (currentChartIndex + 1) % chartNames.length;
             displayChart();
+        });
+
+        const toggleBtn = document.getElementById('toggleBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const wheelOverlay = document.getElementById('wheelOverlay');
+        const segments = document.querySelectorAll('.wheel-segment');
+        const pageTitle = document.getElementById('pageTitle');
+
+        toggleBtn.addEventListener('click', () => {
+            wheelOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        function closeWheel() {
+            wheelOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            segments.forEach(s => s.classList.remove('active'));
+            pageTitle.textContent = 'Select Page';
+        }
+
+        closeBtn.addEventListener('click', closeWheel);
+
+        wheelOverlay.addEventListener('click', (e) => {
+            if (e.target === wheelOverlay) {
+                closeWheel();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && wheelOverlay.classList.contains('active')) {
+                closeWheel();
+            }
+        });
+
+        segments.forEach(segment => {
+            segment.addEventListener('mouseenter', function() {
+                segments.forEach(s => s.classList.remove('active'));
+                this.classList.add('active');
+                
+                const page = this.dataset.page;
+                const label = this.querySelector('.segment-label').textContent;
+                
+                if (page) {
+                    pageTitle.textContent = label;
+                } else {
+                    pageTitle.textContent = 'Coming Soon';
+                }
+            });
+
+            segment.addEventListener('click', function() {
+                const page = this.dataset.page;
+                if (page) {
+                    window.location.href = page;
+                }
+            });
+        });
+
+        document.querySelector('.wheel').addEventListener('mouseleave', function() {
+            segments.forEach(s => s.classList.remove('active'));
+            pageTitle.textContent = 'Select Page';
         });
 
         displayChart();

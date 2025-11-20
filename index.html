@@ -1418,8 +1418,35 @@
         
         function moveTooltip(e) {
             const tooltip = document.getElementById('tooltip');
-            tooltip.style.left = (e.clientX + 15) + 'px';
-            tooltip.style.top = (e.clientY + 15) + 'px';
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const windowWidth = window.innerWidth;
+            const windowHeight = window.innerHeight;
+            
+            let left = e.clientX + 15;
+            let top = e.clientY + 15;
+            
+            // Check if tooltip goes off right edge
+            if (left + tooltipRect.width > windowWidth) {
+                left = e.clientX - tooltipRect.width - 15;
+            }
+            
+            // Check if tooltip goes off bottom edge
+            if (top + tooltipRect.height > windowHeight) {
+                top = e.clientY - tooltipRect.height - 15;
+            }
+            
+            // Check if tooltip goes off left edge
+            if (left < 0) {
+                left = 10;
+            }
+            
+            // Check if tooltip goes off top edge
+            if (top < 0) {
+                top = 10;
+            }
+            
+            tooltip.style.left = left + 'px';
+            tooltip.style.top = top + 'px';
         }
         
         function hideTooltip() {

@@ -160,6 +160,12 @@
         .cipher-value {
             font-size: 3em;
             font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .cipher-value:hover {
+            transform: scale(1.1);
         }
         
         .cipher-value.ordinal {
@@ -355,6 +361,161 @@
             color: #666;
             padding: 20px;
             font-style: italic;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: #1a1a1a;
+            border: 2px solid #444;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+            transform: scale(0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .modal-close:hover {
+            background: #c82333;
+        }
+
+        .modal-title {
+            color: #5bc0de;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .modal-number {
+            color: #fff;
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .modal-factorization {
+            color: #fff;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-properties {
+            margin-bottom: 20px;
+        }
+
+        .modal-property {
+            color: #4ade80;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .modal-section-title {
+            color: #5bc0de;
+            font-size: 1.3em;
+            margin: 20px 0 15px 0;
+            text-align: center;
+        }
+
+        .modal-divisors {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .modal-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .modal-info-item {
+            text-align: center;
+        }
+
+        .modal-info-label {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .modal-info-value {
+            color: #5bc0de;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        .modal-conversions {
+            margin-top: 20px;
+        }
+
+        .modal-conversion-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #2a2a2a;
+            border-radius: 5px;
+        }
+
+        .modal-conversion-label {
+            color: #888;
+            font-size: 1em;
+        }
+
+        .modal-conversion-value {
+            color: #5bc0de;
+            font-size: 1.2em;
+            font-weight: bold;
         }
 
         .nav-toggle-btn {
@@ -770,6 +931,43 @@
         <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
     </div>
 
+    <div class="modal-overlay" id="numberModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-title">Number Properties</div>
+            <div class="modal-number" id="modalNumber">0</div>
+            <div class="modal-factorization" id="modalFactorization"></div>
+            <div class="modal-properties" id="modalProperties"></div>
+            <div class="modal-section-title">Divisors</div>
+            <div class="modal-divisors" id="modalDivisors"></div>
+            <div class="modal-info-grid">
+                <div class="modal-info-item">
+                    <div class="modal-info-label">Sum of Divisors</div>
+                    <div class="modal-info-value" id="modalSumDivisors">0</div>
+                </div>
+                <div class="modal-info-item">
+                    <div class="modal-info-label">Number of Divisors</div>
+                    <div class="modal-info-value" id="modalNumDivisors">0</div>
+                </div>
+            </div>
+            <div class="modal-conversions">
+                <div class="modal-section-title">Number Conversions</div>
+                <div class="modal-conversion-item">
+                    <span class="modal-conversion-label">Binary:</span>
+                    <span class="modal-conversion-value" id="modalBinary">0</span>
+                </div>
+                <div class="modal-conversion-item">
+                    <span class="modal-conversion-label">Octal:</span>
+                    <span class="modal-conversion-value" id="modalOctal">0</span>
+                </div>
+                <div class="modal-conversion-item">
+                    <span class="modal-conversion-label">Hexadecimal:</span>
+                    <span class="modal-conversion-value" id="modalHex">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="input-section">
             <input type="text" id="textInput" placeholder="Enter Word, Phrase, or #(s):" autofocus>
@@ -902,6 +1100,155 @@
         const textInput = document.getElementById('textInput');
         const chartNames = Object.keys(charts);
         let currentChartIndex = 0;
+
+        // Number properties functions
+        function isPrime(n) {
+            if (n <= 1) return false;
+            if (n <= 3) return true;
+            if (n % 2 === 0 || n % 3 === 0) return false;
+            for (let i = 5; i * i <= n; i += 6) {
+                if (n % i === 0 || n % (i + 2) === 0) return false;
+            }
+            return true;
+        }
+
+        function getPrimeIndex(n) {
+            if (!isPrime(n)) return -1;
+            let count = 0;
+            let num = 2;
+            while (num <= n) {
+                if (isPrime(num)) {
+                    count++;
+                    if (num === n) return count;
+                }
+                num++;
+            }
+            return -1;
+        }
+
+        function getOrdinalSuffix(n) {
+            const j = n % 10;
+            const k = n % 100;
+            if (j === 1 && k !== 11) return n + "st";
+            if (j === 2 && k !== 12) return n + "nd";
+            if (j === 3 && k !== 13) return n + "rd";
+            return n + "th";
+        }
+
+        function primeFactorization(n) {
+            const factors = [];
+            let d = 2;
+            while (n > 1) {
+                while (n % d === 0) {
+                    factors.push(d);
+                    n /= d;
+                }
+                d++;
+                if (d * d > n && n > 1) {
+                    factors.push(n);
+                    break;
+                }
+            }
+            return factors;
+        }
+
+        function getDivisors(n) {
+            const divisors = [];
+            for (let i = 1; i <= Math.sqrt(n); i++) {
+                if (n % i === 0) {
+                    divisors.push(i);
+                    if (i !== n / i) {
+                        divisors.push(n / i);
+                    }
+                }
+            }
+            return divisors.sort((a, b) => a - b);
+        }
+
+        function isPerfect(n) {
+            const divisors = getDivisors(n);
+            const sum = divisors.slice(0, -1).reduce((a, b) => a + b, 0);
+            return sum === n;
+        }
+
+        function isSquare(n) {
+            return Math.sqrt(n) % 1 === 0;
+        }
+
+        function isCube(n) {
+            return Math.cbrt(n) % 1 === 0;
+        }
+
+        function showNumberModal(number) {
+            if (number === 0) return;
+            
+            const modal = document.getElementById('numberModal');
+            document.getElementById('modalNumber').textContent = number;
+            
+            // Prime factorization
+            const factors = primeFactorization(number);
+            const factorCounts = {};
+            factors.forEach(f => factorCounts[f] = (factorCounts[f] || 0) + 1);
+            const factorStr = Object.entries(factorCounts)
+                .map(([f, c]) => c > 1 ? `${f}^${c}` : f)
+                .join(' × ');
+            document.getElementById('modalFactorization').textContent = 
+                number === 1 ? '1' : factorStr;
+            
+            // Properties
+            const properties = [];
+            if (isPrime(number)) {
+                const primeIndex = getPrimeIndex(number);
+                properties.push(`✓ Prime Number (${getOrdinalSuffix(primeIndex)} prime)`);
+            }
+            if (number % 2 === 0) properties.push('✓ Even Number');
+            else properties.push('✓ Odd Number');
+            if (isPerfect(number)) properties.push('✓ Perfect Number');
+            if (isSquare(number)) properties.push('✓ Perfect Square');
+            if (isCube(number)) properties.push('✓ Perfect Cube');
+            
+            const propsContainer = document.getElementById('modalProperties');
+            propsContainer.innerHTML = properties
+                .map(p => `<div class="modal-property">${p}</div>`)
+                .join('');
+            
+            // Divisors
+            const divisors = getDivisors(number);
+            const divisorsContainer = document.getElementById('modalDivisors');
+            divisorsContainer.innerHTML = divisors
+                .map(d => `<span style="color: #5bc0de; font-size: 1.1em; padding: 5px 10px; background: #2a2a2a; border-radius: 5px;">${d}</span>`)
+                .join('');
+            
+            document.getElementById('modalSumDivisors').textContent = 
+                divisors.reduce((a, b) => a + b, 0);
+            document.getElementById('modalNumDivisors').textContent = divisors.length;
+            
+            // Conversions
+            document.getElementById('modalBinary').textContent = number.toString(2);
+            document.getElementById('modalOctal').textContent = number.toString(8);
+            document.getElementById('modalHex').textContent = number.toString(16).toUpperCase();
+            
+            modal.classList.add('active');
+        }
+
+        function closeNumberModal() {
+            document.getElementById('numberModal').classList.remove('active');
+        }
+
+        document.getElementById('modalClose').addEventListener('click', closeNumberModal);
+        document.getElementById('numberModal').addEventListener('click', (e) => {
+            if (e.target.id === 'numberModal') {
+                closeNumberModal();
+            }
+        });
+
+        // Add click handlers to cipher values
+        document.querySelectorAll('.cipher-value').forEach(el => {
+            el.addEventListener('click', function() {
+                const number = parseInt(this.textContent);
+                showNumberModal(number);
+            });
+        });
 
         function calculate(text) {
             const results = {};
@@ -1136,8 +1483,12 @@
         });
 
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && wheelOverlay.classList.contains('active')) {
-                closeWheel();
+            if (e.key === 'Escape') {
+                if (wheelOverlay.classList.contains('active')) {
+                    closeWheel();
+                } else if (document.getElementById('numberModal').classList.contains('active')) {
+                    closeNumberModal();
+                }
             }
         });
 

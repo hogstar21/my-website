@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .date-inputs {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .date-card {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 15px;
+            padding: 20px;
+            min-width: 280px;
+        }
+        
+        .date-title {
+            color: #ffa500;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .date-fields {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .field-group label {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .field-group input {
+            width: 80px;
+            padding: 8px;
+            font-size: 16px;
+            text-align: center;
+            border: 1px solid #444;
+            background: #fff;
+            color: #000;
+            border-radius: 5px;
+        }
+        
+        .main-content {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .sidebar {
+            flex: 0 0 250px;
+        }
+        
+        .section-title {
+            color: #4a9eff;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .duration-options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .duration-options label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .duration-options input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        
+        .center-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .time-between {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .time-between h2 {
+            color: #ffa500;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        
+        .include-end {
+            margin-bottom: 15px;
+        }
+        
+        .include-end label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .result-box {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .result-text {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .result-number {
+            font-size: 72px;
+            font-weight: bold;
+            color: #4af;
+        }
+        
+        .result-unit {
+            font-size: 24px;
+            color: #4af;
+        }
+        
+        .calculations {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .calc-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: #2a2a2a;
+            border-radius: 8px;
+        }
+        
+        .calc-label {
+            font-size: 14px;
+        }
+        
+        .calc-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        .variations {
+            flex: 0 0 250px;
+        }
+        
+        .variation-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .variation-item {
+            font-size: 16px;
+            color: #4af;
+        }
+        
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .sidebar, .variations {
+                flex: 1;
+            }
+            
+            .calculations {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="date-inputs">
+            <div class="date-card">
+                <div class="date-title" id="date1-title">Thu Nov 21 2024</div>
+                <div class="date-fields">
+                    <div class="field-group">
+                        <label>Month:</label>
+                        <input type="number" id="month1" value="11" min="1" max="12">
+                    </div>
+                    <div class="field-group">
+                        <label>Day:</label>
+                        <input type="number" id="day1" value="21" min="1" max="31">
+                    </div>
+                    <div class="field-group">
+                        <label>Year:</label>
+                        <input type="number" id="year1" value="2024" min="1900" max="2100">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="date-card">
+                <div class="date-title" id="date2-title">Fri Nov 21 2025</div>
+                <div class="date-fields">
+                    <div class="field-group">
+                        <label>Month:</label>
+                        <input type="number" id="month2" value="11" min="1" max="12">
+                    </div>
+                    <div class="field-group">
+                        <label>Day:</label>
+                        <input type="number" id="day2" value="21" min="1" max="31">
+                    </div>
+                    <div class="field-group">
+                        <label>Year:</label>
+                        <input type="number" id="year2" value="2025" min="1900" max="2100">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="section-title">Select Durations to View:</div>
+                <div class="duration-options">
+                    <label>
+                        <input type="checkbox" id="view-year" checked>
+                        <span>Year</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" id="view-month" checked>
+                        <span>Month</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" id="view-week" checked>
+                        <span>Week</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" id="view-day" checked>
+                        <span>Day</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="center-section">
+                <div class="time-between">
+                    <h2>Time Between Dates:</h2>
+                    <div class="include-end">
+                        <label>
+                            <input type="checkbox" id="include-end" checked>
+                            <span>Include End Date?</span>
+                        </label>
+                    </div>
+                    <div class="result-box">
+                        <div class="result-text">
+                            From <span style="color: #ffa500;" id="from-text">Thu Nov 21 2024</span> to 
+                            <span style="color: #ffa500;" id="to-text">Fri Nov 21 2025</span> is:
+                        </div>
+                        <div>
+                            <span class="result-number" id="main-result">365</span>
+                            <span class="result-unit">Days</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="calculations" id="calculations">
+                    <!-- Calculations will be inserted here -->
+                </div>
+            </div>
+            
+            <div class="variations">
+                <div class="section-title">Duration Variations:</div>
+                <div class="variation-list" id="variations">
+                    <!-- Variations will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        
+        function formatDate(month, day, year) {
+            const date = new Date(year, month - 1, day);
+            return `${days[date.getDay()]} ${months[date.getMonth()]} ${day} ${year}`;
+        }
+        
+        function getDayOfYear(month, day, year) {
+            const date = new Date(year, month - 1, day);
+            const start = new Date(year, 0, 0);
+            const diff = date - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            return Math.floor(diff / oneDay);
+        }
+        
+        function getDaysLeftInYear(month, day, year) {
+            const isLeap = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+            const totalDays = isLeap ? 366 : 365;
+            return totalDays - getDayOfYear(month, day, year);
+        }
+        
+        function digitSum(num) {
+            return num.toString().split('').reduce((a, b) => parseInt(a) + parseInt(b), 0);
+        }
+        
+        function digitProduct(num) {
+            return num.toString().split('').reduce((a, b) => parseInt(a) * parseInt(b), 1);
+        }
+        
+        function calculate() {
+            const m1 = parseInt(document.getElementById('month1').value);
+            const d1 = parseInt(document.getElementById('day1').value);
+            const y1 = parseInt(document.getElementById('year1').value);
+            
+            const m2 = parseInt(document.getElementById('month2').value);
+            const d2 = parseInt(document.getElementById('day2').value);
+            const y2 = parseInt(document.getElementById('year2').value);
+            
+            const includeEnd = document.getElementById('include-end').checked;
+            
+            document.getElementById('date1-title').textContent = formatDate(m1, d1, y1);
+            document.getElementById('date2-title').textContent = formatDate(m2, d2, y2);
+            document.getElementById('from-text').textContent = formatDate(m1, d1, y1);
+            document.getElementById('to-text').textContent = formatDate(m2, d2, y2);
+            
+            const date1 = new Date(y1, m1 - 1, d1);
+            const date2 = new Date(y2, m2 - 1, d2);
+            
+            let diffTime = Math.abs(date2 - date1);
+            let totalDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (includeEnd) {
+                totalDays += 1;
+            }
+            
+            document.getElementById('main-result').textContent = totalDays;
+            
+            // Calculate duration variations
+            const years = Math.floor(totalDays / 365);
+            const remainingDaysAfterYears = totalDays % 365;
+            
+            const totalWeeks = Math.floor(totalDays / 7);
+            const remainingDaysAfterWeeks = totalDays % 7;
+            
+            const totalMonths = Math.floor(totalDays / 30);
+            const remainingDaysAfterMonths = totalDays % 30;
+            
+            const variations = document.getElementById('variations');
+            variations.innerHTML = `
+                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Days</div>
+                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Months, <strong>0</strong> Days</div>
+                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Weeks, <strong>0</strong> Days</div>
+                <div class="variation-item"><strong>${totalMonths}</strong> Months, <strong>0</strong> Days</div>
+                <div class="variation-item"><strong>${totalWeeks}</strong> Weeks, <strong>${remainingDaysAfterWeeks}</strong> Day</div>
+                <div class="variation-item"><strong>${totalDays}</strong> Days</div>
+            `;
+            
+            // Calculate various number patterns
+            const dayOfYear1 = getDayOfYear(m1, d1, y1);
+            const dayOfYear2 = getDayOfYear(m2, d2, y2);
+            const daysLeft1 = getDaysLeftInYear(m1, d1, y1);
+            const daysLeft2 = getDaysLeftInYear(m2, d2, y2);
+            
+            const calculations = document.getElementById('calculations');
+            calculations.innerHTML = `
+                <div class="calc-row">
+                    <span class="calc-label">(${m1}) + (${d1}) + (${y1 % 100}) + (${Math.floor(y1 / 100)})</span>
+                    <span class="calc-value">${m1 + d1 + (y1 % 100) + Math.floor(y1 / 100)}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">(${m2}) + (${d2}) + (${y2 % 100}) + (${Math.floor(y2 / 100)})</span>
+                    <span class="calc-value">${m2 + d2 + (y2 % 100) + Math.floor(y2 / 100)}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">(${m1}) + (${d1}) + 2+0+2+4</span>
+                    <span class="calc-value">${m1 + d1 + 2 + 0 + 2 + 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">(${m2}) + (${d2}) + 2+0+2+5</span>
+                    <span class="calc-value">${m2 + d2 + 2 + 0 + 2 + 5}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + 2+0+2+4</span>
+                    <span class="calc-value">${digitSum(m1) + digitSum(d1) + 2 + 0 + 2 + 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + 2+0+2+5</span>
+                    <span class="calc-value">${digitSum(m2) + digitSum(d2) + 2 + 0 + 2 + 5}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">(${m1}) + (${d1}) + (${Math.floor(y1 / 100)})</span>
+                    <span class="calc-value">${m1 + d1 + Math.floor(y1 / 100)}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">(${m2}) + (${d2}) + (${Math.floor(y2 / 100)})</span>
+                    <span class="calc-value">${m2 + d2 + Math.floor(y2 / 100)}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + 2+4</span>
+                    <span class="calc-value">${digitSum(m1) + digitSum(d1) + 2 + 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + 2+5</span>
+                    <span class="calc-value">${digitSum(m2) + digitSum(d2) + 2 + 5}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">Day of Year: (Nov-${d1})</span>
+                    <span class="calc-value" style="color: #ffeb3b;">${dayOfYear1}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">Day of Year: (Nov-${d2})</span>
+                    <span class="calc-value" style="color: #ffeb3b;">${dayOfYear2}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">Days Left in Year: (Nov-${d1})</span>
+                    <span class="calc-value" style="color: #ffeb3b;">${daysLeft1}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">Days Left in Year: (Nov-${d2})</span>
+                    <span class="calc-value" style="color: #ffeb3b;">${daysLeft2}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">(${m1}) + (${d1})</span>
+                    <span class="calc-value">${m1 + d1}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">(${m2}) + (${d2})</span>
+                    <span class="calc-value">${m2 + d2}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + (${y1 % 100}) + (${Math.floor(y1 / 100)})</span>
+                    <span class="calc-value">${digitSum(m1) + digitSum(d1) + (y1 % 100) + Math.floor(y1 / 100)}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + (${y2 % 100}) + (${Math.floor(y2 / 100)})</span>
+                    <span class="calc-value">${digitSum(m2) + digitSum(d2) + (y2 % 100) + Math.floor(y2 / 100)}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">(${m1}) + (${d1}) + 2+4</span>
+                    <span class="calc-value">${m1 + d1 + 2 + 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">(${m2}) + (${d2}) + 2+5</span>
+                    <span class="calc-value">${m2 + d2 + 2 + 5}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + (${Math.floor(y1 / 100)})</span>
+                    <span class="calc-value">${digitSum(m1) + digitSum(d1) + Math.floor(y1 / 100)}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1+1 + 2+1 + (${Math.floor(y2 / 100)})</span>
+                    <span class="calc-value">${digitSum(m2) + digitSum(d2) + Math.floor(y2 / 100)}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1 × 1 × 2 × 1 × 2 × 4</span>
+                    <span class="calc-value">${1 * 1 * 2 * 1 * 2 * 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1 × 1 × 2 × 1 × 2 × 5</span>
+                    <span class="calc-value">${1 * 1 * 2 * 1 * 2 * 5}</span>
+                </div>
+                
+                <div class="calc-row">
+                    <span class="calc-label">1 × 1 × 2 × 1 × 2 × 4</span>
+                    <span class="calc-value">${1 * 1 * 2 * 1 * 2 * 4}</span>
+                </div>
+                <div class="calc-row">
+                    <span class="calc-label">1 × 1 × 2 × 1 × 2 × 5</span>
+                    <span class="calc-value">${1 * 1 * 2 * 1 * 2 * 5}</span>
+                </div>
+            `;
+        }
+        
+        // Add event listeners
+        document.getElementById('month1').addEventListener('input', calculate);
+        document.getElementById('day1').addEventListener('input', calculate);
+        document.getElementById('year1').addEventListener('input', calculate);
+        document.getElementById('month2').addEventListener('input', calculate);
+        document.getElementById('day2').addEventListener('input', calculate);
+        document.getElementById('year2').addEventListener('input', calculate);
+        document.getElementById('include-end').addEventListener('change', calculate);
+        
+        // Initial calculation
+        calculate();
+    </script>
+</body>
+</html>

@@ -382,24 +382,68 @@
             
             document.getElementById('main-result').textContent = totalDays;
             
-            // Calculate duration variations
-            const years = Math.floor(totalDays / 365);
-            const remainingDaysAfterYears = totalDays % 365;
+            // Calculate duration variations properly
+            const startDate = date1 < date2 ? new Date(date1) : new Date(date2);
+            const endDate = date1 < date2 ? new Date(date2) : new Date(date1);
             
+            // Calculate years, months, and days
+            let years = endDate.getFullYear() - startDate.getFullYear();
+            let months = endDate.getMonth() - startDate.getMonth();
+            let days = endDate.getDate() - startDate.getDate();
+            
+            // Adjust for negative days
+            if (days < 0) {
+                months--;
+                const prevMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 0);
+                days += prevMonth.getDate();
+            }
+            
+            // Adjust for negative months
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+            
+            // Include end date adjustment
+            if (includeEnd) {
+                days += 1;
+                const daysInMonth = new Date(endDate.getFullYear(), endDate.getMonth() + 1, 0).getDate();
+                if (days > daysInMonth) {
+                    days = 1;
+                    months++;
+                    if (months >= 12) {
+                        months = 0;
+                        years++;
+                    }
+                }
+            }
+            
+            // Calculate total months
+            const totalMonths = years * 12 + months;
+            
+            // Calculate weeks
             const totalWeeks = Math.floor(totalDays / 7);
             const remainingDaysAfterWeeks = totalDays % 7;
             
-            const totalMonths = Math.floor(totalDays / 30);
-            const remainingDaysAfterMonths = totalDays % 30;
+            // Calculate weeks and days from years
+            const daysInYears = Math.floor(totalDays / 365) * 365;
+            const remainingDaysAfterYears = totalDays - daysInYears;
+            const weeksFromRemaining = Math.floor(remainingDaysAfterYears / 7);
+            const daysFromRemaining = remainingDaysAfterYears % 7;
             
             const variations = document.getElementById('variations');
+            const yearText = years === 1 ? 'Year' : 'Years';
+            const monthText = months === 1 ? 'Month' : 'Months';
+            const dayText = days === 1 ? 'Day' : 'Days';
+            const weekText = totalWeeks === 1 ? 'Week' : 'Weeks';
+            
             variations.innerHTML = `
-                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Days</div>
-                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Months, <strong>0</strong> Days</div>
-                <div class="variation-item"><strong>1</strong> Year, <strong>0</strong> Weeks, <strong>0</strong> Days</div>
-                <div class="variation-item"><strong>${totalMonths}</strong> Months, <strong>0</strong> Days</div>
-                <div class="variation-item"><strong>${totalWeeks}</strong> Weeks, <strong>${remainingDaysAfterWeeks}</strong> Day</div>
-                <div class="variation-item"><strong>${totalDays}</strong> Days</div>
+                <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${days}</strong> ${dayText}</div>
+                <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${months}</strong> ${monthText}, <strong>${days}</strong> ${dayText}</div>
+                <div class="variation-item"><strong>${Math.floor(totalDays / 365)}</strong> ${Math.floor(totalDays / 365) === 1 ? 'Year' : 'Years'}, <strong>${weeksFromRemaining}</strong> ${weeksFromRemaining === 1 ? 'Week' : 'Weeks'}, <strong>${daysFromRemaining}</strong> ${daysFromRemaining === 1 ? 'Day' : 'Days'}</div>
+                <div class="variation-item"><strong>${totalMonths}</strong> ${totalMonths === 1 ? 'Month' : 'Months'}, <strong>${days}</strong> ${dayText}</div>
+                <div class="variation-item"><strong>${totalWeeks}</strong> ${weekText}, <strong>${remainingDaysAfterWeeks}</strong> ${remainingDaysAfterWeeks === 1 ? 'Day' : 'Days'}</div>
+                <div class="variation-item"><strong>${totalDays}</strong> ${totalDays === 1 ? 'Day' : 'Days'}</div>
             `;
             
             // Calculate various number patterns

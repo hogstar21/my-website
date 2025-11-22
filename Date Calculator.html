@@ -714,13 +714,16 @@
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-        // Set current date for date 2 inputs
+       // Set current date for date 2 inputs
         const now = new Date();
         document.getElementById('month2').value = now.getMonth() + 1;
         document.getElementById('day2').value = now.getDate();
         document.getElementById('year2').value = now.getFullYear();
         
-    
+        // Set date 1 to exactly 1 year before date 2
+        document.getElementById('month1').value = now.getMonth() + 1;
+        document.getElementById('day1').value = now.getDate();
+        document.getElementById('year1').value = now.getFullYear() - 1;
         
         function formatDate(month, day, year) {
             const date = new Date(year, month - 1, day);
@@ -1042,6 +1045,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

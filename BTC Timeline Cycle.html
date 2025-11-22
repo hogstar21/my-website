@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BTC Cycle Timeline (2014 → 2100)</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--muted:#9aa4bf;--accent:#60a5fa;--glass:rgba(255,255,255,0.03)}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef8;background:linear-gradient(180deg,#071029 0%, #081126 60%);}
+    .container{max-width:1100px;margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.7);}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .controls{display:flex;gap:8px;align-items:center}
+    button, select{background:var(--glass);border:1px solid rgba(255,255,255,0.04);color:#e6eef8;padding:8px 10px;border-radius:10px;cursor:pointer}
+    .table-wrap{margin-top:20px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.03)}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    thead{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter:blur(6px)}
+    th,td{padding:12px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.02)}
+    th{font-size:13px;color:var(--muted);position:sticky;top:0}
+    tr:hover td{background:linear-gradient(90deg, rgba(96,165,250,0.03), transparent)}
+    .muted{color:var(--muted);font-size:13px}
+    .actions{display:flex;gap:8px}
+    footer{margin-top:16px;color:var(--muted);font-size:13px}
+    @media(max-width:760px){.controls{flex-direction:column;align-items:flex-start}th,td{padding:10px}}
+  .highlight{background:rgba(255,255,0,0.15)!important;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>BTC Cycle Timeline — 2014 → 2100</h1>
+        <p class="lead">Pattern: <strong>ATH → ATL = 364 days</strong> and <strong>ATL → ATH = 1064 days</strong>. Anchor: <em>2025-10-06 ATH</em>.</p>
+      </div>
+      <div class="controls">
+        <label class="muted">Date format:</label>
+        <select id="formatSelect">
+          <option value="iso">ISO (YYYY-MM-DD)</option>
+          <option value="long">Long (e.g., Oct 6, 2025)</option>
+        </select>
+        <div class="actions">
+          <button id="downloadCsv">Download CSV</button>
+          <button id="copyClip">Copy CSV to clipboard</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="table-wrap">
+      <table id="timelineTable">
+        <thead>
+          <tr>
+            <th>Start Date</th>
+            <th>Start Type</th>
+            <th>Arrow</th>
+            <th>End Date</th>
+            <th>End Type</th>
+            <th>Days</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+
+  </div>
+
+  <script>
+    // Data array: start_date, start_type, end_date, end_type, days
+    const data = [
+      ["2014-01-13","ATH","2015-01-12","ATL",364],
+      ["2015-01-12","ATL","2017-12-11","ATH",1064],
+      ["2017-12-11","ATH","2018-12-10","ATL",364],
+      ["2018-12-10","ATL","2021-11-08","ATH",1064],
+      ["2021-11-08","ATH","2022-11-07","ATL",364],
+      ["2022-11-07","ATL","2025-10-06","ATH",1064],
+      ["2025-10-06","ATH","2026-10-05","ATL",364],
+      ["2026-10-05","ATL","2029-09-03","ATH",1064],
+      ["2029-09-03","ATH","2030-09-02","ATL",364],
+      ["2030-09-02","ATL","2033-08-01","ATH",1064],
+      ["2033-08-01","ATH","2034-07-31","ATL",364],
+      ["2034-07-31","ATL","2037-06-29","ATH",1064],
+      ["2037-06-29","ATH","2038-06-28","ATL",364],
+      ["2038-06-28","ATL","2041-05-27","ATH",1064],
+      ["2041-05-27","ATH","2042-05-26","ATL",364],
+      ["2042-05-26","ATL","2045-04-24","ATH",1064],
+      ["2045-04-24","ATH","2046-04-23","ATL",364],
+      ["2046-04-23","ATL","2049-03-22","ATH",1064],
+      ["2049-03-22","ATH","2050-03-21","ATL",364],
+      ["2050-03-21","ATL","2053-02-17","ATH",1064],
+      ["2053-02-17","ATH","2054-02-16","ATL",364],
+      ["2054-02-16","ATL","2057-01-15","ATH",1064],
+      ["2057-01-15","ATH","2058-01-14","ATL",364],
+      ["2058-01-14","ATL","2060-12-13","ATH",1064],
+      ["2060-12-13","ATH","2061-12-12","ATL",364],
+      ["2061-12-12","ATL","2064-11-10","ATH",1064],
+      ["2064-11-10","ATH","2065-11-09","ATL",364],
+      ["2065-11-09","ATL","2068-10-07","ATH",1064],
+      ["2068-10-07","ATH","2069-10-06","ATL",364],
+      ["2069-10-06","ATL","2072-09-03","ATH",1064],
+      ["2072-09-03","ATH","2073-09-02","ATL",364],
+      ["2073-09-02","ATL","2076-08-01","ATH",1064],
+      ["2076-08-01","ATH","2077-07-31","ATL",364],
+      ["2077-07-31","ATL","2080-06-28","ATH",1064],
+      ["2080-06-28","ATH","2081-06-27","ATL",364],
+      ["2081-06-27","ATL","2084-05-25","ATH",1064],
+      ["2084-05-25","ATH","2085-05-24","ATL",364],
+      ["2085-05-24","ATL","2088-04-22","ATH",1064],
+      ["2088-04-22","ATH","2089-04-21","ATL",364],
+      ["2089-04-21","ATL","2092-03-20","ATH",1064],
+      ["2092-03-20","ATH","2093-03-19","ATL",364],
+      ["2093-03-19","ATL","2096-02-16","ATH",1064],
+      ["2096-02-16","ATH","2097-02-14","ATL",364],
+      ["2097-02-14","ATL","2100-01-13","ATH",1064]
+    ];
+
+    const tbody = document.querySelector('#timelineTable tbody');
+    const formatSelect = document.getElementById('formatSelect');
+
+    function formatDate(iso, mode){
+      if(mode==='iso') return iso;
+      const d = new Date(iso + 'T00:00:00Z');
+      const opts = { year:'numeric', month:'short', day:'numeric' };
+      return d.toLocaleDateString(undefined, opts);
+    }
+
+    function render(){
+      tbody.innerHTML = '';
+      const mode = formatSelect.value;
+      for(const row of data){
+        const tr = document.createElement('tr');
+        const [sdate, stype, edate, etype, days] = row;
+        tr.innerHTML = `
+          <td>${formatDate(sdate, mode)}</td>
+          <td>${stype}</td>
+          <td>→</td>
+          <td>${formatDate(edate, mode)}</td>
+          <td>${etype}</td>
+          <td>${days}</td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    formatSelect.addEventListener('change', render);
+    render();
+
+    // Highlight next upcoming date
+    (function(){
+      const today = new Date().toISOString().slice(0,10);
+      const rows = tbody.querySelectorAll('tr');
+      for(const r of rows){
+        const dateIso = r.children[0].textContent.match(/\d{4}-\d{2}-\d{2}/);
+        if(dateIso && dateIso[0] >= today){
+          r.classList.add('highlight');
+          break;
+        }
+      }
+    })();
+
+    function arrayToCsv(arr){
+      const header = ["start_date","start_type","end_date","end_type","days"];
+      const lines = [header.join(',')];
+      for(const r of arr){
+        lines.push(r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(','));
+      }
+      return lines.join('\n');
+    }
+
+    document.getElementById('downloadCsv').addEventListener('click',()=>{
+      const csv = arrayToCsv(data);
+      const blob = new Blob([csv],{type:'text/csv'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'btc_cycle_2014-2100.csv';
+      document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    document.getElementById('copyClip').addEventListener('click', async ()=>{
+      const csv = arrayToCsv(data);
+      try{ await navigator.clipboard.writeText(csv); alert('CSV copied to clipboard'); }
+      catch(e){ alert('Copy failed — your browser may block clipboard access.'); }
+    });
+  </script>
+</body>
+</html>

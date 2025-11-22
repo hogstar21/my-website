@@ -5,6 +5,65 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>BTC Cycle Timeline (2014 → 2100)</title>
   <style>
+    /* Image Overlay - Shows First */
+    .image-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        transition: opacity 0.5s ease;
+    }
+
+    .image-overlay.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .overlay-image {
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+    }
+
+    /* Invisible Button - positioned in specific area */
+    .secret-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 10001;
+        opacity: 0;
+    }
+
+    /* Subtle hint on hover (optional - remove if you want it completely invisible) */
+    .secret-button:hover {
+        opacity: 0.05;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Main Content - Hidden Initially */
+    .main-content {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        pointer-events: none;
+    }
+
+    .main-content.visible {
+        opacity: 1;
+        pointer-events: all;
+    }
+
     /* Navigation Toggle Button */
     .nav-toggle-btn {
         position: fixed;
@@ -289,129 +348,151 @@
   </style>
 </head>
 <body>
-  <!-- Toggle Button -->
-  <div class="nav-toggle-btn" id="toggleBtn">
-    <div class="icon">🎯</div>
-    <div class="label">Menu</div>
+  <!-- Image Overlay with Secret Button -->
+  <div class="image-overlay" id="imageOverlay">
+    <img src="ChatGPT Image Nov 22, 2025, 12_05_40 PM.png" alt="Hidden Image" class="overlay-image">
+    <button class="secret-button" id="secretBtn" aria-label="Hidden button"></button>
   </div>
 
-  <!-- Wheel Overlay -->
-  <div class="wheel-overlay" id="wheelOverlay">
-    <div class="close-btn" id="closeBtn">✕</div>
-    
-    <div class="wheel-container">
-        <div class="wheel" id="wheel">
-            <!-- Segment 0 - Pictures -->
-            <div class="wheel-segment segment-0" data-page="Pics.html">
-                <div class="segment-content">
-                    <div class="segment-icon">🖼️</div>
-                    <div class="segment-label">Pictures</div>
-                </div>
-            </div>
-
-            <!-- Segment 1 - Clock -->
-            <div class="wheel-segment segment-1" data-page="clock.html">
-                <div class="segment-content">
-                    <div class="segment-icon">🕐</div>
-                    <div class="segment-label">Clock</div>
-                </div>
-            </div>
-
-            <!-- Segment 2 - Calculator -->
-            <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
-                <div class="segment-content">
-                    <div class="segment-icon">🔢</div>
-                    <div class="segment-label">Calculator</div>
-                </div>
-            </div>
-
-            <!-- Segment 3 - Cycle -->
-            <div class="wheel-segment segment-3" data-page="BTC Timeline Cycle.html">
-                <div class="segment-content">
-                    <div class="segment-icon">🐂</div>
-                    <div class="segment-label">Cycle</div>
-                </div>
-            </div>
-
-            <!-- Segment 4 - Posts -->
-            <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
-                <div class="segment-content">
-                    <div class="segment-icon">📝</div>
-                    <div class="segment-label">Posts</div>
-                </div>
-            </div>
-
-            <!-- Segment 5 - Empty (Future) -->
-            <div class="wheel-segment segment-5" data-page="">
-                <div class="segment-content">
-                    <div class="segment-icon">❓</div>
-                    <div class="segment-label">Empty</div>
-                </div>
-            </div>
-
-            <!-- Segment 6 - Empty (Future) -->
-            <div class="wheel-segment segment-6" data-page="">
-                <div class="segment-content">
-                    <div class="segment-icon">❓</div>
-                    <div class="segment-label">Empty</div>
-                </div>
-            </div>
-
-            <!-- Segment 7 - Empty (Future) -->
-            <div class="wheel-segment segment-7" data-page="">
-                <div class="segment-content">
-                    <div class="segment-icon">❓</div>
-                    <div class="segment-label">Empty</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="wheel-center" onclick="window.location.href='index.html'">
-            <div class="center-text">🏠 HOME</div>
-            <div class="page-title" id="pageTitle">Select Page</div>
-        </div>
+  <!-- Main Content (Hidden Initially) -->
+  <div class="main-content" id="mainContent">
+    <!-- Toggle Button -->
+    <div class="nav-toggle-btn" id="toggleBtn">
+      <div class="icon">🎯</div>
+      <div class="label">Menu</div>
     </div>
 
-    <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
-  </div>
+    <!-- Wheel Overlay -->
+    <div class="wheel-overlay" id="wheelOverlay">
+      <div class="close-btn" id="closeBtn">✕</div>
+      
+      <div class="wheel-container">
+          <div class="wheel" id="wheel">
+              <!-- Segment 0 - Pictures -->
+              <div class="wheel-segment segment-0" data-page="Pics.html">
+                  <div class="segment-content">
+                      <div class="segment-icon">🖼️</div>
+                      <div class="segment-label">Pictures</div>
+                  </div>
+              </div>
 
-  <div class="container">
-    <header>
-      <div>
-        <h1>BTC Cycle Timeline — 2014 → 2100</h1>
-        <p class="lead">Pattern: <strong>ATH → ATL = 364 days</strong> and <strong>ATL → ATH = 1064 days</strong>. Anchor: <em>2025-10-06 ATH</em>.</p>
+              <!-- Segment 1 - Clock -->
+              <div class="wheel-segment segment-1" data-page="clock.html">
+                  <div class="segment-content">
+                      <div class="segment-icon">🕐</div>
+                      <div class="segment-label">Clock</div>
+                  </div>
+              </div>
+
+              <!-- Segment 2 - Calculator -->
+              <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
+                  <div class="segment-content">
+                      <div class="segment-icon">🔢</div>
+                      <div class="segment-label">Calculator</div>
+                  </div>
+              </div>
+
+              <!-- Segment 3 - Cycle -->
+              <div class="wheel-segment segment-3" data-page="BTC Timeline Cycle.html">
+                  <div class="segment-content">
+                      <div class="segment-icon">🐂</div>
+                      <div class="segment-label">Cycle</div>
+                  </div>
+              </div>
+
+              <!-- Segment 4 - Posts -->
+              <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
+                  <div class="segment-content">
+                      <div class="segment-icon">📝</div>
+                      <div class="segment-label">Posts</div>
+                  </div>
+              </div>
+
+              <!-- Segment 5 - Empty (Future) -->
+              <div class="wheel-segment segment-5" data-page="">
+                  <div class="segment-content">
+                      <div class="segment-icon">❓</div>
+                      <div class="segment-label">Empty</div>
+                  </div>
+              </div>
+
+              <!-- Segment 6 - Empty (Future) -->
+              <div class="wheel-segment segment-6" data-page="">
+                  <div class="segment-content">
+                      <div class="segment-icon">❓</div>
+                      <div class="segment-label">Empty</div>
+                  </div>
+              </div>
+
+              <!-- Segment 7 - Empty (Future) -->
+              <div class="wheel-segment segment-7" data-page="">
+                  <div class="segment-content">
+                      <div class="segment-icon">❓</div>
+                      <div class="segment-label">Empty</div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="wheel-center" onclick="window.location.href='index.html'">
+              <div class="center-text">🏠 HOME</div>
+              <div class="page-title" id="pageTitle">Select Page</div>
+          </div>
       </div>
-      <div class="controls">
-        <label class="muted">Date format:</label>
-        <select id="formatSelect">
-          <option value="iso">ISO (YYYY-MM-DD)</option>
-          <option value="long">Long (e.g., Oct 6, 2025)</option>
-        </select>
-        <div class="actions">
-          <button id="downloadCsv">Download CSV</button>
-          <button id="copyClip">Copy CSV to clipboard</button>
+
+      <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
+    </div>
+
+    <div class="container">
+      <header>
+        <div>
+          <h1>BTC Cycle Timeline — 2014 → 2100</h1>
+          <p class="lead">Pattern: <strong>ATH → ATL = 364 days</strong> and <strong>ATL → ATH = 1064 days</strong>. Anchor: <em>2025-10-06 ATH</em>.</p>
         </div>
-      </div>
-    </header>
+        <div class="controls">
+          <label class="muted">Date format:</label>
+          <select id="formatSelect">
+            <option value="iso">ISO (YYYY-MM-DD)</option>
+            <option value="long">Long (e.g., Oct 6, 2025)</option>
+          </select>
+          <div class="actions">
+            <button id="downloadCsv">Download CSV</button>
+            <button id="copyClip">Copy CSV to clipboard</button>
+          </div>
+        </div>
+      </header>
 
-    <div class="table-wrap">
-      <table id="timelineTable">
-        <thead>
-          <tr>
-            <th>Start Date</th>
-            <th>Start Type</th>
-            <th>Arrow</th>
-            <th>End Date</th>
-            <th>End Type</th>
-            <th>Days</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div class="table-wrap">
+        <table id="timelineTable">
+          <thead>
+            <tr>
+              <th>Start Date</th>
+              <th>Start Type</th>
+              <th>Arrow</th>
+              <th>End Date</th>
+              <th>End Type</th>
+              <th>Days</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
   <script>
+    // Secret Button Logic
+    const secretBtn = document.getElementById('secretBtn');
+    const imageOverlay = document.getElementById('imageOverlay');
+    const mainContent = document.getElementById('mainContent');
+
+    secretBtn.addEventListener('click', () => {
+      imageOverlay.classList.add('hidden');
+      setTimeout(() => {
+        imageOverlay.style.display = 'none';
+        mainContent.classList.add('visible');
+      }, 500);
+    });
+
     // Data array: start_date, start_type, end_date, end_type, days
     const data = [
       ["2014-01-13","ATH","2015-01-12","ATL",364],

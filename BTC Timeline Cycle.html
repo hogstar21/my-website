@@ -21,7 +21,7 @@
     }
 
     .image-overlay.hidden {
-        opacity: 1;
+        opacity: 0;
         pointer-events: none;
     }
 
@@ -74,7 +74,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        z-index: 1000;
+        z-index: 10500;
         transition: all 0.3s ease;
     }
 
@@ -109,7 +109,7 @@
         display: none;
         justify-content: center;
         align-items: center;
-        z-index: 9999;
+        z-index: 10600;
         opacity: 0;
         transition: opacity 0.3s ease;
     }
@@ -348,94 +348,94 @@
     <button class="secret-button" id="secretBtn" aria-label="Hidden button"></button>
   </div>
 
+  <!-- Toggle Button (Always Visible) -->
+  <div class="nav-toggle-btn" id="toggleBtn">
+    <div class="icon">🎯</div>
+    <div class="label">Menu</div>
+  </div>
+
+  <!-- Wheel Overlay -->
+  <div class="wheel-overlay" id="wheelOverlay">
+    <div class="close-btn" id="closeBtn">✕</div>
+    
+    <div class="wheel-container">
+        <div class="wheel" id="wheel">
+            <!-- Segment 0 - Pictures -->
+            <div class="wheel-segment segment-0" data-page="Pics.html">
+                <div class="segment-content">
+                    <div class="segment-icon">🖼️</div>
+                    <div class="segment-label">Pictures</div>
+                </div>
+            </div>
+
+            <!-- Segment 1 - Clock -->
+            <div class="wheel-segment segment-1" data-page="clock.html">
+                <div class="segment-content">
+                    <div class="segment-icon">🕐</div>
+                    <div class="segment-label">Clock</div>
+                </div>
+            </div>
+
+            <!-- Segment 2 - Calculator -->
+            <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
+                <div class="segment-content">
+                    <div class="segment-icon">🔢</div>
+                    <div class="segment-label">Calculator</div>
+                </div>
+            </div>
+
+            <!-- Segment 3 - Cycle -->
+            <div class="wheel-segment segment-3" data-page="BTC Timeline Cycle.html">
+                <div class="segment-content">
+                    <div class="segment-icon">🐂</div>
+                    <div class="segment-label">Cycle</div>
+                </div>
+            </div>
+
+            <!-- Segment 4 - Posts -->
+            <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
+                <div class="segment-content">
+                    <div class="segment-icon">📝</div>
+                    <div class="segment-label">Posts</div>
+                </div>
+            </div>
+
+            <!-- Segment 5 - Empty (Future) -->
+            <div class="wheel-segment segment-5" data-page="">
+                <div class="segment-content">
+                    <div class="segment-icon">❓</div>
+                    <div class="segment-label">Empty</div>
+                </div>
+            </div>
+
+            <!-- Segment 6 - Empty (Future) -->
+            <div class="wheel-segment segment-6" data-page="">
+                <div class="segment-content">
+                    <div class="segment-icon">❓</div>
+                    <div class="segment-label">Empty</div>
+                </div>
+            </div>
+
+            <!-- Segment 7 - Empty (Future) -->
+            <div class="wheel-segment segment-7" data-page="">
+                <div class="segment-content">
+                    <div class="segment-icon">❓</div>
+                    <div class="segment-label">Empty</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wheel-center" onclick="window.location.href='index.html'">
+            <div class="center-text">🏠 HOME</div>
+            <div class="page-title" id="pageTitle">Select Page</div>
+        </div>
+    </div>
+
+    <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
+  </div>
+
   <!-- Main Content (Hidden Initially) -->
   <div class="main-content" id="mainContent">
-    <!-- Toggle Button -->
-    <div class="nav-toggle-btn" id="toggleBtn">
-      <div class="icon">🎯</div>
-      <div class="label">Menu</div>
-    </div>
-
-    <!-- Wheel Overlay -->
-    <div class="wheel-overlay" id="wheelOverlay">
-      <div class="close-btn" id="closeBtn">✕</div>
-      
-      <div class="wheel-container">
-          <div class="wheel" id="wheel">
-              <!-- Segment 0 - Pictures -->
-              <div class="wheel-segment segment-0" data-page="Pics.html">
-                  <div class="segment-content">
-                      <div class="segment-icon">🖼️</div>
-                      <div class="segment-label">Pictures</div>
-                  </div>
-              </div>
-
-              <!-- Segment 1 - Clock -->
-              <div class="wheel-segment segment-1" data-page="clock.html">
-                  <div class="segment-content">
-                      <div class="segment-icon">🕐</div>
-                      <div class="segment-label">Clock</div>
-                  </div>
-              </div>
-
-              <!-- Segment 2 - Calculator -->
-              <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
-                  <div class="segment-content">
-                      <div class="segment-icon">🔢</div>
-                      <div class="segment-label">Calculator</div>
-                  </div>
-              </div>
-
-              <!-- Segment 3 - Cycle -->
-              <div class="wheel-segment segment-3" data-page="BTC Timeline Cycle.html">
-                  <div class="segment-content">
-                      <div class="segment-icon">🐂</div>
-                      <div class="segment-label">Cycle</div>
-                  </div>
-              </div>
-
-              <!-- Segment 4 - Posts -->
-              <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
-                  <div class="segment-content">
-                      <div class="segment-icon">📝</div>
-                      <div class="segment-label">Posts</div>
-                  </div>
-              </div>
-
-              <!-- Segment 5 - Empty (Future) -->
-              <div class="wheel-segment segment-5" data-page="">
-                  <div class="segment-content">
-                      <div class="segment-icon">❓</div>
-                      <div class="segment-label">Empty</div>
-                  </div>
-              </div>
-
-              <!-- Segment 6 - Empty (Future) -->
-              <div class="wheel-segment segment-6" data-page="">
-                  <div class="segment-content">
-                      <div class="segment-icon">❓</div>
-                      <div class="segment-label">Empty</div>
-                  </div>
-              </div>
-
-              <!-- Segment 7 - Empty (Future) -->
-              <div class="wheel-segment segment-7" data-page="">
-                  <div class="segment-content">
-                      <div class="segment-icon">❓</div>
-                      <div class="segment-label">Empty</div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="wheel-center" onclick="window.location.href='index.html'">
-              <div class="center-text">🏠 HOME</div>
-              <div class="page-title" id="pageTitle">Select Page</div>
-          </div>
-      </div>
-
-      <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
-    </div>
-
     <div class="container">
       <header>
         <div>
@@ -671,8 +671,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-

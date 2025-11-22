@@ -187,6 +187,14 @@
         .cipher-value.capitals-added {
             color: #ff69b4;
         }
+
+        .prime-indicator {
+            font-size: 0.9em;
+            margin-top: 5px;
+            font-weight: bold;
+            color: #ffd700;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
         
         .word-count {
             text-align: center;
@@ -991,22 +999,27 @@
                 <div class="cipher-result">
                     <div class="cipher-label ordinal">Ordinal</div>
                     <div class="cipher-value ordinal" id="ordinal">0</div>
+                    <div class="prime-indicator" id="ordinal-prime"></div>
                 </div>
                 <div class="cipher-result">
                     <div class="cipher-label reduction">Reduction</div>
                     <div class="cipher-value reduction" id="reduction">0</div>
+                    <div class="prime-indicator" id="reduction-prime"></div>
                 </div>
                 <div class="cipher-result">
                     <div class="cipher-label reverse">Reverse</div>
                     <div class="cipher-value reverse" id="reverse">0</div>
+                    <div class="prime-indicator" id="reverse-prime"></div>
                 </div>
                 <div class="cipher-result">
                     <div class="cipher-label reverse-reduction">Reverse Reduction</div>
                     <div class="cipher-value reverse-reduction" id="reverseReduction">0</div>
+                    <div class="prime-indicator" id="reverseReduction-prime"></div>
                 </div>
                 <div class="cipher-result">
                     <div class="cipher-label capitals-added">Capitals Added</div>
                     <div class="cipher-value capitals-added" id="capitalsAdded">0</div>
+                    <div class="prime-indicator" id="capitalsAdded-prime"></div>
                 </div>
             </div>
             <div class="word-count" id="wordCount">(0 words, 0 letters)</div>
@@ -1307,6 +1320,22 @@
             document.getElementById('reverseReduction').textContent = results['Reverse Reduction'];
             document.getElementById('capitalsAdded').textContent = results['Capitals Added'];
             document.getElementById('wordCount').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
+            
+            // Update prime indicators
+            const cipherIds = ['ordinal', 'reduction', 'reverse', 'reverseReduction', 'capitalsAdded'];
+            const cipherNames = ['Ordinal', 'Reduction', 'Reverse', 'Reverse Reduction', 'Capitals Added'];
+            
+            cipherIds.forEach((id, index) => {
+                const value = results[cipherNames[index]];
+                const primeElement = document.getElementById(`${id}-prime`);
+                
+                if (value > 1 && isPrime(value)) {
+                    const primeIndex = getPrimeIndex(value);
+                    primeElement.textContent = `${getOrdinalSuffix(primeIndex)} prime`;
+                } else {
+                    primeElement.textContent = '';
+                }
+            });
             
             const breakdownSection = document.getElementById('breakdownSection');
             if (text.trim() !== '' && letterCount > 0) {

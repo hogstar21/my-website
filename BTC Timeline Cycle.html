@@ -545,6 +545,21 @@
       return d.toLocaleDateString(undefined, opts);
     }
 
+    function highlightUpcoming(){
+      const today = new Date().toISOString().slice(0,10);
+      const rows = tbody.querySelectorAll('tr');
+      for(const r of rows){
+        r.classList.remove('highlight');
+      }
+      for(let i = 0; i < data.length; i++){
+        const [sdate] = data[i];
+        if(sdate >= today){
+          rows[i].classList.add('highlight');
+          break;
+        }
+      }
+    }
+
     function render(){
       tbody.innerHTML = '';
       const mode = formatSelect.value;
@@ -561,23 +576,11 @@
         `;
         tbody.appendChild(tr);
       }
+      highlightUpcoming();
     }
 
     formatSelect.addEventListener('change', render);
     render();
-
-    // Highlight next upcoming date
-    (function(){
-      const today = new Date().toISOString().slice(0,10);
-      const rows = tbody.querySelectorAll('tr');
-      for(const r of rows){
-        const dateIso = r.children[0].textContent.match(/\d{4}-\d{2}-\d{2}/);
-        if(dateIso && dateIso[0] >= today){
-          r.classList.add('highlight');
-          break;
-        }
-      }
-    })();
 
     function arrayToCsv(arr){
       const header = ["start_date","start_type","end_date","end_type","days"];

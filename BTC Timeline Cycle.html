@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>BTC Cycle Timeline (2014 → 2100)</title>
   <style>
-    <style>
     /* Navigation Toggle Button */
     .nav-toggle-btn {
         position: fixed;
@@ -266,7 +265,8 @@
         .segment-content { width: 55px !important; top: 14% !important; }
         .instruction { font-size: 9px !important; }
     }
-</style>
+
+    /* Original Page Styles */
     :root{--bg:#0f172a;--card:#0b1220;--muted:#9aa4bf;--accent:#60a5fa;--glass:rgba(255,255,255,0.03)}
     html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef8;background:linear-gradient(180deg,#071029 0%, #081126 60%);}
     .container{max-width:1100px;margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.7);}
@@ -285,18 +285,18 @@
     .actions{display:flex;gap:8px}
     footer{margin-top:16px;color:var(--muted);font-size:13px}
     @media(max-width:760px){.controls{flex-direction:column;align-items:flex-start}th,td{padding:10px}}
-  .highlight{background:rgba(255,255,0,0.15)!important;}
+    .highlight{background:rgba(255,255,0,0.15)!important;}
   </style>
 </head>
 <body>
   <!-- Toggle Button -->
-<div class="nav-toggle-btn" id="toggleBtn">
+  <div class="nav-toggle-btn" id="toggleBtn">
     <div class="icon">🎯</div>
     <div class="label">Menu</div>
-</div>
+  </div>
 
-<!-- Wheel Overlay -->
-<div class="wheel-overlay" id="wheelOverlay">
+  <!-- Wheel Overlay -->
+  <div class="wheel-overlay" id="wheelOverlay">
     <div class="close-btn" id="closeBtn">✕</div>
     
     <div class="wheel-container">
@@ -373,7 +373,8 @@
     </div>
 
     <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
-</div>
+  </div>
+
   <div class="container">
     <header>
       <div>
@@ -408,8 +409,6 @@
         <tbody></tbody>
       </table>
     </div>
-
-
   </div>
 
   <script>
@@ -528,7 +527,8 @@
       try{ await navigator.clipboard.writeText(csv); alert('CSV copied to clipboard'); }
       catch(e){ alert('Copy failed — your browser may block clipboard access.'); }
     });
-    <script>
+
+    // Navigation Wheel Script
     const toggleBtn = document.getElementById('toggleBtn');
     const closeBtn = document.getElementById('closeBtn');
     const wheelOverlay = document.getElementById('wheelOverlay');
@@ -593,8 +593,6 @@
         segments.forEach(s => s.classList.remove('active'));
         pageTitle.textContent = 'Select Page';
     });
-</script>
   </script>
 </body>
 </html>
-

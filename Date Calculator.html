@@ -834,9 +834,21 @@
             const monthText = months === 1 ? 'Month' : 'Months';
             const dayText = days === 1 ? 'Day' : 'Days';
             const weekText = totalWeeks === 1 ? 'Week' : 'Weeks';
+
+            // Calculate total days from just the year portion
+const daysFromYearsOnly = years * 365;
+// Add leap days
+let leapDays = 0;
+for (let y = startDate.getFullYear(); y < startDate.getFullYear() + years; y++) {
+    if ((y % 4 === 0 && y % 100 !== 0) || (y % 400 === 0)) {
+        leapDays++;
+    }
+}
+const totalDaysInYearPortion = daysFromYearsOnly + leapDays;
+const daysAfterYears = totalDays - totalDaysInYearPortion;
             
             variations.innerHTML = `
-                <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${days}</strong> ${dayText}</div>
+                <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${daysAfterYears}</strong> ${daysAfterYears === 1 ? 'Day' : 'Days'}</div>
                 <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${months}</strong> ${monthText}, <strong>${days}</strong> ${dayText}</div>
                 <div class="variation-item"><strong>${Math.floor(totalDays / 365)}</strong> ${Math.floor(totalDays / 365) === 1 ? 'Year' : 'Years'}, <strong>${weeksFromRemaining}</strong> ${weeksFromRemaining === 1 ? 'Week' : 'Weeks'}, <strong>${daysFromRemaining}</strong> ${daysFromRemaining === 1 ? 'Day' : 'Days'}</div>
                 <div class="variation-item"><strong>${totalMonths}</strong> ${totalMonths === 1 ? 'Month' : 'Months'}, <strong>${days}</strong> ${dayText}</div>
@@ -1045,6 +1057,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

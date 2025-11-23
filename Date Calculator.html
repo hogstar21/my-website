@@ -394,9 +394,7 @@
             flex-wrap: wrap;
         }
         
-        .sidebar {
-            flex: 0 0 250px;
-        }
+     
         
         .section-title {
             color: #4a9eff;
@@ -518,13 +516,13 @@
         }
         
         @media (max-width: 900px) {
-            .main-content {
-                flex-direction: column;
-            }
-            
-            .sidebar, .variations {
-                flex: 1;
-            }
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .variations {
+        flex: 1;
+    }
             
             .calculations {
                 grid-template-columns: 1fr;
@@ -653,27 +651,7 @@
         </div>
         
         <div class="main-content">
-            <div class="sidebar">
-                <div class="section-title">Select Durations to View:</div>
-                <div class="duration-options">
-                    <label>
-                        <input type="checkbox" id="view-year" checked>
-                        <span>Year</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="view-month" checked>
-                        <span>Month</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="view-week" checked>
-                        <span>Week</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="view-day" checked>
-                        <span>Day</span>
-                    </label>
-                </div>
-            </div>
+            
             
             <div class="center-section">
                 <div class="time-between">
@@ -1057,6 +1035,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

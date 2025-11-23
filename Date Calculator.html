@@ -388,11 +388,13 @@
         }
         
         .main-content {
-            display: flex;
-            gap: 30px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
         
      
         
@@ -424,9 +426,10 @@
         }
         
         .center-section {
-            flex: 1;
-            min-width: 300px;
-        }
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
         
         .time-between {
             text-align: center;
@@ -501,8 +504,9 @@
         }
         
         .variations {
-            flex: 0 0 250px;
-        }
+    flex: 0 0 280px;
+    min-width: 280px;
+}
         
         .variation-list {
             display: flex;
@@ -515,19 +519,26 @@
             color: #4af;
         }
         
-        @media (max-width: 900px) {
+     @media (max-width: 900px) {
     .main-content {
         flex-direction: column;
+        align-items: center;
+    }
+    
+    .center-section {
+        width: 100%;
+        max-width: 100%;
     }
     
     .variations {
-        flex: 1;
+        width: 100%;
+        max-width: 600px;
     }
-            
-            .calculations {
-                grid-template-columns: 1fr;
-            }
-        }
+    
+    .calculations {
+        grid-template-columns: 1fr;
+    }
+}
     </style>
 </head>
 <body>
@@ -1035,6 +1046,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

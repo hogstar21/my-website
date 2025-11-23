@@ -5,943 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gematria Calculator</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            background: #1a1a1a;
-            color: #fff;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        
-        .input-section {
-            margin-bottom: 30px;
-        }
-        
-        input[type="text"] {
-            width: 100%;
-            padding: 20px;
-            font-size: 1.3em;
-            background: #2a2a2a;
-            border: 2px solid #444;
-            border-radius: 8px;
-            color: #888;
-            transition: all 0.3s;
-        }
-        
-        input[type="text"]:focus {
-            outline: none;
-            border-color: #666;
-            color: #fff;
-        }
-        
-        .results-box {
-            background: #2a2a2a;
-            border: 2px solid #444;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .breakdown-section {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #444;
-        }
-        
-        .breakdown-title {
-            color: #fff;
-            font-size: 1.3em;
-            margin-bottom: 20px;
-            font-weight: normal;
-        }
-        
-        .breakdown-title .phrase {
-            color: #fff;
-        }
-        
-        .breakdown-title .value {
-            color: #00ff00;
-        }
-        
-        .breakdown-letters {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin-bottom: 8px;
-            flex-wrap: wrap;
-        }
-        
-        .breakdown-letter {
-            color: #ff8c00;
-            font-size: 1.6em;
-            font-weight: bold;
-            min-width: 20px;
-        }
-        
-        .breakdown-numbers {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .breakdown-number {
-            color: #ff8c00;
-            font-size: 1.3em;
-            min-width: 20px;
-        }
-        
-        .breakdown-total {
-            color: #00ff00;
-            font-size: 3em;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        
-        .breakdown-cipher {
-            color: #00ff00;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        .results-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 30px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .cipher-result {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .cipher-label {
-            font-size: 1.1em;
-            margin-bottom: 10px;
-            font-weight: normal;
-        }
-        
-        .cipher-label.ordinal {
-            color: #00ff00;
-        }
-        
-        .cipher-label.reduction {
-            color: #4169ff;
-        }
-        
-        .cipher-label.reverse {
-            color: #00ff00;
-        }
-        
-        .cipher-label.reverse-reduction {
-            color: #00d4ff;
-        }
-        
-        .cipher-label.capitals-added {
-            color: #ff69b4;
-        }
-        
-        .cipher-value {
-            font-size: 3em;
-            font-weight: bold;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-
-        .cipher-value:hover {
-            transform: scale(1.1);
-        }
-        
-        .cipher-value.ordinal {
-            color: #00ff00;
-        }
-        
-        .cipher-value.reduction {
-            color: #4169ff;
-        }
-        
-        .cipher-value.reverse {
-            color: #00ff00;
-        }
-        
-        .cipher-value.reverse-reduction {
-            color: #00d4ff;
-        }
-        
-        .cipher-value.capitals-added {
-            color: #ff69b4;
-        }
-
-        .prime-indicator {
-            font-size: 0.9em;
-            margin-top: 5px;
-            font-weight: bold;
-            color: #ffd700;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-        }
-        
-        .word-count {
-            text-align: center;
-            color: #fff;
-            font-size: 1.1em;
-        }
-        
-        .cipher-chart {
-            background: #2a2a2a;
-            border: 2px solid #444;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .chart-grid {
-            display: grid;
-            grid-template-columns: repeat(13, 1fr);
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .chart-cell {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-        }
-        
-        .chart-letter {
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #ff8c00;
-        }
-        
-        .chart-number {
-            font-size: 1.1em;
-            color: #ff8c00;
-        }
-        
-        .chart-controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        
-        .chart-btn {
-            background: none;
-            border: none;
-            color: #888;
-            font-size: 1.5em;
-            cursor: pointer;
-            padding: 5px 10px;
-            transition: color 0.3s;
-        }
-        
-        .chart-btn:hover {
-            color: #fff;
-        }
-        
-        .chart-label {
-            font-size: 1.2em;
-            color: #00ff00;
-            font-weight: bold;
-        }
-        
-        .history {
-            background: #2a2a2a;
-            border: 2px solid #444;
-            border-radius: 12px;
-            padding: 30px;
-        }
-        
-        .history h2 {
-            color: #fff;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-        }
-        
-        .history-item {
-            background: #1a1a1a;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        
-        .history-item:hover {
-            background: #333;
-        }
-        
-        .history-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        
-        .history-text {
-            color: #fff;
-            font-size: 1.1em;
-            font-weight: bold;
-        }
-        
-        .history-values {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            text-align: center;
-        }
-        
-        .history-cipher {
-            display: flex;
-            flex-direction: column;
-            gap: 3px;
-        }
-        
-        .history-cipher-label {
-            font-size: 0.85em;
-            opacity: 0.8;
-        }
-        
-        .history-cipher-value {
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        
-        .history-cipher.ordinal .history-cipher-label,
-        .history-cipher.ordinal .history-cipher-value {
-            color: #00ff00;
-        }
-        
-        .history-cipher.reduction .history-cipher-label,
-        .history-cipher.reduction .history-cipher-value {
-            color: #4169ff;
-        }
-        
-        .history-cipher.reverse .history-cipher-label,
-        .history-cipher.reverse .history-cipher-value {
-            color: #00ff00;
-        }
-        
-        .history-cipher.reverse-reduction .history-cipher-label,
-        .history-cipher.reverse-reduction .history-cipher-value {
-            color: #00d4ff;
-        }
-        
-        .history-cipher.capitals-added .history-cipher-label,
-        .history-cipher.capitals-added .history-cipher-value {
-            color: #ff69b4;
-        }
-        
-        .clear-btn {
-            background: #dc3545;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        
-        .clear-btn:hover {
-            background: #c82333;
-        }
-        
-        .empty-state {
-            text-align: center;
-            color: #666;
-            padding: 20px;
-            font-style: italic;
-        }
-
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 10000;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .modal-overlay.active {
-            display: flex;
-            opacity: 1;
-        }
-
-        .modal-content {
-            background: #1a1a1a;
-            border: 2px solid #444;
-            border-radius: 12px;
-            padding: 30px;
-            max-width: 600px;
-            max-height: 80vh;
-            overflow-y: auto;
-            position: relative;
-            transform: scale(0.8);
-            transition: transform 0.3s ease;
-        }
-
-        .modal-overlay.active .modal-content {
-            transform: scale(1);
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: #dc3545;
-            color: white;
-            border: none;
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background 0.3s;
-        }
-
-        .modal-close:hover {
-            background: #c82333;
-        }
-
-        .modal-title {
-            color: #5bc0de;
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        .modal-number {
-            color: #fff;
-            font-size: 3em;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .modal-factorization {
-            color: #fff;
-            font-size: 1.2em;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .modal-properties {
-            margin-bottom: 20px;
-        }
-
-        .modal-property {
-            color: #4ade80;
-            font-size: 1.2em;
-            margin-bottom: 8px;
-            text-align: center;
-        }
-
-        .modal-section-title {
-            color: #5bc0de;
-            font-size: 1.3em;
-            margin: 20px 0 15px 0;
-            text-align: center;
-        }
-
-        .modal-divisors {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 10px;
-        }
-
-        .modal-info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .modal-info-item {
-            text-align: center;
-        }
-
-        .modal-info-label {
-            color: #888;
-            font-size: 0.9em;
-            margin-bottom: 5px;
-        }
-
-        .modal-info-value {
-            color: #5bc0de;
-            font-size: 1.4em;
-            font-weight: bold;
-        }
-
-        .modal-conversions {
-            margin-top: 20px;
-        }
-
-        .modal-conversion-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-            padding: 10px;
-            background: #2a2a2a;
-            border-radius: 5px;
-        }
-
-        .modal-conversion-label {
-            color: #888;
-            font-size: 1em;
-        }
-
-        .modal-conversion-value {
-            color: #5bc0de;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-
-        .nav-toggle-btn {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(20, 20, 20, 0.95));
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            transition: all 0.3s ease;
-        }
-
-        .nav-toggle-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 8px 35px rgba(0, 0, 0, 0.7);
-            border-color: rgba(255, 255, 255, 0.6);
-        }
-
-        .nav-toggle-btn .icon {
-            font-size: 28px;
-            margin-bottom: 3px;
-        }
-
-        .nav-toggle-btn .label {
-            font-size: 10px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-        }
-
-        .wheel-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.85);
-            backdrop-filter: blur(10px);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .wheel-overlay.active {
-            display: flex;
-            opacity: 1;
-        }
-
-        .close-btn {
-            position: absolute;
-            top: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: rgba(220, 38, 38, 0.9);
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-        }
-
-        .close-btn:hover {
-            background: rgba(239, 68, 68, 1);
-            transform: scale(1.1);
-        }
-
-        .wheel-container {
-            position: relative;
-            width: 600px;
-            height: 600px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform: scale(0.8);
-            transition: transform 0.3s ease;
-        }
-
-        .wheel-overlay.active .wheel-container {
-            transform: scale(1);
-        }
-
-        .wheel {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: rgba(50, 50, 50, 0.95);
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8), inset 0 0 30px rgba(0, 0, 0, 0.5);
-            transform: rotate(-90deg);
-        }
-
-        .wheel-segment {
-            position: absolute;
-            width: 50%;
-            height: 50%;
-            transform-origin: 100% 100%;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            clip-path: polygon(0 0, 100% 0, 100% 100%);
-        }
-
-        .wheel-segment::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: rgba(80, 80, 80, 0.7);
-            border: 2px solid rgba(150, 150, 150, 0.3);
-            clip-path: polygon(0 0, 100% 0, 100% 100%);
-            transition: all 0.3s ease;
-        }
-
-        .wheel-segment:hover::before {
-            background: rgba(120, 120, 120, 0.9);
-            border-color: rgba(255, 255, 255, 0.6);
-        }
-
-        .wheel-segment.active::before {
-            background: rgba(140, 200, 255, 0.8);
-            border-color: rgba(255, 255, 255, 0.9);
-        }
-
-        .segment-content {
-            position: absolute;
-            top: 20%;
-            left: 60%;
-            text-align: center;
-            pointer-events: none;
-            width: 100px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .segment-icon {
-            font-size: 32px;
-            margin-bottom: 5px;
-            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.8));
-        }
-
-        .segment-label {
-            font-size: 12px;
-            color: #fff;
-            text-transform: uppercase;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-            letter-spacing: 0.5px;
-        }
-
-        .wheel-center {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(20, 20, 20, 0.95));
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.5);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 3px solid rgba(100, 100, 100, 0.5);
-            z-index: 10;
-            cursor: pointer;
-        }
-
-        .center-text {
-            color: #fff;
-            font-size: 18px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-            margin-bottom: 8px;
-        }
-
-        .page-title {
-            color: #5bc0de;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-        }
-
-        .instruction {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 16px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-            text-align: center;
-        }
-
-        .segment-0 { transform: rotate(0deg); }
-        .segment-1 { transform: rotate(45deg); }
-        .segment-2 { transform: rotate(90deg); }
-        .segment-3 { transform: rotate(135deg); }
-        .segment-4 { transform: rotate(180deg); }
-        .segment-5 { transform: rotate(225deg); }
-        .segment-6 { transform: rotate(270deg); }
-        .segment-7 { transform: rotate(315deg); }
-
-        .segment-0 .segment-content { 
-            transform: rotate(90deg); 
-            top: 25%;
-            left: 60%;
-        }
-        .segment-1 .segment-content { 
-            transform: rotate(45deg); 
-            top: 20%;
-            left: 55%;
-        }
-        .segment-2 .segment-content { 
-            transform: rotate(360deg); 
-            top: 25%;
-            left: 57%;
-        }
-        .segment-3 .segment-content { 
-            transform: rotate(315deg); 
-            top: 25%;
-            left: 55%;
-        }
-        .segment-4 .segment-content { 
-            transform: rotate(270deg); 
-            top: 25%;
-            left: 55%;
-        }
-        .segment-5 .segment-content { 
-            transform: rotate(225deg); 
-            top: 25%;
-            left: 52%;
-        }
-        .segment-6 .segment-content { 
-            transform: rotate(180deg); 
-            top: 25%;
-            left: 55%;
-        }
-        .segment-7 .segment-content { 
-            transform: rotate(137deg); 
-            top: 25%;
-            left: 60%;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #1a1a1a; color: #fff; padding: 20px; zoom: 90%; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .input-section { margin-bottom: 30px; }
+        .button-row { display: flex; gap: 15px; margin-top: 15px; }
+        .button-row a, .button-row button { flex: 1; padding: 15px 30px; background: #2a2a2a; color: #fff; border: 2px solid #444; border-radius: 8px; font-size: 16px; cursor: pointer; transition: all 0.3s; text-decoration: none; text-align: center; display: inline-block; }
+        .button-row a:hover, .button-row button:hover { background: #3a3a3a; border-color: #666; transform: translateY(-2px); }
+        input[type="text"] { width: 100%; padding: 20px; font-size: 1.3em; background: #2a2a2a; border: 2px solid #444; border-radius: 8px; color: #888; transition: all 0.3s; }
+        input[type="text"]:focus { outline: none; border-color: #666; color: #fff; }
+        .results-box { background: #2a2a2a; border: 2px solid #444; border-radius: 12px; padding: 30px; margin-bottom: 30px; }
+        .breakdown-section { text-align: center; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 2px solid #444; }
+        .breakdown-title { color: #fff; font-size: 1.3em; margin-bottom: 20px; font-weight: normal; }
+        .breakdown-title .phrase { color: #fff; }
+        .breakdown-title .value { color: #00ff00; }
+        .breakdown-letters { display: flex; justify-content: center; gap: 25px; margin-bottom: 8px; flex-wrap: wrap; }
+        .breakdown-letter { color: #ff8c00; font-size: 1.6em; font-weight: bold; min-width: 20px; }
+        .breakdown-numbers { display: flex; justify-content: center; gap: 25px; margin-bottom: 20px; flex-wrap: wrap; }
+        .breakdown-number { color: #ff8c00; font-size: 1.3em; min-width: 20px; }
+        .breakdown-total { color: #00ff00; font-size: 3em; font-weight: bold; margin-bottom: 8px; }
+        .breakdown-cipher { color: #00ff00; font-size: 1.4em; font-weight: bold; margin-bottom: 10px; }
+        .results-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 30px; text-align: center; margin-bottom: 20px; }
+        .cipher-result { display: flex; flex-direction: column; align-items: center; }
+        .cipher-label { font-size: 1.1em; margin-bottom: 10px; font-weight: normal; }
+        .cipher-label.ordinal { color: #00ff00; }
+        .cipher-label.reduction { color: #4169ff; }
+        .cipher-label.reverse { color: #00ff00; }
+        .cipher-label.reverse-reduction { color: #00d4ff; }
+        .cipher-label.capitals-added { color: #ff69b4; }
+        .cipher-value { font-size: 3em; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+        .cipher-value:hover { transform: scale(1.1); }
+        .cipher-value.ordinal { color: #00ff00; }
+        .cipher-value.reduction { color: #4169ff; }
+        .cipher-value.reverse { color: #00ff00; }
+        .cipher-value.reverse-reduction { color: #00d4ff; }
+        .cipher-value.capitals-added { color: #ff69b4; }
+        .prime-indicator { font-size: 0.9em; margin-top: 5px; font-weight: bold; color: #ffd700; text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+        .word-count { text-align: center; color: #fff; font-size: 1.1em; }
+        .cipher-chart { background: #2a2a2a; border: 2px solid #444; border-radius: 12px; padding: 30px; margin-bottom: 30px; }
+        .chart-grid { display: grid; grid-template-columns: repeat(13, 1fr); gap: 15px; margin-bottom: 20px; }
+        .chart-cell { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+        .chart-letter { font-size: 1.3em; font-weight: bold; color: #ff8c00; }
+        .chart-number { font-size: 1.1em; color: #ff8c00; }
+        .chart-controls { display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 20px; }
+        .chart-btn { background: none; border: none; color: #888; font-size: 1.5em; cursor: pointer; padding: 5px 10px; transition: color 0.3s; }
+        .chart-btn:hover { color: #fff; }
+        .chart-label { font-size: 1.2em; color: #00ff00; font-weight: bold; }
+        .history { background: #2a2a2a; border: 2px solid #444; border-radius: 12px; padding: 30px; }
+        .history h2 { color: #fff; margin-bottom: 20px; font-size: 1.5em; }
+        .history-item { background: #1a1a1a; padding: 15px; margin-bottom: 10px; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+        .history-item:hover { background: #333; }
+        .history-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .history-text { color: #fff; font-size: 1.1em; font-weight: bold; }
+        .history-values { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; text-align: center; }
+        .history-cipher { display: flex; flex-direction: column; gap: 3px; }
+        .history-cipher-label { font-size: 0.85em; opacity: 0.8; }
+        .history-cipher-value { font-weight: bold; font-size: 1.1em; }
+        .history-cipher.ordinal .history-cipher-label, .history-cipher.ordinal .history-cipher-value { color: #00ff00; }
+        .history-cipher.reduction .history-cipher-label, .history-cipher.reduction .history-cipher-value { color: #4169ff; }
+        .history-cipher.reverse .history-cipher-label, .history-cipher.reverse .history-cipher-value { color: #00ff00; }
+        .history-cipher.reverse-reduction .history-cipher-label, .history-cipher.reverse-reduction .history-cipher-value { color: #00d4ff; }
+        .history-cipher.capitals-added .history-cipher-label, .history-cipher.capitals-added .history-cipher-value { color: #ff69b4; }
+        .clear-btn { background: #dc3545; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+        .clear-btn:hover { background: #c82333; }
+        .empty-state { text-align: center; color: #666; padding: 20px; font-style: italic; }
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); display: none; justify-content: center; align-items: center; z-index: 10000; opacity: 0; transition: opacity 0.3s ease; }
+        .modal-overlay.active { display: flex; opacity: 1; }
+        .modal-content { background: #1a1a1a; border: 2px solid #444; border-radius: 12px; padding: 30px; max-width: 600px; max-height: 80vh; overflow-y: auto; position: relative; transform: scale(0.8); transition: transform 0.3s ease; }
+        .modal-overlay.active .modal-content { transform: scale(1); }
+        .modal-close { position: absolute; top: 15px; right: 15px; background: #dc3545; color: white; border: none; width: 35px; height: 35px; border-radius: 50%; cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
+        .modal-close:hover { background: #c82333; }
+        .modal-title { color: #5bc0de; font-size: 1.5em; margin-bottom: 10px; text-align: center; }
+        .modal-number { color: #fff; font-size: 3em; font-weight: bold; text-align: center; margin-bottom: 10px; }
+        .modal-factorization { color: #fff; font-size: 1.2em; text-align: center; margin-bottom: 20px; }
+        .modal-properties { margin-bottom: 20px; }
+        .modal-property { color: #4ade80; font-size: 1.2em; margin-bottom: 8px; text-align: center; }
+        .modal-section-title { color: #5bc0de; font-size: 1.3em; margin: 20px 0 15px 0; text-align: center; }
+        .modal-divisors { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+        .modal-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
+        .modal-info-item { text-align: center; }
+        .modal-info-label { color: #888; font-size: 0.9em; margin-bottom: 5px; }
+        .modal-info-value { color: #5bc0de; font-size: 1.4em; font-weight: bold; }
+        .modal-conversions { margin-top: 20px; }
+        .modal-conversion-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding: 10px; background: #2a2a2a; border-radius: 5px; }
+        .modal-conversion-label { color: #888; font-size: 1em; }
+        .modal-conversion-value { color: #5bc0de; font-size: 1.2em; font-weight: bold; }
         @media (max-width: 768px) {
-            .results-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 30px;
-            }
-            
-            .history-values {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .chart-grid {
-                grid-template-columns: repeat(7, 1fr);
-                gap: 10px;
-            }
-            
-            .chart-letter {
-                font-size: 1em;
-            }
-            
-            .chart-number {
-                font-size: 0.9em;
-            }
-
-            .wheel-container {
-                width: 75vmin;
-                height: 75vmin;
-                max-width: 340px;
-                max-height: 340px;
-            }
-            
-            .wheel-center {
-                width: 110px;
-                height: 110px;
-            }
-            
-            .center-text {
-                font-size: 12px;
-            }
-            
-            .page-title {
-                font-size: 9px;
-            }
-            
-            .segment-icon {
-                font-size: 20px;
-            }
-            
-            .segment-label {
-                font-size: 8px;
-            }
-            
-            .segment-content {
-                width: 65px;
-                top: 16%;
-                left: 58%;
-            }
-            
-            .nav-toggle-btn {
-                width: 60px;
-                height: 60px;
-                bottom: 20px;
-                right: 20px;
-            }
-            
-            .nav-toggle-btn .icon {
-                font-size: 24px;
-            }
-            
-            .nav-toggle-btn .label {
-                font-size: 9px;
-            }
+            .results-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+            .history-values { grid-template-columns: repeat(2, 1fr); }
+            .chart-grid { grid-template-columns: repeat(7, 1fr); gap: 10px; }
+            .chart-letter { font-size: 1em; }
+            .chart-number { font-size: 0.9em; }
         }
     </style>
 </head>
 <body>
-    <a href="Date Calculator.html" style="display: inline-block; padding: 15px 30px; background: #2a2a2a; color: #fff; text-decoration: none; border: 2px solid #444; border-radius: 8px; font-size: 18px; margin: 20px 0; transition: all 0.3s;">
-    📅 Date Calculator
-</a>
-    <div class="nav-toggle-btn" id="toggleBtn">
-        <div class="icon">🎯</div>
-        <div class="label">Menu</div>
-    </div>
-
-    <div class="wheel-overlay" id="wheelOverlay">
-        <div class="close-btn" id="closeBtn">✕</div>
-        
-        <div class="wheel-container">
-            <div class="wheel" id="wheel">
-                <div class="wheel-segment segment-0" data-page="Pics.html">
-                    <div class="segment-content">
-                        <div class="segment-icon">🖼️</div>
-                        <div class="segment-label">Pictures</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-1" data-page="clock.html">
-                    <div class="segment-content">
-                        <div class="segment-icon">🕐</div>
-                        <div class="segment-label">Clock</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-2" data-page="gematria-calculator.html">
-                    <div class="segment-content">
-                        <div class="segment-icon">🔢</div>
-                        <div class="segment-label">Calculator</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-3" data-page="BTC Timeline Cycle.html">
-                    <div class="segment-content">
-                        <div class="segment-icon">🐂</div>
-                        <div class="segment-label">Cycle</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-4" data-page="local-posts-viewer.html">
-                    <div class="segment-content">
-                        <div class="segment-icon">📝</div>
-                        <div class="segment-label">Posts</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-5" data-page="">
-                    <div class="segment-content">
-                        <div class="segment-icon">❓</div>
-                        <div class="segment-label">Empty</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-6" data-page="">
-                    <div class="segment-content">
-                        <div class="segment-icon">❓</div>
-                        <div class="segment-label">Empty</div>
-                    </div>
-                </div>
-
-                <div class="wheel-segment segment-7" data-page="">
-                    <div class="segment-content">
-                        <div class="segment-icon">❓</div>
-                        <div class="segment-label">Empty</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wheel-center" onclick="window.location.href='index.html'">
-                <div class="center-text">🏠 HOME</div>
-                <div class="page-title" id="pageTitle">Select Page</div>
-            </div>
-        </div>
-
-        <div class="instruction">Hover over segments to preview • Click to navigate • Press ESC or click ✕ to close</div>
-    </div>
-
     <div class="modal-overlay" id="numberModal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
@@ -952,46 +110,28 @@
             <div class="modal-section-title">Divisors</div>
             <div class="modal-divisors" id="modalDivisors"></div>
             <div class="modal-info-grid">
-                <div class="modal-info-item">
-                    <div class="modal-info-label">Sum of Divisors</div>
-                    <div class="modal-info-value" id="modalSumDivisors">0</div>
-                </div>
-                <div class="modal-info-item">
-                    <div class="modal-info-label">Number of Divisors</div>
-                    <div class="modal-info-value" id="modalNumDivisors">0</div>
-                </div>
+                <div class="modal-info-item"><div class="modal-info-label">Sum of Divisors</div><div class="modal-info-value" id="modalSumDivisors">0</div></div>
+                <div class="modal-info-item"><div class="modal-info-label">Number of Divisors</div><div class="modal-info-value" id="modalNumDivisors">0</div></div>
             </div>
             <div class="modal-conversions">
                 <div class="modal-section-title">Number Conversions</div>
-                <div class="modal-conversion-item">
-                    <span class="modal-conversion-label">Binary:</span>
-                    <span class="modal-conversion-value" id="modalBinary">0</span>
-                </div>
-                <div class="modal-conversion-item">
-                    <span class="modal-conversion-label">Octal:</span>
-                    <span class="modal-conversion-value" id="modalOctal">0</span>
-                </div>
-                <div class="modal-conversion-item">
-                    <span class="modal-conversion-label">Hexadecimal:</span>
-                    <span class="modal-conversion-value" id="modalHex">0</span>
-                </div>
+                <div class="modal-conversion-item"><span class="modal-conversion-label">Binary:</span><span class="modal-conversion-value" id="modalBinary">0</span></div>
+                <div class="modal-conversion-item"><span class="modal-conversion-label">Octal:</span><span class="modal-conversion-value" id="modalOctal">0</span></div>
+                <div class="modal-conversion-item"><span class="modal-conversion-label">Hexadecimal:</span><span class="modal-conversion-value" id="modalHex">0</span></div>
             </div>
         </div>
     </div>
-
-   <div class="container">
+    <div class="container">
         <div class="input-section">
             <input type="text" id="textInput" placeholder="Enter Word, Phrase, or #(s):" autofocus>
-            <button id="numberLookupBtn" style="margin-top: 15px; padding: 15px 30px; background: #2a2a2a; color: #fff; border: 2px solid #444; border-radius: 8px; font-size: 16px; cursor: pointer; transition: all 0.3s;">
-                🔍 Lookup Number Properties
-            </button>
+            <div class="button-row">
+                <a href="Date Calculator.html">📅 Date Calculator</a>
+                <button id="numberLookupBtn">🔍 Lookup Number Properties</button>
+            </div>
         </div>
-        
         <div class="results-box">
             <div class="breakdown-section" id="breakdownSection" style="display: none;">
-                <div class="breakdown-title">
-                    "<span class="phrase" id="breakdownPhrase"></span>" = <span class="value" id="breakdownValue">0</span> (Ordinal)
-                </div>
+                <div class="breakdown-title">"<span class="phrase" id="breakdownPhrase"></span>" = <span class="value" id="breakdownValue">0</span> (Ordinal)</div>
                 <div class="breakdown-letters" id="breakdownLetters"></div>
                 <div class="breakdown-numbers" id="breakdownNumbers"></div>
                 <div class="breakdown-total" id="breakdownTotal">0</div>
@@ -999,35 +139,14 @@
                 <div class="word-count" id="wordCountBreakdown">(0 words, 0 letters)</div>
             </div>
             <div class="results-grid">
-                <div class="cipher-result">
-                    <div class="cipher-label ordinal">Ordinal</div>
-                    <div class="cipher-value ordinal" id="ordinal">0</div>
-                    <div class="prime-indicator" id="ordinal-prime"></div>
-                </div>
-                <div class="cipher-result">
-                    <div class="cipher-label reduction">Reduction</div>
-                    <div class="cipher-value reduction" id="reduction">0</div>
-                    <div class="prime-indicator" id="reduction-prime"></div>
-                </div>
-                <div class="cipher-result">
-                    <div class="cipher-label reverse">Reverse</div>
-                    <div class="cipher-value reverse" id="reverse">0</div>
-                    <div class="prime-indicator" id="reverse-prime"></div>
-                </div>
-                <div class="cipher-result">
-                    <div class="cipher-label reverse-reduction">Reverse Reduction</div>
-                    <div class="cipher-value reverse-reduction" id="reverseReduction">0</div>
-                    <div class="prime-indicator" id="reverseReduction-prime"></div>
-                </div>
-                <div class="cipher-result">
-                    <div class="cipher-label capitals-added">Capitals Added</div>
-                    <div class="cipher-value capitals-added" id="capitalsAdded">0</div>
-                    <div class="prime-indicator" id="capitalsAdded-prime"></div>
-                </div>
+                <div class="cipher-result"><div class="cipher-label ordinal">Ordinal</div><div class="cipher-value ordinal" id="ordinal">0</div><div class="prime-indicator" id="ordinal-prime"></div></div>
+                <div class="cipher-result"><div class="cipher-label reduction">Reduction</div><div class="cipher-value reduction" id="reduction">0</div><div class="prime-indicator" id="reduction-prime"></div></div>
+                <div class="cipher-result"><div class="cipher-label reverse">Reverse</div><div class="cipher-value reverse" id="reverse">0</div><div class="prime-indicator" id="reverse-prime"></div></div>
+                <div class="cipher-result"><div class="cipher-label reverse-reduction">Reverse Reduction</div><div class="cipher-value reverse-reduction" id="reverseReduction">0</div><div class="prime-indicator" id="reverseReduction-prime"></div></div>
+                <div class="cipher-result"><div class="cipher-label capitals-added">Capitals Added</div><div class="cipher-value capitals-added" id="capitalsAdded">0</div><div class="prime-indicator" id="capitalsAdded-prime"></div></div>
             </div>
             <div class="word-count" id="wordCount">(0 words, 0 letters)</div>
         </div>
-        
         <div class="cipher-chart">
             <div class="chart-grid" id="chartGrid"></div>
             <div class="chart-controls">
@@ -1036,528 +155,35 @@
                 <button class="chart-btn" id="nextBtn">▼</button>
             </div>
         </div>
-        
-        <div class="history">
-            <h2>History</h2>
-            <div id="historyList"></div>
-        </div>
+        <div class="history"><h2>History</h2><div id="historyList"></div></div>
     </div>
-
     <script>
-        const charts = {
-            'Ordinal': Array.from({length: 26}, (_, i) => ({
-                letter: String.fromCharCode(97 + i),
-                value: i + 1
-            })),
-            'Reduction': Array.from({length: 26}, (_, i) => {
-                const val = i + 1;
-                return {
-                    letter: String.fromCharCode(97 + i),
-                    value: val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val
-                };
-            }),
-            'Reverse': Array.from({length: 26}, (_, i) => ({
-                letter: String.fromCharCode(97 + i),
-                value: 26 - i
-            })),
-            'Reverse Reduction': Array.from({length: 26}, (_, i) => {
-                const val = 26 - i;
-                return {
-                    letter: String.fromCharCode(97 + i),
-                    value: val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val
-                };
-            }),
-            'Capitals Added': [
-                ...Array.from({length: 26}, (_, i) => ({
-                    letter: String.fromCharCode(97 + i),
-                    value: i + 1
-                })),
-                ...Array.from({length: 26}, (_, i) => ({
-                    letter: String.fromCharCode(65 + i),
-                    value: 27 + i
-                }))
-            ]
-        };
-
-        const ciphers = {
-            'Ordinal': (char) => {
-                const code = char.toUpperCase().charCodeAt(0);
-                return (code >= 65 && code <= 90) ? code - 64 : 0;
-            },
-            'Reduction': (char) => {
-                const code = char.toUpperCase().charCodeAt(0);
-                if (code >= 65 && code <= 90) {
-                    const val = code - 64;
-                    return val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val;
-                }
-                return 0;
-            },
-            'Reverse': (char) => {
-                const code = char.toUpperCase().charCodeAt(0);
-                return (code >= 65 && code <= 90) ? 91 - code : 0;
-            },
-            'Reverse Reduction': (char) => {
-                const code = char.toUpperCase().charCodeAt(0);
-                if (code >= 65 && code <= 90) {
-                    const val = 91 - code;
-                    return val > 9 ? (Math.floor((val - 1) / 9) + ((val - 1) % 9) + 1) : val;
-                }
-                return 0;
-            },
-            'Capitals Added': (char) => {
-                const code = char.charCodeAt(0);
-                if (code >= 97 && code <= 122) {
-                    return code - 96;
-                } else if (code >= 65 && code <= 90) {
-                    return code - 38;
-                }
-                return 0;
-            }
-        };
-
-        const history = [];
-        const textInput = document.getElementById('textInput');
-        const chartNames = Object.keys(charts);
-        let currentChartIndex = 0;
-
-        // Number properties functions
-        function isPrime(n) {
-            if (n <= 1) return false;
-            if (n <= 3) return true;
-            if (n % 2 === 0 || n % 3 === 0) return false;
-            for (let i = 5; i * i <= n; i += 6) {
-                if (n % i === 0 || n % (i + 2) === 0) return false;
-            }
-            return true;
-        }
-
-        function getPrimeIndex(n) {
-            if (!isPrime(n)) return -1;
-            let count = 0;
-            let num = 2;
-            while (num <= n) {
-                if (isPrime(num)) {
-                    count++;
-                    if (num === n) return count;
-                }
-                num++;
-            }
-            return -1;
-        }
-
-        function getOrdinalSuffix(n) {
-            const j = n % 10;
-            const k = n % 100;
-            if (j === 1 && k !== 11) return n + "st";
-            if (j === 2 && k !== 12) return n + "nd";
-            if (j === 3 && k !== 13) return n + "rd";
-            return n + "th";
-        }
-
-        function primeFactorization(n) {
-            const factors = [];
-            let d = 2;
-            while (n > 1) {
-                while (n % d === 0) {
-                    factors.push(d);
-                    n /= d;
-                }
-                d++;
-                if (d * d > n && n > 1) {
-                    factors.push(n);
-                    break;
-                }
-            }
-            return factors;
-        }
-
-        function getDivisors(n) {
-            const divisors = [];
-            for (let i = 1; i <= Math.sqrt(n); i++) {
-                if (n % i === 0) {
-                    divisors.push(i);
-                    if (i !== n / i) {
-                        divisors.push(n / i);
-                    }
-                }
-            }
-            return divisors.sort((a, b) => a - b);
-        }
-
-        function isPerfect(n) {
-            const divisors = getDivisors(n);
-            const sum = divisors.slice(0, -1).reduce((a, b) => a + b, 0);
-            return sum === n;
-        }
-
-        function isSquare(n) {
-            return Math.sqrt(n) % 1 === 0;
-        }
-
-        function isCube(n) {
-            return Math.cbrt(n) % 1 === 0;
-        }
-
-        function showNumberModal(number) {
-            if (number === 0) return;
-            
-            const modal = document.getElementById('numberModal');
-            document.getElementById('modalNumber').textContent = number;
-            
-            // Prime factorization
-            const factors = primeFactorization(number);
-            const factorCounts = {};
-            factors.forEach(f => factorCounts[f] = (factorCounts[f] || 0) + 1);
-            const factorStr = Object.entries(factorCounts)
-                .map(([f, c]) => c > 1 ? `${f}^${c}` : f)
-                .join(' × ');
-            document.getElementById('modalFactorization').textContent = 
-                number === 1 ? '1' : factorStr;
-            
-            // Properties
-            const properties = [];
-            if (isPrime(number)) {
-                const primeIndex = getPrimeIndex(number);
-                properties.push(`✓ Prime Number (${getOrdinalSuffix(primeIndex)} prime)`);
-            }
-            if (number % 2 === 0) properties.push('✓ Even Number');
-            else properties.push('✓ Odd Number');
-            if (isPerfect(number)) properties.push('✓ Perfect Number');
-            if (isSquare(number)) properties.push('✓ Perfect Square');
-            if (isCube(number)) properties.push('✓ Perfect Cube');
-            
-            const propsContainer = document.getElementById('modalProperties');
-            propsContainer.innerHTML = properties
-                .map(p => `<div class="modal-property">${p}</div>`)
-                .join('');
-            
-            // Divisors
-            const divisors = getDivisors(number);
-            const divisorsContainer = document.getElementById('modalDivisors');
-            divisorsContainer.innerHTML = divisors
-                .map(d => `<span style="color: #5bc0de; font-size: 1.1em; padding: 5px 10px; background: #2a2a2a; border-radius: 5px;">${d}</span>`)
-                .join('');
-            
-            document.getElementById('modalSumDivisors').textContent = 
-                divisors.reduce((a, b) => a + b, 0);
-            document.getElementById('modalNumDivisors').textContent = divisors.length;
-            
-            // Conversions
-            document.getElementById('modalBinary').textContent = number.toString(2);
-            document.getElementById('modalOctal').textContent = number.toString(8);
-            document.getElementById('modalHex').textContent = number.toString(16).toUpperCase();
-            
-            modal.classList.add('active');
-        }
-
-        function closeNumberModal() {
-            document.getElementById('numberModal').classList.remove('active');
-        }
-
-        document.getElementById('modalClose').addEventListener('click', closeNumberModal);
-        document.getElementById('numberModal').addEventListener('click', (e) => {
-            if (e.target.id === 'numberModal') {
-                closeNumberModal();
-            }
-        });
-
-        // Add click handlers to cipher values
-        document.querySelectorAll('.cipher-value').forEach(el => {
-            el.addEventListener('click', function() {
-                const number = parseInt(this.textContent);
-                showNumberModal(number);
-            });
-        });
-
-        function calculate(text) {
-            const results = {};
-            let letterCount = 0;
-            const ordinalBreakdown = {
-                letters: [],
-                values: []
-            };
-            
-            for (const [cipherName, cipherFunc] of Object.entries(ciphers)) {
-                let total = 0;
-                
-                for (let char of text) {
-                    const value = cipherFunc(char);
-                    if (value > 0) {
-                        total += value;
-                        if (cipherName === 'Ordinal') {
-                            letterCount++;
-                            ordinalBreakdown.letters.push(char.toLowerCase());
-                            ordinalBreakdown.values.push(value);
-                        }
-                    } else if (cipherName === 'Ordinal' && /\d/.test(char)) {
-                        const numValue = parseInt(char);
-                        total += numValue;
-                        ordinalBreakdown.letters.push(char);
-                        ordinalBreakdown.values.push(numValue);
-                    }
-                }
-                
-                if (cipherName === 'Ordinal') {
-                    results[cipherName] = total;
-                } else {
-                    for (let char of text) {
-                        if (/\d/.test(char)) {
-                            total += parseInt(char);
-                        }
-                    }
-                    results[cipherName] = total;
-                }
-            }
-
-            const words = text.trim().split(/\s+/).filter(w => w.length > 0);
-            const wordCount = text.trim() === '' ? 0 : words.length;
-
-            displayResults(results, wordCount, letterCount, text, ordinalBreakdown);
-            return results;
-        }
-
-        function displayResults(results, wordCount, letterCount, text, breakdown) {
-            document.getElementById('ordinal').textContent = results['Ordinal'];
-            document.getElementById('reduction').textContent = results['Reduction'];
-            document.getElementById('reverse').textContent = results['Reverse'];
-            document.getElementById('reverseReduction').textContent = results['Reverse Reduction'];
-            document.getElementById('capitalsAdded').textContent = results['Capitals Added'];
-            document.getElementById('wordCount').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
-            
-            // Update prime indicators
-            const cipherIds = ['ordinal', 'reduction', 'reverse', 'reverseReduction', 'capitalsAdded'];
-            const cipherNames = ['Ordinal', 'Reduction', 'Reverse', 'Reverse Reduction', 'Capitals Added'];
-            
-            cipherIds.forEach((id, index) => {
-                const value = results[cipherNames[index]];
-                const primeElement = document.getElementById(`${id}-prime`);
-                
-                if (value > 1 && isPrime(value)) {
-                    const primeIndex = getPrimeIndex(value);
-                    primeElement.textContent = `${getOrdinalSuffix(primeIndex)} prime`;
-                } else {
-                    primeElement.textContent = '';
-                }
-            });
-            
-            const breakdownSection = document.getElementById('breakdownSection');
-            if (text.trim() !== '' && letterCount > 0) {
-                breakdownSection.style.display = 'block';
-                document.getElementById('breakdownPhrase').textContent = text;
-                document.getElementById('breakdownValue').textContent = results['Ordinal'];
-                document.getElementById('breakdownTotal').textContent = results['Ordinal'];
-                document.getElementById('wordCountBreakdown').textContent = `(${wordCount} word${wordCount !== 1 ? 's' : ''}, ${letterCount} letter${letterCount !== 1 ? 's' : ''})`;
-                
-                const lettersContainer = document.getElementById('breakdownLetters');
-                lettersContainer.innerHTML = '';
-                breakdown.letters.forEach(letter => {
-                    const span = document.createElement('span');
-                    span.className = 'breakdown-letter';
-                    span.textContent = letter;
-                    lettersContainer.appendChild(span);
-                });
-                
-                const numbersContainer = document.getElementById('breakdownNumbers');
-                numbersContainer.innerHTML = '';
-                breakdown.values.forEach(value => {
-                    const span = document.createElement('span');
-                    span.className = 'breakdown-number';
-                    span.textContent = value;
-                    numbersContainer.appendChild(span);
-                });
-            } else {
-                breakdownSection.style.display = 'none';
-            }
-        }
-
-        function displayChart() {
-            const chartName = chartNames[currentChartIndex];
-            const chartData = charts[chartName];
-            const chartGrid = document.getElementById('chartGrid');
-            const chartLabel = document.getElementById('chartLabel');
-            
-            chartGrid.innerHTML = '';
-            chartData.forEach(item => {
-                const cell = document.createElement('div');
-                cell.className = 'chart-cell';
-                cell.innerHTML = `
-                    <span class="chart-letter">${item.letter}</span>
-                    <span class="chart-number">${item.value}</span>
-                `;
-                chartGrid.appendChild(cell);
-            });
-            
-            chartLabel.textContent = chartName;
-        }
-
-        function addToHistory(text, results) {
-            const entry = {
-                text: text,
-                ordinal: results['Ordinal'],
-                reduction: results['Reduction'],
-                reverse: results['Reverse'],
-                reverseReduction: results['Reverse Reduction'],
-                capitalsAdded: results['Capitals Added']
-            };
-            
-            const existingIndex = history.findIndex(h => h.text === text);
-            if (existingIndex !== -1) {
-                history.splice(existingIndex, 1);
-            }
-            
-            history.unshift(entry);
-            if (history.length > 20) history.pop();
-            
-            updateHistoryDisplay();
-        }
-
-        function updateHistoryDisplay() {
-            const historyList = document.getElementById('historyList');
-            
-            if (history.length === 0) {
-                historyList.innerHTML = '<div class="empty-state">No calculations yet - press Enter to add to history</div>';
-                return;
-            }
-
-            historyList.innerHTML = '';
-            
-            history.forEach((entry, index) => {
-                const item = document.createElement('div');
-                item.className = 'history-item';
-                
-                item.innerHTML = `
-                    <div class="history-header">
-                        <span class="history-text">${entry.text}</span>
-                        <button class="clear-btn" onclick="removeFromHistory(${index})">×</button>
-                    </div>
-                    <div class="history-values">
-                        <div class="history-cipher ordinal">
-                            <span class="history-cipher-label">Ordinal</span>
-                            <span class="history-cipher-value">${entry.ordinal}</span>
-                        </div>
-                        <div class="history-cipher reduction">
-                            <span class="history-cipher-label">Reduction</span>
-                            <span class="history-cipher-value">${entry.reduction}</span>
-                        </div>
-                        <div class="history-cipher reverse">
-                            <span class="history-cipher-label">Reverse</span>
-                            <span class="history-cipher-value">${entry.reverse}</span>
-                        </div>
-                        <div class="history-cipher reverse-reduction">
-                            <span class="history-cipher-label">Reverse Reduction</span>
-                            <span class="history-cipher-value">${entry.reverseReduction}</span>
-                        </div>
-                        <div class="history-cipher capitals-added">
-                            <span class="history-cipher-label">Capitals Added</span>
-                            <span class="history-cipher-value">${entry.capitalsAdded}</span>
-                        </div>
-                    </div>
-                `;
-                
-                item.addEventListener('click', (e) => {
-                    if (!e.target.classList.contains('clear-btn')) {
-                        textInput.value = entry.text;
-                        calculate(entry.text);
-                    }
-                });
-                
-                historyList.appendChild(item);
-            });
-        }
-
-        function removeFromHistory(index) {
-            history.splice(index, 1);
-            updateHistoryDisplay();
-        }
-
-        textInput.addEventListener('input', (e) => {
-            calculate(e.target.value);
-        });
-
-        textInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter' && textInput.value.trim() !== '') {
-                const results = calculate(textInput.value);
-                addToHistory(textInput.value, results);
-            }
-        });
-
-        document.getElementById('prevBtn').addEventListener('click', () => {
-            currentChartIndex = (currentChartIndex - 1 + chartNames.length) % chartNames.length;
-            displayChart();
-        });
-
-        document.getElementById('nextBtn').addEventListener('click', () => {
-            currentChartIndex = (currentChartIndex + 1) % chartNames.length;
-            displayChart();
-        });
-
-        const toggleBtn = document.getElementById('toggleBtn');
-        const closeBtn = document.getElementById('closeBtn');
-        const wheelOverlay = document.getElementById('wheelOverlay');
-        const segments = document.querySelectorAll('.wheel-segment');
-        const pageTitle = document.getElementById('pageTitle');
-
-        toggleBtn.addEventListener('click', () => {
-            wheelOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-
-        function closeWheel() {
-            wheelOverlay.classList.remove('active');
-            document.body.style.overflow = 'auto';
-            segments.forEach(s => s.classList.remove('active'));
-            pageTitle.textContent = 'Select Page';
-        }
-
-        closeBtn.addEventListener('click', closeWheel);
-
-        wheelOverlay.addEventListener('click', (e) => {
-            if (e.target === wheelOverlay) {
-                closeWheel();
-            }
-        });
-
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                if (wheelOverlay.classList.contains('active')) {
-                    closeWheel();
-                } else if (document.getElementById('numberModal').classList.contains('active')) {
-                    closeNumberModal();
-                }
-            }
-        });
-
-        segments.forEach(segment => {
-            segment.addEventListener('mouseenter', function() {
-                segments.forEach(s => s.classList.remove('active'));
-                this.classList.add('active');
-                
-                const page = this.dataset.page;
-                const label = this.querySelector('.segment-label').textContent;
-                
-                if (page) {
-                    pageTitle.textContent = label;
-                } else {
-                    pageTitle.textContent = 'Coming Soon';
-                }
-            });
-
-            segment.addEventListener('click', function() {
-                const page = this.dataset.page;
-                if (page) {
-                    window.location.href = page;
-                }
-            });
-        });
-
-        document.querySelector('.wheel').addEventListener('mouseleave', function() {
-            segments.forEach(s => s.classList.remove('active'));
-            pageTitle.textContent = 'Select Page';
-        });
-
-        displayChart();
-        updateHistoryDisplay();
-        calculate('');
+const charts={'Ordinal':Array.from({length:26},(_,i)=>({letter:String.fromCharCode(97+i),value:i+1})),'Reduction':Array.from({length:26},(_,i)=>{const val=i+1;return{letter:String.fromCharCode(97+i),value:val>9?(Math.floor((val-1)/9)+((val-1)%9)+1):val}}),'Reverse':Array.from({length:26},(_,i)=>({letter:String.fromCharCode(97+i),value:26-i})),'Reverse Reduction':Array.from({length:26},(_,i)=>{const val=26-i;return{letter:String.fromCharCode(97+i),value:val>9?(Math.floor((val-1)/9)+((val-1)%9)+1):val}}),'Capitals Added':[...Array.from({length:26},(_,i)=>({letter:String.fromCharCode(97+i),value:i+1})),...Array.from({length:26},(_,i)=>({letter:String.fromCharCode(65+i),value:27+i}))]};
+const ciphers={'Ordinal':char=>{const code=char.toUpperCase().charCodeAt(0);return(code>=65&&code<=90)?code-64:0},'Reduction':char=>{const code=char.toUpperCase().charCodeAt(0);if(code>=65&&code<=90){const val=code-64;return val>9?(Math.floor((val-1)/9)+((val-1)%9)+1):val}return 0},'Reverse':char=>{const code=char.toUpperCase().charCodeAt(0);return(code>=65&&code<=90)?91-code:0},'Reverse Reduction':char=>{const code=char.toUpperCase().charCodeAt(0);if(code>=65&&code<=90){const val=91-code;return val>9?(Math.floor((val-1)/9)+((val-1)%9)+1):val}return 0},'Capitals Added':char=>{const code=char.charCodeAt(0);if(code>=97&&code<=122)return code-96;else if(code>=65&&code<=90)return code-38;return 0}};
+const history=[];const textInput=document.getElementById('textInput');const chartNames=Object.keys(charts);let currentChartIndex=0;
+function isPrime(n){if(n<=1)return false;if(n<=3)return true;if(n%2===0||n%3===0)return false;for(let i=5;i*i<=n;i+=6){if(n%i===0||n%(i+2)===0)return false}return true}
+function getPrimeIndex(n){if(!isPrime(n))return-1;let count=0,num=2;while(num<=n){if(isPrime(num)){count++;if(num===n)return count}num++}return-1}
+function getOrdinalSuffix(n){const j=n%10,k=n%100;if(j===1&&k!==11)return n+"st";if(j===2&&k!==12)return n+"nd";if(j===3&&k!==13)return n+"rd";return n+"th"}
+function primeFactorization(n){const factors=[];let d=2;while(n>1){while(n%d===0){factors.push(d);n/=d}d++;if(d*d>n&&n>1){factors.push(n);break}}return factors}
+function getDivisors(n){const divisors=[];for(let i=1;i<=Math.sqrt(n);i++){if(n%i===0){divisors.push(i);if(i!==n/i)divisors.push(n/i)}}return divisors.sort((a,b)=>a-b)}
+function isPerfect(n){const divisors=getDivisors(n);const sum=divisors.slice(0,-1).reduce((a,b)=>a+b,0);return sum===n}
+function isSquare(n){return Math.sqrt(n)%1===0}
+function isCube(n){return Math.cbrt(n)%1===0}
+function showNumberModal(number){if(number===0)return;const modal=document.getElementById('numberModal');document.getElementById('modalNumber').textContent=number;const factors=primeFactorization(number);const factorCounts={};factors.forEach(f=>factorCounts[f]=(factorCounts[f]||0)+1);const factorStr=Object.entries(factorCounts).map(([f,c])=>c>1?`${f}^${c}`:f).join(' × ');document.getElementById('modalFactorization').textContent=number===1?'1':factorStr;const properties=[];if(isPrime(number)){const primeIndex=getPrimeIndex(number);properties.push(`✓ Prime Number (${getOrdinalSuffix(primeIndex)} prime)`)}if(number%2===0)properties.push('✓ Even Number');else properties.push('✓ Odd Number');if(isPerfect(number))properties.push('✓ Perfect Number');if(isSquare(number))properties.push('✓ Perfect Square');if(isCube(number))properties.push('✓ Perfect Cube');const propsContainer=document.getElementById('modalProperties');propsContainer.innerHTML=properties.map(p=>`<div class="modal-property">${p}</div>`).join('');const divisors=getDivisors(number);const divisorsContainer=document.getElementById('modalDivisors');divisorsContainer.innerHTML=divisors.map(d=>`<span style="color:#5bc0de;font-size:1.1em;padding:5px 10px;background:#2a2a2a;border-radius:5px;">${d}</span>`).join('');document.getElementById('modalSumDivisors').textContent=divisors.reduce((a,b)=>a+b,0);document.getElementById('modalNumDivisors').textContent=divisors.length;document.getElementById('modalBinary').textContent=number.toString(2);document.getElementById('modalOctal').textContent=number.toString(8);document.getElementById('modalHex').textContent=number.toString(16).toUpperCase();modal.classList.add('active')}
+function closeNumberModal(){document.getElementById('numberModal').classList.remove('active')}
+document.getElementById('modalClose').addEventListener('click',closeNumberModal);document.getElementById('numberModal').addEventListener('click',e=>{if(e.target.id==='numberModal')closeNumberModal()});document.querySelectorAll('.cipher-value').forEach(el=>{el.addEventListener('click',function(){const number=parseInt(this.textContent);showNumberModal(number)})});
+document.getElementById('numberLookupBtn').addEventListener('click',()=>{const numberInput=prompt('Enter a number to view its properties:');if(numberInput){const number=parseInt(numberInput);if(!isNaN(number)&&number>0)showNumberModal(number);else alert('Please enter a valid positive number.')}});
+function calculate(text){const results={};let letterCount=0;const ordinalBreakdown={letters:[],values:[]};for(const[cipherName,cipherFunc]of Object.entries(ciphers)){let total=0;for(let char of text){const value=cipherFunc(char);if(value>0){total+=value;if(cipherName==='Ordinal'){letterCount++;ordinalBreakdown.letters.push(char.toLowerCase());ordinalBreakdown.values.push(value)}}else if(cipherName==='Ordinal'&&/\d/.test(char)){const numValue=parseInt(char);total+=numValue;ordinalBreakdown.letters.push(char);ordinalBreakdown.values.push(numValue)}}if(cipherName==='Ordinal'){results[cipherName]=total}else{for(let char of text){if(/\d/.test(char))total+=parseInt(char)}results[cipherName]=total}}const words=text.trim().split(/\s+/).filter(w=>w.length>0);const wordCount=text.trim()===''?0:words.length;displayResults(results,wordCount,letterCount,text,ordinalBreakdown);return results}
+function displayResults(results,wordCount,letterCount,text,breakdown){document.getElementById('ordinal').textContent=results['Ordinal'];document.getElementById('reduction').textContent=results['Reduction'];document.getElementById('reverse').textContent=results['Reverse'];document.getElementById('reverseReduction').textContent=results['Reverse Reduction'];document.getElementById('capitalsAdded').textContent=results['Capitals Added'];document.getElementById('wordCount').textContent=`(${wordCount} word${wordCount!==1?'s':''}, ${letterCount} letter${letterCount!==1?'s':''})`;const cipherIds=['ordinal','reduction','reverse','reverseReduction','capitalsAdded'];const cipherNames=['Ordinal','Reduction','Reverse','Reverse Reduction','Capitals Added'];cipherIds.forEach((id,index)=>{const value=results[cipherNames[index]];const primeElement=document.getElementById(`${id}-prime`);if(value>1&&isPrime(value)){const primeIndex=getPrimeIndex(value);primeElement.textContent=`${getOrdinalSuffix(primeIndex)} prime`}else primeElement.textContent=''});const breakdownSection=document.getElementById('breakdownSection');if(text.trim()!==''&&letterCount>0){breakdownSection.style.display='block';document.getElementById('breakdownPhrase').textContent=text;document.getElementById('breakdownValue').textContent=results['Ordinal'];document.getElementById('breakdownTotal').textContent=results['Ordinal'];document.getElementById('wordCountBreakdown').textContent=`(${wordCount} word${wordCount!==1?'s':''}, ${letterCount} letter${letterCount!==1?'s':''})`;const lettersContainer=document.getElementById('breakdownLetters');lettersContainer.innerHTML='';breakdown.letters.forEach(letter=>{const span=document.createElement('span');span.className='breakdown-letter';span.textContent=letter;lettersContainer.appendChild(span)});const numbersContainer=document.getElementById('breakdownNumbers');numbersContainer.innerHTML='';breakdown.values.forEach(value=>{const span=document.createElement('span');span.className='breakdown-number';span.textContent=value;numbersContainer.appendChild(span)})}else breakdownSection.style.display='none'}
+function displayChart(){const chartName=chartNames[currentChartIndex];const chartData=charts[chartName];const chartGrid=document.getElementById('chartGrid');const chartLabel=document.getElementById('chartLabel');chartGrid.innerHTML='';chartData.forEach(item=>{const cell=document.createElement('div');cell.className='chart-cell';cell.innerHTML=`<span class="chart-letter">${item.letter}</span><span class="chart-number">${item.value}</span>`;chartGrid.appendChild(cell)});chartLabel.textContent=chartName}
+function addToHistory(text,results){const entry={text:text,ordinal:results['Ordinal'],reduction:results['Reduction'],reverse:results['Reverse'],reverseReduction:results['Reverse Reduction'],capitalsAdded:results['Capitals Added']};const existingIndex=history.findIndex(h=>h.text===text);if(existingIndex!==-1)history.splice(existingIndex,1);history.unshift(entry);if(history.length>20)history.pop();updateHistoryDisplay()}
+function updateHistoryDisplay(){const historyList=document.getElementById('historyList');if(history.length===0){historyList.innerHTML='<div class="empty-state">No calculations yet - press Enter to add to history</div>';return}historyList.innerHTML='';history.forEach((entry,index)=>{const item=document.createElement('div');item.className='history-item';item.innerHTML=`<div class="history-header"><span class="history-text">${entry.text}</span><button class="clear-btn" onclick="removeFromHistory(${index})">×</button></div><div class="history-values"><div class="history-cipher ordinal"><span class="history-cipher-label">Ordinal</span><span class="history-cipher-value">${entry.ordinal}</span></div><div class="history-cipher reduction"><span class="history-cipher-label">Reduction</span><span class="history-cipher-value">${entry.reduction}</span></div><div class="history-cipher reverse"><span class="history-cipher-label">Reverse</span><span class="history-cipher-value">${entry.reverse}</span></div><div class="history-cipher reverse-reduction"><span class="history-cipher-label">Reverse Reduction</span><span class="history-cipher-value">${entry.reverseReduction}</span></div><div class="history-cipher capitals-added"><span class="history-cipher-label">Capitals Added</span><span class="history-cipher-value">${entry.capitalsAdded}</span></div></div>`;item.addEventListener('click',e=>{if(!e.target.classList.contains('clear-btn')){textInput.value=entry.text;calculate(entry.text)}});historyList.appendChild(item)})}
+function removeFromHistory(index){history.splice(index,1);updateHistoryDisplay()}
+textInput.addEventListener('input',e=>calculate(e.target.value));textInput.addEventListener('keypress',e=>{if(e.key==='Enter'&&textInput.value.trim()!==''){const results=calculate(textInput.value);addToHistory(textInput.value,results)}});
+document.getElementById('prevBtn').addEventListener('click',()=>{currentChartIndex=(currentChartIndex-1+chartNames.length)%chartNames.length;displayChart()});
+document.getElementById('nextBtn').addEventListener('click',()=>{currentChartIndex=(currentChartIndex+1)%chartNames.length;displayChart()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.getElementById('numberModal').classList.contains('active'))closeNumberModal()});
+displayChart();updateHistoryDisplay();calculate('');
     </script>
 </body>
 </html>

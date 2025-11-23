@@ -387,13 +387,16 @@
             border-radius: 5px;
         }
         
-        .main-content {
+       .main-content {
     display: flex;
     gap: 30px;
     margin-top: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
         
      
@@ -425,10 +428,10 @@
             cursor: pointer;
         }
         
-        .center-section {
-    flex: 1;
+      .center-section {
+    flex: 1 1 48%;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 580px;
 }
         
         .time-between {
@@ -503,10 +506,10 @@
             color: #fff;
         }
         
-       .variations {
-    flex: 1;
+      .variations {
+    flex: 1 1 48%;
     min-width: 280px;
-    max-width: 600px;
+    max-width: 580px;
 }
         
         .variation-list {
@@ -1047,6 +1050,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

@@ -823,11 +823,12 @@
             const totalWeeks = Math.floor(totalDays / 7);
             const remainingDaysAfterWeeks = totalDays % 7;
             
-            // Calculate weeks and days from years
-            const daysInYears = Math.floor(totalDays / 365) * 365;
-            const remainingDaysAfterYears = totalDays - daysInYears;
-            const weeksFromRemaining = Math.floor(remainingDaysAfterYears / 7);
-            const daysFromRemaining = remainingDaysAfterYears % 7;
+            // Calculate weeks and days from years - need to account for actual year length with leap years
+const dateAfterCompleteYears = new Date(startDate);
+dateAfterCompleteYears.setFullYear(startDate.getFullYear() + Math.floor(totalDays / 365));
+const remainingDaysAfterYears = Math.floor((endDate - dateAfterCompleteYears) / (1000 * 60 * 60 * 24)) + (includeEnd ? 1 : 0);
+const weeksFromRemaining = Math.floor(remainingDaysAfterYears / 7);
+const daysFromRemaining = remainingDaysAfterYears % 7;
             
             const variations = document.getElementById('variations');
             const yearText = years === 1 ? 'Year' : 'Years';
@@ -1056,6 +1057,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

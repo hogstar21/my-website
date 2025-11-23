@@ -835,17 +835,16 @@
             const dayText = days === 1 ? 'Day' : 'Days';
             const weekText = totalWeeks === 1 ? 'Week' : 'Weeks';
 
-            // Calculate total days from just the year portion
-const daysFromYearsOnly = years * 365;
-// Add leap days
-let leapDays = 0;
-for (let y = startDate.getFullYear(); y < startDate.getFullYear() + years; y++) {
-    if ((y % 4 === 0 && y % 100 !== 0) || (y % 400 === 0)) {
-        leapDays++;
-    }
+           // Calculate actual days after accounting for complete years
+// Start from the start date and add complete years, then calculate remaining days
+const dateAfterYears = new Date(startDate);
+dateAfterYears.setFullYear(startDate.getFullYear() + years);
+
+let daysAfterYears = Math.floor((endDate - dateAfterYears) / (1000 * 60 * 60 * 24));
+
+if (includeEnd) {
+    daysAfterYears += 1;
 }
-const totalDaysInYearPortion = daysFromYearsOnly + leapDays;
-const daysAfterYears = totalDays - totalDaysInYearPortion;
             
             variations.innerHTML = `
                 <div class="variation-item"><strong>${years}</strong> ${yearText}, <strong>${daysAfterYears}</strong> ${daysAfterYears === 1 ? 'Day' : 'Days'}</div>
@@ -1057,6 +1056,7 @@ document.querySelector('.wheel').addEventListener('mouseleave', function() {
 </body>
 
 </html>
+
 
 
 

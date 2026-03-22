@@ -6,7 +6,68 @@
     "last_updated": "2026-03-22",
     "source_url": "https://archive.4plebs.org/pol/thread/507977706/"
   },
-  "breaking_news": [],
+  "breaking_news": [
+    {
+      "date": "MAR 22, 2026",
+      "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) carrying 2,500 Marines from 11th MEU en route to Arabian Sea. ETA: ~April 8-12.",
+      "source": "USNI / AP",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "USS Tripoli ARG (31st MEU) now in Arabian Sea — expected near Strait of Hormuz within days.",
+      "source": "WSJ / Satellite imagery",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "US Navy MQ-4C Triton UAV continuing recon orbits over Kharg Island — Iran's primary oil export terminal.",
+      "source": "FlightRadar24 / DefenseOne",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "82nd Airborne Brigade (~4,000-5,000 troops) remains on standby at Fort Liberty — C-17s ready for Gulf insertion within 18 hours.",
+      "source": "AP",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "Iran drone strikes hit 3 AWS data centers in UAE — fires, structural damage, internet outages across region.",
+      "source": "Reuters",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting aggressor nations.",
+      "source": "Al Jazeera",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "Brent crude holding at ~$112/bbl. Goldman Sachs warns elevated prices could last through 2027.",
+      "source": "Reuters / Goldman Sachs",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "USS Tulsa + USS Santa Barbara (minesweepers) transiting toward Hormuz via Singapore.",
+      "source": "USNI News",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third consecutive day of attacks.",
+      "source": "AFP",
+      "hot": false
+    },
+    {
+      "date": "MAR 22, 2026",
+      "text": "Trump branded NATO allies 'cowards' and called the bloc a 'paper tiger' — demanded partners help reopen Strait of Hormuz.",
+      "source": "Politico",
+      "hot": false
+    }
+  ],
   "sections": [
     {
       "id": "israel_iran",

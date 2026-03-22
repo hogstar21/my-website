@@ -8,6 +8,24 @@
   },
   "breaking_news": [
     {
+      "date": "MAR 22, 2026 · 4:48 PM EDT",
+      "text": "US troops wounded in Iran war climbs to ~200",
+      "source": "newsmax.com",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 4:48 PM EDT",
+      "text": "USS Boxer, 11th MEU, 2,200+ Marines, 3 Navy ships deploy to Middle East",
+      "source": "abcnews.com",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 4:48 PM EDT",
+      "text": "Iran missile hits Dimona, Israel's 'Little India' — 47 injured",
+      "source": "Dainik Jagran MP CG",
+      "hot": true
+    },
+    {
       "date": "MAR 22, 2026",
       "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) carrying 2,500 Marines from 11th MEU en route to Arabian Sea. ETA: ~April 8-12.",
       "source": "USNI / AP",
@@ -121,6 +139,11 @@
               "date": "MAR 21",
               "text": "Houthis threatening to reinstate full naval blockade — Bab el-Mandeb may flip to YES imminently.",
               "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 4:48 PM EDT",
+              "text": "Iran intensified attacks on Gulf oil/gas facilities (Saudi Yanbu refinery, Qatar Ras Laffan LNG, UAE Habshan/Bab, Kuwait refineries) in retaliation to Israeli strike; no US bases hit or Bab el-Mandeb blocked reported.",
+              "hot": true
             }
           ]
         },
@@ -177,6 +200,11 @@
             {
               "date": "MAR 18-21, 2026",
               "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island.",
+              "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 4:48 PM EDT",
+              "text": "Headlines confirm USS Boxer amphibious deployment to Middle East amid US-Iran war, but no evidence of invasion attempt or failed assault with casualties.",
               "hot": true
             }
           ]
@@ -304,7 +332,13 @@
             "NATO Russia invasion 2026",
             "Finland Russia war"
           ],
-          "updates": []
+          "updates": [
+            {
+              "date": "MAR 22, 2026 · 4:48 PM EDT",
+              "text": "Recent headlines detail NATO exercises in Finland (Cold Response 26), nuclear policy shift, and Russian warnings/buildup, but no invasion or capture of Saint Petersburg.",
+              "hot": false
+            }
+          ]
         },
         {
           "id": "c17",
@@ -374,7 +408,13 @@
             "Israel existential threat 2026",
             "Israel destroyed Iran"
           ],
-          "updates": []
+          "updates": [
+            {
+              "date": "MAR 22, 2026 · 4:48 PM EDT",
+              "text": "Headlines detail Israel/US strikes on Iran & Hezbollah, but no evidence of Israel destroyed or Palestinians wiped out; conflict ongoing with Israeli casualties reported.",
+              "hot": true
+            }
+          ]
         },
         {
           "id": "c23",

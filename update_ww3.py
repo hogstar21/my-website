@@ -166,7 +166,7 @@ Return [] if nothing new."""
 
 # ── COUNT ─────────────────────────────────────────────────────────────────────
 def count_statuses(data):
-    counts = {"yes": 0, "no": 0, "partial": 0, "watch": 0}
+    counts = {"yes": 0, "no": 0, "partial": 0, "match": 0}
     for section in data["sections"]:
         for claim in section["claims"]:
             s = claim.get("status", "no")
@@ -175,15 +175,18 @@ def count_statuses(data):
 
 # ── RENDER ────────────────────────────────────────────────────────────────────
 def render_verdict(status):
-    labels = {"yes":"YES","no":"NO","partial":"PARTIAL","watch":"WATCH"}
+    labels = {"yes":"YES","no":"NO","partial":"PARTIAL","match":"WATCH"}
     return f'<div class="verdict {status}">{labels.get(status,status.upper())}</div>'
 
-def render_updates(updates):
+def render_updates(updates, status="watch"):
     if not updates:
         return ""
     html = ""
     for u in updates[-3:]:
-        cls = "news news-hot" if u.get("hot") else "news"
+        if u.get("hot"):
+            cls = "news news-hot"
+        else:
+            cls = f"news news-{status}"
         html += f'<div class="{cls}"><span class="nd">{u["date"]}</span>{u["text"]}</div>\n'
     return html
 
@@ -196,7 +199,7 @@ def render_claim(claim):
       <div class="claim-body">
         <div class="claim-text">{claim["text"]}</div>
         <div class="claim-src"><span class="src-tag">SRC</span>{claim["source"]}</div>
-        {render_updates(claim.get("updates",[]))}
+        {render_updates(claim.get("updates",[]), status)}
       </div>
     </div>'''
 
@@ -218,7 +221,7 @@ def build_html(data):
     total  = sum(counts.values())
     meta   = data["meta"]
     pct    = round((counts["yes"] + counts["partial"]*0.5) / total * 100)
-    pct_bar = round((counts["yes"] + counts["partial"]*0.5 + counts["watch"]*0.25) / total * 100)
+    pct_bar = round((counts["yes"] + counts["partial"]*0.5 + counts["match"]*0.25) / total * 100)
 
     sections_html = ""
     for section in data["sections"]:
@@ -239,7 +242,7 @@ def build_html(data):
 <title>4chan WW3 Prediction \u2014 Fact Check</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;600;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{{--bg:#0a0c0f;--surface:#111418;--surface2:#181c22;--border:#252b35;--yes:#1a4a2e;--yes-t:#4ade80;--yes-b:#166534;--no:#3f1a1a;--no-t:#f87171;--no-b:#7f1d1d;--partial:#3d2f0d;--partial-t:#fbbf24;--partial-b:#78350f;--watch:#1a2a4a;--watch-t:#60a5fa;--watch-b:#1e3a5f;--tp:#e8ecf0;--ts:#8b95a1;--tm:#4a5568;--red:#ff3333;--mono:"Share Tech Mono",monospace;--display:"Barlow Condensed",sans-serif;--body:"Barlow",sans-serif;}}
+:root{{--bg:#0a0c0f;--surface:#111418;--surface2:#181c22;--border:#252b35;--yes:#1a4a2e;--yes-t:#4ade80;--yes-b:#166534;--no:#3f1a1a;--no-t:#f87171;--no-b:#7f1d1d;--partial:#3d2f0d;--partial-t:#fbbf24;--partial-b:#78350f;--match:#1a2a4a;--match-t:#60a5fa;--match-b:#1e3a5f;--tp:#e8ecf0;--ts:#8b95a1;--tm:#4a5568;--red:#ff3333;--mono:"Share Tech Mono",monospace;--display:"Barlow Condensed",sans-serif;--body:"Barlow",sans-serif;}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:var(--bg);color:var(--tp);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}}
 .wrap{{max-width:1100px;margin:0 auto;padding:0 32px 80px}}
@@ -259,14 +262,14 @@ h1 span{{color:var(--red)}}
 .stats{{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}}
 .stat{{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px 12px 12px;position:relative;overflow:hidden}}
 .stat::before{{content:"";position:absolute;top:0;left:0;right:0;height:3px}}
-.stat.yes::before{{background:var(--yes-t)}}.stat.partial::before{{background:var(--partial-t)}}.stat.watch::before{{background:var(--watch-t)}}.stat.no::before{{background:var(--no-t)}}
+.stat.yes::before{{background:var(--yes-t)}}.stat.partial::before{{background:var(--partial-t)}}.stat.match::before{{background:var(--match-t)}}.stat.no::before{{background:var(--no-t)}}
 .stat-n{{font-family:var(--display);font-weight:700;font-size:48px;line-height:1;margin-bottom:4px}}
-.stat.yes .stat-n{{color:var(--yes-t)}}.stat.partial .stat-n{{color:var(--partial-t)}}.stat.watch .stat-n{{color:var(--watch-t)}}.stat.no .stat-n{{color:var(--no-t)}}
+.stat.yes .stat-n{{color:var(--yes-t)}}.stat.partial .stat-n{{color:var(--partial-t)}}.stat.match .stat-n{{color:var(--match-t)}}.stat.no .stat-n{{color:var(--no-t)}}
 .stat-l{{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--tm);text-transform:uppercase}}
 .acc-labels{{display:flex;justify-content:space-between;margin-bottom:7px}}
 .acc-labels span{{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.08em;text-transform:uppercase}}
 .bar-track{{height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}}
-.bar-fill{{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--watch-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}}
+.bar-fill{{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--match-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}}
 .legend{{display:flex;flex-wrap:wrap;gap:10px 20px}}
 .legend-item{{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--tm)}}
 .breaking-box{{background:#1a0a0a;border:1px solid #7f1d1d;border-left:3px solid var(--red);border-radius:4px;padding:16px 18px;margin-bottom:32px}}
@@ -288,18 +291,26 @@ h1 span{{color:var(--red)}}
 .verdict.yes{{background:var(--yes);color:var(--yes-t);border:1px solid var(--yes-b)}}
 .verdict.no{{background:var(--no);color:var(--no-t);border:1px solid var(--no-b)}}
 .verdict.partial{{background:var(--partial);color:var(--partial-t);border:1px solid var(--partial-b)}}
-.verdict.watch{{background:var(--watch);color:var(--watch-t);border:1px solid var(--watch-b);animation:pulse 2s ease-in-out infinite}}
+.verdict.match{{background:var(--match);color:var(--match-t);border:1px solid var(--match-b);animation:pulse 2s ease-in-out infinite}}
 @keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.55}}}}
 .claim-body{{flex:1;min-width:0}}
 .claim-text{{font-size:15px;color:var(--tp);line-height:1.45;margin-bottom:5px}}
 .claim.no .claim-text{{text-decoration:line-through;text-decoration-color:rgba(248,113,113,.4);text-decoration-thickness:1.5px;opacity:.6}}
 .claim-src{{font-family:var(--mono);font-size:11px;color:var(--tm);line-height:1.55}}
 .src-tag{{color:var(--ts);font-size:10px;margin-right:4px;letter-spacing:.05em}}
-.news{{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;background:rgba(30,58,95,.4);border-left:2px solid var(--watch-b);border-radius:0 4px 4px 0;color:var(--watch-t);line-height:1.6}}
-.nd{{color:var(--tm);font-size:10px;margin-right:4px}}
-.news a{{color:var(--watch-t);text-decoration:underline;text-underline-offset:2px;opacity:.8}}
-.news.news-hot{{background:rgba(63,26,26,.5);border-left-color:var(--no-b);color:#fca5a5}}
-.news.news-hot .nd{{color:var(--red)}}
+.news{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;border-radius:0 4px 4px 0;line-height:1.6;border-left:2px solid transparent}
+.nd{font-size:10px;margin-right:4px}
+.news a{text-decoration:underline;text-underline-offset:2px;opacity:.8}
+.news.news-yes{background:rgba(26,74,46,.35);border-left-color:var(--yes-b);color:var(--yes-t)}
+.news.news-yes .nd{color:#166534}
+.news.news-no{background:rgba(63,26,26,.35);border-left-color:var(--no-b);color:var(--no-t)}
+.news.news-no .nd{color:#991b1b}
+.news.news-partial{background:rgba(61,47,13,.45);border-left-color:var(--partial-b);color:var(--partial-t)}
+.news.news-partial .nd{color:#92620a}
+.news.news-watch{background:rgba(30,58,95,.4);border-left-color:var(--watch-b);color:var(--watch-t)}
+.news.news-watch .nd{color:#4a6b8a}
+.news.news-hot{background:rgba(63,26,26,.7)!important;border-left-color:#ef4444!important;color:#fca5a5!important}
+.news.news-hot .nd{color:#ef4444!important}
 .footer{{margin-top:40px;padding:22px 24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}}
 .footer p{{font-size:14px;color:var(--ts);line-height:1.75;font-weight:300;margin-bottom:12px}}
 .footer strong{{color:var(--tp);font-weight:500}}
@@ -352,7 +363,7 @@ h1 span{{color:var(--red)}}
     <div class="stats">
       <div class="stat yes"><div class="stat-n">{counts["yes"]}</div><div class="stat-l">Confirmed</div></div>
       <div class="stat partial"><div class="stat-n">{counts["partial"]}</div><div class="stat-l">Partial</div></div>
-      <div class="stat watch"><div class="stat-n">{counts["watch"]}</div><div class="stat-l">Watch</div></div>
+      <div class="stat watch"><div class="stat-n">{counts["match"]}</div><div class="stat-l">Match</div></div>
       <div class="stat no"><div class="stat-n">{counts["no"]}</div><div class="stat-l">No</div></div>
     </div>
     <div class="acc-bar">
@@ -362,7 +373,7 @@ h1 span{{color:var(--red)}}
     <div class="legend">
       <div class="legend-item"><span class="verdict yes" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">YES</span> Confirmed happened</div>
       <div class="legend-item"><span class="verdict partial" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">PARTIAL</span> Partly true</div>
-      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">WATCH</span> Developing / reported</div>
+      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">MATCH</span> Developing</div>
       <div class="legend-item"><span class="verdict no" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">NO</span> Has not happened</div>
     </div>
   </div>
@@ -436,7 +447,7 @@ def main():
         f.write(html)
     print(f"      Rebuilt {HTML_OUT_FILE} \u2713")
     counts = count_statuses(data)
-    yes=counts['yes']; partial=counts['partial']; watch=counts['watch']; no=counts['no']
+    yes=counts['yes']; partial=counts['partial']; watch=counts['match']; no=counts['no']
     print(f"\n=== Done. YES:{yes} PARTIAL:{partial} WATCH:{watch} NO:{no} ===" )
 
 if __name__ == "__main__":

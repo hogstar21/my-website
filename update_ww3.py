@@ -41,39 +41,21 @@ def save_claims(data):
 # ── RSS FETCH ────────────────────────────────────────────────────────────────
 def fetch_headlines(keywords):
     headlines = []
-    query = urllib.parse.quote(" ".join(keywords[:2]))
-    
-    # Try multiple RSS sources
-    sources = [
-        f"https://feeds.bbci.co.uk/news/world/rss.xml",
-        f"https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-        f"https://www.aljazeera.com/xml/rss/all.xml",
-        f"https://feeds.reuters.com/Reuters/worldNews",
-        f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en",
-    ]
-    
-    kw_lower = [k.lower() for k in keywords]
-    
-    for url in sources:
-        try:
-            req = urllib.request.Request(url, headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            })
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                xml = resp.read()
-            root = ElementTree.fromstring(xml)
-            for item in root.findall(".//item")[:20]:
-                title = item.findtext("title", "").strip()
-                pub   = item.findtext("pubDate", "").strip()
-                if title and any(k in title.lower() for k in kw_lower):
-                    headlines.append(f"{title} [{pub[:16]}]")
-                    if len(headlines) >= MAX_HEADLINES:
-                        break
-        except Exception as e:
-            print(f"  RSS error {url[:40]}: {e}")
-        if len(headlines) >= MAX_HEADLINES:
-            break
-    
+    query = " OR ".join(f'"{k}"' for k in keywords[:3])
+    encoded = urllib.parse.quote(query)
+    url = f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            xml = resp.read()
+        root = ElementTree.fromstring(xml)
+        for item in root.findall(".//item")[:MAX_HEADLINES]:
+            title = item.findtext("title", "").strip()
+            pub   = item.findtext("pubDate", "").strip()
+            if title:
+                headlines.append(f"{title} [{pub[:16]}]")
+    except Exception as e:
+        print(f"  RSS error for '{keywords[0]}': {e}")
     return headlines
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────

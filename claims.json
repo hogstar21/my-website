@@ -164,24 +164,32 @@
       "title": "US ground / amphibious operations",
       "claims": [
         {
-          "id": "c8",
-          "text": "US tries amphibious invasion of Iran",
+          "id": "c8a",
+          "text": "US tries amphibious invasion of Iran — first attempt fails with massive casualties",
           "status": "watch",
           "source": "Conflict has been air/naval only — CENTCOM Operation Epic Fury. No ground invasion yet.",
           "keywords": [
             "US Marines amphibious Iran 2026",
             "USS Boxer deployment Middle East",
-            "Kharg Island US seizure",
-            "USS Tripoli Arabian Sea",
-            "US ground troops Iran"
+            "Kharg Island US operation"
           ],
           "updates": [
             {
               "date": "MAR 18-21, 2026",
-              "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island. Seizure of Kharg Island discussed as war-ending bargaining chip.",
+              "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island.",
               "hot": true
             }
           ]
+        },
+        {
+          "id": "c8b",
+          "text": "Second attempt succeeds, oil fields seized, advance halts",
+          "status": "no",
+          "source": "No such event — first invasion attempt has not even occurred yet",
+          "keywords": [
+            "US Iran ground invasion success oil fields seized"
+          ],
+          "updates": []
         },
         {
           "id": "c9",
@@ -385,6 +393,17 @@
               "hot": false
             }
           ]
+        },
+        {
+          "id": "c_nuclear_weeks",
+          "text": "3 weeks of nuclear events",
+          "status": "no",
+          "source": "No nuclear weapons used — all available sources",
+          "keywords": [
+            "nuclear event 2026",
+            "nuclear detonation war"
+          ],
+          "updates": []
         }
       ]
     },
@@ -421,6 +440,37 @@
           "keywords": [
             "world government 2026 UN",
             "Dome of the Rock destroyed"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c_aliens_defeated",
+          "text": "Fake aliens defeated with help of real ones",
+          "status": "no",
+          "source": "None of this has occurred",
+          "keywords": [
+            "alien disclosure 2026",
+            "extraterrestrial contact"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c_one_world_govt",
+          "text": "One world government under MJ12 and the UN",
+          "status": "no",
+          "source": "None of this has occurred",
+          "keywords": [
+            "world government 2026 UN MJ12"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c_dome_rock",
+          "text": "Dome of the Rock destroyed",
+          "status": "no",
+          "source": "Dome of the Rock still standing — all available sources",
+          "keywords": [
+            "Dome of the Rock destroyed 2026"
           ],
           "updates": []
         }

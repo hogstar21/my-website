@@ -20,7 +20,7 @@ CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -298,19 +298,19 @@ h1 span{{color:var(--red)}}
 .claim.no .claim-text{{text-decoration:line-through;text-decoration-color:rgba(248,113,113,.4);text-decoration-thickness:1.5px;opacity:.6}}
 .claim-src{{font-family:var(--mono);font-size:11px;color:var(--tm);line-height:1.55}}
 .src-tag{{color:var(--ts);font-size:10px;margin-right:4px;letter-spacing:.05em}}
-.news{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;border-radius:0 4px 4px 0;line-height:1.6;border-left:2px solid transparent}
-.nd{font-size:10px;margin-right:4px}
-.news a{text-decoration:underline;text-underline-offset:2px;opacity:.8}
-.news.news-yes{background:rgba(26,74,46,.35);border-left-color:var(--yes-b);color:var(--yes-t)}
-.news.news-yes .nd{color:#166534}
-.news.news-no{background:rgba(63,26,26,.35);border-left-color:var(--no-b);color:var(--no-t)}
-.news.news-no .nd{color:#991b1b}
-.news.news-partial{background:rgba(61,47,13,.45);border-left-color:var(--partial-b);color:var(--partial-t)}
-.news.news-partial .nd{color:#92620a}
-.news.news-watch{background:rgba(30,58,95,.4);border-left-color:var(--watch-b);color:var(--watch-t)}
-.news.news-watch .nd{color:#4a6b8a}
-.news.news-hot{background:rgba(63,26,26,.7)!important;border-left-color:#ef4444!important;color:#fca5a5!important}
-.news.news-hot .nd{color:#ef4444!important}
+.news{{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;border-radius:0 4px 4px 0;line-height:1.6;border-left:2px solid transparent}}
+.nd{{font-size:10px;margin-right:4px}}
+.news a{{text-decoration:underline;text-underline-offset:2px;opacity:.8}}
+.news.news-yes{{background:rgba(26,74,46,.35);border-left-color:var(--yes-b);color:var(--yes-t)}}
+.news.news-yes .nd{{color:#166534}}
+.news.news-no{{background:rgba(63,26,26,.35);border-left-color:var(--no-b);color:var(--no-t)}}
+.news.news-no .nd{{color:#991b1b}}
+.news.news-partial{{background:rgba(61,47,13,.45);border-left-color:var(--partial-b);color:var(--partial-t)}}
+.news.news-partial .nd{{color:#92620a}}
+.news.news-watch{{background:rgba(30,58,95,.4);border-left-color:var(--watch-b);color:var(--watch-t)}}
+.news.news-watch .nd{{color:#4a6b8a}}
+.news.news-hot{{background:rgba(63,26,26,.7)!important;border-left-color:#ef4444!important;color:#fca5a5!important}}
+.news.news-hot .nd{{color:#ef4444!important}}
 .footer{{margin-top:40px;padding:22px 24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}}
 .footer p{{font-size:14px;color:var(--ts);line-height:1.75;font-weight:300;margin-bottom:12px}}
 .footer strong{{color:var(--tp);font-weight:500}}

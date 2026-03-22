@@ -23,7 +23,7 @@ jobs:
 
       - name: Run update script
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python update_ww3.py
 
       - name: Commit and push

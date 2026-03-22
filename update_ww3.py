@@ -20,8 +20,8 @@ from xml.etree import ElementTree
 CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -61,27 +61,32 @@ def fetch_headlines(keywords):
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────
 def ask_gemini(prompt):
-    if not GROQ_API_KEY:
-        print("  No GROQ_API_KEY")
+    if not OPENROUTER_API_KEY:
+        print("  No OPENROUTER_API_KEY")
         return ""
     payload = json.dumps({
-        "model": "llama-3.3-70b-versatile",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.2,
         "max_tokens": 512
     }).encode()
     try:
-        req = urllib.request.Request(GROQ_URL, data=payload,
-            headers={"Content-Type": "application/json",
-                     "Authorization": f"Bearer {GROQ_API_KEY}"}, method="POST")
+        req = urllib.request.Request(OPENROUTER_URL, data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                "HTTP-Referer": "https://hogstar21.github.io/my-website/ww3-tracker.html",
+                "X-Title": "WW3 Tracker"
+            }, method="POST")
         with urllib.request.urlopen(req, timeout=20) as resp:
             result = json.loads(resp.read())
         return result["choices"][0]["message"]["content"].strip()
     except urllib.error.HTTPError as e:
-        print(f"  Groq error: {e.code} {e.reason}")
+        body = e.read().decode()
+        print(f"  OpenRouter error: {e.code} - {body[:100]}")
         return ""
     except Exception as e:
-        print(f"  Groq error: {e}")
+        print(f"  OpenRouter error: {e}")
         return ""
 
 # ── UPDATE CLAIM ─────────────────────────────────────────────────────────────
@@ -107,15 +112,19 @@ def update_claim(claim):
         print(f"  [{cid}] No headlines found — skipping Gemini")
         return claim
 
-    prompt = f"""Fact-checking a 2025 4chan WW3 prediction.
-CLAIM: "{text}"
-CURRENT STATUS: {status.upper()}
-HEADLINES:
-{chr(10).join(f"- {h}" for h in headlines)}
+    headlines_str = chr(10).join(f"- {h}" for h in headlines)
+    prompt = f"""You are a news analyst. Check if recent headlines confirm or update this geopolitical claim.
 
-Reply ONLY in this JSON (no markdown):
-{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"one sentence under 180 chars or empty","update_hot":true|false}}
-Only change status if headlines clearly confirm it. Return has_update:false if nothing new."""
+CLAIM: "{text}"
+CURRENT VERDICT: {status.upper()}
+
+HEADLINES:
+{headlines_str}
+
+Respond ONLY in JSON (no markdown, no explanation):
+{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"brief update under 180 chars","update_hot":true|false}}
+
+Only change status if headlines clearly support it. Return has_update:false if no new info."""
 
     time.sleep(4)  # stay under 15 req/min free tier limit
     time.sleep(1)  # small delay between calls
@@ -170,7 +179,7 @@ def fetch_breaking_news(existing):
 
     print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
 
-    if not all_headlines or not GROQ_API_KEY:
+    if not all_headlines or not OPENROUTER_API_KEY:
         return existing
 
     existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"

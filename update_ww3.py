@@ -180,23 +180,17 @@ def fetch_breaking_news(existing):
     existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"
     count = "5" if box_empty else "3"
 
-    prompt = f"""You are updating a breaking news ticker for a live Iran war tracker page. Today is {TODAY}.
-
-NEWS HEADLINES FOUND:
-{chr(10).join(f"- {h}" for h in all_headlines[:20])}
-
-EXISTING ITEMS ALREADY SHOWN (do not repeat):
-{existing_texts}
-
-{"The breaking news box is currently EMPTY. You MUST add the most important headlines." if box_empty else f"Pick up to {count} genuinely NEW developments not already in existing items."}
-
-Reply ONLY in this exact JSON format (no markdown, no explanation):
-[{{"date":"{TODAY}","text":"summary under 180 chars","source":"source name","hot":true}}]
-
-Rules:
-- hot=true only for very urgent breaking news
-- If truly nothing new, return []
-- Always return valid JSON array"""
+    headlines_text = "\n".join(f"- {h}" for h in all_headlines[:20])
+    instruction = "The breaking news box is EMPTY. Add the 5 most important headlines." if box_empty else f"Add up to {count} NEW items not already in existing."
+    prompt = (
+        f"You update a breaking news ticker for an Iran war tracker. Today: {TODAY}.\n\n"
+        f"HEADLINES:\n{headlines_text}\n\n"
+        f"EXISTING (do not repeat):\n{existing_texts}\n\n"
+        f"{instruction}\n\n"
+        f"Reply ONLY as a JSON array, no markdown:\n"
+        f'[{{"date":"{TODAY}","text":"under 180 chars","source":"source","hot":true}}]\n'
+        f"Return [] if nothing new."
+    )
 
     response = ask_gemini(prompt)
     if not response:

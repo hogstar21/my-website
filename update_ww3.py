@@ -20,8 +20,8 @@ from xml.etree import ElementTree
 CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -61,33 +61,33 @@ def fetch_headlines(keywords):
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────
 def ask_gemini(prompt):
-    if not OPENROUTER_API_KEY:
-        print("  No OPENROUTER_API_KEY")
+    if not GEMINI_API_KEY:
+        print("  No GEMINI_API_KEY")
         return ""
     payload = json.dumps({
-        "model": "openrouter/auto",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.2,
-        "max_tokens": 512
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 512}
     }).encode()
-    try:
-        req = urllib.request.Request(OPENROUTER_URL, data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-                "HTTP-Referer": "https://hogstar21.github.io/my-website/ww3-tracker.html",
-                "X-Title": "WW3 Tracker"
-            }, method="POST")
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            result = json.loads(resp.read())
-        return result["choices"][0]["message"]["content"].strip()
-    except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        print(f"  OpenRouter error: {e.code} - {body[:100]}")
-        return ""
-    except Exception as e:
-        print(f"  OpenRouter error: {e}")
-        return ""
+    url = f"{GEMINI_URL}?key={GEMINI_API_KEY}"
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, data=payload,
+                headers={"Content-Type": "application/json"}, method="POST")
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                result = json.loads(resp.read())
+            return result["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = (attempt + 1) * 15
+                print(f"  Rate limited, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"  Gemini error: {e.code}")
+                return ""
+        except Exception as e:
+            print(f"  Gemini error: {e}")
+            return ""
+    return ""
 
 # ── UPDATE CLAIM ─────────────────────────────────────────────────────────────
 def update_claim(claim):
@@ -194,7 +194,7 @@ def fetch_breaking_news(existing):
 
     print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
 
-    if not all_headlines or not OPENROUTER_API_KEY:
+    if not all_headlines or not GEMINI_API_KEY:
         return existing
 
     existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"

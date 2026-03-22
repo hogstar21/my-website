@@ -3,7 +3,7 @@ name: WW3 Tracker Hourly Update
 on:
   schedule:
     # Test run at 12:30 AM EDT (04:30 UTC)
-    - cron: '30 4 * * *'
+    - cron: '45 4 * * *'
     # Runs every hour
     - cron: '0 * * * *'
   workflow_dispatch:

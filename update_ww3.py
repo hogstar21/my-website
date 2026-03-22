@@ -56,6 +56,7 @@ def fetch_headlines(keywords):
                 headlines.append(f"{title} [{pub[:16]}]")
     except Exception as e:
         print(f"  RSS error for '{keywords[0]}': {e}")
+    print(f"  RSS: {len(headlines)} headlines for '{keywords[0]}'")
     return headlines
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────

@@ -148,6 +148,7 @@ Only change status if headlines clearly support it. Return has_update:false if n
     if new_status != status:
         print(f"  [{cid}] Status: {status} -> {new_status}")
         claim["status"] = new_status
+        claim["changed_at"] = TODAY_ISO  # stamp the date it changed
 
     return claim
 
@@ -223,9 +224,18 @@ def count_statuses(data):
     return counts
 
 # ── RENDER ────────────────────────────────────────────────────────────────────
-def render_verdict(status):
+def render_verdict(status, changed_at=None):
     labels = {"yes":"YES","no":"NO","partial":"PARTIAL","watch":"WATCH"}
-    return f'<div class="verdict {status}">{labels.get(status,status.upper())}</div>'
+    badge = f'<div class="verdict {status}">{labels.get(status,status.upper())}</div>'
+    if changed_at:
+        try:
+            from datetime import datetime, timedelta
+            changed = datetime.strptime(changed_at, "%Y-%m-%d")
+            if datetime.utcnow() - changed <= timedelta(days=1):
+                badge += '<div class="new-badge">NEW</div>'
+        except:
+            pass
+    return badge
 
 def render_updates(updates, status="watch"):
     if not updates:
@@ -242,15 +252,47 @@ def render_updates(updates, status="watch"):
 def render_claim(claim):
     status = claim.get("status","no")
     sc = " no" if status == "no" else ""
+    changed_at = claim.get("changed_at")
     return f'''
     <div class="claim{sc}">
-      {render_verdict(status)}
+      {render_verdict(status, changed_at)}
       <div class="claim-body">
         <div class="claim-text">{claim["text"]}</div>
         <div class="claim-src"><span class="src-tag">SRC</span>{claim["source"]}</div>
         {render_updates(claim.get("updates",[]), status)}
       </div>
     </div>'''
+
+def render_changes_summary(data):
+    """Build a summary box of claims that changed status in last 24 hours."""
+    from datetime import datetime, timedelta
+    changed = []
+    for section in data["sections"]:
+        for claim in section["claims"]:
+            changed_at = claim.get("changed_at")
+            if changed_at:
+                try:
+                    dt = datetime.strptime(changed_at, "%Y-%m-%d")
+                    if datetime.utcnow() - dt <= timedelta(days=1):
+                        changed.append({
+                            "text": claim["text"],
+                            "status": claim["status"],
+                            "section": section["title"]
+                        })
+                except:
+                    pass
+    if not changed:
+        return ""
+    
+    labels = {"yes":"YES","no":"NO","partial":"PARTIAL","watch":"WATCH"}
+    rows = ""
+    for c in changed:
+        rows += f'<div class="change-item"><span class="verdict {c["status"]}" style="animation:none;font-size:9px;padding:2px 8px;min-width:0">{labels.get(c["status"],c["status"].upper())}</span><span class="change-text">{c["text"]}</span></div>\n'
+    
+    return f'''<div class="changes-box">
+  <div class="changes-label">&#x26A0; Status changes in last 24 hours</div>
+  {rows}
+</div>'''
 
 def render_breaking(items):
     if not items:
@@ -365,6 +407,13 @@ h1 span{{color:var(--red)}}
 .footer strong{{color:var(--tp);font-weight:500}}
 .footer-meta{{margin-top:18px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}}
 .footer-meta span{{font-family:var(--mono);font-size:10px;color:var(--tm);letter-spacing:.07em}}
+.changes-box{{background:#0f1f0f;border:1px solid #166534;border-left:3px solid var(--yes-t);border-radius:4px;padding:14px 18px;margin-bottom:20px}}
+.changes-label{{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--yes-t);text-transform:uppercase;margin-bottom:10px}}
+.change-item{{display:flex;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid rgba(74,222,128,.1)}}
+.change-item:last-child{{border-bottom:none}}
+.change-text{{font-family:var(--mono);font-size:11px;color:var(--tp)}}
+.new-badge{{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.1em;background:#ff3333;color:#fff;padding:2px 6px;border-radius:3px;margin-left:6px;vertical-align:middle;animation:newpulse 1s ease-in-out infinite}}
+@keyframes newpulse{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.7;transform:scale(1.05)}}}}
 .nav-toggle-btn{{position:fixed;bottom:30px;right:30px;width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,rgba(40,40,40,.95),rgba(20,20,20,.95));border:3px solid rgba(255,255,255,.3);box-shadow:0 5px 25px rgba(0,0,0,.5);cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:10500;transition:all .3s ease}}
 .nav-toggle-btn:hover{{transform:scale(1.1);box-shadow:0 8px 35px rgba(0,0,0,.7);border-color:rgba(255,255,255,.6)}}
 .nav-toggle-btn .icon{{font-size:28px;margin-bottom:3px}}
@@ -427,6 +476,7 @@ h1 span{{color:var(--red)}}
     </div>
   </div>
 </div>
+{render_changes_summary(data)}
 {breaking_html}
 {sections_html}
 <div class="footer">

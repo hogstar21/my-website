@@ -22,8 +22,11 @@ IMAGE_PATH    = "images/4chan-prediction.jpg"   # relative path in repo
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL    = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 MAX_HEADLINES = 5   # headlines per claim to send to Gemini
-TODAY         = datetime.now(timezone.utc).strftime("%b %d, %Y").upper()
-TODAY_ISO     = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+from datetime import timedelta
+_now_utc  = datetime.now(timezone.utc)
+_now_edt  = _now_utc - timedelta(hours=4)   # EDT = UTC-4 (adjust to -5 in winter EST)
+TODAY     = _now_edt.strftime("%b %d, %Y · %-I:%M %p EDT").upper()
+TODAY_ISO = _now_utc.strftime("%Y-%m-%d")
 
 # ── STEP 1: LOAD CLAIMS ──────────────────────────────────────────────────────
 def load_claims():
@@ -261,7 +264,7 @@ def render_breaking_news(items: list) -> str:
         rows += f'<div class="breaking-item{hot_class}"><span class="bi-date">{item["date"]}</span>{item["text"]}<span class="bi-src"> · {item.get("source","")}</span></div>\n'
     return f'''
 <div class="breaking-box">
-  <div class="breaking-label">Breaking News</div>
+  <div class="breaking-label">Breaking &mdash; {TODAY}</div>
   {rows}
 </div>'''
 

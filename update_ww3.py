@@ -140,9 +140,22 @@ Only change status if headlines clearly support it. Return has_update:false if n
     if result.get("has_update") and result.get("update_text"):
         entry = {"date": TODAY, "text": result["update_text"], "hot": result.get("update_hot", False)}
         existing = claim.get("updates", [])
-        if not existing or existing[-1]["text"] != entry["text"]:
-            claim.setdefault("updates", []).append(entry)
-            print(f"  [{cid}] Update: {entry['text'][:50]}...")
+        # Deduplicate by meaning - remove any existing update that covers the same topic
+        def is_similar(a, b):
+            # Compare key words - if 60%+ of words overlap, consider duplicate
+            wa = set(a.lower().split())
+            wb = set(b.lower().split())
+            if not wa or not wb:
+                return False
+            overlap = len(wa & wb) / min(len(wa), len(wb))
+            return overlap > 0.6
+        
+        # Remove existing updates that are similar to the new one
+        existing = [u for u in existing if not is_similar(u["text"], entry["text"])]
+        existing.append(entry)
+        # Keep only last 3
+        claim["updates"] = existing[-3:]
+        print(f"  [{cid}] Update: {entry['text'][:50]}...")
 
     new_status = result.get("status", status)
     if new_status != status:

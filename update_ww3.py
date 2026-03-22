@@ -65,7 +65,7 @@ def ask_gemini(prompt):
         print("  No OPENROUTER_API_KEY")
         return ""
     payload = json.dumps({
-        "model": "mistralai/mistral-7b-instruct:free",
+        "model": "openrouter/auto",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.2,
         "max_tokens": 512

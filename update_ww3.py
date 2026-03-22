@@ -21,7 +21,7 @@ CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -116,7 +116,7 @@ Reply ONLY in this JSON (no markdown):
 Only change status if headlines clearly confirm it. Return has_update:false if nothing new."""
 
     time.sleep(4)  # stay under 15 req/min free tier limit
-    time.sleep(5)  # avoid rate limit (free tier: 15 req/min)
+    time.sleep(7)  # avoid rate limit (free tier: 10 req/min for 2.5-flash)
     response = ask_gemini(prompt)
     if not response:
         return claim

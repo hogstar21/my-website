@@ -6,6 +6,7 @@ Runs via GitHub Actions every hour.
 """
 
 import json
+import time
 import os
 import re
 import sys
@@ -40,21 +41,39 @@ def save_claims(data):
 # ── RSS FETCH ────────────────────────────────────────────────────────────────
 def fetch_headlines(keywords):
     headlines = []
-    query = " OR ".join(f'\"{k}\"' for k in keywords[:3])
-    encoded = urllib.parse.quote(query)
-    url = f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            xml = resp.read()
-        root = ElementTree.fromstring(xml)
-        for item in root.findall(".//item")[:MAX_HEADLINES]:
-            title = item.findtext("title", "").strip()
-            pub   = item.findtext("pubDate", "").strip()
-            if title:
-                headlines.append(f"{title} [{pub[:16]}]")
-    except Exception as e:
-        print(f"  RSS error for \'{keywords[0]}\': {e}")
+    query = urllib.parse.quote(" ".join(keywords[:2]))
+    
+    # Try multiple RSS sources
+    sources = [
+        f"https://feeds.bbci.co.uk/news/world/rss.xml",
+        f"https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        f"https://www.aljazeera.com/xml/rss/all.xml",
+        f"https://feeds.reuters.com/Reuters/worldNews",
+        f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en",
+    ]
+    
+    kw_lower = [k.lower() for k in keywords]
+    
+    for url in sources:
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            })
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                xml = resp.read()
+            root = ElementTree.fromstring(xml)
+            for item in root.findall(".//item")[:20]:
+                title = item.findtext("title", "").strip()
+                pub   = item.findtext("pubDate", "").strip()
+                if title and any(k in title.lower() for k in kw_lower):
+                    headlines.append(f"{title} [{pub[:16]}]")
+                    if len(headlines) >= MAX_HEADLINES:
+                        break
+        except Exception as e:
+            print(f"  RSS error {url[:40]}: {e}")
+        if len(headlines) >= MAX_HEADLINES:
+            break
+    
     return headlines
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────
@@ -67,15 +86,25 @@ def ask_gemini(prompt):
         "generationConfig": {"temperature": 0.2, "maxOutputTokens": 512}
     }).encode()
     url = f"{GEMINI_URL}?key={GEMINI_API_KEY}"
-    try:
-        req = urllib.request.Request(url, data=payload,
-            headers={"Content-Type": "application/json"}, method="POST")
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            result = json.loads(resp.read())
-        return result["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        print(f"  Gemini error: {e}")
-        return ""
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, data=payload,
+                headers={"Content-Type": "application/json"}, method="POST")
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                result = json.loads(resp.read())
+            return result["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = (attempt + 1) * 10
+                print(f"  Rate limited, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"  Gemini error: {e}")
+                return ""
+        except Exception as e:
+            print(f"  Gemini error: {e}")
+            return ""
+    return ""
 
 # ── UPDATE CLAIM ─────────────────────────────────────────────────────────────
 def update_claim(claim):
@@ -104,6 +133,8 @@ Reply ONLY in this JSON (no markdown):
 {{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"one sentence under 180 chars or empty","update_hot":true|false}}
 Only change status if headlines clearly confirm it. Return has_update:false if nothing new."""
 
+    time.sleep(4)  # stay under 15 req/min free tier limit
+    time.sleep(5)  # avoid rate limit (free tier: 15 req/min)
     response = ask_gemini(prompt)
     if not response:
         return claim
@@ -152,6 +183,7 @@ Pick up to 3 new significant developments. Reply ONLY in JSON (no markdown):
 [{{"date":"{TODAY}","text":"under 180 chars","source":"source name","hot":true|false}}]
 Return [] if nothing new."""
 
+    time.sleep(4)
     response = ask_gemini(prompt)
     if not response:
         return existing

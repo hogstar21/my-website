@@ -100,6 +100,11 @@ def update_claim(claim):
         print(f"  [{cid}] Locked NO — skipping")
         return claim
 
+    # Lock confirmed YES claims - never allow downgrade
+    if status == "yes":
+        print(f"  [{cid}] Locked YES — skipping")
+        return claim
+
     print(f"  [{cid}] Checking: {text[:55]}...")
     headlines = fetch_headlines(claim.get("keywords", [text]))
     if not headlines:
@@ -147,7 +152,20 @@ BREAKING_KEYWORDS = [
     "Kharg Island US", "Iran war ceasefire 2026",
 ]
 
+def is_recent(date_str, days=3):
+    """Check if a date string is within the last N days."""
+    try:
+        from datetime import datetime, timedelta
+        # Try parsing common formats like "MAR 21, 2026"
+        dt = datetime.strptime(date_str.strip(), "%b %d, %Y")
+        return dt >= datetime.utcnow() - timedelta(days=days)
+    except:
+        return True  # Keep if can't parse
+
 def fetch_breaking_news(existing):
+    # Remove items older than 3 days
+    existing = [e for e in existing if is_recent(e.get("date", ""))]
+
     all_headlines = []
     for kw in BREAKING_KEYWORDS:
         all_headlines.extend(fetch_headlines([kw]))

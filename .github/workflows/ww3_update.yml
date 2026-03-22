@@ -1,0 +1,37 @@
+name: WW3 Tracker Daily Update
+
+on:
+  schedule:
+    # Runs every day at 8:00 AM UTC (4:00 AM Eastern / 1:00 AM Pacific)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Also allows manual trigger from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to push the updated HTML back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run update script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python update_ww3.py
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name  "WW3 Tracker Bot"
+          git config user.email "bot@github-actions"
+          git add ww3-tracker.html claims.json
+          git diff --staged --quiet || git commit -m "Auto-update: WW3 tracker $(date -u +%Y-%m-%d)"
+          git push

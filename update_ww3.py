@@ -138,7 +138,8 @@ Only change status if headlines clearly support it. Return has_update:false if n
         return claim
 
     if result.get("has_update") and result.get("update_text"):
-        entry = {"date": TODAY, "text": result["update_text"], "hot": result.get("update_hot", False)}
+        update_url = next((h["url"] for h in headlines if isinstance(h, dict) and h.get("url")), "")
+        entry = {"date": TODAY, "text": result["update_text"], "hot": result.get("update_hot", False), "url": update_url}
         existing = claim.get("updates", [])
         # Deduplicate by meaning - remove any existing update that covers the same topic
         def is_similar(a, b):
@@ -259,7 +260,9 @@ def render_updates(updates, status="watch"):
             cls = "news news-hot"
         else:
             cls = f"news news-{status}"
-        html += f'<div class="{cls}"><span class="nd">{u["date"]}</span>{u["text"]}</div>\n'
+        url = u.get("url", "")
+        link = f' <a href="{url}" target="_blank" rel="noopener">&#8599;</a>' if url else ""
+        html += f'<div class="{cls}"><span class="nd">{u["date"]}</span>{u["text"]}{link}</div>\n'
     return html
 
 def render_claim(claim):
@@ -313,7 +316,9 @@ def render_breaking(items):
     rows = ""
     for item in items:
         hot = " bi-hot" if item.get("hot") else ""
-        rows += f'<div class="breaking-item{hot}"><span class="bi-date">{item["date"]}</span>{item["text"]}<span class="bi-src"> &middot; {item.get("source","")}</span></div>\n'
+        url = item.get("url","")
+        src_link = f'<a href="{url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;opacity:.7">{item.get("source","")}</a>' if url else item.get("source","")
+        rows += f'<div class="breaking-item{hot}"><span class="bi-date">{item["date"]}</span>{item["text"]}<span class="bi-src"> &middot; {src_link}</span></div>\n'
     return f'''<div class="breaking-box">
   <div class="breaking-label">Breaking &mdash; {TODAY}</div>
   {rows}
@@ -402,6 +407,14 @@ h1 span{{color:var(--red)}}
 .claim.no .claim-text{{text-decoration:line-through;text-decoration-color:rgba(248,113,113,.4);text-decoration-thickness:1.5px;opacity:.6}}
 .claim-src{{font-family:var(--mono);font-size:11px;color:var(--tm);line-height:1.55}}
 .src-tag{{color:var(--ts);font-size:10px;margin-right:4px;letter-spacing:.05em}}
+.claim:has(.verdict.yes) .claim-text{{color:var(--yes-t)}}
+.claim:has(.verdict.yes) .claim-src{{color:rgba(74,222,128,.5)}}
+.claim:has(.verdict.no) .claim-text{{color:var(--no-t);opacity:.7}}
+.claim:has(.verdict.no) .claim-src{{color:rgba(248,113,113,.4)}}
+.claim:has(.verdict.partial) .claim-text{{color:var(--partial-t)}}
+.claim:has(.verdict.partial) .claim-src{{color:rgba(251,191,36,.5)}}
+.claim:has(.verdict.watch) .claim-text{{color:var(--watch-t)}}
+.claim:has(.verdict.watch) .claim-src{{color:rgba(96,165,250,.5)}}
 .news{{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;border-radius:0 4px 4px 0;line-height:1.6;border-left:2px solid transparent}}
 .nd{{font-size:10px;margin-right:4px}}
 .news a{{text-decoration:underline;text-underline-offset:2px;opacity:.8}}

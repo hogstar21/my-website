@@ -21,7 +21,7 @@ CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -109,6 +109,7 @@ def update_claim(claim):
     print(f"  [{cid}] Checking: {text[:55]}...")
     headlines = fetch_headlines(claim.get("keywords", [text]))
     if not headlines:
+        print(f"  [{cid}] No headlines found — skipping Gemini")
         return claim
 
     prompt = f"""Fact-checking a 2025 4chan WW3 prediction.

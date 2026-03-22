@@ -20,7 +20,418 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--tp);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1100px;margin:0 auto;padding:0 32px 80px}
-<head>
+
+/* HEADER */
+.header{padding:40px 0 28px;border-bottom:1px solid var(--border);margin-bottom:32px}
+.stamp-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.stamp{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--red);border:1px solid var(--red);padding:3px 10px}
+.header-meta{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.06em}
+h1{font-family:var(--display);font-weight:900;font-size:72px;line-height:.92;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:12px}
+h1 span{color:var(--red)}
+.header-sub{font-family:var(--display);font-weight:300;font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:var(--ts)}
+
+/* TOP GRID */
+.top-grid{display:grid;grid-template-columns:400px 1fr;gap:28px;margin-bottom:32px;align-items:start}
+.post-img-wrap{position:sticky;top:24px}
+.section-label{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--tm);text-transform:uppercase;margin-bottom:10px}
+.post-img-wrap img{width:100%;border-radius:4px;border:1px solid var(--border);opacity:.88;display:block}
+.img-caption{font-family:var(--mono);font-size:10px;color:var(--tm);margin-top:7px}
+.right-col{display:flex;flex-direction:column;gap:16px}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px 12px 12px;position:relative;overflow:hidden}
+.stat::before{content:"";position:absolute;top:0;left:0;right:0;height:3px}
+.stat.yes::before{background:var(--yes-t)}.stat.partial::before{background:var(--partial-t)}
+.stat.watch::before{background:var(--watch-t)}.stat.no::before{background:var(--no-t)}
+.stat-n{font-family:var(--display);font-weight:700;font-size:48px;line-height:1;margin-bottom:4px}
+.stat.yes .stat-n{color:var(--yes-t)}.stat.partial .stat-n{color:var(--partial-t)}
+.stat.watch .stat-n{color:var(--watch-t)}.stat.no .stat-n{color:var(--no-t)}
+.stat-l{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--tm);text-transform:uppercase}
+
+/* BAR */
+.acc-bar{}
+.acc-labels{display:flex;justify-content:space-between;margin-bottom:7px}
+.acc-labels span{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.08em;text-transform:uppercase}
+.bar-track{height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}
+.bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--watch-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+
+/* LEGEND */
+.legend{display:flex;flex-wrap:wrap;gap:10px 20px}
+.legend-item{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--tm)}
+
+/* BREAKING */
+.breaking-box{background:#1a0a0a;border:1px solid #7f1d1d;border-left:3px solid var(--red);border-radius:4px;padding:16px 18px;margin-bottom:32px}
+.breaking-label{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--red);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.breaking-label::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);animation:blink 1s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+.breaking-item{font-family:var(--mono);font-size:12px;color:var(--tp);line-height:1.7;padding:5px 0;border-bottom:1px solid #3f1a1a}
+.breaking-item:last-child{border-bottom:none;padding-bottom:0}
+.bi-date{color:var(--red);margin-right:6px;font-size:11px}
+.bi-src{color:var(--tm);font-size:10px;margin-left:6px}
+.bi-hot{color:#fca5a5}
+
+/* SECTION */
+.section{margin-bottom:6px}
+.sec-header{display:flex;align-items:center;gap:12px;padding:20px 0 10px}
+.sec-line{flex:1;height:1px;background:var(--border)}
+.sec-title{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--tm);text-transform:uppercase;white-space:nowrap}
+
+/* CLAIM */
+.claim{display:flex;align-items:flex-start;gap:14px;padding:13px 14px;border:1px solid transparent;border-radius:4px;margin-bottom:4px;transition:background .15s,border-color .15s}
+.claim:hover{background:var(--surface2);border-color:var(--border)}
+.verdict{flex-shrink:0;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.06em;padding:4px 12px;border-radius:3px;margin-top:2px;min-width:78px;text-align:center;text-transform:uppercase}
+.verdict.yes{background:var(--yes);color:var(--yes-t);border:1px solid var(--yes-b)}
+.verdict.no{background:var(--no);color:var(--no-t);border:1px solid var(--no-b)}
+.verdict.partial{background:var(--partial);color:var(--partial-t);border:1px solid var(--partial-b)}
+.verdict.watch{background:var(--watch);color:var(--watch-t);border:1px solid var(--watch-b);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+.claim-body{flex:1;min-width:0}
+.claim-text{font-size:15px;color:var(--tp);line-height:1.45;margin-bottom:5px}
+.claim.no .claim-text{text-decoration:line-through;text-decoration-color:rgba(248,113,113,.4);text-decoration-thickness:1.5px;opacity:.6}
+.claim-src{font-family:var(--mono);font-size:11px;color:var(--tm);line-height:1.55}
+.src-tag{color:var(--ts);font-size:10px;margin-right:4px;letter-spacing:.05em}
+.news{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;background:rgba(30,58,95,.4);border-left:2px solid var(--watch-b);border-radius:0 4px 4px 0;color:var(--watch-t);line-height:1.6}
+.nd{color:var(--tm);font-size:10px;margin-right:4px}
+.news a{color:var(--watch-t);text-decoration:underline;text-underline-offset:2px;opacity:.8}
+.news.news-hot{background:rgba(63,26,26,.5);border-left-color:var(--no-b);color:#fca5a5}
+.news.news-hot .nd{color:var(--red)}
+
+/* FOOTER */
+.footer{margin-top:40px;padding:22px 24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}
+.footer p{font-size:14px;color:var(--ts);line-height:1.75;font-weight:300;margin-bottom:12px}
+.footer strong{color:var(--tp);font-weight:500}
+.footer-meta{margin-top:18px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.footer-meta span{font-family:var(--mono);font-size:10px;color:var(--tm);letter-spacing:.07em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="header">
+  <div class="stamp-row">
+    <div class="stamp">UNVERIFIED SOURCE</div>
+    <div class="header-meta">4CHAN /POL/ · POST NO.508296436 · ORIGIN DATE: 2025-06-22 · AUTO-UPDATED DAILY</div>
+  </div>
+  <h1>4chan WW3<br><span>prediction</span><br>vs reality</h1>
+  <div class="header-sub">Fact-check · Updated 2026-03-22 · 26 claims evaluated</div>
+</div>
+
+<div class="top-grid">
+  <div class="post-img-wrap">
+    <div class="section-label">Original post</div>
+    <img src="images/4chan-prediction.jpg" alt="Original 4chan WW3 prediction post">
+    <div class="img-caption">archive.4plebs.org/pol/thread/507977706 · No.508296436</div>
+  </div>
+  <div class="right-col">
+    <div class="stats">
+      <div class="stat yes"><div class="stat-n">5</div><div class="stat-l">Confirmed</div></div>
+      <div class="stat partial"><div class="stat-n">1</div><div class="stat-l">Partial</div></div>
+      <div class="stat watch"><div class="stat-n">5</div><div class="stat-l">Watch</div></div>
+      <div class="stat no"><div class="stat-n">15</div><div class="stat-l">No</div></div>
+    </div>
+    <div class="acc-bar">
+      <div class="acc-labels"><span>Accuracy</span><span>~21% confirmed</span></div>
+      <div class="bar-track"><div class="bar-fill" id="bar"></div></div>
+    </div>
+    <div class="legend">
+      <div class="legend-item"><span class="verdict yes" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">YES</span> Confirmed happened</div>
+      <div class="legend-item"><span class="verdict partial" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">PARTIAL</span> Partly true</div>
+      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">WATCH</span> Developing / reported</div>
+      <div class="legend-item"><span class="verdict no" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">NO</span> Has not happened</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="breaking-box">
+  <div class="breaking-label">Breaking News</div>
+  <div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) departed San Diego carrying 2,500 Marines from 11th MEU ahead of schedule. ETA Arabian Sea: ~April 8-12.<span class="bi-src"> · USNI / AP</span></div>
+<div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Tripoli ARG (31st MEU, Japan-based) estimated to arrive Strait of Hormuz vicinity March 23-27 — days away.<span class="bi-src"> · WSJ / Satellite imagery</span></div>
+<div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>US Navy MQ-4C Triton UAV actively conducting recon orbits over Kharg Island — Iran's primary oil export terminal.<span class="bi-src"> · FlightRadar24 / DefenseOne</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>82nd Airborne Brigade (~4,000-5,000 troops) on standby at Fort Liberty — C-17s ready, capable of Gulf insertion within 18 hours of order.<span class="bi-src"> · AP</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Iran drone strikes hit 3 AWS data centers in UAE — major fires, structural damage, internet infrastructure outages across region.<span class="bi-src"> · Reuters</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting vessels of aggressor countries.<span class="bi-src"> · Al Jazeera</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Trump: 'You don't do a ceasefire when you're literally obliterating the other side.' US simultaneously lifted sanctions on 140M barrels of Iranian oil. Brent crude at $112.19/bbl.<span class="bi-src"> · Reuters / Goldman Sachs</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>USS Tulsa + USS Santa Barbara (Littoral Combat Ships / minesweepers) docked Singapore en route to Hormuz.<span class="bi-src"> · USNI News</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Iran claimed strikes on US Embassy logistics base in Baghdad — third time this week.<span class="bi-src"> · AFP</span></div>
+<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Trump branded NATO allies 'cowards' and called the bloc a 'paper tiger' — demanded partners help reopen Strait of Hormuz.<span class="bi-src"> · Politico</span></div>
+
+</div>
+
+
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-line"></div>
+      <div class="sec-title">Israel / US vs Iran — opening moves</div>
+      <div class="sec-line"></div>
+    </div>
+    
+    <div class="claim">
+      <div class="verdict yes">YES</div>
+      <div class="claim-body">
+        <div class="claim-text">Israel breaks ceasefire and strikes Iran</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Major strikes June 13, 2025 (12-Day War); Operation Epic Fury Feb 28, 2026 — Wikipedia / Britannica</div>
+        
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict yes">YES</div>
+      <div class="claim-body">
+        <div class="claim-text">Trump responds with B-2 bunker busters on nuclear sites</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>B-2 Spirit bombers + GBU-57 MOPs on Fordow & other nuclear sites — CRS Report / Congress.gov</div>
+        
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict yes">YES</div>
+      <div class="claim-body">
+        <div class="claim-text">Iran blocks Strait of Hormuz</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>IRGC closed Hormuz to US/allied ships March 2-4, 2026; oil traffic down ~90% — Wikipedia / CRS</div>
+        
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict partial">PARTIAL</div>
+      <div class="claim-body">
+        <div class="claim-text">Iran hits all Gulf oil fields and US bases; blocks Bab el-Mandeb</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Saudi Ras Tanura & Al-Udeid struck; all 6 GCC nations hit. Bab el-Mandeb: Houthi ceasefire in effect — ACLED / NBC News</div>
+        <div class="news news-hot"><span class="nd">MAR 21</span>Houthis threatening to reinstate full naval blockade — Bab el-Mandeb may flip to YES imminently.</div>
+
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict yes">YES</div>
+      <div class="claim-body">
+        <div class="claim-text">Oil prices skyrocket; blackouts in developing world</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Brent crude peaked at $126/bbl; Goldman Sachs warns elevated prices through 2027 — Bloomberg / Reuters</div>
+        
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict yes">YES</div>
+      <div class="claim-body">
+        <div class="claim-text">US sends 3 aircraft carriers</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>USS Abraham Lincoln, Gerald R. Ford, George H.W. Bush all deployed by March 7, 2026. Ford to Crete for repairs — Stars & Stripes</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">At least 2 carriers sunk by Iran, Russia, and China using suicide tactics</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Iran claimed damage to USS Abraham Lincoln; US denied. No carrier sunk since WWII — NBC News / National Interest</div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-line"></div>
+      <div class="sec-title">US ground / amphibious operations</div>
+      <div class="sec-line"></div>
+    </div>
+    
+    <div class="claim">
+      <div class="verdict watch">WATCH</div>
+      <div class="claim-body">
+        <div class="claim-text">US tries amphibious invasion of Iran</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Conflict has been air/naval only — CENTCOM Operation Epic Fury. No ground invasion yet.</div>
+        <div class="news news-hot"><span class="nd">MAR 18-21, 2026</span>USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island. Seizure of Kharg Island discussed as war-ending bargaining chip.</div>
+
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">US civil war; anti-war bloc seizes DC with military support</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No evidence of any such event</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">US splits in two and retreats from Middle East</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>US expanding operations, not retreating — CENTCOM (March 2026)</div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-line"></div>
+      <div class="sec-title">Regional escalation</div>
+      <div class="sec-line"></div>
+    </div>
+    
+    <div class="claim">
+      <div class="verdict watch">WATCH</div>
+      <div class="claim-body">
+        <div class="claim-text">Turkey betrays NATO, joins Russia-Iran-China, attacks Israel</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Turkey condemned strikes; closed airspace to US ops. NATO intact. Has not attacked Israel.</div>
+        <div class="news"><span class="nd">MAR 4 & 9, 2026</span>Iran fired two ballistic missiles into Turkish airspace — both intercepted by NATO. Turkey invoked Article 4, deployed F-16s to Northern Cyprus. FM warned Iran: 'next time Turkey responds in kind.'</div>
+
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict watch">WATCH</div>
+      <div class="claim-body">
+        <div class="claim-text">China invades Taiwan and Guam</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No invasion. China opposes war rhetorically, has not aided Iran materially.</div>
+        <div class="news"><span class="nd">MAR 6-21, 2026</span>China raised defense budget 7%, escalated Taiwan rhetoric, improving amphibious capabilities. US arms deal to Taiwan suspended. ISW/AEI warn Iran war created Taiwan vulnerability window. Xi-Trump summit scheduled end of March.</div>
+
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict watch">WATCH</div>
+      <div class="claim-body">
+        <div class="claim-text">North Korea invades South Korea; Japan fails to stop it</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No invasion. NK condemned US-Israeli strikes, no direct military involvement.</div>
+        <div class="news"><span class="nd">MAR 10-14, 2026</span>Kim oversaw tests from new naval destroyer; declared goal of nuclear-armed Navy. ~10 ballistic missiles fired March 14 during Freedom Shield exercises. Reports: US moving THAAD from South Korea to Middle East — creating defensive gap.</div>
+
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">India possibly flips sides</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>India received Iranian Hormuz transit permission. Pragmatic neutrality — Al Jazeera (March 2026)</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Russia invades Poland and Baltics; links to Kaliningrad</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No such event. Russia discussing Hormuz energy cooperation with US — NBC News</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Finland and NATO invade Russia, take Saint Petersburg</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No such event</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Europe collapses into riots, famine, and civil wars</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Energy price pressure; Germany/Greece refused US Hormuz coalition — Al Jazeera (March 2026)</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Latin America allies with China and Russia</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No significant shift. US removed Venezuela's Maduro January 2026 — Reuters</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">US invaded from the south; advance halts at Colorado</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No such event</div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-line"></div>
+      <div class="sec-title">Nuclear / apocalyptic</div>
+      <div class="sec-line"></div>
+    </div>
+    
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">50-150 tactical nukes used high in atmosphere</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No nuclear weapons used — all available sources</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Tsar Bomb and two strategic nukes used in Europe</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>No nuclear weapons used — all available sources</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Israel destroyed; Palestinians wiped with it</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>Israel conducting ongoing strikes. Gaza ceasefire in effect — Times of Israel (March 2026)</div>
+        
+      </div>
+    </div>
+    <div class="claim">
+      <div class="verdict watch">WATCH</div>
+      <div class="claim-body">
+        <div class="claim-text">Air travel ends; crime and chaos everywhere</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>6+ countries closed airspace Feb 28; major airlines suspended Middle East routes. Not a global end.</div>
+        <div class="news"><span class="nd">ONGOING</span>Ben Gurion Airport damaged by Iranian missile strikes. Delta, United, El Al extended suspensions. Iran drones struck UAE AWS data centers — digital infrastructure increasingly disrupted.</div>
+
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-line"></div>
+      <div class="sec-title">Alien / NWO scenario</div>
+      <div class="sec-line"></div>
+    </div>
+    
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">Fake alien invasion begins; MJ12 releases synthetic alien soldiers (PLFs)</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">PLFs hunt survivors; FEMA camps classify people as useful or undesirable</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred</div>
+        
+      </div>
+    </div>
+    <div class="claim no">
+      <div class="verdict no">NO</div>
+      <div class="claim-body">
+        <div class="claim-text">By 2027, 5 billion dead; one world government; Dome of the Rock destroyed</div>
+        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred — UN population data</div>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="footer">
+  <p>The post correctly predicted the <strong>opening act</strong> — Israel striking Iran, B-2 bunker-buster strikes on nuclear sites, Hormuz closure, oil price spike, and three carriers deploying.</p>
+  <p>Several scenarios remain <strong>actively developing</strong>: amphibious forces converging on the region, Turkey under pressure from Iranian missiles, China exploiting US distraction, North Korea conducting nuclear naval tests while THAAD is repositioned.</p>
+  <p>Civil war, nuclear exchange, alien invasion, and 5 billion dead have <strong>not materialized</strong>. This remains a regional air/naval war — but its edges are widening daily.</p>
+  <div class="footer-meta">
+    <span>AUTO-UPDATED: MAR 22, 2026</span>
+    <span>POST: 2025-06-22 · NO.508296436</span>
+    <span>SOURCES: USNI · AP · WSJ · AEI/ISW · MEI · PBS · AL JAZEERA · REUTERS · WIKIPEDIA</span>
+  </div>
+</div>
+
+</div>
+<script>
+  const pct = 26;
+  setTimeout(() => { document.getElementById("bar").style.width = pct + "%"; }, 300);
+</script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTA V Weapon Wheel Navigation</title>
@@ -563,415 +974,5 @@ body{background:var(--bg);color:var(--tp);font-family:var(--body);font-size:16px
             pageTitle.textContent = 'Select Page';
         });
     </script>
-/* HEADER */
-.header{padding:40px 0 28px;border-bottom:1px solid var(--border);margin-bottom:32px}
-.stamp-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.stamp{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--red);border:1px solid var(--red);padding:3px 10px}
-.header-meta{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.06em}
-h1{font-family:var(--display);font-weight:900;font-size:72px;line-height:.92;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:12px}
-h1 span{color:var(--red)}
-.header-sub{font-family:var(--display);font-weight:300;font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:var(--ts)}
-
-/* TOP GRID */
-.top-grid{display:grid;grid-template-columns:400px 1fr;gap:28px;margin-bottom:32px;align-items:start}
-.post-img-wrap{position:sticky;top:24px}
-.section-label{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--tm);text-transform:uppercase;margin-bottom:10px}
-.post-img-wrap img{width:100%;border-radius:4px;border:1px solid var(--border);opacity:.88;display:block}
-.img-caption{font-family:var(--mono);font-size:10px;color:var(--tm);margin-top:7px}
-.right-col{display:flex;flex-direction:column;gap:16px}
-
-/* STATS */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-.stat{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px 12px 12px;position:relative;overflow:hidden}
-.stat::before{content:"";position:absolute;top:0;left:0;right:0;height:3px}
-.stat.yes::before{background:var(--yes-t)}.stat.partial::before{background:var(--partial-t)}
-.stat.watch::before{background:var(--watch-t)}.stat.no::before{background:var(--no-t)}
-.stat-n{font-family:var(--display);font-weight:700;font-size:48px;line-height:1;margin-bottom:4px}
-.stat.yes .stat-n{color:var(--yes-t)}.stat.partial .stat-n{color:var(--partial-t)}
-.stat.watch .stat-n{color:var(--watch-t)}.stat.no .stat-n{color:var(--no-t)}
-.stat-l{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--tm);text-transform:uppercase}
-
-/* BAR */
-.acc-bar{}
-.acc-labels{display:flex;justify-content:space-between;margin-bottom:7px}
-.acc-labels span{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.08em;text-transform:uppercase}
-.bar-track{height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}
-.bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--watch-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
-
-/* LEGEND */
-.legend{display:flex;flex-wrap:wrap;gap:10px 20px}
-.legend-item{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--tm)}
-
-/* BREAKING */
-.breaking-box{background:#1a0a0a;border:1px solid #7f1d1d;border-left:3px solid var(--red);border-radius:4px;padding:16px 18px;margin-bottom:32px}
-.breaking-label{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--red);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
-.breaking-label::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);animation:blink 1s ease-in-out infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
-.breaking-item{font-family:var(--mono);font-size:12px;color:var(--tp);line-height:1.7;padding:5px 0;border-bottom:1px solid #3f1a1a}
-.breaking-item:last-child{border-bottom:none;padding-bottom:0}
-.bi-date{color:var(--red);margin-right:6px;font-size:11px}
-.bi-src{color:var(--tm);font-size:10px;margin-left:6px}
-.bi-hot{color:#fca5a5}
-
-/* SECTION */
-.section{margin-bottom:6px}
-.sec-header{display:flex;align-items:center;gap:12px;padding:20px 0 10px}
-.sec-line{flex:1;height:1px;background:var(--border)}
-.sec-title{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--tm);text-transform:uppercase;white-space:nowrap}
-
-/* CLAIM */
-.claim{display:flex;align-items:flex-start;gap:14px;padding:13px 14px;border:1px solid transparent;border-radius:4px;margin-bottom:4px;transition:background .15s,border-color .15s}
-.claim:hover{background:var(--surface2);border-color:var(--border)}
-.verdict{flex-shrink:0;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.06em;padding:4px 12px;border-radius:3px;margin-top:2px;min-width:78px;text-align:center;text-transform:uppercase}
-.verdict.yes{background:var(--yes);color:var(--yes-t);border:1px solid var(--yes-b)}
-.verdict.no{background:var(--no);color:var(--no-t);border:1px solid var(--no-b)}
-.verdict.partial{background:var(--partial);color:var(--partial-t);border:1px solid var(--partial-b)}
-.verdict.watch{background:var(--watch);color:var(--watch-t);border:1px solid var(--watch-b);animation:pulse 2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
-.claim-body{flex:1;min-width:0}
-.claim-text{font-size:15px;color:var(--tp);line-height:1.45;margin-bottom:5px}
-.claim.no .claim-text{text-decoration:line-through;text-decoration-color:rgba(248,113,113,.4);text-decoration-thickness:1.5px;opacity:.6}
-.claim-src{font-family:var(--mono);font-size:11px;color:var(--tm);line-height:1.55}
-.src-tag{color:var(--ts);font-size:10px;margin-right:4px;letter-spacing:.05em}
-.news{font-family:var(--mono);font-size:11px;margin-top:7px;padding:7px 11px;background:rgba(30,58,95,.4);border-left:2px solid var(--watch-b);border-radius:0 4px 4px 0;color:var(--watch-t);line-height:1.6}
-.nd{color:var(--tm);font-size:10px;margin-right:4px}
-.news a{color:var(--watch-t);text-decoration:underline;text-underline-offset:2px;opacity:.8}
-.news.news-hot{background:rgba(63,26,26,.5);border-left-color:var(--no-b);color:#fca5a5}
-.news.news-hot .nd{color:var(--red)}
-
-/* FOOTER */
-.footer{margin-top:40px;padding:22px 24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}
-.footer p{font-size:14px;color:var(--ts);line-height:1.75;font-weight:300;margin-bottom:12px}
-.footer strong{color:var(--tp);font-weight:500}
-.footer-meta{margin-top:18px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
-.footer-meta span{font-family:var(--mono);font-size:10px;color:var(--tm);letter-spacing:.07em}
-</style>
-</head>
-<body>
-<div class="wrap">
-
-<div class="header">
-  <div class="stamp-row">
-    <div class="stamp">UNVERIFIED SOURCE</div>
-    <div class="header-meta">4CHAN /POL/ · POST NO.508296436 · ORIGIN DATE: 2025-06-22 · AUTO-UPDATED DAILY</div>
-  </div>
-  <h1>4chan WW3<br><span>prediction</span><br>vs reality</h1>
-  <div class="header-sub">Fact-check · Updated 2026-03-22 · 26 claims evaluated</div>
-</div>
-
-<div class="top-grid">
-  <div class="post-img-wrap">
-    <div class="section-label">Original post</div>
-    <img src="images/4chan-prediction.jpg" alt="Original 4chan WW3 prediction post">
-    <div class="img-caption">archive.4plebs.org/pol/thread/507977706 · No.508296436</div>
-  </div>
-  <div class="right-col">
-    <div class="stats">
-      <div class="stat yes"><div class="stat-n">5</div><div class="stat-l">Confirmed</div></div>
-      <div class="stat partial"><div class="stat-n">1</div><div class="stat-l">Partial</div></div>
-      <div class="stat watch"><div class="stat-n">5</div><div class="stat-l">Watch</div></div>
-      <div class="stat no"><div class="stat-n">15</div><div class="stat-l">No</div></div>
-    </div>
-    <div class="acc-bar">
-      <div class="acc-labels"><span>Accuracy</span><span>~21% confirmed</span></div>
-      <div class="bar-track"><div class="bar-fill" id="bar"></div></div>
-    </div>
-    <div class="legend">
-      <div class="legend-item"><span class="verdict yes" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">YES</span> Confirmed happened</div>
-      <div class="legend-item"><span class="verdict partial" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">PARTIAL</span> Partly true</div>
-      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">WATCH</span> Developing / reported</div>
-      <div class="legend-item"><span class="verdict no" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">NO</span> Has not happened</div>
-    </div>
-  </div>
-</div>
-
-
-<div class="breaking-box">
-  <div class="breaking-label">Breaking News</div>
-  <div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) departed San Diego carrying 2,500 Marines from 11th MEU ahead of schedule. ETA Arabian Sea: ~April 8-12.<span class="bi-src"> · USNI / AP</span></div>
-<div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Tripoli ARG (31st MEU, Japan-based) estimated to arrive Strait of Hormuz vicinity March 23-27 — days away.<span class="bi-src"> · WSJ / Satellite imagery</span></div>
-<div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>US Navy MQ-4C Triton UAV actively conducting recon orbits over Kharg Island — Iran's primary oil export terminal.<span class="bi-src"> · FlightRadar24 / DefenseOne</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>82nd Airborne Brigade (~4,000-5,000 troops) on standby at Fort Liberty — C-17s ready, capable of Gulf insertion within 18 hours of order.<span class="bi-src"> · AP</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Iran drone strikes hit 3 AWS data centers in UAE — major fires, structural damage, internet infrastructure outages across region.<span class="bi-src"> · Reuters</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting vessels of aggressor countries.<span class="bi-src"> · Al Jazeera</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Trump: 'You don't do a ceasefire when you're literally obliterating the other side.' US simultaneously lifted sanctions on 140M barrels of Iranian oil. Brent crude at $112.19/bbl.<span class="bi-src"> · Reuters / Goldman Sachs</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>USS Tulsa + USS Santa Barbara (Littoral Combat Ships / minesweepers) docked Singapore en route to Hormuz.<span class="bi-src"> · USNI News</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Iran claimed strikes on US Embassy logistics base in Baghdad — third time this week.<span class="bi-src"> · AFP</span></div>
-<div class="breaking-item"><span class="bi-date">MAR 21, 2026</span>Trump branded NATO allies 'cowards' and called the bloc a 'paper tiger' — demanded partners help reopen Strait of Hormuz.<span class="bi-src"> · Politico</span></div>
-
-</div>
-
-
-  <div class="section">
-    <div class="sec-header">
-      <div class="sec-line"></div>
-      <div class="sec-title">Israel / US vs Iran — opening moves</div>
-      <div class="sec-line"></div>
-    </div>
-    
-    <div class="claim">
-      <div class="verdict yes">YES</div>
-      <div class="claim-body">
-        <div class="claim-text">Israel breaks ceasefire and strikes Iran</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Major strikes June 13, 2025 (12-Day War); Operation Epic Fury Feb 28, 2026 — Wikipedia / Britannica</div>
-        
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict yes">YES</div>
-      <div class="claim-body">
-        <div class="claim-text">Trump responds with B-2 bunker busters on nuclear sites</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>B-2 Spirit bombers + GBU-57 MOPs on Fordow & other nuclear sites — CRS Report / Congress.gov</div>
-        
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict yes">YES</div>
-      <div class="claim-body">
-        <div class="claim-text">Iran blocks Strait of Hormuz</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>IRGC closed Hormuz to US/allied ships March 2-4, 2026; oil traffic down ~90% — Wikipedia / CRS</div>
-        
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict partial">PARTIAL</div>
-      <div class="claim-body">
-        <div class="claim-text">Iran hits all Gulf oil fields and US bases; blocks Bab el-Mandeb</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Saudi Ras Tanura & Al-Udeid struck; all 6 GCC nations hit. Bab el-Mandeb: Houthi ceasefire in effect — ACLED / NBC News</div>
-        <div class="news news-hot"><span class="nd">MAR 21</span>Houthis threatening to reinstate full naval blockade — Bab el-Mandeb may flip to YES imminently.</div>
-
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict yes">YES</div>
-      <div class="claim-body">
-        <div class="claim-text">Oil prices skyrocket; blackouts in developing world</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Brent crude peaked at $126/bbl; Goldman Sachs warns elevated prices through 2027 — Bloomberg / Reuters</div>
-        
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict yes">YES</div>
-      <div class="claim-body">
-        <div class="claim-text">US sends 3 aircraft carriers</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>USS Abraham Lincoln, Gerald R. Ford, George H.W. Bush all deployed by March 7, 2026. Ford to Crete for repairs — Stars & Stripes</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">At least 2 carriers sunk by Iran, Russia, and China using suicide tactics</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Iran claimed damage to USS Abraham Lincoln; US denied. No carrier sunk since WWII — NBC News / National Interest</div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="sec-header">
-      <div class="sec-line"></div>
-      <div class="sec-title">US ground / amphibious operations</div>
-      <div class="sec-line"></div>
-    </div>
-    
-    <div class="claim">
-      <div class="verdict watch">WATCH</div>
-      <div class="claim-body">
-        <div class="claim-text">US tries amphibious invasion of Iran</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Conflict has been air/naval only — CENTCOM Operation Epic Fury. No ground invasion yet.</div>
-        <div class="news news-hot"><span class="nd">MAR 18-21, 2026</span>USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island. Seizure of Kharg Island discussed as war-ending bargaining chip.</div>
-
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">US civil war; anti-war bloc seizes DC with military support</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No evidence of any such event</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">US splits in two and retreats from Middle East</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>US expanding operations, not retreating — CENTCOM (March 2026)</div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="sec-header">
-      <div class="sec-line"></div>
-      <div class="sec-title">Regional escalation</div>
-      <div class="sec-line"></div>
-    </div>
-    
-    <div class="claim">
-      <div class="verdict watch">WATCH</div>
-      <div class="claim-body">
-        <div class="claim-text">Turkey betrays NATO, joins Russia-Iran-China, attacks Israel</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Turkey condemned strikes; closed airspace to US ops. NATO intact. Has not attacked Israel.</div>
-        <div class="news"><span class="nd">MAR 4 & 9, 2026</span>Iran fired two ballistic missiles into Turkish airspace — both intercepted by NATO. Turkey invoked Article 4, deployed F-16s to Northern Cyprus. FM warned Iran: 'next time Turkey responds in kind.'</div>
-
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict watch">WATCH</div>
-      <div class="claim-body">
-        <div class="claim-text">China invades Taiwan and Guam</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No invasion. China opposes war rhetorically, has not aided Iran materially.</div>
-        <div class="news"><span class="nd">MAR 6-21, 2026</span>China raised defense budget 7%, escalated Taiwan rhetoric, improving amphibious capabilities. US arms deal to Taiwan suspended. ISW/AEI warn Iran war created Taiwan vulnerability window. Xi-Trump summit scheduled end of March.</div>
-
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict watch">WATCH</div>
-      <div class="claim-body">
-        <div class="claim-text">North Korea invades South Korea; Japan fails to stop it</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No invasion. NK condemned US-Israeli strikes, no direct military involvement.</div>
-        <div class="news"><span class="nd">MAR 10-14, 2026</span>Kim oversaw tests from new naval destroyer; declared goal of nuclear-armed Navy. ~10 ballistic missiles fired March 14 during Freedom Shield exercises. Reports: US moving THAAD from South Korea to Middle East — creating defensive gap.</div>
-
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">India possibly flips sides</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>India received Iranian Hormuz transit permission. Pragmatic neutrality — Al Jazeera (March 2026)</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Russia invades Poland and Baltics; links to Kaliningrad</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No such event. Russia discussing Hormuz energy cooperation with US — NBC News</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Finland and NATO invade Russia, take Saint Petersburg</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No such event</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Europe collapses into riots, famine, and civil wars</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Energy price pressure; Germany/Greece refused US Hormuz coalition — Al Jazeera (March 2026)</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Latin America allies with China and Russia</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No significant shift. US removed Venezuela's Maduro January 2026 — Reuters</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">US invaded from the south; advance halts at Colorado</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No such event</div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="sec-header">
-      <div class="sec-line"></div>
-      <div class="sec-title">Nuclear / apocalyptic</div>
-      <div class="sec-line"></div>
-    </div>
-    
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">50-150 tactical nukes used high in atmosphere</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No nuclear weapons used — all available sources</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Tsar Bomb and two strategic nukes used in Europe</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>No nuclear weapons used — all available sources</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Israel destroyed; Palestinians wiped with it</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>Israel conducting ongoing strikes. Gaza ceasefire in effect — Times of Israel (March 2026)</div>
-        
-      </div>
-    </div>
-    <div class="claim">
-      <div class="verdict watch">WATCH</div>
-      <div class="claim-body">
-        <div class="claim-text">Air travel ends; crime and chaos everywhere</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>6+ countries closed airspace Feb 28; major airlines suspended Middle East routes. Not a global end.</div>
-        <div class="news"><span class="nd">ONGOING</span>Ben Gurion Airport damaged by Iranian missile strikes. Delta, United, El Al extended suspensions. Iran drones struck UAE AWS data centers — digital infrastructure increasingly disrupted.</div>
-
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="sec-header">
-      <div class="sec-line"></div>
-      <div class="sec-title">Alien / NWO scenario</div>
-      <div class="sec-line"></div>
-    </div>
-    
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">Fake alien invasion begins; MJ12 releases synthetic alien soldiers (PLFs)</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">PLFs hunt survivors; FEMA camps classify people as useful or undesirable</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred</div>
-        
-      </div>
-    </div>
-    <div class="claim no">
-      <div class="verdict no">NO</div>
-      <div class="claim-body">
-        <div class="claim-text">By 2027, 5 billion dead; one world government; Dome of the Rock destroyed</div>
-        <div class="claim-src"><span class="src-tag">SRC</span>None of this has occurred — UN population data</div>
-        
-      </div>
-    </div>
-  </div>
-
-<div class="footer">
-  <p>The post correctly predicted the <strong>opening act</strong> — Israel striking Iran, B-2 bunker-buster strikes on nuclear sites, Hormuz closure, oil price spike, and three carriers deploying.</p>
-  <p>Several scenarios remain <strong>actively developing</strong>: amphibious forces converging on the region, Turkey under pressure from Iranian missiles, China exploiting US distraction, North Korea conducting nuclear naval tests while THAAD is repositioned.</p>
-  <p>Civil war, nuclear exchange, alien invasion, and 5 billion dead have <strong>not materialized</strong>. This remains a regional air/naval war — but its edges are widening daily.</p>
-  <div class="footer-meta">
-    <span>AUTO-UPDATED: MAR 22, 2026</span>
-    <span>POST: 2025-06-22 · NO.508296436</span>
-    <span>SOURCES: USNI · AP · WSJ · AEI/ISW · MEI · PBS · AL JAZEERA · REUTERS · WIKIPEDIA</span>
-  </div>
-</div>
-
-</div>
-<script>
-  const pct = 26;
-  setTimeout(() => { document.getElementById("bar").style.width = pct + "%"; }, 300);
-</script>
 </body>
 </html>

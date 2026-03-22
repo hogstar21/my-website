@@ -6,68 +6,7 @@
     "last_updated": "2026-03-22",
     "source_url": "https://archive.4plebs.org/pol/thread/507977706/"
   },
-  "breaking_news": [
-    {
-      "date": "MAR 21, 2026",
-      "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) departed San Diego carrying 2,500 Marines from 11th MEU ahead of schedule. ETA Arabian Sea: ~April 8-12.",
-      "source": "USNI / AP",
-      "hot": true
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "USS Tripoli ARG (31st MEU, Japan-based) estimated to arrive Strait of Hormuz vicinity March 23-27 — days away.",
-      "source": "WSJ / Satellite imagery",
-      "hot": true
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "US Navy MQ-4C Triton UAV actively conducting recon orbits over Kharg Island — Iran's primary oil export terminal.",
-      "source": "FlightRadar24 / DefenseOne",
-      "hot": true
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "82nd Airborne Brigade (~4,000-5,000 troops) on standby at Fort Liberty — C-17s ready, capable of Gulf insertion within 18 hours of order.",
-      "source": "AP",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "Iran drone strikes hit 3 AWS data centers in UAE — major fires, structural damage, internet infrastructure outages across region.",
-      "source": "Reuters",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting vessels of aggressor countries.",
-      "source": "Al Jazeera",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "Trump: 'You don't do a ceasefire when you're literally obliterating the other side.' US simultaneously lifted sanctions on 140M barrels of Iranian oil. Brent crude at $112.19/bbl.",
-      "source": "Reuters / Goldman Sachs",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "USS Tulsa + USS Santa Barbara (Littoral Combat Ships / minesweepers) docked Singapore en route to Hormuz.",
-      "source": "USNI News",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third time this week.",
-      "source": "AFP",
-      "hot": false
-    },
-    {
-      "date": "MAR 21, 2026",
-      "text": "Trump branded NATO allies 'cowards' and called the bloc a 'paper tiger' — demanded partners help reopen Strait of Hormuz.",
-      "source": "Politico",
-      "hot": false
-    }
-  ],
+  "breaking_news": [],
   "sections": [
     {
       "id": "israel_iran",
@@ -76,7 +15,7 @@
         {
           "id": "c1",
           "text": "Israel breaks ceasefire and strikes Iran",
-          "status": "no",
+          "status": "yes",
           "source": "Major strikes June 13, 2025 (12-Day War); Operation Epic Fury Feb 28, 2026 — Wikipedia / Britannica",
           "keywords": [
             "Israel Iran strikes 2026",

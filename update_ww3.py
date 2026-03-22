@@ -122,7 +122,7 @@ Reply ONLY in this JSON (no markdown):
 Only change status if headlines clearly confirm it. Return has_update:false if nothing new."""
 
     time.sleep(4)  # stay under 15 req/min free tier limit
-    time.sleep(7)  # avoid rate limit (free tier: 10 req/min for 2.5-flash)
+    time.sleep(10)  # avoid rate limit (free tier: 10 req/min for 2.5-flash)
     response = ask_gemini(prompt)
     if not response:
         return claim
@@ -166,38 +166,55 @@ def is_recent(date_str, days=3):
 def fetch_breaking_news(existing):
     # Remove items older than 3 days
     existing = [e for e in existing if is_recent(e.get("date", ""))]
+    box_empty = len(existing) == 0
 
     all_headlines = []
     for kw in BREAKING_KEYWORDS:
         all_headlines.extend(fetch_headlines([kw]))
+
+    print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
+
     if not all_headlines or not GEMINI_API_KEY:
         return existing
 
-    existing_texts = " | ".join(e["text"][:80] for e in existing[-5:])
-    prompt = f"""Updating a breaking news ticker for an Iran war tracker.
-HEADLINES:
+    existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"
+    count = "5" if box_empty else "3"
+
+    prompt = f"""You are updating a breaking news ticker for a live Iran war tracker page. Today is {TODAY}.
+
+NEWS HEADLINES FOUND:
 {chr(10).join(f"- {h}" for h in all_headlines[:20])}
-EXISTING (don't repeat):
+
+EXISTING ITEMS ALREADY SHOWN (do not repeat):
 {existing_texts}
 
-Pick up to 3 new significant developments. Reply ONLY in JSON (no markdown):
-[{{"date":"{TODAY}","text":"under 180 chars","source":"source name","hot":true|false}}]
-Return [] if nothing new."""
+{"The breaking news box is currently EMPTY. You MUST add the most important headlines." if box_empty else f"Pick up to {count} genuinely NEW developments not already in existing items."}
 
-    time.sleep(4)
+Reply ONLY in this exact JSON format (no markdown, no explanation):
+[{{"date":"{TODAY}","text":"summary under 180 chars","source":"source name","hot":true}}]
+
+Rules:
+- hot=true only for very urgent breaking news
+- If truly nothing new, return []
+- Always return valid JSON array"""
+
     response = ask_gemini(prompt)
     if not response:
         return existing
     try:
-        clean = re.sub(r"```[a-z]*\n?", "", response).strip()
+        import re as re2
+        clean = re2.sub(r"```[a-z]*\n?", "", response).strip()
         new_items = json.loads(clean)
         if isinstance(new_items, list) and new_items:
+            print(f"  Breaking news: {len(new_items)} new item(s) added")
             return (new_items + existing)[:15]
-    except:
-        pass
+        else:
+            print("  Breaking news: Gemini returned no new items")
+    except Exception as e:
+        print(f"  Breaking news parse error: {e}")
     return existing
 
-# ── COUNT ─────────────────────────────────────────────────────────────────────
+
 def count_statuses(data):
     counts = {"yes": 0, "no": 0, "partial": 0, "watch": 0}
     for section in data["sections"]:

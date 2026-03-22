@@ -6,7 +6,7 @@
 <title>4chan WW3 Prediction — Fact Check</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;600;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0a0c0f;--surface:#111418;--surface2:#181c22;--border:#252b35;--yes:#1a4a2e;--yes-t:#4ade80;--yes-b:#166534;--no:#3f1a1a;--no-t:#f87171;--no-b:#7f1d1d;--partial:#3d2f0d;--partial-t:#fbbf24;--partial-b:#78350f;--match:#1a2a4a;--match-t:#60a5fa;--match-b:#1e3a5f;--tp:#e8ecf0;--ts:#8b95a1;--tm:#4a5568;--red:#ff3333;--mono:"Share Tech Mono",monospace;--display:"Barlow Condensed",sans-serif;--body:"Barlow",sans-serif;}
+:root{--bg:#0a0c0f;--surface:#111418;--surface2:#181c22;--border:#252b35;--yes:#1a4a2e;--yes-t:#4ade80;--yes-b:#166534;--no:#3f1a1a;--no-t:#f87171;--no-b:#7f1d1d;--partial:#3d2f0d;--partial-t:#fbbf24;--partial-b:#78350f;--watch:#1a2a4a;--watch-t:#60a5fa;--watch-b:#1e3a5f;--tp:#e8ecf0;--ts:#8b95a1;--tm:#4a5568;--red:#ff3333;--mono:"Share Tech Mono",monospace;--display:"Barlow Condensed",sans-serif;--body:"Barlow",sans-serif;}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--tp);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1100px;margin:0 auto;padding:0 32px 80px}
@@ -26,14 +26,14 @@ h1 span{color:var(--red)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px 12px 12px;position:relative;overflow:hidden}
 .stat::before{content:"";position:absolute;top:0;left:0;right:0;height:3px}
-.stat.yes::before{background:var(--yes-t)}.stat.partial::before{background:var(--partial-t)}.stat.match::before{background:var(--match-t)}.stat.no::before{background:var(--no-t)}
+.stat.yes::before{background:var(--yes-t)}.stat.partial::before{background:var(--partial-t)}.stat.watch::before{background:var(--watch-t)}.stat.no::before{background:var(--no-t)}
 .stat-n{font-family:var(--display);font-weight:700;font-size:48px;line-height:1;margin-bottom:4px}
-.stat.yes .stat-n{color:var(--yes-t)}.stat.partial .stat-n{color:var(--partial-t)}.stat.match .stat-n{color:var(--match-t)}.stat.no .stat-n{color:var(--no-t)}
+.stat.yes .stat-n{color:var(--yes-t)}.stat.partial .stat-n{color:var(--partial-t)}.stat.watch .stat-n{color:var(--watch-t)}.stat.no .stat-n{color:var(--no-t)}
 .stat-l{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--tm);text-transform:uppercase}
 .acc-labels{display:flex;justify-content:space-between;margin-bottom:7px}
 .acc-labels span{font-family:var(--mono);font-size:11px;color:var(--tm);letter-spacing:.08em;text-transform:uppercase}
 .bar-track{height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}
-.bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--match-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+.bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--yes-t) 0%,var(--partial-t) 55%,var(--watch-t) 78%,var(--no-t) 100%);width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
 .legend{display:flex;flex-wrap:wrap;gap:10px 20px}
 .legend-item{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--tm)}
 .breaking-box{background:#1a0a0a;border:1px solid #7f1d1d;border-left:3px solid var(--red);border-radius:4px;padding:16px 18px;margin-bottom:32px}
@@ -55,7 +55,7 @@ h1 span{color:var(--red)}
 .verdict.yes{background:var(--yes);color:var(--yes-t);border:1px solid var(--yes-b)}
 .verdict.no{background:var(--no);color:var(--no-t);border:1px solid var(--no-b)}
 .verdict.partial{background:var(--partial);color:var(--partial-t);border:1px solid var(--partial-b)}
-.verdict.match{background:var(--match);color:var(--match-t);border:1px solid var(--match-b);animation:pulse 2s ease-in-out infinite}
+.verdict.watch{background:var(--watch);color:var(--watch-t);border:1px solid var(--watch-b);animation:pulse 2s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
 .claim-body{flex:1;min-width:0}
 .claim-text{font-size:15px;color:var(--tp);line-height:1.45;margin-bottom:5px}
@@ -115,7 +115,7 @@ h1 span{color:var(--red)}
     <div class="header-meta">4CHAN /POL/ &middot; POST NO.508296436 &middot; ORIGIN DATE: 2025-06-22 &middot; AUTO-UPDATED HOURLY</div>
   </div>
   <h1>4chan WW3<br><span>prediction</span><br>vs reality</h1>
-  <div class="header-sub">Fact-check &middot; Updated MAR 22, 2026 · 1:05 AM EDT &middot; 26 claims evaluated</div>
+  <div class="header-sub">Fact-check &middot; Updated MAR 22, 2026 · 1:09 AM EDT &middot; 26 claims evaluated</div>
 </div>
 <div class="top-grid">
   <div class="post-img-wrap">
@@ -127,7 +127,7 @@ h1 span{color:var(--red)}
     <div class="stats">
       <div class="stat yes"><div class="stat-n">5</div><div class="stat-l">Confirmed</div></div>
       <div class="stat partial"><div class="stat-n">1</div><div class="stat-l">Partial</div></div>
-      <div class="stat watch"><div class="stat-n">0</div><div class="stat-l">Match</div></div>
+      <div class="stat watch"><div class="stat-n">5</div><div class="stat-l">Watch</div></div>
       <div class="stat no"><div class="stat-n">15</div><div class="stat-l">No</div></div>
     </div>
     <div class="acc-bar">
@@ -137,13 +137,13 @@ h1 span{color:var(--red)}
     <div class="legend">
       <div class="legend-item"><span class="verdict yes" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">YES</span> Confirmed happened</div>
       <div class="legend-item"><span class="verdict partial" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">PARTIAL</span> Partly true</div>
-      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">MATCH</span> Developing</div>
+      <div class="legend-item"><span class="verdict watch" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">WATCH</span> Developing</div>
       <div class="legend-item"><span class="verdict no" style="animation:none;font-size:10px;padding:2px 8px;min-width:0">NO</span> Has not happened</div>
     </div>
   </div>
 </div>
 <div class="breaking-box">
-  <div class="breaking-label">Breaking &mdash; MAR 22, 2026 · 1:05 AM EDT</div>
+  <div class="breaking-label">Breaking &mdash; MAR 22, 2026 · 1:09 AM EDT</div>
   <div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) departed San Diego carrying 2,500 Marines from 11th MEU ahead of schedule. ETA Arabian Sea: ~April 8-12.<span class="bi-src"> &middot; USNI / AP</span></div>
 <div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>USS Tripoli ARG (31st MEU, Japan-based) estimated to arrive Strait of Hormuz vicinity March 23-27 — days away.<span class="bi-src"> &middot; WSJ / Satellite imagery</span></div>
 <div class="breaking-item bi-hot"><span class="bi-date">MAR 21, 2026</span>US Navy MQ-4C Triton UAV actively conducting recon orbits over Kharg Island — Iran's primary oil export terminal.<span class="bi-src"> &middot; FlightRadar24 / DefenseOne</span></div>
@@ -396,7 +396,7 @@ h1 span{color:var(--red)}
   <p>Several scenarios remain <strong>actively developing</strong>: amphibious forces converging on the region, Turkey under pressure from Iranian missiles, China exploiting US distraction, North Korea conducting nuclear naval tests while THAAD is repositioned.</p>
   <p>Civil war, nuclear exchange, alien invasion, and 5 billion dead have <strong>not materialized</strong>. This remains a regional air/naval war &mdash; but its edges are widening daily.</p>
   <div class="footer-meta">
-    <span>UPDATED: MAR 22, 2026 · 1:05 AM EDT</span>
+    <span>UPDATED: MAR 22, 2026 · 1:09 AM EDT</span>
     <span>POST: 2025-06-22 &middot; NO.508296436</span>
     <span>SOURCES: USNI &middot; AP &middot; WSJ &middot; AEI/ISW &middot; MEI &middot; PBS &middot; AL JAZEERA &middot; REUTERS &middot; WIKIPEDIA</span>
   </div>
@@ -424,7 +424,7 @@ h1 span{color:var(--red)}
   <div class="wheel-instruction">Hover to preview &middot; Click to navigate &middot; ESC to close</div>
 </div>
 <script>
-  setTimeout(function(){document.getElementById("bar").style.width="21%";},300);
+  setTimeout(function(){document.getElementById("bar").style.width="26%";},300);
   var tb=document.getElementById("toggleBtn"),cb=document.getElementById("closeBtn"),wo=document.getElementById("wheelOverlay"),segs=document.querySelectorAll(".wheel-segment"),pt=document.getElementById("pageTitle");
   tb.addEventListener("click",function(){wo.classList.add("active");document.body.style.overflow="hidden";});
   function cw(){wo.classList.remove("active");document.body.style.overflow="auto";segs.forEach(function(s){s.classList.remove("active");});pt.textContent="Select Page";}

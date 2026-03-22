@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "title": "4chan WW3 Prediction vs Reality",
+    "post_id": "508296436",
+    "post_date": "2025-06-22",
+    "last_updated": "2026-03-22",
+    "source_url": "https://archive.4plebs.org/pol/thread/507977706/"
+  },
+  "breaking_news": [
+    {
+      "date": "MAR 21, 2026",
+      "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) departed San Diego carrying 2,500 Marines from 11th MEU ahead of schedule. ETA Arabian Sea: ~April 8-12.",
+      "source": "USNI / AP",
+      "hot": true
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "USS Tripoli ARG (31st MEU, Japan-based) estimated to arrive Strait of Hormuz vicinity March 23-27 — days away.",
+      "source": "WSJ / Satellite imagery",
+      "hot": true
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "US Navy MQ-4C Triton UAV actively conducting recon orbits over Kharg Island — Iran's primary oil export terminal.",
+      "source": "FlightRadar24 / DefenseOne",
+      "hot": true
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "82nd Airborne Brigade (~4,000-5,000 troops) on standby at Fort Liberty — C-17s ready, capable of Gulf insertion within 18 hours of order.",
+      "source": "AP",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "Iran drone strikes hit 3 AWS data centers in UAE — major fires, structural damage, internet infrastructure outages across region.",
+      "source": "Reuters",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting vessels of aggressor countries.",
+      "source": "Al Jazeera",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "Trump: 'You don't do a ceasefire when you're literally obliterating the other side.' US simultaneously lifted sanctions on 140M barrels of Iranian oil. Brent crude at $112.19/bbl.",
+      "source": "Reuters / Goldman Sachs",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "USS Tulsa + USS Santa Barbara (Littoral Combat Ships / minesweepers) docked Singapore en route to Hormuz.",
+      "source": "USNI News",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third time this week.",
+      "source": "AFP",
+      "hot": false
+    },
+    {
+      "date": "MAR 21, 2026",
+      "text": "Trump branded NATO allies 'cowards' and called the bloc a 'paper tiger' — demanded partners help reopen Strait of Hormuz.",
+      "source": "Politico",
+      "hot": false
+    }
+  ],
+  "sections": [
+    {
+      "id": "israel_iran",
+      "title": "Israel / US vs Iran — opening moves",
+      "claims": [
+        {
+          "id": "c1",
+          "text": "Israel breaks ceasefire and strikes Iran",
+          "status": "yes",
+          "source": "Major strikes June 13, 2025 (12-Day War); Operation Epic Fury Feb 28, 2026 — Wikipedia / Britannica",
+          "keywords": [
+            "Israel Iran strikes 2026",
+            "Israel Iran war ceasefire"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c2",
+          "text": "Trump responds with B-2 bunker busters on nuclear sites",
+          "status": "yes",
+          "source": "B-2 Spirit bombers + GBU-57 MOPs on Fordow & other nuclear sites — CRS Report / Congress.gov",
+          "keywords": [
+            "B-2 bunker buster Iran nuclear 2026",
+            "US strikes Iran nuclear sites"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c3",
+          "text": "Iran blocks Strait of Hormuz",
+          "status": "yes",
+          "source": "IRGC closed Hormuz to US/allied ships March 2-4, 2026; oil traffic down ~90% — Wikipedia / CRS",
+          "keywords": [
+            "Strait of Hormuz Iran blocked 2026",
+            "Hormuz closure oil shipping"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c4",
+          "text": "Iran hits all Gulf oil fields and US bases; blocks Bab el-Mandeb",
+          "status": "partial",
+          "source": "Saudi Ras Tanura & Al-Udeid struck; all 6 GCC nations hit. Bab el-Mandeb: Houthi ceasefire in effect — ACLED / NBC News",
+          "keywords": [
+            "Iran Gulf oil fields attack 2026",
+            "Houthi Bab el-Mandeb blockade",
+            "Iran US military base attack"
+          ],
+          "updates": [
+            {
+              "date": "MAR 21",
+              "text": "Houthis threatening to reinstate full naval blockade — Bab el-Mandeb may flip to YES imminently.",
+              "hot": true
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "text": "Oil prices skyrocket; blackouts in developing world",
+          "status": "yes",
+          "source": "Brent crude peaked at $126/bbl; Goldman Sachs warns elevated prices through 2027 — Bloomberg / Reuters",
+          "keywords": [
+            "oil price spike Iran war 2026",
+            "energy crisis developing world blackouts"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c6",
+          "text": "US sends 3 aircraft carriers",
+          "status": "yes",
+          "source": "USS Abraham Lincoln, Gerald R. Ford, George H.W. Bush all deployed by March 7, 2026. Ford to Crete for repairs — Stars & Stripes",
+          "keywords": [
+            "US aircraft carrier Middle East 2026",
+            "USS carrier deployment Iran"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c7",
+          "text": "At least 2 carriers sunk by Iran, Russia, and China using suicide tactics",
+          "status": "no",
+          "source": "Iran claimed damage to USS Abraham Lincoln; US denied. No carrier sunk since WWII — NBC News / National Interest",
+          "keywords": [
+            "US aircraft carrier sunk Iran 2026",
+            "USS carrier destroyed"
+          ],
+          "updates": []
+        }
+      ]
+    },
+    {
+      "id": "us_ground",
+      "title": "US ground / amphibious operations",
+      "claims": [
+        {
+          "id": "c8",
+          "text": "US tries amphibious invasion of Iran",
+          "status": "watch",
+          "source": "Conflict has been air/naval only — CENTCOM Operation Epic Fury. No ground invasion yet.",
+          "keywords": [
+            "US Marines amphibious Iran 2026",
+            "USS Boxer deployment Middle East",
+            "Kharg Island US seizure",
+            "USS Tripoli Arabian Sea",
+            "US ground troops Iran"
+          ],
+          "updates": [
+            {
+              "date": "MAR 18-21, 2026",
+              "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island. Seizure of Kharg Island discussed as war-ending bargaining chip.",
+              "hot": true
+            }
+          ]
+        },
+        {
+          "id": "c9",
+          "text": "US civil war; anti-war bloc seizes DC with military support",
+          "status": "no",
+          "source": "No evidence of any such event",
+          "keywords": [
+            "US civil war 2026",
+            "anti-war military coup Washington DC"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c10",
+          "text": "US splits in two and retreats from Middle East",
+          "status": "no",
+          "source": "US expanding operations, not retreating — CENTCOM (March 2026)",
+          "keywords": [
+            "US retreat Middle East 2026",
+            "US military withdrawal Iran war"
+          ],
+          "updates": []
+        }
+      ]
+    },
+    {
+      "id": "regional",
+      "title": "Regional escalation",
+      "claims": [
+        {
+          "id": "c11",
+          "text": "Turkey betrays NATO, joins Russia-Iran-China, attacks Israel",
+          "status": "watch",
+          "source": "Turkey condemned strikes; closed airspace to US ops. NATO intact. Has not attacked Israel.",
+          "keywords": [
+            "Turkey NATO Iran war 2026",
+            "Erdogan Iran response NATO",
+            "Turkey airspace Iran missile"
+          ],
+          "updates": [
+            {
+              "date": "MAR 4 & 9, 2026",
+              "text": "Iran fired two ballistic missiles into Turkish airspace — both intercepted by NATO. Turkey invoked Article 4, deployed F-16s to Northern Cyprus. FM warned Iran: 'next time Turkey responds in kind.'",
+              "hot": false
+            }
+          ]
+        },
+        {
+          "id": "c12",
+          "text": "China invades Taiwan and Guam",
+          "status": "watch",
+          "source": "No invasion. China opposes war rhetorically, has not aided Iran materially.",
+          "keywords": [
+            "China Taiwan invasion 2026",
+            "PLA amphibious Taiwan Strait",
+            "China military buildup 2026"
+          ],
+          "updates": [
+            {
+              "date": "MAR 6-21, 2026",
+              "text": "China raised defense budget 7%, escalated Taiwan rhetoric, improving amphibious capabilities. US arms deal to Taiwan suspended. ISW/AEI warn Iran war created Taiwan vulnerability window. Xi-Trump summit scheduled end of March.",
+              "hot": false
+            }
+          ]
+        },
+        {
+          "id": "c13",
+          "text": "North Korea invades South Korea; Japan fails to stop it",
+          "status": "watch",
+          "source": "No invasion. NK condemned US-Israeli strikes, no direct military involvement.",
+          "keywords": [
+            "North Korea South Korea 2026",
+            "Kim Jong Un missile test March 2026",
+            "THAAD relocated Middle East"
+          ],
+          "updates": [
+            {
+              "date": "MAR 10-14, 2026",
+              "text": "Kim oversaw tests from new naval destroyer; declared goal of nuclear-armed Navy. ~10 ballistic missiles fired March 14 during Freedom Shield exercises. Reports: US moving THAAD from South Korea to Middle East — creating defensive gap.",
+              "hot": false
+            }
+          ]
+        },
+        {
+          "id": "c14",
+          "text": "India possibly flips sides",
+          "status": "no",
+          "source": "India received Iranian Hormuz transit permission. Pragmatic neutrality — Al Jazeera (March 2026)",
+          "keywords": [
+            "India Iran war stance 2026",
+            "India neutral Middle East conflict"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c15",
+          "text": "Russia invades Poland and Baltics; links to Kaliningrad",
+          "status": "no",
+          "source": "No such event. Russia discussing Hormuz energy cooperation with US — NBC News",
+          "keywords": [
+            "Russia Poland invasion 2026",
+            "Russia Baltics military aggression"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c16",
+          "text": "Finland and NATO invade Russia, take Saint Petersburg",
+          "status": "no",
+          "source": "No such event",
+          "keywords": [
+            "NATO Russia invasion 2026",
+            "Finland Russia war"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c17",
+          "text": "Europe collapses into riots, famine, and civil wars",
+          "status": "no",
+          "source": "Energy price pressure; Germany/Greece refused US Hormuz coalition — Al Jazeera (March 2026)",
+          "keywords": [
+            "Europe civil unrest 2026",
+            "Europe famine energy crisis Iran war"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c18",
+          "text": "Latin America allies with China and Russia",
+          "status": "no",
+          "source": "No significant shift. US removed Venezuela's Maduro January 2026 — Reuters",
+          "keywords": [
+            "Latin America China Russia alliance 2026"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c19",
+          "text": "US invaded from the south; advance halts at Colorado",
+          "status": "no",
+          "source": "No such event",
+          "keywords": [
+            "US invaded southern border 2026"
+          ],
+          "updates": []
+        }
+      ]
+    },
+    {
+      "id": "nuclear",
+      "title": "Nuclear / apocalyptic",
+      "claims": [
+        {
+          "id": "c20",
+          "text": "50-150 tactical nukes used high in atmosphere",
+          "status": "no",
+          "source": "No nuclear weapons used — all available sources",
+          "keywords": [
+            "tactical nuclear weapon used 2026",
+            "nuclear detonation atmosphere war"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c21",
+          "text": "Tsar Bomb and two strategic nukes used in Europe",
+          "status": "no",
+          "source": "No nuclear weapons used — all available sources",
+          "keywords": [
+            "nuclear bomb Europe 2026",
+            "strategic nuclear weapon detonated"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c22",
+          "text": "Israel destroyed; Palestinians wiped with it",
+          "status": "no",
+          "source": "Israel conducting ongoing strikes. Gaza ceasefire in effect — Times of Israel (March 2026)",
+          "keywords": [
+            "Israel existential threat 2026",
+            "Israel destroyed Iran"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c23",
+          "text": "Air travel ends; crime and chaos everywhere",
+          "status": "watch",
+          "source": "6+ countries closed airspace Feb 28; major airlines suspended Middle East routes. Not a global end.",
+          "keywords": [
+            "airspace closed Middle East 2026",
+            "airline suspension Iran war",
+            "airport attack 2026"
+          ],
+          "updates": [
+            {
+              "date": "ONGOING",
+              "text": "Ben Gurion Airport damaged by Iranian missile strikes. Delta, United, El Al extended suspensions. Iran drones struck UAE AWS data centers — digital infrastructure increasingly disrupted.",
+              "hot": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alien_nwo",
+      "title": "Alien / NWO scenario",
+      "claims": [
+        {
+          "id": "c24",
+          "text": "Fake alien invasion begins; MJ12 releases synthetic alien soldiers (PLFs)",
+          "status": "no",
+          "source": "None of this has occurred",
+          "keywords": [
+            "alien invasion 2026",
+            "MJ12 disclosure synthetic soldiers"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c25",
+          "text": "PLFs hunt survivors; FEMA camps classify people as useful or undesirable",
+          "status": "no",
+          "source": "None of this has occurred",
+          "keywords": [
+            "FEMA camps martial law 2026"
+          ],
+          "updates": []
+        },
+        {
+          "id": "c26",
+          "text": "By 2027, 5 billion dead; one world government; Dome of the Rock destroyed",
+          "status": "no",
+          "source": "None of this has occurred — UN population data",
+          "keywords": [
+            "world government 2026 UN",
+            "Dome of the Rock destroyed"
+          ],
+          "updates": []
+        }
+      ]
+    }
+  ]
+}

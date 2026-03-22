@@ -8,6 +8,24 @@
   },
   "breaking_news": [
     {
+      "date": "MAR 22, 2026 · 4:50 PM EDT",
+      "text": "US wounded in Iran war climbs to ~200 as reinforcements deploy",
+      "source": "newsmax.com",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 4:50 PM EDT",
+      "text": "Trump threatens Iran power plants over Strait of Hormuz standoff",
+      "source": "Dainik Jagran MP CG",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 4:50 PM EDT",
+      "text": "Iran missile hits Dimona, Israel's 'Little India' — 47 injured",
+      "source": "Dainik Jagran MP CG",
+      "hot": true
+    },
+    {
       "date": "MAR 22, 2026 · 4:48 PM EDT",
       "text": "US troops wounded in Iran war climbs to ~200",
       "source": "newsmax.com",
@@ -78,12 +96,6 @@
       "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third consecutive day of attacks.",
       "source": "AFP",
       "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Trump branded NATO allies 'cowards' — demanded partners help reopen Strait of Hormuz.",
-      "source": "Politico",
-      "hot": false
     }
   ],
   "sections": [
@@ -143,6 +155,11 @@
             {
               "date": "MAR 22, 2026 · 4:48 PM EDT",
               "text": "Iran intensified attacks on Gulf oil/gas facilities (Saudi Yanbu refinery, Qatar Ras Laffan LNG, UAE Habshan/Bab, Kuwait refineries) in retaliation to Israeli strike; no US bases hit or Bab el-Mandeb blocked reported.",
+              "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 4:50 PM EDT",
+              "text": "Iran intensified attacks on Gulf oil/gas facilities (Saudi Yanbu refinery, Qatar Ras Laffan LNG, UAE Habshan/Bab, Kuwait refineries) in retaliation for Israeli strike on South Pars. No US bases hit or Bab el-Mandeb blockade reported.",
               "hot": true
             }
           ]
@@ -205,6 +222,11 @@
             {
               "date": "MAR 22, 2026 · 4:48 PM EDT",
               "text": "Headlines confirm USS Boxer amphibious deployment to Middle East amid US-Iran war, but no evidence of invasion attempt or failed assault with casualties.",
+              "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 4:50 PM EDT",
+              "text": "USS Boxer amphibious group with 2,500-4,500 Marines deploys to Middle East amid US-Iran hostilities; no reports of invasion attempt or casualties.",
               "hot": true
             }
           ]
@@ -337,6 +359,11 @@
               "date": "MAR 22, 2026 · 4:48 PM EDT",
               "text": "Recent headlines detail NATO exercises in Finland (Cold Response 26), nuclear policy shift, and Russian warnings/buildup, but no invasion or capture of Saint Petersburg.",
               "hot": false
+            },
+            {
+              "date": "MAR 22, 2026 · 4:50 PM EDT",
+              "text": "Headlines and search results show NATO exercises in Finland, nuclear policy changes, and Russian warnings/threats, but no invasion or capture of Saint Petersburg.",
+              "hot": false
             }
           ]
         },
@@ -412,6 +439,11 @@
             {
               "date": "MAR 22, 2026 · 4:48 PM EDT",
               "text": "Headlines detail Israel/US strikes on Iran & Hezbollah, but no evidence of Israel destroyed or Palestinians wiped out; conflict ongoing with Israeli casualties reported.",
+              "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 4:50 PM EDT",
+              "text": "Headlines detail US-Israel war vs Iran (Feb-Mar 2026) destroying Iranian military/nuclear sites; no mention of Israel destroyed or Palestinians wiped out.",
               "hot": true
             }
           ]

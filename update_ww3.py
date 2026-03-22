@@ -20,8 +20,8 @@ from xml.etree import ElementTree
 CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)
@@ -61,33 +61,28 @@ def fetch_headlines(keywords):
 
 # ── GEMINI ───────────────────────────────────────────────────────────────────
 def ask_gemini(prompt):
-    if not GEMINI_API_KEY:
-        print("  No GEMINI_API_KEY")
+    if not GROQ_API_KEY:
+        print("  No GROQ_API_KEY")
         return ""
     payload = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 512}
+        "model": "llama-3.3-70b-versatile",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.2,
+        "max_tokens": 512
     }).encode()
-    url = f"{GEMINI_URL}?key={GEMINI_API_KEY}"
-    for attempt in range(3):
-        try:
-            req = urllib.request.Request(url, data=payload,
-                headers={"Content-Type": "application/json"}, method="POST")
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                result = json.loads(resp.read())
-            return result["candidates"][0]["content"]["parts"][0]["text"].strip()
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                wait = (attempt + 1) * 10
-                print(f"  Rate limited, waiting {wait}s...")
-                time.sleep(wait)
-            else:
-                print(f"  Gemini error: {e}")
-                return ""
-        except Exception as e:
-            print(f"  Gemini error: {e}")
-            return ""
-    return ""
+    try:
+        req = urllib.request.Request(GROQ_URL, data=payload,
+            headers={"Content-Type": "application/json",
+                     "Authorization": f"Bearer {GROQ_API_KEY}"}, method="POST")
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            result = json.loads(resp.read())
+        return result["choices"][0]["message"]["content"].strip()
+    except urllib.error.HTTPError as e:
+        print(f"  Groq error: {e.code} {e.reason}")
+        return ""
+    except Exception as e:
+        print(f"  Groq error: {e}")
+        return ""
 
 # ── UPDATE CLAIM ─────────────────────────────────────────────────────────────
 def update_claim(claim):
@@ -123,7 +118,7 @@ Reply ONLY in this JSON (no markdown):
 Only change status if headlines clearly confirm it. Return has_update:false if nothing new."""
 
     time.sleep(4)  # stay under 15 req/min free tier limit
-    time.sleep(10)  # avoid rate limit (free tier: 10 req/min for 2.5-flash)
+    time.sleep(1)  # small delay between calls
     response = ask_gemini(prompt)
     if not response:
         return claim
@@ -175,7 +170,7 @@ def fetch_breaking_news(existing):
 
     print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
 
-    if not all_headlines or not GEMINI_API_KEY:
+    if not all_headlines or not GROQ_API_KEY:
         return existing
 
     existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"

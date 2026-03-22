@@ -394,7 +394,7 @@ h1 span{{color:var(--red)}}
       <div class="wheel-segment segment-6" data-page=""><div class="segment-content"><div class="segment-icon">&#10067;</div><div class="segment-label">Empty</div></div></div>
       <div class="wheel-segment segment-7" data-page=""><div class="segment-content"><div class="segment-icon">&#10067;</div><div class="segment-label">Empty</div></div></div>
     </div>
-    <div class="wheel-center" onclick="window.location.href=\'index.html\'">
+    <div class="wheel-center" onclick="window.location.href="index.html"">
       <div class="center-text">&#127968; HOME</div>
       <div class="page-title" id="pageTitle">Select Page</div>
     </div>
@@ -403,17 +403,17 @@ h1 span{{color:var(--red)}}
 </div>
 <script>
   setTimeout(function(){{document.getElementById("bar").style.width="{pct_bar}%";}},300);
-  var tb=document.getElementById(\'toggleBtn\'),cb=document.getElementById(\'closeBtn\'),wo=document.getElementById(\'wheelOverlay\'),segs=document.querySelectorAll(\'.wheel-segment\'),pt=document.getElementById(\'pageTitle\');
-  tb.addEventListener(\'click\',function(){{wo.classList.add(\'active\');document.body.style.overflow=\'hidden\';}});
-  function cw(){{wo.classList.remove(\'active\');document.body.style.overflow=\'auto\';segs.forEach(function(s){{s.classList.remove(\'active\');}});pt.textContent=\'Select Page\';}}
-  cb.addEventListener(\'click\',cw);
-  wo.addEventListener(\'click\',function(e){{if(e.target===wo)cw();}});
-  document.addEventListener(\'keydown\',function(e){{if(e.key===\'Escape\')cw();}});
+  var tb=document.getElementById("toggleBtn"),cb=document.getElementById("closeBtn"),wo=document.getElementById("wheelOverlay"),segs=document.querySelectorAll(".wheel-segment"),pt=document.getElementById("pageTitle");
+  tb.addEventListener("click",function(){{wo.classList.add("active");document.body.style.overflow="hidden";}});
+  function cw(){{wo.classList.remove("active");document.body.style.overflow="auto";segs.forEach(function(s){{s.classList.remove("active");}});pt.textContent="Select Page";}}
+  cb.addEventListener("click",cw);
+  wo.addEventListener("click",function(e){{if(e.target===wo)cw();}});
+  document.addEventListener("keydown",function(e){{if(e.key==="Escape")cw();}});
   segs.forEach(function(seg){{
-    seg.addEventListener(\'mouseenter\',function(){{segs.forEach(function(s){{s.classList.remove(\'active\');}});this.classList.add(\'active\');pt.textContent=this.dataset.page?this.querySelector(\'.segment-label\').textContent:\'Coming Soon\';}});
-    seg.addEventListener(\'click\',function(){{if(this.dataset.page)window.location.href=this.dataset.page;}});
+    seg.addEventListener("mouseenter",function(){{segs.forEach(function(s){{s.classList.remove("active");}});this.classList.add("active");pt.textContent=this.dataset.page?this.querySelector(".segment-label").textContent:"Coming Soon";}});
+    seg.addEventListener("click",function(){{if(this.dataset.page)window.location.href=this.dataset.page;}});
   }});
-  document.getElementById(\'wheel\').addEventListener(\'mouseleave\',function(){{segs.forEach(function(s){{s.classList.remove(\'active\');}});pt.textContent=\'Select Page\';}});
+  document.getElementById("wheel").addEventListener("mouseleave",function(){{segs.forEach(function(s){{s.classList.remove("active");}});pt.textContent="Select Page";}});
 </script>
 </body>
 </html>'''
@@ -436,7 +436,8 @@ def main():
         f.write(html)
     print(f"      Rebuilt {HTML_OUT_FILE} \u2713")
     counts = count_statuses(data)
-    print(f"\n=== Done. YES:{counts[\'yes\']} PARTIAL:{counts[\'partial\']} WATCH:{counts[\'watch\']} NO:{counts[\'no\']} ===")
+    yes=counts['yes']; partial=counts['partial']; watch=counts['watch']; no=counts['no']
+    print(f"\n=== Done. YES:{yes} PARTIAL:{partial} WATCH:{watch} NO:{no} ===" )
 
 if __name__ == "__main__":
     main()

@@ -2,8 +2,9 @@ name: WW3 Tracker Daily Update
 
 on:
   schedule:
-    # Runs every day at 8:00 AM UTC (4:00 AM Eastern / 1:00 AM Pacific)
-    - cron: '0 8 * * *'
+    - cron: '0 12 * * *'   # 8:00 AM EDT
+    - cron: '0 18 * * *'   # 2:00 PM EDT
+    - cron: '0 0 * * *'    # 8:00 PM EDT
   workflow_dispatch:
     # Also allows manual trigger from GitHub Actions tab
 

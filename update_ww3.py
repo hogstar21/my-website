@@ -52,8 +52,9 @@ def fetch_headlines(keywords):
         for item in root.findall(".//item")[:MAX_HEADLINES]:
             title = item.findtext("title", "").strip()
             pub   = item.findtext("pubDate", "").strip()
+            link  = item.findtext("link", "").strip()
             if title:
-                headlines.append(f"{title} [{pub[:16]}]")
+                headlines.append({"title": f"{title} [{pub[:16]}]", "url": link})
     except Exception as e:
         print(f"  RSS error for '{keywords[0]}': {e}")
     print(f"  RSS: {len(headlines)} headlines for '{keywords[0]}'")

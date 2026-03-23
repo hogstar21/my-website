@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 23, 2026",
+      "text": "Trump says the U.S. is in talks with Iran to end the war, which Iran denies",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVX1ZUU2NpdjJacDR4NDdFVUhPWFBHVFVkMVVxX2kzWWNQLWFqYjdDY0ZjMjhEMHQ3YjFTTHFBMzNEZ0F0c3dwbEVzWjFfNDUxaXJZX2Z3dXZxN0ZxclI1M3VsZ1BtQ3pMbFlYSHlWLTctUEZGQXpUTXRR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
       "text": "Oil falls and shares rebound after Trump says talks have been held to end war",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBweFJsRVRtMVBmVnhGZXBCUzNSbU9QNWJYdHlicEd2aHQyY250YXg5ZGVNR3NQZnNVUms0azI4Z2FVNWZFQmFXRm5Wd2pTbXdXOTRnQlJTSXF5Zw?oc=5",
@@ -85,24 +92,17 @@
       "hot": false
     },
     {
-      "date": "Mar 23, 2026",
-      "text": "Iran Consolidates Control Over Hormuz Strait as Zombie Ship Transits New Corridor",
-      "source": "Windward",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUdHUHNiRGZqSkRXSDFLZnJuVEdXdmpwS29OdVpUazB4Ri03SDZIY0RzN1ZpbVptNVQyWERvRlVNVkFvdnlmelBaU05xMzVlYnZEaHByRk5mT0Fsam1zbWxUZUtGSWUtMHJiWFZ6WU9HRHhzTTE0cW90eVRFd01pSzJMSXBvTEkzTS0yeA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 23, 2026",
-      "text": "Trump puts off threat to bomb Iran power grid; three countries reportedly mediating",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUkxjcFRYWkhFN25iZm80N1I4bkZkelJac28ydVBURXFPNDdVNUVtSlpzOFlBN0ZvMHlJd3I3MVpZZlpRMXRtUXpKUFdEbFRENkk0a2Q2bGwtMzNmN2hKUHd2V0NZUTQ1RmNlNUpJXzBHaTFUckd4cEN3UVMxbjFsR0M4R3B0dF9mV25FeFZlNUItb0xUMjR2X0xZX3ZZTXRkV1hJa19jam5TejZUVTBOaHJaR1RFY1dUbE9oZU1uQWpyQkN3?oc=5",
+      "date": "Mar 21, 2026",
+      "text": "High risk, high reward? US considers taking Iran’s Kharg Island.",
+      "source": "The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3R1cFZCWGpQeVY4QTE1Y3pTaloybDB4MjFNLUMxbFZKZzdSUTlraHpzQUtiMkRlRzkwekg3VHhTQ05Sb0ZyR3dxeERpM2cxb2RDYVhSY1labXlFaERNcEY4b3VkRF9qeHdMZU9TRzI1SUk0OElrYjZHQnotTmFONHMxd3bSAZ4BQVVfeXFMTTE3WXczRTI1aGczS3lSeDJWbFpRS0tUSVB6SXBldk9lclY4VnMzbVlrNWtXU2N3T25FVWxuYlM2TDVRdEV3MzRva3phdjlYYzd3ZmNhVjFUYUlIc0pzc09KVUI3MGlRNnpRZXNHRndJajZNanFkLTdOLVczSElvMDZuZjFoZE81TXJtWFhEQ2ZhZWh2QlVOdmcxOEFURHc?oc=5",
       "hot": false
     },
     {
       "date": "Mar 21, 2026",
-      "text": "The Trouble With Seizing Kharg Island",
-      "source": "The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGlCbENWWHNwemxiNWtja2ZoQ1NBcDU2TWk1UFBmZ1FFME1PaTRDdFZPNWRoZlFOcUMwQzBrY1BtbFhtdlNHNGEwNnpaMUU4ZW9iOWpGdVBCQVUxYlQxalF1ak93NGdNZ1VKMmZ4RmNoeXNaX3JsamtUOHFoMVJDNWstUUtEMmwx?oc=5",
+      "text": "A new threat to global shipping as Yemen's Houthis threaten to close vital Bab el-Mandeb Strait",
+      "source": "africanews.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnFSR3VkTVM5Q0ZyVWJvUmpxMEVDZW9QMUpQRFVaQnVfbi1CRU5qLWNleWdWZl84TWYxa2xXX0hLQWJfanlxRzM1Nk9KN1BCNVNjMEFIWnpIeTdoUjdTUVJXelY1WFRZcFppZHc1QUN2LUhPeHVCNFlaLXJ6MFlKNzh1bWlteUVVcFVCNXdwNE5nMVpBX09sWHA1ZFBJa3FZb3VEZjd6UnhsRGZ3dTdESF9vVEI2cE5ZWl9LdzV1dHBXczR4M1BMX9IBzgFBVV95cUxOZGMxRFhWMDNBM3ZrZEdZY2xfTXpXMG1CNTh4RGU3SnNiTDdvNzkwMzQzbWpnNUxzYWNNTWtnbnk4YWl6Rmw1cjA3cGVjX3RGaGpiS0Y1UWpTVTV4Nko2YWRESHJpY1FtRUNlZVBCMVpsV2FaVy02dzVKYnJBMFFJVkN5aHdiOWR5SFltQVI2LXZ1RWc5ZEdMWUpHbzQ4cGx2RVNid0VjdUtXbjlmVnd1UERTUHhUSGdiemY1R0VPLUgyTWo4TzhrUzBkSHRaZw?oc=5",
       "hot": false
     },
     {
@@ -242,13 +242,7 @@
             },
             {
               "date": "Mar 23, 2026",
-              "text": "Headlines indicate US is planning/considering military action against Iran, including potential ground operations and troop deployments, but no amphibious invasion has been confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDJhLXpjak1SMXU5V19zMkpjYS1Pb2Fuc2JfV2g4ZjdvNkpLUnJmMm1hbUNaS1I0RjhndnhJS2tiV3dGM2RQTm1qbThHcFFsV002TXdDY1d0VlRnOGZIMHBtSkFQeDlubEFKcDFxd0NnbnNBZTFjZGpTSllpcFNYemRFbE1UV3hobzJVRjE0RlM2encyLVNyd0J0ZUh6NTZmZy0yaFZwMGlQaUdyd1R3Zk9nZEY2WDA?oc=5"
-            },
-            {
-              "date": "Mar 23, 2026",
-              "text": "Headlines indicate increased US military presence and consideration of operations targeting Kharg Island, suggesting heightened tensions but no confirmed invasion or casualties.",
+              "text": "Headlines indicate increased US military deployments and consideration of operations targeting Iranian territory, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDJhLXpjak1SMXU5V19zMkpjYS1Pb2Fuc2JfV2g4ZjdvNkpLUnJmMm1hbUNaS1I0RjhndnhJS2tiV3dGM2RQTm1qbThHcFFsV002TXdDY1d0VlRnOGZIMHBtSkFQeDlubEFKcDFxd0NnbnNBZTFjZGpTSllpcFNYemRFbE1UV3hobzJVRjE0RlM2encyLVNyd0J0ZUh6NTZmZy0yaFZwMGlQaUdyd1R3Zk9nZEY2WDA?oc=5"
             }
@@ -512,13 +506,13 @@
             },
             {
               "date": "Mar 20, 2026",
-              "text": "Significant flight cancellations and disruptions are occurring due to the Middle East conflict, but air travel hasn't entirely ceased. Reports indicate revised schedules and challenges for airlines.",
+              "text": "Significant flight cancellations and suspensions are occurring due to the Middle East conflict, disrupting international air travel. However, 'air travel ends' is an overstatement; it's severely disrupted, not ceased entirely.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONThnU2cxMzU0UzNIRC0xZXNmaUtnalVMdTlURmtEdk9fYXRSZTVoRGEyNmJ5RXhfcDdSYmhLeElTbTQybWthLWFla183aTlHbHNEUDVmV3E3MTdoVC1TR3NuNkdKUFVZZjJRRVhRNW41X0tBb3hIZWdRZ1Y2RzJib19FZlhsQ2dkOUdDUGlzZTdfOVVYV3Z2N1Rxbk1TTkU5RktTSHVQOXZIRmhpWldpRUlJd3dNUQ?oc=5"
             },
             {
               "date": "Mar 20, 2026",
-              "text": "Significant flight cancellations and suspensions are occurring due to the Middle East conflict, disrupting international air travel. However, 'air travel ends' is an overstatement; it's severely disrupted, not ceased entirely.",
+              "text": "Significant flight cancellations and disruptions are occurring due to the Middle East conflict, but air travel hasn't entirely ceased. Reports indicate revised schedules and challenges for airlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONThnU2cxMzU0UzNIRC0xZXNmaUtnalVMdTlURmtEdk9fYXRSZTVoRGEyNmJ5RXhfcDdSYmhLeElTbTQybWthLWFla183aTlHbHNEUDVmV3E3MTdoVC1TR3NuNkdKUFVZZjJRRVhRNW41X0tBb3hIZWdRZ1Y2RzJib19FZlhsQ2dkOUdDUGlzZTdfOVVYV3Z2N1Rxbk1TTkU5RktTSHVQOXZIRmhpWldpRUlJd3dNUQ?oc=5"
             }

@@ -8,13 +8,6 @@
   },
   "breaking_news": [
     {
-      "date": "Mar 22, 2026",
-      "text": "Iranian missile strikes injure 115 in Israel, officials say, puncturing air defenses and shocking the public",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2U0ZGtwWFFXVzBKU3lIU1VfcGRVVEVoT3M4ODh0N3d1S29kbjIyVVRzbERFSktYcE05R044akFnczliNlRFN2RZcVZWRXBBdi01TG9Ud25HNzVJUW9LZGU2dWYxR2FLbW1MQnhnZEM1cE5JdFZ4MnVnNUE1ZUhJOFRnN0NLNEp6dlBFbXNvbmE0SXcyUTJudVpHSFpYdw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 20, 2026",
       "text": "USS Boxer and 11th Marine Expeditionary Unit deploy to Middle East",
       "source": "Military Times",
@@ -26,6 +19,20 @@
       "text": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
       "source": "Navy Times",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdmZjdUloWlRCLW5oUUN1RDl1X1BmZV9PeWdlaXAySThOWWJ2QUpIVHdKTlRlT0N0bnNiSXdhOUQteWd3cjdOUWtHWUw2SXYyemV5alY4QUNMZkh2SjJEbEd5N1ZIbktYc3lwZlg0YWY4Qkl3bm5HdWd3SlpEWFdSLV9CT3dFVi1YRkR4dnpZSy1udkNoTFlNYW5SeHVCMDZENzRMeEFkRlVBeWd1ZFh5ZjBlOGhfbmNWMnloNVh1eGRqT1AxN0VJZG1QaTdyQTA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 20, 2026",
+      "text": "Statement on the conflict in the Middle East: 20 March 2026",
+      "source": "GOV.UK",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeElaejExaThCc3JtaXlTYjhqYWRFMWluYk5qcnFSZTU0OGZfWTc5UGZQR01UakFWTkVRNUJWWEkwRXN0UnlRMGRNS1NLSENTcWN6MTlnRlFEUEZkVG5ab3dtN052MFVaLV9SUzQ2em5McFBRdld4aEpKLXhMcUtjaFZvYTM1bkUxbUtJRE16b1NkY0VZb015cA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 22, 2026",
+      "text": "Iranian missile strikes injure 115 in Israel, officials say, puncturing air defenses and shocking the public",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2U0ZGtwWFFXVzBKU3lIU1VfcGRVVEVoT3M4ODh0N3d1S29kbjIyVVRzbERFSktYcE05R044akFnczliNlRFN2RZcVZWRXBBdi01TG9Ud25HNzVJUW9LZGU2dWYxR2FLbW1MQnhnZEM1cE5JdFZ4MnVnNUE1ZUhJOFRnN0NLNEp6dlBFbXNvbmE0SXcyUTJudVpHSFpYdw?oc=5",
       "hot": false
     },
     {
@@ -104,13 +111,6 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EajNYQzVGMkZTQ1d1UlR4d0xMYUQtUzBaNk56TjkyQlZ6aThRN2x2VldfWGdQWWN3amsxWF9nU3R4b1h6VlJvbUdvaFY1RjVxaHM4WQ?oc=5",
       "hot": false
-    },
-    {
-      "date": "Mar 23, 2026",
-      "text": "‘The stakes are enormous’: how a prolonged Iran war could shock the global economy",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVNkS3Uxamk5cy1yR2NIRGNiUDUtU3NwaFlDUXZsLWtuSVgzUEJyeWF6WXNvZm94YlVwZkQzTmI5LVN1S1MweEVXZ0pIT0pwUWRGU2xfRGVoZWxNVVBYaW55cV9FZTFROEFXTzhTWEpjR05oWjZyaW93bUpmSFcwelAxcEJha0JBYm9qOGU4N3dhV0dWb29zWnE1LW5nV1VLNEw3S0hVLUg1a1RvRkxnaGE1Tmx3MEZ3?oc=5",
-      "hot": false
     }
   ],
   "sections": [
@@ -163,11 +163,6 @@
           ],
           "updates": [
             {
-              "date": "MAR 21",
-              "text": "Houthis threatening to reinstate full naval blockade — Bab el-Mandeb may flip to YES imminently.",
-              "hot": true
-            },
-            {
               "date": "Mar 14, 2026",
               "text": "An attack on the US Navy Fifth Fleet headquarters in Bahrain occurred, but reports indicate Iran's missile fire rate has significantly decreased, suggesting incomplete fulfillment of the claim.",
               "hot": true,
@@ -177,6 +172,12 @@
               "date": "Feb 28, 2026",
               "text": "Reports indicate Hormuz disruption and conflict in the Red Sea, aligning with the claim of blocking Bab el-Mandeb. Oil field attacks and US base strikes remain unconfirmed.",
               "hot": false,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Feb 28, 2026",
+              "text": "Reports confirm attacks on the US Navy Fifth Fleet headquarters and disruptions in the Red Sea, but no confirmation of Iran directly hitting all Gulf oil fields.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
@@ -246,7 +247,7 @@
             },
             {
               "date": "Mar 22, 2026",
-              "text": "Increased US military presence and consideration of a ground operation targeting Kharg Island suggest heightened tensions, but an amphibious invasion has not been confirmed.",
+              "text": "Increased US military deployments and consideration of operations targeting Kharg Island suggest heightened tensions and potential for escalation, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00cXl5UDBXbjFJcHZ6Mm1wY2lxc2RRNzJscXQ3MXNaRlpQQmRiYzJLQWRpa1EtVzBtM1pyb2xaZEJUWW54UUstOTRqU19qZXJEUmxHUjRrSEFhOHlPU1lV?oc=5"
             }
@@ -481,11 +482,6 @@
           ],
           "updates": [
             {
-              "date": "ONGOING",
-              "text": "Ben Gurion Airport damaged by Iranian missile strikes. Delta, United, El Al extended suspensions. Iran drones struck UAE AWS data centers — digital infrastructure increasingly disrupted.",
-              "hot": false
-            },
-            {
               "date": "Mar 20, 2026",
               "text": "Significant flight cancellations and airspace closures across the Middle East due to escalating conflict indicate a severe disruption to air travel, but not a complete end globally.",
               "hot": true,
@@ -494,6 +490,12 @@
             {
               "date": "Mar 17, 2026",
               "text": "Significant flight disruptions across the Middle East are occurring due to ongoing conflict, with airlines suspending or limiting operations. However, air travel hasn't entirely ceased.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGF3cUNQSVRsSDYwSEt5TGNyalJQNU50SGJNRURnbHhCRG5tRWlTLUdDYlVqTGNNeWVnSGtuejkxVmJoUVFEQ2ZnQzlmSzlibmpKb0kxeXNobnc4Z0VqZkdGb1FqSGlWMWFRaENwZlFGZWdDX1hTSzJ6RDV1ZGRXTFZxaWZWSEh4Rlc2bXAzMzJUVEo0WEZCOVIxbEt0UQ?oc=5"
+            },
+            {
+              "date": "Mar 17, 2026",
+              "text": "Flight suspensions and travel chaos are occurring due to escalating tensions in the Middle East, but air travel hasn't entirely ceased globally. Crime and chaos are not explicitly confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGF3cUNQSVRsSDYwSEt5TGNyalJQNU50SGJNRURnbHhCRG5tRWlTLUdDYlVqTGNNeWVnSGtuejkxVmJoUVFEQ2ZnQzlmSzlibmpKb0kxeXNobnc4Z0VqZkdGb1FqSGlWMWFRaENwZlFGZWdDX1hTSzJ6RDV1ZGRXTFZxaWZWSEh4Rlc2bXAzMzJUVEo0WEZCOVIxbEt0UQ?oc=5"
             }

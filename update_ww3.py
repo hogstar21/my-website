@@ -162,7 +162,7 @@ STRICT RULES — you must follow all of these:
 6. If headlines are tangentially related but don't confirm or deny the claim, return has_update:false.
 
 Respond ONLY in JSON (no markdown, no explanation):
-{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"brief factual update under 180 chars (no speculation)","update_hot":true|false}}
+{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"brief factual update under 180 chars — do NOT include dates or date ranges in update_text, the date is stored separately","update_hot":true|false}}
 
 Be conservative. When in doubt, keep the current verdict and return has_update:false."""
 
@@ -259,25 +259,42 @@ def fetch_breaking_news(existing):
         return existing
 
     # Build new items directly from RSS headlines with real URLs
-    existing_texts = set(e["text"][:60].lower() for e in existing)
-    print(f"  Existing items: {len(existing)}, existing_texts sample: {list(existing_texts)[:2]}")
+    print(f"  Existing items: {len(existing)}")
+
+    def _words(s):
+        return set(re.sub(r"[^a-z0-9 ]", "", s.lower()).split())
+
+    def _is_dupe(text, existing_items):
+        """Word-overlap dedup — catches reworded versions of same story."""
+        wa = _words(text)
+        if not wa:
+            return False
+        for e in existing_items:
+            wb = _words(e.get("text", ""))
+            if not wb:
+                continue
+            overlap = len(wa & wb) / min(len(wa), len(wb))
+            if overlap > 0.6:
+                return True
+        return False
+
     new_items = []
-    import re as re2
     for h in all_headlines:
         print(f"  Processing headline: {str(h)[:100]}")
         if not isinstance(h, dict):
             print("  Skipping - not a dict")
             continue
         title = h.get("title", "")
-        clean = re2.sub(r"\s*\[.*?\]\s*$", "", title).strip()
+        clean = re.sub(r"\s*\[.*?\]\s*$", "", title).strip()
         if " - " in clean:
             text = clean.rsplit(" - ", 1)[0].strip()
             source = clean.rsplit(" - ", 1)[1].strip()
         else:
             text = clean
             source = "Google News"
-        print(f"  text: {text[:60]}, in existing: {text[:60].lower() in existing_texts}")
-        if not text or text[:60].lower() in existing_texts:
+        is_dupe = _is_dupe(text, existing + new_items)
+        print(f"  text: {text[:60]}, dupe: {is_dupe}")
+        if not text or is_dupe:
             continue
         new_items.append({
             "date": h.get("pub_date", TODAY_ISO),  # use actual article date, not run timestamp

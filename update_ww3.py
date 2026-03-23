@@ -21,7 +21,7 @@ CLAIMS_FILE    = "claims.json"
 HTML_OUT_FILE  = "ww3-tracker.html"
 IMAGE_PATH     = "images/4chan-prediction.jpg"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
 MAX_HEADLINES  = 5
 
 _now_utc  = datetime.now(timezone.utc)

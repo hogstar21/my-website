@@ -3,104 +3,10 @@
     "title": "4chan WW3 Prediction vs Reality",
     "post_id": "508296436",
     "post_date": "2025-06-22",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-22",
     "source_url": "https://archive.4plebs.org/pol/thread/507977706/"
   },
-  "breaking_news": [
-    {
-      "date": "MAR 22, 2026 · 8:25 PM EDT",
-      "text": "Israeli Defense Forces confirm retaliatory strikes against Iranian military targets in Isfahan.",
-      "source": "Reuters",
-      "hot": true,
-      "url": ""
-    },
-    {
-      "date": "MAR 22, 2026 · 8:25 PM EDT",
-      "text": "United Nations Security Council convenes emergency session to address escalating conflict.",
-      "source": "Associated Press",
-      "hot": true,
-      "url": ""
-    },
-    {
-      "date": "MAR 22, 2026 · 8:25 PM EDT",
-      "text": "Cyberattacks targeting US financial institutions attributed to Iranian-linked groups.",
-      "source": "Wall Street Journal",
-      "hot": false,
-      "url": ""
-    },
-    {
-      "date": "MAR 22, 2026 · 8:11 PM EDT",
-      "text": "Israeli Defense Minister confirms Dimona strike, vows retaliation. Details remain scarce.",
-      "source": "Reuters",
-      "hot": true
-    },
-    {
-      "date": "MAR 22, 2026 · 8:11 PM EDT",
-      "text": "Shipping insurance rates for vessels transiting Hormuz skyrocket amid escalating tensions.",
-      "source": "Lloyd's List",
-      "hot": true
-    },
-    {
-      "date": "MAR 22, 2026 · 8:11 PM EDT",
-      "text": "White House denies reports of imminent Kharg Island operation, calls them 'speculative'.",
-      "source": "CNN",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) carrying 2,500 Marines from 11th MEU en route to Arabian Sea. ETA: ~April 8-12.",
-      "source": "USNI / AP",
-      "hot": true
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "USS Tripoli ARG (31st MEU) now in Arabian Sea — expected near Strait of Hormuz within days.",
-      "source": "WSJ / Satellite imagery",
-      "hot": true
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "US Navy MQ-4C Triton UAV continuing recon orbits over Kharg Island — Iran's primary oil export terminal.",
-      "source": "FlightRadar24 / DefenseOne",
-      "hot": true
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "82nd Airborne Brigade (~4,000-5,000 troops) on standby at Fort Liberty — C-17s ready for Gulf insertion within 18 hours.",
-      "source": "AP",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Iran drone strikes hit 3 AWS data centers in UAE — fires, structural damage, internet outages across region.",
-      "source": "Reuters",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Houthi politburo: 'All military options are on the table' — threatening naval blockade targeting aggressor nations.",
-      "source": "Al Jazeera",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Brent crude holding at ~$112/bbl. Goldman Sachs warns elevated prices could last through 2027.",
-      "source": "Reuters / Goldman Sachs",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "USS Tulsa + USS Santa Barbara (minesweepers) transiting toward Hormuz via Singapore.",
-      "source": "USNI News",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third consecutive day of attacks.",
-      "source": "AFP",
-      "hot": false
-    }
-  ],
+  "breaking_news": [],
   "sections": [
     {
       "id": "israel_iran",
@@ -211,12 +117,6 @@
               "date": "MAR 18-21, 2026",
               "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island.",
               "hot": true
-            },
-            {
-              "date": "MAR 22, 2026 · 8:25 PM EDT",
-              "text": "USS Boxer deployment suggests increased US naval presence in the region, but doesn't confirm an invasion attempt.",
-              "hot": true,
-              "url": ""
             }
           ]
         },

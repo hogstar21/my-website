@@ -220,6 +220,19 @@ def fetch_breaking_news(existing):
         clean = re2.sub(r"```[a-z]*\n?", "", response).strip()
         new_items = json.loads(clean)
         if isinstance(new_items, list) and new_items:
+            # Match each new item to best RSS headline URL
+            for item in new_items:
+                best_url = ""
+                item_words = set(item.get("text","").lower().split())
+                best_overlap = 0
+                for h in all_headlines:
+                    if isinstance(h, dict) and h.get("url"):
+                        h_words = set(h.get("title","").lower().split())
+                        overlap = len(item_words & h_words)
+                        if overlap > best_overlap:
+                            best_overlap = overlap
+                            best_url = h["url"]
+                item["url"] = best_url
             print(f"  Breaking news: {len(new_items)} new item(s) added")
             return (new_items + existing)[:15]
         else:

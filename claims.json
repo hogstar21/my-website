@@ -8,17 +8,10 @@
   },
   "breaking_news": [
     {
-      "date": "Mar 23, 2026",
-      "text": "Iran war live: Tehran vows to ‘completely close’ Hormuz if power plants hit",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMnUwanRyNGRzOG5DRWFONUNjSFd4bi11WHlQcEJ0akxZZVZzeEI0QUp1cWRkZ2ZFWURqdHJacnFtNmx4RXVRR3hVTnJsa250RTVVLTV6c0xTZ2lIMVB5MEdZMGdHRVlTRGN4UFdXaHhPZVVtUWdodjZKX0IzRmVGdzhxQ2VDc3dNTktWaXlRc1hKRjZNYVNhTVBQb2xJYWx2NW54bE9Sa1pKUjQydUllVmxwN192UGZGVmRKVjZKUdIBxAFBVV95cUxNU2dPMmFCSVFnSVVZNXBDTS1jY2JqWUxFRmkzdkZPQWdGbjBYZTdnVnpLemNGVFNKaG5QYTBMRXYzaEFjMjVLcjRlUkczdG9UdkhrUmF1WjYyLVI2azg3d0FEN3BZV1Rqd2tORHY5NjZlek9zWUpEdVJDbExsZUw0dzhNcWJsb2FyRUZLVFNXemlyMzFHMG9pakU5emlhek43QllTWkRuQjRfU1d4YlRSdWU1Q2hwOHVjekNtd1E4VWpQM3VY?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 23, 2026",
-      "text": "Iran Update Special Report: March 22, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWlN4WmNWWFFDT3ZLZkgyd2FyNVZRNzJxbTd3dTVSZ3JOQjZsQWtFYzFra3F2M29QRkt4Ml9tUmtVLUs5dEFCU1U3SnhzbnJGejlLcUNkVnBmNUdFSktHbktjNUNUSXFPOWxOcnd1WkRQMmFOYW9oWlRvYm1Yal9fOUpkaUdNUWlKTnUydW5zaXEzNVo4VzdxMnp4Unl6SFJt?oc=5",
+      "date": "Mar 22, 2026",
+      "text": "Iranian missile strikes injure 115 in Israel, officials say, puncturing air defenses and shocking the public",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2U0ZGtwWFFXVzBKU3lIU1VfcGRVVEVoT3M4ODh0N3d1S29kbjIyVVRzbERFSktYcE05R044akFnczliNlRFN2RZcVZWRXBBdi01TG9Ud25HNzVJUW9LZGU2dWYxR2FLbW1MQnhnZEM1cE5JdFZ4MnVnNUE1ZUhJOFRnN0NLNEp6dlBFbXNvbmE0SXcyUTJudVpHSFpYdw?oc=5",
       "hot": false
     },
     {
@@ -36,17 +29,38 @@
       "hot": false
     },
     {
-      "date": "Mar 20, 2026",
-      "text": "Statement on the conflict in the Middle East: 20 March 2026",
-      "source": "GOV.UK",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeElaejExaThCc3JtaXlTYjhqYWRFMWluYk5qcnFSZTU0OGZfWTc5UGZQR01UakFWTkVRNUJWWEkwRXN0UnlRMGRNS1NLSENTcWN6MTlnRlFEUEZkVG5ab3dtN052MFVaLV9SUzQ2em5McFBRdld4aEpKLXhMcUtjaFZvYTM1bkUxbUtJRE16b1NkY0VZb015cA?oc=5",
+      "date": "Mar 22, 2026",
+      "text": "Trump continues to shift course on Strait of Hormuz strategy, raising questions about U.S. war preparedness",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHpUSk83MTlqWFN0T3NiOUo1SE1RbEI5ZmFpMXFNMXJ0QndfczZ6SHZxanl6ZWh0V1Y2OHVac2tZQXVzcDRvNzAyMGU0bThNS0R5VjVjXzN2b3ZaZmx2Z3dETkZFSVlfVDlkQnpEUm1YNzcwZ0NLY2JPV0cyRG5hNEFfR0VzcGRtaThHLTVORlNJRmxwLVlCYlV3Yy1vN1NCWHZXb3dsSDNhSFZJQm5manlFOFhiTTNhc2dhSjdDNHpiQnJwOEE3SmNfVXluWHNxa0dOTmlENA?oc=5",
       "hot": false
     },
     {
-      "date": "Mar 20, 2026",
-      "text": "Yemen's Houthis weigh Bab al-Mandab blockade to back Iran, official says",
-      "source": "news.cgtn.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZHAxUTViWG82eUk1N1FhYjlWT2lJOXVJblpRSWNjOUhBMnhhU29Xem9tZzJqQWlnem1SSEd2TmJjU2ZESG5sdXFJd0FERFBPUXRaVV9odTAzSkhuRUt4Y0thRW5RUWJEZTh6VGJveG1EZjcxUlo0LTAyVFJKeXFwZmdfR2R0dWhvT2ZFbGFOOVFNc2ZUSGhpamV1Z1ZhenZXcTdTZ1ZFUk9MUTJBTEpLemp1VjhjMDM4U1JHT0pB?oc=5",
+      "date": "Mar 22, 2026",
+      "text": "The economy has a Strait of Hormuz deadline for Trump: Two weeks",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOS1rNHBNUlVCNWFsLS1RZ0F4U2xQYlVLLVJsdjh4cVRWSnIzQ0RiclFrTHBhX0QzNVh2YU13TzRZcmJTbXIzU1U3ODdxa2daRlN5U1VCd05HYi1DbTMtYm9oNl9aUGlGLVlTZmFOa2pLd1NOaGlTRGxNN01NZHJyRTlCMlMwNExfNmM5ZGJvalbSAZYBQVVfeXFMTUdNWWVKQkZNbFF4OW5OSXJaZVdrUmVoTjRET0psX2xBeThuZlZyUUFpdE1ZaDJwWEdrTjJ1RmZBYllsZ2V5eHVHeVdwMFJjd0R1d1dhTUFHRmtlNjlBVW8zOWI4UUlFa0JsUzB2STh2WlpSUzh1V3IzZndzeU9fYldNVmo3UHVMV1lVSzNtUkRHbU5MRHVn?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 22, 2026",
+      "text": "Coalition warns Houthi threat to close Bab el-Mandeb Strait ‘may constitute a heightened risk’",
+      "source": "Tradewinds News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNEZoQ3dxdXBYeXhEM2dwUTBBZG81dzI5RW8wWWs4bms1NXYzdl9CN0V1ckpITVhNN3ZUeU82dk4xT3drM3FVc2U2c3Fpc1hfTldiRGJIRjJad1p3emVtcWoyY1ppbm4xTEZUSjZyVnk5WUtGWm9RbjVnMmVUVEdWNW9sQlZ6N2FHMWFHUzUxa0JraHVuRmNwMDRoTS1GSURVTXZrNkJ6Qzk1aDdhNDJQYmlOT0NrMnNpcXM4ZjJKS0NkUEN2RmlvT2pfQllTY1cwcVI5dXRqWDdTLVdH?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
+      "text": "Iran war live: Tehran vows to ‘completely close’ Hormuz if power plants hit",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMnUwanRyNGRzOG5DRWFONUNjSFd4bi11WHlQcEJ0akxZZVZzeEI0QUp1cWRkZ2ZFWURqdHJacnFtNmx4RXVRR3hVTnJsa250RTVVLTV6c0xTZ2lIMVB5MEdZMGdHRVlTRGN4UFdXaHhPZVVtUWdodjZKX0IzRmVGdzhxQ2VDc3dNTktWaXlRc1hKRjZNYVNhTVBQb2xJYWx2NW54bE9Sa1pKUjQydUllVmxwN192UGZGVmRKVjZKUdIBxAFBVV95cUxNU2dPMmFCSVFnSVVZNXBDTS1jY2JqWUxFRmkzdkZPQWdGbjBYZTdnVnpLemNGVFNKaG5QYTBMRXYzaEFjMjVLcjRlUkczdG9UdkhrUmF1WjYyLVI2azg3d0FEN3BZV1Rqd2tORHY5NjZlek9zWUpEdVJDbExsZUw0dzhNcWJsb2FyRUZLVFNXemlyMzFHMG9pakU5emlhek43QllTWkRuQjRfU1d4YlRSdWU1Q2hwOHVjekNtd1E4VWpQM3VY?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
+      "text": "Iran Update Special Report: March 22, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWlN4WmNWWFFDT3ZLZkgyd2FyNVZRNzJxbTd3dTVSZ3JOQjZsQWtFYzFra3F2M29QRkt4Ml9tUmtVLUs5dEFCU1U3SnhzbnJGejlLcUNkVnBmNUdFSktHbktjNUNUSXFPOWxOcnd1WkRQMmFOYW9oWlRvYm1Yal9fOUpkaUdNUWlKTnUydW5zaXEzNVo4VzdxMnp4Unl6SFJt?oc=5",
       "hot": false
     },
     {
@@ -96,13 +110,6 @@
       "text": "‘The stakes are enormous’: how a prolonged Iran war could shock the global economy",
       "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVNkS3Uxamk5cy1yR2NIRGNiUDUtU3NwaFlDUXZsLWtuSVgzUEJyeWF6WXNvZm94YlVwZkQzTmI5LVN1S1MweEVXZ0pIT0pwUWRGU2xfRGVoZWxNVVBYaW55cV9FZTFROEFXTzhTWEpjR05oWjZyaW93bUpmSFcwelAxcEJha0JBYm9qOGU4N3dhV0dWb29zWnE1LW5nV1VLNEw3S0hVLUg1a1RvRkxnaGE1Tmx3MEZ3?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 21, 2026",
-      "text": "The Trouble With Seizing Kharg Island",
-      "source": "The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGlCbENWWHNwemxiNWtja2ZoQ1NBcDU2TWk1UFBmZ1FFME1PaTRDdFZPNWRoZlFOcUMwQzBrY1BtbFhtdlNHNGEwNnpaMUU4ZW9iOWpGdVBCQVUxYlQxalF1ak93NGdNZ1VKMmZ4RmNoeXNaX3JsamtUOHFoMVJDNWstUUtEMmwx?oc=5",
       "hot": false
     }
   ],
@@ -168,7 +175,7 @@
             },
             {
               "date": "Feb 28, 2026",
-              "text": "Reports indicate Hormuz disruption and conflict in the Red Sea, aligning with the claim of blocking Bab el-Mandeb. Oil field attacks and US base strikes are not explicitly confirmed, but disruption suggests potential involvement.",
+              "text": "Reports indicate Hormuz disruption and conflict in the Red Sea, aligning with the claim of blocking Bab el-Mandeb. Oil field attacks and US base strikes remain unconfirmed.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -239,7 +246,7 @@
             },
             {
               "date": "Mar 22, 2026",
-              "text": "Increased US military presence and consideration of operations against Iran suggest heightened tensions, but no amphibious invasion has been confirmed.",
+              "text": "Increased US military presence and consideration of a ground operation targeting Kharg Island suggest heightened tensions, but an amphibious invasion has not been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00cXl5UDBXbjFJcHZ6Mm1wY2lxc2RRNzJscXQ3MXNaRlpQQmRiYzJLQWRpa1EtVzBtM1pyb2xaZEJUWW54UUstOTRqU19qZXJEUmxHUjRrSEFhOHlPU1lV?oc=5"
             }
@@ -483,6 +490,12 @@
               "text": "Significant flight cancellations and airspace closures across the Middle East due to escalating conflict indicate a severe disruption to air travel, but not a complete end globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONThnU2cxMzU0UzNIRC0xZXNmaUtnalVMdTlURmtEdk9fYXRSZTVoRGEyNmJ5RXhfcDdSYmhLeElTbTQybWthLWFla183aTlHbHNEUDVmV3E3MTdoVC1TR3NuNkdKUFVZZjJRRVhRNW41X0tBb3hIZWdRZ1Y2RzJib19FZlhsQ2dkOUdDUGlzZTdfOVVYV3Z2N1Rxbk1TTkU5RktTSHVQOXZIRmhpWldpRUlJd3dNUQ?oc=5"
+            },
+            {
+              "date": "Mar 17, 2026",
+              "text": "Significant flight disruptions across the Middle East are occurring due to ongoing conflict, with airlines suspending or limiting operations. However, air travel hasn't entirely ceased.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGF3cUNQSVRsSDYwSEt5TGNyalJQNU50SGJNRURnbHhCRG5tRWlTLUdDYlVqTGNNeWVnSGtuejkxVmJoUVFEQ2ZnQzlmSzlibmpKb0kxeXNobnc4Z0VqZkdGb1FqSGlWMWFRaENwZlFGZWdDX1hTSzJ6RDV1ZGRXTFZxaWZWSEh4Rlc2bXAzMzJUVEo0WEZCOVIxbEt0UQ?oc=5"
             }
           ],
           "changed_at": "2026-03-23"

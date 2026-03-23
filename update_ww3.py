@@ -41,21 +41,23 @@ def save_claims(data):
 # ── RSS FETCH ────────────────────────────────────────────────────────────────
 def parse_rss_date(pub_str):
     """Parse RSS pubDate string into a clean display date like 'Mar 22, 2026'.
-    RSS format is typically: 'Sat, 22 Mar 2026 20:42:00 GMT'
-    Falls back to TODAY_ISO if parsing fails."""
+    Extracts day/month/year directly from the string with NO timezone conversion,
+    so 'Sun, 22 Mar 2026 06:00:00 GMT' always returns 'Mar 22, 2026' not Mar 23."""
     if not pub_str:
         return TODAY_ISO
     try:
-        # Strip weekday prefix if present, e.g. "Sat, 22 Mar 2026 20:42:00 GMT"
-        dt = datetime.strptime(pub_str.strip(), "%a, %d %b %Y %H:%M:%S %Z")
+        # Split on comma to handle optional weekday: "Sun, 22 Mar 2026 ..."
+        parts = pub_str.strip().split(",", 1)
+        date_part = parts[-1].strip()   # "22 Mar 2026 20:42:00 GMT"
+        tokens = date_part.split()      # ["22", "Mar", "2026", ...]
+        day   = tokens[0].zfill(2)
+        month = tokens[1]
+        year  = tokens[2]
+        # Parse just day/month/year — no time, no timezone math
+        dt = datetime.strptime(f"{day} {month} {year}", "%d %b %Y")
         return dt.strftime("%b %d, %Y")
     except Exception:
-        try:
-            # Some feeds omit weekday
-            dt = datetime.strptime(pub_str.strip()[:16], "%d %b %Y %H:%M")
-            return dt.strftime("%b %d, %Y")
-        except Exception:
-            return TODAY_ISO
+        return TODAY_ISO
 
 def fetch_headlines(keywords):
     headlines = []
@@ -142,8 +144,8 @@ def update_claim(claim):
         print(f"  [{cid}] No headlines found — skipping Gemini")
         return claim
 
-    headlines_str = chr(10).join(f"- {h}" for h in headlines)
-    prompt = f"""You are a news analyst. Check if recent headlines confirm or update this geopolitical claim.
+    headlines_str = chr(10).join(f"- {h['title'] if isinstance(h, dict) else h}" for h in headlines)
+    prompt = f"""You are a strict geopolitical fact-checker. Evaluate whether recent headlines confirm this claim has ACTUALLY OCCURRED.
 
 CLAIM: "{text}"
 CURRENT VERDICT: {status.upper()}
@@ -151,10 +153,18 @@ CURRENT VERDICT: {status.upper()}
 HEADLINES:
 {headlines_str}
 
-Respond ONLY in JSON (no markdown, no explanation):
-{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"brief update under 180 chars","update_hot":true|false}}
+STRICT RULES — you must follow all of these:
+1. Planning, discussion, mulling, or preparation does NOT confirm a claim. Only completed events count.
+2. A headline about CONSIDERING an operation is NOT the same as that operation succeeding.
+3. Only upgrade status (e.g. no->yes) if a headline explicitly states the event has happened.
+4. Only downgrade status if headlines clearly contradict the current verdict.
+5. "watch" means credible signs it may happen. "partial" means it partly happened. "yes" means it definitively happened.
+6. If headlines are tangentially related but don't confirm or deny the claim, return has_update:false.
 
-Only change status if headlines clearly support it. Return has_update:false if no new info."""
+Respond ONLY in JSON (no markdown, no explanation):
+{{"status":"yes|no|partial|watch","has_update":true|false,"update_text":"brief factual update under 180 chars (no speculation)","update_hot":true|false}}
+
+Be conservative. When in doubt, keep the current verdict and return has_update:false."""
 
     time.sleep(4)  # stay under 15 req/min free tier limit
     time.sleep(1)  # small delay between calls

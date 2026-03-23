@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Mar 23, 2026",
+      "text": "Trump says strikes on Iranian energy infrastructure paused for 5 days amid US-Iran talks",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fMG1zaUdaeWtNRHRRSVRWTk1NbzBoYTEtUGUyOXBmVlhhVjhZbkk5WXJ4bVFnaWJLTkNZd1FkaXZyQTZQQS1jNjMxWFpPRjJsX0NNUThXYXY5TXFkOS1teFZ4Z2ROZ2ltVllXWGRFUm1XbEJvN1R6VE9IUmNIUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
+      "text": "Iran War Maps: Tracking the Mideast Conflict",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uUWpBOUw3b05zUlRrZFVqbThvSTc1elBsdzItdm4tR0M0eUYzSWN1Qm45RGp0R0pLbzJLekxiZ3JBODRlSjB5T2hIMThDVG12NG1zcnVKYzJNYnhqdFE0MVUtcU5VUWR1UkJ6dWthdVRvcW5t?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
+      "text": "Oil Prices Tumble and Stocks Rise as Trump Backs Off Threats to Iran Infrastructure",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZEU5WFo4bWVrSkhmVFRrdXBhRGhsVUwtbkdfQXVoVHh2WEQ5MEt1SVRnRWxEUXR0LVdNNGNKU2VJRVlnRzVMUW9nTnU5VTh0Y0p2Mk9yMnR1YlpfR0tVdmJCT3U4NVc3bFJQUElHZ2pqMm1IaFQ3NTBPb21JMV9mWA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 23, 2026",
       "text": "Iran War Live Updates: Trump Says U.S. and Iran Held ‘Very Good’ Talks on Ending Conflict",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hdTVCN19iQlVDTG96U21wcktGU1NoMVBURmtTUERWcDRrTFY4Q0lod21mSmx2alRsWDJPZzNpeEVwY2QzOGVkSE9tbmpwQzdRNlJhMTBNS3NhX3JKYkdlRUE4dzJfNlpBZU1abXFvRnRMZw?oc=5",
@@ -71,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Mar 23, 2026",
-      "text": "Trump says he's postponing power plant strikes after US-Iran talks - but Tehran denies talks took place",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EajNYQzVGMkZTQ1d1UlR4d0xMYUQtUzBaNk56TjkyQlZ6aThRN2x2VldfWGdQWWN3amsxWF9nU3R4b1h6VlJvbUdvaFY1RjVxaHM4WQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 22, 2026",
-      "text": "The economy has a Strait of Hormuz deadline for Trump: Two weeks",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOS1rNHBNUlVCNWFsLS1RZ0F4U2xQYlVLLVJsdjh4cVRWSnIzQ0RiclFrTHBhX0QzNVh2YU13TzRZcmJTbXIzU1U3ODdxa2daRlN5U1VCd05HYi1DbTMtYm9oNl9aUGlGLVlTZmFOa2pLd1NOaGlTRGxNN01NZHJyRTlCMlMwNExfNmM5ZGJvalbSAZYBQVVfeXFMTUdNWWVKQkZNbFF4OW5OSXJaZVdrUmVoTjRET0psX2xBeThuZlZyUUFpdE1ZaDJwWEdrTjJ1RmZBYllsZ2V5eHVHeVdwMFJjd0R1d1dhTUFHRmtlNjlBVW8zOWI4UUlFa0JsUzB2STh2WlpSUzh1V3IzZndzeU9fYldNVmo3UHVMV1lVSzNtUkRHbU5MRHVn?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 21, 2026",
-      "text": "A new threat to global shipping as Yemen's Houthis threaten to close vital Bab el-Mandeb Strait",
-      "source": "africanews.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnFSR3VkTVM5Q0ZyVWJvUmpxMEVDZW9QMUpQRFVaQnVfbi1CRU5qLWNleWdWZl84TWYxa2xXX0hLQWJfanlxRzM1Nk9KN1BCNVNjMEFIWnpIeTdoUjdTUVJXelY1WFRZcFppZHc1QUN2LUhPeHVCNFlaLXJ6MFlKNzh1bWlteUVVcFVCNXdwNE5nMVpBX09sWHA1ZFBJa3FZb3VEZjd6UnhsRGZ3dTdESF9vVEI2cE5ZWl9LdzV1dHBXczR4M1BMX9IBzgFBVV95cUxOZGMxRFhWMDNBM3ZrZEdZY2xfTXpXMG1CNTh4RGU3SnNiTDdvNzkwMzQzbWpnNUxzYWNNTWtnbnk4YWl6Rmw1cjA3cGVjX3RGaGpiS0Y1UWpTVTV4Nko2YWRESHJpY1FtRUNlZVBCMVpsV2FaVy02dzVKYnJBMFFJVkN5aHdiOWR5SFltQVI2LXZ1RWc5ZEdMWUpHbzQ4cGx2RVNid0VjdUtXbjlmVnd1UERTUHhUSGdiemY1R0VPLUgyTWo4TzhrUzBkSHRaZw?oc=5",
+      "text": "The Trouble With Seizing Kharg Island",
+      "source": "The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGlCbENWWHNwemxiNWtja2ZoQ1NBcDU2TWk1UFBmZ1FFME1PaTRDdFZPNWRoZlFOcUMwQzBrY1BtbFhtdlNHNGEwNnpaMUU4ZW9iOWpGdVBCQVUxYlQxalF1ak93NGdNZ1VKMmZ4RmNoeXNaX3JsamtUOHFoMVJDNWstUUtEMmwx?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "2,200 more Marines, 3 Navy ships likely headed to Middle East: Officials",
       "source": "abcnews.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEJnQVdKY1E0WUxjTlY5RWlZVlNkamhkT0RsQ0E4LXd1NGJCd1dIbnFvY1RlS2E4RVlqMnNhd2dDSl9MSEFKM0RLSWtzbzFTeXZBYjlfQ0EtdGt6cVRoLWFpbHozTFJKOFFuMTZ3LWJZWmFyejExdXlWdk1GMHVHUDF1YUMtMjBTeVptQjJfMGVrcGNkel9J0gGcAUFVX3lxTFBHS0lOLS1sWDBUSG5NQUhYRmlnYU9DQWxVU3hyNWxndmxKT3IzbWlfaFV3cVRuWnNkYmg1RWtaU1VzUmlkSXFKdzB3a1huUzhnR0xZbW13bDhwMU4wNUM5WF9jZE9fQmJESnMwX0l4Rk13aHBzVkZWTnBnbFgwQ1FYbDNzS2dCOVNoOXhlUlB5M2tXR0hBYlNVaUdvMg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 20, 2026",
-      "text": "Trump mulls risky Kharg Island takeover to force Iran to open strait",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iVnlabUVqOG9OaTlkOW9DYmJ1MHNhOERtd2tVMU4zd0hqVExiaWlGRHAwaHN6bWtCSDRkeDY3cDVENmJRWXJUQ1VaX1d3Z3NENk15TDB4Yl8zeVdHYnZJb2xYeG5xV250OVNiR1BqREtwc05FSXhSVjkzTEJrQQ?oc=5",
       "hot": false
     },
     {
@@ -176,8 +176,8 @@
             },
             {
               "date": "Mar 23, 2026",
-              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present.",
-              "hot": false,
+              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present in the headlines provided.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaDE1d0NxNTZCRDA1bHBSRFplUGNObDNtVUdzVDE3LXVKSl9Jb1czLTQ1VDlRTTlqNElrV3ZGSFNycmNxTmlFOU1UdEVzSG5JNGotNkNBa1k3cUtpa0poQjJqNXFmampEQTlxNFRBeWZVRTBTdXVRSnkzTEdzYzVjUUpPd1pPNWxYNF8yU2IwYw?oc=5"
             }
           ]
@@ -235,11 +235,6 @@
           ],
           "updates": [
             {
-              "date": "MAR 18-21, 2026",
-              "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island.",
-              "hot": true
-            },
-            {
               "date": "Mar 21, 2026",
               "text": "USS Boxer deployment suggests increased US naval presence in the region, but doesn't confirm an invasion attempt.",
               "hot": true,
@@ -248,6 +243,12 @@
             {
               "date": "Mar 23, 2026",
               "text": "Headlines indicate increased US military deployments and consideration of operations targeting Iranian territory, but no amphibious invasion has been confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDJhLXpjak1SMXU5V19zMkpjYS1Pb2Fuc2JfV2g4ZjdvNkpLUnJmMm1hbUNaS1I0RjhndnhJS2tiV3dGM2RQTm1qbThHcFFsV002TXdDY1d0VlRnOGZIMHBtSkFQeDlubEFKcDFxd0NnbnNBZTFjZGpTSllpcFNYemRFbE1UV3hobzJVRjE0RlM2encyLVNyd0J0ZUh6NTZmZy0yaFZwMGlQaUdyd1R3Zk9nZEY2WDA?oc=5"
+            },
+            {
+              "date": "Mar 23, 2026",
+              "text": "Headlines indicate US is planning and deploying forces for potential action against Iran, specifically targeting Kharg Island, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDJhLXpjak1SMXU5V19zMkpjYS1Pb2Fuc2JfV2g4ZjdvNkpLUnJmMm1hbUNaS1I0RjhndnhJS2tiV3dGM2RQTm1qbThHcFFsV002TXdDY1d0VlRnOGZIMHBtSkFQeDlubEFKcDFxd0NnbnNBZTFjZGpTSllpcFNYemRFbE1UV3hobzJVRjE0RlM2encyLVNyd0J0ZUh6NTZmZy0yaFZwMGlQaUdyd1R3Zk9nZEY2WDA?oc=5"
             }

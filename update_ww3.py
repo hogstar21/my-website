@@ -200,13 +200,15 @@ def fetch_breaking_news(existing):
 
     # Build new items directly from RSS headlines with real URLs
     existing_texts = set(e["text"][:60].lower() for e in existing)
+    print(f"  Existing items: {len(existing)}, existing_texts sample: {list(existing_texts)[:2]}")
     new_items = []
+    import re as re2
     for h in all_headlines:
+        print(f"  Processing headline: {str(h)[:100]}")
         if not isinstance(h, dict):
+            print("  Skipping - not a dict")
             continue
         title = h.get("title", "")
-        import re as re2
-        # Strip source tag appended by Google News e.g. " - Reuters [date]"
         clean = re2.sub(r"\s*\[.*?\]\s*$", "", title).strip()
         if " - " in clean:
             text = clean.rsplit(" - ", 1)[0].strip()
@@ -214,6 +216,7 @@ def fetch_breaking_news(existing):
         else:
             text = clean
             source = "Google News"
+        print(f"  text: {text[:60]}, in existing: {text[:60].lower() in existing_texts}")
         if not text or text[:60].lower() in existing_texts:
             continue
         new_items.append({

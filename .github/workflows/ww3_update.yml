@@ -32,4 +32,5 @@ jobs:
           git config user.email "bot@github-actions"
           git add ww3-tracker.html claims.json
           git diff --staged --quiet || git commit -m "Auto-update: WW3 tracker $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push

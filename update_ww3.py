@@ -61,7 +61,7 @@ def parse_rss_date(pub_str):
 
 def fetch_headlines(keywords):
     headlines = []
-    query = " OR ".join(f'"{k}"' for k in keywords[:3])
+    query = " OR ".join(k for k in keywords[:3])  # no quotes — quoted OR queries fail on Google News RSS
     encoded = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
     try:

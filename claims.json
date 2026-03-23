@@ -8,6 +8,27 @@
   },
   "breaking_news": [
     {
+      "date": "MAR 22, 2026 · 8:25 PM EDT",
+      "text": "Israeli Defense Forces confirm retaliatory strikes against Iranian military targets in Isfahan.",
+      "source": "Reuters",
+      "hot": true,
+      "url": ""
+    },
+    {
+      "date": "MAR 22, 2026 · 8:25 PM EDT",
+      "text": "United Nations Security Council convenes emergency session to address escalating conflict.",
+      "source": "Associated Press",
+      "hot": true,
+      "url": ""
+    },
+    {
+      "date": "MAR 22, 2026 · 8:25 PM EDT",
+      "text": "Cyberattacks targeting US financial institutions attributed to Iranian-linked groups.",
+      "source": "Wall Street Journal",
+      "hot": false,
+      "url": ""
+    },
+    {
       "date": "MAR 22, 2026 · 8:11 PM EDT",
       "text": "Israeli Defense Minister confirms Dimona strike, vows retaliation. Details remain scarce.",
       "source": "Reuters",
@@ -77,12 +98,6 @@
       "date": "MAR 22, 2026",
       "text": "Iran claimed strikes on US Embassy logistics base in Baghdad — third consecutive day of attacks.",
       "source": "AFP",
-      "hot": false
-    },
-    {
-      "date": "MAR 22, 2026",
-      "text": "Trump branded NATO allies 'cowards' — demanded partners help reopen Strait of Hormuz.",
-      "source": "Politico",
       "hot": false
     }
   ],
@@ -198,8 +213,8 @@
               "hot": true
             },
             {
-              "date": "MAR 22, 2026 · 8:17 PM EDT",
-              "text": "USS Boxer deployment suggests increased naval presence in the region, but doesn't confirm an invasion attempt. Further monitoring needed.",
+              "date": "MAR 22, 2026 · 8:25 PM EDT",
+              "text": "USS Boxer deployment suggests increased US naval presence in the region, but doesn't confirm an invasion attempt.",
               "hot": true,
               "url": ""
             }

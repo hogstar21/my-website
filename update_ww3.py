@@ -39,6 +39,24 @@ def save_claims(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 # ── RSS FETCH ────────────────────────────────────────────────────────────────
+def parse_rss_date(pub_str):
+    """Parse RSS pubDate string into a clean display date like 'Mar 22, 2026'.
+    RSS format is typically: 'Sat, 22 Mar 2026 20:42:00 GMT'
+    Falls back to TODAY_ISO if parsing fails."""
+    if not pub_str:
+        return TODAY_ISO
+    try:
+        # Strip weekday prefix if present, e.g. "Sat, 22 Mar 2026 20:42:00 GMT"
+        dt = datetime.strptime(pub_str.strip(), "%a, %d %b %Y %H:%M:%S %Z")
+        return dt.strftime("%b %d, %Y")
+    except Exception:
+        try:
+            # Some feeds omit weekday
+            dt = datetime.strptime(pub_str.strip()[:16], "%d %b %Y %H:%M")
+            return dt.strftime("%b %d, %Y")
+        except Exception:
+            return TODAY_ISO
+
 def fetch_headlines(keywords):
     headlines = []
     query = " OR ".join(f'"{k}"' for k in keywords[:3])
@@ -54,7 +72,12 @@ def fetch_headlines(keywords):
             pub   = item.findtext("pubDate", "").strip()
             link  = item.findtext("link", "").strip()
             if title:
-                headlines.append({"title": f"{title} [{pub[:16]}]", "url": link})
+                pub_display = parse_rss_date(pub)
+                headlines.append({
+                    "title": f"{title} [{pub[:16]}]",
+                    "url": link,
+                    "pub_date": pub_display  # actual article date, separate from run date
+                })
     except Exception as e:
         print(f"  RSS error for '{keywords[0]}': {e}")
     print(f"  RSS: {len(headlines)} headlines for '{keywords[0]}'")
@@ -139,8 +162,10 @@ Only change status if headlines clearly support it. Return has_update:false if n
         return claim
 
     if result.get("has_update") and result.get("update_text"):
-        update_url = next((h["url"] for h in headlines if isinstance(h, dict) and h.get("url")), "")
-        entry = {"date": TODAY, "text": result["update_text"], "hot": result.get("update_hot", False), "url": update_url}
+        best = next((h for h in headlines if isinstance(h, dict) and h.get("url")), {})
+        update_url = best.get("url", "")
+        article_date = best.get("pub_date", TODAY_ISO)  # use actual article date, not run timestamp
+        entry = {"date": article_date, "text": result["update_text"], "hot": result.get("update_hot", False), "url": update_url}
         existing = claim.get("updates", [])
         # Deduplicate by meaning - remove any existing update that covers the same topic
         def is_similar(a, b):
@@ -175,14 +200,18 @@ BREAKING_KEYWORDS = [
 ]
 
 def is_recent(date_str, days=3):
-    """Check if a date string is within the last N days."""
+    """Check if a date string is within the last N days.
+    Handles formats: 'Mar 22, 2026' and legacy 'MAR 22, 2026 · 8:42 PM EDT'."""
     try:
-        from datetime import datetime, timedelta
-        # Try parsing common formats like "MAR 21, 2026"
-        dt = datetime.strptime(date_str.strip(), "%b %d, %Y")
+        clean = date_str.strip().split("·")[0].strip()  # strip time portion if present
+        dt = datetime.strptime(clean, "%b %d, %Y")
         return dt >= datetime.utcnow() - timedelta(days=days)
-    except:
-        return True  # Keep if can't parse
+    except Exception:
+        try:
+            dt = datetime.strptime(clean, "%B %d, %Y")
+            return dt >= datetime.utcnow() - timedelta(days=days)
+        except Exception:
+            return True  # Keep if can't parse
 
 def fetch_breaking_news(existing):
     # Remove items older than 3 days
@@ -221,7 +250,7 @@ def fetch_breaking_news(existing):
         if not text or text[:60].lower() in existing_texts:
             continue
         new_items.append({
-            "date": TODAY,
+            "date": h.get("pub_date", TODAY_ISO),  # use actual article date, not run timestamp
             "text": text[:180],
             "source": source,
             "url": h.get("url", ""),

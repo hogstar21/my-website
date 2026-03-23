@@ -304,11 +304,23 @@ def fetch_breaking_news(existing):
             "hot": False
         })
 
+    combined = (new_items + existing)[:15]
+
+    # Sort newest first — parse date strings for comparison
+    def _sort_key(item):
+        try:
+            clean = item.get("date", "").strip().split("·")[0].strip()
+            return datetime.strptime(clean, "%b %d, %Y")
+        except Exception:
+            return datetime.min
+
+    combined.sort(key=_sort_key, reverse=True)
+
     if new_items:
         print(f"  Breaking news: {len(new_items)} new item(s) added")
-        return (new_items + existing)[:15]
-    print("  Breaking news: no new headlines")
-    return existing
+    else:
+        print("  Breaking news: no new headlines")
+    return combined
 
 def count_statuses(data):
     counts = {"yes": 0, "no": 0, "partial": 0, "watch": 0}

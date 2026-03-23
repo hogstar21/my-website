@@ -190,7 +190,9 @@ def fetch_breaking_news(existing):
 
     all_headlines = []
     for kw in BREAKING_KEYWORDS:
-        all_headlines.extend(fetch_headlines([kw]))
+        results = fetch_headlines([kw])
+        if results:
+            all_headlines.append(results[0])  # only top headline per keyword
 
     print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
 

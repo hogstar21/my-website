@@ -73,7 +73,7 @@ def ask_gemini(prompt):
         try:
             req = urllib.request.Request(url, data=payload,
                 headers={"Content-Type": "application/json"}, method="POST")
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=45) as resp:
                 result = json.loads(resp.read())
             return result["candidates"][0]["content"]["parts"][0]["text"].strip()
         except urllib.error.HTTPError as e:

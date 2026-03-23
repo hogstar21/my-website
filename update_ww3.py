@@ -97,7 +97,7 @@ def ask_gemini(prompt):
         try:
             req = urllib.request.Request(url, data=payload,
                 headers={"Content-Type": "application/json"}, method="POST")
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:
                 result = json.loads(resp.read())
             return result["candidates"][0]["content"]["parts"][0]["text"].strip()
         except urllib.error.HTTPError as e:
@@ -106,11 +106,17 @@ def ask_gemini(prompt):
                 print(f"  Rate limited, waiting {wait}s...")
                 time.sleep(wait)
             else:
-                print(f"  Gemini error: {e.code}")
-                return ""
+                print(f"  Gemini HTTP error: {e.code} — retrying ({attempt+1}/3)")
+                time.sleep(5)
+        except TimeoutError:
+            wait = (attempt + 1) * 10
+            print(f"  Gemini timeout — retrying in {wait}s ({attempt+1}/3)...")
+            time.sleep(wait)
         except Exception as e:
-            print(f"  Gemini error: {e}")
-            return ""
+            wait = (attempt + 1) * 5
+            print(f"  Gemini error: {e} — retrying in {wait}s ({attempt+1}/3)...")
+            time.sleep(wait)
+    print("  Gemini gave up after 3 attempts")
     return ""
 
 # ── UPDATE CLAIM ─────────────────────────────────────────────────────────────
@@ -194,9 +200,23 @@ Only change status if headlines clearly support it. Return has_update:false if n
 
 # ── BREAKING NEWS ─────────────────────────────────────────────────────────────
 BREAKING_KEYWORDS = [
-    "Iran war US military 2026", "USS Boxer Marines Middle East",
-    "Strait of Hormuz 2026", "Iran missile strike 2026",
-    "Kharg Island US", "Iran war ceasefire 2026",
+    # Iran/US conflict - broad then specific
+    "Iran US war 2026",
+    "Iran war latest",
+    "Iran ceasefire 2026",
+    "Iran missile Israel 2026",
+    # Naval / amphibious
+    "USS Boxer Marines Middle East",
+    "US Navy Middle East 2026",
+    # Hormuz / oil
+    "Strait of Hormuz shipping 2026",
+    "oil prices Iran war",
+    # Kharg / Houthi
+    "Kharg Island US military",
+    "Houthi Bab el-Mandeb 2026",
+    # Broader escalation
+    "Middle East war escalation 2026",
+    "Iran nuclear US strike 2026",
 ]
 
 def is_recent(date_str, days=3):

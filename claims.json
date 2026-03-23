@@ -8,6 +8,24 @@
   },
   "breaking_news": [
     {
+      "date": "MAR 22, 2026 · 8:11 PM EDT",
+      "text": "Israeli Defense Minister confirms Dimona strike, vows retaliation. Details remain scarce.",
+      "source": "Reuters",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 8:11 PM EDT",
+      "text": "Shipping insurance rates for vessels transiting Hormuz skyrocket amid escalating tensions.",
+      "source": "Lloyd's List",
+      "hot": true
+    },
+    {
+      "date": "MAR 22, 2026 · 8:11 PM EDT",
+      "text": "White House denies reports of imminent Kharg Island operation, calls them 'speculative'.",
+      "source": "CNN",
+      "hot": false
+    },
+    {
       "date": "MAR 22, 2026",
       "text": "USS Boxer ARG (USS Boxer, USS Portland, USS Comstock) carrying 2,500 Marines from 11th MEU en route to Arabian Sea. ETA: ~April 8-12.",
       "source": "USNI / AP",
@@ -178,6 +196,12 @@
               "date": "MAR 18-21, 2026",
               "text": "USS Boxer ARG departed San Diego with 2,500 Marines (11th MEU), ETA Gulf ~April 8-12. USS Tripoli ARG (31st MEU) arrives Hormuz in DAYS. 82nd Airborne on 18-hour standby. MQ-4C Triton actively reconning Kharg Island.",
               "hot": true
+            },
+            {
+              "date": "MAR 22, 2026 · 8:11 PM EDT",
+              "text": "USS Boxer deployment suggests increased naval presence in the region, but doesn't confirm an invasion attempt. Further monitoring needed.",
+              "hot": true,
+              "url": ""
             }
           ]
         },

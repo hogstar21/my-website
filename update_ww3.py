@@ -186,63 +186,49 @@ def is_recent(date_str, days=3):
 def fetch_breaking_news(existing):
     # Remove items older than 3 days
     existing = [e for e in existing if is_recent(e.get("date", ""))]
-    box_empty = len(existing) == 0
 
     all_headlines = []
     for kw in BREAKING_KEYWORDS:
         results = fetch_headlines([kw])
         if results:
-            all_headlines.append(results[0])  # only top headline per keyword
+            all_headlines.append(results[0])  # top headline per keyword
 
     print(f"  Breaking news RSS total: {len(all_headlines)} headlines")
 
-    if not all_headlines or not GEMINI_API_KEY:
+    if not all_headlines:
         return existing
 
-    existing_texts = " | ".join(e["text"][:80] for e in existing[-5:]) if existing else "None"
-    count = "5" if box_empty else "3"
-
-    headlines_text = "\n".join(f"- {h}" for h in all_headlines[:20])
-    instruction = "The breaking news box is EMPTY. Add the 5 most important headlines." if box_empty else f"Add up to {count} NEW items not already in existing."
-    prompt = (
-        f"You update a breaking news ticker for an Iran war tracker. Today: {TODAY}.\n\n"
-        f"HEADLINES:\n{headlines_text}\n\n"
-        f"EXISTING (do not repeat):\n{existing_texts}\n\n"
-        f"{instruction}\n\n"
-        f"Reply ONLY as a JSON array, no markdown:\n"
-        f'[{{"date":"{TODAY}","text":"under 180 chars","source":"source","hot":true}}]\n'
-        f"Return [] if nothing new."
-    )
-
-    response = ask_gemini(prompt)
-    if not response:
-        return existing
-    try:
+    # Build new items directly from RSS headlines with real URLs
+    existing_texts = set(e["text"][:60].lower() for e in existing)
+    new_items = []
+    for h in all_headlines:
+        if not isinstance(h, dict):
+            continue
+        title = h.get("title", "")
         import re as re2
-        clean = re2.sub(r"```[a-z]*\n?", "", response).strip()
-        new_items = json.loads(clean)
-        if isinstance(new_items, list) and new_items:
-            # Match each new item to best RSS headline URL
-            for item in new_items:
-                best_url = ""
-                item_words = set(item.get("text","").lower().split())
-                best_overlap = 0
-                for h in all_headlines:
-                    if isinstance(h, dict) and h.get("url"):
-                        h_words = set(h.get("title","").lower().split())
-                        overlap = len(item_words & h_words)
-                        if overlap > best_overlap:
-                            best_overlap = overlap
-                            best_url = h["url"]
-                item["url"] = best_url
-            print(f"  Breaking news: {len(new_items)} new item(s) added")
-            return (new_items + existing)[:15]
+        # Strip source tag appended by Google News e.g. " - Reuters [date]"
+        clean = re2.sub(r"\s*\[.*?\]\s*$", "", title).strip()
+        if " - " in clean:
+            text = clean.rsplit(" - ", 1)[0].strip()
+            source = clean.rsplit(" - ", 1)[1].strip()
         else:
-            print("  Breaking news: Gemini returned no new items")
-    except Exception as e:
-        print(f"  Breaking news parse error: {e}")
-    return existing
+            text = clean
+            source = "Google News"
+        if not text or text[:60].lower() in existing_texts:
+            continue
+        new_items.append({
+            "date": TODAY,
+            "text": text[:180],
+            "source": source,
+            "url": h.get("url", ""),
+            "hot": False
+        })
 
+    if new_items:
+        print(f"  Breaking news: {len(new_items)} new item(s) added")
+        return (new_items + existing)[:15]
+    print("  Breaking news: no new headlines")
+    return existing
 
 def count_statuses(data):
     counts = {"yes": 0, "no": 0, "partial": 0, "watch": 0}

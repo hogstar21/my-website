@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 24, 2026",
+      "text": "Where do reported US-Iran ‘negotiations’ leave Israel?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM1Vzd3ROX3JHUDNtZnFwbHFLdVpKRmREWXFwM2xFTUs3Q2c0WkRLNUtiX2Nad2hXTkZoUDc4dm9iNnNWRGFmOExzWEpPc2R4Y2RmSTlNOW95OEtjMTRJT1BBMnRPcG5jNmNTSXEtZzJNeXJSTUZnOG04czVkbEhJVFpBeGNNODQxSW9z0gGQAUFVX3lxTFBjTXA4RW9wQ1BBeHJhZ29UeE9JUENlaS1WZ3k4U0w1ZzZzY1VPcTdWRTR4UGk1NXN5YU1fZnNrMlp5ZFZPSFpmbmdIQy1LMy1iR0F5V0M5dFRMb1RXamJqTGx4dGEwa1NaZlFGdFo3V293OUo1R3JOUm9ac0FlY0g3ZEg1UzdLaDJiUmJUSElzVg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 24, 2026",
       "text": "'I want to blink and it be over,' Iranian woman tells BBC as Israel and Iran exchange strikes",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?oc=5",
@@ -79,16 +86,9 @@
     },
     {
       "date": "Mar 23, 2026",
-      "text": "Trump’s suspiciously timed announcements on Iran",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BSXlIMlJxOVVsSi04ekpGQ3pfQW5BYzNrck90LUZEM1ZoSzNxSXdLc1FyNjk2QUdrb2VDYzdzRzRETC1GNWUyMHhMakVZdkpRanZZdk1paWlwYjhzbWlmbU1JbFg3Y1VLM2I0NG1LWHl1V3RiSm9yS2h1aw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 23, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "text": "The US has counter-mine ships homeported in the Middle East. Are they effective?",
+      "source": "Navy Times",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdTRTV3B5QUFZSVExcmh3T1RaYllzMzhONlhFTHJWQmxCdUIxa1d2ZzdycU1kMmhkOE41b1hTakcyTllsRlhYS2haRGxLYU4wVFZYU09VVEo2ZnE5djRfOWEwLXV3TXU3N1o5RWZLYmFyWVpiVURsb1FvamRPNXc2aGdHTlg5Z2R6dDBLZ05yWDFtRF9MbXhOdS1PSDV4WDUtUGtiVk90VEJLLWVOX3FVNmktRFJPOXRKbjBwdFJyNmVxeFpwOHhvemxKWQ?oc=5",
       "hot": false
     },
     {
@@ -176,7 +176,7 @@
             },
             {
               "date": "Mar 23, 2026",
-              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present.",
+              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present in the headlines provided.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaDE1d0NxNTZCRDA1bHBSRFplUGNObDNtVUdzVDE3LXVKSl9Jb1czLTQ1VDlRTTlqNElrV3ZGSFNycmNxTmlFOU1UdEVzSG5JNGotNkNBa1k3cUtpa0poQjJqNXFmampEQTlxNFRBeWZVRTBTdXVRSnkzTEdzYzVjUUpPd1pPNWxYNF8yU2IwYw?oc=5"
             }
@@ -327,7 +327,7 @@
             },
             {
               "date": "Mar 11, 2026",
-              "text": "Missile interception and escalating regional tensions involving Iran and Turkey suggest potential shifts in alliances, but no definitive confirmation of joining Russia-Iran-China or attacking Israel yet.",
+              "text": "Missile interception and escalating tensions with Iran suggest potential shifts in Turkey's geopolitical alignment, but no definitive betrayal or alliance is confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMW83OWlIM0hrWTI5bjJILUEyaS0zVDVhMEpDRDFUaTJ4SXowdGRFUTktX3J0TE4wVldKS1VCU0prX0NyQXJUUFpFN1JfX2tnRDQ3aUVrSHFnSDFFSzJkN3lkS21seW1fb1FBT3FTWmd0NDctR2dwTy1BT0k0aGZQTW1sc3BnVVZzSEHSAYoBQVVfeXFMTV83TjkyZ1VCbExMZXhvNTJDZmFMRmxqc0ZqOFdsSUJOQ0xveU1xTUJnMGd3U1dGc2xQTE5ld3c3c3BjamhXYnhrRW5yNVRtcDZ0V18zdlJaSkgzVVp3dHdqOFQwTjlJY1VrcG0zUkR2QldCcFRQYWk1emZBNExla1RPcEtlRFJhd0Fn?oc=5"
             }
@@ -505,14 +505,8 @@
           ],
           "updates": [
             {
-              "date": "Mar 20, 2026",
-              "text": "Significant flight cancellations and schedule revisions are occurring due to the Middle East conflict, severely disrupting air travel, but 'end' is too strong a term.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONThnU2cxMzU0UzNIRC0xZXNmaUtnalVMdTlURmtEdk9fYXRSZTVoRGEyNmJ5RXhfcDdSYmhLeElTbTQybWthLWFla183aTlHbHNEUDVmV3E3MTdoVC1TR3NuNkdKUFVZZjJRRVhRNW41X0tBb3hIZWdRZ1Y2RzJib19FZlhsQ2dkOUdDUGlzZTdfOVVYV3Z2N1Rxbk1TTkU5RktTSHVQOXZIRmhpWldpRUlJd3dNUQ?oc=5"
-            },
-            {
               "date": "Mar 24, 2026",
-              "text": "Significant flight cancellations and airspace closures across the Middle East confirm substantial disruption to air travel, but not a complete end. Crime and chaos are not explicitly reported.",
+              "text": "Flight cancellations and restrictions are occurring due to the escalating Middle East conflict, indicating significant disruption to air travel, but not a complete end.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }

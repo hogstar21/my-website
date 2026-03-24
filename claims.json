@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Mar 24, 2026",
+      "text": "Iran tells UN: 'non-hostile' ships can transit Strait of Hormuz",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWngxWmViemdCZllkbnRqTUpnZUJoSkdTYUk1RlhZOFNENWlncHYxd3lpRVkzWnZ6MHFLMmYtbDR5MU5xT1FjVWYyMWFGMUgyX1VVSU9zRExCRndaWGw5WExwYmhKTFg4UHJObkNpVS00YXNkVUI0bXplQ01vUDRDc0VvRVRyQzFPNVk1QUtyTGlQZnZmX1VJZ293Ukk3eVJoSHVadzhVNWVzYU9EWEdGNUcxYmJZNjFGUUE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 24, 2026",
+      "text": "Senator References Bloodiest Battle in USMC History While Urging Attack on Kharg Island",
+      "source": "Military.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdUstMjcySGN6MVpiVmJtZUZ1amx5MzhudkliWjZULUQxUFd6TjU5TlEydTFmamtIMEhldHgycHkzYU9sNHpxZFlteGtxcGhIbXFIaFJFRFV2d0FtQWdFbTN1NkxkdXFKc1lyUmkzRXBHc20tR0ZiVlVjaHFIUGhLelljeXoza1o3SFROeWdEQ3ZmV1N2a2ZUenZRQldGNEtZcjZGa0wwNU16bDExaTRWbktZSV9fUGZzRGhmbld3djQ0bXBwOElBNHJ1OWhlLXhmc1FiZHVzYU1hR1JBQmpJYjdHeTN3OXpISXlabi1WRGtXRUk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 24, 2026",
+      "text": "Oil Resumes Advance on Concern Middle East War May Escalate",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS05sSnRxYUtSQjk4Nm9kOGlCUGNHcUZMQl9yektNZlNWQU1lYWNVVmR0Tl9FaVltOVhETmRsWkdjS2tXNlFPUjBYUmtOdHJfZWpSM0FPTHJGUThXazJOX3o4VXRIZHUwb1phbVI3QWNJQXczeGRrQi1ISmFIWkg3bGN6T0xxTlZsLU9rd0xlNVJFakRnOUVfRFhncjl6dEhW?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 24, 2026",
       "text": "Iran War Live Updates: Trump Says U.S. and Iran Held ‘Very Good’ Talks on Ending Conflict",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hdTVCN19iQlVDTG96U21wcktGU1NoMVBURmtTUERWcDRrTFY4Q0lod21mSmx2alRsWDJPZzNpeEVwY2QzOGVkSE9tbmpwQzdRNlJhMTBNS3NhX3JKYkdlRUE4dzJfNlpBZU1abXFvRnRMZw?oc=5",
@@ -71,27 +92,6 @@
       "hot": false
     },
     {
-      "date": "Mar 24, 2026",
-      "text": "Trump declares victory and claims Iran offers a 'prize' in talks Iran has denied having",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zOE1sVDFSeUVhTmZyUWhlLV91TE9md2tLN2lCS3dhdUM1VzdrdGVhcmJzaXRkaVdmaDUyenBpWGFaSzBpTTQybEFxLUpPVmkyUW5oUXloSUh1YjN1b3VOaU5TWDJ3ZXhYcENN?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 24, 2026",
-      "text": "Iran War Maps: Tracking the Mideast Conflict",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uUWpBOUw3b05zUlRrZFVqbThvSTc1elBsdzItdm4tR0M0eUYzSWN1Qm45RGp0R0pLbzJLekxiZ3JBODRlSjB5T2hIMThDVG12NG1zcnVKYzJNYnhqdFE0MVUtcU5VUWR1UkJ6dWthdVRvcW5t?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 22, 2026",
-      "text": "The Tanker War: How history is repeating itself on the Strait of Hormuz",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZkx1Y1VPdVd0WGVYaW1vd0hqckZVa21hU1dPMGphV1ZwLV9BMW9wMklRZFd1M2k5c3JlTkc2VzRLcmwxUXNSdlVvdDlpaEc1bU53dEZ6c2VuUlhBV3Q2bHhmRUtMbXo1ZXQ3dTIwU0NQSEE5WkNOZ2UxWkVoVVFwcWZPU2Uwd2JFYkE?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 21, 2026",
       "text": "US orders more warships, thousands of Marines to the Middle East",
       "source": "Task & Purpose",
@@ -100,16 +100,16 @@
     },
     {
       "date": "Mar 21, 2026",
-      "text": "The Trouble With Seizing Kharg Island",
-      "source": "The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOGlCbENWWHNwemxiNWtja2ZoQ1NBcDU2TWk1UFBmZ1FFME1PaTRDdFZPNWRoZlFOcUMwQzBrY1BtbFhtdlNHNGEwNnpaMUU4ZW9iOWpGdVBCQVUxYlQxalF1ak93NGdNZ1VKMmZ4RmNoeXNaX3JsamtUOHFoMVJDNWstUUtEMmwx?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 21, 2026",
       "text": "A new threat to global shipping as Yemen's Houthis threaten to close vital Bab el-Mandeb Strait",
       "source": "africanews.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnFSR3VkTVM5Q0ZyVWJvUmpxMEVDZW9QMUpQRFVaQnVfbi1CRU5qLWNleWdWZl84TWYxa2xXX0hLQWJfanlxRzM1Nk9KN1BCNVNjMEFIWnpIeTdoUjdTUVJXelY1WFRZcFppZHc1QUN2LUhPeHVCNFlaLXJ6MFlKNzh1bWlteUVVcFVCNXdwNE5nMVpBX09sWHA1ZFBJa3FZb3VEZjd6UnhsRGZ3dTdESF9vVEI2cE5ZWl9LdzV1dHBXczR4M1BMX9IBzgFBVV95cUxOZGMxRFhWMDNBM3ZrZEdZY2xfTXpXMG1CNTh4RGU3SnNiTDdvNzkwMzQzbWpnNUxzYWNNTWtnbnk4YWl6Rmw1cjA3cGVjX3RGaGpiS0Y1UWpTVTV4Nko2YWRESHJpY1FtRUNlZVBCMVpsV2FaVy02dzVKYnJBMFFJVkN5aHdiOWR5SFltQVI2LXZ1RWc5ZEdMWUpHbzQ4cGx2RVNid0VjdUtXbjlmVnd1UERTUHhUSGdiemY1R0VPLUgyTWo4TzhrUzBkSHRaZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 19, 2026",
+      "text": "Two US counter-mine ships based in the Middle East are now in Singapore, Navy says",
+      "source": "Navy Times",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdmZjdUloWlRCLW5oUUN1RDl1X1BmZV9PeWdlaXAySThOWWJ2QUpIVHdKTlRlT0N0bnNiSXdhOUQteWd3cjdOUWtHWUw2SXYyemV5alY4QUNMZkh2SjJEbEd5N1ZIbktYc3lwZlg0YWY4Qkl3bm5HdWd3SlpEWFdSLV9CT3dFVi1YRkR4dnpZSy1udkNoTFlNYW5SeHVCMDZENzRMeEFkRlVBeWd1ZFh5ZjBlOGhfbmNWMnloNVh1eGRqT1AxN0VJZG1QaTdyQTA?oc=5",
       "hot": false
     }
   ],
@@ -176,8 +176,8 @@
             },
             {
               "date": "Mar 23, 2026",
-              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present.",
-              "hot": false,
+              "text": "Reports indicate Hormuz disruption impacting oil markets, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases is present in the headlines provided.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaDE1d0NxNTZCRDA1bHBSRFplUGNObDNtVUdzVDE3LXVKSl9Jb1czLTQ1VDlRTTlqNElrV3ZGSFNycmNxTmlFOU1UdEVzSG5JNGotNkNBa1k3cUtpa0poQjJqNXFmampEQTlxNFRBeWZVRTBTdXVRSnkzTEdzYzVjUUpPd1pPNWxYNF8yU2IwYw?oc=5"
             }
           ]
@@ -248,7 +248,7 @@
             },
             {
               "date": "Mar 24, 2026",
-              "text": "Increased US troop deployments and discussions of airborne deployments in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
+              "text": "Multiple headlines report increased US troop deployments and consideration of airborne operations in the Middle East, suggesting heightened tensions with Iran but no confirmed invasion.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVS1duMi1QeEtTTGdwOU5xNER4cGhObUtURVNzeEFNV1ZDeWc0M1FmR015MzdnWGgtRGlyME9KRFAxbnBHcjhiRjhITjQ5UDMzTm1nWXB3SUNEWkI2MUVscWwtOHJpVkJRX0djRFhMRENLanBGeXpZ?oc=5"
             }

@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 26, 2026",
+      "text": "Live updates: Iran says it has no plans for negotiations with the U.S.",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVRTUDd5Vkk1bU9MYzUxUV9pMVFfSlJ1N0tDRWNFckxJWlFtdWE5a3RRb2ZaT0t3T0hqZkoySFpLZnllXzRoanBybTV3THFkQVM3Z25OQk1ZRTBDNWtMTmlxREVkSE8yQ1NLQkh4UEJwQzc2akU0Mk9Xa0NOUW1Rd3BncFFWN19pRUlIYjBGSUdBbV9iMDNlT3JEclNZM0JKQzdNOFJhN29ZYTRLbDU1SHNfVVlTcExTZzRpX3dR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 26, 2026",
       "text": "Live updates: White House says Iran talks proceeding as foreign minister denies negotiations",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONXFtUnI5NFpjTkQ0OXF1YWlxeWlZWERxQklyU1U1U1oxWmNGUm5ob1NvUkFYU3RZSjY5bS1xbF9YdXhCMzVPQ0F6SWEyOXpfMTRqUXRoV0hMQk9OUmlxU3ljU3lvZkxTckJGcEhyTWE1Y0IyYmtYQU82bVNlNUgwN3ZZZTZOUDQ?oc=5",
@@ -19,6 +26,13 @@
       "text": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 25, 2026",
+      "text": "Iran building up defenses of Kharg Island to protect against potential US ground attack, sources say",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjBYN0lYY3kwRVo0ZWlob3pvUFVTNTNGZS1uUHNZTEI5SkQtcjY2TE91aTVVN0FfLWNWTU52SF9BZEVfY0RLaDlnZS0zUHhtTE9RNE5fQllObm8yUW42RGJ0VFRtcmhidWwtS0gxU0VhMGlWUE1qcl9rNERETF9JQTJ1RGJraGlldFkw?oc=5",
       "hot": false
     },
     {
@@ -85,24 +99,10 @@
       "hot": false
     },
     {
-      "date": "Mar 25, 2026",
-      "text": "Iran war live: Araghchi says no talks with US as Trump vows to ‘hit harder’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUmhWbkpoWEwzWXJNR1dHUkhkOWlfMVk2ZWhFV1Jaem5zbTYxR0tmcjlkZWxOOFJsb2FMSHktLXh6WGJuczdjcDBQaXJLNGlUUDZhWFFLUExjVTMzN1R3WXFYTUZ3RGswNVUtc3FucFVlTWtHVVJSSEEwUnduZHZzNXVwUTFJZjljMnA3clhrSDdTRU9BTmpDTE5tTmkzZDJveXJoT1hOcVN3TzE5THBvakFPaUV1UTlmSkNsOGJR0gHDAUFVX3lxTE9XRF80bXRxYjlKM0QzWGNRM242LVoyX1VocWRIQzA3SUlyLUF5TlhzVi0wcDNGZUJ1VmNtMWVZeUstQ3pOaWI5aEJMZUhEV0pHb3NCd0NkRWszQUtPTEUtSjdGVFpZTlJiN0tkMEpMWVRYaWt4WHpuRkV0bVg5SHY5S1JHUXVYR2VmT0s3Z0pCM1JRbC1ldkE3aGxCU0x2cmJZSWRJaVZHQ0NIeUtmWV8wQ1NpSlJlRVplRHN6WXZCRk01QQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 25, 2026",
-      "text": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdUtCdTFreDRwM3dONWtPQmFoZF9UNEdUMHhJejF1eUcxZEhHVUQ4XzFJdVZ6OUdkckZ2eDNpODJRSHBYYmxpbC1CS2dSOXgxclR4REhmRWlITjFUS2VnVVE1RXRKa2xtODRTeTlhN2dyWXNMejNmYVE0ZlU4R1RmVjREZGZ3TnFxNXNIYV94Sk92VG44aDZvVnFnUW1iQkdo0gGmAUFVX3lxTE54eGZkajBCaklCOElMT1k5TkVMbXlCUWw2Y2pwbUFvYmlEUTZFb05rejhuRXREajA3UXVqYWRzTlZ0QjhObTlMdkZzMHJieGJnVlF2aUFjM0xUY0pHdEY4TnQ1SE44ZW5tc3R2TlJnc29CYjVwa0lDRk14T3dWY1lZd3YxZnlPeDBkOG5ETWNab194NFAtamJjWGloWjh1Wm8xR1RYUGc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 25, 2026",
-      "text": "Oil prices volatile as Trump talks up Iran negotiations",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kcHF3VUFuQW9JSlVLNE5aRUVSZVQtRm5FbUhvSm1iUmk0ZWJKZXU5ZzdxckR2R29fNzI4NG1JMGJMay1CUmF5bFB3cTVjYnRydURDZjF0eHgxdw?oc=5",
+      "date": "Mar 24, 2026",
+      "text": "High Oil and Gas Prices Could Outlast Trump’s War With Iran",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6aER2WjcweThpa2lKTjVTQmFrSHdyZms4bFdzZUthYmhDaElIUGR4NGhKcEk0M2lhYzRtMzkxSnR4RHdKcklZeVF2Y3prblVwTGlFSDVield3Nl9EM3pEei1DdG5LM05aczN1TVJ0ZzZ0emtXOUxSbUV0UQ?oc=5",
       "hot": false
     },
     {
@@ -242,7 +242,7 @@
             },
             {
               "date": "Mar 25, 2026",
-              "text": "Headlines indicate troop deployments to the Middle East, specifically Iran, but do not confirm an amphibious invasion or its failure. Increased military presence suggests heightened tensions and potential for future action.",
+              "text": "Headlines indicate troop deployments to the Middle East and Iran, specifically Marines and the 82nd Airborne. This suggests heightened tensions and potential military action, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVS1duMi1QeEtTTGdwOU5xNER4cGhObUtURVNzeEFNV1ZDeWc0M1FmR015MzdnWGgtRGlyME9KRFAxbnBHcjhiRjhITjQ5UDMzTm1nWXB3SUNEWkI2MUVscWwtOHJpVkJRX0djRFhMRENLanBGeXpZ?oc=5"
             }
@@ -519,13 +519,7 @@
             },
             {
               "date": "Mar 25, 2026",
-              "text": "Significant flight cancellations and disruptions to air travel are occurring due to conflict in the Middle East, but air travel hasn't entirely ceased globally. Crime and chaos are not explicitly reported.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
-            },
-            {
-              "date": "Mar 25, 2026",
-              "text": "Air travel is significantly disrupted due to the Middle East conflict, with numerous flight cancellations and stranded travelers. However, air travel hasn't entirely ceased globally.",
+              "text": "Significant flight cancellations and disruptions are occurring due to conflict in the Middle East, impacting global air travel. However, air travel hasn't entirely ceased globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }

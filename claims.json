@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 27, 2026",
+      "text": "Iran Keeps a Tight Grip on Strait of Hormuz, Pressuring Shipping and Energy Sectors",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDQ0dkZpSmNqR0pXWlRyWXIwbk9kaURxQzhLYmJzMnhDZ3RnTGRKZV9uN1BualV4QmZULUlZb2tWRDhRS245Y2FUSlM0RTZCck1VVkItTnluTnJTV1hxTkpyaU1QREVrNEhoV01MZDRXNjhBbnp0LTJ6cUlZT0xsYXZvOFRUQTA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 27, 2026",
       "text": "Iran war live: Trump delays attacks on Iranian energy sector by 10 days",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOallkQUVfOTEzbVIyNlpMb3QzclhqenF4WUw0V0NueTNXSlR2SXZNMVBxYUhVYkhmR1QtbDBsWWd2QlM3N3R0N1hNdmJUZHg0amgwN01XVFdMVmg2U1VKblJiNDd3SG1RQnd3OG8xUnQ4RlVESmxtQUxYNDNfbVhVX3ZTS0o2N3J5SDI3YUNtZUVHX1hSYWs2b2lFcGNfbEhvQlByQzk3bzBudTZBWTBoVF9fU3JxcEVZTjhxbtIBwgFBVV95cUxORlZfRlprUF8wT3lFaXMzcUEzb25jMWprQXY4Q1FjVmZFQ0EycFQyblZEUnFpVkdJTDd1MHB5bGtVYnFfRzgxUGFCM1lVbVVxZU8taG5BLWRXZkt4cHFCTnN5S0hRYUJWdmdjVGhvUHlUSmVLRDcxVXBwcktVZTRoZ1VwN2NnS3IyX3liT211emFmN0dhZWpjSzZqWFMwa1c5elU1em0zcTRUbm5CVk9QRlZjV3VTdFFOY1phWjhYdXVxUQ?oc=5",
@@ -19,6 +26,20 @@
       "text": "Decade-old pictures of detained US Navy crew falsely linked to 2026 Iran war",
       "source": "AFP Fact Check",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzSXRBVUQ3YnBiWHBXUG5wRDZyaXd5RzNJUnhFeU5Hd29odTd1Tk1IaThGMjc2WmlPZHlHUHRCYVdCbVlkcWIzYWxIbE9nS2xzUEJiZGxERjg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 26, 2026",
+      "text": "Iran dismisses US ceasefire plan and issues its own counterproposal",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wNm9zWmxCUmc1TEgwXzdXVUY1c2lzcHhES2JLb2J2bnhaUzBTa09UT0JFSFJMQ09pRlNTRE5zS0RNWGE0QUlVUkhOTHQtR3VsNHRGR055QXVqSjdCdnNJTzZQME9LQTg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 26, 2026",
+      "text": "Houthis threaten to join Mideast war, raising specter of renewed Red Sea attacks",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQW40aTEtNGZQUE03U1EtNWpwS0FYcTVhUWtQbm8yWmV5XzJZMVVRXzY4OXBnWjY2ZWpqSEd2dHdTTGg0SXEwTVg2aTlUZThnVjNyclFzTXg0cXNwdm94WHpmamE2eURncGFzUkxVcHlhbEtjWFNpTV9lWm41LXpBMVdra01ucnY1Z0loVlRNRnp3WlNPZFlpeGFuSG1nSjFoUTFCWkFfbGs2Ymt4WVAw0gG0AUFVX3lxTFBfdjFrX21RVmp2a25QWnRkVWVvUFZzaFFxaEJRSThNRTBRMWprVXlJM0Z5R3p2cnZrY0V6MGRpb3VkbUp3UkRrRkR4LWo4R2hKalhsdzBLZEIwZzJDcGFvdlhpWHV6eWFiNFdJRGdra2dFcWFkWV91cEoxdlI1REhMLTd6ZFQxdUlRZUlVbG9heG1lSEJjU1VWQ08yS0VzSmxvNEx6ZklTNC10TWRpUjVHWXFIWQ?oc=5",
       "hot": false
     },
     {
@@ -78,31 +99,10 @@
       "hot": false
     },
     {
-      "date": "Mar 26, 2026",
-      "text": "‘Tehran’s tollbooth’: a visual guide to how a trickle of ships still passes through strait of Hormuz",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDZMN2o2dzR3N2d1dGh5UmFqQ2h6d3VMdjZMbENqX0pjS2lmQld6RTBKQ3E1d000Mk82SENDYm81ZXdkMVBjRDZ0SXVVMzFJUEZZbThOTGJyUmFnSDk2Z1RjLUw3OW9qNVFpYno1a0tFZktkOWVzMS1lZXFLYmJYRVIzWk9qSm5iRUwxbHlvSGNocVhiSHQzalFrajB1dw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 26, 2026",
-      "text": "U.S. Stocks Have Their Biggest Drop Since Start of Iran War",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NbnNRUHg0Yy1VVDlnbFB2UEpMZ2tCNXRwdXJrYkFPaDN6V1ZrQ09NSk9nb0dyNGZRSE9rNDZpX1dpakxzRDZnX2M0OERPdDhDaDNIM2ZwTjJxTjR0ZERzZUVTcFhPTFRZb05KV0gtVjFnT0V3RU9BMHkyU0Raalk?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 26, 2026",
-      "text": "The War Against Iran and Global Risks: “Tell Me How This Ends”",
-      "source": "Georgetown Journal of International Affairs",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzFJNER1MndTS1d3SEQySXgwcEtNaUo4ZVVQMFhVTmtYSzF3c0pfYzNYdkFIQmQ3SXNMd1BxdkNRS2RQRGxzOEI1U3ctQmdEckVEUGRzMmpESG96OE9yVExLSUIxR2I2dVMtY3JNLWpiV1JEWjN0UFNxcURsWldhbGxqX3gtV1dXV0Yza000T2oxd2MyUmdydzZlWlV1Ml9M?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 25, 2026",
-      "text": "Iran has no intention to hold talks with U.S; foreign minister says Trump proposal to end war being reviewed",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WcExsdUFhckdKU08yLXJwQmJ2dmthVVRlc3FMbDlFNldrTkNPdFg3OGdRVlFDYVd2akJkQ3VuT1ZKeTZETzJ3d3dOQ19yR3BnWHl2VjdNc05zR3VjWjZMczMzVDPSAWpBVV95cUxNMVFmU05vZDlMSGk3aVlJRDRBZU01bmVEWXJZQ0owYWRjOUlpcWRjc25VLUhsMnltVTFIYkZnZVRNeUxmZ29UOGQ2by1kcnMyVzMyTGJnaUVKdGRkV3dnLXA5ZHVoODhnSzZn?oc=5",
+      "text": "Iran building up defenses of Kharg Island to protect against potential US ground attack, sources say",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjBYN0lYY3kwRVo0ZWlob3pvUFVTNTNGZS1uUHNZTEI5SkQtcjY2TE91aTVVN0FfLWNWTU52SF9BZEVfY0RLaDlnZS0zUHhtTE9RNE5fQllObm8yUW42RGJ0VFRtcmhidWwtS0gxU0VhMGlWUE1qcl9rNERETF9JQTJ1RGJraGlldFkw?oc=5",
       "hot": false
     },
     {
@@ -176,7 +176,7 @@
             },
             {
               "date": "Mar 25, 2026",
-              "text": "Reports indicate significant disruption to Hormuz and Red Sea shipping, and mention conflict impacts on oil markets, but lack explicit confirmation of attacks on Gulf oil fields or US bases.",
+              "text": "Reports indicate Hormuz disruption impacting oil markets and conflict in Yemen/Red Sea. No confirmation of direct attacks on Gulf oil fields or US bases, but disruption suggests significant escalation.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }
@@ -248,7 +248,7 @@
             },
             {
               "date": "Mar 25, 2026",
-              "text": "Increased US troop deployments and signaling of a potential ground option indicate heightened tensions and preparation for possible military action, but no amphibious invasion has been confirmed.",
+              "text": "Increased US troop deployments and signaling of a potential ground option indicate heightened tensions and preparations, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVS1duMi1QeEtTTGdwOU5xNER4cGhObUtURVNzeEFNV1ZDeWc0M1FmR015MzdnWGgtRGlyME9KRFAxbnBHcjhiRjhITjQ5UDMzTm1nWXB3SUNEWkI2MUVscWwtOHJpVkJRX0djRFhMRENLanBGeXpZ?oc=5"
             }

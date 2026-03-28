@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 28, 2026",
+      "text": "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zTVFoZWZTNmluWmtDdnBqcGd1OWxVdE1oMmhfcnpfc2xzSGZ3Z0s2ekpoU3ZMVlZJYXJZZDFmSXhEVS1kUkZNZGNkSDdHbWtWSUE5YmhwZERmV3pVS3hZTEoyQnVxRUJmbUZVYnFhTm1EQ0NzbGfSAXtBVV95cUxQNHJQdnlCNmFQeTh0VWpkaEJrbkhvazcxR3FHZklvZzh2YTdZNlFTOUJKRng1cFRrbWstamRfem0xQlgxVjkwbFZGd01BSjR4NlFVOF9fUG1VSWNLNDFSUGxMYjQwemIxajBTOW9PcF83TU5wNVY0UlVhbTQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 28, 2026",
       "text": "Iran-US war latest: Yemen’s Houthi rebels launch missiles at Israel",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ04yMmdlMzNYOFYtQVk5c2NHMnN4OFR4a21pRm96T0dKQW1DVzdYT1hFWUpZM0NaSFA4VERpdmNUNXpHaTJHdHRlRHNIUTNmcjdHZkVKakxHSDFqYldCUGF0dkVNVTQ2Uk9FZzRtQUcxQW8xTUV5QlhCczZabU1GU09Tc29MaTlWcDZBdmdKMGZJZTd3NVdieENrVFYtYW1TTjNnTktwUGtHX0ZtTVZqTDVtZlBPZzJnN0Z3?oc=5",
@@ -71,45 +78,38 @@
       "hot": false
     },
     {
-      "date": "Mar 28, 2026",
-      "text": "Israel hits Iranian nuke facilities and Tehran strikes base in Saudi Arabia, wounding US troops",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUZNZWJHMnBzZmtITzU2RFRySm9rbXV1ZDBac2lUbGRLMUtHeXNJVkVtZDZkSkp5aWQzaUhLcjlEYWpGYklSUzBoV0pCM2RXZTNSUlFkdHhTUi0yUVlueDFjcGQ3V0xPSTdjRG5rVHlxcFdlbEdzM0tiQTBqYU1LUDBZNHVNNWZISlN5UU9tSmR6XzM4bHBTMHVlU2ZNWGNXaktRSw?oc=5",
+      "date": "Mar 27, 2026",
+      "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
+      "source": "San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
       "hot": false
     },
     {
       "date": "Mar 27, 2026",
-      "text": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears",
-      "source": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0ZuUlZpQllhX2NtRkxWX0t0MElWZ01USUYzdnZnUEhEY21tZzRDVnNLZ3dHSVMzeFdrdW4zQmJ2RTNsSmw4a0hucVpiNi12UGJic2RrRy0tWDlYdnJJTnU2RWQwWUV2X0FhRjFzSGxWdmlGZUQ5WGdhX0dFWWg4ODgyWVlxcVRyVk9PMDZKSlFtN0dwLUR5VWh6WkF0NDhPSy1TcNIBqgFBVV95cUxQUlJReFdZXzlHX1hDTkp4QWlEc0QtclBqa0hvdnNBZ3VweFA1dkoyVjFuNl9CY2RubWt1N1E4VlkybHRHdmdvRVNXbEt0THBGUFZuZU9RTVlFVWtrVEFLV3JnODFDYVR3dXpRcFMtZHlDYzgycXg3elJSWkZsbHlDX1p0NmJObUdoVWh4aU5UM1pSRkFsRkdZLXl6OUVOSmxwcU1FOHNGSjN3QQ?oc=5",
+      "text": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN0VidHdjMGpYWGQxcEVYZFJZQ3ZTSWZYTUxTSWpEQk03eFJYRHFrQklIOTltX3FNeG5NYWYzV3VyYmk0SWRRV3BmMTRCN0xyeGpVdTNYX193d3pMR2I1anRyZkxPZzIxRUY4WFBhWHNnbHd6b3JsaHRiWmVYQXJsWlVYWmRrenN6YVlvSFRfVGpEU0VKZGJIMjdPZzRqR2tyYlZlTW9TN0hMLUlNdUJQQWtZOGVNUVdjeTNrdFpxaVRtUDlHM3JocE1oTzhVc3M?oc=5",
       "hot": false
     },
     {
-      "date": "Mar 27, 2026",
-      "text": "U.S. uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
-      "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa19HWkZYWl9YdzFJcXlHb2FNT2dfMC1zbUFNd0NlUW00ZTBIdGcwbTNRZEprbEVFTWotdXhNZ0w0Z3A0Y3A5bmRVVkJPaWZveE1pS0pPMWpLWUR4N3l3RnAtLWd0VjhnZFltTmVmV01ucnQ0QWhtMlFLbE5CaGJvVE5yTWMyVE1qa1Y4YjJWVm4?oc=5",
+      "date": "Mar 26, 2026",
+      "text": "US Warns on Bab El-Mandeb Strait After Iran Shipping Threat",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnMycm5jb3ZWVG51Y1c3cndkY2p3Q0d6Yk9mTDhUalNhYzBraEkzSk92Y3NZX1NDWjV0Y2Q0ckRpblp5NHJaVzhBWmlFOWo2X2ZuMVpBYlFqUTN4WF9aekt0dm8waVZsNTJsekZxVVQzakRQODFNZm5NODFXbGRlenBRZUZyNGU1VEZUVWM3dGZLTjJsRjBaWFdjRW9TRnpvd2ZYRlJjN3ZORlk1UE5vR3RaNA?oc=5",
       "hot": false
     },
     {
       "date": "Mar 25, 2026",
-      "text": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
+      "text": "Iran has no intention to hold talks with U.S; foreign minister says Trump proposal to end war being reviewed",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WcExsdUFhckdKU08yLXJwQmJ2dmthVVRlc3FMbDlFNldrTkNPdFg3OGdRVlFDYVd2akJkQ3VuT1ZKeTZETzJ3d3dOQ19yR3BnWHl2VjdNc05zR3VjWjZMczMzVDPSAWpBVV95cUxNMVFmU05vZDlMSGk3aVlJRDRBZU01bmVEWXJZQ0owYWRjOUlpcWRjc25VLUhsMnltVTFIYkZnZVRNeUxmZ29UOGQ2by1kcnMyVzMyTGJnaUVKdGRkV3dnLXA5ZHVoODhnSzZn?oc=5",
       "hot": false
     },
     {
       "date": "Mar 25, 2026",
       "text": "Iran building up defenses of Kharg Island to protect against potential US ground attack, sources say",
       "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjBYN0lYY3kwRVo0ZWlob3pvUFVTNTNGZS1uUHNZTEI5SkQtcjY2TE91aTVVN0FfLWNWTU52SF9BZEVfY0RLaDlnZS0zUHhtTE9RNE5fQllObm8yUW42RGJ0VFRtcmhidWwtS0gxU0VhMGlWUE1qcl9rNERETF9JQTJ1RGJraGlldFkw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 21, 2026",
-      "text": "US orders more warships, thousands of Marines to the Middle East",
-      "source": "taskandpurpose.com",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yRXk2TFN0cjNnMmE0OUN0SHI3d2xneUh1TWduaW4ybzczQWN6cDJ1cXV4WTBJMnJlTnZyNmR3cnR4dkZOSk9PakJJcC1KbmViejFkbzE1WGVVOHBXYm5XRDZrdE45LTl4Rk9QYXdaYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNVgwZ2p1T3V4MzQtRjlFTXdBX3pWbHg5SUE3RllUXzhKZVdBV05xMXU4andaN1pYV3RwMHNTU2ZMSGlRSFJ1TlJKNzI3ZTJfQkJoMVJHbGp0MW5Ld3lBUVhMOXd2SURGNWRuNmFlVE1aZlVCcGo0bm94Sm5IY3NqbGF1MkFLV01jMjNqYUFON2Q?oc=5",
       "hot": false
     }
   ],
@@ -328,7 +328,7 @@
             },
             {
               "date": "Mar 12, 2026",
-              "text": "NATO intercepted a missile in Turkish airspace, suggesting heightened tensions and potential shifts in Turkey's regional alignment, but no definitive betrayal is confirmed.",
+              "text": "NATO intercepted an Iranian missile in Turkish airspace, suggesting heightened tensions and potential shifts in Turkey's regional alignment, but no definitive betrayal is confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             }
@@ -522,6 +522,12 @@
               "text": "Significant air travel disruption across the Middle East is occurring due to ongoing conflict, with many routes suspended and airports impacted. However, air travel hasn't entirely ceased globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGF3cUNQSVRsSDYwSEt5TGNyalJQNU50SGJNRURnbHhCRG5tRWlTLUdDYlVqTGNNeWVnSGtuejkxVmJoUVFEQ2ZnQzlmSzlibmpKb0kxeXNobnc4Z0VqZkdGb1FqSGlWMWFRaENwZlFGZWdDX1hTSzJ6RDV1ZGRXTFZxaWZWSEh4Rlc2bXAzMzJUVEo0WEZCOVIxbEt0UQ?oc=5"
+            },
+            {
+              "date": "Mar 25, 2026",
+              "text": "Air travel is severely disrupted in the Middle East due to conflict, stranding passengers and impacting major hubs like Dubai. However, air travel hasn't entirely ceased globally.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUWh4VndJWnBsaG5UWFRiNVlydnFqVlZrWmlhUXpQQzE2R05xbk9XZ21xNzJOZjM0azlBLXF4dGtsajhuLXZOQnJiNW8wcU01a0JlWUpzajNuejBUWGt2N3lPYldGZmlCc3dfVU90ZlYzNU1nM3dlQm1UaWRxT1pnbjh3QlJXZWk3ZEdSMVRiTENqbzdveUZUREkzWW5HQWhaMURXem5KT0QxdmFQV1FnSw?oc=5"
             }
           ],
           "changed_at": "2026-03-23"

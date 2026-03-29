@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Mar 29, 2026",
+      "text": "Houthis weigh closing Bab el-Mandeb Strait amid Iran war",
+      "source": "Türkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPanpuVDlMcUpwVVZzWlhfTlh6bVRGYUM5Y3lXSzhVZXEzeUxubmNGRFpYZFpaUTZaVUstZ2Q0OEtwMDYyQWYxZmZZcG85M1NfUVpEVjRUbk5kQUo2RElpbEFYZUJUdXBjd2plaGJ1djllMGlzMmQ3REN0ZzF5MTRvYVptdi16OGVmTnh5V0hQWjAtdV9EQm4zVjc2YXZ1Sm8yRGc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
+      "text": "Iranian-backed Houthis in Yemen attack Israel for first time in war",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2LW9fUjBuQ1haQUdiQzRBSDBVNkFWazR3dDZsbDBJZE5yeDRUQjFBN0RaS0dzWjNCSm1TdW85anFXNno3V3p4OXFEUEgwRVJNOC1LcUhRN3p6X21FRm5uaFZwTUFxeDVmR2pZYm9iem4wOHBzUGpyOWRLSEg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
       "text": "Iran-US war latest: Ship carrying thousands of Marines arrive as Yemen’s Houthis warn of more attacks",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWd1UUVMN3NkY0dJN09lZ0ZMQWVHZVJkZ3NENWMtSXA5aUhXSE9zNXBoaGJtb25UaTVxazVheTRtUzQ1YTdQcUtMQmY5aUI5b0taMmg1NnF0REZCdmxIMmxtZ3l3YzcwZ1QtRlFFa2M3VEtQR054M1JfY2dEQnNpc1NXMEJCeVAxRFdsdzBhUW1KLWVRSi05ZUFzeERWSFVxclpYRWV2Sm1YbklhUHk0?oc=5",
@@ -78,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Mar 28, 2026",
-      "text": "U.S. sailors, Marines deployed amid Iran war reach Centcom region",
-      "source": "thehill.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYTlmbHpXYkdPV3RBNVJDMms0UW84ek9ZWmZYQWdZNlFoN09CbGFQYXA4aTg0TnJUNUlrbWVEcFhCZS1zdWdmc1MyOXVob3Z1MXZYRXlpYnUteFdlRUhKeTJGRmN3Y0tEN0hrWExnbUtDdnA4UTFkV0hvdTh2ZXZCSkJ2YzM4cG9lYWVj0gGQAUFVX3lxTE83VlBrNDNTS3ZDOXVWSVNfNmx3d1pXbWJYYUN4U2NwX3UtaVpvUzJnX3dncGtiSXBFWWFjUm5UVXM1enBGcXM2aF81ZGZQbHN3dXAyRkFHc2d6TUNIRDdWb3g4aldrWDR6azJURmFUMnprdVl5RGVZWkZNMlNEakg0QUJmU29SbTNvZjZmX2FtVQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 28, 2026",
-      "text": "How War With Iran Could Lead to More Nuclear Weapons Around the World",
-      "source": "Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFYzTF82enJPSVJqUjJaaUQxalI5djBxLWtOd3RRMnlyakpvUUlTY3VDX2FJdGNxZmRCM3dOR1FoXzBkNDI0R1J3QUtwUE44ZGhPcC1aTDdMWjdwdDJuelR3bElCWHRCRW9YWHBkTjRyckp0NUliR3V2bWV6RzF1YVU3YS1SS0t2dkR3eXZCTWx5SkVEZVFZaWN3?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 27, 2026",
-      "text": "Iran says nuclear facilities have been attacked after Israel says attacks 'will escalate and expand'",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd21kak50X3VnWWhLYUJtM2VNNlNrRDJjWFRfTHlOUGY2MzVMZW5IeGZMU2NlTkFiejk2enoxeUc2U0pNR3R3SDNtQjMxVEl3bWdIZmM4dTU0NWRYLWE2eXh0V0lKcTZzNlhzWDZkSmFJamJwZzBoaVVCaGFTby1ZUzhaS0xDM2pPZkwxSzRXbDcwTEFUUzdLb09xY3l3S1hWQ0N2QWxzdUFUdzFNRGdoYndFYmFubTZydi1jTlY3YnlrV2FXMHNtcU00TjE1MjRuMkh3a9IB2gFBVV95cUxNUTFqbl9VSDZJV1puTDBLSWltLXh6bGdlOUdtYUdMNVJLUFVnZ0RtNFVCMERxdW9CV0gyRW0zcVJXRlhTZmNmdDBKSzE1NWQzR2ZGVHl2c0UxYVdKVWRPUmtCQmg5ZGxjT2RZanFjenN3RWVfd2dkYjhOODdRMDhPOERjc0NSTjVsQkZQRjFQN3NzLUFDWHB2MWRZNldfaWF6aUtHOWpISUhCUVhPSTRTSTlhVUpGMVdBTDlVX3ltckV1ZnRqWEV5V0dKZ3VNaHc0dnR1MnhwMXQydw?oc=5",
+      "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
+      "source": "San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
       "hot": false
     },
     {
@@ -176,8 +176,8 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi attacks, likely backed by Iran, targeting Israel and Red Sea ports. No confirmation of direct Iranian strikes on Gulf oil fields or US bases, or complete Bab el-Mandeb blockage.",
-              "hot": true,
+              "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct Iranian strikes on Gulf oil fields or US bases yet.",
+              "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
             }
           ]
@@ -321,12 +321,6 @@
           ],
           "updates": [
             {
-              "date": "Mar 13, 2026",
-              "text": "While NATO intercepted a missile in Turkish airspace and tensions with Iran are high, no headlines confirm Turkey has formally joined Russia-Iran-China or attacked Israel.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWJuTmplcGxFMnNRN3o1MWMtX01RdTlSak12ZXFsMm03WEVDSXM3TGl4NkNXczJoRzhvR0ZLZjF3S2dpcFVhME9wLXNuUWpjNXJTN3BjNk5DMkVoZUo5VGV0djEwX1BlYWk5Ylo1ZkxYQWNPcmFPS2x3ZXYwX2VjVk5WUHY1eXVwOFA1LWpUeEMtT2Zwcl9MOXo0cUZwLWYwWGo5cjBITUdnM0hS?oc=5"
-            },
-            {
               "date": "Mar 12, 2026",
               "text": "Missile interception over Turkish airspace and Iran's denial suggest heightened tensions, but no definitive betrayal of NATO or alignment with Russia/China/attack on Israel is confirmed.",
               "hot": true,
@@ -335,6 +329,12 @@
             {
               "date": "Mar 12, 2026",
               "text": "NATO intercepted a missile in Turkish airspace, suggesting heightened tensions and potential shifts in Turkey's regional alignment, but no definitive betrayal is confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
+            },
+            {
+              "date": "Mar 12, 2026",
+              "text": "Turkey intercepted Iranian missiles, indicating a complex security situation. No confirmation of joining Russia-Iran-China or attacking Israel, but tensions are rising.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             }
@@ -525,7 +525,7 @@
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Air travel is severely disrupted in the Middle East due to conflict, with widespread flight cancellations and stranded passengers. However, air travel hasn't entirely ceased globally. Crime and chaos are not explicitly confirmed.",
+              "text": "Air travel is severely disrupted in the Middle East due to conflict, with widespread flight cancellations and airport closures. However, air travel hasn't entirely ceased globally. Reports indicate chaos at airports, but not universal crime.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

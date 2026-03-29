@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 29, 2026",
+      "text": "Here’s What Happened in the War in the Middle East on Saturday",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORXpieVVKOEt1M3NwTzJscWlXM0pDdjBmMnhockxQQl9UWW9aVVYxbW1heTJGQ25kMUZ0c2hJMHJiZ0ZwR1dTOWNWb1Z3bWtPMUt6U2N2ckJzczlORkVRR0hCcWozUEV6a1lIcmRFWmdYZEhLMDJobzJGdjFiSWJMTHlIS2tCQlQ4VjNCMktId21YcG03NW44?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
       "text": "Ground forces, Hormuz raids, seizing Kharg: US prepares 'final blow' to Iran",
       "source": "India Today",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQlFEUnRPbW9LMkFSNkJycnNUUWVDc3hGTWRJOEE3dTdmSjZNZkEzWmRRVEQ5M0h0dTFpLS1QVFRGMFlKaUN2MTdtSmZTMTdzZzZtaWlmcXl1VWhweFg0eEtkRHYtNnM3UmFJbF9ROExiUUptVGFwakI0VGxjX09sRzh5WTlRRXBpOTduNklyV1NKZzBSeGFhY2pJTUVOMjE3QUk4R1RGQVJHT3RpSGQ5LXJaeTNLd21md1hFMnR1a0pmR1BzYlVuczlGUVg0d3JrQ2N5djdyQnhHLVozZjhHUDFkTkhwU0HSAewBQVVfeXFMTWREaGJIZUNqYm9uNGdVSVdXNmY4SFZwbXpzcXdWRTJmWFBkZ1RYOWtac3VWckxyZ1VvOWMwSGg3YXVwNkMxaHFRLVNQeDFrSm1KUWRPMzIzbTZ5VEJLdDBmMl9yWC1zWW1IbEZWYmtfVUxDOEN5MjVoa2g1Rm1uWC1kOUFVZGpaV3BEWWZPWUNKYWFlVWtCdkJVN1hMQ3lwZjhPd1lWVGIxVzJIZnFxYWZnUVZUNWlMb0Z2STh5bzUxd2NfQlZudmY1Y0o3di1jWnBDX2o2MDBXODdUV3RDZ1M5Mnk2a0dmUWVVWWg?oc=5",
@@ -65,37 +72,30 @@
     },
     {
       "date": "Mar 28, 2026",
-      "text": "Iran War Live Updates: 12 U.S. Troops Injured in Attack on Saudi Base, Officials Say",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWm1LQkxpaXZGMG4xQ3RlWkV6TnZJWUtWOTFmbEtJUkloUHJnWUxxYjJ3NWF5UGtCZVV6SkFTc25fSDlLaG1hRFQtZEFLR3hHYm9ncnZ0dWdIblNkeGl0Qms2WU1pN3UyVnBSZ19EcEtmektYWVRpRGpwOA?oc=5",
+      "text": "Iranian attack on Saudi base injures U.S. troops as more American forces arrive in the Middle East",
+      "source": "pbs.org",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUjBRWjdNRXdpZmNYUnhXTzNpT2tBUzlvcndUV1J6WGZhYlFWb25sZFphWUdVTzVFMkctWlNtZUw5S0NtS1plUUxiYTFXd0VhM0ZtUm1rUC1TaTNPQ1ZuUVV2TlRUWDl6ZXRka2hvWFctbjJxMF9VQkRoSWhweWxaME11WjhCUEZfaEZYemlYMC1pZXpZdklLaHFmcHo4SlhZMVZZNEpoY0NjcTEyZHU4MmlrNHJlR1lwaTQ4Y2JKdjVwSEtNV3R3cXB5N1p1QQ?oc=5",
       "hot": false
     },
     {
       "date": "Mar 28, 2026",
-      "text": "Iran Update Special Report, March 27, 2026",
-      "source": "understandingwar.org",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcVNkQV9jQmdhQkRtVVM5VjhPSDRzeHBqWWF4d0x5Q2p4SW5WZjloLUhCZjJOZVJ5cTJPbVdRMHF2MDBibXJDYVotT1lyMFZWU2llekc0MkUtVUY5VWh2MXVvVm5RejlySFlPU20xU1g5NU1EaVVsNjA1SUhGM2FlY1JXV25HTGZ2eDJUZzVEX3M4QjJLR2c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 28, 2026",
-      "text": "How the big oil and gas CEOs think the Iran war supply disruption will play out",
+      "text": "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.",
       "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHd0d3YzbzE5LUlBUWZXVnZZTXprc0ExcnBoV21nLTdGS2h5d0kxdmpMLVBrUFh6dkgxNXNncUtvTy1JTnZHQjlIVmdOMFhiaEtFTDF0eVRpZDhLVGd2UXRTUDhFWkU1NURxM1R2UXhvVm16anNyWWpUa3RYVzFnRHRZNld4LTEyZXZiLVNraE5CWTBj0gGaAUFVX3lxTE9NSmlnV0l6Ti1QNl8yNVE4VThWLWJ5LV9YZUdMdHY3ME9oZHVhVV9EcnZZUmk4UXlGUTJNaWNNVWIybXpxY2VnYVJjeGRxVXFaTlBHSlltMEctYTAza21Odm5BX0pDMWVUYWZvSFVXWDZ4eUdla1NOTnpyaExLZTZHd2RUMDhtY0RBUVo2aW5jUHB4Mm5ISnBRUEE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 28, 2026",
-      "text": "Iran war divides older and younger Trump voters at CPAC",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aN3Y1VjNPTE9mZ09TSWhiRGNKN3pqYlpEQzZucG1ITEF3RG95OEFKV1M0WDVpdmtSMm9HQTFjNTlDbkVMSDMzdUFBdGFyaUdBLW9HRVVkYUNJUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zTVFoZWZTNmluWmtDdnBqcGd1OWxVdE1oMmhfcnpfc2xzSGZ3Z0s2ekpoU3ZMVlZJYXJZZDFmSXhEVS1kUkZNZGNkSDdHbWtWSUE5YmhwZERmV3pVS3hZTEoyQnVxRUJmbUZVYnFhTm1EQ0NzbGfSAXtBVV95cUxQNHJQdnlCNmFQeTh0VWpkaEJrbkhvazcxR3FHZklvZzh2YTdZNlFTOUJKRng1cFRrbWstamRfem0xQlgxVjkwbFZGd01BSjR4NlFVOF9fUG1VSWNLNDFSUGxMYjQwemIxajBTOW9PcF83TU5wNVY0UlVhbTQ?oc=5",
       "hot": false
     },
     {
       "date": "Mar 27, 2026",
-      "text": "Iran says nuclear facilities have been attacked after Israel says attacks 'will escalate and expand'",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd21kak50X3VnWWhLYUJtM2VNNlNrRDJjWFRfTHlOUGY2MzVMZW5IeGZMU2NlTkFiejk2enoxeUc2U0pNR3R3SDNtQjMxVEl3bWdIZmM4dTU0NWRYLWE2eXh0V0lKcTZzNlhzWDZkSmFJamJwZzBoaVVCaGFTby1ZUzhaS0xDM2pPZkwxSzRXbDcwTEFUUzdLb09xY3l3S1hWQ0N2QWxzdUFUdzFNRGdoYndFYmFubTZydi1jTlY3YnlrV2FXMHNtcU00TjE1MjRuMkh3a9IB2gFBVV95cUxNUTFqbl9VSDZJV1puTDBLSWltLXh6bGdlOUdtYUdMNVJLUFVnZ0RtNFVCMERxdW9CV0gyRW0zcVJXRlhTZmNmdDBKSzE1NWQzR2ZGVHl2c0UxYVdKVWRPUmtCQmg5ZGxjT2RZanFjenN3RWVfd2dkYjhOODdRMDhPOERjc0NSTjVsQkZQRjFQN3NzLUFDWHB2MWRZNldfaWF6aUtHOWpISUhCUVhPSTRTSTlhVUpGMVdBTDlVX3ltckV1ZnRqWEV5V0dKZ3VNaHc0dnR1MnhwMXQydw?oc=5",
+      "text": "Ignore the bombast – the Iran war is only likely to end one way",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRjZ5R1R1WXIxNnF5Vm9xWGFkb1N4ZnVKQjA0cFZsV0Q2cGlxazVGNmtMVFJodTVPamUtZHE0NldDdVJmX3dVY2J6Vl9wY0dOWHhrb0JOZzA3SXNONEg0RGwzeFZXSXNYVG91emZaRE5jZHpaekhhZ3E3N185WG1qeGZqNGxLUGZVS0Y4?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 27, 2026",
+      "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
+      "source": "San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi attacks and US Marine deployment, but no definitive confirmation of Iran directly hitting Gulf oil fields or blocking Bab el-Mandeb.",
+              "text": "Reports confirm Houthi attacks and US Marine deployment, but lack definitive confirmation of Iran directly hitting Gulf oil fields or blocking Bab el-Mandeb.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Deployment of US Marines and amphibious assault ships to the Middle East suggests heightened tensions and potential for military action, but no invasion has been confirmed.",
+              "text": "Deployment of US Marines and amphibious assault ships to the Middle East suggests heightened tensions and potential for future action, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }
@@ -328,7 +328,7 @@
             },
             {
               "date": "Mar 12, 2026",
-              "text": "NATO intercepted a missile in Turkish airspace, suggesting heightened tensions and potential shifts in Turkey's regional alignment, but no definitive betrayal is confirmed.",
+              "text": "NATO intercepted a missile in Turkish airspace, suggesting heightened tensions and potential shifts in Turkey's regional alignment, but no definitive betrayal or alliance has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             }
@@ -519,7 +519,7 @@
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Air travel is significantly disrupted in the Middle East due to conflict, with widespread flight cancellations and stranded travelers. However, air travel hasn't entirely ceased globally. Crime and chaos are not explicitly confirmed.",
+              "text": "Air travel is severely disrupted in the Middle East due to conflict, with numerous flight cancellations and airport closures. However, air travel hasn't entirely ceased globally. Reports indicate chaos at airports, but widespread global chaos is not confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

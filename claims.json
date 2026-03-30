@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 30, 2026",
+      "text": "Falling Yields Lift Stocks as Rate-Hike Bets Ease: Markets Wrap",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGdXeFV5bzIyWUgxQUthRWNkTGp1enhUWGxGQzYtUmJDa3dFdTVrc0x4RlBSMVNSZXpwRks4MUw0N3FNY2hpZjZqbVBWem5XWXFtZXQ3UHNqRDJlUC12cmljcHpCN002TkVTT2tmMVRWUG1QMDhrdndETFNwa0N0RnRQS2pIZGpDN0NpSGNRdUhqQVFKUWJnQ0tCZ2N1T3JFWmVtNWd0X3RkYmNtck83cE93?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 30, 2026",
       "text": "Investor Unease Builds Entering War’s Fifth Week: Markets Wrap",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGdXeFV5bzIyWUgxQUthRWNkTGp1enhUWGxGQzYtUmJDa3dFdTVrc0x4RlBSMVNSZXpwRks4MUw0N3FNY2hpZjZqbVBWem5XWXFtZXQ3UHNqRDJlUC12cmljcHpCN002TkVTT2tmMVRWUG1QMDhrdndETFNwa0N0RnRQS2pIZGpDN0NpSGNRdUhqQVFKUWJnQ0tCZ2N1T3JFWmVtNWd0X3RkYmNtck83cE93?oc=5",
@@ -85,24 +92,17 @@
       "hot": false
     },
     {
-      "date": "Mar 29, 2026",
-      "text": "Iran Update Special Report, March 28, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNDB0MzNIeWNMUEhpOTNQa3Q3QnQzRVlVQlhFSzdIb0dvcGVvZmw4anVER2ZaVS1RbW53VDJmbVhFQ3FfX1dCVG9KYzVmcGpBSHplOXkydGZTc0gyNDh1aUZpTmtRa1lRUWhwZVRIZ21BQ0JVc3Vnc25OMVFOTTllbHNLWjNTR2lCdG52ZUJNT2g4dXREZ0E?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 29, 2026",
-      "text": "Trump says he is considering seizing Iran's Kharg Island, as oil price rises",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 27, 2026",
       "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
       "source": "San Diego Union-Tribune",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 27, 2026",
+      "text": "IRGC Opens Tolled Passage for Merchant Ships in Strait of Hormuz, Transit Continues to Trickle Through",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN0VidHdjMGpYWGQxcEVYZFJZQ3ZTSWZYTUxTSWpEQk03eFJYRHFrQklIOTltX3FNeG5NYWYzV3VyYmk0SWRRV3BmMTRCN0xyeGpVdTNYX193d3pMR2I1anRyZkxPZzIxRUY4WFBhWHNnbHd6b3JsaHRiWmVYQXJsWlVYWmRrenN6YVlvSFRfVGpEU0VKZGJIMjdPZzRqR2tyYlZlTW9TN0hMLUlNdUJQQWtZOGVNUVdjeTNrdFpxaVRtUDlHM3JocE1oTzhVc3M?oc=5",
       "hot": false
     },
     {
@@ -163,10 +163,10 @@
           ],
           "updates": [
             {
-              "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct Iranian strikes on Gulf oil fields or US bases yet.",
+              "date": "Mar 27, 2026",
+              "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, suggesting Iranian retaliation. However, claims of Iran hitting all Gulf oil fields and US bases remain unverified.",
               "hot": false,
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }
           ]
         },
@@ -310,13 +310,13 @@
             },
             {
               "date": "Mar 12, 2026",
-              "text": "Turkey intercepted Iranian missiles, indicating heightened tensions and potential shifts in regional alliances, but no definitive betrayal or formal alliance has occurred.",
+              "text": "Turkey intercepted Iranian missiles, indicating a complex security situation. No confirmation of joining Russia-Iran-China or attacking Israel, but tensions are rising.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             },
             {
               "date": "Mar 12, 2026",
-              "text": "Turkey intercepted Iranian missiles, indicating a complex security situation. No confirmation of joining Russia-Iran-China or attacking Israel, but tensions are rising.",
+              "text": "Turkey intercepted Iranian missiles, indicating heightened tensions and potential shifts in regional alliances, but no definitive betrayal or formal alliance is confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             }
@@ -507,13 +507,7 @@
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Significant flight cancellations and suspensions across the Middle East due to ongoing conflict indicate a substantial disruption to air travel, but not a complete end globally.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
-            },
-            {
-              "date": "Mar 27, 2026",
-              "text": "Significant flight disruptions across the Middle East are occurring due to conflict, with numerous cancellations and stranded travelers. Air travel hasn't ended globally, but is severely impacted regionally.",
+              "text": "Significant flight cancellations and disruptions are occurring due to the ongoing Middle East conflict, but air travel hasn't entirely ceased globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

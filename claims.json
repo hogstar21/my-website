@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 30, 2026",
+      "text": "Investor Unease Builds Entering War’s Fifth Week: Markets Wrap",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGdXeFV5bzIyWUgxQUthRWNkTGp1enhUWGxGQzYtUmJDa3dFdTVrc0x4RlBSMVNSZXpwRks4MUw0N3FNY2hpZjZqbVBWem5XWXFtZXQ3UHNqRDJlUC12cmljcHpCN002TkVTT2tmMVRWUG1QMDhrdndETFNwa0N0RnRQS2pIZGpDN0NpSGNRdUhqQVFKUWJnQ0tCZ2N1T3JFWmVtNWd0X3RkYmNtck83cE93?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 30, 2026",
       "text": "Day 30 of Middle East conflict — Iran warns against US ground invasion",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80aEc4OWU4TGtJMUw2MTRhWHo1SDgwdVpnTzJ3OEVRT2FGWkVxeHlhNlVxSXI3WnJyRDYtRmhFa0NRdHcwUTBHWTNzYzZoMU5CVEVPT2l5VDZvdVpsTWlLSnBpYU5wLWlEdFh6QUdmVmlKTy1zbFVjTHA3Zw?oc=5",
@@ -92,13 +99,6 @@
       "hot": false
     },
     {
-      "date": "Mar 29, 2026",
-      "text": "Analysis: Iran likely transferred highly enriched uranium to Isfahan before the June strikes",
-      "source": "Bulletin of the Atomic Scientists",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRJOVd1RzlLaEJydzV1a0dpSHdxTndENzlIUGJ5bU15cF9SWEpiQ2s5N2NuQlhEU2xzVDVzV2JFamRwclFldjhWa2ExeFUzZmhDTWctQ0hYcjhLaG93M0RvbmFCZjdDVFZDRkpmd2p4bjJFVUN5WUxnUVdQNHphUHdhNC1lQTQ0dWpIM1NiNEZmT1ZsdE5HckR6ZGhZaDZVc05YVHNtT1hWUEc4N01hcHdxdktHV1RmSGVTNlNGRVFXQQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 27, 2026",
       "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
       "source": "San Diego Union-Tribune",
@@ -164,15 +164,9 @@
           "updates": [
             {
               "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi attacks and US Marine deployment, but lack definitive evidence of Iran directly hitting Gulf oil fields or blocking Bab el-Mandeb.",
-              "hot": true,
+              "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct Iranian strikes on Gulf oil fields or US bases yet.",
+              "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
-            },
-            {
-              "date": "Mar 29, 2026",
-              "text": "Reports confirm attacks on Red Sea ports and Houthi involvement in the conflict, but no verification of strikes on Gulf oil fields or US bases. Bab el-Mandeb blockage is implied by shipping threats.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjNFQ2VmNDM2NEpZNmtvQ0tpZ0w0YW9BRjFOZm42dGhPT3hjdjVJNS13Um9WYzl0bXBaRFl5cEdNRmY3cUpvd3k1a2ZkNEpZa1QyYVRxWWtYM0pEdXdIaTUyQlpFbm9veFFvemJtdno3ekR2U0hORkU1LVlBcm85eGExYVo5cUV5MElXMFpEd0kxYjg2RGp5WWRXRTBnU1dCR3liWnVmVXE5U3lybFczUGE4aw?oc=5"
             }
           ]
         },
@@ -316,13 +310,13 @@
             },
             {
               "date": "Mar 12, 2026",
-              "text": "Turkey intercepted Iranian missiles, indicating a complex security situation. No confirmation of joining Russia-Iran-China or attacking Israel, but tensions are rising.",
+              "text": "Turkey intercepted Iranian missiles, indicating heightened tensions and potential shifts in regional alliances, but no definitive betrayal or formal alliance has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             },
             {
               "date": "Mar 12, 2026",
-              "text": "Turkey intercepted Iranian missiles, indicating heightened tensions and potential shifts in regional alliances, but no definitive betrayal or formal alliance has occurred.",
+              "text": "Turkey intercepted Iranian missiles, indicating a complex security situation. No confirmation of joining Russia-Iran-China or attacking Israel, but tensions are rising.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEZ0STNfdmFZaFExc3M2MHdrN1F1MXVBUS1JODIzN3lFY0UxR2w5akZOcnV4VVBUMG9aMU1DQjY2UUowU1pwSTNVNDJLdFFmRGNnM0lrM0pOWm5iR3ZidWdMcjBLSjBYdHJkUXF1czF2dFhSc21OWWpjYzFZd1VLWjNMM3gtV1FwelU4ODVSQW5TdDIxa1VMS3VnYlBGRjRYSWxBQ3Ayc0xSMl9henlSX1JYSVowYWlFaFBnWDA5UXFtWWtWOUdIYVg5cjMzbzc0M0pkTHo4MG55OU1XTV9UQjB6VHhFS1dGdm4wVUtHRXBoX0lqTlJhejB4U0FTMzQ?oc=5"
             }
@@ -519,7 +513,7 @@
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Air travel is severely disrupted across the Middle East due to conflict, with numerous flight cancellations and stranded passengers. However, air travel hasn't entirely ceased globally. Reports indicate increased crime and unrest are emerging in some affected areas.",
+              "text": "Significant flight disruptions across the Middle East are occurring due to conflict, with numerous cancellations and stranded travelers. Air travel hasn't ended globally, but is severely impacted regionally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

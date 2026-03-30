@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Mar 30, 2026",
+      "text": "Iran war live: Marco Rubio tells Al Jazeera that Trump prefers diplomacy",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVng2cndJdHZoZ0pGSUt2Y204clE4MTEtSzdTTG5tLW4wRzJvZDhkOEFEcEszRVlsMmVNS044VmNCS0FlMGdhbTI5UGdjM2lTQVRNLVZmRTVRcHJuM2dIR2tXX1o3TVFzMDNyZ2YzOTJQSFlUUEhfamZpbVVtX2FOaXZwTDMwZFowVFNSX0FCbWc0UU1pWm9DQllXYzZFaUNkY1FqNFJ2aWZtdHp0bGg5REdTZWVkQmN4NnJwUVJsX0LSAcYBQVVfeXFMTWh6Ri1ELW1ib1ZvbG9sRjJNTkVyWFE3aDdvLWE3QU1ndGdlSUg1WHI3U29DUUJzYUpiZ3VxVW5LeHVmSWpWR0NIMWpONHNHanQwS1BleXpNVFY0aFpfUndRbzUtbEFfZFBOZi1WSU9xaGFIeDZDelc1eUxIb2ZzRTVlLUZueFJUb1o1QWs0OFBxb2poZEp5YzFRWHg4QnB6WVNIZjZlazFfU0FXU1kyb3Y5cDhZQ1FLUWJlTDJDbmtWSlRWMzVR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 30, 2026",
+      "text": "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+      "source": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3JUUEdSYnYxaTJVd3dBN2JLbmFkYmlUTHlfN1dSb0x2ekZyR3hoOHVmV18xLXlSVllaY0tib3Zqb2NiYVoybmZvT1hwZXBrYm5vZlU3X056ZUZZYlNpMlprcWxkSlhyYlRYdUJDSjA0cGJiMEktTmVVUkp3WmhaSkZraFpjb2NKNV9JWWZjeV96UlpBMC1B0gGcAUFVX3lxTE9CQ09EYjdVRUhmTkxrSFNuWGxuTE9pTmU0NlR6ZnY2WnR5MjdoTHhCN1IzNkJvVFI3Z3BuVkxaRG1Fekt6aTVGNE5BQkxDdGVSSEs1UjQzOEdLUF9qellOYlZsdHpTcFhYUFRCZVBxZWFOWm5heTRJaTFZTWpyZk5kWjhtMEtSUk8tekVyNl9kQ1B0SnpaZUZMSTVkcg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 30, 2026",
       "text": "Iran Update Special Report, March 29, 2026",
       "source": "Institute for the Study of War",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnNHdDBRMk4ta1EtaHFycjVxMkFZSXJfWXZqUXNSRFNRMENad29ISEpXNVJtX0NsM0luaVBjOVp0M2dPcFFNNWREZkpaR3Z4b3c2d2ZLRkpkY3dxSFJDVkdMSnFKR2t2Um9BamxQeVFSaFE1cVp6ZG1jWWlwQVpKRzl0WGRxMWZpSUk1WXY1TDA1WF9mdnc?oc=5",
@@ -85,30 +99,16 @@
       "hot": false
     },
     {
-      "date": "Mar 30, 2026",
-      "text": "Trump hints at seizing Iran's oil, eyes Kharg Island as US forces move in — report",
-      "source": "TRT World",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JMF9BVlJGU3p3UWJoTDVNN2hQSy14SUFkMXlKUWtjU3BILVQ1NE50OHhXSFI3WWpEX1lUMGJRNmdpYmVUQk1GZllKMldNcnF6X1ZwbWVfMDLSAV5BVV95cUxOYjFGZmlhT0hkcTY2QlI3cW1GSmIyNzhtQ1p3VVdxbkZhRk1fMGN1OWtHcWFIVGdaY3hmX3ROTXAwbU9mOWtlaVV5RDFBZVRZRThzandFaklyNDBadjVn?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 29, 2026",
-      "text": "Houthis open new front in Iran war: Will Yemeni group block Bab al-Mandeb?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUHhaeEQwR2kxRDVUWk82Z09YWmprc3JfN19VX0JVbkVmZWtxQm1zdlVBcmVQT21IOEsweGR0MkdXd3YtZDV4bkNraXZXQ3I2cVRYYTZLOWwxZWlyNHpKX09uc3hYejRBbmdzSXdTOThTekE1YlhzS01WSEhVbUFQa2ZBdXZJWmhjem1ESnA5cnpSVGM2LXM4OTB6VFE2clBaUHhra3JYSXdhcEtwYU1TdmxwRdIBuAFBVV95cUxNMFpYWFl0aS1MajBUSWNIWTgtTzYwVnpIQTZLMDMxN3JUd3BldGNpYlEyTGJwQWlPaWxlMWE1bjVCT0c3c1VVQURMdXJ2S0NsOGVUT0tQOUpCNllYdDNfbTIxTHFuN0lBcU00XzBVUjJXV0xfYXR2dUZFZS1fUDlMdUhKLUR6T3VzbVpSTzU1Y0Y0elhWMVprUENLUEduckZQOFhTaGJWRy1VMkd3cnRlQnU1SjBNUmxq?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 27, 2026",
       "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
-      "source": "sandiegouniontribune.com",
+      "source": "San Diego Union-Tribune",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
       "hot": false
     },
     {
       "date": "Mar 25, 2026",
       "text": "Iran has no intention to hold talks with U.S; foreign minister says Trump proposal to end war being reviewed",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WcExsdUFhckdKU08yLXJwQmJ2dmthVVRlc3FMbDlFNldrTkNPdFg3OGdRVlFDYVd2akJkQ3VuT1ZKeTZETzJ3d3dOQ19yR3BnWHl2VjdNc05zR3VjWjZMczMzVDPSAWpBVV95cUxNMVFmU05vZDlMSGk3aVlJRDRBZU01bmVEWXJZQ0owYWRjOUlpcWRjc25VLUhsMnltVTFIYkZnZVRNeUxmZ29UOGQ2by1kcnMyVzMyTGJnaUVKdGRkV3dnLXA5ZHVoODhnSzZn?oc=5",
       "hot": false
     }
@@ -163,14 +163,14 @@
           ],
           "updates": [
             {
-              "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi attacks on Israel and increased US military presence. No confirmation of direct Iranian strikes on Gulf oil fields or US bases, or Bab el-Mandeb blockade.",
+              "date": "Mar 27, 2026",
+              "text": "Reports confirm Houthi attacks, likely backed by Iran, and US deployments. Claims of direct Iranian strikes on Gulf oil fields and blocking Bab el-Mandeb remain unverified, but are plausible given the context.",
               "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Reports confirm Houthi attacks, likely backed by Iran, and US deployments. Claims of direct Iranian strikes on Gulf oil fields and blocking Bab el-Mandeb remain unverified, but are plausible given the context.",
+              "text": "Reports confirm Houthi attacks on Israel and US Marine deployment, alongside broader conflict escalation. No confirmation of direct Iranian strikes on Gulf oil fields or Bab el-Mandeb blockade yet.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }
@@ -310,12 +310,6 @@
           "updates": [
             {
               "date": "Mar 30, 2026",
-              "text": "Recent headlines indicate an Iranian missile traversed Turkish airspace, intercepted near Incirlik Air Base, and Turkey faces increased risks due to the Iran conflict. No explicit alliance with Russia, Iran, or China is confirmed, nor is an attack on Israel.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlc9IBswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlcw?oc=5"
-            },
-            {
-              "date": "Mar 30, 2026",
               "text": "Iranian missiles transiting Turkish airspace and targeting Incirlik suggest strained relations, but no definitive confirmation of Turkey joining Russia, Iran, or attacking Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlc9IBswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlcw?oc=5"
@@ -325,6 +319,12 @@
               "text": "Recent headlines indicate an Iranian missile traversed Turkish airspace, and a suspected target was Incirlik Air Base, raising tensions and concerns about Turkey's alignment.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlc9IBswFBVV95cUxOTnhyOGtmc2hfbFcxNnJhUWVzWnNxMHk4MmRJZ01XUjBMT29GQ0d6Y0FnOTdlNjROTlhBcTFSZkI3R0JrOG1iMlNjRlRyQU9ad0tPR2ZDeTNsWUNLMTA1WTNYUWFobE1rSXd1OU8yWXdlOXZsWF9raFF3a1A2VkpNLS0wdkJMbkwzUHdZU0IwRC1PRF90VENpYnNpeDFRMXJmQWd6MDA5Y2hMRmYzeENFWDFlcw?oc=5"
+            },
+            {
+              "date": "Mar 30, 2026",
+              "text": "Missile interceptions within Turkish airspace, potentially targeting Incirlik, heighten regional tensions and suggest a complex security situation, but do not confirm full betrayal or alliances.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObFYtWUJ2bTFFNVd5ZDZYMWduejhKZExNaXJLRVBEMm1GTE55TGZwaXdIOVFRTTJQUm1XUTFQTmxWd1p5SWl1THUwYkc1SFRXR2FTYUJkNHhrbkMxOUNxSzdsalF4VHRwVkFWU2xkZjJtcDM2X0xWTmhTcDMxdzdHaDRUUjMtWkozWEt0TlZCc2FSX1d1Rm91a2JuR2l4bTloVE5odA?oc=5"
             }
           ]
         },
@@ -507,12 +507,6 @@
           "updates": [
             {
               "date": "Mar 27, 2026",
-              "text": "Significant flight cancellations and suspensions are occurring due to the Middle East conflict, disrupting air travel. However, air travel hasn't entirely ceased globally. Reports also indicate localized chaos and stranding of travelers.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
-            },
-            {
-              "date": "Mar 27, 2026",
               "text": "Significant flight cancellations and suspensions across the Middle East confirm substantial air travel disruption, but 'end' is too strong. Crime and chaos are not explicitly reported.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
@@ -520,6 +514,12 @@
             {
               "date": "Mar 27, 2026",
               "text": "Significant flight cancellations and suspensions across the Middle East are occurring due to escalating conflict, indicating substantial disruption to air travel, but not a complete end.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
+            },
+            {
+              "date": "Mar 27, 2026",
+              "text": "Significant flight cancellations and disruptions are occurring due to the Middle East conflict, but air travel hasn't entirely ceased. Reports indicate stranded travelers and airline volatility.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

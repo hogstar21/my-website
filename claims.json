@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Mar 29, 2026",
+      "text": "A Houthi missile attack on Israel raises concerns about Red Sea shipping routes being blocked",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUllEY3ZTREJibkgwZWV0aktqTzc5YkVWLWJSaGE5RkR2aTB1NGVtNU1pLUZ1bXByTEVsNXNJTGM2UmdSQ3hUemVGZXEtalg0OWVVV01GMFRUTjJidl9wSU9ITW1YUk9xdWhHbnpuWW5Ma0lnVDhFX3ZRMzZqZlBhNHo0ZjkyODRZT09fX1dQZldSLUc3cmQtLS1CcmgydFFCZWhBTVpUSTdEN3oyR3BWczFSWExXRWZER2JDUU1qYXJMZWVVQUNZ0gHMAUFVX3lxTE41dDQwSnFObW9EY1RlSjZuMVVqQnY5WktHZ2NCSDZoSy0xVTdkaVhRZFgxeUlfbkZwbG9mWC02Y2p5SWd6NExONHI5bGhSTkVtdV9GVEY2WVJvbTBvVFpOWUpkeTRSYlV5VFFqV2YtbS0zbEIwWWVFYmRTcmlZUEo3NHVaYzVfdXhnNXRtV1RuU0k4TzRVZHJ0R0dlWFpkaF8tMVdZcjZTNHVEOEc5OVpubXN6eUpwazJ3eGFENzQxTUwwUjM1MmEtOWdxWA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
+      "text": "Oil prices rise as Iran war escalates with Houthi attacks on Israel",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWXJ6VjdzZFJOVEt5QTdZSFc0bmdQeVZBS0UyZTd0VFN4OEdKbHR0ZDNlUmc4YngwNnp2Vlo5V3NsbzNYOUVVX2RjVzdVUnByT2pGMTZpdVZ5Yjk1ZjdiMEs5cWFmVFlibnFBRldGcWpWS0d6aWZWbmJ3TUc0Rlpmcw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
+      "text": "Tehran briefly loses power after strikes as peace push ramps up",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMnpub0cza0xvcGd4bkNEdTlEWENLOXBlX3VwX1YtQlNBX09mRWdUeXk0Qk5kTzFvb3JmNHFEaE9uQWJLMFl0RjdzWG5vZWZFajQ3RlVueG5SSzdDcXVVYmtoNFJpb3JpLXZ0UGw4dlFYWUR3Q09OWlEybjJhZC1lNERSLUZkQk8xd1Q4R05ZY1ZEdGF2V1Fsb1lacE5fV1dWbHY1ZmZQeHM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 29, 2026",
       "text": "Brief power blackouts hit parts of Tehran, Karaj as Israel conducts wave of airstrikes",
       "source": "The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5seU9XWkotLWdNYkk0TE8zeGlMLVlvRmstWnRZVk5lcEhSUElKYkNaakpOeGZ3OGFpeG1NVTRQU0dVUmVwY2drS2tPUUN6aExPbU41Zl9ub1RoQ29QY2lmX1gyRdIBaEFVX3lxTFAzT3N4MVVqS09oZGFlVVgxdVViLVZRajhycWg2b3ByaXVhVXItTk1MSlpfNVh5R2hhYW9wSWM1RHZJTTc3UGdPbEFFeWFfVHFuLWl3ajhxaGhNQXUxeFdrZlg1NjQtcndU?oc=5",
@@ -78,31 +99,10 @@
       "hot": false
     },
     {
-      "date": "Mar 29, 2026",
-      "text": "Iran says US plotting ground invasion despite engaging in diplomatic effort",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTXkyOUJUcjBtT0xZck1HdHhYZ05rNFBKWGpFRFpQRTNZRUxqWGdQVWU0amY4c3Q0SDhoNFg3ZFI2YkxmQXRLMkJSekJzamhzLTZHLXJUYUlVZnZPWDAzVnlUb1g1bUZqbmtzLTFfQnFmUDlZa3ZvTHlkRWpWdDN0M0V2VkhVa3RvenZ6R3NYaVpTTmI0RDBVQ3FhTkwwYjRKQkg4Y192dVlhUzNwdV9jTm1mbGVITE56dG5iQmZWOWU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 29, 2026",
-      "text": "The Houthis Push Toward the Bab el-Mandeb",
-      "source": "Middle East Forum",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVZSWGFQRmxnV1A4dEhCOEljRW9rN1lRUThFX1d2YkpPblJOQTdVeEx4YllGc0Zrb2tTeFNCODlKY3VuMlFNcDlfcmlHbTRqNlByVzkyUjRuM3p6cFBDM3UzZlJtdWJtaE11N181Zk1EZWxLQ19RZFBwU2VHVGxZQTQ5UWc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 28, 2026",
-      "text": "How the big oil and gas CEOs think the Iran war supply disruption will play out",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHd0d3YzbzE5LUlBUWZXVnZZTXprc0ExcnBoV21nLTdGS2h5d0kxdmpMLVBrUFh6dkgxNXNncUtvTy1JTnZHQjlIVmdOMFhiaEtFTDF0eVRpZDhLVGd2UXRTUDhFWkU1NURxM1R2UXhvVm16anNyWWpUa3RYVzFnRHRZNld4LTEyZXZiLVNraE5CWTBj0gGaAUFVX3lxTE9NSmlnV0l6Ti1QNl8yNVE4VThWLWJ5LV9YZUdMdHY3ME9oZHVhVV9EcnZZUmk4UXlGUTJNaWNNVWIybXpxY2VnYVJjeGRxVXFaTlBHSlltMEctYTAza21Odm5BX0pDMWVUYWZvSFVXWDZ4eUdla1NOTnpyaExLZTZHd2RUMDhtY0RBUVo2aW5jUHB4Mm5ISnBRUEE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 26, 2026",
-      "text": "Iran Acts as Gatekeeper of Hormuz as War Drags On",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDQ0dkZpSmNqR0pXWlRyWXIwbk9kaURxQzhLYmJzMnhDZ3RnTGRKZV9uN1BualV4QmZULUlZb2tWRDhRS245Y2FUSlM0RTZCck1VVkItTnluTnJTV1hxTkpyaU1QREVrNEhoV01MZDRXNjhBbnp0LTJ6cUlZT0xsYXZvOFRUQTA?oc=5",
+      "date": "Mar 27, 2026",
+      "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
+      "source": "San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQek9LZFBJS1dfSFNwNVljLTJ2NWJPQUdHWmZJY3g3ZjViMFpWMFRpRlR1U3lIZXgxMnpHTEctYTV1QUZLbk94dU51ZXNlaXhMLURaeXFJdlRnVFZzajVKT2hEOFNjcnZIMjI0RmhhWUFLVFpBMGdHQ2p5cmZaNTNoc253YXpyYkNrRDlORS1iWmItWVpGNkZhVGp6MlZINXRFNzd3Z1ZaWjBfdnJMSHdGN3c0X01aZnlMcWR2RWFlTWs5NFNOUzdidlhJNE1SRWljeTUtRmNNUTlxZFk?oc=5",
       "hot": false
     },
     {
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Mar 28, 2026",
-              "text": "Reports confirm Houthi involvement and Iranian retaliation linked to attacks on an atomic site. US warns of a threat to Bab el-Mandeb, but oil field attacks are unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
-            },
-            {
-              "date": "Mar 28, 2026",
               "text": "Reports confirm Houthi attacks and US Marine deployment, but lack definitive evidence of Iran directly hitting Gulf oil fields or blocking Bab el-Mandeb.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
@@ -177,6 +171,12 @@
             {
               "date": "Mar 28, 2026",
               "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, suggesting disruption of shipping. No confirmation of direct Iranian strikes on Gulf oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
+            },
+            {
+              "date": "Mar 28, 2026",
+              "text": "Reports confirm Houthi involvement and attacks on Red Sea ports, aligning with the 'blocks Bab el-Mandeb' portion. Claims of Iran hitting Gulf oil fields and US bases remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
             }
@@ -519,13 +519,13 @@
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Significant flight cancellations and suspensions across the Middle East due to ongoing conflict indicate a substantial disruption to air travel, but not a complete end.",
+              "text": "Air travel is severely disrupted in the Middle East due to conflict, with widespread flight cancellations and stranded passengers. However, air travel hasn't entirely ceased globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             },
             {
               "date": "Mar 27, 2026",
-              "text": "Air travel is severely disrupted in the Middle East due to conflict, with widespread flight cancellations and stranded passengers. However, air travel hasn't entirely ceased globally.",
+              "text": "Significant flight cancellations and suspensions across the Middle East due to ongoing conflict indicate a substantial disruption to air travel, but not a complete end globally.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlJnd1ozWWxTSExjOFZJRDlvLWFfSVY5UW5uR18wLUZQZkdSeFlxWXVXTmNlUkZPTURhTTlwbWt6Smtka0s2UURPRTB0bGNLWFdfNXBjeXhjWG14S0ZyRkl4dHJvRU93Qi1ER2NRZExwYnFXd2xzd1E5Q0ctMEVQY1ZyX21laW43LW5VWHdmdXEzQ1ZxRVN0YUhPbG1UN1NUVnVpcW5tSXZwSElfVGdYOU1aTEgydw?oc=5"
             }

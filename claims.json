@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Mar 30, 2026",
+      "text": "Rubio says Strait of Hormuz to reopen ‘one way or another’ amid Iran war",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUk1b0VPdl9MSXlYdEQ1U25RMXJ0eEFfaDlKVGs0ekdLQ3pGdFp2Z2hpaVJHMWdNYU9MejVYanBIbThDSnI0OF9IQVJocG1mRGxQMHpMWGwwZklCS08xYk1rbGl2V2FjTUo5Tzh2WHlYUjI3RHBrLXpBYmZVb3RtNXhsT3Z4czlmSDZvNTBmcHRrVE5YV2FZa1haWlY2T3Z3LXVaQmU4bnhxUUJGd2psVNIBtgFBVV95cUxOa1VLbzhDU2FQVkcxVWFmWC15TjJsUHVJdGlKUG42ajZNSEJ0RldMMThndVdicG43aFRXRE0wZVREUVNyeVd2RTVDa3c0MWsyNkw0TGZUVFctYmFTRV9HenFST0J6UjJramlONEJfc0t6Q0JGLW1EbHgtN05ZQ1VPUm1zb1VaMGxmbEs4R2dWT3dxUDlVOVN4aGdEQnk4M2pyLTJIdWVYY01wNmZJNWN5eXJyTzV1UQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Mar 30, 2026",
       "text": "Trump hints at seizing Iran's oil, eyes Kharg Island as US forces move in — report",
       "source": "TRT World",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JMF9BVlJGU3p3UWJoTDVNN2hQSy14SUFkMXlKUWtjU3BILVQ1NE50OHhXSFI3WWpEX1lUMGJRNmdpYmVUQk1GZllKMldNcnF6X1ZwbWVfMDLSAV5BVV95cUxOYjFGZmlhT0hkcTY2QlI3cW1GSmIyNzhtQ1p3VVdxbkZhRk1fMGN1OWtHcWFIVGdaY3hmX3ROTXAwbU9mOWtlaVV5RDFBZVRZRThzandFaklyNDBadjVn?oc=5",
@@ -92,13 +99,6 @@
       "hot": false
     },
     {
-      "date": "Mar 29, 2026",
-      "text": "Houthis open new front in Iran war: Will Yemeni group block Bab al-Mandeb?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUHhaeEQwR2kxRDVUWk82Z09YWmprc3JfN19VX0JVbkVmZWtxQm1zdlVBcmVQT21IOEsweGR0MkdXd3YtZDV4bkNraXZXQ3I2cVRYYTZLOWwxZWlyNHpKX09uc3hYejRBbmdzSXdTOThTekE1YlhzS01WSEhVbUFQa2ZBdXZJWmhjem1ESnA5cnpSVGM2LXM4OTB6VFE2clBaUHhra3JYSXdhcEtwYU1TdmxwRdIBuAFBVV95cUxNMFpYWFl0aS1MajBUSWNIWTgtTzYwVnpIQTZLMDMxN3JUd3BldGNpYlEyTGJwQWlPaWxlMWE1bjVCT0c3c1VVQURMdXJ2S0NsOGVUT0tQOUpCNllYdDNfbTIxTHFuN0lBcU00XzBVUjJXV0xfYXR2dUZFZS1fUDlMdUhKLUR6T3VzbVpSTzU1Y0Y0elhWMVprUENLUEduckZQOFhTaGJWRy1VMkd3cnRlQnU1SjBNUmxq?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 27, 2026",
       "text": "A little-known Navy-Marine battle group from San Diego is making a beeline for the Middle East",
       "source": "San Diego Union-Tribune",
@@ -164,15 +164,15 @@
           "updates": [
             {
               "date": "Mar 27, 2026",
-              "text": "Reports confirm Houthi attacks, likely backed by Iran, and US deployments. Claims of direct Iranian strikes on Gulf oil fields and blocking Bab el-Mandeb remain unverified, but are plausible given the context.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
-            },
-            {
-              "date": "Mar 27, 2026",
               "text": "Reports confirm Houthi attacks on Israel and US Marine deployment, alongside broader conflict escalation. No confirmation of direct Iranian strikes on Gulf oil fields or base blockades yet.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
+            },
+            {
+              "date": "Mar 28, 2026",
+              "text": "Reports confirm Houthi involvement and disruption to shipping in the Bab el-Mandeb Strait, but no direct Iranian strikes on Gulf oil fields or US bases are explicitly stated.",
+              "hot": false,
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDllTnVKZkhadDAyckp0VnhTeVczRlpEbzZNUTdENmRiNW1UektQSzVDQndnOF9EVldWU204UnNXZjZPQ2phZmlYRHdPSm9sZXZ1ZUpTRlplVkZzOFhJUzFpN25yUnJ4Ull3ZGFreE00N3VVbzFNNHdmUGs0QXllSnU2aEY3T25TR0o1MFJsTkN0dnBOY3NRUmdUelVaS045b0JtZ2xmcG5CVXF6RDlkQzdDMA?oc=5"
             }
           ]
         },
@@ -239,6 +239,12 @@
               "text": "Deployment of the USS Tripoli and Marines to the Middle East, coupled with discussions of potential ground operations, suggests heightened tensions and possible preparations, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
+            },
+            {
+              "date": "Mar 30, 2026",
+              "text": "Deployment of US Marines and amphibious assault ships to the Middle East raises tensions and fuels speculation about potential military action against Iran, but no invasion has been confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5"
             }
           ]
         },

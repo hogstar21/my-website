@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 01, 2026",
+      "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWxCUE4yTW5oVThqMTFTYTFFRnR3Tk1WdTUtNkpESkplQnQ1ME9SZHd0SUx0c3dNaG5nT3plUlFyVzk2amI1RVZ0Z2NRV21PbnBvY1d6a3hiWGtuYlpJTlJaOXlkZnpYYU5wQndXSzdRVUhyak5Od205OGM5OUxVZVBGTzNqbG9PMGJEckJ5SU5iZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 01, 2026",
+      "text": "Analysis: U.S. Negotiators Were Ill-Prepared for Serious Nuclear Talks With Iran",
+      "source": "Arms Control Association",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc2NCQ3VVY041VlRIbTBONlpIZDJGeDRHLWYtM0RzNkF0eTZWUmp1UTJpQlNTZDRpUDJjblEwZHYxTFZqNzFKckQ4NVRXeEN2NmhYTjVpcS1uY0ljdEM1LUI2UzMyRVZ3Zzc4RjhSVjFpT2k2VWFIb3JHSWJ0MTN0NnUweWZfZHhQOHplMHA4ekVESExYNnJnMF9adWtoX3pueUduWW5ZcFpPYjU1R0NONFViNU9obGF3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 01, 2026",
       "text": "Iran launches major missile barrage hours before Passover",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YZWZHeWdaT3lUY0hUX29PQUxWcXJSNWdWNVJDRTl3LXg1M25IOWZWMVJZRUt3dTRwejNUVnkyME5uVlJzNE1rYm9qOC1nT1VfbGhuMEsySWtmcHdvNkZPLVVxYy1nVVN2YkE?oc=5",
@@ -85,24 +99,10 @@
       "hot": false
     },
     {
-      "date": "Apr 01, 2026",
-      "text": "Iran War Live Updates: Trump Says U.S. Military Campaign to Wind Down and Plans National Address",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByNUhNM0FZd3RDdDNRUU5XX2pqS3dtbE9aMjFfY0Z6WlkydU5xcWkyY0tlRkRmZjVtRmRaN1RHanRNb20tbHViV0Fwa3FXVU9VTlYwYk43b3VMQWdyTXVCTzZ3dGNEZkJuWG16aGhTQ0Y1QQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Mar 31, 2026",
-      "text": "Third US Navy Supercarrier Could Be Headed To The Middle East",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdTBMUTFNMWlVLTFVdHFtVElvcWNRNXFNRWdBbEJsdVgzc05FY1BPYkZRWWoyTHBScmJHQlA3VWNUOTZNRmJOdks1cmJ1dWh2ZFYzWEJiRUhTM0J1bHNsZ01vMEZFb0o5ZnotaTlMYkRYYmNTR2VUbTRrcUV3UmhzbWFTMm5LQTFTSjdoeWFxdlhfckNXS2hqQ3Vqek41b0NwbnZucnRfYVItcHljOXA0ZzZSdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 30, 2026",
-      "text": "Kharg Island: How the US could seize Iran's key oil terminal",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5",
+      "text": "Trump tells Post war against Iran won’t last ‘much longer’ —Strait of Hormuz will reopen ‘automatically’ after US exit",
+      "source": "New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUk1ZQWF6THpFTzlsWFhFcHYtYjRWN1VBVlNDQWVrSnJfYjZwVUFNdjdhMEh1Y2otZGRuZjlEZlZWcDFmYUZLbWFHNEh2ZTBITURyMjlIdnU4VS1aRHpHSHAwOFB0LUdpblVXeFh6b0puQWhpNnhiWTJiWDVKYUsxSllXTUcwMEdFclNZZlkzMjNJemtGcmRpZGs3aTg5dDF3MzZsNTk3dXhvS0Zyc2g4WV9NekhnSEUtYkQxN2pfSm5vSnUtYnRPaWE2c3lLRm1EVENYVlAyVjl4MnBDU2s0aTkyank4RnhYbkpSQkNhNm0?oc=5",
       "hot": false
     },
     {
@@ -164,13 +164,13 @@
           "updates": [
             {
               "date": "Apr 01, 2026",
-              "text": "Reports confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. However, claims of attacks on *all* Gulf oil fields and US bases remain unverified.",
+              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes on Gulf states, but lack definitive confirmation of attacks on *all* Gulf oil fields or US bases. Bab el-Mandeb blockage is implied by Houthi actions.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONjkwX1cxRUtIQi12eTdXMi1ONzc3eTVOS1ZHbTZDQXpHOEhVekFVOEVFTzkxQUUxbzloOEk2MFpnMDBKaUNEWlQ3Y3hISHNod1JEaW5GaTA5ZWZ2c3hVdVRMTzRpTEtXVWhicURSNnEzdkZ1dXI4Z1lueldPU0FGb3dzYkxWWEhUc1k0a2thVGplVmFJakRGV20xbl9FTnBvaTJuS0ZDZ3lyVWxCbWFQLVdidVZCbXZiMXQ5Y3BQeG4wSkVFOVdGMlQwQnhXSjJGcjA2NFlWV1p5SXdYYkF2V3FvLTVMZnVEc2xpSGNKclRzT3JUOEthT1oyXzRQVkxNc1J0VDljbWU3UXFjaFE?oc=5"
             },
             {
               "date": "Apr 01, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes on Gulf states, but lack definitive confirmation of attacks on *all* Gulf oil fields or US bases. Bab el-Mandeb blockage is implied by Houthi actions.",
+              "text": "Reports confirm Houthi involvement and Iranian retaliation, including actions impacting the Bab el-Mandeb Strait. However, claims of strikes on *all* Gulf oil fields remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONjkwX1cxRUtIQi12eTdXMi1ONzc3eTVOS1ZHbTZDQXpHOEhVekFVOEVFTzkxQUUxbzloOEk2MFpnMDBKaUNEWlQ3Y3hISHNod1JEaW5GaTA5ZWZ2c3hVdVRMTzRpTEtXVWhicURSNnEzdkZ1dXI4Z1lueldPU0FGb3dzYkxWWEhUc1k0a2thVGplVmFJakRGV20xbl9FTnBvaTJuS0ZDZ3lyVWxCbWFQLVdidVZCbXZiMXQ5Y3BQeG4wSkVFOVdGMlQwQnhXSjJGcjA2NFlWV1p5SXdYYkF2V3FvLTVMZnVEc2xpSGNKclRzT3JUOEthT1oyXzRQVkxNc1J0VDljbWU3UXFjaFE?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Deployment of the USS Tripoli and Marines suggests heightened tensions and potential for military action, but no amphibious invasion has been confirmed.",
+              "text": "Deployment of US Marines and amphibious assault ships to the Middle East, coupled with discussions of potential ground operations, suggest heightened tensions and possible preparations for military action, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }
@@ -519,7 +519,7 @@
             },
             {
               "date": "Apr 01, 2026",
-              "text": "Significant flight suspensions across the Middle East are occurring due to the ongoing US-Israel-Iran conflict, but air travel hasn't globally ceased. Crime and chaos are not explicitly reported.",
+              "text": "Significant flight suspensions across the Middle East are occurring due to the ongoing US-Israel-Iran conflict, but air travel hasn't globally ceased. Crime and chaos are not explicitly confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVFZYZDM0SGZIYXhRQ2k2VE9GcDJmQWtzZUlPemwxZkJwX3BLSmg0NzFtNHVWdWZET2YzVmhudVhaRVhENEdadjRHY0FDWTFhcERVQTdVQ3NfajFXU1NOMkJlQVdiX2M5eTN0aS1hTE83NE5IV1A5V3RIb180eGdSM0tLZkRZUTZmNzJfSzZ3?oc=5"
             }

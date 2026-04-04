@@ -51,6 +51,13 @@
     },
     {
       "date": "Apr 03, 2026",
+      "text": "Omani, French and Japanese vessels transit the Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmdpNllHVW5BYWhKOWx4eTYyajNSMWlLLWJUWGNTWndSRndoZ3Fndjl4R2FxSWNzMjdXbDhxbG1hMjZpNGFyOHRZZE1NeG9wTG41b1lDWnNkSWJzcmJvZ05NNXZ4VFNCQnZmck9kRFFVdExhdklDaHhPbEQ4cWhyM0Ntdnl6bWYzelFuMDZkUUxZVHdtX0FTZW1BNGlhUGVDZkVhbFNiNjFweHpFWno2VU1velHSAboBQVVfeXFMT3B1WFV2aEo0ODZHb2pDZjdfdTJ3TUs1QTVfLVlHYW1yOVBkT0h4Z2YteXJ5NWdkcUhtZEQ3ZmVEY1hHNks3WlJvc1puYjJLc3F1Yi1tNFdWTHcwSUYtU2Jhd1FPUmpFa2hQM2V6QngzT1dUOW0wcGF2eXh6eHZwOTdSZmNTV3llSG5lVU0yZ2V1U2FUTloyLXlyaHlJWkdTUDJOcUxYMG11YW00UXlLQkhFdUJXM2lHVE1B?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 03, 2026",
       "text": "Why did US and Israel attack Iran and how long could the war last?",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
@@ -75,13 +82,6 @@
       "text": "Houthi Escalation Calculus Following Cautious Entry into the Iran War",
       "source": "understandingwar.org",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcUFKZkpDZUJ2X3ltS25FQk96bjE4Ynd1ZEg5RzhKSnViUnRpcEZOZEhFa3BOeGdfU1BpN2hfaVlsZ2pibWUzQXMtOUxRWlJSU0ptSkZMRVNiRVdiMk5iYy1vcXc4blJ5V2FaeURHdzIxSVl3QkFfRE9nVTc0NWJhZmtRVU9Qdk1vbmNONjBtdmphWC1LcGRPS2tRcEFGaVEwdlQyXzJtTDR3OVQ0WHMwLVp0TnFEMUQ4dng1dQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 02, 2026",
-      "text": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWR6UEhjR3hzODlPZ3gtR2JOR1p1M0tPZHhuYXZiLVhwUjVIS2Q3UlVZRjU0b3NlVTVpMGkzTFFjLU1LcEY5MVd2ZW1fVVVVaWdvMC1TWnZkVVZHcG1HRmNGU3VING5FeGRVQUlMSEtCODhsZUJ4bDNRdy1RbXQxaW51dFI0OUJ1ci1oenFLb9IBlAFBVV95cUxNN1kya1Z3MzAwSVN0eDBYaEVsVW00V3l0ci1aX0RhQjlfYUR3N0syYnFmcXB4S09XNHBiMFM2LUVjcUJqMW5Ec0NPaUFrbnpfWVFHaFpkaGxoQThTbUlNYl9QNVRJOUNuNlU4dV9lWFFvWHdIbHN2WlVIcDQtYVZfSmRyeVVLc28wVWg5VTJmWHhBZkNz?oc=5",
       "hot": false
     },
     {
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Mar 31, 2026",
-              "text": "Headlines confirm Iranian retaliation and strikes on Gulf states, and Houthi involvement threatening the Bab el-Mandeb Strait. However, 'all' oil fields being hit is not explicitly stated.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-            },
-            {
-              "date": "Mar 31, 2026",
               "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but implied by the conflict's expansion.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
@@ -179,6 +173,12 @@
               "text": "Multiple headlines confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. However, claims of hitting *all* Gulf oil fields and *all* US bases remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+            },
+            {
+              "date": "Apr 02, 2026",
+              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes in the Gulf, but lack definitive confirmation of all oil fields being hit or US bases targeted. Bab el-Mandeb blockage is also indicated.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }
           ]
         },

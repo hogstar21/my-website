@@ -30,6 +30,13 @@
     },
     {
       "date": "Apr 03, 2026",
+      "text": "Carrier Tracker As Of April 3, 2026",
+      "source": "The War Zone",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UTdzd1BGd1h6YUFkSlhBRE4tRWVsTUNfYnQzSDVnR1JaUVkzZ1BKX3EtYTRuM0xJbmtUck5GbHp6U25QVUFhWDNpalZocjJoS21YSjZ0Yy1tb3RFLU56Z2RrR0NtTUVuZkE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 03, 2026",
       "text": "Iran War Live Updates: Trump Claims Military Success but Offers No Clear Timeline to End Fighting",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5",
@@ -78,13 +85,6 @@
       "hot": false
     },
     {
-      "date": "Apr 02, 2026",
-      "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes",
-      "source": "Just Security",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 01, 2026",
       "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
       "source": "Stars and Stripes",
@@ -108,7 +108,7 @@
     {
       "date": "Mar 25, 2026",
       "text": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast",
-      "source": "apnews.com",
+      "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
       "hot": false
     }
@@ -176,7 +176,7 @@
             },
             {
               "date": "Mar 31, 2026",
-              "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but are implied by the conflict's expansion.",
+              "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but implied by the conflict's expansion.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
             }

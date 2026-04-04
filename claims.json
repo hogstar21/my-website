@@ -71,10 +71,10 @@
       "hot": false
     },
     {
-      "date": "Apr 04, 2026",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ib21jS0xTaVFSS1k3d2JMM0M2dDViSkdGRF9uQnZaU0lCcmxtV0ZTTFFpSE41U0JTQVZkelFSMV9tbnd2N0NoRHdkUHNwT1hOa1VoSTVjVTdRNGM1dDF5M2VsakthSzNsY2sySUdlMmFwZU5fNndoNWZCS05nU3M?oc=5",
+      "date": "Apr 02, 2026",
+      "text": "Collection: Iran, Israel and the United States at War (2025-2026 Operations)",
+      "source": "Just Security",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoSVdUeXVkem5oeFB6SzlYa0xrbmpSVXdlWDdrX3dhbG5vWFNvZ1ZLXzR6U0N1WVMyekQ0RzY2UXgwRWdwU0E2ZXRIbXZwaWN2eTZRbkU4M1N2X25xMjY0RjQ4WFdvdEc2VHhkbXpONWJYWEo2TzBB?oc=5",
       "hot": false
     },
     {
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Mar 31, 2026",
-              "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but implied by the conflict's expansion.",
-              "hot": false,
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-            },
-            {
-              "date": "Mar 31, 2026",
               "text": "Multiple headlines confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. However, claims of hitting *all* Gulf oil fields and *all* US bases remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
@@ -177,6 +171,12 @@
             {
               "date": "Apr 02, 2026",
               "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes in the Gulf, but lack definitive confirmation of all oil fields being hit or US bases targeted. Bab el-Mandeb blockage is also indicated.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
+            },
+            {
+              "date": "Apr 02, 2026",
+              "text": "Reports confirm Iranian retaliation and Houthi involvement in the conflict. Strikes on Gulf oil fields and blocking of Bab el-Mandeb are implied but not explicitly confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }

@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 04, 2026",
+      "text": "Iran Update, Special Report, April 3, 2026",
+      "source": "understandingwar.org",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVnAybnlUZnY5QWQyc28tTU1WV29pZzlnOGYxS1JzYmRiaDBTbTVrdnF3ZjNFRGZneFN4bExpSFRySnRydmhFZy1EREJzNGlydjFKal9IYjdaNzlTbFktSGpkOG1WRDh5ckZVNjliRm9JZzNOTmE1OEZ1d05pZXMwUDEtbzdVUG9wOFJqbmJFVVZ3b3Fa?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 04, 2026",
       "text": "Europe’s Options in the Strait of Hormuz: Few, and Risky",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDNJbjlVcWxCd2NRbkVMUkVleV9xSDgtWV9Qd3lQNWozWTFrRGxaRWFLLVFKNVdnR01HNlAzbVkyYUxlb1N1ay1ua0hZYWZhbm5Hb3VXUVlCUTFhaUV2dHhldnhWcmNhWW40Uk5LQnh1LVcycUphZE04X1pkZ0Z5cFJDczlkbHM?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 03, 2026",
-      "text": "Omani, French and Japanese vessels transit the Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmdpNllHVW5BYWhKOWx4eTYyajNSMWlLLWJUWGNTWndSRndoZ3Fndjl4R2FxSWNzMjdXbDhxbG1hMjZpNGFyOHRZZE1NeG9wTG41b1lDWnNkSWJzcmJvZ05NNXZ4VFNCQnZmck9kRFFVdExhdklDaHhPbEQ4cWhyM0Ntdnl6bWYzelFuMDZkUUxZVHdtX0FTZW1BNGlhUGVDZkVhbFNiNjFweHpFWno2VU1velHSAboBQVVfeXFMT3B1WFV2aEo0ODZHb2pDZjdfdTJ3TUs1QTVfLVlHYW1yOVBkT0h4Z2YteXJ5NWdkcUhtZEQ3ZmVEY1hHNks3WlJvc1puYjJLc3F1Yi1tNFdWTHcwSUYtU2Jhd1FPUmpFa2hQM2V6QngzT1dUOW0wcGF2eXh6eHZwOTdSZmNTV3llSG5lVU0yZ2V1U2FUTloyLXlyaHlJWkdTUDJOcUxYMG11YW00UXlLQkhFdUJXM2lHVE1B?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 02, 2026",
-      "text": "Inside Trump's Search for a Way Out of the Iran War",
-      "source": "Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HdFpCOHVQZFdtMWp2YlV2TzFSWVB1Y0FVREM5bjFNWDdUWG9CNUNoai1VdjBjUm1uWE5kTHBabHlSTGR0NXVxLUFRLXhCREtqTVNJeUNheXNjYXAzT2RYVHBYVGFEcTA?oc=5",
+      "text": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWR6UEhjR3hzODlPZ3gtR2JOR1p1M0tPZHhuYXZiLVhwUjVIS2Q3UlVZRjU0b3NlVTVpMGkzTFFjLU1LcEY5MVd2ZW1fVVVVaWdvMC1TWnZkVVZHcG1HRmNGU3VING5FeGRVQUlMSEtCODhsZUJ4bDNRdy1RbXQxaW51dFI0OUJ1ci1oenFLb9IBlAFBVV95cUxNN1kya1Z3MzAwSVN0eDBYaEVsVW00V3l0ci1aX0RhQjlfYUR3N0syYnFmcXB4S09XNHBiMFM2LUVjcUJqMW5Ec0NPaUFrbnpfWVFHaFpkaGxoQThTbUlNYl9QNVRJOUNuNlU4dV9lWFFvWHdIbHN2WlVIcDQtYVZfSmRyeVVLc28wVWg5VTJmWHhBZkNz?oc=5",
       "hot": false
     },
     {
@@ -236,12 +236,6 @@
           "updates": [
             {
               "date": "Mar 30, 2026",
-              "text": "Deployments of Marines and warships to the Middle East are occurring, raising tensions and prompting speculation about potential military action, but no invasion has been confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5"
-            },
-            {
-              "date": "Mar 30, 2026",
               "text": "Deployment of US Marines and amphibious assault ships to the Middle East, coupled with discussions of potential Iranian conflict, suggest heightened tensions but no confirmed invasion attempt.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5"
@@ -251,6 +245,12 @@
               "text": "Deployments of Marines and carrier groups to the Middle East, alongside discussions of potential invasion, suggest heightened tensions but do not confirm an amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UTdzd1BGd1h6YUFkSlhBRE4tRWVsTUNfYnQzSDVnR1JaUVkzZ1BKX3EtYTRuM0xJbmtUck5GbHp6U25QVUFhWDNpalZocjJoS21YSjZ0Yy1tb3RFLU56Z2RrR0NtTUVuZkE?oc=5"
+            },
+            {
+              "date": "Apr 04, 2026",
+              "text": "Deployments and speculation regarding potential ground combat against Iran are increasing, but no headlines confirm an amphibious invasion or resulting casualties.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fYTFMbDFfcmZQUkNDTXpEalhlSnhHSkRubDAxaHN4bDAzV2lkYW1mbHl1U1g1Qkw3cWR5SVM2U2lET3hLdF9TMFNjYnhtckFmRTAzZ00wM2g5YkJmdExEY3kzdng2cHdNN0xVQjZMX3NicjRTVEE?oc=5"
             }
           ]
         },

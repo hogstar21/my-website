@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 04, 2026",
+      "text": "UN nuclear agency chief ‘deeply concerned’ by reports of latest attack on Iran power plant",
+      "source": "UN News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54YmhURUtZT0ktWHdpLTkwc1FWQ1l0TjE0OWhlY04yc1VRQkZQT2dXdWxrbk1kNmFKT2JVaWptYXc1OHVmOTF0SGVBMVJYc0VfajhxVjNjaw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 04, 2026",
       "text": "Iran war live: Tehran rejects Trump’s ‘helpless, nervous’ 48-hour ultimatum",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
@@ -71,13 +78,6 @@
       "hot": false
     },
     {
-      "date": "Apr 04, 2026",
-      "text": "Iran-US war latest: US and Tehran race to find missing American pilot",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeExncTAyMW9PR1BKZzk4Z0hHa2tFR0JOXzFxejFYdTFDZjRZeGVhclg0MEw1djZtZWFlckJkbUg3aUhhQWVKY0Ztdi1fWm43ZmY2OThRQ0ktUDhYb0wyNzlFS2YtaWdZWFVJR0JRQU5Za2lPbTZSbFc3YjJFSXBzb3B4SWNudTJrSXFXTFZ0T0l6dVEwMEhtYWxNdnJnVlp2ZDMwSFZqZUZrOXd0UUphdU1sMVdXcEVDek1tUHhUVHI?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 01, 2026",
       "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
       "source": "Stars and Stripes",
@@ -108,7 +108,7 @@
     {
       "date": "Mar 25, 2026",
       "text": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast",
-      "source": "AP News",
+      "source": "apnews.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
       "hot": false
     }
@@ -170,13 +170,13 @@
             },
             {
               "date": "Apr 02, 2026",
-              "text": "Reports confirm Iranian retaliation and Houthi involvement in the conflict. Strikes on Gulf oil fields and blocking of Bab el-Mandeb are implied but not explicitly confirmed.",
+              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes in the Gulf, but lack definitive confirmation of all oil fields being hit or all US bases targeted. Bab el-Mandeb blockage is also indicated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             },
             {
               "date": "Apr 02, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes in the Gulf, but lack definitive confirmation of all oil fields being hit or all US bases targeted. Bab el-Mandeb blockage is also indicated.",
+              "text": "Reports confirm Iranian retaliation and Houthi involvement in the Red Sea. Strikes on Gulf oil fields and targeting of US bases are alleged but not definitively confirmed by headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }

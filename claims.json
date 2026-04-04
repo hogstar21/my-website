@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 04, 2026",
+      "text": "Iran war live: US-Israel attacks hit petrochemical, nuclear sites in Iran",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 04, 2026",
       "text": "Iran-US war latest: US and Tehran race to find missing American pilot",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeExncTAyMW9PR1BKZzk4Z0hHa2tFR0JOXzFxejFYdTFDZjRZeGVhclg0MEw1djZtZWFlckJkbUg3aUhhQWVKY0Ztdi1fWm43ZmY2OThRQ0ktUDhYb0wyNzlFS2YtaWdZWFVJR0JRQU5Za2lPbTZSbFc3YjJFSXBzb3B4SWNudTJrSXFXTFZ0T0l6dVEwMEhtYWxNdnJnVlp2ZDMwSFZqZUZrOXd0UUphdU1sMVdXcEVDek1tUHhUVHI?oc=5",
@@ -71,10 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 03, 2026",
-      "text": "French-owned ship passes through Strait of Hormuz",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kc0s3YVVaS1BNQ0xNTUpDZVMxaThOY1RtWDFENzdiTlFlNEdxX2k4d3NYdEFkZFNDSVI3YndZV2hCTmktV1BGRDlIRU1UM200VFZ6NEUxMzJGUQ?oc=5",
+      "date": "Apr 02, 2026",
+      "text": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWR6UEhjR3hzODlPZ3gtR2JOR1p1M0tPZHhuYXZiLVhwUjVIS2Q3UlVZRjU0b3NlVTVpMGkzTFFjLU1LcEY5MVd2ZW1fVVVVaWdvMC1TWnZkVVZHcG1HRmNGU3VING5FeGRVQUlMSEtCODhsZUJ4bDNRdy1RbXQxaW51dFI0OUJ1ci1oenFLb9IBlAFBVV95cUxNN1kya1Z3MzAwSVN0eDBYaEVsVW00V3l0ci1aX0RhQjlfYUR3N0syYnFmcXB4S09XNHBiMFM2LUVjcUJqMW5Ec0NPaUFrbnpfWVFHaFpkaGxoQThTbUlNYl9QNVRJOUNuNlU4dV9lWFFvWHdIbHN2WlVIcDQtYVZfSmRyeVVLc28wVWg5VTJmWHhBZkNz?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "Yemen’s Houthis threaten potential closure of key Red Sea strait if Gulf states join war",
       "source": "The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRUdHU09HV2ZnNnhmeHZrMnlZUmM4TzE0bk9OcHhHTWdYUFVBU081ZEpoeTZKVlhnQXRNNVFXYXhCV2FBU2JmbFg1ekFNSURObThJMmhoaDV0bFV0NFlTRi1Mdk45M2kySGdVTVVjbFl5dkE4cVVPRDB6enZIQjI0V1JWQkxLVEZZSThHYUNqVVRhM2FmZlV3TVpUNVRoR295em8zSFFrWWZJc2ZvOFdNeFlnMEhHREZxdkHSAb8BQVVfeXFMT1NPVEQtUzV0em56eVpsMTdZRmd4NGRoancxeVE3di1tREdyaHVTcDFtenZoODA3YTRVVVJSNkgyNzFmRWI0NGduNzI1bDdxWnpXUnp4OWdQcEYySmZ2SlkxYkxhcTBrSGktM21FdGdtZWpMTlFCUGhiLTBSTTM2aFd5MnkzQjhzb3BQRjhuY0JaczRiUWZOMGoxbElyMTR3SmJ5aDZLQ3lpRFNfbDJpTkFZcjdlTWw1VVJ2UXY3dWc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 31, 2026",
-      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {
@@ -170,14 +170,14 @@
             },
             {
               "date": "Mar 31, 2026",
-              "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but implied by the conflict's expansion.",
+              "text": "Headlines confirm Iranian retaliation and strikes on Gulf states, and Houthi involvement threatening the Bab el-Mandeb Strait. However, 'all' oil fields being hit is not explicitly stated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
             },
             {
               "date": "Mar 31, 2026",
-              "text": "Headlines confirm Iranian retaliation and strikes on Gulf states, and Houthi involvement threatening the Bab el-Mandeb Strait. However, 'all' oil fields being hit is not explicitly stated.",
-              "hot": true,
+              "text": "Multiple headlines confirm Iranian retaliation and strikes impacting Gulf states. Blocking of Bab el-Mandeb and attacks on US bases are not explicitly confirmed, but implied by the conflict's expansion.",
+              "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
             }
           ]

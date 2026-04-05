@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 05, 2026",
+      "text": "U.S. Rescues Downed Air Force Officer Deep Inside Iran, Trump Says",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WVC1IZS1waG90OFJtaV9pR2dEZDlWanJNaFRmdlZaWlJfTzZIYXlwOEE5NDJ3NU1CTUlKZXQxXzFjLWFzNXRaUkNYOUNKbVlReGVqYlFrVGpHUGVkS0NJbGFuSmxsN3VWbG1zNEY1eTcyVGM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 05, 2026",
       "text": "US and Israel increasingly target Iran's civilian infrastructure",
       "source": "lemonde.fr",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNME5kN0dUME1wZFhzeENJUC1IY3RqTWFHU29QcjlUV3hPenRRZHlWVmJDcWlxUjViTmhHLUQtb2VoZEljejEyX1ZKRmJfbkxpc0FkTmE4eUlIcEc1ZjZEUnlleVRLTG5yOHhkcHlDeEN6Mmo5NVBWdDQzcHBoeEJvQWxIbzN2VUNiWjl2a214RUJxVjBiT2tZRGpJWHdwRndkRjFHcTBvWk11SDBOR0U1NEhpOGlNOTc2bzR4SnJ4VVY2S0lnZW5mY3k0cHluLVkzRlMwMA?oc=5",
@@ -71,13 +78,6 @@
       "hot": false
     },
     {
-      "date": "Apr 04, 2026",
-      "text": "Iran war live: Tehran rejects Trump’s ‘helpless, nervous’ 48-hour ultimatum",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 01, 2026",
       "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
       "source": "Stars and Stripes",
@@ -87,7 +87,7 @@
     {
       "date": "Apr 01, 2026",
       "text": "Is Kharg Island a death trap for US forces? | About That",
-      "source": "MSN",
+      "source": "msn.com",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaWp1MjJoVWdzOXI4eDlpM3J1NVV4OTdZQkowNWFkTnBKdHVFNkxXQkpKczBPbHF3akI4aHplcGxHU1hRT2gxbWxDTHpJcGl0QzBwYmYtSjVnLXBPT0lsYTFoTXRwUlBGS0V5RFZIc294bkU2OFVDMVFtdlpWLWRuLVZuYkY4SU9yaV9ndUg3d3dYc3pkaVU0VWJhSk40Z0xoSGhsc1BLQ0RMXzg1bU5vanpkdE13aHk1X1ZqbG5OT0VPU3Y2dWlzR3p2RmRYTlpSendrNnZuYnFCdV9JcVlaYUp4bEtoZ2M?oc=5",
       "hot": false
     },
@@ -164,13 +164,13 @@
           "updates": [
             {
               "date": "Apr 02, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes impacting Gulf states. However, claims of hitting *all* oil fields and blocking Bab el-Mandeb remain unverified.",
+              "text": "Reports confirm Iranian retaliation and Houthi involvement in the conflict. Strikes on Gulf oil fields and Red Sea ports are occurring, but full confirmation of all elements is lacking.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             },
             {
               "date": "Apr 02, 2026",
-              "text": "Reports confirm Iranian retaliation and Houthi involvement in the conflict. Strikes on Gulf oil fields and Red Sea ports are occurring, but full confirmation of all elements is lacking.",
+              "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes impacting Gulf states. However, claims of hitting *all* oil fields and blocking Bab el-Mandeb remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
             }

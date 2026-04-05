@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 05, 2026",
+      "text": "Petronas-chartered tanker loaded with Iraqi crude passes through Hormuz",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzM0R3hqdmpGMGtLdjg1bDhJZmtqM2VFRnVEY1h2M2NMNXJCYy1raHY5RDZqMHdDMUZvUVNJbmQ5cGNZTm5zd0NwM2FDZWQ0N2tvMjlMdmc3MFJLSDJOMThJVFVjbU5NcVVXN0ExOGtPbjMzZkZralBIMzRCRERmR0hDWXpPd2NibVVoT3pDQ3UwdEh4eXJaaTFLYmhVLW96eHBLZ3hhdC05S0dFdE9QeXhTNlU0VTZvSU5QUWhVcU8tUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 05, 2026",
       "text": "The Real Intelligence Failure in Iran",
       "source": "The Atlantic",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM0x4eVp1YzFDem9EdW9OUGVTRTd3SlRobWxmQVM2RVk5bmF4MmdZZ3RKVEQyaTRhTndVTW1RVjRkREpoUWZqNlpFYVI3cEZ1RFBGNTFMMXJhTTlMUDEteURiSXRKdjRpVnItLTVmcEVsRmlJS0oyeUFKWjYxVmZ5NWlYc19SUHc1QS03a3l1alNBa1prc1N4MWF1Um5iUQ?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 03, 2026",
-      "text": "Carrier Tracker As Of April 3, 2026",
-      "source": "The War Zone",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UTdzd1BGd1h6YUFkSlhBRE4tRWVsTUNfYnQzSDVnR1JaUVkzZ1BKX3EtYTRuM0xJbmtUck5GbHp6U25QVUFhWDNpalZocjJoS21YSjZ0Yy1tb3RFLU56Z2RrR0NtTUVuZkE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 03, 2026",
-      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
+      "date": "Apr 04, 2026",
+      "text": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSk9SWDEzcUs5WndWN25CVnVPVGZxRWVWUENNLTh1SXVuX204X00za1R5QXl2OVJTaFBTTUhkSE5KVkpTUzRWbkxma0x0THFwVVRrLXZDSlZvQ1FsX3hSc1ctVVQ5VGVfT2RHTkVjUHJpOWkyN0VuSERWOWhiTVBobTVURGdoTTMzVDJMV3M3VkktaTBHcFU0X2Q2YlnSAaIBQVVfeXFMTnprV3BmSWVLcndIOEFqTGZPRVBIVHdjbWRRMHI3VkZMUlBVZlJTNXFmSTM0TDRKSW5wWm1sN2NUWTI0QUhDOTdxbUJUQ2R4TDZ5WW93WVdKU0VuZEJPQXNQc25oR2pXSjR3clBnb0dTNkxkYXlEYXY1dnN4SFNocDU5ZnRhQmgwblotaTdJY2I5TW0zRnJ6U2pucVExdlpyWWRR?oc=5",
       "hot": false
     },
     {
@@ -167,6 +167,12 @@
               "text": "Reports confirm Iranian retaliation involving Houthi actions and strikes on Gulf states, but lack definitive confirmation of attacks on *all* Gulf oil fields or US bases. Bab el-Mandeb blockage is implied by Red Sea port attacks.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZEN5U3QxTHpnZUV0RVA1dFpHUzMyM05BTEREOUc0LXppakp6YVdTRnZzU1VFbWdVVGFKbXA5MWhnVDV4ZFVvQkRSOUMtT2pLY3NQdHliYlRJM1EtTGVJM090X0MyWmtHdWNFUUNR?oc=5"
+            },
+            {
+              "date": "Apr 05, 2026",
+              "text": "Reports indicate Iranian retaliation involving Houthi forces and threats to the Bab el-Mandeb Strait. No confirmation of direct attacks on Gulf oil fields or US bases is present in the headlines provided.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMWVpc2k1em9NRFM5ODhsM25FbWRfVjJBNHZ2VF84VWp3MGktbHJKNXJqYnl1QzM5ZW1ZeG9acTdtU3FUYWNOQnBZZ21uWVdmYnZFTnp2a2J1LWNMNU1VQi1pTWt5U3ctLU5pNkUwN2ZWT0p4ZTEyTHlZU2xuNUwwNFp6VE9PNEFZbTQ4WC1keDZoZUNfLU51QURmczE0Q2hvUXM2SmZiZw?oc=5"
             }
           ]
         },

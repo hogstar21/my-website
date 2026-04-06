@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 06, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTjFlTUJRVTd0UmRYaDJmQk5iaEpOZHF2d3lFbUg3ei0ta0dYaHFGeGR4WEZBQTZRUDNadVZETmFGYlIzSVBtU1hNUUs4cm9yQ1h3TWJyU192elJTX0t2THhvQXpwQmE5cjZfRW1pdmZkWkxjc2d5LWctU0dTVWM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
+      "text": "Iran mediators make last-ditch push for 45-day ceasefire",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16QkpkNnc3SE1USXN1TEdocXNOQUdCQ0hRVWF6N0dCVlJ1YzlqS3FjZGxiSk5iUjRWYzhoVGhaTEJHaXhiLWNMbC1ROUlCZUlFX0Izd2ptc0I1UmZDN2EwcFQ4Znl3c3pOWHp1YmJkNGFWRXp5SUE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
       "text": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xQUhSalZYRUpHRTR4a1dtUktxeU5ULTRnNS1vR0RONkxhaTNFZzBwOVBQbTk5Y2QxbkJoczlnaWZBcmdkWlN1cEI3WWN6T2U1ZFRwYnVUZDBWZw?oc=5",
@@ -64,20 +78,6 @@
       "hot": false
     },
     {
-      "date": "Apr 05, 2026",
-      "text": "Oil Markets Seem More Skeptical of Trump’s Peace Signals",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOXy1YcXpaMnZFRzNST1lWX0xLRkphekVxSFFNS0dVMDlqemxMcTc1QllMRTY4S21QUUh5MDFNY29OUjEzY3NxaWFReVQ2b0ItVTJuVXR4T3ZxRk9kUl9UODJXMVdHZllKNDV0VjlqMTBYQ1JiY1hvM2lRaWMtMWx3ekhrOVBkZw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 05, 2026",
-      "text": "Petronas-chartered tanker loaded with Iraqi crude passes through Hormuz",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzM0R3hqdmpGMGtLdjg1bDhJZmtqM2VFRnVEY1h2M2NMNXJCYy1raHY5RDZqMHdDMUZvUVNJbmQ5cGNZTm5zd0NwM2FDZWQ0N2tvMjlMdmc3MFJLSDJOMThJVFVjbU5NcVVXN0ExOGtPbjMzZkZralBIMzRCRERmR0hDWXpPd2NibVVoT3pDQ3UwdEh4eXJaaTFLYmhVLW96eHBLZ3hhdC05S0dFdE9QeXhTNlU0VTZvSU5QUWhVcU8tUQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 03, 2026",
       "text": "Carrier Tracker As Of April 3, 2026",
       "source": "The War Zone",
@@ -87,7 +87,7 @@
     {
       "date": "Apr 02, 2026",
       "text": "Is Kharg Island a death trap for US forces? | About That",
-      "source": "msn.com",
+      "source": "MSN",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORDJpN0xWNmdxcXBCZlY0eUEtOFY1RW5GMmNmaHhFZTRPQXQ5dDdvZXY1aEY4Mkp3MEF2b0dmVl9iWmU2eWVnb3ktMXNMenluVk8xd2pGTVJLMG5LVXBFTll2dlZZUHpfYlhZb25iaHdKb2pSZjdURDFmS2NMM1BNTnRELW5qWnpLcENuQTF0WllMaUlXM19zejZPWml4Sk9mWHJqdm9McGM2RlVYZDRCQTRxbkhvNWFZWEFaQ1pTbWZIWlNKQl9fVFRmZlZYWEt5OEFPcU05MjllQUwzc1ZDS0UxVGEzbzg?oc=5",
       "hot": false
     },
@@ -101,14 +101,14 @@
     {
       "date": "Mar 29, 2026",
       "text": "A Houthi missile attack on Israel stokes fears of renewed Red Sea shipping strikes",
-      "source": "apnews.com",
+      "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRlZTZnRnR0tGckFFMFNyZkFpMkFYSm41Y3FmNmtWTlF0ZWZIYlpGZE04SFc4Nm9nZENQMFVNWW1kUURBSjR5Q1pfS3BIR3FFUUNTRDY5N1A4RUxRUHROTnNoLUdNX2J6ckVmNGhJM2dYaFRSQmFXX2VCM1RXcHNxeWlOR2F5VV9qQ2lQa09FS0xndw?oc=5",
       "hot": false
     },
     {
       "date": "Mar 25, 2026",
       "text": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast",
-      "source": "apnews.com",
+      "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
       "hot": false
     }
@@ -164,7 +164,7 @@
           "updates": [
             {
               "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. Strikes on Gulf oil fields and attacks on US bases are implied but not explicitly confirmed.",
+              "text": "Reports confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. Strikes on Gulf oil fields and attacks on US bases are alleged but not definitively confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMWVpc2k1em9NRFM5ODhsM25FbWRfVjJBNHZ2VF84VWp3MGktbHJKNXJqYnl1QzM5ZW1ZeG9acTdtU3FUYWNOQnBZZ21uWVdmYnZFTnp2a2J1LWNMNU1VQi1pTWt5U3ctLU5pNkUwN2ZWT0p4ZTEyTHlZU2xuNUwwNFp6VE9PNEFZbTQ4WC1keDZoZUNfLU51QURmczE0Q2hvUXM2SmZiZw?oc=5"
             }

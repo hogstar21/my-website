@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 06, 2026",
+      "text": "Middle East crisis live: Iran warns of ‘devastating’ retaliation after Trump’s expletive-laden threats over strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2Q1NTNGWi1weGFRTWdVb1JvdkdfaGJpZE11VkN1V211aFFkWGlpdWQ3OVpPQW1lQUJPc0FhSk5DVHVORmFWN2w3bHlkX29mSktycVVkb3ZxdV9BUkJ1Z3hiclRFMnJVakdGYThrTGZocnVHUWVKSVl5UlNqVHlnNFdBUWdOZl80NEEtT1ZzMlVpb3JpeEZHMWVVSzNtRkNoVWJqd2ZpTzkyUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
+      "text": "Iran, US receive plan to end hostilities, immediate ceasefire, source says",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTEhONXJNZUExZ05kcUZvU0F4SmhCYm1IQjJGeXNmUlY1ZUdOaTZ2czA1d2lpTndlOHBKRTMwdEEzWl9FQ2dLeHVCcDFWaW1fVUx2V1h6TlVZeVV1TFdSZnhsU1A4cWl4Z3g1YVU4NDJPQ194TnBQMWVCUWh1clBVZkJ0LU9EVjA3Wm01WHhiOU9pTWIyeHNwX01YZ3JRajRNNE5XMVVFdUE4SERGWXFkMnBma0kxNXc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
       "text": "Trump threatens Iran with a new deadline: What we know about the war, now in its 6th week",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbWM4VWRzdUFZSUhxbEJ6dy1DRkVuWkpiOXNuV2E0bjc0T0tybnQ4dE5LaEtXR2R5b19SNWtvWklOaTJ5Sm10SGpiR01VaEs4RTRmNy1MakRpdUVBWHYwczgtNUdUVVo1YmFiZUJxTHZYOUNNMXg2RDZZX19XT0trZm96WjVRTWF6dzRqblRXWGR5SzQ?oc=5",
@@ -71,23 +85,9 @@
       "hot": false
     },
     {
-      "date": "Apr 05, 2026",
-      "text": "Why did US and Israel attack Iran and how long could the war last?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 05, 2026",
-      "text": "Iran war updates: Tehran rejects Trump’s ‘helpless, nervous’ ultimatum",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 03, 2026",
       "text": "Carrier Tracker As Of April 3, 2026",
-      "source": "The War Zone",
+      "source": "twz.com",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UTdzd1BGd1h6YUFkSlhBRE4tRWVsTUNfYnQzSDVnR1JaUVkzZ1BKX3EtYTRuM0xJbmtUck5GbHp6U25QVUFhWDNpalZocjJoS21YSjZ0Yy1tb3RFLU56Z2RrR0NtTUVuZkE?oc=5",
       "hot": false
     },
@@ -108,7 +108,7 @@
     {
       "date": "Mar 29, 2026",
       "text": "A Houthi missile attack on Israel stokes fears of renewed Red Sea shipping strikes",
-      "source": "AP News",
+      "source": "apnews.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRlZTZnRnR0tGckFFMFNyZkFpMkFYSm41Y3FmNmtWTlF0ZWZIYlpGZE04SFc4Nm9nZENQMFVNWW1kUURBSjR5Q1pfS3BIR3FFUUNTRDY5N1A4RUxRUHROTnNoLUdNX2J6ckVmNGhJM2dYaFRSQmFXX2VCM1RXcHNxeWlOR2F5VV9qQ2lQa09FS0xndw?oc=5",
       "hot": false
     }
@@ -245,7 +245,7 @@
         {
           "id": "c8b",
           "text": "Second attempt succeeds, oil fields seized, advance halts",
-          "status": "watch",
+          "status": "partial",
           "source": "No such event — first invasion attempt has not even occurred yet",
           "keywords": [
             "US Iran ground operation oil field",
@@ -253,12 +253,6 @@
             "Kharg Island landing"
           ],
           "updates": [
-            {
-              "date": "Mar 24, 2026",
-              "text": "Multiple sources report the US is considering a ground operation to seize Iran's Kharg Island, with troop deployments underway. No confirmation of successful seizure or halted advance yet.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVS1duMi1QeEtTTGdwOU5xNER4cGhObUtURVNzeEFNV1ZDeWc0M1FmR015MzdnWGgtRGlyME9KRFAxbnBHcjhiRjhITjQ5UDMzTm1nWXB3SUNEWkI2MUVscWwtOHJpVkJRX0djRFhMRENLanBGeXpZ?oc=5"
-            },
             {
               "date": "Mar 30, 2026",
               "text": "Headlines indicate US forces are preparing for ground operations and discussing seizing Kharg Island, suggesting a potential seizure of oil fields, but no confirmation of success yet.",
@@ -270,9 +264,15 @@
               "text": "Multiple headlines discuss potential US ground operations and seizing Kharg Island, suggesting planning but not confirming successful seizure of oil fields or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
+            },
+            {
+              "date": "Apr 06, 2026",
+              "text": "Reports indicate US planning and potential actions regarding Kharg Island and Iranian territory. Oil fields seizure is suggested but not confirmed; advance halted is not explicitly stated.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
             }
           ],
-          "changed_at": "2026-03-25"
+          "changed_at": "2026-04-06"
         },
         {
           "id": "c9",

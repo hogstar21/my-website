@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Apr 06, 2026",
+      "text": "Middle East crisis live: Iran warns of ‘devastating’ retaliation after Trump’s expletive-laden threats over strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2Q1NTNGWi1weGFRTWdVb1JvdkdfaGJpZE11VkN1V211aFFkWGlpdWQ3OVpPQW1lQUJPc0FhSk5DVHVORmFWN2w3bHlkX29mSktycVVkb3ZxdV9BUkJ1Z3hiclRFMnJVakdGYThrTGZocnVHUWVKSVl5UlNqVHlnNFdBUWdOZl80NEEtT1ZzMlVpb3JpeEZHMWVVSzNtRkNoVWJqd2ZpTzkyUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
+      "text": "Four killed in Israel's Haifa after Iranian missile strike",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR3RTdkNwOHlSZXlkWUJqdXdYOXdrWEsyR00tcndjc1RCcV85OFZGU3VxYVNYRTl3aTNGUldsSTg3blI4OTRUUWlvWTlBODR1aWI5c215dlBBTWQ3a1VLRnNhNmQ2RWlOTXROcDQtYzhBaWNIellkLV9BeThsZW8zY2dNUW5zWk5ZMU1EdWZvX0xqZkdQdzRzMk1OYm1jN2NCUk0tRVAxWmxmQ1V5?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
+      "text": "Oil climbs anew on mixed signals about Iran war's future",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1weWJIZ0dmT05CSVlQdjRMM1dHeF8zdGxMekFQMG9tWVo0VG1zRWJXMkRkNnNsczg2U1hkLTVVblNRUk9SdzRYR3JBUE5PSWdFZGdGclpKT05oSDJKUnYxXzF0WWN1cVVsNEpDbUpmbk1mZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 06, 2026",
       "text": "Live updates: Trump says ‘entire country’ of Iran could be taken out if no deal is reached by tomorrow",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CTXpWN2xQamtoU0dNZ3NCdEFJcjJkYkU2X3VrcjFNLXVUX2hybWk2eTdVWnVVb2NDeWJqNUFnVk9UOEppN2Nockczc1FQVkE4dFZrTy1VWWdKUk43M2E4UFNYZGxRSzNtbDVIc2gxc2pVZWRuS1p3?oc=5",
@@ -64,31 +85,10 @@
       "hot": false
     },
     {
-      "date": "Apr 06, 2026",
-      "text": "Hormuz Traffic Rises to Highest in Weeks as More Transits Agreed",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZG55QkdwelRLRXJuVkpWZkFnakt1N01rOVBlNlBIUFhBb2haM3RydlkwWmNiMjN2b1AzckkxdnhNZFB0LURQU0NMaGxQRlFvdFZJLVlJMEIxNXJUQ2dSOGtINmJUSmNwVHJ2dFU3UUNBVVdKTUZVMEd0VmVtRDBRODJHbHl4TVlSZHFxTFJiMjY0aktRUllGM1ZJaGt5b3FjcC1MRGpCazFyMkRHaDdoSjY3R051UQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 06, 2026",
-      "text": "Iran mediators make last-ditch push for 45-day ceasefire",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16QkpkNnc3SE1USXN1TEdocXNOQUdCQ0hRVWF6N0dCVlJ1YzlqS3FjZGxiSk5iUjRWYzhoVGhaTEJHaXhiLWNMbC1ROUlCZUlFX0Izd2ptc0I1UmZDN2EwcFQ4Znl3c3pOWHp1YmJkNGFWRXp5SUE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 05, 2026",
-      "text": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 05, 2026",
-      "text": "Iran says Iraqi ships can pass Strait of Hormuz as transits tick up",
+      "date": "Apr 04, 2026",
+      "text": "Iran war updates: Tehran rejects Trump’s ‘helpless, nervous’ ultimatum",
       "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORGRYSVZ6T1k3MUNKUmZnOUZsVkRsQ0trR3QzRmdQWWg4TDJCYnhEVy1tSm9RSU1GdWJ2ZmJmMlB1NzVaSW5XaWtlb1RYdzZfTzRSdUM4SmZzMVg4Ri13Qy1IRkh4QVBGS2owNGNXcTk4aXpiQWhXVWduTk1rcFBHR0l5S3FRaDFNQXBQd0NJUV9odDBGaHpLY0xjVlE2Zm1kQkgzQzJ1eXdOcGE2dDNn0gG0AUFVX3lxTE9Wd0YtZXFYTnBnRlBKMjRXYU1GV0JmYm51N0FUN05sNnh3R2tOckFmemtvWElOajQyWFo1T3JsX2U0RS1aWWhrX2J6OFNLSk0tM3lYZXAtbl81ZHI1cjZZZ3FMeW84SGlKSHdyb0VHVV9MT3E4NGpDWU1FbF9LV0QzQWM0dFhOTGdWYUNBM0QxTWQ1ZzEtQ0JkNFRLVkFYZF8xTkhqb3B2a2VyYmlYeFBrMjRyUg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
       "hot": false
     },
     {
@@ -164,7 +164,7 @@
           "updates": [
             {
               "date": "Apr 06, 2026",
-              "text": "Reports confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. No confirmation of direct attacks on Gulf oil fields or US bases.",
+              "text": "Reports confirm Iranian retaliation involving Houthi escalation and threats to the Bab el-Mandeb Strait. No confirmation of direct attacks on Gulf oil fields or US bases is present.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -255,12 +255,6 @@
           "updates": [
             {
               "date": "Apr 06, 2026",
-              "text": "Headlines indicate US ground operations are underway in Iran, and Iran is strengthening its control over islands. However, 'oil fields seized' isn't explicitly confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
-            },
-            {
-              "date": "Apr 06, 2026",
               "text": "Headlines indicate US ground operations are underway in Iran, but do not explicitly confirm oil fields have been seized or an advance has halted.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
@@ -268,6 +262,12 @@
             {
               "date": "Apr 06, 2026",
               "text": "The NYT article confirms Iran strengthened its hold on islands, potentially related to oil fields. US ground operations are underway, but seizure isn't explicitly stated. Advance halting is not confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
+            },
+            {
+              "date": "Apr 06, 2026",
+              "text": "Headlines indicate US ground operations and Iran strengthening control of islands, suggesting a partial seizure of oil fields and halted advance, but no definitive confirmation of complete seizure.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
             }

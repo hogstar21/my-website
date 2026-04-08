@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 08, 2026",
+      "text": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 08, 2026",
       "text": "Iran Update Special Report, April 7, 2026",
       "source": "understandingwar.org",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUkhNMlBmVWt6WVdZeG5nQzQxM01NRkkzWF9uTC15c2pHUVN5NGJlSWNCZjM3Tmtya3BxTURpNV9HWnIzOVhPa2RIY2RQQ1Q4QXkyTExnODB4bWV0NHQtVElBckR5RWV1a0cxUUVZS05fYUxBSktUdzRkclBybWFtX29DeWNJRVlXdmNFVEhweU5XNmxz?oc=5",
@@ -99,16 +106,9 @@
       "hot": false
     },
     {
-      "date": "Apr 07, 2026",
-      "text": "Live updates: Trump agrees to two-week ceasefire with Iran",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhWFZGR0E3MXR4Wml3RTZSQkhMQTMzbnkxNjhkSGpoOWFEODRUN3BoT3IxY1lLanZ2dHhsMkVoNl9Xek9PWWNZQWFvdDduMkc2bkVad2dUMjhvbVNSQ3gzZE9RQmRYR094c09GMW9hMjRsWkU1RmpIZjRKcw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 01, 2026",
       "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
-      "source": "Stars and Stripes",
+      "source": "stripes.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWxCUE4yTW5oVThqMTFTYTFFRnR3Tk1WdTUtNkpESkplQnQ1ME9SZHd0SUx0c3dNaG5nT3plUlFyVzk2amI1RVZ0Z2NRV21PbnBvY1d6a3hiWGtuYlpJTlJaOXlkZnpYYU5wQndXSzdRVUhyak5Od205OGM5OUxVZVBGTzNqbG9PMGJEckJ5SU5iZw?oc=5",
       "hot": false
     }
@@ -170,13 +170,13 @@
             },
             {
               "date": "Apr 06, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi escalation and strikes on Gulf states, but lack definitive confirmation of attacks on *all* Gulf oil fields or US bases. Bab el-Mandeb blockage is also suggested.",
+              "text": "Reports confirm Houthis are preparing to close Bab al-Mandeb and Iran has retaliated, but claims of attacks on Gulf oil fields and US bases remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             },
             {
               "date": "Apr 06, 2026",
-              "text": "Reports confirm Houthis are preparing to close Bab al-Mandeb and Iran has retaliated, but claims of attacks on Gulf oil fields and US bases remain unverified.",
+              "text": "Reports confirm Iranian retaliation involving Houthi escalation and threats against US bases and infrastructure, but direct hits on Gulf oil fields remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -245,6 +245,12 @@
               "text": "Deployments and discussions of potential actions against Iran are increasing, but no headlines confirm an amphibious invasion has occurred or failed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
+            },
+            {
+              "date": "Apr 07, 2026",
+              "text": "Deployments and discussions of potential operations involving Marines and naval assets suggest heightened tensions and planning related to Iran, but no invasion has been confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
             }
           ]
         },
@@ -266,16 +272,16 @@
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
             },
             {
-              "date": "Apr 05, 2026",
-              "text": "Several headlines discuss potential US operations targeting Iranian oil infrastructure, including Kharg Island. However, none explicitly confirm oil fields have been seized.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
-            },
-            {
               "date": "Apr 06, 2026",
               "text": "Headlines indicate US planning to seize Kharg Island and potential ground operations, but no headline confirms successful seizure of oil fields or a halt to the advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazJPd0Y3aTZKWVJUMkFUM2JjalF3Q0tpUTE3UHB4ckZkMHU5RnhBZzRBSVNHb2V6cEY4RzQ0VFVoRi1zVUNvcHZhS1VpV1Vnc19yWjJReVpXX1I4eGllVmZqRXI0bHRoeU9LSTZmSWFnVDNoNE5YWWZiaVdKX243eHU1ZGxIX3dobFg1V2tyQzJ1ODR4MHZVa0pVSlIzOTFaRzh2YXl5TEtFdw?oc=5"
+            },
+            {
+              "date": "Apr 05, 2026",
+              "text": "Several headlines discuss potential US operations targeting Iranian oil infrastructure, including Kharg Island. However, none explicitly confirm successful seizure of oil fields.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
             }
           ],
           "changed_at": "2026-04-06"

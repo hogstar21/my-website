@@ -86,15 +86,15 @@
     },
     {
       "date": "Apr 07, 2026",
-      "text": "US military assets in the Middle East: Ships, planes, and 50,000 American troops",
-      "source": "FOX 5 Atlanta",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHh5ZElBZlVKdGdwWmZhN2VTR0dLelVONlcxd0pEWXdLSFAzOUFxVlBHcUpfbnUwX0pDaHo2WkxlbGNZNzNhOThrN3JUcDJBUFdwR0FUSXJVN1E5WGdCNlhHSVZfNWFNY0xYY3JwU27SAXZBVV95cUxOQWsxU0F1T0h5NUhGOGIta29BMnM5Um40aFNKbk9TTGIzLTI3UHVka3A1ZzdBY0FmSUpSUjgxZC1ndzdYSTIwM2tFZzdQazZIZWtpRk1QMHhESk9rcjB4TnpKZ3JBLXVZR2VBZG9PYkJsWUs3alNR?oc=5",
+      "text": "Oil prices plunge after Iran agrees to safe passage through Strait of Hormuz during ceasefire",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOak9leTJMbGVibkQ3YUhWYkpsVUZETDdMSC16bENyOXFkUWhqVTQ0S2lBVDRzdmZfdTgtaUJJN2ZxeFJ3dXdIQ3JfbVBNRnBaajdKTEwxOUNkOWFja3BsTlFrZk9tNG1NRDZXM3BodWEzcTdlMkpidzBXNlNsNWVERnpBQkZmUW16NTVESEZ30gGTAUFVX3lxTE9nT2tialRaWXJtSVh1OWtqdnJ3ZzI4TWFuS0EzbjBPS2gtWHNwdDFUVlZhbXBGVEJTOExsWDNHclAzOVhPV24yYW1fWDJ5bElqNW5FMllPdy1manp6N0x0eHNYc0xHbWVQSWxjRTdUaHhPbDdVSjROQWJYSXRvRUlKeXZDOTBDRTFaWjVKUENhR3NrVQ?oc=5",
       "hot": false
     },
     {
       "date": "Mar 31, 2026",
       "text": "USS Boxer Amphibious Ready Group, 2,500 Marines arrive in Hawaii on way to possible Middle East mission",
-      "source": "Stars and Stripes",
+      "source": "stripes.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWxCUE4yTW5oVThqMTFTYTFFRnR3Tk1WdTUtNkpESkplQnQ1ME9SZHd0SUx0c3dNaG5nT3plUlFyVzk2amI1RVZ0Z2NRV21PbnBvY1d6a3hiWGtuYlpJTlJaOXlkZnpYYU5wQndXSzdRVUhyak5Od205OGM5OUxVZVBGTzNqbG9PMGJEckJ5SU5iZw?oc=5",
       "hot": false
     },
@@ -169,10 +169,10 @@
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             },
             {
-              "date": "Apr 08, 2026",
-              "text": "Houthis are preparing to close Bab al-Mandeb, indicating partial fulfillment of the claim. No confirmation of attacks on Gulf oil fields or US bases is present in the headlines.",
+              "date": "Apr 07, 2026",
+              "text": "Houthis are preparing to close Bab al-Mandeb, indicating partial fulfillment of the claim. No confirmation of attacks on Gulf oil fields or US bases is present.",
               "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF0?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
           ]
         },
@@ -236,7 +236,7 @@
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Deployments and discussions of seizing Iranian islands suggest heightened tensions and potential military action, but no headlines confirm an amphibious invasion or resulting casualties.",
+              "text": "Deployments and discussions of seizing Iranian islands suggest heightened tensions and potential military action, but no confirmed amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
             }
@@ -297,12 +297,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 08, 2026",
-              "text": "While the US is signaling a military campaign wind-down and facing domestic pressure against war, it remains engaged in conflict with Iran and hasn't definitively split or fully retreated from the Middle East.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmNmZ3ZfeW53ODB2R09CS211TVJFSVlLdmppMmFoMkFvUlJaRE9mX19ic3UxQjVoQnZnTmdRa2JwaHBxQWxFSG52ZTRDYmRlVVJRc3g5d21rcWZnMEhVUXBrOHpycjdOeFh3WUFPXzI4bkJtcUNjWjNGQ0k0c0FSR2dJc1NReEFiTkRXbzFyTHNGaWhiRlZ1b19WYVk0OHfSAaQBQVVfeXFMUGxCaVhIQnVsMExfbWJ1ajZ6X0ZicHZvSml3RXJtZ3B1dHlJR19HVG85d1RZZTZfSGVmQnNTdnJmVHhOZHJISV9TVHpoeGxVWlRDaUdVQzdDN25vWUdCQ0xUUlB1RkFXX0pVWktIZHh1TlFQRzh5VlJuX1NoSUF6dnJnWXhyR1Njazc1eVB1alNLc29jcEV2TXFfOHhGWDNqbWJuTWw?oc=5"
-            },
-            {
               "date": "Apr 03, 2026",
               "text": "U.S. troop withdrawals and signals of a military campaign winding down suggest a partial retreat from the Middle East, but a full split hasn't been confirmed.",
               "hot": true,
@@ -313,6 +307,12 @@
               "text": "Reports indicate US troops abandoning military bases and a continued, albeit scaled-back, military presence in the Middle East. A full split hasn't occurred, but withdrawal is evident.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5"
+            },
+            {
+              "date": "Apr 08, 2026",
+              "text": "While the US is de-escalating tensions and considering winding down involvement in Iran, there's no confirmation of a split or full retreat from the Middle East.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmNmZ3ZfeW53ODB2R09CS211TVJFSVlLdmppMmFoMkFvUlJaRE9mX19ic3UxQjVoQnZnTmdRa2JwaHBxQWxFSG52ZTRDYmRlVVJRc3g5d21rcWZnMEhVUXBrOHpycjdOeFh3WUFPXzI4bkJtcUNjWjNGQ0k0c0FSR2dJc1NReEFiTkRXbzFyTHNGaWhiRlZ1b19WYVk0OHfSAaQBQVVfeXFMUGxCaVhIQnVsMExfbWJ1ajZ6X0ZicHZvSml3RXJtZ3B1dHlJR19HVG85d1RZZTZfSGVmQnNTdnJmVHhOZHJISV9TVHpoeGxVWlRDaUdVQzdDN25vWUdCQ0xUUlB1RkFXX0pVWktIZHh1TlFQRzh5VlJuX1NoSUF6dnJnWXhyR1Njazc1eVB1alNLc29jcEV2TXFfOHhGWDNqbWJuTWw?oc=5"
             }
           ],
           "changed_at": "2026-04-07"

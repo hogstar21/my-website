@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 09, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ybUhqaVNMdWZkQ3AxSkZvelVtRlJlRjBJckJwUE9yNEN2cldLaFZUVUIwWHk1QzFJMXl5Q0hBQzhVS0xkNllVSnJ1cmt6b2VoV0tpSE8taGdKUkg3NlNRWHJ2N0gycFRHNWwwN2RKM1JQQlh3a2FjSWNzcWdvbTQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 09, 2026",
+      "text": "Oil prices hover around $100 as concerns about U.S.-Iran ceasefire persist",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQVFDZWh3cHgyNmVCdWdIMTE3QXFfREdZY1NCRHV4VmJKbHlMaENlbDRhOTNmVlp3VjlLRGZQQ1BSSHh0ejdZRk4zd1QtRG9JVGhTT3FLTlFMcUs5S3hKRWVRMTEyVmpUMWE0UXhOVnprblVoeXpOazRPQ2ZxTWxuVTJ6dmY3bU5xekZB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 09, 2026",
       "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WVdrUzAtbXJoMFBfb3VYWnJZS2M5TVlJYVJ6anZMRmtUak9ITURsNU9QRWY0djJfc2dNQWVpaHhmak1QN1Nmd3ctWWJ6a1k3Tl9iOWJQdkdURTNNc0ZnUHpzQTRzVllkaC10dzRyZEZwc2Q1anJZRHh3alM4Qkk?oc=5",
@@ -86,30 +100,16 @@
     },
     {
       "date": "Apr 08, 2026",
-      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhWFZGR0E3MXR4Wml3RTZSQkhMQTMzbnkxNjhkSGpoOWFEODRUN3BoT3IxY1lLanZ2dHhsMkVoNl9Xek9PWWNZQWFvdDduMkc2bkVad2dUMjhvbVNSQ3gzZE9RQmRYR094c09GMW9hMjRsWkU1RmpIZjRKcw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 07, 2026",
-      "text": "Iran Update Special Report, April 6, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRTNzeXh1OGtqdU8xcnZfSUdrS19DcEpUdnItYkNfRTJLdlIzMTlTYVlTQ2NVZS0yR3NNcWdHVzFSbXA4aEJ6WWYyeGFzUXZPdFN4ajNYM0hRZVJSOWkxREY4X193akF5cnJjemJNdWIyMFJ2MWZnbExDcVJUNzhXSWlUMjZnODBLend1M05uVlpVODlT?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 07, 2026",
-      "text": "US strikes military targets on Iran's Kharg Island, US official says",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOGRwY2dBZmxXZklNdEYtNlIwU1NnSFc0a05RbkxIQWppT0pPaVFQQWgwRjdKRmhpMTNTMEdkZWFfbWVzUXg2b0tZdnppVHRBekVOeGtIajRud2JrQ3Jwdi1HV0xuNDNVUzZ2N21rSGVXeENGY256ZjdkYjNRVlIxbTJzbnVOTlZIYkZVV0VPOFFUUHZhVzJkT3VKQnNnbF8tQlVfSjcwZkhMc21XRUxGMk5mTVJGUnV5?oc=5",
+      "text": "USS Boxer Amphibious Ready Group back at sea",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
       "hot": false
     },
     {
       "date": "Apr 06, 2026",
-      "text": "SOUTHCOM Doesn’t Need a Carrier for Maritime Interdiction, CNO Says",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVJlSmdXeUd4dHFvWVAyWkd6eEM2UG9LQWd1eXN2U1BRODNqVGQyaTQ5Sjl2SjF4Q3dEVG84MkVsTXc2cVdTZzFNYTFqUEowR3pmc2tkdVRWeVAtekY3OF9XTmNXa2tTN00yZ2doYmRJVzk3VUV6SEVUZUlNTHpnVDFLR19Xbno0VlhxZ25NOS1FSWl6QnJFeTZ1d2Z4Rkk?oc=5",
+      "text": "First 6 Days of Iran War Cost U.S. $11.3 Billion, Pentagon Says",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTGw5aUtrTzQxdWVlMTRkOXFWVFEwQ3FKQXRROUxkQk5MU3A4WDM1MVZWdE50dU9kdEJmT3BhNHFrYjduTXZCNzR6Q3ROLWVDdVNaVTZKc1NwNWRHVGg0MHRBcUdZZ1o4TlNGQlFNTHJrOFlRREhRT0tHandWZFJ1dnRn?oc=5",
       "hot": false
     }
   ],
@@ -254,12 +254,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 05, 2026",
-              "text": "Pentagon preparations and fortification of Iranian islands suggest ongoing conflict, but no headline explicitly confirms oil field seizure or a halt to an advance.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
-            },
-            {
               "date": "Apr 06, 2026",
               "text": "Headlines indicate US planning to seize Kharg Island and potential ground operations, suggesting partial fulfillment of 'oil fields seized,' but 'advance halts' is unconfirmed.",
               "hot": true,
@@ -270,6 +264,12 @@
               "text": "Several headlines discuss potential US operations targeting Iranian oil infrastructure, including Kharg Island. However, none explicitly confirm successful seizure of oil fields.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVnpPMUhtSDNybDN6NGVNX1JnOGVmcFk5MHdZU19STm1Yd2p2dFpRNEJEaGxLVlpacTFVLXBtdjlmcjhuZ3Z4VGhobGlfQlRYenpQWmlxbWNabTlRSFVDdjRfbkV4UklrVUlseFpseExpUUlxbEhXdXVCZjJCcFowNEFmNFVnRTA0dU01aGRTREJ0bWJFN2RGWk1NWElJSUhOMVE?oc=5"
+            },
+            {
+              "date": "Mar 30, 2026",
+              "text": "Headlines indicate US forces are preparing to seize Iranian oil infrastructure, specifically Kharg Island, and have established a presence within Iran. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5"
             }
           ],
           "changed_at": "2026-04-06"
@@ -297,20 +297,14 @@
           ],
           "updates": [
             {
-              "date": "Apr 08, 2026",
-              "text": "The headlines indicate a significant US pullback from aggressive actions toward Iran, but do not confirm a complete split or full retreat from the Middle East.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmNmZ3ZfeW53ODB2R09CS211TVJFSVlLdmppMmFoMkFvUlJaRE9mX19ic3UxQjVoQnZnTmdRa2JwaHBxQWxFSG52ZTRDYmRlVVJRc3g5d21rcWZnMEhVUXBrOHpycjdOeFh3WUFPXzI4bkJtcUNjWjNGQ0k0c0FSR2dJc1NReEFiTkRXbzFyTHNGaWhiRlZ1b19WYVk0OHfSAaQBQVVfeXFMUGxCaVhIQnVsMExfbWJ1ajZ6X0ZicHZvSml3RXJtZ3B1dHlJR19HVG85d1RZZTZfSGVmQnNTdnJmVHhOZHJISV9TVHpoeGxVWlRDaUdVQzdDN25vWUdCQ0xUUlB1RkFXX0pVWktIZHh1TlFQRzh5VlJuX1NoSUF6dnJnWXhyR1Njazc1eVB1alNLc29jcEV2TXFfOHhGWDNqbWJuTWw?oc=5"
-            },
-            {
               "date": "Apr 06, 2026",
-              "text": "The headlines indicate a US consideration of winding down the Iran war and a temporary cease-fire, suggesting a potential retreat from the Middle East, but not a definitive split of the US.",
+              "text": "The headlines suggest a significant US withdrawal from the Middle East and internal political division, but a definitive split hasn't been confirmed. Ceasefire and GOP votes indicate shifting US policy.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5"
             },
             {
               "date": "Apr 06, 2026",
-              "text": "The headlines suggest a significant US withdrawal from the Middle East and internal political division, but a definitive split hasn't been confirmed. Ceasefire and GOP votes indicate shifting US policy.",
+              "text": "The headlines indicate a significant US pullback from the Iran conflict and consideration of winding down the war, but not a definitive split of the US or complete retreat from the Middle East.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5"
             }

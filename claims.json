@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 09, 2026",
+      "text": "Hormuz at near standstill as Iran warns ships to keep to its waters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbTJQR3N1VWw2dXc3bm5YbUQ1NkQwakVtMHNkbUtjVWU1VDlRWTdiSHhVNndZQk1nd3RXZm5RdjJnNE1OMmRZaFhNeF9TaWc2V2lNX1lLMmM3R080RTRlaVBfajZMQ09QQWVvcnRwWDkzQmFCSEZOMjE4LU9LWkxtaHQ4MlY4UFZJRUU2R3lGcU5Tdm1jTEgzMWdfYW00UG5xRjhWcks0aGZEcWFsam1VYWZSS3JUNzJVaWdsbXh3MFRNWWhPaTVhcmJOVU1OZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 09, 2026",
       "text": "Live updates: US-Iran ceasefire appears to hold despite Lebanon strikes and restricted Strait of Hormuz",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52blNYeUJqVzdkNlptS29IMmplcFQtbGIwOEhnTWF5MldwY1Z4WTVxSFJUbVJZMnhyWEpyeWgwMFdyMlVQU3FoRTBoNExxMXM4REJqSEpZZzNKaWZxd0Q3bURsVVpoaEZtRF9JcWVaRHJiT25JU1QybTNpQnpVN0E?oc=5",
@@ -92,24 +99,17 @@
       "hot": false
     },
     {
-      "date": "Apr 09, 2026",
-      "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
+      "date": "Apr 08, 2026",
+      "text": "USS Boxer Amphibious Ready Group back at sea",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 07, 2026",
+      "text": "Oil plunges, Dow sees its best day in a year after US-Iran ceasefire, but ‘hurdles remain’",
       "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WVdrUzAtbXJoMFBfb3VYWnJZS2M5TVlJYVJ6anZMRmtUak9ITURsNU9QRWY0djJfc2dNQWVpaHhmak1QN1Nmd3ctWWJ6a1k3Tl9iOWJQdkdURTNNc0ZnUHpzQTRzVllkaC10dzRyZEZwc2Q1anJZRHh3alM4Qkk?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 07, 2026",
-      "text": "Iran Update Special Report, April 6, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRTNzeXh1OGtqdU8xcnZfSUdrS19DcEpUdnItYkNfRTJLdlIzMTlTYVlTQ2NVZS0yR3NNcWdHVzFSbXA4aEJ6WWYyeGFzUXZPdFN4ajNYM0hRZVJSOWkxREY4X193akF5cnJjemJNdWIyMFJ2MWZnbExDcVJUNzhXSWlUMjZnODBLend1M05uVlpVODlT?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 07, 2026",
-      "text": "US strikes military targets on Iran's Kharg Island, US official says",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOGRwY2dBZmxXZklNdEYtNlIwU1NnSFc0a05RbkxIQWppT0pPaVFQQWgwRjdKRmhpMTNTMEdkZWFfbWVzUXg2b0tZdnppVHRBekVOeGtIajRud2JrQ3Jwdi1HV0xuNDNVUzZ2N21rSGVXeENGY256ZjdkYjNRVlIxbTJzbnVOTlZIYkZVV0VPOFFUUHZhVzJkT3VKQnNnbF8tQlVfSjcwZkhMc21XRUxGMk5mTVJGUnV5?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TMC1lTUpRV0VGWmRwNDFLTktBTlh1RExYWk5rWC1NcV9GQW5icmw3cV80VGVkV05sNlFaeVNqcW8ybVNNd083bEUydkl2SUl2N29vR19lVGU3N2Y3SHdkRUp5WTRCWVhxWHRab0ZtcENNaWpWRnpHN1lqeHhDQQ?oc=5",
       "hot": false
     }
   ],
@@ -170,13 +170,13 @@
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Houthis are preparing to close Bab al-Mandeb. No confirmation of attacks on Gulf oil fields or US bases. Ceasefire talks are ongoing.",
+              "text": "Reports confirm Iranian retaliation involving Houthi actions and potential Bab al-Mandeb blockage. No confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi actions and potential Bab al-Mandeb blockage. No confirmation of direct attacks on Gulf oil fields or US bases.",
+              "text": "Reports indicate Houthis are preparing to close Bab al-Mandeb. No confirmation of attacks on Gulf oil fields or US bases. Ceasefire talks are ongoing.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
@@ -236,19 +236,13 @@
           "updates": [
             {
               "date": "Apr 07, 2026",
-              "text": "Deployments and discussions of potential operations involving Marines and naval assets suggest heightened tensions and planning related to Iran, but no invasion has been confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
-            },
-            {
-              "date": "Apr 07, 2026",
-              "text": "Increased US military deployments to the Middle East and discussions of seizing Iranian islands suggest heightened tensions, but no confirmed amphibious invasion has occurred.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
-            },
-            {
-              "date": "Apr 07, 2026",
               "text": "Deployments and discussions of potential actions against Iran are increasing, but no headlines confirm an amphibious invasion has occurred or failed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
+            },
+            {
+              "date": "Apr 07, 2026",
+              "text": "Deployments of Marines and warships to the Middle East, alongside discussions of seizing Iranian islands, suggest heightened tensions and potential for military action, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
             }

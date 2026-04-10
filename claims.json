@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 10, 2026",
+      "text": "Opinion | A new poll shows the political risk to Israel from the war in Iran",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSU5semktUWlrUkVyNjdTNXNRb19tdHVQandVc0tTa2Zfd3F0V3dUXzNhREdnRDhQNlVwVHNkVE1mWlV2RXQyT0NzSmQxR3ZFcEFvTmNXY21LR285b1g1TW1nSDktZEhEbm16c0xiZi1ZamI4NU1IM2wwR3h6MWU2dU9qblNrYmtU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 10, 2026",
+      "text": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZXZnT3JSc2JpR25fN2ZQSEV4dUdEQWVCYkFIN3pCWU96Nm5CU29vNmZCVG42SEVramFvV0o5YWJpOEt5ZEFzNmM2TnBaX0hINGZ3emtHdWZVaTZZRlU4MkZ3alBiN01tYXNlWjg2X05MUWw3YXlXbG5WMFczV21EUUhGX29VM0t4R1NqbW14RmVOSkJnX3FIM2h0Rzh3cUxvS2gzcDRrcW9rRzhCQmVTdtIBtgFBVV95cUxQV2luX2hHTUwzQmZISHZfQzN3dzFjU0J3ZmpUSlM5cHhFS3FLMTBqcDd4Sk4yd19VUVl1eTBIb0dmb1lSaHplX1plUjN0VDlNRjNZZjVQczZHdEVaMlhWcUZ6TTVWQWNEal9ScWUwdThDWWpVU2laSUNhRE1FR1lSSDVpRmhVdks3MFhlMEFvWmdvVmVTVEVjRGhqMXBSYzdGWDZKY2xaRTdybWplX2dHQ3A4X2RvUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 10, 2026",
       "text": "Iran War Drives Deeper Oil Shock Than Prices Reveal",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVVvdVk5ZFo4QWFVdzZGY1hCSEtyNGxNdkNST2xGb0t3dmVWZXFpeGNLcFp4M0pkaTMyTF9KVGprTDVubXMwTnNpVkRMNEFSVkxndHlyQ3VyRl93bnYwTEc0TndWOG81MTF3MUpucWlieVFsek1neTVROUFQTFkwVlZsbUVQbkhoZGFZ?oc=5",
@@ -71,24 +85,17 @@
       "hot": false
     },
     {
-      "date": "Apr 10, 2026",
-      "text": "Trump questions Iran's handling of Strait of Hormuz as world leaders move to shore up oil supplies",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MSHVWUFJIdHZGQmJIOG05MWdYcjE4Z2FtQ0tCd002MW9rVDFTTUNPdzk5WFlCeGNFenRsVDJOeFo3SFlVT1ZSb2RFblE5Z3ZrdTFfTQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 09, 2026",
-      "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
-      "source": "Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjNNQVA2QkRaSTV5S1drZE5yb1pCRVNxLVBORWVrWnZTTUV5am5QSDhRLUd1dEF5WE1OeFQ3Y1FLNnhGT19rSFRmai0tb1QxTFR4UmNYYWlEZnRKdG9tZDMweFFhdnZqV1BGR2o0bFBpTGxKb0VWeHRqb0hpVUJUTXE5dGVETmd0V1VMaVU3WjZXYUR0MUwycl94b0NlSkFrbkRlOWxHTQ?oc=5",
+      "text": "Iran Update Special Report, April 9, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDRNWkRreGVKNFAzT21iTUlJekMxc0FGa0FlZGtQYzFPeGxiZjRwRGU3ODB6VjlWaFJaUzUwN19wZDlUOW9ZRHp4akJ2OU1hNkdnWElfTm9vdFRNRnRFOEJqYjNVOWpLdTRsVXV2aS1YLVI4cUV6X25kZmJsV2lMdnJFZi1hMkJfNFk0MXdWLWpjazhj?oc=5",
       "hot": false
     },
     {
       "date": "Apr 08, 2026",
-      "text": "USS Boxer Amphibious Ready Group back at sea",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
+      "text": "World welcomes US-Iran ceasefire, urges lasting peace in the Middle East",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWYxTWJaSEIwOXNmcGZOOTlTb2VZZGJnNHZLSWFHaVJyRER5QUVWWEFpbUNXaXV1UUt0c0tKcWRoMmhTMlY5MGh6emJWYWotdnZ6TUtwX3BxMmpiRUlCbUM3SHBKWld5eE1wME5sLWtjMDlTVVhOazQwN0xNeHl2Z2lPRHllc3V5b3JyTTdzeWF6eGsxY29zZE1sblJWYjVZNjV1NktKdG9KbUE5a3hqbdIBtgFBVV95cUxPaE5xc1ZPZmZlWkJHY3FHa05yNEw2T2VMaERQNmJmUEcyZjJPZnl3WjJXOFhjYWVJRmNRdm5XNjNmYms4ZDdmMW1udUtDczhFTUphdUNpTWZSemJfdjdKcWJUa3k4eFI0Mzl1eVB4UGhmckpqaks3NFNNTzVBeUNvVF91UGRsaW1ES1N4dlNta0NZSUo0MFlVUU5TRkpIU29LYUF2REd5bmFLa3lIaWxmSy03NGJnQQ?oc=5",
       "hot": false
     },
     {
@@ -103,13 +110,6 @@
       "text": "Iran War Maps: Tracking the Mideast Conflict",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uUWpBOUw3b05zUlRrZFVqbThvSTc1elBsdzItdm4tR0M0eUYzSWN1Qm45RGp0R0pLbzJLekxiZ3JBODRlSjB5T2hIMThDVG12NG1zcnVKYzJNYnhqdFE0MVUtcU5VUWR1UkJ6dWthdVRvcW5t?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 03, 2026",
-      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     }
   ],

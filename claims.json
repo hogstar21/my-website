@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 10, 2026",
+      "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52blNYeUJqVzdkNlptS29IMmplcFQtbGIwOEhnTWF5MldwY1Z4WTVxSFJUbVJZMnhyWEpyeWgwMFdyMlVQU3FoRTBoNExxMXM4REJqSEpZZzNKaWZxd0Q3bURsVVpoaEZtRF9JcWVaRHJiT25JU1QybTNpQnpVN0E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 10, 2026",
       "text": "Trump says Iran's handling of Hormuz strait is 'not the agreement we have'",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MSHVWUFJIdHZGQmJIOG05MWdYcjE4Z2FtQ0tCd002MW9rVDFTTUNPdzk5WFlCeGNFenRsVDJOeFo3SFlVT1ZSb2RFblE5Z3ZrdTFfTQ?oc=5",
@@ -92,13 +99,6 @@
       "hot": false
     },
     {
-      "date": "Apr 08, 2026",
-      "text": "USS Boxer Amphibious Ready Group back at sea",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 07, 2026",
       "text": "U.S. Strikes More Than 50 Military Targets on Kharg Island",
       "source": "WSJ",
@@ -106,10 +106,10 @@
       "hot": false
     },
     {
-      "date": "Apr 06, 2026",
-      "text": "Iran War Maps: Tracking the Mideast Conflict",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uUWpBOUw3b05zUlRrZFVqbThvSTc1elBsdzItdm4tR0M0eUYzSWN1Qm45RGp0R0pLbzJLekxiZ3JBODRlSjB5T2hIMThDVG12NG1zcnVKYzJNYnhqdFE0MVUtcU5VUWR1UkJ6dWthdVRvcW5t?oc=5",
+      "date": "Apr 03, 2026",
+      "text": "Tracking US military assets in the Iran war",
+      "source": "Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeG1rTGw4QzQwOUpxbkIzWHZKTFBWc3VwTzBGTWJsaWFoOEtwRzlseVhMY1NMWkxWWmd4S0U1N2FUem5QWEN6b2FHYkdWMURvMXhzMDJLZk1Sc1oxbEFrUl9fSkpGdWwxN2F3Z2dlSmg3aWhvM3J2ZkpNZFp5a0VLV25ITkhNVDAwVG5wU2pZV3BSZFNmN25yWHhyUER5ZklLamF6clE3RmhyVlFXOXA5UVg1RlFOODY3ekVldQ?oc=5",
       "hot": false
     }
   ],
@@ -173,6 +173,12 @@
               "text": "Reports indicate Houthis are preparing to close Bab al-Mandeb, suggesting a partial fulfillment of the claim. No confirmation of attacks on Gulf oil fields or US bases is present.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
+            },
+            {
+              "date": "Apr 06, 2026",
+              "text": "Reports indicate increased tensions and threats, but no definitive confirmation of Iran hitting oil fields or US bases. Bab el-Mandeb is a focus of conflict, but control is unconfirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
           ]
         },
@@ -242,7 +248,7 @@
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Deployments and discussions of potential actions against Iranian islands suggest heightened tensions, but no confirmed amphibious invasion or resulting casualties have been reported.",
+              "text": "Deployments and discussions of seizing Iranian islands suggest heightened tensions and potential for escalation, but no confirmed amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMXljSFBsVjUwY29VTVQ1ei1BN3g1QzBuVGlFQ2s1TWNVbURPY3BtSkFMQVY1UnpDdHFQYUlMNHBucE1uOEE1TmlaMVFVSUV5TkppTzUzakxqQk1Jc285X2MxZ3BiTF9lYlNyQjVyZlVXM3Q2ODdQQ2xNYk1pdWQwSElZZ0J3ZkhWNWtvYm51RlBERzlFZmRubDJ1UlAwcVRZYlpIeXppcGltRlU?oc=5"
             }
@@ -303,12 +309,6 @@
           ],
           "updates": [
             {
-              "date": "Mar 29, 2026",
-              "text": "The headlines suggest a significant shift in US policy regarding the Middle East, including domestic opposition to conflict and a temporary cease-fire. However, a definitive split and full retreat are not confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMC10Vk9VdzlWVC1zTmNqcFFCTnA5Qm1GeUh2Q2d5UEw3N1RYUk9qNFRVTWNOUzkxSHhLS29FR2lHLXJPMW4tMHdEZXBMT0l5RlZqR2ZYcE5kenN2QXlqS3RnOHp3ekROVW9uSVR0VDlLczlNckdmeWdZSjk0TTVnZng3RzRuQnRNdll5Q2pRWQ?oc=5"
-            },
-            {
               "date": "Apr 06, 2026",
               "text": "U.S. troops abandoning military bases and a 'double-sided cease-fire' suggest a withdrawal from the Middle East, but a full split of the US isn't confirmed.",
               "hot": true,
@@ -319,6 +319,12 @@
               "text": "U.S. troops abandoning military bases suggests a withdrawal, but 'splitting in two' and complete retreat are not confirmed. A temporary cease-fire doesn't equal a full withdrawal.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5"
+            },
+            {
+              "date": "Apr 07, 2026",
+              "text": "The headlines indicate a significant de-escalation of US involvement in the Middle East and a temporary pause in conflict with Iran, suggesting a partial retreat. A full split of the US is not confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3RCLUZadTZNRE1fVnI1TXpJUnZBQmJVV0k1dkk3Sm0xTDR3UEpjeDM4RGtXeUZxZkZtM2I4MU1jUnN4OWZvejBMYU11YVVOMndyNEJfbTIydGFBT1RLZWJxRkxEY1dZSnhYdlg0QTlQdGg0UXFYRGNkMm1JNGhOYm8xLXBvWWRSbVFpTVRuWThHRXhmcjF3bGxwdlZxblIxLUcxck82UFBOallqMTY5NdIBuAFBVV95cUxPWmlCYTVYTWcwVWM4d0RucFhBZXdoQnZHbklrQTZ0bWw2MGVTbVVOaldzaHl0QkozS2RSRFBjMTVLLVNUbjJsalBHcEotWVdRQUJ5MlZ3NVNjNXZjMlVWb2w1RXdLYnpGZVBmTkNpbkx4aENjZHJmOHVDOVpuX01laHdYNjJ5NGQtQlQtVjQwRE0tdDRoM2FUeUVLY0tHX25mcTk0Q3RkQVdTT0kydEVMUkRzNXFsYUxk?oc=5"
             }
           ],
           "changed_at": "2026-04-07"

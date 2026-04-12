@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 12, 2026",
+      "text": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTNYWUpHMzRsOFlrNlVuTjRxZWVrX3o5VGxRSVpfeFVpN2U3OXdsM08teFRnN2NyWDRQaktrUWZlenVZSzlQNE94QkJrdUU0bjQ3d2lZOEN1WDRqX053OUhtY3FxcmRiWEpMNVVzQWp2X3U1aUZlcUZKYm1hQlBQWS1IVHVBdw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 12, 2026",
       "text": "US military says blockade of Iran's ports to begin Monday, after Iran says it will not 'surrender'",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyV09tbUFGak5zQjF6RUxFU2JDZVpFTmMzc1owZ1ZhLWRYYVp6enpjTGozSUtFb0dtM0NGRTNReEVNdkNreTlZQ2k0T3NjVVZET1NjcQ?oc=5",
@@ -78,13 +85,6 @@
       "hot": false
     },
     {
-      "date": "Apr 10, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 09, 2026",
       "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
       "source": "Time Magazine",
@@ -92,17 +92,17 @@
       "hot": false
     },
     {
-      "date": "Apr 09, 2026",
-      "text": "Israel Strikes Hezbollah in Lebanon as War With Iran Escalates",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwbTNjX0ZCZWN3R3Qzc2RLOGMyeV9GUTdUWUN4S0djNWtrcTFhVS1zWGYwdC1hdjFsSzI3a3lIWFVjRlZGNVYtcVZVMmNVcmpGSmtaaVN4MnR5akhRQlBwVHgyQVBtVkVzdzFlbmdqZG13MHdKMGZPeVhWcFA?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 07, 2026",
       "text": "US has struck Iranian military targets on Kharg Island. Here’s what we know about it",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWk0bVpseU1tNW9rall3SzNkX3ctZmUxQzJ1SFk5YWFPbVBmMnZmNzcxVnY3c1A4SnpSRWp0VmdtcURYTVZCcU5yQ1Bma204OGhNS1djNlFuR2wyeWpnb28zU00wakRjeWZMeEVnb0h5bzlaaVoyTlFZT0pTb3hybHFQU0Z3R3U0?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 03, 2026",
+      "text": "How the War with Iran Ends",
+      "source": "War on the Rocks",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HbVI0WjZZd2NOR3dNMHNYWmNFelV5Szgyd21BNjEtRW52c01jLTZPUlNCaWhLYVBEY1ZoVWM1emxHUThFX1ZzbFc4Um93M3ZNNHI3Qkk0UXBvX0JzRFpFNlFqckRDaFFIZ3ItRVl3?oc=5",
       "hot": false
     },
     {
@@ -163,12 +163,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 06, 2026",
-              "text": "Reports indicate increased tensions and threats, but no definitive confirmation of Iran hitting oil fields or US bases. Bab el-Mandeb is a focus of conflict, but control is unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
-            },
-            {
               "date": "Apr 07, 2026",
               "text": "Reports indicate Iran retaliated, and Houthis entered the war, suggesting some actions occurred, but not a full 'hit' on all oil fields or bases. Bab el-Mandeb blockage is unconfirmed.",
               "hot": true,
@@ -177,6 +171,12 @@
             {
               "date": "Apr 07, 2026",
               "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
+            },
+            {
+              "date": "Apr 07, 2026",
+              "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
@@ -305,6 +305,12 @@
             {
               "date": "Apr 09, 2026",
               "text": "The headlines indicate a significant pullback of US threats and a fragile ceasefire, suggesting a retreat from aggressive Middle East policy, but not a complete split or withdrawal.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 09, 2026",
+              "text": "The headlines indicate a significant US pullback from the Iran conflict and internal disagreements regarding military orders, supporting the 'partial' status of the claim.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 13, 2026",
+      "text": "Iran war live: Trump threatens Iranian ships as US naval blockade begins",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 13, 2026",
+      "text": "U.S. naval blockade taking effect as Trump demands Iran end nuclear program",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFhoMDRaMTFyTy1BejgxRXhBYS1ZTDE3WUtwenNnQmZQN0o1NkpIYnZKNnNGN1Ewa1U1R3J5ZFotV04yV2hXS1JmaFdVOUVLYndKY0JEQTZabXkwLVdOeW1ZaVMtVFlzMUFjOWt3QWNrNkEtUWUybGFRVmZ6My1DVEdhT24?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 13, 2026",
       "text": "US blockade of Iranian ports takes effect as Trump threatens to destroy 'attack ships'",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
@@ -57,38 +71,24 @@
       "hot": false
     },
     {
-      "date": "Apr 13, 2026",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sTkFITWpPeWlIbUk4Y2lyRGNqZWQ4UDV4M0pNT3kxSjF3UlY3RERDRGFSTndUSGRaeHJiSWN1aEVNYlFTS2NjT3RQM3NzQjJMSTRrd3hBUngxNGFOT0pQZGFVU1duek12S2FnSEFNRlRYOWlzaFJ3TndRVURBZHc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 13, 2026",
-      "text": "Military Escalation in the Middle East: Reversals in Global Development, Policy Response Options (13 April 2026)",
-      "source": "ReliefWeb",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeTliZDhtSVVUZUpaN0dBa3E3X3RUMERETWgzbDg1UHJuckFORVlTdm51MnhzU3hiZW5tZkR0TDhzWHczRGpCdXNCWHBDbF9DbHhQcXBjYzlzZXpQeWZFdkxHOUh4cURyM25sNXNUQ2hqSTFuc2R0QXY5YU5pNkFIM2Z4T011UmQ4LTI4VUpPYUl1OFhkblVMUHhGUzduZ0NjNG1WSGJ4YXprUHRiNklaNGc0ZmNpVURXcXAwR0VPQlA2enJJMFJUMnh2djV0UQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 13, 2026",
-      "text": "US to blockade Iran's ports from Monday, as Trump says he doesn't 'care' if Tehran returns to talks",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
+      "date": "Apr 12, 2026",
+      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?oc=5",
       "hot": false
     },
     {
       "date": "Apr 12, 2026",
-      "text": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTNYWUpHMzRsOFlrNlVuTjRxZWVrX3o5VGxRSVpfeFVpN2U3OXdsM08teFRnN2NyWDRQaktrUWZlenVZSzlQNE94QkJrdUU0bjQ3d2lZOEN1WDRqX053OUhtY3FxcmRiWEpMNVVzQWp2X3U1aUZlcUZKYm1hQlBQWS1IVHVBd9IBiwFBVV95cUxNUXRITzgxbTJ1a1VkRXBjMFJpVjUwLXhsZkNXQnpEcThuSE1lNVhBd2xLdXV5N3l2c3d4ZUl1R0JvZzAyNlhUSzhuRWFxM3d0d3Q2cDE0dUVsRTFBaEotNTZVYmxPX0hLaHQyMVk0WENiRWs0d2Q1SGp2NzJveGYxbi1aZEN0N3VSbjNn?oc=5",
+      "text": "Iran Update Special Report, April 11, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcjNjM1NpZWxreEE0dUl1UG5Rd1RDZW12VXBWMGxOVTZhVjJZSGhFcVNlbnJLRVU0SlRBWTRSbnA5Qlo3Snc1WGFneTFGdjJackJRbENTeEpvM3NDZjRvZ25Xc2NOajZBOVJhVld1WGE4LW0wVEh5VVRqYmN3TlctbHpJcFlTSzV4R1dULV9SZzZWX21id2c?oc=5",
       "hot": false
     },
     {
       "date": "Apr 10, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "text": "Tracking US military assets in the Iran war",
+      "source": "Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeG1rTGw4QzQwOUpxbkIzWHZKTFBWc3VwTzBGTWJsaWFoOEtwRzlseVhMY1NMWkxWWmd4S0U1N2FUem5QWEN6b2FHYkdWMURvMXhzMDJLZk1Sc1oxbEFrUl9fSkpGdWwxN2F3Z2dlSmg3aWhvM3J2ZkpNZFp5a0VLV25ITkhNVDAwVG5wU2pZV3BSZFNmN25yWHhyUER5ZklLamF6clE3RmhyVlFXOXA5UVg1RlFOODY3ekVldQ?oc=5",
       "hot": false
     },
     {
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Iran retaliated, and Houthis entered the war, suggesting some actions occurred, but not a full 'hit' on all oil fields or bases. Bab el-Mandeb blockage is unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
-            },
-            {
-              "date": "Apr 07, 2026",
               "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
@@ -177,6 +171,12 @@
             {
               "date": "Apr 07, 2026",
               "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
+            },
+            {
+              "date": "Apr 07, 2026",
+              "text": "Reports indicate Iran retaliated, and Houthis entered the war, suggesting some actions occurred, but not a full 'hit' on all oil fields or bases. Bab el-Mandeb blockage is unconfirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
@@ -304,12 +304,6 @@
           "updates": [
             {
               "date": "Apr 09, 2026",
-              "text": "The headlines indicate a significant US pullback from the Iran conflict and internal disagreements regarding military orders, supporting the 'partial' status of the claim.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
-            },
-            {
-              "date": "Apr 09, 2026",
               "text": "The headlines indicate a significant US withdrawal from active conflict in the Middle East, specifically concerning Iran, but not a complete split of the US.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
@@ -317,6 +311,12 @@
             {
               "date": "Apr 09, 2026",
               "text": "The headlines indicate a significant US military engagement in the Middle East and internal debate about ending it, but no definitive split or complete withdrawal has occurred.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 09, 2026",
+              "text": "The headlines indicate a significant pullback of US involvement in the region, including de-escalation of threats and a ceasefire, but not a complete split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

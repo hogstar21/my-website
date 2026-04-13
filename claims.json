@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 13, 2026",
+      "text": "Military escalation in Middle East could push more than 30 million people into poverty worldwide, UN Development Programme warns",
+      "source": "UNDP",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQUY2bUdsdVBGbzF3eXFORTlnY3VUTjFqQklrYjdSQnVzM3NMSUFnTWZBM2Jjd0FNbTFvWjJmbGM0QkFPSXgyQ29RMWRnTk9GX0N0WWc1OVhmRzl6THh4N1o0QktOaVY1d3U5NG42ZFB2cDdQb29rUzl1Q0VCMW0yNXllX3JWTkFYeGZNWUxKa1BpSlI3UU1WdWhqaWhFLUNWTlgwVTFva0hXRVduQlRMdEpvR1NFTVY0REZjN2Zwei1taHpsVi1QcEgzR3JVUEdiaUIwV0FwUmxqbWcwOGctdktxc3Q?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 13, 2026",
       "text": "Day 44 of Middle East conflict — Trump says US will blockade the Strait of Hormuz",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 12, 2026",
-      "text": "US military says blockade of Iran's ports to begin Monday, after Iran says it will not 'surrender'",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyV09tbUFGak5zQjF6RUxFU2JDZVpFTmMzc1owZ1ZhLWRYYVp6enpjTGozSUtFb0dtM0NGRTNReEVNdkNreTlZQ2k0T3NjVVZET1NjcQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 12, 2026",
-      "text": "Here's how a U.S. naval blockade of the Strait of Hormuz could work. 'This is a big task, and it's a big gamble'",
-      "source": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVaRDhoekptOGRKM1dOS1o4anI1TE5WNVlBUHdCQ1poR3JhU0JfUmx3OTNUZTRWOGoyZ3RRMUhDSnduVTZYSTBtVTE1TGJHblFQTUlBeXpYdWxwNGtSaEpfTXFwWjI2LWRQa01ZTUZoOVdHUnFJa054TXpJeFA1amZkSGtkRFhyUVU1VGdnUlQ4bUN5NTVQYmJGaUtWUzZmcUJWSjlZRlJISE0?oc=5",
+      "date": "Apr 10, 2026",
+      "text": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZXZnT3JSc2JpR25fN2ZQSEV4dUdEQWVCYkFIN3pCWU96Nm5CU29vNmZCVG42SEVramFvV0o5YWJpOEt5ZEFzNmM2TnBaX0hINGZ3emtHdWZVaTZZRlU4MkZ3alBiN01tYXNlWjg2X05MUWw3YXlXbG5WMFczV21EUUhGX29VM0t4R1NqbW14RmVOSkJnX3FIM2h0Rzh3cUxvS2gzcDRrcW9rRzhCQmVTdtIBtgFBVV95cUxQV2luX2hHTUwzQmZISHZfQzN3dzFjU0J3ZmpUSlM5cHhFS3FLMTBqcDd4Sk4yd19VUVl1eTBIb0dmb1lSaHplX1plUjN0VDlNRjNZZjVQczZHdEVaMlhWcUZ6TTVWQWNEal9ScWUwdThDWWpVU2laSUNhRE1FR1lSSDVpRmhVdks3MFhlMEFvWmdvVmVTVEVjRGhqMXBSYzdGWDZKY2xaRTdybWplX2dHQ3A4X2RvUQ?oc=5",
       "hot": false
     },
     {
@@ -316,7 +316,7 @@
             },
             {
               "date": "Apr 09, 2026",
-              "text": "The headlines indicate a significant US pullback from Iran and related conflicts, but do not confirm a complete split of the US or a full retreat from the Middle East.",
+              "text": "The headlines indicate a significant shift in US policy regarding Iran, including discussions of winding down conflict and a pullback of threats, but not a complete split or retreat from the Middle East.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

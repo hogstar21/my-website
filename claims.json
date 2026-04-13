@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 13, 2026",
+      "text": "Iran threatens ports in Mideast as US military set to impose shipping blockade",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2dJQWY4QmxJblNkbFQxSFlCT0hwM2FCRFZqZTdSRUdhYjg5ZC1xdnNyQ0hueHZGbTVsajJFU1RZY2ZtNklYc0J0VUlVSnlTTzZOdi14eVBfTGdIZmFEaHptQVptTkdzSmNrck84RUZraFBDel9aUmxNeDI1OEg0a3NKNW1pbHJiVnI0TnA2TWtJbWo1bVpOeHE1Q1JxYXJPV09fSFp5ZnN2VXN1aVprdVMxemFMTzJRNnc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 13, 2026",
       "text": "Military escalation in Middle East could push more than 30 million people into poverty worldwide, UN Development Programme warns",
       "source": "UNDP",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQUY2bUdsdVBGbzF3eXFORTlnY3VUTjFqQklrYjdSQnVzM3NMSUFnTWZBM2Jjd0FNbTFvWjJmbGM0QkFPSXgyQ29RMWRnTk9GX0N0WWc1OVhmRzl6THh4N1o0QktOaVY1d3U5NG42ZFB2cDdQb29rUzl1Q0VCMW0yNXllX3JWTkFYeGZNWUxKa1BpSlI3UU1WdWhqaWhFLUNWTlgwVTFva0hXRVduQlRMdEpvR1NFTVY0REZjN2Zwei1taHpsVi1QcEgzR3JVUEdiaUIwV0FwUmxqbWcwOGctdktxc3Q?oc=5",
@@ -75,13 +82,6 @@
       "text": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTNYWUpHMzRsOFlrNlVuTjRxZWVrX3o5VGxRSVpfeFVpN2U3OXdsM08teFRnN2NyWDRQaktrUWZlenVZSzlQNE94QkJrdUU0bjQ3d2lZOEN1WDRqX053OUhtY3FxcmRiWEpMNVVzQWp2X3U1aUZlcUZKYm1hQlBQWS1IVHVBdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 10, 2026",
-      "text": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZXZnT3JSc2JpR25fN2ZQSEV4dUdEQWVCYkFIN3pCWU96Nm5CU29vNmZCVG42SEVramFvV0o5YWJpOEt5ZEFzNmM2TnBaX0hINGZ3emtHdWZVaTZZRlU4MkZ3alBiN01tYXNlWjg2X05MUWw3YXlXbG5WMFczV21EUUhGX29VM0t4R1NqbW14RmVOSkJnX3FIM2h0Rzh3cUxvS2gzcDRrcW9rRzhCQmVTdtIBtgFBVV95cUxQV2luX2hHTUwzQmZISHZfQzN3dzFjU0J3ZmpUSlM5cHhFS3FLMTBqcDd4Sk4yd19VUVl1eTBIb0dmb1lSaHplX1plUjN0VDlNRjNZZjVQczZHdEVaMlhWcUZ6TTVWQWNEal9ScWUwdThDWWpVU2laSUNhRE1FR1lSSDVpRmhVdks3MFhlMEFvWmdvVmVTVEVjRGhqMXBSYzdGWDZKY2xaRTdybWplX2dHQ3A4X2RvUQ?oc=5",
       "hot": false
     },
     {
@@ -273,7 +273,7 @@
             },
             {
               "date": "Mar 29, 2026",
-              "text": "Headlines indicate US forces are actively planning and potentially executing ground operations targeting Iranian oil infrastructure, specifically Kharg Island, but no headline confirms successful seizure of oil fields.",
+              "text": "Headlines indicate US forces are actively planning and potentially preparing to seize Iranian oil infrastructure, specifically Kharg Island, but no confirmation of successful seizure or halted advance is present.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
             }

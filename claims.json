@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 12, 2026",
+      "text": "The U.S. military says it will blockade Iranian ports as Iran peace talks collapse",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURTblM1aXB4LUNMLVNXdlEyaUJ2WER3RlFMa3h2U0pjc3MxNGRJU09TWC1oNUlpNWdYMXVPSXhid2J5TW82X21GM19lWi1Sb3VTSWZVdHVUNVdsZmlsQ3lHNllSNjZrbkpieUt2N3dxdDRoZFFJRjVSbWZnTE0zOU95N1hqN0tsR2NJeQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 12, 2026",
       "text": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTNYWUpHMzRsOFlrNlVuTjRxZWVrX3o5VGxRSVpfeFVpN2U3OXdsM08teFRnN2NyWDRQaktrUWZlenVZSzlQNE94QkJrdUU0bjQ3d2lZOEN1WDRqX053OUhtY3FxcmRiWEpMNVVzQWp2X3U1aUZlcUZKYm1hQlBQWS1IVHVBdw?oc=5",
@@ -78,13 +85,6 @@
       "hot": false
     },
     {
-      "date": "Apr 12, 2026",
-      "text": "Ghalibaf says US failed to gain trust of Iran’s delegates in Pakistan talks",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 09, 2026",
       "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
       "source": "Time Magazine",
@@ -92,17 +92,17 @@
       "hot": false
     },
     {
+      "date": "Apr 09, 2026",
+      "text": "Israel Strikes Hezbollah in Lebanon as War With Iran Escalates",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwbTNjX0ZCZWN3R3Qzc2RLOGMyeV9GUTdUWUN4S0djNWtrcTFhVS1zWGYwdC1hdjFsSzI3a3lIWFVjRlZGNVYtcVZVMmNVcmpGSmtaaVN4MnR5akhRQlBwVHgyQVBtVkVzdzFlbmdqZG13MHdKMGZPeVhWcFA?oc=5",
+      "hot": false
+    },
+    {
       "date": "Apr 07, 2026",
       "text": "US has struck Iranian military targets on Kharg Island. Here’s what we know about it",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWk0bVpseU1tNW9rall3SzNkX3ctZmUxQzJ1SFk5YWFPbVBmMnZmNzcxVnY3c1A4SnpSRWp0VmdtcURYTVZCcU5yQ1Bma204OGhNS1djNlFuR2wyeWpnb28zU00wakRjeWZMeEVnb0h5bzlaaVoyTlFZT0pTb3hybHFQU0Z3R3U0?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 03, 2026",
-      "text": "How the War with Iran Ends",
-      "source": "War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HbVI0WjZZd2NOR3dNMHNYWmNFelV5Szgyd21BNjEtRW52c01jLTZPUlNCaWhLYVBEY1ZoVWM1emxHUThFX1ZzbFc4Um93M3ZNNHI3Qkk0UXBvX0JzRFpFNlFqckRDaFFIZ3ItRVl3?oc=5",
       "hot": false
     },
     {
@@ -170,13 +170,13 @@
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
+              "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
+              "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
@@ -270,6 +270,12 @@
               "text": "Headlines indicate US forces are actively engaged in ground operations and considering seizing Kharg Island, aligning with 'oil fields seized' but not confirming complete success or halting of advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5"
+            },
+            {
+              "date": "Mar 29, 2026",
+              "text": "Headlines indicate US forces are actively planning and potentially executing ground operations targeting Iranian oil infrastructure, specifically Kharg Island, but no headline confirms successful seizure of oil fields.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
             }
           ],
           "changed_at": "2026-04-06"

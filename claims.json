@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 13, 2026",
+      "text": "\"The door is not closed\": Mediators rush to revive U.S.-Iran talks",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RcVA5QXZRZm5jMGpiU21kQ1VhemxlWWhNUUhQTVdGbzV6Z2M3X2dBSUJyN0cxS2V1SEk4NlVXVHBaVmRxbUVmMk9CTjR4MF9wMU56Q1kwOWlSVWVTcTlGWW1LcTBwTzBKeWRLUEZhUUkzcnZIZEpLdg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 13, 2026",
       "text": "Iran threatens ports in Mideast as US military set to impose shipping blockade",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2dJQWY4QmxJblNkbFQxSFlCT0hwM2FCRFZqZTdSRUdhYjg5ZC1xdnNyQ0hueHZGbTVsajJFU1RZY2ZtNklYc0J0VUlVSnlTTzZOdi14eVBfTGdIZmFEaHptQVptTkdzSmNrck84RUZraFBDel9aUmxNeDI1OEg0a3NKNW1pbHJiVnI0TnA2TWtJbWo1bVpOeHE1Q1JxYXJPV09fSFp5ZnN2VXN1aVprdVMxemFMTzJRNnc?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 12, 2026",
-      "text": "The U.S. military says it will blockade Iranian ports as Iran peace talks collapse",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURTblM1aXB4LUNMLVNXdlEyaUJ2WER3RlFMa3h2U0pjc3MxNGRJU09TWC1oNUlpNWdYMXVPSXhid2J5TW82X21GM19lWi1Sb3VTSWZVdHVUNVdsZmlsQ3lHNllSNjZrbkpieUt2N3dxdDRoZFFJRjVSbWZnTE0zOU95N1hqN0tsR2NJeQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 12, 2026",
-      "text": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTNYWUpHMzRsOFlrNlVuTjRxZWVrX3o5VGxRSVpfeFVpN2U3OXdsM08teFRnN2NyWDRQaktrUWZlenVZSzlQNE94QkJrdUU0bjQ3d2lZOEN1WDRqX053OUhtY3FxcmRiWEpMNVVzQWp2X3U1aUZlcUZKYm1hQlBQWS1IVHVBdw?oc=5",
+      "date": "Apr 10, 2026",
+      "text": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZXZnT3JSc2JpR25fN2ZQSEV4dUdEQWVCYkFIN3pCWU96Nm5CU29vNmZCVG42SEVramFvV0o5YWJpOEt5ZEFzNmM2TnBaX0hINGZ3emtHdWZVaTZZRlU4MkZ3alBiN01tYXNlWjg2X05MUWw3YXlXbG5WMFczV21EUUhGX29VM0t4R1NqbW14RmVOSkJnX3FIM2h0Rzh3cUxvS2gzcDRrcW9rRzhCQmVTdtIBtgFBVV95cUxQV2luX2hHTUwzQmZISHZfQzN3dzFjU0J3ZmpUSlM5cHhFS3FLMTBqcDd4Sk4yd19VUVl1eTBIb0dmb1lSaHplX1plUjN0VDlNRjNZZjVQczZHdEVaMlhWcUZ6TTVWQWNEal9ScWUwdThDWWpVU2laSUNhRE1FR1lSSDVpRmhVdks3MFhlMEFvWmdvVmVTVEVjRGhqMXBSYzdGWDZKY2xaRTdybWplX2dHQ3A4X2RvUQ?oc=5",
       "hot": false
     },
     {
@@ -170,13 +170,13 @@
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
+              "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             },
             {
               "date": "Apr 07, 2026",
-              "text": "Reports indicate Iranian involvement in Houthi actions threatening the Bab el-Mandeb Strait, but no confirmation of direct attacks on Gulf oil fields or US bases.",
+              "text": "Reports indicate Houthi threats regarding the Strait of Hormuz, suggesting potential disruption of maritime traffic, but no confirmation of direct Iranian action against oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?oc=5"
             }
@@ -273,7 +273,7 @@
             },
             {
               "date": "Mar 29, 2026",
-              "text": "Headlines indicate US forces are actively planning and potentially preparing to seize Iranian oil infrastructure, specifically Kharg Island, but no confirmation of successful seizure or halted advance is present.",
+              "text": "Headlines indicate US forces are actively planning and potentially executing ground operations targeting Iranian oil infrastructure, specifically Kharg Island, but no headline confirms successful seizure of oil fields.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
             }
@@ -316,7 +316,7 @@
             },
             {
               "date": "Apr 09, 2026",
-              "text": "The headlines indicate a significant shift in US policy regarding Iran, including discussions of winding down conflict and a pullback of threats, but not a complete split or retreat from the Middle East.",
+              "text": "The headlines indicate a significant US withdrawal from active conflict in the Middle East, specifically concerning Iran, but not a complete split of the US.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

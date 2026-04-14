@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 14, 2026",
+      "text": "US amasses major naval force to enforce Iran blockade",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZlpwNWV1c1lQdUQxb0tPRlpqMDY3blZpbWtXYTZRVjZlUGdjYVhUcGtselgxY2V2U0NXYUliTmpIVGZwaVhTSTl0ai0ydnR4YVNOTUxIOWZMTU91d21EMUFRTExnWm9Nb2V4ZEhkb0ZIdXRLSG9wdjlVUG9OMk1UYk5WOElwLWNLdFBpZXFHM0ZDWXVQRHNuMm5jaHB1OWllaFNnNGdJTnRKelpDQmdWUnpzaw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
+      "text": "Iran Weighs Pausing Hormuz Shipping to Avoid Derailing Talks",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT2ZCWDBuTDBvLUNWS3hRYkljRlVtaFJXVTN2eC02a3kxemFUVExMZTJiX20yMVU5b0Zoa0NzX01EOGRpUnBlYU5DSHBITWl2SHI0S1ZTLVA3ZDNmVDRDbE5STERUbi1GZzlWUE5XS2pCWUhmTXFnREZlUmthWkdVZFkzUzRXOENaaGE0d0IwbDNUVHkwRWtJWEx1RGxraDcxaVJRdDhhV2VKQVpBcG0za05fUWZyQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
       "text": "A US Navy Aircraft Carrier Is Circling Africa To Reach The Middle East",
       "source": "Forbes",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGtTTmRZUjFidVB4dmNEMXhUMnFUZFFkTVJjTVU3Y2d3ejVBbDJ0cTAyWEtYY3NNeU1manVHclRlNlZ2Tk9wRHdRcFF3VV93bENyQXNaNjFtbFJyeHVjSWN0NHFFRS1GejZSMWlKT1FvbHNCUnhBb01ieFJFc1RrY0tITF92Qlk2V1dMVG1aUFJEcnN4ck5nYXl6RGZzdEI2LTBWNlJ2WXRjc3NONzQzU2Q0UzIwd3M3Q3NFbDA4TQ?oc=5",
@@ -68,20 +82,6 @@
       "text": "Two ships cross Strait of Hormuz after stopping at Iranian ports despite US blockade",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "Top US Senate Democrats again try for war powers resolution – as it happened",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "Iran war live: Three ships pass through Hormuz strait amid US, Iran blocks",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRWVNNkZtNlY5cUc2SHoyQXhZbWp0VHNuekRaWHc4al9KNlJOTW1NMkxaMnZvbHNnQlNfYnpsYjJkeHN2YVhIcWNfSnRCT1hnTG9JbFRwTkhQVHU5Szl1Y1BjY21ZMHJYZHpudHZPVWJQb3I5SFJudXZoUk50SVdpUUo0bm9FMEd3dEZIcDlWcHZ6V1lHUmcyQXZjRmhlZU01VkVUSWh0TkNBWkpKcG9od0RpX2RGS1pmdmV6MWZVbF_SAcYBQVVfeXFMT3FwaXYwbEQ3TXVBSDViRV9PSV8tLTFmNHpieWFBaWxZV2dYNk1xMU9CMmJ5YmtDRzJVTmVHX2ZuZTQwZVp0N05ZZThnSHotdGtlSW1DS2lNdTZtcG1fN0tFRE14REdRWDlpNm41dllCZGhwSlRIdEJNRTVjOHNjREVHSmV2OGgzbFl5VC0tdEZ1TWxadlBSRTFkZnpBZEhWdlNIS1VWM1g4OHpfMUd2MWpzY25OY2VqZU1OckZYUzlYdVlHRE5n?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi forces and attacks on Israel, but lack definitive confirmation of strikes on all Gulf oil fields or US bases. Bab el-Mandeb blockage is unconfirmed.",
+              "text": "Reports confirm Iranian retaliation involving Houthi forces and attacks on Israel, but lack definitive confirmation of attacks on all Gulf oil fields or US bases. Bab el-Mandeb blockage is unconfirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -229,12 +229,6 @@
           ],
           "updates": [
             {
-              "date": "Mar 25, 2026",
-              "text": "Deployments and discussions of potential actions against Iran are increasing, but no headline confirms an amphibious invasion has occurred or failed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVS1duMi1QeEtTTGdwOU5xNER4cGhObUtURVNzeEFNV1ZDeWc0M1FmR015MzdnWGgtRGlyME9KRFAxbnBHcjhiRjhITjQ5UDMzTm1nWXB3SUNEWkI2MUVscWwtOHJpVkJRX0djRFhMRENLanBGeXpZ?oc=5"
-            },
-            {
               "date": "Mar 28, 2026",
               "text": "Increased troop deployments and discussions of potential ground operations in Iran suggest heightened tensions, but no amphibious invasion has been confirmed.",
               "hot": true,
@@ -243,6 +237,12 @@
             {
               "date": "Mar 28, 2026",
               "text": "Deployment of troops and amphibious assault ships suggests heightened tensions and potential for military action, but no confirmed amphibious invasion of Iran has occurred.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
+            },
+            {
+              "date": "Mar 28, 2026",
+              "text": "Multiple headlines report the deployment of US Marines and amphibious assault ships to the Middle East, suggesting preparations for potential ground operations, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }
@@ -316,7 +316,7 @@
             },
             {
               "date": "Apr 09, 2026",
-              "text": "Trump is actively discussing and taking steps toward withdrawing from both the Iran conflict and NATO, indicating a significant shift in US foreign policy, but a full split hasn't occurred.",
+              "text": "Trump is actively discussing and seemingly pursuing withdrawal from both Iran and NATO, indicating a significant shift in US foreign policy, but a full split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

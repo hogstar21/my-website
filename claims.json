@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 14, 2026",
+      "text": "Iran war live: Trump teases more Pakistan talks; Israel, Lebanon meet in US",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRWVNNkZtNlY5cUc2SHoyQXhZbWp0VHNuekRaWHc4al9KNlJOTW1NMkxaMnZvbHNnQlNfYnpsYjJkeHN2YVhIcWNfSnRCT1hnTG9JbFRwTkhQVHU5Szl1Y1BjY21ZMHJYZHpudHZPVWJQb3I5SFJudXZoUk50SVdpUUo0bm9FMEd3dEZIcDlWcHZ6V1lHUmcyQXZjRmhlZU01VkVUSWh0TkNBWkpKcG9od0RpX2RGS1pmdmV6MWZVbF_SAcYBQVVfeXFMT3FwaXYwbEQ3TXVBSDViRV9PSV8tLTFmNHpieWFBaWxZV2dYNk1xMU9CMmJ5YmtDRzJVTmVHX2ZuZTQwZVp0N05ZZThnSHotdGtlSW1DS2lNdTZtcG1fN0tFRE14REdRWDlpNm41dllCZGhwSlRIdEJNRTVjOHNjREVHSmV2OGgzbFl5VC0tdEZ1TWxadlBSRTFkZnpBZEhWdlNIS1VWM1g4OHpfMUd2MWpzY25OY2VqZU1OckZYUzlYdVlHRE5n?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
+      "text": "‘Time for diplomacy over escalation’ in Middle East war: Guterres",
+      "source": "Welcome to the United Nations",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPa3hLOUMwN2pwZ1I0T3ljM2d2X0VaRElTZmhkS0ZjZ0dKTTdjNmpDU3YteDVjUlFXOXY0Sl9YWGg4dHRsU2R0U3A1aW1kX3hoU2ZNMFpXSQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
       "text": "Trump says Iran talks could resume 'over next two days' as US says ships turned back by blockade",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
@@ -68,20 +82,6 @@
       "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes",
       "source": "Just Security",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "US-sanctioned ships pass Strait of Hormuz as China calls Trump's blockade 'dangerous'",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 13, 2026",
-      "text": "Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1p5M1VSV2RkVDlaVmVoMGtjM2dXZmFNbUZRclVsS2duaGlfWXVidDRtYzlaQjQyRE54V1lqUTQ2VF9EeHNwbUZzRTI3WThxcms0Y184STFIYm93Y24xZzJsUzJfcjktdHQ4aUxzYTdRWThxWWhpMXlPYl9qMGdvelpQNWhSM1VZc05Wcjl5UGdKUlE2R05jaGxoc29pZ0tsdTg3em1GYlV5d1ZiZVFrb214Y3BkYlRF?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian retaliation involving the Houthis and attacks related to nuclear site strikes, but lack definitive confirmation of attacks on all Gulf oil fields or US bases. Bab el-Mandeb blockage is unconfirmed.",
+              "text": "Reports confirm Iranian retaliation involving the Houthis and actions in the Bab el-Mandeb Strait, but lack definitive confirmation of attacks on all Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Deployment of troops and amphibious assault ships to the Middle East, coupled with discussions of seizing Iranian islands, suggests heightened tensions and potential for escalation, but no invasion confirmed.",
+              "text": "Deployment of troops and amphibious assault ships to the Middle East, coupled with discussions of potential Iranian island seizure, suggests heightened tensions but no confirmed invasion.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }

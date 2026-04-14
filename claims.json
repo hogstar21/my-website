@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 14, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YRjdVSTliWjNqNi1lWHhHdFpkS3VMaUhtOUtZNUItS2NVRkQ3ay1kMXc0b1F2TU9HU2NjUFN2dEpwTmZ4Y0pKUV9zaXFyOHJVcW5VaWQ4cktrU3dBa3B5NFJxMTMxUXQ0dXQ1UTlLOUNPdkE1RWdmMjB3cEZ0SXc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
       "text": "Iran war live: Trump teases more Pakistan talks; Israel, Lebanon meet in US",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRWVNNkZtNlY5cUc2SHoyQXhZbWp0VHNuekRaWHc4al9KNlJOTW1NMkxaMnZvbHNnQlNfYnpsYjJkeHN2YVhIcWNfSnRCT1hnTG9JbFRwTkhQVHU5Szl1Y1BjY21ZMHJYZHpudHZPVWJQb3I5SFJudXZoUk50SVdpUUo0bm9FMEd3dEZIcDlWcHZ6V1lHUmcyQXZjRmhlZU01VkVUSWh0TkNBWkpKcG9od0RpX2RGS1pmdmV6MWZVbF_SAcYBQVVfeXFMT3FwaXYwbEQ3TXVBSDViRV9PSV8tLTFmNHpieWFBaWxZV2dYNk1xMU9CMmJ5YmtDRzJVTmVHX2ZuZTQwZVp0N05ZZThnSHotdGtlSW1DS2lNdTZtcG1fN0tFRE14REdRWDlpNm41dllCZGhwSlRIdEJNRTVjOHNjREVHSmV2OGgzbFl5VC0tdEZ1TWxadlBSRTFkZnpBZEhWdlNIS1VWM1g4OHpfMUd2MWpzY25OY2VqZU1OckZYUzlYdVlHRE5n?oc=5",
@@ -75,13 +82,6 @@
       "text": "Iran war escalation could trigger global recession, IMF warns",
       "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObWlXSVhZclg5OURId1YyZzEzbl9iYkJoYUlfVzBBd3lUNXRyVndGS1dzWHVpbGhSVjhpM1VaQ1pTd1k1ajNmRTVDU29WeEdad0k0UnhfVUxvdVdzMTAzOTg4eUlCa1ZwLU16cUx4aDFVcXR0ZDlTcTFGbUtQS0pqUjExUjY3MExWejZTUDk0ejRVNnFPTm82M25KM1IxRXFXbndzR3oyamVUMEQyZWc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes",
-      "source": "Just Security",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian retaliation involving the Houthis and actions in the Bab el-Mandeb Strait, but lack definitive confirmation of attacks on all Gulf oil fields or US bases.",
+              "text": "Reports confirm Iranian retaliation involving Houthi forces and attacks on Israel, but lack definitive confirmation of attacks on all Gulf oil fields or US bases. Bab el-Mandeb blockage is unconfirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Deployment of troops and amphibious assault ships to the Middle East, coupled with discussions of potential Iranian island seizure, suggests heightened tensions but no confirmed invasion.",
+              "text": "Deployment of troops and amphibious assault ships to the Middle East suggests heightened tensions and potential for escalation, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }
@@ -316,7 +316,7 @@
             },
             {
               "date": "Apr 09, 2026",
-              "text": "The US is actively discussing and threatening withdrawal from both NATO and the Iran conflict, indicating a significant shift in foreign policy, but a full split and retreat hasn't occurred.",
+              "text": "The US is actively discussing withdrawal from both the Iran war and NATO, indicating a significant shift in foreign policy, but a full split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

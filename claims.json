@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 14, 2026",
+      "text": "Oil prices continue to fall on hopes of new US-Iran peace talks",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaZm0yS0pIek5VdmExM0NxQ01WS01MaDE1dzNicDE3M013U1M2bFRJaTV1a3NjOURsbXRLWEdvQV9rWHpsRVRMWWdUMGdGS1BCUmRWQnRGbjRIQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 14, 2026",
       "text": "As Iran war wore on, Israel downed fewer missiles, cluster bombs wreaked havoc",
       "source": "Haaretz",
       "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNU3c1NTMxUExITTdQcjdGQXpFSXZUbGlIY3BCdXJ5cTJSX0lyTXliY2MxSTdaU1VncUlKQWQtUTFEbzJsd05ieWVHWm01ZmMwcWNkaDMtWF9WUVZlM05qRkREcjZfQl9PRnNLVHRiR1ZyaS14TkNjbzZrUTBZWFBEZHdLTGRCUWJPZloxelNNcUMyWDBUeTNpTm0wVkRzb2hELU1FX3dNQ3ZFWms1cVlwcGo0aFllVlJCMldrN1Q1aGdIQWhUS1hxZ0dKRDV1NEdoNW1fcmhHRk9RYkx1cTNQMUNpazYyYndJNC1nWU1uNXFmem81ZnVVWlNmRGg5NlFUTEZiOWZoS3VPVURTdmpqWWt5XzdyUk9VTHk3bHBmNnJTdDgwZ2liaWo2VlB6VngxMVBMVzZXQ0xiaXJidEM1Z3c0ZFA?oc=5",
@@ -75,13 +82,6 @@
       "text": "Trump says Iran talks could resume 'over next two days' as US says ships turned back by blockade",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "Iran Update Special Report, April 13, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWTF5Y0FaQkdmS3YycDFGTVJ3dFk0YzY4WG5GTjJRNC16VWE0cjQ1QnppZTJ1LVo4QjIxUlVyakVvMmpDYklGWkVsZkdRRUxlLVQ5MGprZWtBeUpJUzdITGJLUUpoY0V1YzUtZW1iMkdqZXBMLUcwS1BHOVVrX25vTENOOGdoNUpfc0taMk5pdGVJN0lrd1E?oc=5",
       "hot": false
     },
     {
@@ -164,19 +164,13 @@
           "updates": [
             {
               "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian retaliation involving Houthi forces and attacks on Israel, but lack definitive confirmation of attacks on all Gulf oil fields or US bases. Bab el-Mandeb blockage is unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
-            },
-            {
-              "date": "Apr 05, 2026",
               "text": "Reports confirm Iranian retaliation and Houthi involvement, including threats to the Bab el-Mandeb Strait. However, claims of attacks on *all* Gulf oil fields remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             },
             {
               "date": "Apr 05, 2026",
-              "text": "Reports indicate Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb, but a full assessment of 'all' fields and US base impacts is lacking.",
+              "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb, but US base attacks remain unconfirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
@@ -248,7 +242,7 @@
             },
             {
               "date": "Mar 28, 2026",
-              "text": "Deployment of troops and amphibious assault ships suggests heightened tensions and potential for military action, but no confirmed amphibious invasion of Iran has occurred.",
+              "text": "Deployment of troops and amphibious assault ships suggests increased military presence and potential for escalation, but no confirmed amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             }
@@ -309,12 +303,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 09, 2026",
-              "text": "The US is demonstrably reducing its military presence and threats related to Iran, aligning with the 'retreat from Middle East' aspect of the claim. A split of the US remains unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
-            },
-            {
               "date": "Apr 10, 2026",
               "text": "Multiple headlines indicate a strong push to withdraw from the Iran conflict and potential NATO departure, suggesting a significant US retreat from the Middle East, but not a complete split of the US itself.",
               "hot": true,
@@ -323,6 +311,12 @@
             {
               "date": "Apr 09, 2026",
               "text": "Trump is actively discussing and taking steps toward withdrawing from both the Iran conflict and NATO, indicating a significant shift in US foreign policy, but a full split hasn't occurred.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 09, 2026",
+              "text": "The headlines indicate a significant shift in US foreign policy, with consideration of withdrawing from NATO and winding down involvement in the Iran conflict, but no definitive split or complete retreat has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

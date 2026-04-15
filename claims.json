@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 15, 2026",
+      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as U.S. Enforces Blockade on Hormuz",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 15, 2026",
+      "text": "Pakistani delegation arrives in Tehran in move to ease tensions and arrange more US-Iran talks",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRGlCSS1Qc0dEUERaRXhrVkNOSVBIaGhwQ0dMSlo3bkxHSXNVTXo0S3dONG1HMG5FMm9sZFZYOVZZWU9HOHFsX3lwM1R2VmxKeVo5TnBQNGY2S1RoVVdVUmk4dkpWaURlZkotRVdlUlpLMUxkSnlUNTlGOHd6VElJLWJ0U0xObTdPVFQ5WnUyS2VuQXZ5NXY4ZUxFeVFRREVlVGFhX2s0ZE53ZTk0ekRDQVl1QQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 15, 2026",
       "text": "US sending 10,000 more troops to Middle East despite Iran ceasefire",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWnpId3dEazNQY2FIOG1qamNDWm9OV09zNm8wZTMwdnp1Wmh2d1o0Tk5oaUdMZzV4WmJ0b2NoclhiRkcxcndfS1gwTHdlWVlmbHJjMXF5RE14NnRtdkkyT2lVaWl4UjE1dHllQjlUYmNuSWE5Smc2Z3pMYW15dE9QZURURFpsTzd6ZVFjUThURlJyY3E2cjZKNUctaUtDckpRTVNtUThrRkZ5RHPSAbABQVVfeXFMT2MwZDNTczJEMlBhWmc4bDlLdXRtY09QSmRlN19GWmMxZHZ4M0N2WklZSnh6MV9vcXFIMnpyVktIYmUwMkVxeWZkbEEzcXNRS0xyRFhJRkttd2FETi14SkE5OHJWWkpmNjZDSGE0alFaQzk0aGlMa3FzOElJQkI5NlFrbjdWaFB1X2U4VlY5WTNVZTM0U2FXd2NOMmxjaUFIMkMxbFRCUEgtWm9CX21ueG0?oc=5",
@@ -82,20 +96,6 @@
       "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
       "source": "American Jewish Committee (AJC)",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "US amasses major naval force to enforce Iran blockade",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZlpwNWV1c1lQdUQxb0tPRlpqMDY3blZpbWtXYTZRVjZlUGdjYVhUcGtselgxY2V2U0NXYUliTmpIVGZwaVhTSTl0ai0ydnR4YVNOTUxIOWZMTU91d21EMUFRTExnWm9Nb2V4ZEhkb0ZIdXRLSG9wdjlVUG9OMk1UYk5WOElwLWNLdFBpZXFHM0ZDWXVQRHNuMm5jaHB1OWllaFNnNGdJTnRKelpDQmdWUnpzaw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 12, 2026",
-      "text": "Trump says Iran talks could resume 'over next two days' as US says ships turned back by blockade",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
       "hot": false
     },
     {
@@ -273,7 +273,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Multiple headlines discuss US troop deployments and potential seizure of Kharg Island, indicating planning and consideration, but not confirmed seizure of oil fields or a halt to an advance.",
+              "text": "Multiple headlines discuss US troop deployments and potential seizure of Kharg Island, indicating an ongoing operation but not confirming successful seizure of oil fields or a complete halt to the advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }

@@ -3,10 +3,17 @@
     "title": "4chan WW3 Prediction vs Reality",
     "post_id": "508296436",
     "post_date": "2025-06-22",
-    "last_updated": "2026-04-15",
+    "last_updated": "2026-04-16",
     "source_url": "https://archive.4plebs.org/pol/thread/507977706/"
   },
   "breaking_news": [
+    {
+      "date": "Apr 15, 2026",
+      "text": "Pakistani delegation meets in Tehran hoping for more US-Iran talks before ceasefire ends",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRGlCSS1Qc0dEUERaRXhrVkNOSVBIaGhwQ0dMSlo3bkxHSXNVTXo0S3dONG1HMG5FMm9sZFZYOVZZWU9HOHFsX3lwM1R2VmxKeVo5TnBQNGY2S1RoVVdVUmk4dkpWaURlZkotRVdlUlpLMUxkSnlUNTlGOHd6VElJLWJ0U0xObTdPVFQ5WnUyS2VuQXZ5NXY4ZUxFeVFRREVlVGFhX2s0ZE53ZTk0ekRDQVl1QQ?oc=5",
+      "hot": false
+    },
     {
       "date": "Apr 15, 2026",
       "text": "Live updates: White House optimistic about Iran deal as key Pakistani negotiator visits Tehran",
@@ -85,24 +92,17 @@
       "hot": false
     },
     {
-      "date": "Apr 14, 2026",
-      "text": "Iran Update Special Report, April 13, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWTF5Y0FaQkdmS3YycDFGTVJ3dFk0YzY4WG5GTjJRNC16VWE0cjQ1QnppZTJ1LVo4QjIxUlVyakVvMmpDYklGWkVsZkdRRUxlLVQ5MGprZWtBeUpJUzdITGJLUUpoY0V1YzUtZW1iMkdqZXBMLUcwS1BHOVVrX25vTENOOGdoNUpfc0taMk5pdGVJN0lrd1E?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "Oil prices continue to fall on hopes of new US-Iran peace talks",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaZm0yS0pIek5VdmExM0NxQ01WS01MaDE1dzNicDE3M013U1M2bFRJaTV1a3NjOURsbXRLWEdvQV9rWHpsRVRMWWdUMGdGS1BCUmRWQnRGbjRIQQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 13, 2026",
       "text": "Carrier USS George H.W. Bush Operating off Southern Africa as Iranian Blockade Begins",
       "source": "USNI News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1p5M1VSV2RkVDlaVmVoMGtjM2dXZmFNbUZRclVsS2duaGlfWXVidDRtYzlaQjQyRE54V1lqUTQ2VF9EeHNwbUZzRTI3WThxcms0Y184STFIYm93Y24xZzJsUzJfcjktdHQ4aUxzYTdRWThxWWhpMXlPYl9qMGdvelpQNWhSM1VZc05Wcjl5UGdKUlE2R05jaGxoc29pZ0tsdTg3em1GYlV5d1ZiZVFrb214Y3BkYlRF?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 08, 2026",
+      "text": "USS Boxer Amphibious Ready Group back at sea",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
       "hot": false
     },
     {
@@ -176,8 +176,8 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi actions threatening Red Sea oil routes, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present.",
-              "hot": false,
+              "text": "Reports confirm Houthi actions threatening Red Sea oil routes, aligning with the claim of blocking Bab el-Mandeb. No confirmation of direct Iranian strikes on Gulf oil fields or US bases yet.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
@@ -247,7 +247,7 @@
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PMjVQd0ozMV92Wk1sZ1FNdFpTTDdkbGVnWjNXcDVJbW1RTnFHdUUwQXFnVVRxSV92NDU4RjFQSHJ3c0dJaWQtSUl2VHpuLUJuYVB2alI0bnBDTnhxV3JGd0w1WnNJZlY5QnVlLWM5c2dvUQ?oc=5"
             },
             {
-              "date": "Apr 15, 2026",
+              "date": "Apr 16, 2026",
               "text": "Increased troop deployments, including Marines and naval assets, suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
@@ -278,7 +278,7 @@
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
             },
             {
-              "date": "Apr 15, 2026",
+              "date": "Apr 16, 2026",
               "text": "Multiple headlines discuss US troop deployments and potential seizure of Kharg Island, indicating planning and consideration, but not confirmed seizure of oil fields or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"

@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 16, 2026",
+      "text": "Iran war live: Pakistan in push for new round of US-Iran peace negotiations",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 16, 2026",
       "text": "The Iran war has shattered oil's price compass",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLXp3OFlRQU95N0Jxc3RRM0o1MEx4UWl4QTVKM3lDNWJnaUNlb2RaWVpTelVTUkdIYTBhTW9nS2NvTmF3eExxcG1mQWQwZjN6T1VIVHRpcTEza2s3aHk0NEp3MjRNbDl4dDViU3NrLWJtUXpFWDFhZnJsRTQwbXJRWTVrM0U0a2wxVkVIYkpyNG1xYThJb3h6YXc4T3RpZw?oc=5",
@@ -75,13 +82,6 @@
       "text": "US sending 10,000 more troops to Middle East despite Iran ceasefire",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWnpId3dEazNQY2FIOG1qamNDWm9OV09zNm8wZTMwdnp1Wmh2d1o0Tk5oaUdMZzV4WmJ0b2NoclhiRkcxcndfS1gwTHdlWVlmbHJjMXF5RE14NnRtdkkyT2lVaWl4UjE1dHllQjlUYmNuSWE5Smc2Z3pMYW15dE9QZURURFpsTzd6ZVFjUThURlJyY3E2cjZKNUctaUtDckpRTVNtUThrRkZ5RHPSAbABQVVfeXFMT2MwZDNTczJEMlBhWmc4bDlLdXRtY09QSmRlN19GWmMxZHZ4M0N2WklZSnh6MV9vcXFIMnpyVktIYmUwMkVxeWZkbEEzcXNRS0xyRFhJRkttd2FETi14SkE5OHJWWkpmNjZDSGE0alFaQzk0aGlMa3FzOElJQkI5NlFrbjdWaFB1X2U4VlY5WTNVZTM0U2FXd2NOMmxjaUFIMkMxbFRCUEgtWm9CX21ueG0?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
       "hot": false
     },
     {
@@ -173,6 +173,12 @@
               "text": "Headlines confirm Iranian strikes in the Gulf and Houthi actions impacting the Bab el-Mandeb Strait. However, no headline explicitly states all Gulf oil fields were hit or all US bases targeted.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb. US base attacks are not explicitly confirmed by headlines.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
         },
@@ -236,13 +242,13 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Increased troop deployments, including Marines and naval assets, suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
+              "text": "Increased troop deployments and naval assets in the Middle East suggest heightened tensions with Iran, but no headlines confirm an amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Increased troop deployments and naval assets in the Middle East suggest heightened tensions with Iran, but no headlines confirm an amphibious invasion has occurred.",
+              "text": "Increased troop deployments, naval assets, and advanced weaponry suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -267,7 +273,7 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Multiple headlines indicate US forces are deployed and considering seizing Iranian oil fields, specifically Kharg Island. However, no headline confirms successful seizure or a complete halt to advances.",
+              "text": "Headlines indicate US consideration and planning of seizing Kharg Island, a key oil terminal, but no headline confirms successful seizure of oil fields.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -310,7 +316,7 @@
             },
             {
               "date": "Apr 10, 2026",
-              "text": "While the US hasn't definitively split, headlines indicate a significant pullback from international commitments, particularly NATO and Iran, aligning with the 'retreat' aspect of the claim.",
+              "text": "While the US hasn't definitively split, headlines indicate a significant pullback from international commitments, particularly NATO and threats regarding Iran, aligning with the 'retreat' aspect of the claim.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1USHZLemwzUjhuSW9BWnNLSmNVdnBzYzJxSjA4TGpoRHR0WUJ0YnNpaXBELWJCVGdyNFpBcG1NWTAyWFlfMEIzYy1Ga1daVVRjcEVKR1FVSUhuXzB3bTRTMmFfcW1nQXdsQzNBRkxReWFxNTg?oc=5"
             }
@@ -375,6 +381,12 @@
               "text": "Recent headlines indicate heightened tensions and military activity around Taiwan and airspace near Japan/South Korea, but no confirmed invasion of Taiwan or Guam has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRGlMNUc1OHdwcTlCdWVzZXZfNHVQLUg5dTIzTkMyY0lWOUc5MFpZeGhuTnc2MWRkSkxvaEJPSnY4a29YTHZCbXpGWFdpZXNKNEhwc2JWY255SFNGT2VEN3hUeGZzYjVNdkdPRWFIOWpKZjhEUDFVS1liRVFqd0oxTC1wZ3k5ZXFreFplOA?oc=5"
+            },
+            {
+              "date": "Apr 10, 2026",
+              "text": "Headlines indicate heightened military activity between China and Taiwan, but no explicit confirmation of a full-scale invasion. The situation remains tense and requires continued monitoring.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYWlrV2ZhWmFrbUJDbFE4LWxFMEVBMWtLb25ycFc2Y2hpM3lIckM1WmxLcXl1eDVvaFMwckNFRTBnNmNuUFdzWllyMGxhcExQV2tOa0dPSnlWbVQwNkR2dWJjWmFDS213cnp2cDlYbHVSTW1YNTNCN1YtZGJQRXcyM1JJaFVwN0dEVVZwQmdR?oc=5"
             }
           ]
         },

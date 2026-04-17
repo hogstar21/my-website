@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 17, 2026",
+      "text": "Strait of Hormuz reopening for commercial traffic, Trump and Iran say",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVhLY09fdmxzeFlSZHc3eFlrN1JTTFBEcHNhM3BvU3ZzcXVZQUcwX1VnMkxOYVNWZVpPZUZqVUVJRDI3LUVFWHRkdFhTdHk5Nk5ONUNBWjRrQXQ4U3V4bGpxY0REOHkya3hFLTJ5YzBYcHAxc1luRHZIQzFHbE9UaHBta05jZ2M?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 17, 2026",
+      "text": "Oil prices plunge 12% after Iran says Strait of Hormuz is open for commercial vessels",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQXzNHbVVJY1N3T0F0cHd0M2QtM3c3bmJ2d25naGc0NUhZamp3b19qckFiZDhaMVNzeGJrNVVLV19zckNiQzZSaS1tTWwyUmw2WTlGMHdZOG5JSUE2NzNRUU1xX0IxcDhDbGNMZEt6d2tfdFdpcmRPRFlhSHVkMkNVLTI0SzZ2aVI1VzgtNGpQV2R0ZjRJbG9wQ29YX1lDS01pb0ZEYg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 17, 2026",
       "text": "Iran reopens Strait of Hormuz as Trump says US blockade of Iranian ports will continue - follow live",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTVmxOcHd0cWE2SEtkMFNaM2ZUZzdvLTVBNWY2RnkxMXhmZWFFVThlVzRrcDRpbDhXeGNGcnp3WFBnRWl1TkNCZGNjZFpkSEZ5cEZFTg?oc=5",
@@ -57,31 +71,17 @@
       "hot": false
     },
     {
-      "date": "Apr 17, 2026",
-      "text": "Day 48 of Middle East conflict — Lebanon ceasefire aimed at halting Israel-Hezbollah conflict begins",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5kcF9vaktZLVViQ0d3Mm53QzdxTG5UaExOUTk3amx6SHN5WDFHZ0tLdFZibC1uNkpsa0wzM1dSOEJQZEhBSFJ2VVlKSURoc0hKT05ZeGlYUDdlM0M2eHJMU1daUDZybDVhWEhZd2RxdXpQdnZjUVRnU2ctRQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Oil falls on prospects for talks to end Iran war",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZW95WjdqOWMtQmw3M2RqS21LeThqazlYbW9hX1JsdWlJN3RIYkUzWVFuUVd5SlR4OHh5MUs1YzJ6TFl1bnlWR0FuZ0RZYWlCZ25rRUZacEFPdTF3VmtZNm5sLVZrcFU3ZWFNZ3hqMl9PLTZwbGRtQ3owU1AteGUtZy11SXczU2pJOVlKUC1LMklJQ0ZzY2Jkb0h3QXNCcVVsakJQMFdhTQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Iran’s War With Israel and the United States | Global Conflict Tracker",
-      "source": "Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 16, 2026",
-      "text": "Iran war updates: Lebanon truce begins as US blockades Iran for deal",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?oc=5",
+      "text": "Iran Update Special Report, April 15, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 15, 2026",
+      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
@@ -176,7 +176,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Iran's blockade of the Bab el-Mandeb Strait and US naval presence in response. No confirmation of attacks on Gulf oil fields or US bases.",
+              "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present in headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }

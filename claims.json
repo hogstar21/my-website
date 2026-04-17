@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 17, 2026",
+      "text": "Iran war live: Trump voices optimism about deal; Tehran cautious",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX1BBbUtJZzVFWUxwS2VENU04M2hXSExubUVOMkpBUWo5Nl82N0gxT3l1eVR6bjVQRjAxMFN6c1FjVk9reEUyV0ZRVmE2RF9qMEY2Q3lTd2ZfLXZELU9RWF95a0RCSWE4S1l3MjgwYmZzVmZnaW90TUZXNjExYXVQZElSb1IyLTZkSTV4M1plTDhGY1B1SWo4UndxN3JRRS1reFJBYVQ2bHlfUndOaW45ejJZb0JuNFFyVHd6NzhJZC3SAcYBQVVfeXFMTldiYjZGYWxjWm5zd2NpellWOFY5VS13MUpId0RaTDhMSVdBelBsek1VYzdZWTFKcURtRG92UjBNcUh5TUVlR2FZTGdqME8wSU9udW1OTER1MlpweHE2dkFYQlQ3TERBTVExUnNrNXhCSkNONk9uRDRWOTd1eWF6cUdPb3REMEtyQmw3b0tZSkh0d1ZiUGpsc1JoQTdOMHNnc05XVWMyZ0FZdGFqbmI2SkgxZkJOTS1rTnpFUlFGelFWeFJaZzVR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 17, 2026",
       "text": "Strait of Hormuz reopening for commercial traffic, Trump and Iran say",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVhLY09fdmxzeFlSZHc3eFlrN1JTTFBEcHNhM3BvU3ZzcXVZQUcwX1VnMkxOYVNWZVpPZUZqVUVJRDI3LUVFWHRkdFhTdHk5Nk5ONUNBWjRrQXQ4U3V4bGpxY0REOHkya3hFLTJ5YzBYcHAxc1luRHZIQzFHbE9UaHBta05jZ2M?oc=5",
@@ -75,13 +82,6 @@
       "text": "Iran Update Special Report, April 15, 2026",
       "source": "Institute for the Study of War",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 15, 2026",
-      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
@@ -303,12 +303,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 02, 2026",
-              "text": "Trump is actively discussing and planning significant withdrawals from both NATO and the Middle East, indicating a partial fulfillment of the claim, but a full split hasn't occurred.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByNUhNM0FZd3RDdDNRUU5XX2pqS3dtbE9aMjFfY0Z6WlkydU5xcWkyY0tlRkRmZjVtRmRaN1RHanRNb20tbHViV0Fwa3FXVU9VTlYwYk43b3VMQWdyTXVCTzZ3dGNEZkJuWG16aGhTQ0Y1QQ?oc=5"
-            },
-            {
               "date": "Apr 16, 2026",
               "text": "While the US hasn't definitively split, Trump's statements and congressional actions indicate a significant shift away from Middle East involvement and potential NATO withdrawal, partially fulfilling the claim.",
               "hot": true,
@@ -317,6 +311,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift in foreign policy but not a complete split or retreat.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "The US is signaling a potential winding down of involvement in the Iran conflict, but remains engaged in a war with Iran alongside Israel. A split and full retreat hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

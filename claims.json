@@ -79,16 +79,16 @@
     },
     {
       "date": "Apr 15, 2026",
-      "text": "USS Gerald R. Ford Breaks Post-Cold War Deployment Record",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdERSSTFxM0Vmd0lKTktZUVBySzhoR2k3dE10aGlQQkJfRy1GMC1TRTdxZDlMSi1NYXhqdUk1TU94LU8xSkplWF81RnRPb01vMkxwd2NfWGZ5bXhVazd4WTN6UWhGbXpWUjUtdE1rSnd1X0xQeDNmN193VmtGdjBmS2E1aU5lS0NTTGJycTJqSElnRTQ?oc=5",
+      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
       "date": "Apr 15, 2026",
-      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
+      "text": "USS Gerald R. Ford Breaks Post-Cold War Deployment Record",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdERSSTFxM0Vmd0lKTktZUVBySzhoR2k3dE10aGlQQkJfRy1GMC1TRTdxZDlMSi1NYXhqdUk1TU94LU8xSkplWF81RnRPb01vMkxwd2NfWGZ5bXhVazd4WTN6UWhGbXpWUjUtdE1rSnd1X0xQeDNmN193VmtGdjBmS2E1aU5lS0NTTGJycTJqSElnRTQ?oc=5",
       "hot": false
     },
     {
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb. US base attacks are not explicitly confirmed by headlines provided.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
-            },
-            {
-              "date": "Apr 14, 2026",
               "text": "Reports confirm Iran's actions are impacting the Red Sea and Yemen, with a US carrier responding. However, claims of attacks on Gulf oil fields remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
@@ -177,6 +171,12 @@
             {
               "date": "Apr 14, 2026",
               "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present.",
+              "hot": false,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Iranian-backed Houthis are threatening the Bab el-Mandeb Strait, disrupting shipping. No confirmation of attacks on Gulf oil fields or US bases is present in the headlines provided.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -267,13 +267,13 @@
           "updates": [
             {
               "date": "Apr 16, 2026",
-              "text": "Multiple headlines discuss US consideration and planning of operations targeting Kharg Island, suggesting an attempt occurred, but no headline confirms successful seizure of oil fields.",
+              "text": "Headlines indicate potential US ground operations targeting Iranian oil infrastructure, specifically Kharg Island. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Headlines indicate potential US ground operations targeting Iranian oil infrastructure, specifically Kharg Island. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
+              "text": "Multiple headlines detail US consideration and planning of a ground operation targeting Kharg Island, including potential seizure of oil infrastructure, but no headline confirms successful seizure.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }

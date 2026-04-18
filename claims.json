@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 18, 2026",
+      "text": "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lcGI2VEVhSWFzLWZ1UExlN2JqWjBvQ3ZCLWc1WDBYNG5NMWFPZlZfT0hFcnNfVTF6dHk3NmtuSGQ0a19uVnRMSENZdk1vQ3h3REFKSFlaOXhpQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 18, 2026",
       "text": "A Potent Threat in Strait of Hormuz: Iran’s ‘Mosquito Fleet’",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQajgwS1Jad1c1ZXNNYmNFTVVOSXFfNnNYeGhreUR1MFY2aDFnY3JRRl9YS1VzRWRrU281VnBUUzRWY0oxUWxRY0xGTkIyUkowbF91RjdfWlVDMjhsanZDODRTSktEdGxOaTRWbVZHODhGWTZZcHk2TE9DVUxuZUZzWm9DY2JrdjNSQW14N0dZYTVBUQ?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 18, 2026",
-      "text": "Iran war live: Hormuz Strait shut down again over US ‘piracy’, says Tehran",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX3BZbTNiYm9PQUVrYUdkbURCY0t1Y2pya1RhRVBDblE1a29SLW95RDljZmJFelF4Y1dIbll1cXNEZE8xOUlpMVZzRm9hQXJ4RDVHb1V4X2lGeUx2dVVGVFc4RmpxSGlETlI4bVRFMnlBMXJjREF5QjVWRDdvcUdzMFpGeUVDMFRSUi1oOVJrNDFGMXJ4TUJ1VGJ4UGxDZUlnSHhGb1lXcFRIY0xJS1NnRFZvelBGSlFKT25MYtIBwgFBVV95cUxPMlo1TmZCR0l1RWR1UXZHcHh0Tk9qakZoa3prZmkzcHNLcFNPUHZRU3lGcXBwNVoxYkRBSzhvQXlCYXNTQVBvMS0zOHU4QkEzRDQ0MXpZMDZ3RWJQTkdFWThMUUY1Nno4SXBhTGFlMHVUZUlfS2FpdDU5Ym55X2hxbElPYnRTdmlwVXdvSk4wTTNNUjc1XzhtUXV0ZTl5M2xHaDJUU1BwMnYzM3lucGRGeU5Dd2RReS1RZFdhbEhYbkh6UQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Iran Update Special Report, April 17, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY05JU0FwWnJyTGZqbTlxMUJ4ZWxDT1lmWno5U0VyeXQ4X1BGNE4yX0RtdjdFMHRRYzBsakM5UG5RMzI2OGc5Rm1UMU4zSDVZZnJnMDFBT25rTGEzWE1OY29SNUZsOVZqeEd6dGd0MXZMVm43R2dhREhNdU1KSHF4cW5iN0RXTUxtbGllQ2QyWWJPWHBZamc?oc=5",
+      "date": "Apr 16, 2026",
+      "text": "US Central Command confirms Marine, Navy support for Iran blockade",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0pZRFAwb0JuNUFBZjktTERQdUE4YUhyTkN1YlpxblZEd0lNMmFyczNIYVk3V0hhR2huMVlFT211eUZfQk5ReGpleHRGZklhek5HQ09ONzBCXzVWTXNMdW5hdWJJQll3RjFfN2pyZlRLTks4NWx6MUtnVWxTeVdJUG41VUVqdW9VZVJJcWR4WjVNdWUzRnNsRA?oc=5",
       "hot": false
     },
     {
@@ -170,13 +170,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Iranian-backed Houthis are threatening the Bab el-Mandeb Strait, disrupting shipping. No confirmation of attacks on Gulf oil fields or US bases is present in the headlines provided.",
-              "hot": false,
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
-            },
-            {
-              "date": "Apr 14, 2026",
-              "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present.",
+              "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present in headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }

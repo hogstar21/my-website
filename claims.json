@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 18, 2026",
+      "text": "Iran war live: Tehran says US blockade of ports must end as strait opens",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX3BZbTNiYm9PQUVrYUdkbURCY0t1Y2pya1RhRVBDblE1a29SLW95RDljZmJFelF4Y1dIbll1cXNEZE8xOUlpMVZzRm9hQXJ4RDVHb1V4X2lGeUx2dVVGVFc4RmpxSGlETlI4bVRFMnlBMXJjREF5QjVWRDdvcUdzMFpGeUVDMFRSUi1oOVJrNDFGMXJ4TUJ1VGJ4UGxDZUlnSHhGb1lXcFRIY0xJS1NnRFZvelBGSlFKT25MYtIBwgFBVV95cUxPMlo1TmZCR0l1RWR1UXZHcHh0Tk9qakZoa3prZmkzcHNLcFNPUHZRU3lGcXBwNVoxYkRBSzhvQXlCYXNTQVBvMS0zOHU4QkEzRDQ0MXpZMDZ3RWJQTkdFWThMUUY1Nno4SXBhTGFlMHVUZUlfS2FpdDU5Ym55X2hxbElPYnRTdmlwVXdvSk4wTTNNUjc1XzhtUXV0ZTl5M2xHaDJUU1BwMnYzM3lucGRGeU5Dd2RReS1RZFdhbEhYbkh6UQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 18, 2026",
       "text": "Day 49 of Middle East conflict — Iran declares Strait of Hormuz open",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnQxRnJlVUlxSHluWFNTeGo3UGJmbTZhYkR2ZjFWRVc2TVROYk14TVByeGNHc1pWdEJqN1FLMTBGVlV5N1Vqem10ejVZd3lWSHNBUEYxTkxrYzVlRGZINFFsSmNWLTNKbzR4eHRXbGVDYUl2YU42SXItTUdnVGc1M3RZYzVsbTdyUW9vR2pJcw?oc=5",
@@ -68,13 +75,6 @@
       "text": "Strait of Hormuz reopening for commercial traffic, Trump and Iran say",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVhLY09fdmxzeFlSZHc3eFlrN1JTTFBEcHNhM3BvU3ZzcXVZQUcwX1VnMkxOYVNWZVpPZUZqVUVJRDI3LUVFWHRkdFhTdHk5Nk5ONUNBWjRrQXQ4U3V4bGpxY0REOHkya3hFLTJ5YzBYcHAxc1luRHZIQzFHbE9UaHBta05jZ2M?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Oil prices plunge 12% after Iran says Strait of Hormuz is open for commercial vessels",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQXzNHbVVJY1N3T0F0cHd0M2QtM3c3bmJ2d25naGc0NUhZamp3b19qckFiZDhaMVNzeGJrNVVLV19zckNiQzZSaS1tTWwyUmw2WTlGMHdZOG5JSUE2NzNRUU1xX0IxcDhDbGNMZEt6d2tfdFdpcmRPRFlhSHVkMkNVLTI0SzZ2aVI1VzgtNGpQV2R0ZjRJbG9wQ29YX1lDS01pb0ZEYg?oc=5",
       "hot": false
     },
     {
@@ -248,7 +248,7 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Increased troop deployments, including Marines and naval assets, suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
+              "text": "Increased troop deployments, naval assets, and equipment suggest heightened tensions and potential for military action, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -273,13 +273,7 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Multiple headlines detail planning and consideration of seizing Kharg Island and a ground operation in Iran, but none confirm successful seizure of oil fields or a halt to the advance.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
-            },
-            {
-              "date": "Apr 16, 2026",
-              "text": "Headlines indicate US forces are considering seizing Iranian oil infrastructure, including Kharg Island. However, no headline confirms successful seizure or a complete halt to advances.",
+              "text": "Headlines indicate US forces are considering seizing Kharg Island and potentially conducting ground operations, but no headline confirms successful seizure of oil fields or a halt to the advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -420,7 +414,7 @@
             },
             {
               "date": "Mar 18, 2026",
-              "text": "Recent headlines detail North Korean missile launches and displays of force, escalating tensions on the Korean Peninsula. No reports confirm an invasion of South Korea.",
+              "text": "Recent headlines detail North Korean missile launches and displays of force, indicating heightened tensions but not confirming an invasion of South Korea or Japanese failure to intervene.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52cDdVcjF5RDh1TzlScE5QcVVrOXpvYUlpWWZpbGpwc2J6OEdxQVgyZktiU1lOLWdNSlZFekRyX3pHZGZTX292eFpFd1dfRzl3YVVNYVpXV09QdHBhX0NLelpOcEVnRGtUMENTeHMxVExZWU01SFE?oc=5"
             }

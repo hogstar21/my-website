@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 18, 2026",
+      "text": "Day 49 of Middle East conflict — Iran declares Strait of Hormuz open",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnQxRnJlVUlxSHluWFNTeGo3UGJmbTZhYkR2ZjFWRVc2TVROYk14TVByeGNHc1pWdEJqN1FLMTBGVlV5N1Vqem10ejVZd3lWSHNBUEYxTkxrYzVlRGZINFFsSmNWLTNKbzR4eHRXbGVDYUl2YU42SXItTUdnVGc1M3RZYzVsbTdyUW9vR2pJcw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 18, 2026",
+      "text": "UNESCO expresses concern over the protection of cultural heritage sites amidst escalating violence in the Middle East",
+      "source": "UNESCO",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaE9MOUJ2cXRKM1R2N1RPOGlfLXV3QkJzbGVHVkx1czRNdldpdVNVMnFyOWpyREtFNmRMT21TbFdyTFdZY2J5UktkalFuNmNGc0R5VTVNVTVxZ1BKWlNBc3ZvOVpLbE0zWnNBSm1jYTJqVVRBblpLWmc4NU9ud1d3YXM3TnhhSElyQ0Rud25RRnFvVVJZV0FHcTZvMncyTWtEWG0zZTVfQ2htMFMtR0NsY1hXN2FaTENqZVU4Tk9saTRSQjE2emdFdEc3NWt4dw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 18, 2026",
       "text": "Study: Israelis suffer negative health effects due to Iran war",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VLWFKMGo3VUVkbThkV2IyamU0a01ja0lSSE1Sc2lyMUd5NTY1SGstQjhNbTZpVTB0OE1TUkZIRGpkVUY0VG1sSGFsekdQalNjUGJKUURqdGtJdW9L?oc=5",
@@ -61,20 +75,6 @@
       "text": "Oil prices plunge 12% after Iran says Strait of Hormuz is open for commercial vessels",
       "source": "NBC News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQXzNHbVVJY1N3T0F0cHd0M2QtM3c3bmJ2d25naGc0NUhZamp3b19qckFiZDhaMVNzeGJrNVVLV19zckNiQzZSaS1tTWwyUmw2WTlGMHdZOG5JSUE2NzNRUU1xX0IxcDhDbGNMZEt6d2tfdFdpcmRPRFlhSHVkMkNVLTI0SzZ2aVI1VzgtNGpQV2R0ZjRJbG9wQ29YX1lDS01pb0ZEYg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Iran reopens Strait of Hormuz as Trump says US blockade of Iranian ports will continue - follow live",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTVmxOcHd0cWE2SEtkMFNaM2ZUZzdvLTVBNWY2RnkxMXhmZWFFVThlVzRrcDRpbDhXeGNGcnp3WFBnRWl1TkNCZGNjZFpkSEZ5cEZFTg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 17, 2026",
-      "text": "Live updates: Iran declares Strait of Hormuz ‘completely open’ as ceasefire holds in Lebanon",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnQxRnJlVUlxSHluWFNTeGo3UGJmbTZhYkR2ZjFWRVc2TVROYk14TVByeGNHc1pWdEJqN1FLMTBGVlV5N1Vqem10ejVZd3lWSHNBUEYxTkxrYzVlRGZINFFsSmNWLTNKbzR4eHRXbGVDYUl2YU42SXItTUdnVGc1M3RZYzVsbTdyUW9vR2pJcw?oc=5",
       "hot": false
     },
     {
@@ -248,7 +248,7 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Increased troop deployments, naval assets, and equipment suggest heightened tensions and potential for military action, but no amphibious invasion has been confirmed.",
+              "text": "Increased troop deployments, including Marines and naval assets, suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -309,12 +309,6 @@
           ],
           "updates": [
             {
-              "date": "Apr 16, 2026",
-              "text": "While the US hasn't definitively split, Trump's statements and congressional actions indicate a significant shift away from Middle East involvement and potential NATO withdrawal, partially fulfilling the claim.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZDk2UlAxc25fM0VmT2gtWFFORERaTXM4WFpqQ2RwQm1KZXdzc2xrdlpqcW1Nam00MmdPeHFzS1Z1UGhTYzl0bVpUb2puRzktbW05ZGdweHZ1WGtsbTBiWjByeDNnU1pBR2RaSTc4RGN3bThQdHVKd1VEc3MxbnJsSm8wNVdWbmRGVE5fU2lTWVNTNlBrUmFNb1N5TzFWTlJvcDBoMTV5R1lmU3ZzYktadEVkU3dpXzFJcC1nR0Z0RVh3alJwd3RWemNEOTIycEJjRFVxbEhMS0xJQ3c1RWlHTlZLSU5GVlZwMGNQUEVYTWNGQmpHa1A5czUwT3FTVXAxaG5paUkyTFZYdw?oc=5"
-            },
-            {
               "date": "Apr 15, 2026",
               "text": "The US is signaling a potential winding down of involvement in the Iran war, but remains engaged in conflict and faces retaliatory strikes. A split and full retreat hasn't occurred.",
               "hot": true,
@@ -323,6 +317,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

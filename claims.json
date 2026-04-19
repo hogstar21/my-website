@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 19, 2026",
+      "text": "Trump threatens to ‘blow up whole country’ if Iran peace deal fails",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnR1QVRoREV1UFFLd2RMMGp4S0EzTV9XYVJTMDdlV1lsZTdvOUVmd3RQWWQwOXNFT0FxcTIwMVFtbU92TnBuU05DSzBtU2lIWWdVQzVpdWVVSWVIOXhlZ3dmS1hDa252NnhMN1lHZWk3OVFkSG1nNjlfcGtHdFJRS19rc090THpQR3ZBWHZkME5ibE1FZU5Xa3hNZGRVaGVvdmRHdjcxcnFKejdsU19fcVJISmlldWRPSUNaMXpR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 19, 2026",
       "text": "Yemen's Houthis threaten closure of Bab al-Mandeb Strait",
       "source": "chinadailyasia.com",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mWUcwVzZmMzR6TEQwcVNSaGlycmNEYkdDbXoyUnFkM0c2dkp6d0VfLTRneWpVbU9UclpWeG1RZVctRkpQQWUzOGxzOWg0Z2xMeW5QamNPSjE?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 18, 2026",
-      "text": "Iran war live: IRGC says Hormuz closed until US blockade lifted",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX3BZbTNiYm9PQUVrYUdkbURCY0t1Y2pya1RhRVBDblE1a29SLW95RDljZmJFelF4Y1dIbll1cXNEZE8xOUlpMVZzRm9hQXJ4RDVHb1V4X2lGeUx2dVVGVFc4RmpxSGlETlI4bVRFMnlBMXJjREF5QjVWRDdvcUdzMFpGeUVDMFRSUi1oOVJrNDFGMXJ4TUJ1VGJ4UGxDZUlnSHhGb1lXcFRIY0xJS1NnRFZvelBGSlFKT25MYtIBwgFBVV95cUxPMlo1TmZCR0l1RWR1UXZHcHh0Tk9qakZoa3prZmkzcHNLcFNPUHZRU3lGcXBwNVoxYkRBSzhvQXlCYXNTQVBvMS0zOHU4QkEzRDQ0MXpZMDZ3RWJQTkdFWThMUUY1Nno4SXBhTGFlMHVUZUlfS2FpdDU5Ym55X2hxbElPYnRTdmlwVXdvSk4wTTNNUjc1XzhtUXV0ZTl5M2xHaDJUU1BwMnYzM3lucGRGeU5Dd2RReS1RZFdhbEhYbkh6UQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 17, 2026",
-      "text": "Iran Update Special Report, April 17, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY05JU0FwWnJyTGZqbTlxMUJ4ZWxDT1lmWno5U0VyeXQ4X1BGNE4yX0RtdjdFMHRRYzBsakM5UG5RMzI2OGc5Rm1UMU4zSDVZZnJnMDFBT25rTGEzWE1OY29SNUZsOVZqeEd6dGd0MXZMVm43R2dhREhNdU1KSHF4cW5iN0RXTUxtbGllQ2QyWWJPWHBZamc?oc=5",
+      "text": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU1pXclRGd3pwblR5dWptWWI0LWloeUxpWnVKdFVnTE9tcklpSEExXzJnYnl6aVZqeUlqa0c0SjJfZHZ6eGl1TFBQdEpGaUtMeGo3bG5OSmxKSFNKLWdlclZkNGJnSFJPUm5Dd1FBYmhqQ0dBYTYyeWRlb2s5cXZqQTVLR0NsYXRhNkNvdzk1Mzdvd9IBlwFBVV95cUxNN0dTdndfMTVmcnU3RXVFcXhlVmoxZkNQcmlBeVYtWGE2YWV0aWtqU2lJSm9VbkY2WWZBSzBUUmRnSzRrNHBfNUV1NWJOUDN0U2IxenUwSHNsNi1UMEhoLUJ0VFltcUxFTnBla1k5Uk4zQ0E3Y0Y3dEtucmVaQ1hTRUN3MDRTWnpqd2R4Nk1hRXlJX0M4XzFj?oc=5",
       "hot": false
     },
     {
@@ -92,10 +92,10 @@
       "hot": false
     },
     {
-      "date": "Apr 16, 2026",
-      "text": "The End of Managed Escalation in the Gulf",
-      "source": "War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWZmVXdjFMMER2MXdsS05oUkVSUkhYeVZaYkx5Um9jcWdoWDFrTks1SDczQ2xWUDY4THBobHpYLUNsa2ItamRmMG4teFcwZ0doVGJyM1RFa0tZSUY2UG00WEUwMThnRUN3eTNheUNiUWhoNm1Idnlr?oc=5",
+      "date": "Apr 15, 2026",
+      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
@@ -260,22 +260,16 @@
           ],
           "updates": [
             {
-              "date": "Apr 16, 2026",
-              "text": "Headlines indicate US forces are considering seizing Iranian oil infrastructure, including Kharg Island. However, no headline confirms successful seizure or a complete halt to advances.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
-            },
-            {
-              "date": "Apr 15, 2026",
-              "text": "Multiple sources report US consideration and potential planning to seize Kharg Island, a key oil terminal. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUxPQ2lKY2lzLWVycDB6aDFuMTZCcmttd0ROT0lIeFdpYzVFT3JxcXlNUE9qWFFMYjNubWlsa215YXp0YkstM2dPNUNUUDVwYWpKOHlBX2lxMTJYNTVXTjdyWlNBcjgyaWVNVTJDWTFwd0Z2bUNKVEJyOHRBcXY2VXdXa2FyVjVyd0ZlNk14YkFmLU0xcFJFZXNtbU5JUHFSWXNPYWNndUoteE9jUWZzVkpXOWtLT2dyd0JFdnNwNlBwQQ?oc=5"
-            },
-            {
               "date": "Apr 15, 2026",
               "text": "Multiple sources report US consideration and potential action regarding Kharg Island and Iranian oil fields, but no headline confirms successful seizure. Troop deployments indicate heightened tensions and preparation.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUxPQ2lKY2lzLWVycDB6aDFuMTZCcmttd0ROT0lIeFdpYzVFT3JxcXlNUE9qWFFMYjNubWlsa215YXp0YkstM2dPNUNUUDVwYWpKOHlBX2lxMTJYNTVXTjdyWlNBcjgyaWVNVTJDWTFwd0Z2bUNKVEJyOHRBcXY2VXdXa2FyVjVyd0ZlNk14YkFmLU0xcFJFZXNtbU5JUHFSWXNPYWNndUoteE9jUWZzVkpXOWtLT2dyd0JFdnNwNlBwQQ?oc=5"
+            },
+            {
+              "date": "Apr 16, 2026",
+              "text": "Multiple headlines detail US consideration and planning to seize Iranian oil fields, specifically Kharg Island. However, no headline confirms successful seizure or a complete halt to the advance.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
           ],
           "changed_at": "2026-04-06"
@@ -310,13 +304,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
+              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
+              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

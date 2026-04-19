@@ -85,10 +85,10 @@
       "hot": false
     },
     {
-      "date": "Apr 16, 2026",
-      "text": "The End of Managed Escalation in the Gulf",
-      "source": "War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWZmVXdjFMMER2MXdsS05oUkVSUkhYeVZaYkx5Um9jcWdoWDFrTks1SDczQ2xWUDY4THBobHpYLUNsa2ItamRmMG4teFcwZ0doVGJyM1RFa0tZSUY2UG00WEUwMThnRUN3eTNheUNiUWhoNm1Idnlr?oc=5",
+      "date": "Apr 15, 2026",
+      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
@@ -164,13 +164,13 @@
           "updates": [
             {
               "date": "Apr 14, 2026",
-              "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present.",
-              "hot": false,
+              "text": "Reports confirm Iran's actions are impacting the Red Sea and Yemen, with a US carrier responding to a blockade. Oil field strikes and US base attacks remain unconfirmed.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Iran's actions are impacting the Red Sea and Yemen, with a US carrier responding to a blockade. Oil field strikes and US base attacks remain unconfirmed.",
+              "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present in headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -310,13 +310,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
+              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
+              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

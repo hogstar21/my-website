@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 19, 2026",
+      "text": "Iran war live: Tehran denies agreeing to more US talks, state media say",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnR1QVRoREV1UFFLd2RMMGp4S0EzTV9XYVJTMDdlV1lsZTdvOUVmd3RQWWQwOXNFT0FxcTIwMVFtbU92TnBuU05DSzBtU2lIWWdVQzVpdWVVSWVIOXhlZ3dmS1hDa252NnhMN1lHZWk3OVFkSG1nNjlfcGtHdFJRS19rc090THpQR3ZBWHZkME5ibE1FZU5Xa3hNZGRVaGVvdmRHdjcxcnFKejdsU19fcVJISmlldWRPSUNaMXpR0gHDAUFVX3lxTE1nUkZmaTJhYVVqNEExUklsazNjR1VVQUI5eFZfVUd4Q1p4Vi1RdkRlcjlVMDRuWkJtRDc5b0Y0UGYwOHRFTmpJbWlzSFNSeEtoUEF0bmdNclpuTld4UlJJZ1A3SXBfTlZqV05uYXRNeHdxSm56VnQ4WUVJNzAwYUJtdUh1T0JIYnpWTTIwcHo3TmdaX04xaHZwTTNwaDRTekpWbzNJa05JODdval8wZzFKVzY3eVJIbFNuS2NfdlRXc0IzVQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 19, 2026",
+      "text": "What to know about US-Iran standoff over the Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUHAwZ1VWUTM0M2MyRGpoM0o2MS1ES2w3SzdQV3pYRTZhaHZtRDlKUUdYUUZTYzJEQlJDWFo1MDJ2VDJOVk1NRHR4NFlpTkFrMGh0NHBoeEZrTEFtR2lDVUs1NGtvRlMzcDEwLXdIWF9NWllDYVZPYl9NZnZmall2NmJ4RHA1VlRVQzAySWh5dUtQQ0RHX29VenlfZlhYSXI0T0Vic9IBqgFBVV95cUxQMVJSSlRIYnBkb3MxV1R6QmZTT05PV3FORnJhaXRPXzFpZm5mRmxtSGtETWgwTGFsVThfV0h2Yjdrc2FkeUlpdnk2UXRseVJPeVBUNnJBRjlNQm56eTh1YkRFLXpqSlk1Wm5TUjhtVVR5eFo0SlgwUGJaS1B5X1RfbjlzSmJuTXA3cFhuQ1dISU1nYVZZbVJKZUxXTzJ3UUJCQk9ncTF4My1zQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 19, 2026",
       "text": "Live updates: Iran war news; Trump says US delegation heading to Pakistan for talks, Strait of Hormuz traffic halts",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?oc=5",
@@ -78,20 +92,6 @@
       "hot": false
     },
     {
-      "date": "Apr 18, 2026",
-      "text": "A Potent Threat in Strait of Hormuz: Iran’s ‘Mosquito Fleet’",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQajgwS1Jad1c1ZXNNYmNFTVVOSXFfNnNYeGhreUR1MFY2aDFnY3JRRl9YS1VzRWRrU281VnBUUzRWY0oxUWxRY0xGTkIyUkowbF91RjdfWlVDMjhsanZDODRTSktEdGxOaTRWbVZHODhGWTZZcHk2TE9DVUxuZUZzWm9DY2JrdjNSQW14N0dZYTVBUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 18, 2026",
-      "text": "Live updates: Iran renews restrictions on Strait of Hormuz as peace talks approach a critical juncture",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84TkNEZEdiUVlZcWZMaHlwM3VacEQyX0duUmFPdG00T0ZqS3hFWDluRkVRQ0NTQjZjcmNEU3dwMkR4d0ZQVHRyZUU5VXFFRVBaU01kLXM3clRLT0xaak9ES3I1bWFBM0VSYldZeldlc0RhSlVUbFBJ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 16, 2026",
       "text": "US Central Command confirms Marine, Navy support for Iran blockade",
       "source": "Crypto Briefing",
@@ -99,10 +99,10 @@
       "hot": false
     },
     {
-      "date": "Apr 16, 2026",
-      "text": "The End of Managed Escalation in the Gulf",
-      "source": "War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWZmVXdjFMMER2MXdsS05oUkVSUkhYeVZaYkx5Um9jcWdoWDFrTks1SDczQ2xWUDY4THBobHpYLUNsa2ItamRmMG4teFcwZ0doVGJyM1RFa0tZSUY2UG00WEUwMThnRUN3eTNheUNiUWhoNm1Idnlr?oc=5",
+      "date": "Apr 15, 2026",
+      "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
       "hot": false
     },
     {
@@ -348,7 +348,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating increased regional instability, suggesting a shift in its geopolitical stance, but not definitively 'betraying NATO' or fully aligning with Russia, Iran, and China, nor attacking Israel.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating increased regional instability, suggesting a shift in its geopolitical stance, but not definitively 'betraying NATO' or fully aligning with Russia, Iran, and China.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

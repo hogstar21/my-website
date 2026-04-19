@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 19, 2026",
+      "text": "Yemen's Houthis threaten closure of Bab al-Mandeb Strait",
+      "source": "chinadailyasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mWUcwVzZmMzR6TEQwcVNSaGlycmNEYkdDbXoyUnFkM0c2dkp6d0VfLTRneWpVbU9UclpWeG1RZVctRkpQQWUzOGxzOWg0Z2xMeW5QamNPSjE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 19, 2026",
       "text": "Day 50 of Middle East conflict — Iran says it’s closing Strait of Hormuz again",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84TkNEZEdiUVlZcWZMaHlwM3VacEQyX0duUmFPdG00T0ZqS3hFWDluRkVRQ0NTQjZjcmNEU3dwMkR4d0ZQVHRyZUU5VXFFRVBaU01kLXM3clRLT0xaak9ES3I1bWFBM0VSYldZeldlc0RhSlVUbFBJ?oc=5",
@@ -96,13 +103,6 @@
       "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
       "source": "American Jewish Committee (AJC)",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 09, 2026",
-      "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
-      "source": "Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjNNQVA2QkRaSTV5S1drZE5yb1pCRVNxLVBORWVrWnZTTUV5am5QSDhRLUd1dEF5WE1OeFQ3Y1FLNnhGT19rSFRmai0tb1QxTFR4UmNYYWlEZnRKdG9tZDMweFFhdnZqV1BGR2o0bFBpTGxKb0VWeHRqb0hpVUJUTXE5dGVETmd0V1VMaVU3WjZXYUR0MUwycl94b0NlSkFrbkRlOWxHTQ?oc=5",
       "hot": false
     },
     {
@@ -310,13 +310,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
+              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is signaling a potential withdrawal from the Iran war and considering leaving NATO, indicating a shift in foreign policy but not a complete split or retreat.",
+              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

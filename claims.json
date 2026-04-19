@@ -173,6 +173,12 @@
               "text": "Reports indicate Houthi threats impacting the Bab el-Mandeb Strait and ongoing conflict in Yemen. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present in headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Headlines confirm conflict in Yemen/Red Sea and Houthi threats to Bab el-Mandeb. No confirmation of attacks on Gulf oil fields or US bases, but the broader conflict supports partial confirmation of the claim.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
         },
@@ -273,7 +279,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Multiple sources report US consideration and potential action regarding Kharg Island and Iranian oil fields, but no headline confirms successful seizure. Troop deployments indicate heightened tensions and preparation for potential conflict.",
+              "text": "Multiple sources report US consideration and potential action regarding Kharg Island and Iranian oil fields, but no headline confirms successful seizure. Troop deployments indicate heightened tensions and preparation.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUxPQ2lKY2lzLWVycDB6aDFuMTZCcmttd0ROT0lIeFdpYzVFT3JxcXlNUE9qWFFMYjNubWlsa215YXp0YkstM2dPNUNUUDVwYWpKOHlBX2lxMTJYNTVXTjdyWlNBcjgyaWVNVTJDWTFwd0Z2bUNKVEJyOHRBcXY2VXdXa2FyVjVyd0ZlNk14YkFmLU0xcFJFZXNtbU5JUHFSWXNPYWNndUoteE9jUWZzVkpXOWtLT2dyd0JFdnNwNlBwQQ?oc=5"
             }
@@ -332,7 +338,7 @@
         {
           "id": "c11",
           "text": "Turkey betrays NATO, joins Russia-Iran-China, attacks Israel",
-          "status": "watch",
+          "status": "partial",
           "source": "Turkey condemned strikes; closed airspace to US ops. NATO intact. Has not attacked Israel.",
           "keywords": [
             "Turkey NATO tensions 2026",
@@ -354,11 +360,12 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in alignment, but not definitive betrayal or alliance with Russia/China or attacks on Israel.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not full alignment with Russia or China, nor an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }
-          ]
+          ],
+          "changed_at": "2026-04-19"
         },
         {
           "id": "c12",

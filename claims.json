@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 20, 2026",
+      "text": "The Human and Environmental Costs of the War in Iran",
+      "source": "Center for American Progress",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcGxKb3dZeTlCalBUdDN3bmNFN3c3aXVzeFBBdmRKV0dKX05QT2dCMHd3MXB6eXhJcDVNdzRCRmt4Z0hKSkltSmlrNXo5UHVIYTFhUFJaekFmcEEzb291ZzlWYk4yMjVfMFdLQnJPcWMtZ2MzY2xJdHNwVDFXOXVXbVhBQzZpRGxMcDVkTnpFQmt4MVBKU3R0YzBB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 20, 2026",
       "text": "Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNC1DRW1CeXpNOEsxOUZHbXY2bXhzOFhRdGM3a3pPQWkwOGNldFM5ZGwxSGJwdjNoVHNVTWdxbXUtOURVOWgyUzlkMEtVZGpoeEU3eTdqNUdLZ2JKQWttS2p6Vmw0YkRrLWwxRHltckJsM2oyUjJHa19CelU2WFRUWNIBhgFBVV95cUxNUWNfejhmV01VMGxBbHc1bDJTdWozOGZjRWNOSDNSV3pTNnZrTlpnR19TczdVVXk0cGpkUDJya0d0ejNPSEdYQzBfcm9GVUlVUVJ4STdBb2NwNGtYWlRib0ktTFlGWDV2TVVmYUZzYklPR3A1TXJjQnZZdl9JalhCeDdsaXRfUQ?oc=5",
@@ -64,17 +71,17 @@
       "hot": false
     },
     {
-      "date": "Apr 20, 2026",
-      "text": "Record-setting aircraft carrier USS Gerald R. Ford moves into Red Sea",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWG5FRHAxQlNRbk1GYy13aVdYLTJXbnczUENUQVIwd2tPcFQydzJNb1JHa2UyOHpZTlZlTmpMZjN5VGozLXEwazdzclN6b0pZNEZ2d3EwX2pZU0thR2RLMVo5X2FSOG5jcWNKTnNSS2JDSGRFNnFGWFBnc2dMX2hFZXN6enVoVUJITmNaMHFBUlpLYmRmUDRV?oc=5",
+      "date": "Apr 19, 2026",
+      "text": "Iran Update Special Report, April 19, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPanFHSTdoTnI3LWNOTm14S2xOR2c1OFg1RlRjRnM4eDhySzNPLU9FcVZ5b2tTdU5PY012UlUwWkxJUXBYYXR3Ykk5UUJlMlRVUW90akpFcDloYkVBbWdsU0l1N0EwV0lrVjI5NVdmTTA5REZ1ekZWRDloZ09GZTB0Sm5BVlFsTnNIeEhhSHo2VzNrVTBIVmc?oc=5",
       "hot": false
     },
     {
       "date": "Apr 19, 2026",
-      "text": "Day 50 of Middle East conflict — Iran says it’s closing Strait of Hormuz again",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84TkNEZEdiUVlZcWZMaHlwM3VacEQyX0duUmFPdG00T0ZqS3hFWDluRkVRQ0NTQjZjcmNEU3dwMkR4d0ZQVHRyZUU5VXFFRVBaU01kLXM3clRLT0xaak9ES3I1bWFBM0VSYldZeldlc0RhSlVUbFBJ?oc=5",
+      "text": "Trump feared US troops would become ‘sitting ducks’ if they invaded Iran’s Kharg island: Report",
+      "source": "PressTV",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSGJuTW80VUprQlFhbkJwLW43UFE1alUtOVY0cXJVeUExMUJXRjdUT0xnUWVrQXZuOUhVZXE0V0NwX3lBUnpPZWFDd29ub3dLQUM1SERZRERqUEJidUVFYmNoMHZDbS0xWW1BY2k2UnNKWmhaOFZZX3BYRDFBaTdQd2UzNGlROHdMbjhMeTY3YVBkNGdzNlZhOHN5STM3ZlNiWTZ4QS1WWE1EVHN6Y0N2S1RrcS1LdGZRS21qWUVxZ1hiTWo2ejFzMU5LOTRrM2h4Vk1xMnExZzFJZw?oc=5",
       "hot": false
     },
     {
@@ -89,13 +96,6 @@
       "text": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
       "hot": false
     },
     {
@@ -171,6 +171,12 @@
             {
               "date": "Apr 14, 2026",
               "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb. US base attacks are not explicitly confirmed by headlines provided.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Headlines confirm conflict in Yemen/Red Sea and Houthi threats to Bab el-Mandeb. No confirmation of direct Iranian attacks on Gulf oil fields or US bases, but escalation is evident.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -261,7 +267,7 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "Headlines indicate potential US ground operations targeting Iranian oil infrastructure, specifically Kharg Island. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
+              "text": "Headlines indicate US forces are considering seizing Iranian oil infrastructure, including Kharg Island. However, no headline confirms successful seizure or a complete halt to advances.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -298,7 +304,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift in foreign policy but not a complete split or retreat.",
+              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, indicating a shift away from Middle East commitments, but a split hasn't occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

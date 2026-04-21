@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 21, 2026",
+      "text": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 21, 2026",
       "text": "Navy having no problems feeding sailors in Middle East, admiral says in denying reports",
       "source": "Stars and Stripes",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnpHUVgweDk2TjBIMXRHTzdMajdUWkxGVTFjdlZOUGRWSnlCYTZuenJsZTlUM2s2Q0dYNHdEdDVmMllmSGJ6N0lQYnF5ZnlHa2I1eDdROG9KQjFkb2FrZmQ4am9aMFR6M25nOWl4NEFTaEhNaFlKTDRnUXl2c3ZmOTFkM2g0cEhpWnpWbEYyY3J0QUpVVzBzQVhuTWNBTXY5TG05NXhB?oc=5",
@@ -78,17 +85,10 @@
       "hot": false
     },
     {
-      "date": "Apr 21, 2026",
-      "text": "Oil falls as investors assess mixed messaging on Iran peace talks ahead of ceasefire deadline",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0w3aGtyaDFQdXc0SllZZGRzSzk5RkFXMVB5a2hkdjlNa1ZqWElPdDhwVldhQm4zRENQUW52WU9JUjkzNHJ5aG8yRFlLMGtzTTZEZ0VGV25INkJTZG9rMzNucncwNE5MZFlEX25IanJpVGp2ejJwbExwZmJ3SC1Rcml1LWliQl9OX1JrcU84MzJqVlV2NnJXc1k1V29tbE3SAaQBQVVfeXFMUGZRU0NDenhZYzdSdXRySWlTXzVzTDdwSDNScTJBZlp1V1k1eGdtUDNoM25tdUFwemJrcm1GclpGQkRMM1V4RlBJaXBEU0s0VkJDRFRpQnpDSms5R3VwT1cxWUhrNWxWWmJ1T1hwdmczQ2c4cGF0QzRkckx1bG1Eay1jMExHX0ZYcW5mb2FMQkV6QmYwMXhQRGNTVTIxUXpuX0dqbXQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 19, 2026",
-      "text": "Trump feared US troops would become ‘sitting ducks’ if they invaded Iran’s Kharg island: Report",
-      "source": "PressTV",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSGJuTW80VUprQlFhbkJwLW43UFE1alUtOVY0cXJVeUExMUJXRjdUT0xnUWVrQXZuOUhVZXE0V0NwX3lBUnpPZWFDd29ub3dLQUM1SERZRERqUEJidUVFYmNoMHZDbS0xWW1BY2k2UnNKWmhaOFZZX3BYRDFBaTdQd2UzNGlROHdMbjhMeTY3YVBkNGdzNlZhOHN5STM3ZlNiWTZ4QS1WWE1EVHN6Y0N2S1RrcS1LdGZRS21qWUVxZ1hiTWo2ejFzMU5LOTRrM2h4Vk1xMnExZzFJZw?oc=5",
+      "date": "Apr 20, 2026",
+      "text": "Oil prices rise after Trump says Iranian ship seized",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
       "hot": false
     },
     {
@@ -177,7 +177,7 @@
             {
               "date": "Apr 14, 2026",
               "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb. US base attacks are not explicitly confirmed by headlines provided.",
-              "hot": true,
+              "hot": false,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
@@ -316,7 +316,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is actively discussing and considering significant withdrawals from both the Iran war and NATO, indicating a partial retreat from the Middle East and international alliances. A full split hasn't occurred.",
+              "text": "The US is actively discussing and considering significant withdrawals from both the Iran war and NATO, indicating a partial shift away from Middle East involvement and potential geopolitical realignment.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

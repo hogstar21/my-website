@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 21, 2026",
+      "text": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 21, 2026",
       "text": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XcGd5TXRPYXNZYU5GVURhaS1fVmVaQVcybS1HSzlsVVRqbE9hbFVWTHBERVNvUG1NR0h1TE9LaUpnOG5HSEM5dzYyVTFXZlZlOXViV01EYnpTUlBSVE4xU3hESGtRQ1FER1BhdkFqbXBwdkJTcFg4?oc=5",
@@ -78,17 +85,10 @@
       "hot": false
     },
     {
-      "date": "Apr 21, 2026",
-      "text": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 19, 2026",
-      "text": "Trump feared US troops would become ‘sitting ducks’ if they invaded Iran’s Kharg island: Report",
-      "source": "PressTV",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSGJuTW80VUprQlFhbkJwLW43UFE1alUtOVY0cXJVeUExMUJXRjdUT0xnUWVrQXZuOUhVZXE0V0NwX3lBUnpPZWFDd29ub3dLQUM1SERZRERqUEJidUVFYmNoMHZDbS0xWW1BY2k2UnNKWmhaOFZZX3BYRDFBaTdQd2UzNGlROHdMbjhMeTY3YVBkNGdzNlZhOHN5STM3ZlNiWTZ4QS1WWE1EVHN6Y0N2S1RrcS1LdGZRS21qWUVxZ1hiTWo2ejFzMU5LOTRrM2h4Vk1xMnExZzFJZw?oc=5",
+      "date": "Apr 20, 2026",
+      "text": "Oil prices rise after Trump says Iranian ship seized",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
       "hot": false
     },
     {
@@ -237,6 +237,12 @@
             {
               "date": "Apr 16, 2026",
               "text": "Increased troop deployments and naval movements suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
+            },
+            {
+              "date": "Apr 16, 2026",
+              "text": "Increased US troop deployments and discussions of seizing Iranian islands suggest heightened tensions, but no confirmed amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }

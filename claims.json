@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Apr 22, 2026",
+      "text": "Iran Again Tightens Its Grip on Shipping in the Strait of Hormuz",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb29MWG1KY0FPY1NYZ1JSQ0YteVFNaGZTaTNPTlBja3hFeDZ6c21VUi1JRnAwUWEwdnR4aGhzZFpEdkp4TDV0V2FZcFFEYjR0TnlSbDdpR0pkWE94XzJJZ2R1LTZvSk9mNkZCbmZfX0lXX2NETmVqRG9WeGZFZ2ZFRlkwWkw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 22, 2026",
+      "text": "Oil prices fluctuate as Trump extends Iran war ceasefire",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MdTk3QWl5Si1PNnNaVl9WT0swVmpkMVhac2tPaWpEOXBncUMzOFU3LVpIbWhuaTZNTnRWNjF6SDljRGlsZF9JUENJSURqYTB2TDMxRzkxbHJZdw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 22, 2026",
       "text": "Israeli civilians find missile fragment near central Israel",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BcGFaZGNObHNNT1A0X2MxVDBTSW5OMl9rTHVXZU9vZ1JyVG1kM3RWWExxRkxZWFg5TlR5SGRVdDZ2Rjd1Q0JxVzduekNma2ZuZWx6UWdjVzJkbWlB?oc=5",
@@ -78,27 +92,6 @@
       "hot": false
     },
     {
-      "date": "Apr 22, 2026",
-      "text": "Middle East crisis live: Trump extends ceasefire but blockade continues as second ship reports attack in strait of Hormuz",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYzBweDVLbkNBQzVKQVRTQ3lFWEN4dE9KS25HWFFnTXVKcmFUMWh0RXJmX0FOcWYwYnNUaWtpYnFRblJrSGp0OFFTT3FwQlBOUWZIY1lVdG5TT1JtQzlXeE5CN3J1QzN6akJTbjdrNk9pRGVzcGIteTloQXRaeDh4d2NMNjRMTzM1c1YwLXk2MGdNTDRKX3RhYm8wampnb3dKMmpJOTh2US15eFpVUW85QzNjcDlHY2pJcTZGOF9EdHhybzN3Q1lEdUFvM2RFaDA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 22, 2026",
-      "text": "Iran attacks ship in Strait of Hormuz, complicating diplomatic efforts to resume talks",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 19, 2026",
-      "text": "Trump feared US troops would become ‘sitting ducks’ if they invaded Iran’s Kharg island: Report",
-      "source": "PressTV",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSGJuTW80VUprQlFhbkJwLW43UFE1alUtOVY0cXJVeUExMUJXRjdUT0xnUWVrQXZuOUhVZXE0V0NwX3lBUnpPZWFDd29ub3dLQUM1SERZRERqUEJidUVFYmNoMHZDbS0xWW1BY2k2UnNKWmhaOFZZX3BYRDFBaTdQd2UzNGlROHdMbjhMeTY3YVBkNGdzNlZhOHN5STM3ZlNiWTZ4QS1WWE1EVHN6Y0N2S1RrcS1LdGZRS21qWUVxZ1hiTWo2ejFzMU5LOTRrM2h4Vk1xMnExZzFJZw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 09, 2026",
       "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
       "source": "Time Magazine",
@@ -110,6 +103,13 @@
       "text": "USS Boxer Amphibious Ready Group back at sea",
       "source": "Stars and Stripes",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 07, 2026",
+      "text": "US has struck Iranian military targets on Kharg Island. Here’s what we know about it",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWk0bVpseU1tNW9rall3SzNkX3ctZmUxQzJ1SFk5YWFPbVBmMnZmNzcxVnY3c1A4SnpSRWp0VmdtcURYTVZCcU5yQ1Bma204OGhNS1djNlFuR2wyeWpnb28zU00wakRjeWZMeEVnb0h5bzlaaVoyTlFZT0pTb3hybHFQU0Z3R3U0?oc=5",
       "hot": false
     }
   ],
@@ -164,12 +164,6 @@
           "updates": [
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm conflict expansion involving Iran and Houthis impacting the Red Sea and Strait of Hormuz, but no direct attacks on Gulf oil fields or US bases are explicitly stated.",
-              "hot": false,
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
-            },
-            {
-              "date": "Apr 14, 2026",
               "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions threatening Bab el-Mandeb. US base attacks are not explicitly confirmed by headlines provided.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
@@ -177,6 +171,12 @@
             {
               "date": "Apr 14, 2026",
               "text": "Several headlines confirm Iranian involvement in the Bab el-Mandeb Strait and conflict in Yemen, but there's no explicit confirmation of attacks on Gulf oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Iranian-backed Houthi actions disrupting shipping in the Bab el-Mandeb and attacks in the Gulf, but claims of hitting *all* oil fields and US bases remain unverified.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -261,12 +261,6 @@
           "updates": [
             {
               "date": "Apr 16, 2026",
-              "text": "Multiple headlines discuss potential US ground operations and seizing Iranian oil infrastructure, but none explicitly confirm the seizure of oil fields or a halt to the advance.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
-            },
-            {
-              "date": "Apr 16, 2026",
               "text": "Headlines indicate US forces are actively planning and potentially preparing to seize Iranian oil fields, but no headline confirms successful seizure or a complete halt to advances.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
@@ -274,6 +268,12 @@
             {
               "date": "Mar 29, 2026",
               "text": "Headlines indicate US planning and potential ground operations targeting Iranian oil infrastructure, specifically Kharg Island. Seizure is implied but not confirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
+            },
+            {
+              "date": "Mar 29, 2026",
+              "text": "Headlines indicate US ground operations are underway, targeting Kharg Island. However, 'advance halts' is not confirmed; operations are described as 'limited' and potentially lengthy.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5"
             }
@@ -310,13 +310,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "The US is actively discussing and considering significant withdrawals from both the Iran war and NATO, indicating a partial shift away from Middle East involvement and a weakening of transatlantic alliances.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
-            },
-            {
-              "date": "Apr 15, 2026",
-              "text": "The US is actively discussing and threatening withdrawal from both NATO and the Iran war, indicating a significant retreat from Middle East involvement, but a full split hasn't occurred.",
+              "text": "The US is actively discussing withdrawal from both the Iran war and NATO, indicating a significant shift in foreign policy, but neither action is complete.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }
@@ -354,7 +348,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey is navigating complex regional dynamics, intercepting Iranian missiles, and engaging in a 'balancing act' with Russia, Iran, and China, but no definitive alliance is confirmed.",
+              "text": "Headlines indicate Turkey is navigating complex regional dynamics, intercepting Iranian missiles, and engaging in a 'strategic balancing act' with Russia, Iran, and China, partially supporting the claim.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

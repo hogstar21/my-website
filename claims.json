@@ -65,6 +65,13 @@
     },
     {
       "date": "Apr 22, 2026",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 22, 2026",
       "text": "Oil prices fluctuate as Trump extends Iran war ceasefire",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MdTk3QWl5Si1PNnNaVl9WT0swVmpkMVhac2tPaWpEOXBncUMzOFU3LVpIbWhuaTZNTnRWNjF6SDljRGlsZF9JUENJSURqYTB2TDMxRzkxbHJZdw?oc=5",
@@ -82,13 +89,6 @@
       "text": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 21, 2026",
-      "text": "Why did US and Israel attack Iran and how long could the war last?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi actions impacting Red Sea shipping and increased regional conflict, but no direct confirmation of Iranian strikes on Gulf oil fields or US bases.",
+              "text": "Reports confirm heightened conflict in the Red Sea and Yemen, with Iran-backed Houthis impacting global shipping. No confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Apr 20, 2026",
-              "text": "Increased US troop deployments and naval assets (including Marines and amphibious assault capabilities) in the Middle East suggest heightened tensions with Iran, but no invasion has been confirmed.",
+              "text": "Increased US troop deployments and naval assets (including Marines and amphibious assault ships) in the Middle East suggest heightened tensions with Iran, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjJGdm1NcGJ1ZTc1OUNpbUFlVkJHM0lLWFZRX2FLTHpZcWJwUVI4cmJ3MXZjbVVPUm1fNkprT0RPRk5IdnExZ19ZdGNLOGlJSVlSYUp0cFFBYW9ZMWpDeWtOODYxS0M0ZjR1Y2o4bXc2RjdWRzNiOFNHd1BQT0JzSG1QOFZtLWZi?oc=5"
             }
@@ -311,6 +311,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "The US is actively discussing withdrawing from both NATO and the Iran conflict, but no actual withdrawal has occurred. This aligns with a partial split and retreat from the Middle East.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "The US is considering winding down involvement in the Iran war and potentially withdrawing from NATO, but no definitive split or full retreat has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5"
             }

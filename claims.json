@@ -79,16 +79,16 @@
     },
     {
       "date": "Apr 23, 2026",
-      "text": "Iran war updates: Trump announces three-week Lebanon ceasefire extension",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeVR0dmZBcEtyclJkbWlmT3hTUUlHandkWS1tQXZKX0ZUNC1PMWVGWjRFUW5fb3lEQVNMSmhFRnNSQWo0RVp0b3dZUjZHM3ZVSGN3ZThsZUM4bGxUVUZYdzV6T3lHQk1jemc0blVUVl90eHZnZkRYNmYxUWVncVB3cktRS1VidDV2aTluVHZ5UGcwdTN3RDBvSGl5dmVMbzdudHFENXVobDNkaHlXQ3R6Wk05bEVvTWxGRTZWRtIBwgFBVV95cUxPZXRoSDAyRVUyLVNmSDN4Yi11X1pUQ2plZHJmTE1mQ3QxZEpNQ1Z6QlB2d2VSaV9LeGhuYXZHU2VhNkhLcTM1dGV0R3QxRzc3ZnYwUlByQ2ZRVEtXTjdod05nVDVyZVRROWtET1Q4YUxFeVdCUkRzc3hBYWZibVVFUVdVSGJ5UkJRNC00RS1zX3lzc0JhN1VlWjdsRmFJdmtDeVhlUlVHWWhCYkFrOXVhZlVVUURuYUNPUnN6dElQSGk1dw?oc=5",
+      "text": "US military says it seizes another oil tanker associated with Iran",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?oc=5",
       "hot": false
     },
     {
       "date": "Apr 23, 2026",
-      "text": "Trump says Americans should expect higher gas prices for 'a little while'",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPakxYUmQ2VXFTaFdNVVlMM0NKUDVZUHoycy1Ma1hvUVYxamRBZ2JGS0pGVU12TGVPUmU0MmlTMENndk9ueHg1VVNCNS1MaUUzSENOTTY1OGlYejJyN0Z4MV9WMXliSEVDYVRuRWwtVXpVbE1MRjBxSDhXd2FoUnRZYzNHeU1oUdIBiwFBVV95cUxQQXdpb29jdU1KRUtTeHlWRE9TVlBMU2lvQllPMEVHNVdqY3FJYUpab0NZcDEwcTlfZTVqcUhuTUQyQlZFZWJweFN0QTJ2RzRBcFpnZmVkbi1jZHdUX0VZMHB1ekh4eWFfai1CeVl5N3U3RzVONlhFWktUWUlhWlFxSjdfOXlNdnlPdUFB?oc=5",
+      "text": "Iran war updates: Trump announces three-week Lebanon ceasefire extension",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeVR0dmZBcEtyclJkbWlmT3hTUUlHandkWS1tQXZKX0ZUNC1PMWVGWjRFUW5fb3lEQVNMSmhFRnNSQWo0RVp0b3dZUjZHM3ZVSGN3ZThsZUM4bGxUVUZYdzV6T3lHQk1jemc0blVUVl90eHZnZkRYNmYxUWVncVB3cktRS1VidDV2aTluVHZ5UGcwdTN3RDBvSGl5dmVMbzdudHFENXVobDNkaHlXQ3R6Wk05bEVvTWxGRTZWRtIBwgFBVV95cUxPZXRoSDAyRVUyLVNmSDN4Yi11X1pUQ2plZHJmTE1mQ3QxZEpNQ1Z6QlB2d2VSaV9LeGhuYXZHU2VhNkhLcTM1dGV0R3QxRzc3ZnYwUlByQ2ZRVEtXTjdod05nVDVyZVRROWtET1Q4YUxFeVdCUkRzc3hBYWZibVVFUVdVSGJ5UkJRNC00RS1zX3lzc0JhN1VlWjdsRmFJdmtDeVhlUlVHWWhCYkFrOXVhZlVVUURuYUNPUnN6dElQSGk1dw?oc=5",
       "hot": false
     },
     {
@@ -170,8 +170,8 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi threats regarding the Bab el-Mandeb Strait and broader conflict in Yemen. No confirmation of direct Iranian attacks on Gulf oil fields or US bases is present in the headlines provided.",
-              "hot": false,
+              "text": "Reports confirm Houthi threats regarding the Bab el-Mandeb Strait and broader conflict in Yemen. No confirmation of direct Iranian attacks on Gulf oil fields or US bases is present in headlines.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
@@ -241,10 +241,10 @@
               "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oOUcyZ3VsSm84TGlyYkUtT1NiV251TkZJOGJtTGVuRVFzMGM2Slk1VHdSTnBoV0ZqRGxyVURtQkl5VlNOOXQ1MzFTaUNMZ1JqOGk0em8ydVhqTHZxSWpzam9HTFhKTmc1czVWX2hyRGg?oc=5"
             },
             {
-              "date": "Apr 22, 2026",
-              "text": "Increased US troop and naval deployments, including Marines and aircraft, to the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
+              "date": "Apr 20, 2026",
+              "text": "Increased US troop deployments and naval assets (including Marines and assault power) in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
               "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oOUcyZ3VsSm84TGlyYkUtT1NiV251TkZJOGJtTGVuRVFzMGM2Slk1VHdSTnBoV0ZqRGxyVURtQkl5VlNOOXQ1MzFTaUNMZ1JqOGk0em8ydVhqTHZxSWpzam9HTFhKTmc1czVWX2hyRGg?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjJGdm1NcGJ1ZTc1OUNpbUFlVkJHM0lLWFZRX2FLTHpZcWJwUVI4cmJ3MXZjbVVPUm1fNkprT0RPRk5IdnExZ19ZdGNLOGlJSVlSYUp0cFFBYW9ZMWpDeWtOODYxS0M0ZjR1Y2o4bXc2RjdWRzNiOFNHd1BQT0JzSG1QOFZtLWZi?oc=5"
             }
           ]
         },
@@ -348,8 +348,8 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed. Israel is not mentioned as being attacked by Turkey.",
-              "hot": false,
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }
           ],

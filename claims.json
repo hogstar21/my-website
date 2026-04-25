@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 25, 2026",
+      "text": "Trump cancels Witkoff and Kushner's trip to Pakistan for Iran talks",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUGI2T3dFcXI0aVBtb3B4QnVoMEJMc2c0SW9lT0JtZ2ZUQWp4RVdYbENFV05HSkZmSEFPdktEOHdUdDRDSEFFM0Z3M0ZzT1ZackdtMA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 25, 2026",
       "text": "Iran's foreign minister says he shared Tehran's 'views' on ending war at Islamabad talks",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUGI2T3dFcXI0aVBtb3B4QnVoMEJMc2c0SW9lT0JtZ2ZUQWp4RVdYbENFV05HSkZmSEFPdktEOHdUdDRDSEFFM0Z3M0ZzT1ZackdtMA?oc=5",
@@ -64,24 +71,17 @@
       "hot": false
     },
     {
-      "date": "Apr 25, 2026",
-      "text": "Live updates: US envoys will head to Pakistan on Saturday for fresh Iran talks",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 24, 2026",
-      "text": "In 8 weeks, the Iran war has dented the U.S. economy. The damage could linger, economists say.",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObTFoaGpkZm9XRXVoVndBcUpFQmhYNTdIazRQREVmSFlaOWFiVFBWVWxRNXc0UFhpellwX21iQmhBX2JpekVaQ0RPVGJ1MDE0TDRwVGpibjBnZ1RZYnZnM0N2Xy10MERwdEhDN3JOV0JMVEpidUw2eXdZYUtXRDd0S2JXVVBRNW_SAYwBQVVfeXFMT202UFFHMlBGUm1fUloybXd2Vlh2M3BMdUEyWURuRHNSNlB2THRSNUgyTThqSWZhX1pNUm9zNjJjaV9xZ3o3TUl2NzhmaG1CbTZiOWVDT0g5T0ROd3lKVjZacmwxdFJwVDBpcXltYXRNd1R4cWhJcGc1UW1sWEZCRTFINy1STkdZSHdBWkY?oc=5",
+      "text": "Only five ships pass through Strait of Hormuz in 24 hours",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVDY0N3lOeDVoY0FHTVd3cGV4VkJRTV9EekNzUWxQdFFlNTdESVFFZGQtaEpUYVUzV0hNOHdfNjdPU01acWxGUnRvVXc0ZXNkclVQR2VJcDM0QU1YQXFibEY0QmFuODhIRU9pWFhuTW40TFM2UHcweXBHYkFtR1BnSngwRHl4aDR5MU5EdzN0bzZJRnVpalRqQUY1YzA3NlZQT3o4bVlmTng?oc=5",
       "hot": false
     },
     {
       "date": "Apr 23, 2026",
-      "text": "Why did US and Israel attack Iran and how long could the war last?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
+      "text": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vdWMwejlaaUhEZ0VvZ1Nlc0FocXZfZFlzVTVVQ210ZEQyWUlSbTk2UzdWV0NuTXFDTjUtb0wyVmgtUGtvQng4R0ZXZGM4VFBHc3dSLWN1WXpUODUzajFfRnpMSXhwcmRWTVlxYkxZQTY4ZnZDSG9jatIBfkFVX3lxTFAySGhUd29hbkVJSEwxQ3gtRmsyeXNqdEhvbVdKMDdRanFFS2JoX2UyUVN2MXJkLXBNbnJkR0hIaGFENDlVcUYyYXdqSGt1enVDTUsxQmw2U0dibkVmdU54cHpaYkRhX1FsM043UEI1QUVneVB4VUx0VnZyVWJ0Zw?oc=5",
       "hot": false
     },
     {
@@ -173,6 +173,12 @@
               "text": "Reports confirm Houthi threats regarding the Bab el-Mandeb Strait and broader conflict in the Red Sea, suggesting some blocking activity. No confirmation of attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 05, 2026",
+              "text": "Reports confirm Houthi attacks and US military deployments, suggesting increased regional tensions and potential Bab el-Mandeb disruption, but no direct Iranian attacks on oil fields are explicitly stated.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
           ]
         },
@@ -261,12 +267,6 @@
           "updates": [
             {
               "date": "Mar 30, 2026",
-              "text": "Headlines indicate US planning and potential ground operations targeting Iranian oil infrastructure, specifically Kharg Island. Seizure is discussed but not confirmed. Advance halting is not mentioned.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5"
-            },
-            {
-              "date": "Mar 30, 2026",
               "text": "Headlines indicate US ground operations are underway and Kharg Island is a target, but no headline confirms oil fields have been seized or an advance has halted.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5"
@@ -274,6 +274,12 @@
             {
               "date": "Mar 30, 2026",
               "text": "Headlines indicate US planning and consideration of seizing Iranian oil fields, specifically Kharg Island, but no headline confirms successful seizure or a complete halt to advances.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5"
+            },
+            {
+              "date": "Mar 30, 2026",
+              "text": "Headlines discuss potential US actions including seizing Kharg Island and troop deployments, but none confirm successful seizure of oil fields or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5"
             }

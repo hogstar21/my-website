@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 25, 2026",
+      "text": "MSF responds to escalating conflict in the Middle East",
+      "source": "Doctors Without Borders",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUwyN2hhcW85Mk5wN3lMM0hfY3oyQU1IelBYd0tmaEl0NFJQLU5uejFVZ1VKLXJaS1lQQ1BQUEU0bjdKUEtwaGdtMFdnQUx1UHBTMmxCUDdpQ3FKa09QU2NIYzR6cWdJbUpWUkFZUVN1MjItU0MwdTQ3bWpyQ1VjMXRGMjJfLVNOeTFDUUZFaGhabFU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 25, 2026",
       "text": "Trump cancels Witkoff and Kushner's trip to Pakistan for Iran talks",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUGI2T3dFcXI0aVBtb3B4QnVoMEJMc2c0SW9lT0JtZ2ZUQWp4RVdYbENFV05HSkZmSEFPdktEOHdUdDRDSEFFM0Z3M0ZzT1ZackdtMA?oc=5",
@@ -72,16 +79,16 @@
     },
     {
       "date": "Apr 24, 2026",
-      "text": "Only five ships pass through Strait of Hormuz in 24 hours",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVDY0N3lOeDVoY0FHTVd3cGV4VkJRTV9EekNzUWxQdFFlNTdESVFFZGQtaEpUYVUzV0hNOHdfNjdPU01acWxGUnRvVXc0ZXNkclVQR2VJcDM0QU1YQXFibEY0QmFuODhIRU9pWFhuTW40TFM2UHcweXBHYkFtR1BnSngwRHl4aDR5MU5EdzN0bzZJRnVpalRqQUY1YzA3NlZQT3o4bVlmTng?oc=5",
+      "text": "Three carriers operate in Middle East for first time since 2003: CENTCOM",
+      "source": "Breaking Defense",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3FNX2FLSEZicnVpcjF4WmN0UHhxWGRYSkhIVUUwNjF1c2pGMi1iN0xmSTZpZWZQLTJUZzRsYUtJQlUtRkZCQ2llbGxaSmZkeTlJdzJBLXlrcml3bEcwNjdxSFQxaS1PUktYSWdDdG5UWEdTMU51ejl3RDFPX0hwSjhaSjR4VjNwMmFKZWUwbW1wTThmMUlqN1p1cjQ2c0VxMlpMQW1RdjhLVXY5?oc=5",
       "hot": false
     },
     {
       "date": "Apr 23, 2026",
-      "text": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vdWMwejlaaUhEZ0VvZ1Nlc0FocXZfZFlzVTVVQ210ZEQyWUlSbTk2UzdWV0NuTXFDTjUtb0wyVmgtUGtvQng4R0ZXZGM4VFBHc3dSLWN1WXpUODUzajFfRnpMSXhwcmRWTVlxYkxZQTY4ZnZDSG9jatIBfkFVX3lxTFAySGhUd29hbkVJSEwxQ3gtRmsyeXNqdEhvbVdKMDdRanFFS2JoX2UyUVN2MXJkLXBNbnJkR0hIaGFENDlVcUYyYXdqSGt1enVDTUsxQmw2U0dibkVmdU54cHpaYkRhX1FsM043UEI1QUVneVB4VUx0VnZyVWJ0Zw?oc=5",
+      "text": "Why did US and Israel attack Iran and how long could the war last?",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
       "hot": false
     },
     {
@@ -89,13 +96,6 @@
       "text": "Houthis signal return, warn of broader regional escalation",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xZ1B2TkZJVmo0Z0phLVUwWk1YMVZHRjJqX3VGTm54cl9LRFlyOFBxcUJhVUtjOU1FY01KWTNMeUFSRFVkQ1BGOVY4UXFsRjFOZUxlOTdGTFhidGQy?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 14, 2026",
-      "text": "‘Time for diplomacy over escalation’ in Middle East war: Guterres",
-      "source": "UN News",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPa3hLOUMwN2pwZ1I0T3ljM2d2X0VaRElTZmhkS0ZjZ0dKTTdjNmpDU3YteDVjUlFXOXY0Sl9YWGg4dHRsU2R0U3A1aW1kX3hoU2ZNMFpXSQ?oc=5",
       "hot": false
     },
     {
@@ -169,16 +169,16 @@
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             },
             {
-              "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi threats regarding the Bab el-Mandeb Strait and broader conflict in the Red Sea, suggesting some blocking activity. No confirmation of attacks on Gulf oil fields or US bases.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
-            },
-            {
               "date": "Apr 05, 2026",
               "text": "Reports confirm Houthi attacks and US military deployments, suggesting increased regional tensions and potential Bab el-Mandeb disruption, but no direct Iranian attacks on oil fields are explicitly stated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Houthi threats regarding the Bab el-Mandeb Strait and broader conflict in the Red Sea, suggesting some blocking activity. No confirmation of attacks on Gulf oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
         },
@@ -248,7 +248,7 @@
             },
             {
               "date": "Apr 20, 2026",
-              "text": "Increased US troop deployments and naval assets (including Marines and jets) in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
+              "text": "Increased US troop deployments and naval assets (including Marines and assault power) in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjJGdm1NcGJ1ZTc1OUNpbUFlVkJHM0lLWFZRX2FLTHpZcWJwUVI4cmJ3MXZjbVVPUm1fNkprT0RPRk5IdnExZ19ZdGNLOGlJSVlSYUp0cFFBYW9ZMWpDeWtOODYxS0M0ZjR1Y2o4bXc2RjdWRzNiOFNHd1BQT0JzSG1QOFZtLWZi?oc=5"
             }
@@ -322,7 +322,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "While the US hasn't definitively split, Trump's NATO withdrawal threats and continued Middle East involvement suggest a potential shift in US foreign policy, aligning with the claim's core elements.",
+              "text": "While the US hasn't definitively split, Trump's NATO withdrawal threats and continued Middle East involvement suggest a significant shift in foreign policy, aligning with the claim's core elements.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5"
             }

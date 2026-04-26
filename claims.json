@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 26, 2026",
+      "text": "Report: Israel Sent Iron Dome Battery, Troops to UAE During Iran War",
+      "source": "Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOamhhRjBKbThOQkpyNnBVQlVyMGp6X0hNY0RaYzlTSGJ1cVp6MVVXMklHaXVmdm9ESFVCMzFwNWl2TzZzQ3gybV9tSjBkaXNtYnpXRzZpX1hGdUEzQ2M2QWRHSFFyRG01TzJCcGJ6WUEzNTdyaW0yVE9BWU5rckRtd096UlU2TGIyN29UbERJUFVvcDRaLVRVWW93ZHVYUkt1aHdvMHR1aVFIUUJlQXpVRUk3WF8tSDUyWk16WWRCVmxxekhoNHpQS2p5SnRlcHlsVzJhSFBKT2d1UU5QaDJEX3NRRWJLdjBTOWNOUC0yZW1EQkVabG16eS13?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 26, 2026",
       "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBscXhoMGotek9NVm4zRE1CTkVJX2R6cEdIdVBFUUdoY05ZTktCeUxHSUFER3dLUktCZXVRS0xMV3pYb2hacHJGYVR0cHF2ZUNFVWFYUHRiSl9KakpGT1liSFk5RmhlOWJ1WHVUV0ZKNDBULUtGVTV5RXdmbWswT3M?oc=5",
@@ -75,13 +82,6 @@
       "text": "3 US aircraft carriers in Middle East for first time in decades",
       "source": "Stars and Stripes",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXctZ0lSVW5icTFCQUVPb2dMS0RJQ3NkRHpkdEZPYnNjVEVCMEpmZE93cU1HeUZwQ1NUWUxBUFNRbHptejVuSGZqNWRBZXlTSlV5RFRzdVBRNTQ5NmJjX3I5SmtibTgyb0xIU05MZ2JHM2wtY2IwRTljWXJ5U2piRzdNMDdhcjU3dDZRRUtrd1NRZlV4YkM4bzZSWDJsdmtXSVp0R05fU2UxdmlwMGc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 24, 2026",
-      "text": "Collection: Iran, Israel and the United States at War (2025-2026 Operations)",
-      "source": "Just Security",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoSVdUeXVkem5oeFB6SzlYa0xrbmpSVXdlWDdrX3dhbG5vWFNvZ1ZLXzR6U0N1WVMyekQ0RzY2UXgwRWdwU0E2ZXRIbXZwaWN2eTZRbkU4M1N2X25xMjY0RjQ4WFdvdEc2VHhkbXpONWJYWEo2TzBB?oc=5",
       "hot": false
     },
     {
@@ -273,7 +273,7 @@
             },
             {
               "date": "Mar 30, 2026",
-              "text": "Headlines discuss potential US actions including seizing Kharg Island and troop deployments, but none confirm successful seizure of oil fields or a halt to the advance.",
+              "text": "Headlines discuss potential US actions including seizing Kharg Island and troop deployments, but none confirm successful seizure of oil fields or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zbVZQSHlWMDdmOWxQekctUC1DeUJxQlVsbkduM2hMRjVqV041MmdnYU5xMFBwZmxjQk9WOVFmR3U3XzFOc0pmajFRMllPa3VpdW15TlFtZGx0QQ?oc=5"
             }
@@ -354,7 +354,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed. Israel is not mentioned as being attacked by Turkey.",
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

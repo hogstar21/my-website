@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "Apr 26, 2026",
+      "text": "Iran war live: Tehran rejects talks under siege, Araghchi in Oman",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 25, 2026",
+      "text": "Talks stumble as Iran's top diplomat leaves Pakistan and Trump says he told envoys not to go",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVGFHVTN3QXlKR0tYYVdRVi01R2RKZi1USXpmSVRORVdRX2xyQXlnclhQRDhGbDBySTRIZUZIV1Z4TnJUTldZaTJod1dVNF9aWWRHVm1ETm9YZ3RyQnlkTTU2NFZoaHZtUXJuWk1jWUR1NE05M3M3bFF2b2RlSnJBYkdMeG1HT1VCZno1VXBzMXk0aXNlNDZEeFBhRFRITzhJYjZIcDcyNm5rbFRTRkxmVWx4Umt4MHRHdGc?oc=5",
+      "hot": false
+    },
+    {
       "date": "Apr 25, 2026",
       "text": "From maritime trench warfare to a 'sloppy peace': Here's how the Strait of Hormuz standoff could end",
       "source": "Fortune",
@@ -65,9 +79,9 @@
     },
     {
       "date": "Apr 24, 2026",
-      "text": "US has three aircraft carriers in the Middle East for first time since 2003",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0RON1J0Q2g0a0lkVWhjdzZxQ05tLXdoX2VkRmNQS0xwT3lwTi1PaXNJSWhQZjZXTHFUZUV5ekRienpwRkRXVEpsZzZZbDFMcnMzQW56dUlsaVNKOE83UzZfUnludXk2VF81VlZpbjI4MEpZempKZm5ralZ3Q0hpSXAzM0paT0ZjVXJhNlVxbXhMbWxhajl0Ty1tREJaeFhjU3kyZVNXX0JaM0FIQ3BWQmIwSy1mYUXSAbwBQVVfeXFMTVVfRDlselQzUzdHSjF4ZWRSX3JueTdjTnQwaXlTalBYVExUVzhXNzRMcTdFLU9VcnJ3ZHpVdGRNWDZudDJ5X2pXbk9EN2FRMGtmdnhzVlBzSm1FN2loWXJpazR1RXlmdDA4ck0zSkwwMUdrM2M2SE1vNUJBeVBJa2IwOUUtZF9LeWdUMnNKVnZnZXNkV2VlXzd4V2M0eVlXVTREV09MeHpCbnR4RnRVUDZWNDBDYXlDMU53aDI?oc=5",
+      "text": "Only five ships pass through Strait of Hormuz in 24 hours",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVDY0N3lOeDVoY0FHTVd3cGV4VkJRTV9EekNzUWxQdFFlNTdESVFFZGQtaEpUYVUzV0hNOHdfNjdPU01acWxGUnRvVXc0ZXNkclVQR2VJcDM0QU1YQXFibEY0QmFuODhIRU9pWFhuTW40TFM2UHcweXBHYkFtR1BnSngwRHl4aDR5MU5EdzN0bzZJRnVpalRqQUY1YzA3NlZQT3o4bVlmTng?oc=5",
       "hot": false
     },
     {
@@ -75,20 +89,6 @@
       "text": "US forces board vessel in Indian Ocean – as it happened",
       "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmRpWWZNSWFjRnVHWkhsemFMV0k0SlJNM2tBRU94ZVNOX0R5UXJDUTV0UHRUTF9oYjRLVjRKNFZFSXlKQlRrN0tRbEI2RHhZak1ERDZfbkdlTUpQUzRneHlTcDFGNW9Tam1HWkNieHVjNDZ3TDZ5V1FXTHJBT3lveDU4TUtFdHlkMll0M2loOFBlbVk0OG9qeFlzSGF4T0FGVjZqcHdMM2RuSkV2VHo4SldwcFkwYXVVNVZGdjExcG5manZmaUNFcE5qX3dwVWdhTHgzbF9QTUs4X2Vt?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 23, 2026",
-      "text": "Trump says Americans should expect higher gas prices for 'a little while'",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPakxYUmQ2VXFTaFdNVVlMM0NKUDVZUHoycy1Ma1hvUVYxamRBZ2JGS0pGVU12TGVPUmU0MmlTMENndk9ueHg1VVNCNS1MaUUzSENOTTY1OGlYejJyN0Z4MV9WMXliSEVDYVRuRWwtVXpVbE1MRjBxSDhXd2FoUnRZYzNHeU1oUdIBiwFBVV95cUxQQXdpb29jdU1KRUtTeHlWRE9TVlBMU2lvQllPMEVHNVdqY3FJYUpab0NZcDEwcTlfZTVqcUhuTUQyQlZFZWJweFN0QTJ2RzRBcFpnZmVkbi1jZHdUX0VZMHB1ekh4eWFfai1CeVl5N3U3RzVONlhFWktUWUlhWlFxSjdfOXlNdnlPdUFB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 23, 2026",
-      "text": "Why did US and Israel attack Iran and how long could the war last?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm heightened conflict in the Red Sea and Bab el-Mandeb Strait, with Houthi actions impacting shipping. No confirmation of direct Iranian attacks on Gulf oil fields or US bases is present.",
+              "text": "Headlines confirm conflict in Yemen/Red Sea and Houthi threats impacting Bab el-Mandeb. No confirmation of direct Iranian attacks on Gulf oil fields or US bases is present.",
               "hot": false,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -242,7 +242,7 @@
             },
             {
               "date": "Apr 20, 2026",
-              "text": "Increased US deployments of troops and naval assets, including Marines and aircraft, to the Middle East suggest heightened tensions and potential for escalation with Iran, but no invasion confirmed.",
+              "text": "Increased US troop deployments and naval assets in the Middle East, including Marines and amphibious assault capabilities, suggest heightened tensions and potential for escalation with Iran, but no invasion confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjJGdm1NcGJ1ZTc1OUNpbUFlVkJHM0lLWFZRX2FLTHpZcWJwUVI4cmJ3MXZjbVVPUm1fNkprT0RPRk5IdnExZ19ZdGNLOGlJSVlSYUp0cFFBYW9ZMWpDeWtOODYxS0M0ZjR1Y2o4bXc2RjdWRzNiOFNHd1BQT0JzSG1QOFZtLWZi?oc=5"
             }
@@ -310,13 +310,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "While the US hasn't definitively split, headlines indicate a significant shift away from traditional Middle East involvement and consideration of NATO withdrawal, supporting a partial fulfillment of the claim.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5"
-            },
-            {
-              "date": "Apr 15, 2026",
-              "text": "While the US hasn't definitively split, Trump's rhetoric and plans to wind down military campaigns, coupled with NATO tensions, suggest a significant shift away from Middle East involvement.",
+              "text": "While the US hasn't definitively split, Trump's rhetoric and proposals regarding NATO and winding down military campaigns suggest a significant shift away from Middle East involvement and potential isolationist policies.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5"
             }
@@ -348,8 +342,8 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed. Israel is not mentioned as being attacked by Turkey.",
-              "hot": false,
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating a complex regional relationship involving Iran, Russia, and China, but no definitive alliance is confirmed.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }
           ],

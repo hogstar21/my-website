@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 27, 2026",
+      "text": "The US-Israel War on Iran: Objectives, Strategy, and Escalation Management",
+      "source": "Middle East Monitor",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFdyMnF0SHp3NzBZYXlTYVdpNzdPVTJDQmM0SlhNOEZ2Y0xkaGhqNmNjbEw5RTdfZGJUYU1ZV3NJU01OV2Nock1BT3V3ZTFEMWhZSW5tQ0NyVFVyVEJkMjBGZnU4SzBkVWtvOXRHYVB6TVFDdDJLZUczWlVYMkVfWXNqdXlxX3kzR05aVC01cmxFTkFPTVNmTWlVTExzcElyRUJvbkV3bjFWWkVwc2lKQWwtaEdoQdIBuwFBVV95cUxNaHJuY2lybFVfR1hlVDdldmZZZUtkTmZjN0xjR3R6ampkZy1aZHhxVlVPbDJteXAyRHFCc0ViZ05sYm41RktVa2ZhZDVqZ3ExVE5YZzQzSHQ2MFdvTFVJNGhhT0JvMzMwU2xyb0NBM1FMUjdIeEVGb2FlY3V2c21Pc2dpa1A5M1hlNm92QlpRRk5hejVkNmtMVGg2bHhCa2FRQjVjcm9ZMnlmRjVjdWFjcnlXMEVQcVk5Vlln?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 27, 2026",
       "text": "TV7 Editor’s Note Jonathan hosts Col. Jonathan Conricus Former IDF Spokesperson | FDD Senior Fellow",
       "source": "TV7 Israel News",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZTU9NTWhDd3FXUDE4UU5FSmktcWx4bkxlS2hOY3doSXFXS3hiSkRubTVkOURsYzM3aGpyZHRRVkNCdzljV19LSkxza0xfZEtTUUFCSURJSGswMF9uYjhSdWVLTlFFQzd3SlU4RW1oeFRJSGZyblJZ?oc=5",
@@ -78,20 +85,6 @@
       "hot": false
     },
     {
-      "date": "Apr 27, 2026",
-      "text": "Oil prices rise as US-Iran peace talks stall",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmUS1zX040Ukx2eU5qRlFTeFE3el9RaFowelY2bUdnVUhPYk1ZWURPdnBNdXQ1X2x0MDVnUjE1S19PMXNSdVZQaGRMTFVvd0pUS3ZjSFhLNEV5QQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 25, 2026",
-      "text": "MSF responds to escalating conflict in the Middle East",
-      "source": "Doctors Without Borders",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUwyN2hhcW85Mk5wN3lMM0hfY3oyQU1IelBYd0tmaEl0NFJQLU5uejFVZ1VKLXJaS1lQQ1BQUEU0bjdKUEtwaGdtMFdnQUx1UHBTMmxCUDdpQ3FKa09QU2NIYzR6cWdJbUpWUkFZUVN1MjItU0MwdTQ3bWpyQ1VjMXRGMjJfLVNOeTFDUUZFaGhabFU?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 24, 2026",
       "text": "US-Iran ceasefire and nuclear talks in 2026",
       "source": "The House of Commons Library",
@@ -103,6 +96,13 @@
       "text": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
       "source": "Military Times",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWWZ3bGFRS0lfbVR2Y3oxeVF0NlRZcUFyYkI2SjlKSmhlY2pad0s4RVBmRlYxc01KaVR2ODRrSDNDVXNKMlNDWGswWGtrRGFjMXRTUldyZ1N0cFd0NUlNRjdMOVNvdFpTel94d0kyOGhZWWNjVk4xRHJ0T29fTGV4UlMzQ3hNUUVweElBSzhURHNmNHJCcU1RdXRwdTNkT181UUhqaWhMTkI3ODREOXJiMWU2SHlfUjE2enQwQm5Dd1JHMWptdERERllEb1RYTFFuQlNjYw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 09, 2026",
+      "text": "What to Know About the Bab El-Mandeb Strait as Iran Threatens to Restrict Other Key Trade Passage",
+      "source": "Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjNNQVA2QkRaSTV5S1drZE5yb1pCRVNxLVBORWVrWnZTTUV5am5QSDhRLUd1dEF5WE1OeFQ3Y1FLNnhGT19rSFRmai0tb1QxTFR4UmNYYWlEZnRKdG9tZDMweFFhdnZqV1BGR2o0bFBpTGxKb0VWeHRqb0hpVUJUTXE5dGVETmd0V1VMaVU3WjZXYUR0MUwycl94b0NlSkFrbkRlOWxHTQ?oc=5",
       "hot": false
     },
     {
@@ -169,15 +169,15 @@
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             },
             {
-              "date": "Apr 14, 2026",
-              "text": "Reports confirm heightened conflict in the Red Sea and Yemen, with the Houthis threatening the Bab el-Mandeb Strait. No confirmation of direct Iranian attacks on Gulf oil fields or US bases is present.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
-            },
-            {
               "date": "Apr 27, 2026",
               "text": "Reports indicate Houthi threats targeting the Bab el-Mandeb Strait, suggesting some disruption, but no confirmation of attacks on Gulf oil fields or US bases.",
               "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5"
+            },
+            {
+              "date": "Apr 27, 2026",
+              "text": "Several headlines mention conflict in the Red Sea and Bab el-Mandeb Strait, suggesting disruption. No headlines confirm direct attacks on Gulf oil fields or US bases, however.",
+              "hot": false,
               "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5"
             }
           ]
@@ -242,7 +242,7 @@
             },
             {
               "date": "Apr 27, 2026",
-              "text": "Increased US deployments, including Marines and naval assets, and discussions of seizing Iranian islands suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
+              "text": "Increased US military presence and discussion of seizing Iranian islands suggest heightened tensions, but no confirmed amphibious invasion or casualties have been reported.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYWRqTkd1YVJraTFCcVpia2huUUZrU0lreTRpa3d1Q2diLUhON0Q3RENNZDhOblNTODhYOEVVSjZKUUwyRG8zVm96UXc2bTIyRUc1NXVBMFZTTllYNHR4S1JEQzJFLURVbG1MOVpWSmZNSG9yMUJGZ2FUNnBlUU01anNfT3BwR3FXRXUxZ3NXZ2ItcTFUYVJrWURLSGNEYnBiaTlveDJmNmdSaXZLNWRCWnM1YUphNGF4RUdjYlZIWGN3blpTelpZRGVwS3FpS3U2NGY4b3VoWHV5S29sbFJFZk1xY2JQVk52bng3cEpxbnh3WkxCVkJlV205V2FtVk42REtOOTgyV2JIbW96UGNQd1RyczZKMWhtWGtxekNTeEhFUW8teGFHM2dKTGozb19XdmthNzgxaXBTTVVzTklSYVdxSGlidnhpXzRQREdnckVPOXFEMFY1VFpIUTdmYUZhT2oyWjdrbjIyODFOUmducVpjakJfZ2I5VDFiX0ZLMktZaFZEOUZYd0VoZW5Rb2cxek5tc2x3bjE5UmFxUTU4S3p2c1JZaEdDMUVsWFY0VG8tOXRPRXZzZW1OdUNCX0Jvb21ENm9oNTloUnJ0NFpkRHRJSjk5eDl3Ni1TeHIwVV9KSG5Z?oc=5"
             }

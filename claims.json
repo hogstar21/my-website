@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 28, 2026",
+      "text": "BP profits more than double as Iran war sends oil prices higher",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aldycGt4a0FLVUpsaWpBZ1NVUGNkM0dncEwxTVJLUEgyRmtQY2YyZ0g3c21ydVMzbzFRZkV3NTh1a1ROMWhoNmtCTUtBdnQtWmhOaEcwaGIzUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 28, 2026",
       "text": "Live updates: UAE to quit OPEC in blow to world’s leading oil exporters, as Iran war roils energy sector",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRVUzaXVGUUhtb0lqZ3JGSjNjcnVUX3g5V0RsRDFPeWUyVkhHQTBFcjl0WXBaR2hSWVBQZllEb0JoYmFZSVFmU3J4cjJIajRpcTJVaU1ONnVRMnUzQjRaeU1vTlJ1RzNBRERDOWxOel9XME9GVmJn?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 27, 2026",
-      "text": "The Iran War is Reshaping U.S. Politics and Public Debate",
-      "source": "Middle East Council on Global Affairs",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHFMU0Y2QXpmVzkzU29qSDlQRkFfckFrbFpXX3lYcDFkN254a2d5UGN5UWpvdVNjOWxwUTZSZXdFNFF0UG5jX1lmY21fNjZsdHVMcHNPbldaaXhvQ2JGNjI3RlJoNktxenJJSVRFR2RTN2ZiOEtsMHRmNWpGcDJWTEZ4UnNkdGV3TzdhVVNvTTFlVnlfcEE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 27, 2026",
-      "text": "What you need to know about the U.S. war on Iran",
-      "source": "American Friends Service Committee",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IZnhmNndTcnY0S29RWExzbnZJZENSYlVKOUFxdGVvaFMwWjhvUkJ1VS14RXFKaENRdk8wOWFjV2pCUnMwaEhtdVd4YWk1WWN2MzZ0R1NVbzN2NWhnc1Y2cllzUHZOTTZ1b0E?oc=5",
+      "date": "Apr 26, 2026",
+      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?oc=5",
       "hot": false
     },
     {
@@ -170,8 +170,8 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi attacks and US response, indicating some disruption in the Red Sea. No confirmation of direct Iranian strikes on Gulf oil fields or US bases is present in headlines.",
-              "hot": false,
+              "text": "Reports confirm Houthi attacks and US response, indicating increased regional conflict. No confirmation of direct Iranian strikes on Gulf oil fields or US bases, or complete Bab el-Mandeb blockage.",
+              "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
           ]
@@ -236,13 +236,7 @@
             },
             {
               "date": "Apr 28, 2026",
-              "text": "Increased US military deployments and naval presence in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYWRqTkd1YVJraTFCcVpia2huUUZrU0lreTRpa3d1Q2diLUhON0Q3RENNZDhOblNTODhYOEVVSjZKUUwyRG8zVm96UXc2bTIyRUc1NXVBMFZTTllYNHR4S1JEQzJFLURVbG1MOVpWSmZNSG9yMUJGZ2FUNnBlUU01anNfT3BwR3FXRXUxZ3NXZ2ItcTFUYVJrWURLSGNEYnBiaTlveDJmNmdSaXZLNWRCWnM1YUphNGF4RUdjYlZIWGN3blpTelpZRGVwS3FpS3U2NGY4b3VoWHV5S29sbFJFZk1xY2JQVk52bng3cEpxbnh3WkxCVkJlV205V2FtVk42REtOOTgyV2JIbW96UGNQd1RyczZKMWhtWGtxekNTeEhFUW8teGFHM2dKTGozb19XdmthNzgxaXBTTVVzTklSYVdxSGlidnhpXzRQREdnckVPOXFEMFY1VFpIUTdmYUZhT2oyWjdrbjIyODFOUmducVpjakJfZ2I5VDFiX0ZLMktZaFZEOUZYd0VoZW5Rb2cxek5tc2x3bjE5UmFxUTU4S3p2c1JZaEdDMUVsWFY0VG8tOXRPRXZzZW1OdUNCX0Jvb21ENm9oNTloUnJ0NFpkRHRJSjk5eDl3Ni1TeHIwVV9KSG5Z?oc=5"
-            },
-            {
-              "date": "Apr 28, 2026",
-              "text": "Multiple headlines report increased US military deployments and assets near Iran, including Marines and warships. However, none confirm an amphibious invasion has occurred.",
+              "text": "Multiple headlines report increased US military deployments and assets near Iran, suggesting heightened tensions and potential for action, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYWRqTkd1YVJraTFCcVpia2huUUZrU0lreTRpa3d1Q2diLUhON0Q3RENNZDhOblNTODhYOEVVSjZKUUwyRG8zVm96UXc2bTIyRUc1NXVBMFZTTllYNHR4S1JEQzJFLURVbG1MOVpWSmZNSG9yMUJGZ2FUNnBlUU01anNfT3BwR3FXRXUxZ3NXZ2ItcTFUYVJrWURLSGNEYnBiaTlveDJmNmdSaXZLNWRCWnM1YUphNGF4RUdjYlZIWGN3blpTelpZRGVwS3FpS3U2NGY4b3VoWHV5S29sbFJFZk1xY2JQVk52bng3cEpxbnh3WkxCVkJlV205V2FtVk42REtOOTgyV2JIbW96UGNQd1RyczZKMWhtWGtxekNTeEhFUW8teGFHM2dKTGozb19XdmthNzgxaXBTTVVzTklSYVdxSGlidnhpXzRQREdnckVPOXFEMFY1VFpIUTdmYUZhT2oyWjdrbjIyODFOUmducVpjakJfZ2I5VDFiX0ZLMktZaFZEOUZYd0VoZW5Rb2cxek5tc2x3bjE5UmFxUTU4S3p2c1JZaEdDMUVsWFY0VG8tOXRPRXZzZW1OdUNCX0Jvb21ENm9oNTloUnJ0NFpkRHRJSjk5eDl3Ni1TeHIwVV9KSG5Z?oc=5"
             }
@@ -267,13 +261,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Multiple headlines discuss potential US seizure of Kharg Island and related oil infrastructure, but none explicitly confirm successful seizure. Troop deployments and analysis suggest planning, not completion.",
+              "text": "Headlines discuss potential US actions regarding Iranian oil infrastructure, including Kharg Island, but none explicitly confirm oil fields have been seized.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines discuss potential US actions regarding Iranian oil infrastructure, including Kharg Island, but none explicitly confirm oil fields have been seized.",
+              "text": "Multiple headlines discuss potential US seizure of Kharg Island and related oil infrastructure, but none explicitly confirm successful seizure. Troop deployments and analysis suggest planning, not completion.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -316,9 +310,9 @@
             },
             {
               "date": "Apr 16, 2026",
-              "text": "While the US hasn't definitively split, Trump's repeated consideration of withdrawing from NATO and ongoing conflict in the Middle East suggest a potential shift in US foreign policy and regional engagement.",
+              "text": "While the US hasn't definitively split, Trump's NATO considerations and ongoing conflict in the Middle East suggest a potential shift in US foreign policy and reduced engagement.",
               "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGROWGhqQ3p2SGg1OTB5ZU9leUNaeU9yd0hDcXphNUVEdmRjbXpxTnFPa2wzbTFlNzlsSzdWbFJsOVptYTRlam5qbWxnN3lFQ3B4ejFfa3NmbHozeGlVMVRMenhMWC1Fcm1QamozcUxGR2hrZzc5UVk0OV9wTmV3TUQwMWY3ZThaa1JMRW5zY0lnZEx4c3UwWUprc0lrT0phVE5jRzZwRlAybXo2Y2dJ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlNaSlpTYjJpYmswTkpXWmV3aThfSS1oOWNzay1NV3YzbWlacWlHV3JfYlpLTG1yZEg4d2lZbEhrT2xrY2ZOVThfZE5weTEtWnI3a2lVUnZ2SVhlZEZKY1NaWHU4ZllWVFNSN1dlZVNwcmh2ZTllQXRPNEZRV29BcE9aZjIxNTNqRV9WWnpEY0xjTmltUTA1TWpzeVE2eHdCZkpEbWJGeGVfYnZ0Rk15VWVrNHdtTUU2dEFQNG1EeXU4dw?oc=5"
             }
           ],
           "changed_at": "2026-04-07"
@@ -349,6 +343,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating regional instability, suggesting a shift in relations. No explicit alliance with Russia/China or attack on Israel is confirmed, but tensions are rising.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. No definitive evidence supports joining Russia-Iran-China or attacking Israel, but regional realignment is noted.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

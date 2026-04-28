@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 28, 2026",
+      "text": "Live Updates: Oil prices rise as U.S. and Iran appear locked in a costly stalemate",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSVdLTmMxeUpmSVZkRWpRaThwQVgxQzQ2enFVM0NpZDNSb0pVMllmZnFONk1YRGdYc2lhYXVGTzJaRGlxVVJZQ0xSTVVXY0lMSWhnRnNVVmZ6MklMRjlxRnh5QUVBYjdFa1psXzZwYXZtZEZmV0FKZUptd2wwSWg3aFJIRFF2VkswcjBxQ2tRYlF1bDRXQXJrR3hMa3F6NnE2Zi1NMllfSdIBrAFBVV95cUxPNVB4X0IwaFAxb1p4ZV9vOGVkd0pqeTQyeHRZV1B6T2NGR3BUb0w2YV96ZEZWTHl3SWFiX2NfOGU4ZFkxaTZMWUtqQUVrTnJYSmxtZ09aZjdIOWdPb1VTM09xcS04Zl9iRk8zTkpsa3VDdWlBejlQTjVubzZnWGE5aTNBZ3otR1k4a01OZ1pfdS1aWW1ZcTJNX0pISGFMR29zOEd3djRObkFPZWdR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 28, 2026",
       "text": "BP profits more than double as Iran war sends oil prices higher",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aldycGt4a0FLVUpsaWpBZ1NVUGNkM0dncEwxTVJLUEgyRmtQY2YyZ0g3c21ydVMzbzFRZkV3NTh1a1ROMWhoNmtCTUtBdnQtWmhOaEcwaGIzUQ?oc=5",
@@ -64,20 +71,6 @@
       "hot": false
     },
     {
-      "date": "Apr 27, 2026",
-      "text": "Here's what to know about ceasefire negotiations between the U.S. and Iran",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRkpnNkpRckUwYWtYRzJnbDVFd3hqNEthUVVUOHBJVlZPR0JnVzZuaDFVVWdscGxDNkR6WTJjS0x5c1JXVi00VUVTUFZERk1pbTZsT0J5MDJtYkgyUmcyanF0d0luN2piV1lydmtpeXhaZFN2NUQ2eUhPclpQdzBwS3RGODdUaVJjZVFRRE5WQnB3SDdzdVlCYU82WXBsM0U4REticUYzbkVSMDDSAbABQVVfeXFMUFkwanJuSG1BSmNwTGhZUjRhTzNQUEhucUU1R3FFWmpZMjF6X3ZxZVNVMW43UVMzV0w4U1hzYmtWczhhcFpJV2YzVk5qV1FZcHZUUXhrNXVpanlrdjZYWnRCT0wzWW9mYkpjNG1IcVNYcEpxVzRLWUhlaXRiYkZLR19fWVdGOHVaWUZHRlE1bmp0SmhqZWZ2TUFad3NvTkdtV2t5YTNfbG1mb0txZ2JmUjc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 26, 2026",
-      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 25, 2026",
       "text": "MSF responds to escalating conflict in the Middle East",
       "source": "Doctors Without Borders",
@@ -96,6 +89,13 @@
       "text": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
       "source": "Military Times",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWWZ3bGFRS0lfbVR2Y3oxeVF0NlRZcUFyYkI2SjlKSmhlY2pad0s4RVBmRlYxc01KaVR2ODRrSDNDVXNKMlNDWGswWGtrRGFjMXRTUldyZ1N0cFd0NUlNRjdMOVNvdFpTel94d0kyOGhZWWNjVk4xRHJ0T29fTGV4UlMzQ3hNUUVweElBSzhURHNmNHJCcU1RdXRwdTNkT181UUhqaWhMTkI3ODREOXJiMWU2SHlfUjE2enQwQm5Dd1JHMWptdERERllEb1RYTFFuQlNjYw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 22, 2026",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU4?oc=5",
       "hot": false
     },
     {

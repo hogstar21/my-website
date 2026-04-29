@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Apr 29, 2026",
+      "text": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STfSAcYBQVVfeXFMUGJtN3Nka2dBOTR2ZjVFblhodXdlcmtVSHFKWElaSDQteDJLYUJoTkQ0UnVfY3RiTkpKVjNOeU92Q3NuN1hycmtrd0RmWFV4WW1sZ1JsQkV2TnhyV0k3MFJmRmFnZ0oxUm1nZGkyUWFLSndia0F0OTFkQ3ZTYnJCWmZfSHZVTHY0ZEMyWW1DdWFsYnZrcG9vMVphMTJZWGswdjU1SzVyak92NWdRNGpPSEQzS1lzWERmbDFOZE5BXzBFTmhFa2NR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 29, 2026",
       "text": "Day 60 of Middle East conflict - UAE to quit OPEC and OPEC+ this week",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRVUzaXVGUUhtb0lqZ3JGSjNjcnVUX3g5V0RsRDFPeWUyVkhHQTBFcjl0WXBaR2hSWVBQZllEb0JoYmFZSVFmU3J4cjJIajRpcTJVaU1ONnVRMnUzQjRaeU1vTlJ1RzNBRERDOWxOel9XME9GVmJn?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Apr 28, 2026",
-      "text": "When will Strait of Hormuz be ‘safe’ for commercial shipping again?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU05yang2aDNQRHNuRkJQX1owdmJNVUlpcWR0UWlicUJrb2UtMEM1RDY3NjJkM1lpY2EtQUtvTjFLa1NfQzgzNjdmY2x3RWh6UjJuNW8yQ1NvbXhnLThYWDFmUFZiRllfR3BMVkZveWE3M0I3Tk9ZVGdaUzUtQXozWlBsdllTTzhJV0ZWYzRRbS1WX0ZocHl2ZlgwVWw3Q1BWMFR4a05XdEQtR2Q2UGfSAbMBQVVfeXFMTi1WMzJ2V3ByaFNpVF9Ic1JlYzFBTGpXdU5DYmlkeW05S3hoU3daXzVadGgwQ19vMTEtY1RVTVRtOU1SRHB4RE13dW1QRERLZXptTnJQYk5ZZjhpc1VMcVlUVGFJdTFEYW5hWGRuZmo4eDBsMllMSFhMTThCN0VpbHZiQ2dRQl9oWnU5dVY1M0l3WHo3bkZUYWtiTTdjVUI3WmFsWE8yWkZYcXNwYXphY2tSMTQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Apr 27, 2026",
-      "text": "The Iran War is Reshaping U.S. Politics and Public Debate",
-      "source": "Middle East Council on Global Affairs",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHFMU0Y2QXpmVzkzU29qSDlQRkFfckFrbFpXX3lYcDFkN254a2d5UGN5UWpvdVNjOWxwUTZSZXdFNFF0UG5jX1lmY21fNjZsdHVMcHNPbldaaXhvQ2JGNjI3RlJoNktxenJJSVRFR2RTN2ZiOEtsMHRmNWpGcDJWTEZ4UnNkdGV3TzdhVVNvTTFlVnlfcEE?oc=5",
+      "text": "What you need to know about the U.S. war on Iran",
+      "source": "American Friends Service Committee",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IZnhmNndTcnY0S29RWExzbnZJZENSYlVKOUFxdGVvaFMwWjhvUkJ1VS14RXFKaENRdk8wOWFjV2pCUnMwaEhtdVd4YWk1WWN2MzZ0R1NVbzN2NWhnc1Y2cllzUHZOTTZ1b0E?oc=5",
       "hot": false
     },
     {
@@ -230,7 +230,7 @@
           "updates": [
             {
               "date": "Apr 15, 2026",
-              "text": "Increased troop deployments and discussion of seizing Iranian islands suggest heightened tensions, but no amphibious invasion has been confirmed.",
+              "text": "Increased troop deployments and discussion of seizing Iranian islands suggest heightened tensions, but no confirmed amphibious invasion has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -261,7 +261,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Multiple sources indicate US consideration and analysis of seizing Iranian oil fields, specifically Kharg Island. No headline confirms successful seizure or a halt to an advance.",
+              "text": "Multiple sources indicate US consideration and discussion of seizing Iranian oil fields, specifically Kharg Island. No headline confirms successful seizure or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -336,13 +336,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating regional instability, suggesting a shift in relations. No explicit alliance with Russia/China or attack on Israel is confirmed.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. No definitive evidence supports joining Russia-Iran-China or attacking Israel, but regional realignment is noted.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. No definitive evidence supports joining Russia-Iran-China or attacking Israel, but regional realignment is noted.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not full alignment with Russia or China or an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

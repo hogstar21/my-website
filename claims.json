@@ -71,17 +71,17 @@
       "hot": false
     },
     {
-      "date": "May 02, 2026",
-      "text": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FTXg0c1RsTi1uaU85cm01ZmNEXzdVelB2R1d4Y1hBaFYyWXMyazdUS01KS18weHJFWG5RaDYxMzlCTXlfaHRuNjB2bjVrN3FrTlNQR0pYQjZIdw?oc=5",
+      "date": "May 01, 2026",
+      "text": "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ad0VZTUFqS2RQVU9NZS1remViSVFOZUJqQzlzTjZBMVdSRDVGT0RJTFFtU2t5Mkh2VmpLNnNQa0QwQ1hOSmFRdnRfeS11dGlYSHgxSWNoUElIXzJVNjd6RU8zRlRDZk1mVzlmOXFvSVBFd1Jw0gF6QVVfeXFMTnM1b3NoUTRwSnZ5WkRSQ0dweE5qSm9DbWZBX0lYYUxnZ2ZQaHJTelNsUGljMzBuZEFadl8tdTNacGNQY1ZyMjFkS1VFT1RwZVctU3VMeDQ4WVBwcEcxeWgwRGRWUVd6elUwZ0R1OHEteWxYVjgtbUh5WFE?oc=5",
       "hot": false
     },
     {
-      "date": "May 01, 2026",
-      "text": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xNURQN3JERDcyM0cwaEhPelRTNDVUYVFuSjA3cE9EQkg3UGtObW96c2dsaUpuVk8zX0hKcjcxMzBXdTlxWkdkN0t6aFZtQzlWOXFNRUltZ0pJME0zd2Z3czJOVThGWVZWRmdFNlJHbU5yWS1YZ3R2Y1BRa0tlQdIBgwFBVV95cUxPM1Qxd2JDaU5lc3BtaUQ2Si1jX1ZWSnpSbFEzNUVyY0Q0RGl4UW1WUW1TQVNEOE9WR1l1NUxWNnVGT21neWh0YXJPQ1U4UXhXX01TNEdMR01acUIzUFhDekROSUpvUlg3aEZHa1YtZTJ1Y3Ywd2RUWXlsM2tpcEc4UU9UWQ?oc=5",
+      "date": "Apr 30, 2026",
+      "text": "Oil retreats after hitting four-year high on concern of US-Iran war escalation",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZE4xSU9Nd09RUzAxanktcnJlQnJoUElDdGtZOXZUcHVSdDVNaU9iZFpHeU10aFp6NXM1SVVnNHVvQXRRWnlyUG95bzl0eWphR2xQd3ZoTXFpZzhrV2plNWlkdFV3S2JvVEdMVzhEYzlfQW9WeFRuTkJOMFlFQ3VxVWtwNkNROF90RjRROVRFcUhHV2tYU21DcTQ0emUtMDl4SGk1VHlSU19yN0tldElSMUpiT05EamV2ZFBWYXNySVlXQQ?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi actions in the Red Sea, allied with Iran, disrupting shipping. No confirmation of direct Iranian strikes on Gulf oil fields or US bases.",
+              "text": "Reports confirm Houthi (Iranian-allied) involvement in the conflict and threats to the Bab el-Mandeb Strait. No confirmation of direct Iranian attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -267,7 +267,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate US considered and planned seizing Kharg Island, but no headline confirms successful seizure of oil fields or a halt to an advance.",
+              "text": "Headlines indicate US considered and planned seizing Kharg Island, but none confirm successful seizure of oil fields or a halt to an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -330,12 +330,6 @@
           "updates": [
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
-            },
-            {
-              "date": "Apr 15, 2026",
               "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not full alignment with Russia or China or an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
@@ -343,6 +337,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. Joining Russia-Iran-China and attacking Israel are not explicitly confirmed, but regional realignment is suggested.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

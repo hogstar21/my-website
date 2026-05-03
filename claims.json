@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 03, 2026",
+      "text": "Trump says the US will 'guide' stranded ships from the Strait of Hormuz, starting on Monday",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV1VsdHpsNFBOXzRfNmpwNG9uWU56aDJza3lMZGpGSTN0bUF4LUdxY21qdUZwZU5wZUtoTWxvUHpvTHZLRm02SVVQbHBaSzNZbEMwdkJjczVXcU9FMXFKRm5WeXRMSHk4OEZkSHJ4OXl3VTZkV2lPdUVicHQzVUs2MzMwVXhCdjZNV0wzSXVqUXF1dzdZMlJvQWowVERHbXVyTWNzSXdoSG11V0dXMnlZazdiMDRBZUxxUWJGVUxSUEtMejEyTVdfSWV4ZnE1UjhCLXhz?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 03, 2026",
+      "text": "OP-ED: Iran nuclear crisis may shape North Korea policy",
+      "source": "upi.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1dyYkRLT1AyZmNmQUxxWDlyVThrTlFNQVM0LU9pV2dyRVl5cDZ4NFdwTzBIMkFWcVBvX1ZFRE16eFRENmx0aDdsTUNiRFhwd2loOERFZ1ZZUGxyWjZnOEZLazVRVGdMb0pkYW9XbVYwOVU4LU5GUjZ3WndUNjdTVVpjMFdNZzVQUVM4ZHAxZnZfTTY3SUIwRzh0bGp5QdIBowFBVV95cUxPWTBNZDJnSUt5eWFJaGJwNnVsUkY1NGpfQVBZeEYwLUUzMmhRbUdUcW16d1ZvcEstWVlpZWtSOGd2RTEtTkMzRkRteDR1R1dWUzRnbWtIVUxneUNOMmtBRWRZcUdsazQ0aExYZEhGLW9VVWZZOUNkcEsya3dTRU51b210ZmZTcFhmYm1pSGljam5vQ2thbFRkb1kybWlhS29fbmhn?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 03, 2026",
       "text": "Iran says US has responded to its latest peace proposal",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16eW9aZlZmcWV4cm1LeW0xOU9QVTBzdXdPSjROenRXTDZtTVFnTEhDS1VvaUNLSHJFNHJocWlNVGFzQWZKb3lBbzM4Sm9OQ1NfQmI3ZXlrT2Y1Zw?oc=5",
@@ -64,31 +78,17 @@
       "hot": false
     },
     {
-      "date": "May 02, 2026",
-      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 02, 2026",
-      "text": "Iran submits 14-point response to U.S. proposal to end war",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 02, 2026",
-      "text": "How The Red Sea Shipping Crisis Affects Global Trade",
-      "source": "WorldAtlas",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 01, 2026",
-      "text": "The weirdest aspect of the Iran war that has befuddled oil experts",
+      "text": "Ceasefire hangs in the balance as Iran sends peace proposal to mediators",
       "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zdWdLUF8wT1JGMy1ucEVHbEVTZ0tBLXZqdWphcUNEU2hLMDM4Y2ZJV3pqMXpUWW1fckpHbVRjSEk3V19yOEpiVHNQZGhSTXBvSWpsRVFsYkxnSm44aUdOWDlkZWtqZ1I1aklOSTZCVzZOc1ZYNWEtcVBB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZDVoUy00bV9DTXcwNXk4TFdFUzd3Y3d6WFdDMGNSaTY1NEt4aUNacnlsYzJsMmw3S0pWaUdQS1RyZmhKaURIcDhoNmtrRGZ3MVNwMnlWZnBRRzhMV3Zyd2ZKbVpDc2x0UklwYXJaeTlnTFEzMElEbWJtUElEOVl6UDF3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 30, 2026",
+      "text": "Aircraft carrier USS Gerald R. Ford expected to leave Middle East, reports say",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDJUVkpuVk4ySzJlY1lXUmFvMldqYWc3VXVqRHl1NGtnbFhHQnVSanRZTC1weVhsN2ZtVFJlUi1MTUk5OFBKVnk3ZzBPYjdpRElRYWJKTlNkd3UzWGlFbFN0T2RmNGJKdU9MMC1kQWw0WlZZa3VpQTh1Z01lX2dtaHFVczgzbGRLMXIwT2FIR0F4b2ZaRnVnbVVxYzczaFJI?oc=5",
       "hot": false
     },
     {
@@ -165,6 +165,12 @@
             {
               "date": "Apr 14, 2026",
               "text": "Reports confirm Iranian-backed Houthis have escalated attacks in the Red Sea and Yemen, and Gulf states have experienced strikes, but claims of attacks on *all* Gulf oil fields and US bases remain unverified.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Houthi involvement in the Iran war and disruptions in the Bab el-Mandeb Strait. No confirmation of direct attacks on Gulf oil fields or US bases is present in these headlines.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -304,7 +310,7 @@
             },
             {
               "date": "May 02, 2026",
-              "text": "While the US is embroiled in escalating conflict with Iran and facing internal political divisions regarding troop withdrawal, a definitive split and full retreat hasn't occurred. Trump's statement suggests potential withdrawal, but it's not confirmed.",
+              "text": "The headlines indicate escalating conflict with Iran and domestic political divisions regarding US military involvement, suggesting a potential withdrawal but not a definitive split or retreat.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUVBeC1UUDhDUDB4YWpQNVBqU1VxZWNzZm5LMjJha1BNVXR5cm95Sy1NUzU0TVRoZnRJS3JTX2tCNmlXREJnV0duNlZZcmx0bm5QQ210Ui1IbkFwVEZURGFudTlDdDFQMlJGbFZ2R2pPNWVNc2ZOM18zQ1kwc3BBNlhvWW1oUXp6VmJWWW1oRDk2S19nV0lWTWFlb0JBMXVkTlpfS2ZObWxHTTRCMHNiR21QTmpUTTBGNkJWYm9Ocl85RUFDSkhxNnlXb3RJd2s?oc=5"
             }
@@ -330,12 +336,6 @@
           "updates": [
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not full alignment with Russia or China or an attack on Israel.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
-            },
-            {
-              "date": "Apr 15, 2026",
               "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. Joining Russia-Iran-China and attacking Israel are not explicitly confirmed, but regional realignment is suggested.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
@@ -343,6 +343,12 @@
             {
               "date": "Apr 15, 2026",
               "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not definitive alignment with Russia or China or an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }
@@ -398,13 +404,13 @@
             },
             {
               "date": "Mar 18, 2026",
-              "text": "Recent headlines detail North Korean missile launches and displays of force, escalating tensions on the Korean Peninsula, but no invasion has been confirmed.",
+              "text": "Recent headlines report North Korea firing multiple ballistic missiles. However, there is no confirmation of a full-scale invasion of South Korea.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52cDdVcjF5RDh1TzlScE5QcVVrOXpvYUlpWWZpbGpwc2J6OEdxQVgyZktiU1lOLWdNSlZFekRyX3pHZGZTX292eFpFd1dfRzl3YVVNYVpXV09QdHBhX0NLelpOcEVnRGtUMENTeHMxVExZWU01SFE?oc=5"
             },
             {
               "date": "Mar 18, 2026",
-              "text": "Recent headlines report North Korea firing multiple ballistic missiles. However, there is no confirmation of a full-scale invasion of South Korea.",
+              "text": "Recent headlines detail North Korean missile launches and displays of force, escalating tensions on the Korean Peninsula, but no invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52cDdVcjF5RDh1TzlScE5QcVVrOXpvYUlpWWZpbGpwc2J6OEdxQVgyZktiU1lOLWdNSlZFekRyX3pHZGZTX292eFpFd1dfRzl3YVVNYVpXV09QdHBhX0NLelpOcEVnRGtUMENTeHMxVExZWU01SFE?oc=5"
             }

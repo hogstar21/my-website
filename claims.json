@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "May 03, 2026",
+      "text": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv0gHAAUFVX3lxTE9KQVNaMHA0YURrNlFyN1VGMFMtZGI2Vjk4bFc2czh5a0VBbEZ3NE42QzhJV3JBX3poYmttNEozaFhVUHhyRzVqdjZiY2JwcUttbzdKS05LeTltRHZjTkUwb2FZT1lqZ0NsY2E1RHFOMFZwcDM5d1pFdDZGRGc1enRHdXVVQmJNNUZCQWJjWG41M1dpWHFQVzg2dFV1YVVLb0JwSWRDR1pObDJLZ2JPaGNUUnNWNVF2OGRQbGswczVhTw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 02, 2026",
+      "text": "How The Red Sea Shipping Crisis Affects Global Trade",
+      "source": "WorldAtlas",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
+      "hot": false
+    },
+    {
       "date": "May 02, 2026",
       "text": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
       "source": "BBC",
@@ -57,24 +71,10 @@
       "hot": false
     },
     {
-      "date": "May 02, 2026",
-      "text": "Live updates: Germany says it ‘anticipated’ US troop withdrawal amid criticism of Iran war",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 02, 2026",
-      "text": "Iran Update Special Report, May 1, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHpQNkRfNHVXUF9uX2l6ekh1SGRkRGI4YXlPV0hvUzdwenAtdDBXNVhEVDJuVjlfdzkwdkdjN1ZIeVh3a3BfUDV2VGllVm9DbjFEZjZxeDBFbVJTQ2Zycnhwb3RBai1NUnFVLVRoZ3dzbUs0OThKRS1aM0RuU1hKY2ItaWZMLUEta2VTRUphaW9tQQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 01, 2026",
-      "text": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xNURQN3JERDcyM0cwaEhPelRTNDVUYVFuSjA3cE9EQkg3UGtObW96c2dsaUpuVk8zX0hKcjcxMzBXdTlxWkdkN0t6aFZtQzlWOXFNRUltZ0pJME0zd2Z3czJOVThGWVZWRmdFNlJHbU5yWS1YZ3R2Y1BRa0tlQdIBgwFBVV95cUxPM1Qxd2JDaU5lc3BtaUQ2Si1jX1ZWSnpSbFEzNUVyY0Q0RGl4UW1WUW1TQVNEOE9WR1l1NUxWNnVGT21neWh0YXJPQ1U4UXhXX01TNEdMR01acUIzUFhDekROSUpvUlg3aEZHa1YtZTJ1Y3Ywd2RUWXlsM2tpcEc4UU9UWQ?oc=5",
+      "text": "Ceasefire hangs in the balance as Iran sends peace proposal to mediators",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZDVoUy00bV9DTXcwNXk4TFdFUzd3Y3d6WFdDMGNSaTY1NEt4aUNacnlsYzJsMmw3S0pWaUdQS1RyZmhKaURIcDhoNmtrRGZ3MVNwMnlWZnBRRzhMV3Zyd2ZKbVpDc2x0UklwYXJaeTlnTFEzMElEbWJtUElEOVl6UDF3?oc=5",
       "hot": false
     },
     {
@@ -170,7 +170,7 @@
             },
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi actions in the Red Sea, allied with Iran, disrupting shipping. No confirmation of direct Iranian strikes on Gulf oil fields or US bases.",
+              "text": "Reports confirm Houthi (Iranian-allied) actions in the Red Sea and Yemen, threatening the Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -267,7 +267,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate US considered and planned seizing Kharg Island, a key oil terminal, but no headline confirms successful seizure or halting of an advance.",
+              "text": "Headlines indicate US forces are considering and deploying to seize Kharg Island, but no headline confirms successful seizure of oil fields or a halt to the advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -342,13 +342,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not definitive alignment with Russia or China or an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not definitive alignment with Russia or China or an attack on Israel.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

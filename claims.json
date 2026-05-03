@@ -79,16 +79,16 @@
     },
     {
       "date": "Apr 30, 2026",
-      "text": "Aircraft carrier USS Gerald R. Ford expected to leave Middle East, reports say",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDJUVkpuVk4ySzJlY1lXUmFvMldqYWc3VXVqRHl1NGtnbFhHQnVSanRZTC1weVhsN2ZtVFJlUi1MTUk5OFBKVnk3ZzBPYjdpRElRYWJKTlNkd3UzWGlFbFN0T2RmNGJKdU9MMC1kQWw0WlZZa3VpQTh1Z01lX2dtaHFVczgzbGRLMXIwT2FIR0F4b2ZaRnVnbVVxYzczaFJI?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 30, 2026",
       "text": "Oil retreats after hitting four-year high on concern of US-Iran war escalation",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZE4xSU9Nd09RUzAxanktcnJlQnJoUElDdGtZOXZUcHVSdDVNaU9iZFpHeU10aFp6NXM1SVVnNHVvQXRRWnlyUG95bzl0eWphR2xQd3ZoTXFpZzhrV2plNWlkdFV3S2JvVEdMVzhEYzlfQW9WeFRuTkJOMFlFQ3VxVWtwNkNROF90RjRROVRFcUhHV2tYU21DcTQ0emUtMDl4SGk1VHlSU19yN0tldElSMUpiT05EamV2ZFBWYXNySVlXQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 29, 2026",
+      "text": "Iran war reveals vulnerabilities of US Middle East bases",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTDlUUHBmM013eloyT1VLVUxwRzdrczJzQmlyU1M5SHY0Wkp1RTcwQzBIUlRBbGtyXzdIQ2F1M3lCeFhOM2k2T0lTQmJQb3JPWE9FbWo4RURaQ25CeERBMkE2RFExaGNyUXdHMnNGa3NrUzNwbzN1LVdDTWRFU1VUMFhQN2ltQU41aU5aZzVzZ3ItQ05Bd2ZhcXFOM1h0T0lpZGc?oc=5",
       "hot": false
     },
     {
@@ -171,6 +171,12 @@
             {
               "date": "Apr 14, 2026",
               "text": "Reports confirm Houthi (Iranian-allied) actions in the Red Sea and Yemen, threatening the Bab el-Mandeb. No confirmation of direct attacks on Gulf oil fields or US bases.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 14, 2026",
+              "text": "Reports confirm Iranian-backed Houthi attacks in the Red Sea and strikes targeting Gulf oil fields. US base attacks are unconfirmed, and the claim of a full blockade is not explicitly stated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -267,7 +273,7 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate US considered and planned seizing Kharg Island (oil terminal), but no headline confirms successful seizure or halting of an advance.",
+              "text": "Headlines indicate US considered and planned seizing Kharg Island, a key oil terminal, but no headline confirms successful seizure or halting of an advance.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbml3VHdWQUgxOENyRzI0d2FmNURYRTVCbmJKaFF5dnVNUzFmOVY3c3lFaF9lOVhhcHNyYkNTSzZLOU9pc2xzR010LU1ab1FQZFhEN2xQTGRjY0R1Y2NoSkFyU3R0cnVEcWVTNk1tVzZLLXpsY3RmY1JUakVLNDliRlBBTHZVSGpnOEMxNA?oc=5"
             }
@@ -342,13 +348,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not full alignment with Russia or China or an attack on Israel.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. Joining Russia-Iran-China and attacking Israel are not explicitly confirmed, but regional realignment is suggested.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and tensions exist. Joining Russia-Iran-China and attacking Israel are not explicitly confirmed, but regional realignment is suggested.",
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran, suggesting a shift in relations, but not definitive alignment with Russia or China or an attack on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

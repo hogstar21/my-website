@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 04, 2026",
+      "text": "War preparations under way in Iran as Hormuz tensions with US escalate",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUktLMW1CTjdpczFQSDBTSHpRdGM1OHlPcU1idHdrUEpJOFRSU01KNnhwRmRZdUlwWEVhZ0tNVTMzNkxtNEU5ZEpkQk5lY2lBNjNFNHA5dkR1Z0pHay1vWjFkYy1WT0RwakJ3VkY3N0gzc05XN0RFajRGdG5BemJWVHNMWFFtZXZoVEE3UUxjMmxaX1hlZHVZN1lraVJyc0Q1VzU5VnhWaU9zM1h3aFN30gG0AUFVX3lxTFBwOVhVV3BKcjB0VTNHR21JVXRacWppbHVRNW9hZ1UyazB2bTRkX3MzekZQblkyaklGNUVmUEdTZXFmNkdGa1pfNlNFZmMtMHFmdk1kZldxT2tucjF2ZmJ6bjNjdkxSanYzS3ZhTEVJTWgwSGs2MEh0bUlwekFibDdIWE9CZlBHbUZrd2ttemF6Ymw5WTB3T2V5VFhGMGlYRU53YXQxOWdOaEF0bVRQUzZfTklMXw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 04, 2026",
+      "text": "Iran did not hit a US Navy ship near Strait of Hormuz, US official tells 'Post'",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1bWtJYmVvX0JMdzNHcUZEb0tROWZ0YnRiWHRDYVpGdXBWazZNTGxwQWt1bUJKSTZseWIydDJFRWpxZnJqekJfMDVhUTJNOTNyb3JibHBJQ2tKWDFBZzIzU2dObENSbUpwMHc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 04, 2026",
       "text": "Live updates: US and Iranian militaries trade shots as Strait of Hormuz tensions escalate",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?oc=5",
@@ -71,24 +85,10 @@
       "hot": false
     },
     {
-      "date": "May 04, 2026",
-      "text": "‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oil price shock",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYnNDLUpNSm8xS3dXXzhZMWdqU3NhaFRFdkxvSzdkNHhNV25LT2ttYmVzb1Z4eFJXemJSR1k3cHR3RGtfSXVpNHJMWmVhZ2t4Q05fN2JzVTBOdk01aTl4NXdKWmhucnhXU1lqSHo2OVJxcV9SX08zTlIwbzM2aDhPMm5GdHlRLWRseGtlRWZ2VEhMNmlOb18wcFZJOU9VTjd2Z1JkSkw3UmfSAa4BQVVfeXFMTUFRUmN0QnpvTVV4X21hQVA5OHlkeEZhQ01pZi1lWHlYcnlBOV96UUhWaDdZMlVyVUFkUmFZVHhmdG9XR2o1dE9KbXNkSWNTdm51WFZkbndSbGxvby1pUnVWNzZqTmc1NEV0TU1JenhON0FIM2syTzdWdFlEVGVJUGY3QUg0d1d5OThmcEotMW1pVG1xcFl5RkV1elBnNUJfUjMxQi1Bd1dNaVJsVFJB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 04, 2026",
-      "text": "Iran says it hit American Navy ship attempting to pass Hormuz; US denies claim",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU0RubHZza3FMT2QzVUdDQ3c2Q1c0YmZZUzNpMGJzR1hmVEdrUExleHlKQlVodXJkcWpXMGJkdzZ4el82WXEtRUtHT202WmZGNktIYnJyTXJqM2RKaVRVMllOZ0RTSXhNdWlaNjlwR3lMdHBpa0hWai00c3VQbC1acUVMUFRHV1BaWUVGVzF2aFZwTjBlTlB6c2RkTktGaEdiM01ua1kwY0RBNTdCYW9fUldrONIBuAFBVV95cUxQZGg1UkRWODYxM2tvY3BBVVB3Rzd2Ui1kSmZLdVZzQmtjVnoxekZfYi1NdUJXblhFOFNnRE5RbXgtM1pIZnFKbURGa0xXdTh5S19rcVV3RmJnRmNzMHBBMVhfSlNTcHQzODhvelQwRW9xZkdkZGVNMldIZnJYY3V5eUFRc1FiYm9HUEVDWUhDbE9VQWlma3hNTlZKd3ZMN3FKU0N2dllOT1JvME1ldVdyaE1LaW9fcnJm?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 02, 2026",
-      "text": "Iran Update Special Report, May 1, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHpQNkRfNHVXUF9uX2l6ekh1SGRkRGI4YXlPV0hvUzdwenAtdDBXNVhEVDJuVjlfdzkwdkdjN1ZIeVh3a3BfUDV2VGllVm9DbjFEZjZxeDBFbVJTQ2Zycnhwb3RBai1NUnFVLVRoZ3dzbUs0OThKRS1aM0RuU1hKY2ItaWZMLUEta2VTRUphaW9tQQ?oc=5",
+      "text": "How The Red Sea Shipping Crisis Affects Global Trade",
+      "source": "WorldAtlas",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
       "hot": false
     },
     {
@@ -173,6 +173,12 @@
               "text": "Reports confirm Houthi (Iran-backed) involvement in the conflict and threats to global shipping via the Bab el-Mandeb Strait, but no direct attacks on Gulf oil fields or US bases are explicitly stated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+            },
+            {
+              "date": "Apr 05, 2026",
+              "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions impacting Bab el-Mandeb. US base attacks and full scope remain unconfirmed, but escalation is evident.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
             }
           ]
         },
@@ -416,7 +422,7 @@
             },
             {
               "date": "Mar 18, 2026",
-              "text": "Recent headlines detail North Korea firing ballistic missiles, demonstrating heightened tensions and military activity, but no invasion of South Korea has been reported.",
+              "text": "Recent headlines detail North Korea firing ballistic missiles, demonstrating heightened tensions and provocative actions, but no invasion of South Korea has been reported.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52cDdVcjF5RDh1TzlScE5QcVVrOXpvYUlpWWZpbGpwc2J6OEdxQVgyZktiU1lOLWdNSlZFekRyX3pHZGZTX292eFpFd1dfRzl3YVVNYVpXV09QdHBhX0NLelpOcEVnRGtUMENTeHMxVExZWU01SFE?oc=5"
             }

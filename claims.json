@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 04, 2026",
+      "text": "Iran did not hit a US Navy ship near Strait of Hormuz, US official tells 'Post'",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1bWtJYmVvX0JMdzNHcUZEb0tROWZ0YnRiWHRDYVpGdXBWazZNTGxwQWt1bUJKSTZseWIydDJFRWpxZnJqekJfMDVhUTJNOTNyb3JibHBJQ2tKWDFBZzIzU2dObENSbUpwMHc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 04, 2026",
       "text": "Iran war live: US warship attacked with missiles in Hormuz by Iran’s navy",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?oc=5",
@@ -65,16 +72,9 @@
     },
     {
       "date": "May 02, 2026",
-      "text": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FTXg0c1RsTi1uaU85cm01ZmNEXzdVelB2R1d4Y1hBaFYyWXMyazdUS01KS18weHJFWG5RaDYxMzlCTXlfaHRuNjB2bjVrN3FrTlNQR0pYQjZIdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 02, 2026",
-      "text": "How The Red Sea Shipping Crisis Affects Global Trade",
-      "source": "WorldAtlas",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
+      "text": "Iran Update Special Report, May 1, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHpQNkRfNHVXUF9uX2l6ekh1SGRkRGI4YXlPV0hvUzdwenAtdDBXNVhEVDJuVjlfdzkwdkdjN1ZIeVh3a3BfUDV2VGllVm9DbjFEZjZxeDBFbVJTQ2Zycnhwb3RBai1NUnFVLVRoZ3dzbUs0OThKRS1aM0RuU1hKY2ItaWZMLUEta2VTRUphaW9tQQ?oc=5",
       "hot": false
     },
     {
@@ -242,7 +242,7 @@
             },
             {
               "date": "Apr 20, 2026",
-              "text": "Increased US troop deployments and naval presence in the Middle East suggest heightened tensions with Iran, but no headlines confirm an amphibious invasion attempt.",
+              "text": "Increased US troop deployments and naval presence in the Middle East suggest heightened tensions with Iran, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjJGdm1NcGJ1ZTc1OUNpbUFlVkJHM0lLWFZRX2FLTHpZcWJwUVI4cmJ3MXZjbVVPUm1fNkprT0RPRk5IdnExZ19ZdGNLOGlJSVlSYUp0cFFBYW9ZMWpDeWtOODYxS0M0ZjR1Y2o4bXc2RjdWRzNiOFNHd1BQT0JzSG1QOFZtLWZi?oc=5"
             }
@@ -268,6 +268,12 @@
             {
               "date": "Mar 26, 2026",
               "text": "Headlines indicate planning and consideration of seizing Kharg Island, and potential troop deployments. However, no headline confirms successful seizure of oil fields or a halt to the advance.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX09ac3ZfREs5QUl1cEN1VkFNTllCVWt5LU82OEZ4M3NkY3RZQ1NrbkZoeWpicHdBcVlwX0xEUWE4bHFqYWg1ZjlvbnJsbDVOejVmYjNGeE9BNzhGdHppbDlLLU9jU0UxUTVBOUhnNDRNTG5hOVBRb2o2dmFlXzFvZExwcTA5QTZ3bXJseWh4TWNDdVg0RV9EX2xhZjUwYVZjUVlFLVExZ3hIem55NFN0MkZ3MTItSUVleDdOQU9jVDhIQzBkLTdlWVJR?oc=5"
+            },
+            {
+              "date": "Mar 26, 2026",
+              "text": "Headlines indicate US forces have seized Kharg Island, but also mention the advance has halted. The claim of 'second attempt succeeds' is not explicitly confirmed, only the seizure itself.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX09ac3ZfREs5QUl1cEN1VkFNTllCVWt5LU82OEZ4M3NkY3RZQ1NrbkZoeWpicHdBcVlwX0xEUWE4bHFqYWg1ZjlvbnJsbDVOejVmYjNGeE9BNzhGdHppbDlLLU9jU0UxUTVBOUhnNDRNTG5hOVBRb2o2dmFlXzFvZExwcTA5QTZ3bXJseWh4TWNDdVg0RV9EX2xhZjUwYVZjUVlFLVExZ3hIem55NFN0MkZ3MTItSUVleDdOQU9jVDhIQzBkLTdlWVJR?oc=5"
             }
@@ -303,16 +309,16 @@
               "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUVBeC1UUDhDUDB4YWpQNVBqU1VxZWNzZm5LMjJha1BNVXR5cm95Sy1NUzU0TVRoZnRJS3JTX2tCNmlXREJnV0duNlZZcmx0bm5QQ210Ui1IbkFwVEZURGFudTlDdDFQMlJGbFZ2R2pPNWVNc2ZOM18zQ1kwc3BBNlhvWW1oUXp6VmJWWW1oRDk2S19nV0lWTWFlb0JBMXVkTlpfS2ZObWxHTTRCMHNiR21QTmpUTTBGNkJWYm9Ocl85RUFDSkhxNnlXb3RJd2s?oc=5"
             },
             {
-              "date": "May 02, 2026",
-              "text": "Troop withdrawal from Germany and escalating conflict with Iran suggest a potential shift in US Middle East policy, but a 'split' remains unconfirmed.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUVBeC1UUDhDUDB4YWpQNVBqU1VxZWNzZm5LMjJha1BNVXR5cm95Sy1NUzU0TVRoZnRJS3JTX2tCNmlXREJnV0duNlZZcmx0bm5QQ210Ui1IbkFwVEZURGFudTlDdDFQMlJGbFZ2R2pPNWVNc2ZOM18zQ1kwc3BBNlhvWW1oUXp6VmJWWW1oRDk2S19nV0lWTWFlb0JBMXVkTlpfS2ZObWxHTTRCMHNiR21QTmpUTTBGNkJWYm9Ocl85RUFDSkhxNnlXb3RJd2s?oc=5"
-            },
-            {
               "date": "May 03, 2026",
               "text": "Troop withdrawals from Germany and ongoing conflict with Iran suggest a reduced US presence in the Middle East, but no definitive split has occurred.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1Wl82OUlEcURINklxSEwwN0ZlbWoyM3NQS0h0MFQzdDVBU09VSkE1bEE3dklRWVR6TEVIR3hFV1h0X01tYlJwamh3dTlyTEdHNC1UbWhILU5SdWVNWVdGVUs1d0hXU2dGMnc?oc=5"
+            },
+            {
+              "date": "May 02, 2026",
+              "text": "Troop withdrawal from Germany and escalating conflict with Iran suggest a potential shift in US Middle East policy, but a 'split' remains unconfirmed.",
+              "hot": true,
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUVBeC1UUDhDUDB4YWpQNVBqU1VxZWNzZm5LMjJha1BNVXR5cm95Sy1NUzU0TVRoZnRJS3JTX2tCNmlXREJnV0duNlZZcmx0bm5QQ210Ui1IbkFwVEZURGFudTlDdDFQMlJGbFZ2R2pPNWVNc2ZOM18zQ1kwc3BBNlhvWW1oUXp6VmJWWW1oRDk2S19nV0lWTWFlb0JBMXVkTlpfS2ZObWxHTTRCMHNiR21QTmpUTTBGNkJWYm9Ocl85RUFDSkhxNnlXb3RJd2s?oc=5"
             }
           ],
           "changed_at": "2026-04-07"
@@ -342,13 +348,13 @@
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional dynamics involving Iran. No explicit confirmation of joining Russia-China or attacking Israel is present.",
+              "text": "Headlines indicate Turkey intercepted Iranian missiles and issued warnings, suggesting a shift in regional alignment, but not definitive betrayal of NATO or full alliance with Russia/China or attacks on Israel.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             },
             {
               "date": "Apr 15, 2026",
-              "text": "Headlines indicate Turkey intercepted Iranian missiles and issued warnings, suggesting a shift in regional alignment, but not definitive betrayal of NATO or full alliance with Russia/China or attacks on Israel.",
+              "text": "Headlines confirm Turkey intercepted Iranian missiles and is navigating complex regional tensions involving Iran, Russia, and China. No explicit alliance or attack on Israel is confirmed, but shifts in Turkey's posture are evident.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3ZjM1dISlRBQ2NBS2NocWVqak9NWF9paDFvR1EzVzhRazYwY1RvZ0tHRjBabVlLcFlYRGFzWUZldkt3bnlBM3FOY0ZYcUc0WnNvMkEtTksyNXhHeFVQeFdkM3ZfOTI3RFNJR2drQWV0MWlHTUpyMUhvQmlPSEZMQ2dCSzFwa3RkUEFJSFh1bHlpQTNnOHF6V0x1NVY?oc=5"
             }

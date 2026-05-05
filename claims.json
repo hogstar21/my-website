@@ -9,9 +9,37 @@
   "breaking_news": [
     {
       "date": "May 05, 2026",
+      "text": "Iran war live: Washington, Tehran trade threats over Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 05, 2026",
+      "text": "UAE Reports Missiles and Drone Threats; Trump Says U.S. Will Guide Ships in Strait of Hormuz",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83MmpZTm5iSHpxNF8zRDhXXy0waUxVQ3A3TDFkdlNsV2Q5SjgyaDZ3NUlnVTMwTHVMSmx5aW1sdVJUWGczWTAwb3ZrX1FESDRWcVB3UnA5M3d4b1Z0YWNhZUN2Qi1OTTNFcUF1WWhkQV94Z2tCQTFZ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 05, 2026",
+      "text": "U.S. tries to force open the Strait of Hormuz as the UAE comes under attack",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9INGhNdm00ejBxc01CS3pBMVRuTTZKWExyV0pseHo5M2JhaGhlbVJwUDlWV0hXYy1hN1dKcWFpLUl0VUhvcDlkQkIzdU9WS19qZ1ZpSGwxLXJKRS1kSWM1dnpSaElOcEpIVC1pcENR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 05, 2026",
       "text": "Confusion in Strait of Hormuz Leaves Shipping Firms Guessing",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcmM1N1llcktFMjAzazIwRFYxbjlrTzlRTmlMOG4zX0ZMS21JTGhvcHNBNXNmZXZqMENrUnhpbWxCLS10ZU1FQWRIZVpzZjI1OENwdnRhNUNfWUk3UU5wUFhSYjdVcmtmbnl4V0xXLVZXSGJQMFNBS1RYWVFkR1BFRkJ1cDZOOVU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 04, 2026",
+      "text": "Hormuz tensions push ceasefire to the brink as Trump threatens Iran",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONXVfdjdhOE5ub3RVV3BXMkMzSVVRODNRNmE5TXc0V29fQlpteW95ZlBzLVdMRlNIRkJfLVdKbG12ekwzNDlrN3lrWC11TnZBLXZjVmQ5bTJnR3d6TmlqODVXcHR2Wk5UeEszV3p0YzFJdUdLdER5dHJCLUdzaEx0cm1wdEpPN3pSckVUSkdsdDhKanlkeW03UmJYOEJBVXBQZ29XZlR5NTBVdjjSAbABQVVfeXFMT3M5aFZFS3ktdndzS1YyVnZtYlN5Smxua0lRMlRCWHBER3Y4bnBmd0gyQkQ3MkNINHhKbm5qb1JtT0pyQkthU0VPWThpczRtNTlFb01qQ1gwc3NDMlhNaHhtWC1VUDdJcEE2SW5TcXJnb0Y2TjBNXzNEZHQ5YVZwcS05ZzZtRXhFY3JsX205bzEyRlR4U0hKVW9BYUlrS2N4elFyT3FQVXROdnU5NnB1WFk?oc=5",
       "hot": false
     },
     {
@@ -64,34 +92,6 @@
       "hot": false
     },
     {
-      "date": "May 04, 2026",
-      "text": "Live Updates: Latest from Israel, Iran, and Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3TUZvdm9KOWp2eFJzNEZtZi1IdlJuNjR1WWctRXNOWmxfdmZ1eDRkdkZwQ0MtUnZ6eS1EaTgzZ0gyZ1pQbzVWRzNSZFA1ZDlFMlhJQnF1aU9QOHZSWEF2YlpyM3h1dUJvVnRtOGhRV1AzSDlJRXJKa1dmRzdCVW8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 04, 2026",
-      "text": "Two Wars Later, Iran’s Nuclear Question Is Still on the Table",
-      "source": "Carnegie Endowment for International Peace",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOXzQxZnFpVEt4Yk5taVlGVl9tWWNFM1pKZjU4OVpZMkJ2RzhoQUVKbGFISkpYaUhvZkxUQmFUSWpGYzNUSlNCWTJTT05OdlNvaGJYYWdGUzVDT1JtN3dra1lGWHFWUXJpS1JfMXMwdk5GbU5EbXlIQVZhY2VqZEJsNjAyY2wxeWpj?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 04, 2026",
-      "text": "Iran war live: UAE says intercepted missiles, drone sparks fire at oil site",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 02, 2026",
-      "text": "Iran Update Special Report, May 1, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHpQNkRfNHVXUF9uX2l6ekh1SGRkRGI4YXlPV0hvUzdwenAtdDBXNVhEVDJuVjlfdzkwdkdjN1ZIeVh3a3BfUDV2VGllVm9DbjFEZjZxeDBFbVJTQ2Zycnhwb3RBai1NUnFVLVRoZ3dzbUs0OThKRS1aM0RuU1hKY2ItaWZMLUEta2VTRUphaW9tQQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 02, 2026",
       "text": "How The Red Sea Shipping Crisis Affects Global Trade",
       "source": "WorldAtlas",
@@ -106,10 +106,10 @@
       "hot": false
     },
     {
-      "date": "Apr 07, 2026",
-      "text": "US has struck Iranian military targets on Kharg Island. Here’s what we know about it",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWk0bVpseU1tNW9rall3SzNkX3ctZmUxQzJ1SFk5YWFPbVBmMnZmNzcxVnY3c1A4SnpSRWp0VmdtcURYTVZCcU5yQ1Bma204OGhNS1djNlFuR2wyeWpnb28zU00wakRjeWZMeEVnb0h5bzlaaVoyTlFZT0pTb3hybHFQU0Z3R3U0?oc=5",
+      "date": "Mar 14, 2026",
+      "text": "Iran war updates: Tehran urges Middle East countries to ‘expel’ US military",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjIwNGoyVUNRaFpyWllDU3VIdjkxcjdhR3dsbmdELUplaHQ2TmxfdWpMb0ZDZjR3a1VoUGNtcmhxUTVIVVdFNFNobmZDNDJmQXVKc2xMQkNBVFZkZkR2d0JKdGZFSDh2S2ZnbTlwaUFZYnNxWDg1YVZreVVGSGpBTEM0Tm15NUM4UDVtaWRQaDl4TkRNa1F1SFRnQWJQNXNzbTZwQjAxUXFYVnNmSTUtMGhuYTB5a3lJVjlrVjZ1c9IBxAFBVV95cUxPTVJNZjBDXzJSZlVnWjZJY2VEbUdPMmlISVFRR3o0NWlEaWlOLVVyaXA3bzBjVVpJSFNfYjg1bnl0cTZtckZxX0VpdU96TkpoUWFsSEdsRkZyWnBzMlJYWmRmUUtraHBoQW5ob3JQZFR2SVU1UG1QbXowZzE0MjFubkhyZFBmUlpMcFRaTklQQjJSUVhPQm1vZmx0c0JIRmtZNXBUVWVwNjZmcDRBTGVaV0pOb0NUdFh0ZWd6Um90ekFTR2FU?oc=5",
       "hot": false
     }
   ],
@@ -164,19 +164,13 @@
           "updates": [
             {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Iranian-backed Houthis have escalated attacks in the Red Sea and Yemen, and Gulf states have experienced strikes, but claims of attacks on *all* Gulf oil fields and US bases remain unverified.",
+              "text": "Reports confirm Houthi (Iran-backed) involvement in the conflict and threats to global shipping via the Bab el-Mandeb Strait, but no direct attacks on Gulf oil fields or US bases are explicitly stated.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             },
             {
-              "date": "Apr 05, 2026",
-              "text": "Reports confirm Iranian strikes on Gulf oil fields and Houthi actions impacting Bab el-Mandeb. US base attacks and full scope remain unconfirmed, but escalation is evident.",
-              "hot": true,
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmdnUjZUTnJXS1ZJNnRkdEx0V3o5cnluZ3NzbDdaME9sVjNtcEJGMFozY1p4b1lzUWlaLVBZd3I5Vkl0NzZBamtOQXJlYnhBUC1GVXJfMG50Q014dHhobFJvNy1IcENtOEJzcHFwWUd1dlM5S1FEVzlFaW1UWF9JakI2RVMzem1jdjNKeGxDazlPc1hp?oc=5"
-            },
-            {
               "date": "Apr 14, 2026",
-              "text": "Reports confirm Houthi (Iran-backed) involvement in the conflict and threats to global shipping via the Bab el-Mandeb Strait, but no direct attacks on Gulf oil fields or US bases are explicitly stated.",
+              "text": "Reports confirm Iranian-backed Houthi attacks in the Red Sea and strikes on Gulf oil fields. US base attacks and full Bab el-Mandeb blockage remain unconfirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
             }
@@ -248,7 +242,7 @@
             },
             {
               "date": "May 01, 2026",
-              "text": "Increased US military presence and deployments of Marines and warships to the Middle East suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
+              "text": "Increased US military presence and deployments of Marines to the Middle East suggest heightened tensions and potential for escalation, but no amphibious invasion has been confirmed.",
               "hot": true,
               "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxNM3pOT1lZNXZ2dXdDVHgxNEZrZnhucmdGeDRWSEJOeHhmLXI3eWlVQmx6VmUzRE9ERmxISGx3MlNibEg0TDNYZ20yQkZaZDA5Vk5ZV01NS2xvZ3FkdHZ1LXBaQjR0dXVTeTNyQTl0WTJpTEZFWUFfcjI2NFhaa0h5cnRhRE9iQUhTNEFkSFFrLUw1SGpnTzNCTE95XzdrWnd6Yi12N0xFYjB6RjVhMlFBQWV2SDJ2OHRfTEpSeUlpenZQSnExcnNTVXVYaEVnb1VuX3p4eVk4SlZQWU1xc2lpcEhFQmtnRlNacUN4LVk2cFRudl9Ob092eWRSR2h2Ylg4bnZGNXBQUVYwMUxweWFEM1Z5eGtGMGtCMUZBMDB4SFNOdWpVSVN1dWJvY25pcU9KMzE4RExNUmRtTlcweHYzZGtzXzI3QTRjVTZZb3VaazRjTldYVEV3UVVUanl4YzJUZGJsemFXRW5SN3JfOU1pY1M5ejdHSGRLQUZTMjZBTFlGamtfOVhNTUJYSy1HTnY3dW8xZjNjNXRhS1gyUGlzVE1BVFAtcjVVWWdFNVVLcXJkZkN0WDZOUFh2MDJtR1JrbWppS2locG0?oc=5"
             }

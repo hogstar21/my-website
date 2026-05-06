@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 06, 2026",
+      "text": "Iran war live: Trump says Hormuz operation paused amid US, Tehran talks",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 06, 2026",
       "text": "How the Strait of Hormuz Has Become a Weapon of War",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbnFaVlZWa0NtRWxqTi1Ld3NsQkd4eHJ2dkxEYTQzY3hiZWxWdlZRcm9PYUV5NXhNTnpXZDFKRUVscE9kM1Mta3FiTWhPUkpFN0JnZ3BzeWNxbEdlM1BTX1plX2Q0ZUFMbENhdGcyT2gyZXpwQ2NzczUzeG9Ua2d5clpyS1RObTRRTWd2MG9wMjY0U1MtcjdmWkhYZ192Z19WMTNnb3d6WEFQZ3JDc3FSb1dDbFdZYnNIRXhISGJBQUc0ZkU?oc=5",
@@ -79,16 +86,16 @@
     },
     {
       "date": "May 04, 2026",
-      "text": "Iran war updates: UAE intercepts missiles, drone sparks fire at oil site | US-Israel war on Iran News",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUQ?oc=5",
+      "text": "USNI News Fleet and Marine Tracker: May 4, 2026",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWtHbEdsWldTSGZ3dFdqTnRNc3FLSlBmeDJzeDFhOVAzWTE0YmdDTFBmOVg1TXVqYUU5WmhCQkxXV21wakU4cGFtaVUwOUlGQl96enZmdkhBUjNzdlBnOWNDaXExdm9zRjI0NEZrN2hMbThMdVlSYm1yU0dYQnhqQ2RjR0E?oc=5",
       "hot": false
     },
     {
       "date": "May 04, 2026",
-      "text": "Exclusive: US intelligence indicates limited new damage to Iran's nuclear program, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNm9KaWowV3pqQVVxRjJSZE9ROFVxTlM3YjZiVEI5bGZjcUIwbE1JSl9nWi1tTF8tc2ZpbU80RXFCQWdFNThGa0JZZ0xyai1XSjJEeGVzU3ZtU2ZNNGZMOHpzd0pDYWdlRldLeFZjeEdoeDlidlZ6U3NhYVc5RXZ5Q2ZsMDNvWkNRZkhzckxjeXJITmhIUGV6cFNId3NRakhOckJtOVI2cnZRVnNMQmpYd2JPTm9GMkJHZmpCUktVZ1YtYUtfZlJfM0Z0Tnk?oc=5",
+      "text": "Iran war updates: UAE intercepts missiles, drone sparks fire at oil site | US-Israel war on Iran News",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUQ?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "How The Red Sea Shipping Crisis Affects Global Trade",
       "source": "WorldAtlas",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Apr 08, 2026",
-      "text": "USS Boxer Amphibious Ready Group back at sea",
-      "source": "Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUdGNGt0VHZwSWxiMWVDWlVIV3JXejdyeVF4SHB3Qk5lanpXbzRacjY5YWd4M0NwYVN1RERRTXJmVkxEakhfNHl3d0JOZUJla3ZabW1jS05fMmJON3hjbHNPNTQxbWlyMXZsLUhqR2xhXzZGZ1NLaXp3cFE0NmdoLWtCYlY4UXdiVEE5VklR?oc=5",
       "hot": false
     },
     {

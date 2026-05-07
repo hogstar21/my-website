@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 07, 2026",
+      "text": "Fixing America’s Failed Strategies in the Middle East",
+      "source": "Middle East Institute",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51YW9jVW5LWDVfdlJseW1iRWhhdFZuNEpqOEdldmI1ejRTVnBLVzVCdDNINnY2NkJyUnNHV2FZbjc2aXlIbFUtT2h2TFgxS2NyU2p2YnNoZWowcUlBejFYcnYwd1NLSjd5MXg4cnUxNHZfQk5zLWJJMHhpa2VEZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 07, 2026",
+      "text": "U.S. and Iran Offer Mixed Messages on Deal to End War",
+      "source": "Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0QyNHF2b2ppSUVQRjRvdlQ0OXc4aExmQ1pBb29ZN21uNHFvampkaWNxYTIyby1sRXUyaXJWX1lyMmQ4NFhaRnEzdlp4dWpLeUJUaGk2TGR4SW91cmtZeVBNUjVSRkw2TzhLOTJ3amUzY3RoUFRDMks1ZkZXNzFkc091V1JjSFhFNE5rYkdzZ1V1OHBVYnZKSkNOWkEwYTg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 07, 2026",
       "text": "Iran war live: Tehran calls for ‘dialogue’ as it reviews US peace proposal",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?oc=5",
@@ -64,31 +78,17 @@
       "hot": false
     },
     {
-      "date": "May 07, 2026",
-      "text": "Iran considering US proposal as Trump says war will be 'over quickly'",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnRlRJYVpSWXBZMXhSYzV6dTVfY3pVZldNak5VNDJmODlNbS1wb0dUMzMtYkVUZnI3ZGg5WEVHRGR6Tmg3cFN6QVI0TWp3b1FSRlNHZWlBNThCQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 07, 2026",
-      "text": "Live updates: Iran reviewing US proposal as source says both sides moving toward memo to end war",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 06, 2026",
-      "text": "Iran war updates: Trump threatens ‘much higher level’ attacks if no deal",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 06, 2026",
-      "text": "U.S. Troops in Middle East Wait for the Next Big Moment",
+      "text": "Iran War Live Updates: Trump Suggests U.S.-Iran Cease-Fire Remains Despite Strait of Hormuz Escalations",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JXzNGeXNzZE1LVjZjdGRKX05rbHJwRzQ5bm5iQ21DOEZWNWdsMTVBYlZLMDlqMHpBNXkzZV9FcWxNMlhJekRBV2sxTkRZdEl0cFpzRXJGUldxRy1wclpnS0R3UHlfTU9FNWtZa2VPSU5fLUZF?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 05, 2026",
+      "text": "Marco Rubio says offensive stage of Iran war is over",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZTkwT1BzSDVjQjBhN3ktUUZJcFlpYmxvV3lrNjFPakVlUEN3WjRGbGdVa1VWWGlkdk4tRXJhcmtuUEl5dW9hZjdDTGk4ZTdtUGktdm1RekZfLUhhdVpxM3UyU093LWZFeUIteXBGV2NjMVBwdVg2VmlJQjN4NGRUMEZDdmVuNGowclFwRG8td2VpUXdjVVgwSTNfQUJsVzNNMEViMUswZWhyWHZ6WDVWUHJsU2dNTi1KV2RaY0p4TnNQb2VYc2l5LTdkdTJQNWUzYkE?oc=5",
       "hot": false
     },
     {
@@ -99,10 +99,10 @@
       "hot": false
     },
     {
-      "date": "May 02, 2026",
-      "text": "How The Red Sea Shipping Crisis Affects Global Trade",
-      "source": "WorldAtlas",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGxIdEEwcl9Qc0Y1czcyM0lXY0hpLXdLc0NKZnMyVXJ1QTN1SU5QR2xna25jUjhXOUxhRWFRck1fUWw2elZPS2Q0Q3FXYUxqOFp2bkhMdUVSY0gwaDM1emI1VTlGTG9fOGdxVGRYNkJPN3VNbHBibEVfYVMyakJjYjJTV0hwY2xESE9HWE1OdHlfN1lWRUhDaXRR?oc=5",
+      "date": "Apr 19, 2026",
+      "text": "Yemen's Houthis threaten closure of Bab al-Mandeb Strait",
+      "source": "news.cgtn.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjhBZ093TEtuNUVjYXFlcHdXMW81V0dOcmNRcU9SbUJlTk9HaUc4dmxMUnhGM2laMU9nTU9qeUw1LXZ0RFhwZXhZNEtjWHFNVnU5UDJYTVJMb2lqLTNINGFPc1dvR1Z0MmVzUDlTSWlFcERCU2Q5UVFpSVF4NnZPdVlKUFEwaGg0XzZfbEg3QkxmU2RPVWpIdGhzSjdkc18xaEN4emRIdzFPaFFyazk4NXRVWQ?oc=5",
       "hot": false
     },
     {

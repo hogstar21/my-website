@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 09, 2026",
+      "text": "Live Updates: U.S. fires on 2 Iran-flagged tankers as U.S. awaits response on peace deal",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNmMzLVFDbWpCaVlOZFB6LUhDN3NMQl9hZ0VrRUxkRWRnWXZKbnBCR0FjZXRaUTBscDM3NnZaemdqcVMwYTFLa0ZvMVhOX202d2p1WWh5RUNMcEtEM1ozM1BVcE0wbENNd0pWeGItUUhwc1ktUElTNGZNMU1ZZGJqSWhXc2VnMEIzeEtVMDNQVdIBlAFBVV95cUxQU0xmeWl4aUpGZ0ROa2RLVkc0VmJia0tXczV0d0hrVXdfUVZ6ZEY2LWVmbFhVNUNwTlNvQ1lfanZ3aENZbmFUYzZvUERZQTJzN2JhNVhiQklzZTlXQW95T3d5anhybzdCVVFwTG00akM2bzJ0R0IwYk9rREJzTXNzVktLN0s1UjV6Q1FJZ09fZDNvVlJR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 09, 2026",
       "text": "Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?oc=5",
@@ -85,13 +92,6 @@
       "hot": false
     },
     {
-      "date": "May 07, 2026",
-      "text": "Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 04, 2026",
       "text": "USNI News Fleet and Marine Tracker: May 4, 2026",
       "source": "USNI News",
@@ -106,10 +106,10 @@
       "hot": false
     },
     {
-      "date": "Apr 19, 2026",
-      "text": "Yemen's Houthis threaten closure of Bab al-Mandeb Strait",
-      "source": "news.cgtn.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjhBZ093TEtuNUVjYXFlcHdXMW81V0dOcmNRcU9SbUJlTk9HaUc4dmxMUnhGM2laMU9nTU9qeUw1LXZ0RFhwZXhZNEtjWHFNVnU5UDJYTVJMb2lqLTNINGFPc1dvR1Z0MmVzUDlTSWlFcERCU2Q5UVFpSVF4NnZPdVlKUFEwaGg0XzZfbEg3QkxmU2RPVWpIdGhzSjdkc18xaEN4emRIdzFPaFFyazk4NXRVWQ?oc=5",
+      "date": "Apr 28, 2026",
+      "text": "Bab el-Mandeb Strait | Map, Chokepoint, Red Sea, Iran War, Yemen, & Hormuz",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hcnVJcDdaaFpBajFCTXIzRXRBdmZrTWVxMnBqekRBMjZNZUp3azFGQTVhV3lCZHZPd1F0cnUtb2paZ2N1LVRjLW14U2dGWURVTmxOTTlqZV9rTW8wcy1JNFdVYw?oc=5",
       "hot": false
     }
   ],

@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "May 10, 2026",
+      "text": "Lasting Truce Is Elusive After Week of Traded Attacks",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
+      "text": "Strait of Hormuz Remains Effectively Blocked After Naval Skirmishes",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3haVlZPODNSVmhia0d0eURxVVlRU0ExbjB6dV9rcnY0QTRObFR6bGVDYWdKT1U5TlpERmFrSC05R0V5M3FxX3MzUVFqUVNnNlhxbUhkcmtQd3ZnOWI5RGpoNXFfRXdhZ3lMQ3ZpOUQtVEExaDJVWGxwc21hbVNrZnVWTWdQZ0JPYjJ4alNBSEtSYV9ZN3NFZQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
+      "text": "Air Force pilots receive prestigious award for strike on Iran’s nuclear facilities last year",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM1ZZRlAzVzhiMHJSUGVMakp3TDRpdjExT2tXUGFWRk9jeW5hNWhiSG9ra2hWc01oREZrLW5Rb3ZBakxMZHV3Ty1EeUJqZXhmY3FIMjRiSUdLYWRoalV5Y1hUYW9PTFdlUEZrc3VKOGRnVWZFczl1SFVYeTY1TVozdUpsRVJGa0o3a2RkSG9NdmlMVU5wYkJWOFAzSDVzVXNWR0NQbjZWRl8zZWw5ZHptbVFlUWRObmY0?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
       "text": "Tanker struck off Qatar as Iran warns of US sanction supporters",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KcjZnZEZzTGdpSzhfOFJ1ZEFMZDdMLUJKRmRobk1KSGdTeFF0X0VTbG5qUHUwYjVLaUpyUWY4SjdPdnVRSWo1UFVBeGVDYTM4TE9zMWxyWkxRamI2V2pObG04d1R2bW9hb1E?oc=5",
@@ -75,27 +96,6 @@
       "text": "Fragile Iran ceasefire appears to hold as Iran warns the U.S. against attacks on its oil tankers and other ships",
       "source": "PBS",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTEJ4TXJQWVhvR1BDcTlveEE1Z0JuQTNsNmRtdEtfczFtLWNwOWlTUTFlQkpNdkE2c2NjS1BqajdWN243UnhHUFppTF9MX2RQRzlkZ2gyRTM3b1h5RVpwMTVraklUOUVZYk1qU2QxU0FaLUU4UVB6UUh2S3ZYODU1U1hNMjFINkZ6Ym5uVlFaQVhaSkl4ZzA2cDdyMGpfVU1Pd1JuZjZXNHdtSmNmbFRFOWo0aHVoSnJ4Tm90VDZBdEVRUjNheEVwX1BOeWRmeDg3eWJMbjFWZ0l1NHYtQTF30gHkAUFVX3lxTE41Y2h1MG8yUDR5Y3JvLTY5bVBObkVneXp1VDdUbW43T05BM3JNTy1YSVRtQVhzOHUwZHJnS09MNU1iSUFIVTlVLWlyNlU5VU9pZnZpWkU0enhGbnZUaDgzMU12bzlWSWZuUjlwMnQ0MG1fVUd6VUJlcEJnVW1CTFVMMnRCZEJ4QkZhQXdRRlgwU011TmlWRnJCdUFIUXlPWm9ONmdWOVRoS3VHR09pNG1vSV85elRTdGVqSmpZMGFtVEpLT01ZU2JiTzhnMEI4U1FuaFJmQzVzNFFoa3VhajBfMlhDNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 08, 2026",
-      "text": "Iran war updates: Tehran slams US’s ‘reckless military adventure’ in Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 08, 2026",
-      "text": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 08, 2026",
-      "text": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pYnROWUJqNWhZS0hHSzNHcEZfcUhkRDdtYU40TFJqUFQxem5Dc2J4T1VZdjlldGkwSXRnbDlueVhvamlaUFB2RDE3OEVONVprOXJidENZcVpyZw?oc=5",
       "hot": false
     },
     {

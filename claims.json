@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 10, 2026",
+      "text": "Iran war live: Trump says Tehran ‘playing games’ as it responds to US plan",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenk2aFlwU0NEd0tIMm5QVG4wTnRNSVIwX3FuWTNHdFlfcm5WQ0d3ZlR2emNfQ1d5VEVsWldZU1lTUnc0dWZoVkExdW1mcWNGSGQyZFZDaWc3SlliY0tJNWREa2FMZ0VzeklrQk5KbjZDVkRBVF9WbzBMakZsaDNweE9DQmNybW1GaGZaZUZMcU80S0owMkEyRXBDOHNtYWVfbHpzUjVrd1NpVjdnOXFkcDk5OXlHa1JRSm9KSWptNHrSAcYBQVVfeXFMT3RMTDM5YW12QmRDcndKNDYxWnlFWlZDRUh6eF9iZ1ZObllWMnpyeFJoaDEwS0k5NUljTXRJRmFNdTRYYzRScXJ3cWctN1ZIWUFpTFFKWU1tMkQxVFYteGhTZDBMN2ZYOXExa0cyU0w0M3dqejZhSUNDYnZTWlV4Y1hKT3h6X2J1ajlOTG83WURDdS1Qa3JYbWlNMDlHcFhSS2hUc3lDRzhOUnlTcXZOXzZIVjVQTVBydVdiQ1lzYVdMTHF3eDh3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
       "text": "Live updates: Iran says it has responded to US proposal for ending war",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3WTROMDc2RXVfTHRKZ2dSS0hxd091Ujk1TkppaERnZ3U3d3ZNMWZFRXR6aHFibGwydjdXY3FxWnpXOVJEdGozaFBUTkkta1VHYlpLZ0EtWHFYZkozeFg0R2s4bVNCd3dKbGxpeg?oc=5",
@@ -78,24 +85,17 @@
       "hot": false
     },
     {
-      "date": "May 09, 2026",
-      "text": "Possible oil spill seen near Iran’s Kharg Island terminal, report says",
-      "source": "NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2luQ1RLY0NNb2k5djZCWEtqM1AwRldvR21hVXlReUM4MlFJX1drTTRhY1dmbU5qUzdjcWF1bDlNVmhROUlYY0Vkc1R3LU5jVEY0MGRMcG1zOE1JR0F5Qkp6VGxkLTZfbEFJaGZ6UEFsakpBcDhrYXJFc2FZSUtRRGEwZHl6V1huRXlweXFrR1pfU0pUdHlkX3dXOUdURjg1Qk5NVnB0UdIBrAFBVV95cUxNMDdYQ2hlRVJxYnhZMFRaS3Q5N2EzU3d3RWt2SHpvREF4TnpZUHJnM1VDMm5iSzNaZ1NnMTFSSUw3ZTJGeVVGTDN3cWhJNF91NXJoZXhBT1NFRFRrX1ZHYXRfSGhHVFhhVlhXdlRwSVFUajhLUHZfRXhCa0U1cHh6dFNIYjFWTVFhQ3dVV1hiUlR6cEcwUDFnMldIeVVQdGs0ZGt5R0hLZERzMTJ2?oc=5",
+      "date": "May 08, 2026",
+      "text": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pYnROWUJqNWhZS0hHSzNHcEZfcUhkRDdtYU40TFJqUFQxem5Dc2J4T1VZdjlldGkwSXRnbDlueVhvamlaUFB2RDE3OEVONVprOXJidENZcVpyZw?oc=5",
       "hot": false
     },
     {
       "date": "May 08, 2026",
-      "text": "Iran war updates: Tehran slams US’s ‘reckless military adventure’ in Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 08, 2026",
-      "text": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?oc=5",
+      "text": "MSF responds to conflict in the Middle East",
+      "source": "Doctors Without Borders",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUwyN2hhcW85Mk5wN3lMM0hfY3oyQU1IelBYd0tmaEl0NFJQLU5uejFVZ1VKLXJaS1lQQ1BQUEU0bjdKUEtwaGdtMFdnQUx1UHBTMmxCUDdpQ3FKa09QU2NIYzR6cWdJbUpWUkFZUVN1MjItU0MwdTQ3bWpyQ1VjMXRGMjJfLVNOeTFDUUZFaGhabFU?oc=5",
       "hot": false
     },
     {

@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 10, 2026",
+      "text": "Tanker struck off Qatar as Iran warns of US sanction supporters",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KcjZnZEZzTGdpSzhfOFJ1ZEFMZDdMLUJKRmRobk1KSGdTeFF0X0VTbG5qUHUwYjVLaUpyUWY4SjdPdnVRSWo1UFVBeGVDYTM4TE9zMWxyWkxRamI2V2pObG04d1R2bW9hb1E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
+      "text": "Drone attacks threaten ceasefire as Iran vows to protect nuclear sites",
+      "source": "AL.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNUhsYmh3ZDZGVFdYOVJ5OGs3bWxQZUItaHpzWnQ0aUNmNlVyN1lSRjA2UjlIU0ZzcHFLcS1fenZsTjZNcHVWdGJCakc2bWFCNng0T3hnZ2ZQVEx6Ry1FSG8zV3B0WWJ0RS1IMEJLSm1DQ3hVcm10ckRMTkNmTllMMmFWYXVkTExBbTRPYmVwNmZoOVA0U1o5akNTcVZCVGxNNFVTRmxwTGlaVWfSAb8BQVVfeXFMT3RHWXlFS19FbFhlcDBWUmhOZGh6RzhaTnQzeGV0WUNtc1hfMHVrdTB1X3dtVTBIcy1ObXV1WFg0Slc1a3NhQ1lQVE5STTVBeUtwTWtSMy1sWFMxMVgySm81RTgyYWp5RDV0RTk5WXB6V0RQaHNCV2Z1Y0NnbWlfeXAzNmNROXoxU3pmdTAtelVqa05JX01za1QzNjRYX0lQT0VKRDZvMlZIcXFHU2xVeUtjM0djSE5PWnpXUTE0WHM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
       "text": "Live Updates: Latest from Israel, Iran, and Middle East",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKSnVTU1V5V2paUkdLZzJTMEdTaGVhTVlnMzBLb09FQThKeWlueG5PMlNDdHFwamphVU4tdEh3TWpZOElfOUZNd3AwWnlPTlAta2V1U0JSUzIxWDljdVF3NF9KQTZaS05Ga1pzaldZS1pLd1RfVkp0d0pZTkpGb0U?oc=5",
@@ -64,38 +78,24 @@
       "hot": false
     },
     {
-      "date": "May 09, 2026",
-      "text": "Strait of Hormuz Remains Effectively Blocked After Naval Skirmishes",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3haVlZPODNSVmhia0d0eURxVVlRU0ExbjB6dV9rcnY0QTRObFR6bGVDYWdKT1U5TlpERmFrSC05R0V5M3FxX3MzUVFqUVNnNlhxbUhkcmtQd3ZnOWI5RGpoNXFfRXdhZ3lMQ3ZpOUQtVEExaDJVWGxwc21hbVNrZnVWTWdQZ0JPYjJ4alNBSEtSYV9ZN3NFZQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 09, 2026",
-      "text": "Live updates: Iran vows to retaliate against US if ships face further attacks during ceasefire",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 09, 2026",
-      "text": "Lasting Truce Is Elusive After Week of Traded Attacks",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 09, 2026",
-      "text": "Iran war live: Israel kills 23 in Lebanon as US awaits Iran’s reply to deal",
+      "date": "May 08, 2026",
+      "text": "Iran war updates: Tehran slams US’s ‘reckless military adventure’ in Hormuz",
       "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?oc=5",
       "hot": false
     },
     {
       "date": "May 08, 2026",
-      "text": "What we know about Iran’s response to the latest US ceasefire proposal",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWUdHU2FvTzI5VVFDaTdnRS10dUg1cmtaMW9zMmZ0RXlKclQwRVN6aGpGbkoyTWdEaDBPRUZHVDBZQXdPbTBWQmstX2ZxYWlUUW5qVW5NcDV2Tld6ckc2ZWZ5WndLc0JaYkRYX0RlZjFwREZRZGtkRnJIR1ExNllZVXB3dE14WDNUdDJ1SFRGaTUzOU5GTzN4bUktd2R1Q1pjRzVHZXBVTVVSNkFrWXfSAbMBQVVfeXFMTVROR1drVG5sVEliUlVuUFVRTWwyX3Y1UjdRRW8tWEpUZ2thRWNrcVo5eEIyQ1hheWZCY2VyRVd6SlBzRGZCWVBXZGJoalMzWWdXMXpwNFR2cmExRDJTRExoemtKZzVBMXkzSjdiaWxkemhzbnZFcjNRY0pldENnVGJhYlJUcDZBQW5lOEdpVGE5YkJpN3Bpbmt1eC1FZkRZSFFIckNQSl9UTC04VndRbmVPMjQ?oc=5",
+      "text": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 08, 2026",
+      "text": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pYnROWUJqNWhZS0hHSzNHcEZfcUhkRDdtYU40TFJqUFQxem5Dc2J4T1VZdjlldGkwSXRnbDlueVhvamlaUFB2RDE3OEVONVprOXJidENZcVpyZw?oc=5",
       "hot": false
     },
     {

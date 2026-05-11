@@ -8,6 +8,27 @@
   },
   "breaking_news": [
     {
+      "date": "May 11, 2026",
+      "text": "Oil prices jump after Trump dismisses Iran proposal to end war",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XeEduVHJVeUVialhUMFRNYTNiUl92bF90d2pfNEJNa29TVEJMaHhERllmbFVFOWdmaGJOU2w1c1FwR2JqNFVzY09jbXZtXzZ6VGhlbXN3d01LUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
+      "text": "Strait of Hormuz Remains Effectively Blocked After Naval Skirmishes",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3haVlZPODNSVmhia0d0eURxVVlRU0ExbjB6dV9rcnY0QTRObFR6bGVDYWdKT1U5TlpERmFrSC05R0V5M3FxX3MzUVFqUVNnNlhxbUhkcmtQd3ZnOWI5RGpoNXFfRXdhZ3lMQ3ZpOUQtVEExaDJVWGxwc21hbVNrZnVWTWdQZ0JPYjJ4alNBSEtSYV9ZN3NFZQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 10, 2026",
+      "text": "Trump proposes US military action on Iran's Kharg Island amid rising tensions",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOMmh0dGVtZURiX3IydkxtMnZPcWptdFNMU2J6UnJxODVqbXNYc0FKRFZQdmVkcXhNOUdNdlhsZmdERDZkT1FXcE9DRkJrc0QxY2FadzZaSjNlOGlocW5tRHJub0JERFpIa3BnUVYzWlVKeVpGMUZZM3gxM0dYdE5tNHU4X2R2czhQdGtCZ2NYR0V3eGxUazZUcDlMWGtyTU5lOUxUSFdoMXNEVWlEOXVzd2NFZ2R6RGlTNnhReTIzV1VXMUh5OG5jdExscENUc0M4SURXalNsRUhSeGxLSDJhSTJOT2pyandYT2RZRUNCWmFISGl1ZlNIN2RQZGZDTTNlMGdfRkVCOU1xYjQyQjJmYmRJODVrSm5jTmIweGlYWndJZ3V6eDJqR2F0Nno1V0RKSWdENHp0dG5TWkdQcXMwRzVtRjVfdk1HMVNMbmdXUnlWU0tFZlRMbXBvRm1tQ2tPRHJrMDZpelhwdw?oc=5",
+      "hot": false
+    },
+    {
       "date": "May 10, 2026",
       "text": "Iran’s Revolutionary Guards threaten US sites in Middle East if tankers come under fire",
       "source": "The Guardian",
@@ -64,20 +85,6 @@
       "hot": false
     },
     {
-      "date": "May 09, 2026",
-      "text": "The war on Iran will likely end in American retreat",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkZ5dGZPdzdqTFBsX2ZKY0w2ME0wN3RPaU1Rel9ETGVZOE50S2dVQmV5RkhjOHlMVS02Y2dPc2czZVh4THlKY2RjU1lKdmp4OVFFSTVtMDFhLXYyeVB6NUYxTWFfRl9FdXdPWTJyMjdDVTJ6S2RXNm13TDFxS3p4c0dpY3pRVHNoUDBZWUNMcTN2WlY4Q1BVbzFNa9IBoAFBVV95cUxPRFVrcTN1bzBiYl9nQXM1dk15LVpWVVVyR2lCZUFqOW9DZW42SWdtUnFrZzBuRDZTbjFPcWluUUgtdG9jZk5BTUotM0tFWEx2b2NQY09uWVhZT0FVY2FJVUVrSzZteFAyTjUxZElkRnBfcENhVTVVczdELUs2MGFzdkJDR3RkTkl1RUpaNTBYTHBWS192Zm1PcWJ5UWloU2Fq?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 08, 2026",
-      "text": "Iran war updates: Tehran slams US’s ‘reckless military adventure’ in Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 08, 2026",
       "text": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
       "source": "AP News",
@@ -85,24 +92,17 @@
       "hot": false
     },
     {
-      "date": "May 08, 2026",
-      "text": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pYnROWUJqNWhZS0hHSzNHcEZfcUhkRDdtYU40TFJqUFQxem5Dc2J4T1VZdjlldGkwSXRnbDlueVhvamlaUFB2RDE3OEVONVprOXJidENZcVpyZw?oc=5",
+      "date": "May 05, 2026",
+      "text": "Marco Rubio says offensive stage of Iran war is over",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZTkwT1BzSDVjQjBhN3ktUUZJcFlpYmxvV3lrNjFPakVlUEN3WjRGbGdVa1VWWGlkdk4tRXJhcmtuUEl5dW9hZjdDTGk4ZTdtUGktdm1RekZfLUhhdVpxM3UyU093LWZFeUIteXBGV2NjMVBwdVg2VmlJQjN4NGRUMEZDdmVuNGowclFwRG8td2VpUXdjVVgwSTNfQUJsVzNNMEViMUswZWhyWHZ6WDVWUHJsU2dNTi1KV2RaY0p4TnNQb2VYc2l5LTdkdTJQNWUzYkE?oc=5",
       "hot": false
     },
     {
-      "date": "May 06, 2026",
-      "text": "What will it take to free the 1,600 ships stuck in the Strait of Hormuz?",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92UTU3THUwRHdNb1A0a0p1WTc3WkRBUThUTVUwWURUWDVSVmFvWG0yX0kwSkxLS2VYTTFCN3EzLVQ1VUlHeUxLOUpvLXQ5N0JLX2JjdmFCWUVQOFVHa3Y1ZnZyeGozMnpBbHZEX0RZX0lvT09xZVFVdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 04, 2026",
-      "text": "USNI News Fleet and Marine Tracker: May 4, 2026",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWtHbEdsWldTSGZ3dFdqTnRNc3FLSlBmeDJzeDFhOVAzWTE0YmdDTFBmOVg1TXVqYUU5WmhCQkxXV21wakU4cGFtaVUwOUlGQl96enZmdkhBUjNzdlBnOWNDaXExdm9zRjI0NEZrN2hMbThMdVlSYm1yU0dYQnhqQ2RjR0E?oc=5",
+      "date": "Apr 23, 2026",
+      "text": "US Marine Corps, Navy join forces to combat insufficient amphibious fleet size",
+      "source": "Military Times",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWWZ3bGFRS0lfbVR2Y3oxeVF0NlRZcUFyYkI2SjlKSmhlY2pad0s4RVBmRlYxc01KaVR2ODRrSDNDVXNKMlNDWGswWGtrRGFjMXRTUldyZ1N0cFd0NUlNRjdMOVNvdFpTel94d0kyOGhZWWNjVk4xRHJ0T29fTGV4UlMzQ3hNUUVweElBSzhURHNmNHJCcU1RdXRwdTNkT181UUhqaWhMTkI3ODREOXJiMWU2SHlfUjE2enQwQm5Dd1JHMWptdERERllEb1RYTFFuQlNjYw?oc=5",
       "hot": false
     },
     {

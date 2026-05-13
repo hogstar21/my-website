@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 13, 2026",
+      "text": "Iran war live: Tehran vows ‘no retreat’; Vance says US ‘making progress’",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 13, 2026",
       "text": "Live Updates: Iran says it's ready to repel new U.S. attack with peace talks stalled as Trump arrives in China",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjF1VXkyNE50MmtGb2V4TEVEd29UN084a2ZDcW9UQXhBT1p6R1JhZ2RMWWpGeUZBTXdNOXM5TXUydXhOMjZtMkVHTnNkZG51Rm5OTU5qMllQSTJ6c2pMZmhQQnNyd2FrR0tLZkNCLVJwTzl3RGk3ZFZIOEVOTGRVSm03TFZrVW8yTmhrcFA4X0tJT2tOamZ4S3pacW1JdU4wX3RV0gGoAUFVX3lxTE5hT1VlVGZwbDJQQ2NKaV8yNkpBZ2FfUUQtWUZldzBIcmZFaEM4a2NSOTU1aHlVWkpXYk5nbklEemFVYVFNNUNQZkVEVGhRWWdweS0yWVVmVmlyVmt4cDF6a0NTZlBKcnFMWTh2TmJScGJPc3V3aGJ5d1hYN3gwalViZnpYUktrZUxBVkRZbmRQclNzbXU2MDd2V0t5b2NwZDF3ZDBjWU04OQ?oc=5",
@@ -64,45 +71,38 @@
       "hot": false
     },
     {
-      "date": "May 13, 2026",
-      "text": "Iran war latest: Trump accuses media of treason over Tehran war coverage",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnBDUUxFcXhPWWR2cXRreWhRQnNwdDAtOFZONFBHMVFxWTBfY19lWXMxZFNXT1lZUGFyZ3ZrQWN6VENFV2J3MzFDV19yREJCbUlWVWh5c0JuUkJrTWM2OHEzS1RaQUZXTjN3V1N4YU5lVW03WTVlVlB0bTQ1eXJfSy0ta1drdDd1VVFyNnNrSXhCeExLUkZwcm9IT2oybDQtcnhDOE9aSXdfXzZYbGJaeFkzM2R5ZG05XzFlYw?oc=5",
+      "date": "May 12, 2026",
+      "text": "Exclusive: Iraq, Pakistan strike energy deals with Iran as Tehran flexes Hormuz control",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeEV0N2V1QmJhSWFBeG9JZE5EV3I1RFpoY3hicVNfeG1BVWdwcDFXSUEwRzQ0SDJLVk5wQnhCSWc3MWJNcnFkNGRoTERUT0d4ZXJVU05iTHgtU3RwbW5SUHZRbXdUbERCclpXRDV6WHpnaERHM2cyX2ZmVlg1cDJTUHlNMmozVVVkeVcxdm5WSzNHQ0s3Nkx4dndEaUlfUHNzcVVYZDFtYWhZVWp4ajZuemQtdnMxWDVkNFRDSEo4ZHFHQQ?oc=5",
       "hot": false
     },
     {
       "date": "May 12, 2026",
-      "text": "Iran threatens to \"teach a lesson\" if U.S. attacks, Trump says ceasefire is \"on life support\"",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVHIyMlF1Rk1fUk9rY3JiNVh0LUVBUlhlX0dtQk5OSjUwcVFPVXJUbWdSRkpwa25iZ1lRSVcxbFNraGM2RWFsdXJJVEhHeTBPU21WckJFOFdSWHVMZ21pdS1Sc1NiWHZ5TXExWnN2Vy16eUVwcUNsdnZpWUtveUg4eVBrMnNBcjg3QU5sbHY1b2tza21pQkg00gGcAUFVX3lxTE1TT2tpV1BpUTNLMF8tUWMzcnBSWXJaclBnNlhmU2dHSXNpUmxvTzJYSmQzbWRSWDZfM1ZTMUlJdURyVzREb2YwUEFrdWJwUlViSTNDeTU3ZFBrQTNSNlZGWThWcVZWNWZZdnI0b3JOSzdWTzF6SmpjUXRhU3U0REpwRlJvS05aZ1pCWFJER3VyRFNzUGZSWWhkLVBiQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 12, 2026",
-      "text": "Live updates: Trump says ceasefire with Iran on ‘massive life support’ after he rejects Tehran’s proposal",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 12, 2026",
-      "text": "U.S. Intelligence Shows Iran Retains Substantial Missile Capabilities",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT0hLa3NTZE1HbHhqTE5DVGEyTjlodjdDOGpQWFU5QW9QTnVMcUdId3BHaXRUT01GZlNxUUx5aGN2WTBFamNmOUtwYVdPVXFUSWhYcE41aWhtYnU5MXY5QjVXaVo5b0VWdkFlVzloODRnY3FUM1hrUy1WcXE5NkktbXN3MnRYN3R1?oc=5",
+      "text": "Exclusive: Saudi Arabia launched covert attacks on Iran as regional war widened, sources say",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDVqZjdxVDZDeDdnNjd1RndvV0NwNTF4U1Y2cFpVRFMyMzI2WG9mQVFUTnM4YlI3NmVRcGozODRLUUhGbU5wVURWU2dBa0hvNFBxQUc5T0hOUmJENHNBWDg0ZTR2ZWZham5IYVJOY3djZmJia0J6cFg5OWV3ZzluenhIRkVXeW1HRWhYREh0Q181NG1Ncl9aV3FPZU8yQVVTT1VTblpjVjE4bW94bWhVWXpWblpMTDdGeEJVZkxzaW1ZRFU?oc=5",
       "hot": false
     },
     {
       "date": "May 11, 2026",
-      "text": "Where Are The Carriers As Of May 11, 2026: 20 Warships Enforce Iran Blockade",
-      "source": "The War Zone",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOem95a2lFV3JZUTdFN25vRDVIekE0VWpJbnlLOTVJbHItdWtrdUZqMHNRVFdvR2ZNcWMwTUNFRUtUYXFGdEd0RWlWSDlrNHpjNEJFWlZRa01DeklCOTVRVnd0aUFZelh1ODh1RWdQdnhBVXFXV2RxLV9WcjlDZ1FzMUlfeEszakt2NjZtbUNyM1lteWlPVms4OEFPY2k3b2R3YU1qNTg3aDE2Z3ZCSGhQZUE1c29rdzVORjlZb2pn?oc=5",
+      "text": "US ballistic missile submarine appears in Mediterranean as tensions rise in Middle East",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0tqdXdZbWV1MmMyRVQ5MlFxYzcxZGNpT0ExV3dVZlRnWXZMVl9ZaVZqaVlXTGtLUWRNV0hZOUl3bjdObTRxSlRBLV90S3A4Nk1ENzY3UkZKUW1zM1g0a0RucGFuZWYxeURhclotSE5BX1VIMFZzTm10bERIY0NTSk9zNHJGcERzU0xvaFg5ckE1ZVhEb3JxSy1xVnUySkVnTGxVMjRHZGxSNnFiRHlHNXJB?oc=5",
       "hot": false
     },
     {
-      "date": "May 09, 2026",
-      "text": "Possible oil spill seen near Iran’s Kharg Island terminal, report says",
-      "source": "NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2luQ1RLY0NNb2k5djZCWEtqM1AwRldvR21hVXlReUM4MlFJX1drTTRhY1dmbU5qUzdjcWF1bDlNVmhROUlYY0Vkc1R3LU5jVEY0MGRMcG1zOE1JR0F5Qkp6VGxkLTZfbEFJaGZ6UEFsakpBcDhrYXJFc2FZSUtRRGEwZHl6V1huRXlweXFrR1pfU0pUdHlkX3dXOUdURjg1Qk5NVnB0UdIBrAFBVV95cUxNMDdYQ2hlRVJxYnhZMFRaS3Q5N2EzU3d3RWt2SHpvREF4TnpZUHJnM1VDMm5iSzNaZ1NnMTFSSUw3ZTJGeVVGTDN3cWhJNF91NXJoZXhBT1NFRFRrX1ZHYXRfSGhHVFhhVlhXdlRwSVFUajhLUHZfRXhCa0U1cHh6dFNIYjFWTVFhQ3dVV1hiUlR6cEcwUDFnMldIeVVQdGs0ZGt5R0hLZERzMTJ2?oc=5",
+      "date": "May 11, 2026",
+      "text": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZFUyUjJjWGlOcUVZUTNGbVFSTnBqa2NXdGk2cVB0eUE1bGRLNlFRNVlMYUMzaF9OXzRFVU92Rl9yVVhBcEwxZVdhQWhvYXlIRVk0dk5xSXp2TXJlUm1jOUpPQ2pLMXpCTTNWeUdMY2pwcXcyT1pjbmF3VzFmMU5relZ3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 11, 2026",
+      "text": "Kharg Island | Oil Terminal, Attack, Significance, Map, Persian Gulf, & Iran",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yMWR4U3FKUURhSmZmcHBIZGdBV0Z5VGczOUQ0aFcwZzlPTjQwTVZWR2p6Y0JxdXp2a1R5eEJucHVtOGZtd29iRk9XNVEyS0JhTjE3WjlScVA?oc=5",
       "hot": false
     },
     {

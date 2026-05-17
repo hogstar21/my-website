@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "May 17, 2026",
+      "text": "Iran war live: Tehran plans tolls in Hormuz; Trump warns of ‘very bad time’",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 17, 2026",
+      "text": "Operation Epic Fury 2.0: US and Israel Weigh Kharg Island Strike, Uranium Seizure Mission in Iran Amid War Fears",
+      "source": "Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSXl2bXVXZjRTYzhOM2FjQURfZDV4X0lRQmFpR2lxY21VYndnVzFRLUJKMXVJLUFKQkZESlR1R29XLTN6NHpYWURQOG1SdWpRM09YSWV0X0V2aFJqMEVPaUUzcm1icXVOdU5pLUpHdDExcnlSMHN0aGhucTlvSTRaQmp2TkpGZFVfTHVzdERNS1piUXgyRnJJeEJSdHFnN3haN3pCSW9uQnhEWUpJVzRXWE9iWVFpMjQ?oc=5",
+      "hot": false
+    },
+    {
       "date": "May 16, 2026",
       "text": "USS Gerald R. Ford Comes Home",
       "source": "USNI News",
@@ -43,24 +57,10 @@
       "hot": false
     },
     {
-      "date": "May 16, 2026",
-      "text": "Top Commander Dismisses Reports of Civilian Deaths in Iran",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94S3dsa3NyYlFUVmNNUEM3b0QtOHJyZ0hkaHZsVmRGTUo5YVhTeFNYTzUzaHhWUzZ5emZoeW15WE5MSmtEMXNSMjlfc0xCUi1oX3hUcWFyU1BhRlZMUW0wSzlUNA?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 15, 2026",
-      "text": "Middle East Conflict Costs Could Prevent Flow of Sailors to A-Schools, Reenlistment Bonuses Without Supplemental, Says CNO",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMTFRNkxOcXlyam92WG5tZmFTVDdhQ05sQlJ2UjF5a1QzUkV2OUZrWnlqSTVoZzVhcGZ0TkJxczZYSnhYRmJ4UFliVXNSLWJwNEJWX2p6cndud0hNQUF4ZXlfbVBITDJKUl9EWDRXckMxLVhTNWFxNU5UVmloTXdlejAyMUxEbGxRaFJrSTVuVEczSkpGUUFKNkpzbDJmWXVFWmdTamhXeXM2NUpJRzgyM3RLUnAtamEwQnhXS3dNdWhSQVdKSUtndDNOY0pXR2Q1TnFHU0JBSzlSdWFfU0NmVE9SWG5sclhR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 15, 2026",
-      "text": "Oil Prices Rise as Trump-Xi Summit Yields No Clear Breakthroughs on Iran War",
+      "text": "Back From China, Trump Faces Decision on Whether to Resume Strikes on Iran",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuUWF2S1ZwSmNqTEZHRE5XQ1hYWjBGQ0FjbnhVcldGODBHUXRlQ0RCaEU1UDNQUExvaGhBdW5hc2pfc01SSmxQbG5jbGJ2NllhQ1g2Yk16dTRkd0d4c0hXaHppUkRpMHQxRlVPZ1NfM1FQOWRvY2xQdmFIZDFEdkU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzRmtDckNTcWFyTER5RmVXWUd4TFdXLVBLLU00NnYyZFByNTgwcGVCcjFfS2ZSRDBOR2tpeFBpM2ljaUlTdGtNNnMzRE4xSHFzdjBrbGgtTDZKTzFuOWRfaEpkYnkzdXRwZjFKRy1ZMA?oc=5",
       "hot": false
     },
     {
@@ -72,30 +72,30 @@
     },
     {
       "date": "May 14, 2026",
+      "text": "Iran Update Special Report, May 13, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 14, 2026",
       "text": "San Diego warship preps for battle in Middle East as California sailors ready for deployment",
       "source": "New York Post",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ1ctYlRlUldHYTdBajdZc3NheWk3ZXFPa0NMUWJ1bzN0UVdmN19rTTRiNFZUa1doaVRSRFhUX2c4LTRqN3ViM2NzTVNMQ3M3amd2MDA4M1FpZXVUMGFkanlaVGlnOGR3SXdScDV4bm93V3I3cFpsUHozdENrbjQ4bi1iOVNRblVVckVjSnpiZVFGdw?oc=5",
       "hot": false
     },
     {
+      "date": "May 14, 2026",
+      "text": "Iran’s Plan to Charge for Strait of Hormuz Transits Could Spread to Other Regions, Experts Warn",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaHNlXzZnZEpuMnJnWUNXZjdibG9qLWVBQXFhVTZkendoVGZRY3prdEZwOUx1WDJKRHExTk1TUUY2cmJuQzBmZm9oUHg0d2t4YTlpclByb08wWjlCVnkyZ1JERWptWWdLeHI4UDN5Z3drX3VycHdOQzhwMGZ1azdPRzNxaloxZzdya1FMSGdYVGYzc1hQejZBdUEwajlyQmplQmlLUVV0UzJOZEhpdFhnaWlMRTc0blpQSjNqRzVEaDh5Rlpq?oc=5",
+      "hot": false
+    },
+    {
       "date": "May 13, 2026",
-      "text": "Exclusive: Saudi Arabia launched covert attacks on Iran as regional war widened, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDVqZjdxVDZDeDdnNjd1RndvV0NwNTF4U1Y2cFpVRFMyMzI2WG9mQVFUTnM4YlI3NmVRcGozODRLUUhGbU5wVURWU2dBa0hvNFBxQUc5T0hOUmJENHNBWDg0ZTR2ZWZham5IYVJOY3djZmJia0J6cFg5OWV3ZzluenhIRkVXeW1HRWhYREh0Q181NG1Ncl9aV3FPZU8yQVVTT1VTblpjVjE4bW94bWhVWXpWblpMTDdGeEJVZkxzaW1ZRFU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 12, 2026",
-      "text": "U.S. Intelligence Shows Iran Retains Substantial Missile Capabilities",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT0hLa3NTZE1HbHhqTE5DVGEyTjlodjdDOGpQWFU5QW9QTnVMcUdId3BHaXRUT01GZlNxUUx5aGN2WTBFamNmOUtwYVdPVXFUSWhYcE41aWhtYnU5MXY5QjVXaVo5b0VWdkFlVzloODRnY3FUM1hrUy1WcXE5NkktbXN3MnRYN3R1?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 11, 2026",
-      "text": "Trump proposes US military action on Iran's Kharg Island amid rising tensions",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNQ0l0N3phY0RldUxQYlNtNVlXRkJuczNnMWFPd3VuTXRHRHQwOWpFTUhaeEl2VmpSZnhqa3lyWDVQdG45Tm5jVjVDbHJsZWc0VGFQVGdORmxJWGlsUFBDMkEtcWgzNXBUODhIS2MtWXFyOUNwWTdkRk96SFR0VE0yN0lIMkY3SUhoM3ZzNWo3RGpYcm9RX1NSTjItVWxpdXNRdkNrNjVZWHVpV29iZlRBUTNJa1Rjc3dEU0xnbHdLLWJVUWVWblhrbXlDVWpmWXROWDZaMFdybVd5SXh0MWlQU181TG9MRWhFaHV0U3h6ZUhOOVNMX3dOcThLdGFEd29IZF8wM04zclJCQ0NhUkU2Yk5rS0VsQlRhNjZ1NUZvNGZoWnFvMEV0b2tqVnJVZ0lhNW1DWHVyVVJTS1BVYzRkY1Y4b3FuVThhdGFKQjMyTDJualdfMjluX2J0X1R4YzBvN2w4SzdTemdrbDA?oc=5",
+      "text": "Saudi Arabia launched secret attacks on Iran during Operation Epic Fury",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42d2ZGamZZUHN0UWtVbWppUFZ3cDNSTjluaUVKajV4ZWo4Q2RDLU51cmN0cXJOWHlfRGhaOVFEelZrQ2NKaWtFMjhJYzdpN25JU3JjRlFnNFdEeVhEejhkTGtaMUVCR3VaekE?oc=5",
       "hot": false
     },
     {

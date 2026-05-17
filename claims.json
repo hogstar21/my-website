@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 17, 2026",
+      "text": "Iran eyes a new source of power deep beneath the Strait of Hormuz",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkUVpfRVJHX3lrTDJpOEJCQkJHYW5wYVM4SmVUcTNWSE5Wb1ZfUWZhdHZjU1hnZU52RmtBbkt4YXE1Q2tPbGtKX0I3Si1POFZOcUpRa1lobDBZUzRDUllwclJiQWNRaHNJc0U1RlVwN19rS2JqcWlwVUNIcktHQXM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 17, 2026",
+      "text": "UAE on high alert after Iran warning as US strikes Kharg Island",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVHdFaDVoUmpVMkJBcC04SXMxR1E3SjhFbERKa19yeXpZd0JoN3VTX1RWZXZQWWFCR0x3dFBnTkE3ZDZUdmpIVkJZSXlaMnVjVGRpYmJFd0dPclFSeDJJVGVKSkF4eE95MXdNd3hzTHFra2NSLVkwbEliSTVGZ2xKcnFDRkpsWXQ1a0dXQ2tual9UZFk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 17, 2026",
       "text": "Iran war live: Tehran plans tolls in Hormuz; Trump warns of ‘very bad time’",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?oc=5",
@@ -58,16 +72,9 @@
     },
     {
       "date": "May 15, 2026",
-      "text": "Back From China, Trump Faces Decision on Whether to Resume Strikes on Iran",
+      "text": "Oil Prices Rise as Trump-Xi Summit Yields No Clear Breakthroughs on Iran War",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzRmtDckNTcWFyTER5RmVXWUd4TFdXLVBLLU00NnYyZFByNTgwcGVCcjFfS2ZSRDBOR2tpeFBpM2ljaUlTdGtNNnMzRE4xSHFzdjBrbGgtTDZKTzFuOWRfaEpkYnkzdXRwZjFKRy1ZMA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 14, 2026",
-      "text": "When will the Iran war end? The US can’t even decide when it began | Lawrence Douglas",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeHRDRWgxeUFpS1JfNHE4LVAyNGNxMEpuVVBISE1kY1h3RThxblkteTBzd3FZdEplQ0R4b0xfRS13aDUtU3BpWFcwRkRGR1RYX3g5Y053T3Zyd2xKVHJhUG4xWmE1RjRfa2NJaGtrTjZJbDZyZzlkem9vWjhmdW1JYWxrb05vVndHcEE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuUWF2S1ZwSmNqTEZHRE5XQ1hYWjBGQ0FjbnhVcldGODBHUXRlQ0RCaEU1UDNQUExvaGhBdW5hc2pfc01SSmxQbG5jbGJ2NllhQ1g2Yk16dTRkd0d4c0hXaHppUkRpMHQxRlVPZ1NfM1FQOWRvY2xQdmFIZDFEdkU?oc=5",
       "hot": false
     },
     {
@@ -85,17 +92,10 @@
       "hot": false
     },
     {
-      "date": "May 14, 2026",
-      "text": "Iran’s Plan to Charge for Strait of Hormuz Transits Could Spread to Other Regions, Experts Warn",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaHNlXzZnZEpuMnJnWUNXZjdibG9qLWVBQXFhVTZkendoVGZRY3prdEZwOUx1WDJKRHExTk1TUUY2cmJuQzBmZm9oUHg0d2t4YTlpclByb08wWjlCVnkyZ1JERWptWWdLeHI4UDN5Z3drX3VycHdOQzhwMGZ1azdPRzNxaloxZzdya1FMSGdYVGYzc1hQejZBdUEwajlyQmplQmlLUVV0UzJOZEhpdFhnaWlMRTc0blpQSjNqRzVEaDh5Rlpq?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 13, 2026",
-      "text": "Saudi Arabia launched secret attacks on Iran during Operation Epic Fury",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42d2ZGamZZUHN0UWtVbWppUFZ3cDNSTjluaUVKajV4ZWo4Q2RDLU51cmN0cXJOWHlfRGhaOVFEelZrQ2NKaWtFMjhJYzdpN25JU3JjRlFnNFdEeVhEejhkTGtaMUVCR3VaekE?oc=5",
+      "date": "May 11, 2026",
+      "text": "Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?oc=5",
       "hot": false
     },
     {

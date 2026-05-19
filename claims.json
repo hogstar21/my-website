@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "May 19, 2026",
+      "text": "Trump says US may strike Iran again but that Tehran wants deal",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSF9rZVdjR0RKS2w2VnI2M2dWWXZQQ21vck5sX1BRSGs0UVc0YWpTbXEzUEdXVGN6dmRLaTRMQlBERENZQTlUZnl5ZFVxLUNmd0N6dzk0bWlmaDlmcFlER0FDeFhWRDBUV29ONXBVb0xZblZIWE5VcW04Y3FMdGZUY1dHY3NVa2lzLWRyVGhHSUwwMElGQUFJLTEzTGtaeGlheUlqMjQtNTVwOHBzTjNOX2RfcF9reVFuU2FiSmVLcFRGbGRRZmk5bDdWdw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 19, 2026",
+      "text": "Oil ticks lower as investors weigh mixed signals from Trump on whether U.S. will resume Iran war",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd293dEhsWHdSdWdlRDFKdGtfVF8weEJ4Qkl4TlNuSnpNRVdYVUxDcFpRRmtTTW9COEJwSms3NzVzRXUwb1ljTXVEdUQ5aDNfVHZmMFh1TVU3TXpTWlpLbjF6cDFPNHJ3QjY5VjFKcHhheXQwMzltSzNmTi1iTnpEaXZOTUhKNXBpOVBhZnVLenB3czFJNmfSAZsBQVVfeXFMTmh4RDNlMDB5dEJIMHBjSVVnRXFFdzlJWmFheG01MnNkMVhjajNKX0kyRFB3YXlmY1JJTVZxeEJZSjBmVGdVRDQ2YkwtWmg4WjZocFlXQi1ta1JHT3FzSEpkMXpSQ0Q2SldJeF9mSlphLV9CVGE3Qmx4WG5oQmw0N2JDVjdfVFdVS080cURsbWF6TzVLMmZYdmxLdUk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 19, 2026",
+      "text": "UAE on high alert after Iran warning as US strikes Kharg Island",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVHdFaDVoUmpVMkJBcC04SXMxR1E3SjhFbERKa19yeXpZd0JoN3VTX1RWZXZQWWFCR0x3dFBnTkE3ZDZUdmpIVkJZSXlaMnVjVGRpYmJFd0dPclFSeDJJVGVKSkF4eE95MXdNd3hzTHFra2NSLVkwbEliSTVGZ2xKcnFDRkpsWXQ1a0dXQ2tual9UZFk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 19, 2026",
       "text": "A ship’s crew risked the Strait of Hormuz. They met with a hail of bullets.",
       "source": "The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZG1KSmc0bldNT0RxMW51czNKR294V25tRDZ6VUVCb09vUWRzUExMa0UxcGF6c3puSXAxRjdqQ1A2NVBKbXlNNmRBWnhmNDRNdEZnTUNHUDRxem5yc1JycUpJRmU0WncyQVhZZ0UwNHN5OTNKT2ZRcFV2eXVScEFVYzQzY2pyXzRLQno5WGp3blhaeUtVeE9jaDBnbnNoLUE?oc=5",
@@ -58,23 +79,9 @@
     },
     {
       "date": "May 18, 2026",
-      "text": "Oil price slumps as Trump says he called off Iran attacks",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CZTFpdHFrYklXZGo5N3lvc09jN3phUGdlOHdtdWctSXVybzdiLWlVNXV0a2poRW9SRnZLRnFOVXExVDlQd0R5OFBGZGxHY0R1ZElsbmZ3WXY0UQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 18, 2026",
-      "text": "Trump calls off scheduled attack on Iran amid \"serious negotiations\" toward peace deal",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY1lRcmJNWlBDcFFrRXRMR2xSUVZpQkdZV1R3NURUb3lVdjlDM2ZYQ0hVSFJjemk0TE1wNVdJaUNLX3RkQ3ZTREIxTTY2c2I2b3NNSElKSnRRTzdVa2h5Q25tUVN2dXZUNFA1UFRGcF9MZ2VPOFdnRG1MTHJrZUo1QnB3R3F1VE5rcVBEZ1c4WldSVDNXYXlBMHVKeU96emk1LWpUeHNTRXLSAa4BQVVfeXFMTnZWSTFzUHdlRmo2T0xlQnJvT1V6SlRGQ1RmR1Z1S2VQNDVtOG44eGFta1FEUzg1czFfdE1kdW1aVFhuRmhGR0dhTVVmb3V1NUZTa0pqdmFZQnZfSmZ6bFdNbU9zRGdxU2VGOE1sdF9WSTF6QjlyQkpld1VQelgwejd2S1V0d1JVMVdiZ1MwYXVmLTdubi1od2pTVm1kbTlfOUF6RnNFTHh4c2ZkZk9R?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 18, 2026",
-      "text": "Iran Starts Bitcoin-Backed Shipping Insurance for Hormuz Strait",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzZkbzBoU1ZBcl9fMk1qMjZaVmZsc1NyVDdaV0lROEtkRU9uZm0xQXpMVkdSeVJSX01Ha1lFYXhtd3VkY3BTVlV3cDhaQV9sWUEyTE5ZM1Jpb3lQMldQSEUzSnprTW9sYXRaU1Z6eXlOMFZNaEViVmN6MXF3bHdYQTNhVW94Zmp3Zm5ZQkNfdDlqaWFieUxUdjFTV1Frb1hvZU0wQTFpSGR1Zk1sOVpxVWJCT2c?oc=5",
+      "text": "Marine commandant acknowledges Indo-Pacific gap after Middle East deployment",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHF4SmFKNV9Dc01GWDhHSEYtMnBSUGZOZVFabmNuMWFQamprZm1jcDdPaFpTcEJhQ2EwNmNOTThFRUxqZHQ0RkVyekhVQ0x2NkFFeGd5ejRZNWRZbEh5X1RCSFRZeFdDYmJwaVpaUk14TV9rclE0MFZJTVhPTWtyYjdWbU9XVEktd2ZFVGlXdHhhd1NWaE5UNEs4OG9iQ25IUjBYXw?oc=5",
       "hot": false
     },
     {
@@ -82,13 +89,6 @@
       "text": "Tracking US military assets in the Iran war",
       "source": "Atlantic Council",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeG1rTGw4QzQwOUpxbkIzWHZKTFBWc3VwTzBGTWJsaWFoOEtwRzlseVhMY1NMWkxWWmd4S0U1N2FUem5QWEN6b2FHYkdWMURvMXhzMDJLZk1Sc1oxbEFrUl9fSkpGdWwxN2F3Z2dlSmg3aWhvM3J2ZkpNZFp5a0VLV25ITkhNVDAwVG5wU2pZV3BSZFNmN25yWHhyUER5ZklLamF6clE3RmhyVlFXOXA5UVg1RlFOODY3ekVldQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 15, 2026",
-      "text": "US hits military targets on Kharg Island - reports",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPblNST0VwcTJQTmREOFljbmE4Q0RMRVpBYXNMbWNiRFJqbGpESnF0dTNTVS1Nc1VzdkRpNFNRTmpfYTNBRXVOWE94UDNjOWsxTEhtSEZ2TFBZZ0N5WnVra28xeDdTX0QySHIybDlKWmo3X2lkUl9hcnJ2S2xXTmZaRWRsUUM4Q09kdzlHRDM2b3dNcGNraThRYUQ3b29TRW1iQjctbFd2UGh1Y2dvSmpIdDJjcE1QVGtFMW1DVzNYbw?oc=5",
       "hot": false
     },
     {

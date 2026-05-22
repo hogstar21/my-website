@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "May 22, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91RGltZFptZzA4SWJCY2h5RWxIWVdkN0U4dzFidmlfS3ZRU1BVU29VWHVacG80M3NKZ2NvMnVVOFZkQlFqZDVzbzMwbXNsM2h2LTk4SDF4UFgyR2VyUzM5cTNtNWlaZmdzQm5yMWxRZVVNMEJSVXlYMlQwLTdGc0E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 22, 2026",
+      "text": "Iran and Oman in Talks Over Strait of Hormuz Ship Payment System",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGRCd0Yxdm1hZ2YyU3V5UTFFNjItTE9hQjJjVUo2dU9Kb1J4WUg5WmhUNHpTS0RUdlJ2LTJkakVMYzlHQVVRVDM4YTFBeDNkLTZ4U3c5bzA1UDh6U0FfRi1JMWpVYVdWakRpNDk3SF9qd040NEZzWEd1RUh0eDdDSnEyTmstZ0FwU0wxeA?oc=5",
+      "hot": false
+    },
+    {
       "date": "May 21, 2026",
       "text": "IRAN’S “CROWN JEWEL” – Kharg Island, Struck by US, is Key Hub for Iran Oil Exports",
       "source": "EnergyNow.com",
@@ -50,24 +64,10 @@
       "hot": false
     },
     {
-      "date": "May 21, 2026",
-      "text": "Oil prices pull back as investors hope for U.S.-Iran deal",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa2pJT0hEZHJweHJBTWl6cEY3UXNvVVZtRWxscERzNXpiZTM0a2x3M2wxbTAwb1RsY0h3QTFQZnJwaTJZa0tZQzBqbTl5M29Yd1pNN2V2c29WOHNTR2NIMFhUeGxDV2RnaGF6cVVna0xHRXhWUEZmaTdpR1VtS0dUMzJMUXVDWGRp0gGOAUFVX3lxTFBILWJrMTNKMlM0dEl6WDFVLWI4VXpGTGtBdGppTVpSQkVmekRMRkEwa2c5T0pWXzVzVFZpWWxFOGItaUdhRmdjdXZwT1l1NU9kcmxvLVgtRnFpVDg2MVZCWEExcGdJclVMVzd3cURpLV84R1hKV2dwMi0tbEtiRG9SVHV0M3ZQeG5LZE45akE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 21, 2026",
-      "text": "Exclusive: Supreme Leader says enriched uranium must stay in Iran, Iranian sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR2FnRzlWa0JneHMzSWNSa2NPeFh6UTdEMnpDbFpLOGNubnRNaWZWOFhKOTBrd0Y0ZkRHYUVIVjcyMmVVZHhBYzFPaXhxa0NaUWZXUzBzVWhybWZXbVlITjB5Z1dQRGZiQ011ZzlIVy1pRHZYTGdoSlFvS0pKVEtjc29LZHYySkstYlprRGxDUTlhaXFncEVmWkJCc0YzMTRoWDM4S1EwN1gwTll2RXZ0akhNYzlSWWc2MzQ5S0dwa2s2bFE4?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 21, 2026",
-      "text": "Iran war live: Tehran reviews US peace proposal as fear of war rises",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPekMyeGcxWEVrNG5LQnpVdW5jdU9hcTFMUTFlRFRuU2VNZFZZbUZHbEpkY1ZxbUtjSGgyeTh2VnY1Y1dZNENFanNBYzhNNERpWF8tOXJCS1pmbHJOcFBoVl9tbDVlM3RGUFVsdDc4aXFJOTdLZXpRclFJTGlDeUdZel9CWDRHaE5GcEFGQ2hFb0hEQVNpQ3Q0YndnbHFtdHBBRFMzOEtUajhXd0c5U3Zfdm9wdlJ1VV8wbDZn0gHAAUFVX3lxTFBVM1ZlbXNDVU1IVE45TWxiaXNZTDJGaTZNa3J6WWRiQWpnaVVudFdDOVk4VHkybjYwQ241QXBoaTNhSzhHT3pZNmlJVGNoZ2FVcDFuOERYbklaLXpwbVVlbDdxWnJDSmx6VE1NLVZ2WXBtYjNvRi05dXpUUmFIdGxyR1JqcGYwdHZsS19udG5KS3ZXWU9kUUp0c1B4bkx1Mmt3TU1FWlo0dERWb1FwYnBZbldKaU5tdEJNVkJPazFVTQ?oc=5",
+      "date": "May 20, 2026",
+      "text": "Iran Update Special Report, May 20, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS0h6NHVtb3RTRUFEVmFPM2ctZ25DVVNGYV9nRi1veWdNRF9LbzBDYlZpdHNaWUxHYlRWZWFRUnp0dVFDNzhia0J5c3FCQ2hhS2ZLc3FRZ1pCS09OR1FYZXpPdzVtRXZsaVd6NnRTWHF2MS05dEprMkNjazRuNkw0WUlRcDJsbzdpSHZEeDlqbF9qeXM?oc=5",
       "hot": false
     },
     {
@@ -82,13 +82,6 @@
       "text": "Another US Navy Warship Is Preparing for Possible Middle East Deployment",
       "source": "The National Interest",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeWw4TzdKWHNiNHZoS3luNWhHai1zSUZiUHV2S3pLaEVhY1FqZGFseVNYeGNqclA5czBlZVdhY2V2MVFUdnJsR3dZR1pRN1hBcmYwcTYyMEVmMFpoRnVmaXVFWjV5SHNmRm8wVDB5NGFSU0ZocGJESGxmeDlWaXJBMmwwOGxLc0VGNEhqb2ZjQ21mQngyM0pBNWJWZWhIMWdUMTZQUk84YmZqNFdmRUN0djhaWmZtTVFxTHc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 19, 2026",
-      "text": "Early War Goal Was to Install Hard-Line Former President as Iran’s Leader",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOER1VGJBUkJjdFdzOGNlQldHa2cxOUlzODdJRGtGNHBoWHM0NDE3Zk8zQU51SHk3Y01BTGhGakxxSXFQMWNFakpTRnlBQ3BNQWx5VmR4TlJvRjFrZV9fOTBKT24wVHJLa2lCVmt1Vkp6MjFvMlZIZnFfdWdKakZuNzVwQ0x1Y2RsekZ5OTJn?oc=5",
       "hot": false
     },
     {
@@ -110,6 +103,13 @@
       "text": "What’s Holding the Houthis Back in Bab al-Mandeb?",
       "source": "American Security Project",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbFpETTRyaWxoYkhQMmJkMG1oc3JsVXBRNlo2NXc2RnF6bWhGbzRmSHRJVU9NaktkUUhGT2hNUmQ0QWpqeU9DZ1l2c292X2lYYjNJQUxNazhjU2NrUnhaSWpuamdndzhzZW12TjVLV1JFZjRvZHpqSnJCX3ozRHlFaV9mTXZUaDdQQklneGgzVzJndw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 01, 2026",
+      "text": "The Folly of Seizing Kharg Island",
+      "source": "War on the Rocks",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iOVBLUm5kdUlIOG5zZkJwcmlPQjBCdWswQnlLZFVkRkNrbEFWWUlQUTVPY0NIaWV3SUJvVnY0RFhfem5lalJwVVFJY3lKSGdmQnlZcjNrWHBVX0hFaFU1dFdlYWxmUmVGZEQydA?oc=5",
       "hot": false
     }
   ],

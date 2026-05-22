@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 22, 2026",
+      "text": "U.S. prepares for new military strikes against Iran",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 22, 2026",
+      "text": "Pakistan Army Chief Arrives In Tehran For Latest Peace Push",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 22, 2026",
       "text": "Iran war live: Tehran says US uranium handover demand will kill the deal",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?oc=5",
@@ -58,30 +72,16 @@
     },
     {
       "date": "May 21, 2026",
+      "text": "Iran war updates: Tehran accuses US of ‘overt and covert’ moves for attack",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 21, 2026",
       "text": "Oil prices fall as investors hope for U.S.-Iran deal",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa2pJT0hEZHJweHJBTWl6cEY3UXNvVVZtRWxscERzNXpiZTM0a2x3M2wxbTAwb1RsY0h3QTFQZnJwaTJZa0tZQzBqbTl5M29Yd1pNN2V2c29WOHNTR2NIMFhUeGxDV2RnaGF6cVVna0xHRXhWUEZmaTdpR1VtS0dUMzJMUXVDWGRp0gGOAUFVX3lxTFBILWJrMTNKMlM0dEl6WDFVLWI4VXpGTGtBdGppTVpSQkVmekRMRkEwa2c5T0pWXzVzVFZpWWxFOGItaUdhRmdjdXZwT1l1NU9kcmxvLVgtRnFpVDg2MVZCWEExcGdJclVMVzd3cURpLV84R1hKV2dwMi0tbEtiRG9SVHV0M3ZQeG5LZE45akE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 21, 2026",
-      "text": "Exclusive: Supreme Leader says enriched uranium must stay in Iran, Iranian sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR2FnRzlWa0JneHMzSWNSa2NPeFh6UTdEMnpDbFpLOGNubnRNaWZWOFhKOTBrd0Y0ZkRHYUVIVjcyMmVVZHhBYzFPaXhxa0NaUWZXUzBzVWhybWZXbVlITjB5Z1dQRGZiQ011ZzlIVy1pRHZYTGdoSlFvS0pKVEtjc29LZHYySkstYlprRGxDUTlhaXFncEVmWkJCc0YzMTRoWDM4S1EwN1gwTll2RXZ0akhNYzlSWWc2MzQ5S0dwa2s2bFE4?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 21, 2026",
-      "text": "IRAN’S “CROWN JEWEL” – Kharg Island, Struck by US, is Key Hub for Iran Oil Exports",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wUjF2azFyVktMZHQ0bVF5YmpsaWh3b1BwTkNhY25oVkFJaU5WUGYzYkw5enBOQUtsV09wZEViaExEeW5jSEhtd2JBeXJrdVEyYllhLU9YLXJlRU9WcV9nZFZHMGRacEFaOFZEQ2NnMy1FdEl1RlNsM2VNZw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 20, 2026",
-      "text": "Iran Update Special Report, May 20, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS0h6NHVtb3RTRUFEVmFPM2ctZ25DVVNGYV9nRi1veWdNRF9LbzBDYlZpdHNaWUxHYlRWZWFRUnp0dVFDNzhia0J5c3FCQ2hhS2ZLc3FRZ1pCS09OR1FYZXpPdzVtRXZsaVd6NnRTWHF2MS05dEprMkNjazRuNkw0WUlRcDJsbzdpSHZEeDlqbF9qeXM?oc=5",
       "hot": false
     },
     {

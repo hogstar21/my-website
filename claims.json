@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 24, 2026",
+      "text": "The power struggle in the world’s narrow seas",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5VGtlem1sV0phcGdiUFVyeU1hczJfenN5Mm9JMXQ2RFRMYnlnZ3MxSlN3dmc5SUlvWHlJX1FWYWhxUUlORTVpeWl6TlR4RE0?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 24, 2026",
+      "text": "Trump, after signaling deal was imminent, says he will not ‘rush’ deal with Iran",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS3lOUkx4b0RSdEltYlJjdldaOVNQYm5wRVpmYW0yX0Q0MHRUN0dFc0ZXTE82aHI2T3ZiM1RUNTRSUGpYZ0JFV04yaG0xbFNCRlppM05TOWE2NWhwQkFoRThvOVplSENtVU9MZDc1Ym1VY2VSRmlsMU42dzlna2p0MWxlNWljdw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 24, 2026",
       "text": "Iran War Live Updates: U.S. and Iran Agree in Principle to Reopen Strait of Hormuz, U.S. Official Says",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44WGtYZU03RHcwd1NxdmQyeHVZUnpQaXk3cDl4Vzd2ZlNjV2V5S2g2RlI1aHQ2VlFuTTZMNmdzS1NXM3gzbkYwTFNsaHVGZTRVZVlkMjlFSVo0YzcwUm5lOTNtZUJlcXlJR2VKag?oc=5",
@@ -64,24 +78,10 @@
       "hot": false
     },
     {
-      "date": "May 23, 2026",
-      "text": "Trump says Iran deal reopening Strait of Hormuz 'largely negotiated,' will be announced soon",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GekFKeFgteThEeDR5RXM5d1lBaE9aYm9wdnk2LXY5RUFOTXl6LS1tWHdDLWNhNEc5bW5lUmM3X1VHOTItbldiallXdm5UWTJFQ0ZGVXRvcC1qWUZZWkF4cDFfekTSAWpBVV95cUxNR2JTUFdkSGpMenRzU2pxNm5iT0UyWTJyOFJQQ3E5bGwxUGxzZVNBY2NpQWw5OFRfdlJ6dDltN053empCTjFIWVJDQjhDSHJ2b1ZTdFdRTlZTdFQwS0w2a1FtZDVzWWFrN3V3?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 23, 2026",
-      "text": "Even if the Iran war ended today, US fuel prices aren’t likely to normalize this year",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb1ZQUFZfU1ZKSXMzelBOdV9QTjVkZkZWaEdjdHVTdTlGLTBEUkc5RVpmX1VEY1AyUi1oWW53LU1aa1lGeU5CSWJsVVZWNFRHRUhDcS1SVVBSa09YZ1UxaXpsNlVvc2VZOUJzS1BBY1pxVVRfSmZBUjdIWW5obE5zUFJRVjJhZDQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 23, 2026",
-      "text": "Iran Update Special Report, May 23, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdzhkTVpmRUdTR2hoUFNpa05ydXBDcTRFdDN1X0pzV05lRndrU2JxS2o3Nk1VaHVIZUlpT0lkMUhMXzEwaVhJQmszQ1AxWkdsVEpoY21FNUxod3BFWC1hTzZWRHBTLU1fdFNWS3oxejZ6UnVKUGdheGx1ZDRmNnJsM2tUemlMSWtmT0U0ckdENWVxT0k?oc=5",
+      "date": "May 22, 2026",
+      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {
@@ -92,10 +92,10 @@
       "hot": false
     },
     {
-      "date": "May 12, 2026",
-      "text": "The Iran Strikes, Explained: How We Got Here and What It Means",
-      "source": "American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "date": "May 11, 2026",
+      "text": "Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?oc=5",
       "hot": false
     },
     {

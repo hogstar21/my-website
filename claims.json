@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 26, 2026",
+      "text": "Live updates: Iran war news; US targets Iranian missile launch sites and boats in ‘self-defense’ strikes",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 26, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93ZkNxX040WkN5MmE2dGVFbkpwZ01jVTViYWIzb2pYN1ppb01xbnFyQkFjTS1hWlNfeW5GUVdNQ3lDVURHMDlucVVxM3M3Z283SlA4UmNxQlJjUEM0WE0yUXZScnZid3g1bjF3LTRwdkwtTXZTNklOeUtMV3BJOXM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 26, 2026",
       "text": "US military says it has launched new strikes on southern Iran",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?oc=5",
@@ -71,27 +85,6 @@
       "hot": false
     },
     {
-      "date": "May 25, 2026",
-      "text": "Iran war live: Tehran dispatches team to Qatar to study US deal",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVXFzNkRMZS1EQWQ5b0lFRTJFdXRfVndhWWVEekpaQXpsNWxIZkJFSEtYWjZzb2E4VXBpWG1XeW0wcVBLSnlpTjA0d3hTMWU4RnBzWDlpd0Rsb1d2SzFCQjZ1V3dYbTM5VzBrQXAxSjFVVU1mdXIxTnl6SmZWLWtxRGpHbGNUcGthMi1NNG1WMmhrMDRmZFE2cFRadFd0WWhuT2fSAacBQVVfeXFMTXZDanNlWTdaLWd5OXR5ZEwyeFhXQjNNOW9EdTI1MWtvWEI2Z3VYWXA2Z3ptbVZjZHpPeDFMNTcwdFdDNGhsNVZnMExVcHFEbTJ6M1ZxQ0I0NmxrdHdEajk1dUJxQmFqZ1lDY3hrVkR2ZFhCdmNkTk1YdDRsakliZ1FZbjl1QTgyZWwtOC1qOGRDalZ5TW5GOWFfbDhtcElmQzJnUl9kMDQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 25, 2026",
-      "text": "Even After a Strait of Hormuz Deal, Moving 1,500 Ships Won’t Be Easy",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjJqY1pPVTFZWUxFSDVjbGhCaVlXSGx6WjBfbEZhd183Q2llNlp6LUFxczhlNWxaVF92NkpEaHI1WXVHeVE3dnNqOUdvSXQ4bFVSV3ZlR1VfR2pLTDhjNTE2WU1zdUVIQjNsMUpyZ2ZXUjNXVWRPeDdXQTRoZXFWWHZYd0RCOG5ubGtPQg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 23, 2026",
-      "text": "“There Is Nothing They Can Do About It” Trump Declares After U.S. Strikes Iran’s Strategic Kharg Island",
-      "source": "USA Herald",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNam1zTzk1ZWZmSHB0cXBVenU2TzlrRU9jaDhmTGg0RnF0djVzVVFMZ3dEZG1kejF6S1pmVWhYaDRsbDFENC1QSzJMbTBReUloaFRzTDhjY1BkR2praE9vNkk1dWk5enhZNWlMc1YxaHR2NGh0QUlibGhoc2Zhb0hxdTdOT09uUjFwaVNWeC1zb0RFbUVoZmRLRlhVbTNlMjRoV0FyNWktSldQcHU1cTFuMUg2RFBCQ1c3RTZoOXFEUQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 18, 2026",
       "text": "Marine commandant acknowledges Indo-Pacific gap after Middle East deployment",
       "source": "Stars and Stripes",
@@ -99,10 +92,10 @@
       "hot": false
     },
     {
-      "date": "May 11, 2026",
-      "text": "Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
+      "date": "May 18, 2026",
+      "text": "Trump Says U.S. Is Considering ‘Winding Down’ Iran War",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQVWE4NTYyRFZ3QzNicGdjZ1JxdGlyQ1JHS0RkQW1xZWdpZVVaTjhrUW4tUGVXVzlfTGkxS3ljMVFTMHVFMjJfaXVWY2o2a01Kd3hJaHRUNk9hcloyX3FLc09mN1h2V1g5a2ZPekprU2dBdw?oc=5",
       "hot": false
     },
     {
@@ -110,6 +103,13 @@
       "text": "What’s Holding the Houthis Back in Bab al-Mandeb?",
       "source": "American Security Project",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbFpETTRyaWxoYkhQMmJkMG1oc3JsVXBRNlo2NXc2RnF6bWhGbzRmSHRJVU9NaktkUUhGT2hNUmQ0QWpqeU9DZ1l2c292X2lYYjNJQUxNazhjU2NrUnhaSWpuamdndzhzZW12TjVLV1JFZjRvZHpqSnJCX3ozRHlFaV9mTXZUaDdQQklneGgzVzJndw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 01, 2026",
+      "text": "The Folly of Seizing Kharg Island",
+      "source": "War on the Rocks",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iOVBLUm5kdUlIOG5zZkJwcmlPQjBCdWswQnlLZFVkRkNrbEFWWUlQUTVPY0NIaWV3SUJvVnY0RFhfem5lalJwVVFJY3lKSGdmQnlZcjNrWHBVX0hFaFU1dFdlYWxmUmVGZEQydA?oc=5",
       "hot": false
     }
   ],

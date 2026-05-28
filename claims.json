@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "May 28, 2026",
+      "text": "May 27, 2026 - Trump says he won’t rush Iran deal",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 28, 2026",
+      "text": "Iran says it targeted American base after fresh US strikes",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 28, 2026",
+      "text": "Oil prices jump after US launches new attacks on Iran",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vdWpUMXVBcWRfWUNOUUFEemM1RXhmZU9zdm1yZGp4ZkpncnZyRVo3cFYtMllWdUNtTjNrMDJPZFZ6V1Rad2p2alVpN0ROSU1IcnFPX1l5RGFQdw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 28, 2026",
       "text": "US strikes Iran targets for second time in three days",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?oc=5",
@@ -19,6 +40,13 @@
       "text": "Live updates: Iran war; US military carries out new strikes in Iran",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 27, 2026",
+      "text": "US, Iran have launched multiple attacks during ceasefire: A timeline",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaGIyeG44MU9TeDdIT3RFdVZoSklaZDFwOXpqQUlNU0FvRDBEVk1iMkR0LVhrV0R0SmwwdEJPV1ZteTZsajNEYkNBb09BN2piaGxYeU00Zm5JLTE5b1BlX0VrRUJjRnNtTmZvS3NXczhfMDNESzlXS015Qkk0aDJjVlFWd3QxeXVFTDlIRkVKeHBMNUw0aWN1OTRySDdSYjhzcGNvdHBZU08zMDjSAbABQVVfeXFMTlpnWkFOaV9aRGJieW5mV0YwNlNUVVlKVGhuQUVwQWsyRVBKamdra2N3cUlScGtnTjJldGZvaFlhZ0JSQzV0cDBJYjFSdE14bG4zNVUzMzJHVFR3bUhOLWJ2Zk02djI1UjdtaHZ5cmZmU0Q0RFFzRFlVcVdxN2tHT1Zvc3gtb20xMnluV2trcmQzcWVxLVM1bk9zb00xejJCWS1DM1hHeDloMEVjZnJIOGM?oc=5",
       "hot": false
     },
     {
@@ -64,41 +92,6 @@
       "hot": false
     },
     {
-      "date": "May 27, 2026",
-      "text": "‘Deep suspicion’ of US lingers as Iran ponders agreement to end war",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQak11bmJ0aENrSXdzN28zazRIeDI4OTZjSFRyUE1zRkR2b1U0TnJ5bFdDQ1NjdkNqbi1XdjlzLXRyci04Yy1FeVJxRmc0SENFZEFvZWxxQmxDUUpOcWxCeUk0dGtKX2FuZ3lZQWJ5bkdkdzdva1RCZ0p1UHFvUlFKV0Q5T2lqckE2cllEbGQzZW1kMlNFSlZCUV81RE9zQWhFV2ZTdVczbVdwd9IBrwFBVV95cUxOMmRZT0RfTDBPYW1OTUpBMXBJcThaemNHcUFBOE5CeEVscUFiUUpjdVBha2Z3R1l6UTZtYkdtcWlNTHdhR0ljeXRaZzQ3aHV4emJFQ2NmTERvc0ZtYjhDOXVnb2tIaHZWQmZSNkQ3OVBoZWRJd0xhWVhzTGtBYVpWVkNTSC1XMGhwNUpXUWtoRFRkT2VmWVhwNGpiV09MVFJPci1zdVUtbjhsWEpDeEFN?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 27, 2026",
-      "text": "Iran war live: New US attack ‘unlikely’ but ‘graveyard’ awaits, warns IRGC",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcG83M3dvUlJjanhXeGVlZ3ZGbG5iM3JfVG5wUDMyZUVGWXlJanhJSGxvQkdsQmxxRlBtSkpQY21vRW90MFNHNHNUSV9DdnNnVE9DNWpyMzl0UGZGMXdoLXpaSEVCanVIR3VZTVdUY3poaHpHLU5mVEgxQzBzVVpDX3gxRkg1dEN2aFRrazJBVEVZVFNSZ2tWRDdmZE1Rc0cxaUY2YzlReU1pWV9CY2xMWDctbHFWeTFwcHBTc2g3SXTSAcYBQVVfeXFMTkhVbktCc082cVgzLXZjRWpxRmFnSDFwWVBSczdTRUlTSEs5NXJ3Nmp3ZWZRTjM4LW9UVVJ5YldTN3cwTnBiQ3Z2YURtT2R4SnB1VUMwWDROLXcxX2Qyd3gxNmR5LUp2ZWFySlkzQlRVSlpkREJzZnJNalpoeHVITVZsa3g0SGkwZGR3MW1GOEY5NFlSMkp0OTVUZ01taV9sWW1YX2tEV2ZIQzJqSjdiZVh4MVNYbUc3WnU4N2FPaVhsb2xmdHhB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 27, 2026",
-      "text": "As Delegations Gather in Qatar For Talks, U.S. Strikes Iran’s Gulf Coast",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RX3J1OVFNWlNsbXF2S1E2elJpdkxUQnhTbkdDTUdhcl96amVGYjIxNGR3RjRndXVjVUdWUVZYMFE4aUp2ZE9UVjNvMFR3b011S2YxV0drV2VPbG1wdldKMDlQaXVsNHd0eFZyVw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 26, 2026",
-      "text": "Iran remains in peace talks despite ‘bad faith’ US bombings of Iranian targets",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNTh2eFpOSl9rcGVMXzRiZkZ5cE9qTzFYdmlWXzZ4ek9WUVNFREhyTmpHV3ZiY0Nldldwc3p0Y0I2clVjcVhORWhiYXpYX3NTM1FObkx0Um0zSl9ZQ1FLTktobmZfZW95T2ZoTFlUMG1OaUE0U3pnTkJFd3BDLXJESno1bnh1UUh4Z0ZmeUxKVGtndUx3VlZ6dVZSekc4SlBqcV9rNw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 25, 2026",
-      "text": "Live updates: Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "May 24, 2026",
       "text": "The power struggle in the world’s narrow seas",
       "source": "Financial Times",
@@ -110,6 +103,13 @@
       "text": "Marine commandant acknowledges Indo-Pacific gap after Middle East deployment",
       "source": "Stars and Stripes",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHF4SmFKNV9Dc01GWDhHSEYtMnBSUGZOZVFabmNuMWFQamprZm1jcDdPaFpTcEJhQ2EwNmNOTThFRUxqZHQ0RkVyekhVQ0x2NkFFeGd5ejRZNWRZbEh5X1RCSFRZeFdDYmJwaVpaUk14TV9rclE0MFZJTVhPTWtyYjdWbU9XVEktd2ZFVGlXdHhhd1NWaE5UNEs4OG9iQ25IUjBYXw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Apr 01, 2026",
+      "text": "The Folly of Seizing Kharg Island",
+      "source": "War on the Rocks",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iOVBLUm5kdUlIOG5zZkJwcmlPQjBCdWswQnlLZFVkRkNrbEFWWUlQUTVPY0NIaWV3SUJvVnY0RFhfem5lalJwVVFJY3lKSGdmQnlZcjNrWHBVX0hFaFU1dFdlYWxmUmVGZEQydA?oc=5",
       "hot": false
     }
   ],

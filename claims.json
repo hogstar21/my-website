@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "May 30, 2026",
+      "text": "Top Iran adviser blames US on stalled deal, Israel pushes deeper in Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 30, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FWVpuN0NlNjRRNndlaWZIUThUQ196aGJYTVdIZVllLWlNb2VEUjhKT0NPN3FBLTFEOFUtOElKT3N4Z2txR2QxMTRrVUpVbmt6dENOR3FCaUhna0NFN05zQ3VJRGRTQjg5eGFOZ1lyeENNNTh0VmhlM0JzYi1xOGs?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 30, 2026",
       "text": "Iran war live: Supreme leader’s adviser blames US blockade for stalled deal",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z30gHDAUFVX3lxTE1qaGFnNzB1Q2JrYy1HUml3ZllPZTZjbU9tUGxsV25VNWp4UnpOVkNFUHV0a3NXVzRsVHk1M2pHTkNnb05KVlhqVFE3TTY5MDN0dDhyZlNnSlJ3dTVpdGNFaXNqLUNNMDFfR2VWRGxlYlV4VnJPd09OVVktNDhndXlmLXlaUkJpdXd4U2Q3ZXM1bnZac3RzcGxnQmJBWFFKT0lqaFlhcVRLd3cxb1ppREs0VVM4dnZyTlpjMmhtc2hzWlotQQ?oc=5",
@@ -75,20 +89,6 @@
       "text": "Iran War Live Updates: Trump Puts Off ‘Final Determination’ on Iran Proposal",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4amRjY21ZdVRYa29sT1IwbS1fX2VZMjFCenhMNmRqc1BMUDcyVXZKV3JGOWpBYnFlYlJ2XzhjVXhNVThSUU5FX0dIbEc5RVBJQjcxVTkwYU9pS1dBX0t5NDhOcTFtTEk1LTZEaHgxLXdWMTU2Q3dJ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 29, 2026",
-      "text": "Oil prices fall after Trump says he will make final determination on Iran deal",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHdLcW5JaEQ5MmNSWUc3Qi02dXVheHZVT3ZXQ0ROa2RMcklFMS1SOFNhbUt4dGFFTlJMOUxiYk45ZXVWbENzTVduc1NzUC1yY3hMdjJuMDdURmRZTkZFU0xfYWZtcmY1eXJLVDNBbHM1NWZENDJnZHZONVBhQmxWTWR30gGHAUFVX3lxTE55TjdjVjVxcFhvZy1ITy1yR1NsM2RjVkVYRnlKd29QLWJQNmJZQWlwV01fNVRZTWRZLUJxZXNVLVBuc2p6TGItUlBSVDJsUXUtU2JFSGJBRmtEbjl2RFJOdXJEMkRQNHVTX1BfRzl0QXdocDAzdGoyQzU5OFRrbmVkTlJzRmFuNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 29, 2026",
-      "text": "Iran war: US to lift naval blockade of ports, Trump says",
-      "source": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmt6UGh3MVVfczdVaE5oRmRWTkJfMHV3MV9UamN3NVhodmNac2lBU2IzdDQ4QXh2OG1mY0JvQWZ6bmd3RzIwQnZIbXJKYkhOYzFDbi1Ka1A5c2tiTGtKRzB0RC1BRXdiTzQ0QlVUdjczQV9RNTZhS2t4R1BGVy1FSFU1NlhMbzcwREhqRTlGMzFFZlFBNGdJZnhfV2xBOXFfdXFpOVVmUVRGQ3pKTnFfMzVLVXNTejRhZ0NpOE8xaUJGQjc0anZoclZlVG8?oc=5",
       "hot": false
     },
     {

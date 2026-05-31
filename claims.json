@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 31, 2026",
+      "text": "U.S. Military Is Quietly Guiding Ships Through the Strait of Hormuz",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa3htZ2xJU3pTbko1VDRIWEtRU3BSWDY3aV8yak0yeWNZLW0ydUlEdFplVjBhQ2o5RTJpR19YR3JnbVl2Q1pyTjlEa0g3U2lHREY3LXZEZ25pb01HUHVCeWdET2ZfQ2pTOHN1T1F0TmdFWFM3ODFtZU43UGNBOWFyaXlwbHYzVTVTR3ViOA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 31, 2026",
       "text": "Iran ready to fire missiles across Middle East after digging out bombed tunnels",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ENmFPaXNXbXhlU0pLYWhoMldTUm02cTJaM1VlSGFQQVI4OUk1b3NfU1pVMjlzUVBySS1tcHM2aDVBeVUzVExNbkVJTWRoQjB1S0plSmxXSXN3eVBVcFBzbTViRWt1Y09yQ2c?oc=5",
@@ -72,23 +79,16 @@
     },
     {
       "date": "May 29, 2026",
-      "text": "Trump's room to maneuver narrows as US, Iran close in on framework deal",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzYxUnZMR1RyMnBocjBKaUJMS29UUGk0M0NkaC1LTzl2bVhSd0xrZmVSOWxRRjJPd3lnbGdnYXhhRXRJOTRwb0dYby1hVEJ0VENtZENUYkRFbTI5dXA1ckoyOW5ib01ZN2hwbFJSd09hZkx2RXJrY2ZzSFpYR1lxNjBMNGxZZVhlLWw1UGt3UlNzbHhoVlFaaTVIMGxUVlVud3Y5S1U5YURIZ3hCSWZtUA?oc=5",
+      "text": "May 29-30, 2026 — US military ready to resume combat in Gulf if needed, defense secretary warns",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?oc=5",
       "hot": false
     },
     {
       "date": "May 29, 2026",
-      "text": "Iran war updates: Tehran says ceasefire deal with US still not reached",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 29, 2026",
-      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "text": "Brent oil price posts biggest monthly loss in six years as market counts on a U.S.-Iran deal",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHdLcW5JaEQ5MmNSWUc3Qi02dXVheHZVT3ZXQ0ROa2RMcklFMS1SOFNhbUt4dGFFTlJMOUxiYk45ZXVWbENzTVduc1NzUC1yY3hMdjJuMDdURmRZTkZFU0xfYWZtcmY1eXJLVDNBbHM1NWZENDJnZHZONVBhQmxWTWR30gGHAUFVX3lxTE55TjdjVjVxcFhvZy1ITy1yR1NsM2RjVkVYRnlKd29QLWJQNmJZQWlwV01fNVRZTWRZLUJxZXNVLVBuc2p6TGItUlBSVDJsUXUtU2JFSGJBRmtEbjl2RFJOdXJEMkRQNHVTX1BfRzl0QXdocDAzdGoyQzU5OFRrbmVkTlJzRmFuNA?oc=5",
       "hot": false
     },
     {

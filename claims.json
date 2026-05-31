@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "May 31, 2026",
+      "text": "Iran war live: Iran says US talks continue; Israel expands Lebanon invasion",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY24wNkZUR1ZyOFJFdnFnZ1FJWVB5VENxaTJLSHpSUVZRcHgzMFFYdXNFRGNyNER3aG1XS0tzbXZ3VXd5WHFOb3I3cXlrRnpOX281aUo5RGRQVnliZ1JFN2tsRWZRd0JCWVUtQmtNNHJZdjdZSXZwdXRaWFhERzVUNHlneWlScnRfVkVrdzcwUXM1RXFNQ1Y5YjN4MGFsaHhqSmtkcm5kWUhsbmtlUlNFSNIBtgFBVV95cUxNX28xSk84d05HRGRQd1FqdmpqQ2Z0clNTNWdYcUc5SWxDd2xzTHlMNl9tcHNMUHJ4NkhvTzJTT0h1WmtfcWhCenF6bnQ0aVB3X0NINVFkSmM4NE5MaXVETlBKenVOTFZ3T0VoRVQtN0NFazNnUS1OZmNQN09IUEZmX1lwVGsxZ3VkRGhtRjNjRWZjZldqbHpwTXA4Y1E5ZGswS2hNYjRfZ1NhSlJDZHdaUlc3LUpaUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 31, 2026",
       "text": "Iran’s reopened underground missile sites show limits of US bombing plan",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTTJHUzFORjc0RFEzRFJsWE9BYWw3a3RwdlFDQmdIdldkejRiVWRCWlB5UVR1RUdaYXdZYmFseUdxdjVfWG0zUGgxcWZ6Y20zNTFBYldZUXFWWVNhSGJ5ODJpZjVzVFQ1eW1RczBwSUFGRWNtS0ZXZzU2ZTBwQTJuYUlEN05fYTQ?oc=5",
@@ -72,23 +79,16 @@
     },
     {
       "date": "May 29, 2026",
-      "text": "Iran war updates: Tehran says ceasefire deal with US still not reached",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?oc=5",
+      "text": "May 29-30, 2026 — US military ready to resume combat in Gulf if needed, defense secretary warns",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?oc=5",
       "hot": false
     },
     {
       "date": "May 29, 2026",
-      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "May 29, 2026",
-      "text": "Oil drops 20% from 2026 peak on optimism over U.S.-Iran ceasefire talks",
+      "text": "Brent oil price posts biggest monthly loss in six years as market counts on a U.S.-Iran deal",
       "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV05jSjE0MGtuY1dIUUhSekpqZW5tR2dYN3ZqQXMzVkxfS1FvZ1pab3ZKNzVqTF9NT1ZRRVlpd1ZLcU5rZ214ZlNEa1g4Z08tN3BXNUJYUEVNaUhaZkpWVDN1a3BkSm5zQzBhQlByaU9oQ3BvNVptOVlGMjhybXkxQW8xU0hBZndGbWkzbmdTbG9IZUdhSDJzX3JtbngtTzDSAaQBQVVfeXFMUHBjTTlGS0x0amN2WFpyZ2V2MmJtWGN6TmlPenViX1JpMUtkU1B6UUxTQjYyQm1XbG9zNEhLZXA5ODFEeXhlNEVHZEVQYUFvSmtmSk9jN3VuOEJYbXhvT3pJYlBKVWdxR24wejBKQjQzLVdFeEpYbC1OZDExbW80OWN1eFAwcWpoZi1wWmtXRHI5d3NoWkxtTkllYTBjU2IwOFZjSnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHdLcW5JaEQ5MmNSWUc3Qi02dXVheHZVT3ZXQ0ROa2RMcklFMS1SOFNhbUt4dGFFTlJMOUxiYk45ZXVWbENzTVduc1NzUC1yY3hMdjJuMDdURmRZTkZFU0xfYWZtcmY1eXJLVDNBbHM1NWZENDJnZHZONVBhQmxWTWR3?oc=5",
       "hot": false
     },
     {

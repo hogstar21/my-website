@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jun 02, 2026",
+      "text": "Israel says it is holding off on striking Beirut after U.S. request",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQm0zc1ZESDFjVVJZcUZiOUhhQVFfUjdIV3V4b0FoQkJVb3Z3dHBfVEl1SGNGaUdsQTQxN2U3OWtUelQwbmdKOHI2VUZ5bjVMWWNSTDB5dTdmcFl2Vk1mUnVmVndOQ05hVTlfVzNYOEFmeFlYOXJFd05XMnVkTUFERWprWWZYOTlNaTdiMmctUllpNE91WXk1M0RRNzFTVXYt?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 02, 2026",
       "text": "Live Updates: Iranian officer says renewed war with U.S. seems \"inevitable\" as Israel, Hezbollah keep fighting",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWE0cEdpajhoSmtGWTU5SElOSVVwOWVlT2lPdXpRemZ6ZW1XMXRNOGpkd2hJdmNvMzJSRzZiczRNcE8tTnUxVWNSTl9yUjFWZ3pNdWM3RGJJNGxXOU4zc3dwVnd0TEtXUFUyV05VWUhZc19DaGdfYUVrVEZyMDlkTXRSSGhqNXEzZUlrck9nNmhMV1hu?oc=5",
@@ -72,6 +79,13 @@
     },
     {
       "date": "Jun 01, 2026",
+      "text": "Oil prices jump after U.S.-Iran talks reportedly collapse, erasing recent declines",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUVp5WnZEQjExSTZhNElhM29vRHZGbGZEVXZkeDA1NEw2UldEZ0l1a3A2dlRsNW5CTE1WX1Ytb1A0UFF3NERxRXA4Z05XMkRiN2ZfV2M5akFtNm9kUzNrRUQ3aDFEOWpScHd5WTZicjl6THEzTGtyUTVDc0hjUEQyVWdBb19malg0OHBtVURsc3M?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 01, 2026",
       "text": "Oil Prices Spike as U.S. and Iran Exchange Fire",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUkIyYTdFNWc4clRhVmZvNzZRLUkyWXN6eHFza096Q3pRU1huTjJGOWVHamNxSzBjOTFZcUFXdnpvWkQxQ2xoc214WTZOTXhublYtQ2NHTWR4ZVQ1RDcyd3Nkc3Y3VUg2dThRN1F2WThUMkM1MkE?oc=5",
@@ -82,20 +96,6 @@
       "text": "Iran’s Allies Could Target Bab al-Mandeb As Country Ends U.S. Negotiations",
       "source": "Forbes",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHd6SmhDa191dVRWUDJSRWNCenVaVnh5THd1cmZrLXZxU0ZMQU5sX1RvSDhPVTlpYlM1dU1uVXZhUWNvcVNjekFFMWhmdVNuTFNfQVlvVTVxTGcyb3NHNUkyWTlOSnE2WW02WndZZnhkLXhCZGVQZ213ZWplYldsSGhxRzZ5ZnMyano0a253c1lVRGMyMEZGbHcwT1RBTVo4clIyQUNEYUxhYVNKdkpWeENWU21qSXFpRlUydVhRWjBmNzJhdzJjOTFtSTRKVWNw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 01, 2026",
-      "text": "U.S. strikes Iranian military sites after drone incident; Kuwait reports drone and missile fire",
-      "source": "Tippah News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb0FnV3pUVTg4TTk1VXVZNFdtNFNmWDVtY19LaWJkU3FrVEJSc2pES3VDUVNraTFWd3lmNlV5MW5MSGttb0tNS3AyOGVFNDBDMktTTEhYSnBsNlNvbUJVWlBhdXYyRTlrRHRuS1MzY2VuQi1FWTBSWURLUGZ3TFZROHZ4c3RPU0xKN1dDazFtLVdKcDJ2QlBONmVqTWJ2Yzc4U3Rpck5hVFhJd1lGSVNzaEM1YmExbk1yU2F1YkhjRjlxTjM3aUIyeE45RQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 01, 2026",
-      "text": "West Asia war LIVE: Trump says Netanyahu agreed not to send troops to Beirut",
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZHl3cEM3TGZ1SWdrZDJWOUNia08ycHNlMWZGX0dWbnRxbHNLUzl1REkyMnNYSW1MYTFEWlBSd2NQVU5YbG5iZnc0b3Q2WG9hdU9GRld1ZkNRVnYyX2Fub0xkdnlkUW1sdndtYzRqbzI1VFJDMWhqMGdGbXZjS0kzSDY5WXNsYldNaDM0NVhMUjY1anpoWEg0bVhyWkpDTjJVX1kzek52OXlXdkJQY1A3T1QyMXRJX3VHaUIxbG8wY0k1YlBta0lqSFVPTjBvZjVaeTUtUlZadlhkekx5T3fSAeQBQVVfeXFMT3hNX1QzanFyU2RCeFB5M3pYY3BRRXhNVzByVHlOczRTNDl0bmd5OGxxcUdnTk92NmtLdDdwbDBFeDlkLXJCa3FaeGN2S2lzb0NRdXVJLS11RUtSMzkwUVFIOUxCVFpoNlVVcjQ1YWRrSkdTVUdKRld2VjN3T0xCQ0hsVGVNUGtwLWk5R19obk5aWmV6ZDI2cUl1QjZMOF9IcTAzRGdLeDFZYXVTN3BYbVp3Vm9SZzNyQS1yaTktTGdoR2RBZDNVYzBpdXk1LUhGa251UDRVMjkzZkl2clBpcFU2S2lv?oc=5",
       "hot": false
     },
     {

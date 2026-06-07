@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jun 07, 2026",
+      "text": "Iran fires missiles at Israel after Beirut attack ‘crossed all red lines’",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMU1ORFowUUlPWWNaUFgtQzBYdEtnTUplbzI2ZVVRanVGS2libHRvVTBUaUhjZjlRS3h1Q1gtQWg2Y2xNcnFETVFVcW4yTlFJYW85MDluSXUycXQxeEtWMXJabVV6Z2VTV1VSanBtWkViZUFkZ3hHVVpIUUZ2YktjMF9lMmhUbEoyVmo1Skt1RDNwU0ljb0JnVU5sMktFczE5dnNoMUcyOHdfS3ZsRmlyWNIBtgFBVV95cUxPWjZCYU1YcHR6WWRFN01oUmNXdkN2YVQ1WGtUd3VhQmVCeVZsN2poc1A4cFJoMjZpMkNZTk9GakRRdkpZZ2xwWnl1d3dKLTlMV2g3T0ZnV204dFpfWHdMbVQ2eGozMG01RzFfd0kySlNwd1hWSVliVXU0WXU2Zm1kOXpMNDA1TnRlY2FfSXhRNE5RaGpVd2U0N2g2V0xXdXd3OHZWaUJZMkE0eXRKamlMLWptMXd6dw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 07, 2026",
+      "text": "Israel says Iran launched a missile at it, in a first during fragile ceasefire",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1seERBQzlBNjZ2UHhWejR0VlBoMDFlNWlUTVhvYVZ2b0Z0Njd3Szl3Qi1jalZabWdYaDlHTEYtNkRDXzVnMlpkY0xHOVJLTDk1NjN0dmlwdkFfS2oxV0FWMjJLU2hFNWdsN0NGOXphZEp4Tm1kck1UTUpzQ3g?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 07, 2026",
       "text": "Iran war live: Israeli army says missiles fired from Iran",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOS1JbnU1UG56TjRPLW96Q0YzZ2xjcGdzMURseFFZOFZ0emcyS1ctVTRYVFJmQlYwSXM4UWt3WjdfM1pNUVM5c0VzTzFsbFlrNXFYUUJzVVdDNFQ4UE5CbjFoUnhENVJUZEY1bVhMdzdIQUlPTXZSOUJWS3I2UWI4QUNfTy14N3VMS1BjLVVFRVpiNGxPU2ZNUlFyZ0Q2YWZoM1RNRFVQRFNsamhWTjBUSjdOQUFNRGtv0gG-AUFVX3lxTE9HOUViRk1WdTRJTVRUOEJjQTNXT3pKaWVPRlQ1bGh5ZS1YR29MVWt4ZHRfQlhUREFEOUIxcmZTbzlJd1RVZFI2QzB4NlJtVkRzQ3k3Um9yeG9jaEZJM3NBSlB4LVF3TFlXOFNSV1NsVTE0YXplQjlvZ0FTX3dUR1V5elRjVWo1NU5JbHdMYUphenJJVGZtZ2luRldoNllRNlhkQjhlcXhtZ1JNNHJVUEh1bFVHM1BabW5DcWM1V3c?oc=5",
@@ -78,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Jun 07, 2026",
-      "text": "June 5, 2026 — Ceasefire in Lebanon frays, Iran warns of wider war",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 07, 2026",
-      "text": "Iran war live: Israel kills Lebanon general, Pakistan urges end to war",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOS1JbnU1UG56TjRPLW96Q0YzZ2xjcGdzMURseFFZOFZ0emcyS1ctVTRYVFJmQlYwSXM4UWt3WjdfM1pNUVM5c0VzTzFsbFlrNXFYUUJzVVdDNFQ4UE5CbjFoUnhENVJUZEY1bVhMdzdIQUlPTXZSOUJWS3I2UWI4QUNfTy14N3VMS1BjLVVFRVpiNGxPU2ZNUlFyZ0Q2YWZoM1RNRFVQRFNsamhWTjBUSjdOQUFNRGtv0gG-AUFVX3lxTE9HOUViRk1WdTRJTVRUOEJjQTNXT3pKaWVPRlQ1bGh5ZS1YR29MVWt4ZHRfQlhUREFEOUIxcmZTbzlJd1RVZFI2QzB4NlJtVkRzQ3k3Um9yeG9jaEZJM3NBSlB4LVF3TFlXOFNSV1NsVTE0YXplQjlvZ0FTX3dUR1V5elRjVWo1NU5JbHdMYUphenJJVGZtZ2luRldoNllRNlhkQjhlcXhtZ1JNNHJVUEh1bFVHM1BabW5DcWM1V3c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 06, 2026",
-      "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "date": "Jun 05, 2026",
+      "text": "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTnBLWWpVNnVHUHhYR29iaHVOekM2a1laaWgyczBhMjF5bldEc2xQQ0lRc21vNEZBQUU0cHlzUHY0T2Q0TjlyeFowNWtibmNCRko3UlJLdWxJZjJkX19KZXloaU9oejBYY0JxdURKbkhwOTJjOHRDR1pGSWpHc29jOWwyLU9MUVdDNGVmSWVURzFkV3N2QjdzNnJB0gGfAUFVX3lxTFBFTGwyVUtGcXhvbkpMYk16R2d0eGZQWWhzcDM5dThmaXFXQ0Z3cEVnWFJJeE1SVGU5SDVtSXRMNTNuOFlKaTVqdGdvS0pHSzAtWGxPSDV4WURPOWdsOS1UMjFvbURVTVJVN1k3Z2F4R19hdGJhbzVZZ0FzOXUtRG5vd2VtZWRBT0RGUHlXbW12NUJrYTBkcVA0eXJWU2ZBVQ?oc=5",
       "hot": false
     },
     {

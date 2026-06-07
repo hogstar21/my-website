@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jun 07, 2026",
+      "text": "Iran war live: Israeli army says missiles fired from Iran",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOS1JbnU1UG56TjRPLW96Q0YzZ2xjcGdzMURseFFZOFZ0emcyS1ctVTRYVFJmQlYwSXM4UWt3WjdfM1pNUVM5c0VzTzFsbFlrNXFYUUJzVVdDNFQ4UE5CbjFoUnhENVJUZEY1bVhMdzdIQUlPTXZSOUJWS3I2UWI4QUNfTy14N3VMS1BjLVVFRVpiNGxPU2ZNUlFyZ0Q2YWZoM1RNRFVQRFNsamhWTjBUSjdOQUFNRGtv0gG-AUFVX3lxTE9HOUViRk1WdTRJTVRUOEJjQTNXT3pKaWVPRlQ1bGh5ZS1YR29MVWt4ZHRfQlhUREFEOUIxcmZTbzlJd1RVZFI2QzB4NlJtVkRzQ3k3Um9yeG9jaEZJM3NBSlB4LVF3TFlXOFNSV1NsVTE0YXplQjlvZ0FTX3dUR1V5elRjVWo1NU5JbHdMYUphenJJVGZtZ2luRldoNllRNlhkQjhlcXhtZ1JNNHJVUEh1bFVHM1BabW5DcWM1V3c?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 07, 2026",
+      "text": "Iranian missile launches target northern Israel, Israeli military says",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbzU3Z3FickZNcjlaaVJXeDVqSTdJVUVvQmEyWnlQeGVxOFlrZTgtYW9oNkdFWHFIcVRDNVZIQ0pqVjVnTldFTVllbWNscVNheXNia2hFaVhmY3VWMlprcVYtM0VIX1JsUVBBWkV6azZwQ0RaMGY2YWpOX3FNZDMyU3htWFpyWTl3RVdrclJWaGliVnk1blE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 07, 2026",
       "text": "The Strait of Hormuz is more open than previously thought as the U.S. provides 'naval overwatch'",
       "source": "Fortune",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObENVZzBxWDJ3Q0NqWnNvX2JZckhMS2lRMU53bWVQLUR0aWhmeHdmR0JtVTJ3SEFfVkNzUzZHVmYyRHVaWVBURVFDOElXLUVEMkI1blllRmdZQUxCOWN3WDRscGVzX19adENSZkhMUjBrQzc3X0hCMU1FdncyZ01UdjAyNU5TLXZadTZGRHlqUXZtWkxjTVNieWtobUx6Zlo4cTRod1NSQQ?oc=5",
@@ -85,24 +99,17 @@
       "hot": false
     },
     {
-      "date": "Jun 06, 2026",
-      "text": "Iran Update Special Report, June 6, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ2E2ZF9rd29Edmd4dFE2U2xHTmxTWW9hQ2FhUVFhX3pzbGJvSWxYR1F1a0l3MFMxLTZSUDlUU1JCR3REYndnTVd4eGx5RjNTWXJCZU9aaVA5Nl9RRkN3bDQtOXpNTmNKSFp0dDYwaXpBZF9CZmYyWXoyRUYwNVNPZzJqMFVicXh6ZlNTbnlvSXhPMkU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 05, 2026",
-      "text": "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTnBLWWpVNnVHUHhYR29iaHVOekM2a1laaWgyczBhMjF5bldEc2xQQ0lRc21vNEZBQUU0cHlzUHY0T2Q0TjlyeFowNWtibmNCRko3UlJLdWxJZjJkX19KZXloaU9oejBYY0JxdURKbkhwOTJjOHRDR1pGSWpHc29jOWwyLU9MUVdDNGVmSWVURzFkV3N2QjdzNnJB0gGfAUFVX3lxTFBFTGwyVUtGcXhvbkpMYk16R2d0eGZQWWhzcDM5dThmaXFXQ0Z3cEVnWFJJeE1SVGU5SDVtSXRMNTNuOFlKaTVqdGdvS0pHSzAtWGxPSDV4WURPOWdsOS1UMjFvbURVTVJVN1k3Z2F4R19hdGJhbzVZZ0FzOXUtRG5vd2VtZWRBT0RGUHlXbW12NUJrYTBkcVA0eXJWU2ZBVQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jun 02, 2026",
       "text": "US fighter jet struck and disabled an oil tanker headed for Iran’s Kharg Island",
       "source": "The Hill",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oN19uUjljaVJRcXBSd25rQmdZR09CbzVaVm9pbXRrWlFuaGtvdG1uUUZDRWpQZFVfUGlhME85VVZreVNmaTdKS0gtNW16TzExU1h2ZkxHcTZfOTdIVkprTEhhMnZwbWc3UmpyTzRUYnhJUnl4UVFj0gF8QVVfeXFMTXBZYzVMMW5hNXZMbDZxZVBPTUUzTEFWLVdTaUJDOW0xc3RfU2FkLW5sYUJLNDgzZGZiV2x2dUpGeGtYN1c5d3JpOVhtMTFONXFCMk5pbWl4X1o3YmtzMmtTZzZheWdpUEY5OE9aZmc2X3RHOUlZNEJqMk9jYw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "May 18, 2026",
+      "text": "Marine commandant acknowledges Indo-Pacific gap after Middle East deployment",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHF4SmFKNV9Dc01GWDhHSEYtMnBSUGZOZVFabmNuMWFQamprZm1jcDdPaFpTcEJhQ2EwNmNOTThFRUxqZHQ0RkVyekhVQ0x2NkFFeGd5ejRZNWRZbEh5X1RCSFRZeFdDYmJwaVpaUk14TV9rclE0MFZJTVhPTWtyYjdWbU9XVEktd2ZFVGlXdHhhd1NWaE5UNEs4OG9iQ25IUjBYXw?oc=5",
       "hot": false
     }
   ],

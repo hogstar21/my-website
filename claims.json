@@ -9,6 +9,41 @@
   "breaking_news": [
     {
       "date": "Jun 15, 2026",
+      "text": "U.S. and Iran Reach Framework for Peace",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MUHZ0QlhoQWdnbmJYZHBITkxyWmlrNVFMMTBRUzY3T2FyODc3RDFfRXFtYVZoZUYtRzRaYUo2WlBrbWhLS0dEOWU0eWM4WUw1Q1JLWUlhU0s3MGVQTUl5ZG1rYVFXeUV3dXdCQV95eHo?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 15, 2026",
+      "text": "Iran, US agree tentative deal to ‘end war’: Your questions answered",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWHd3Ymxyc2MxVGdOQWNLcDRFTVo3WFhDdlhjUVQwNmhwdV8yRURjMWdNQ1JrendtVzI3VUxrNDdPU1E5bmllcFk0S1d0eUVyZUFkWVZXcFVRZ2ZQaFZfcU5OYU1uS3lVUzFqOHY4Z190QlE1ZDlzTTZDRWRUUTBCVG1NOWpLT18tdGN0NjJyRkNEYnRsVnpyMUZBczBQd1lpVzI5TWhMONIBrAFBVV95cUxPM0Qxb3RQNzRMVlBaTUZpeU1rQVlQdkVSSUhaTzFNMFllb1QtVzVJblFLekc5SURuRjcyaTYwYlhZbmtVRGRnU1p1SThpY2s1ZHFoM0MtRlJFNjktSXVfRG5aMjllTWRqREdCSGJia0xRUzZuUjEzT0paNDFNQjcxVGp2LVhsakVUdTlnTE5GNnhQSE1oN1NOXzA0UzJRLTJNbHlHajBwQ3FfbTRH?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 15, 2026",
+      "text": "US, Iran announce ceasefire deal, leave nuclear questions unresolved",
+      "source": "Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZndUcmE5bUc3ZUlobEJ5ZWJLZHhWR1BzUjBTV2pwLW9UdkhRRE1xWXFfQjNhQUJ3dVU2Zlk4R0hPZ0VVYUsyOFMycFpEcEItUWM4QjdROU41clMtREJFRTFuaVp3YmQyN2Y1OHZDTF85Wk1mUm9udXYwUlpIQ0d5WHdaZE9ncGFhOXJQb3VOTWZBTkE0cUE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 15, 2026",
+      "text": "Iran, US agree to halt war and reopen Hormuz",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcmEtalo0LU0tcVFDaV9MWHlZSVZYQnhla0d1eF9uR0hmVGlnX29sMWVHckNwbDV2cVBVYnpTMEFDVFJJcnlybm5jUGk1UURjTmdGdzEtUlVmSmVNYUdkY3FpV3c5U3BDb2ctVnFiSkRYMFRIaVNRSFd1NnNjbmNnT0h3ZjZDeERwQTBXSzh5bDJXV21WX0gwcGZraG02ZHdNdURNT0Q1dG1QaWVvdV9VNm1HTFE3MEU3SEs4?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 15, 2026",
+      "text": "Oil prices fall and shares jump after US-Iran deal announced",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZRzk1d1JURFJ5ZkJnb0lSTHlvQUdTWWxBTnBaZXpYS2JaVUpsZEY2MGRlbTZIWTd3OFNsZ0o4anhMUTktV3VBcjFTOHdpZkdFMTVkZGxKWmRiZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 15, 2026",
       "text": "Live updates: Trump and Iran reach agreement that includes opening Strait of Hormuz",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBTTHBYQ1FMM3d4UGFxYnlsMVVVR014REs4S0IzaEpNeUZRSEpuZU5WcTFLR3dkdjhkcGVKVFc2NUdFZnJ1Q1FTWExBbno5SlR3SXpQOGR4NWdWWG8zRHFBWTFpWERDNFR0NF9DU0E3MEJ5QUVEb0dB?oc=5",
@@ -50,38 +85,10 @@
       "hot": false
     },
     {
-      "date": "Jun 14, 2026",
-      "text": "Deal is reached to end Iran war and Trump orders stop to U.S. naval blockade",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQnhfUXRBd1hUbGJ0MGVDUVhqTFBqY2hQVDlOM2o3ZG80Zy1nS21DbHd6S2JfTDVhTHhUOGpuODgtV1VaUkhNNFhEeU9aeXlSeUt6NmFteDRkY0VRUEFOUkl2N0NyMFBPc3pTSkxBdW51YURLR1RwWXRnbGVMREVBYmNoX3Bsc2huMExOSW1qVGhLSkNCbVpQTm12M3ZNVXk4UHFzSWt4YlYwTDl5akHSAbMBQVVfeXFMUHBFY0gwN3NWaFdCR3hKZi1ERjRJWGN5Rmc1eXFtLWhvZjB4UnFDZHRqd21selVLS2prMUF4VDRHR0hCUGVXQ0Q3NnZrQ1R6VjNRUkwxLVhkeGR4SFNRTnBWZmFwWm1hM3pEVTQwRF9NQ0dON2w1MlpGa0VKM3NtSEduaVdoVUtodm5ybnV0aGVETjJUdS1tWHk5UGFlUU91bjZzMkdlbkdBckRuZ2ZnZXp3Z28?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 14, 2026",
-      "text": "Iran war live: Pakistan announces US-Iran ceasefire ‘now in place’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 14, 2026",
-      "text": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0ItbllKeUF0dHhteTR2eXRiVzRaajBrX3g3Umx5QzdPVWVmT3lwLXdBTkZJQWp5RGhmZzJqUml2Y1lKT0lBSVVDcEhDUWNmUVRmWFZoa2pqUV9QTzhLWlpiU0NGbmswWkE1VWMxY0RPclhJX0dlSkx3eXNreVdLcldR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 14, 2026",
-      "text": "U.S., Iran reach deal to extend ceasefire",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb3dLRUwzdk1RYWV6S1dOLTNjYXFULU5BVGpCOFFkSEhrUksyNWpEZ1JmVV96RThKTnJUcXNxbXhyWG9xeDA5cUZpVW4xRllIMTN5ZGxnTG5obFdlNXpWSi0wb1BhNllsbURmM0h6SU1DVzM2Z0F2NzVCMmQyNzBvOVBRU1JQdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 14, 2026",
-      "text": "Trump Urges 'All Sides' To Cease Fire, Pezeshkian Vows To Back Dialogue",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
+      "date": "Jun 12, 2026",
+      "text": "The Houthis Weigh the Cost of Escalation at Bab el Mandeb",
+      "source": "The Media Line",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeVZaWlZaYnhWVkJKYXRhUnVYS1JhNGQzcVNwWEVnc2NVQVZvUllWWHdQRzkyZGJ6ODIxZVpaU1lDTFpUc3hNUnp0V2ZiRDR0ak1ZVm92MDhleVdxMUc4TnVoM3ZzMnJuNVRhQmowZEZndWs1N1o2bjdQbUZsSnZCb2V4bGNUN1pkY210bHVPMGJVZE9zclB6VVdaRQ?oc=5",
       "hot": false
     },
     {
@@ -89,13 +96,6 @@
       "text": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
       "source": "Britannica",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 12, 2026",
-      "text": "The Houthis Weigh the Cost of Escalation at Bab el Mandeb",
-      "source": "The Media Line",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeVZaWlZaYnhWVkJKYXRhUnVYS1JhNGQzcVNwWEVnc2NVQVZvUllWWHdQRzkyZGJ6ODIxZVpaU1lDTFpUc3hNUnp0V2ZiRDR0ak1ZVm92MDhleVdxMUc4TnVoM3ZzMnJuNVRhQmowZEZndWs1N1o2bjdQbUZsSnZCb2V4bGNUN1pkY210bHVPMGJVZE9zclB6VVdaRQ?oc=5",
       "hot": false
     },
     {

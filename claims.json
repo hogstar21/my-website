@@ -8,6 +8,27 @@
   },
   "breaking_news": [
     {
+      "date": "Jun 19, 2026",
+      "text": "Live updates: Vance no longer traveling to Switzerland for Iran talks",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOTBtUnVpSk00dUI4alhrVGxNYWRLbkttcl9OV2ZWZVhIQW9nYTQtd2RmNm9iMkE1NUloZEpwQ3VJeEhJanZwanBMOEdpNTR1bEpXcTVldnRhc3RqT3FfM3U0MkVWZXJRektyVGxRdnA2R1lQWm9JY3hSRTh6Y2Vybkd3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 19, 2026",
+      "text": "US-Iran talks in Switzerland abruptly called off, as Israel and Hezbollah trade attacks in Lebanon",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdHB3RFZKMG13LThSM2V1T2JlaElaSUlSM0NWeGJRLXRDa1gzLWJ1ZVpuNkxqWWI5ekpCYnA4ZWlWVm5FcGsyUm5DUm5NZlZ3eXoxU1JtVnVVdkYtQmFnRE9XUllzMHVWeXlGdV9SWGVfSnZpWkpyLWJkamsxOFhSRFlEWl9vdFBmN01LQw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 18, 2026",
+      "text": "Strait of Hormuz reopening may take weeks to ease shipping backlog and oil pressure",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45bFFZS2FxMVNEczZPMjA4SXEwZVhwMXY4Zko0M2pMVFYxX1lwLWJySkRGYTBnX0U0NkhiMjlTQ1VpeEhWaTZTRXI3N25ud21mNjIwLV83aENBWmlZUzRXcTl6TER2V1ljWU9WTjFIcFZzNVhfb0hXSFltYkNJQdIBgwFBVV95cUxQaFVHYkE1WEE2Y3hWV2dybTlKX2p3dHJ1ZVk3WjdwNHVDMDkzbG1paXhxTk1CSjA3YTZkdXUzbWM2WjFZNXptN3RVWDVLaEN4eWZTR2hQTVVKQTg2S1lJdTVsWVM0Mk1kTWxEMUlZRHlwNlg0MHI4d0RVZWxPVzNCblUzUQ?oc=5",
+      "hot": false
+    },
+    {
       "date": "Jun 18, 2026",
       "text": "Oil Prices Fall to Lowest Since War Began After Trump Signs Iran Deal",
       "source": "WSJ",
@@ -57,31 +78,10 @@
       "hot": false
     },
     {
-      "date": "Jun 18, 2026",
-      "text": "Israel Asked Facebook to Censor Iran War Content, Internal Documents Show",
-      "source": "theintercept.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVk9fWVRJenlyQkduZG1PbjlvQVZzWkdWNzRueEZHUlBnS0gyN1B5RWtUNUd0MHpma2YwanNUSlMzZXNWbUxDdWNXT25tWFg4V25zQmFqdG93LXBQZ3RHUDN2SGxaZzIxenZvRWZEX3RlcjZnY2hYd25zSF9XV0xVTjNXMjRvLXlYUXN0RVdaZlI?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 18, 2026",
-      "text": "Weapons, money and ships: How is this Iran deal different from others?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXSVRzOW5NTEwtZGk4RFdHelNuWFl6N3FmeEo1Q3lRcnRya09nR083alNIQzRqblhmc1QyVzBqOGNHREl2eS1WV25pRmRBYkNzYi1ZWGY2WG4xZw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 18, 2026",
-      "text": "Israel, Stunned by Trump’s Iran Deal, Sees It as a ‘Catastrophic Capitulation’",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVXR3S19Db2twaGl2VWFwSk1HVXZraEhKdFI0TnVJX3B4TmNCTkZ5cUEtbnF4MHlyMGdBRzBOeVZ5TlVrX25nT0JDZXpVUDdmZTlrbWtzUW9BVUhBb3VQR3RuaDJaQ1Bfemk5c3RzblNvaHFZU0lBNDl4bnVqY3hKb3R6Q2NJbzlxQzVtbFgzQzdtdTNVYTln?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 16, 2026",
-      "text": "US-Iran ceasefire agreement to be public soon, permanent truce still awaits negotiation",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5",
+      "date": "Jun 17, 2026",
+      "text": "Iran Update Special Report, June 16, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVWNrTWotNDBfdEdiZm43UWVEa2xYdlZzdWxQNDNpQkR1aHNsUzMydlFqOUlBT1dRZ2JkdlAxVV9WYmNtU0xDc3JFc2JWb0JWOVNtX1Y0N2NRc0x6dWMzTFRWOFNOa1VTb1cwSEhBbFgyWkU3UExPRkNHVmVKRldudnFabFhlakVoQkZSUUl1cmlheGFw?oc=5",
       "hot": false
     },
     {

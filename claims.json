@@ -8,6 +8,34 @@
   },
   "breaking_news": [
     {
+      "date": "Jun 25, 2026",
+      "text": "West Asia war updates on June 24, 2026: Iran has told U.S. no tolls being sought at Strait of Hormuz, says Donald Trump",
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQd1R5Q2ZmX3JZSkh6THZTZGZ6MUZEVkdqUllQc3BBVm5xRjkwS0tYbzd1MzU5ZVZjS0lWOVVSTTZDdEJzNUt2a1RQU2pJWUFkeHBRaUUwSHZLUjFYZHhsNV9NNDF1Q0ZNaVQ3T2tZNXd4SEsxOHpaQTRGTlhvbVNqV1RKQlUyQjBManlJd01MM1J2T3ZkVVN0MHcyVC0xdW1weEhSUGR4eHJmb1ZiUXBzVTJ3eDBRWTY0c1d2VW81SzBickx1TGJZUV9aU1FzbmQwT1NSbExlek9PdU83NWtfdGlhOFl6dC1KQXpEcUN0UFJBVnBDOGNz0gH-AUFVX3lxTE55cU0xQWtDRnZlMGEtMko2c1FLRG81bjIzQ2ptZ25hU2xpVmRqcF9qbXFIS081VVNYbm0xaVA0Y1EwYVM3cG5UZ3R4VVFVQ0U1RFF0Z1JmOGw2cE51MVVkQVFvN1hTQzNNR0pyY2U1empJMGpuT3NjdDJ3YVhsUGNXa1R6ZU16MEF6TXlRWWE2WEtUcW4tcmlGY0FfTHF5bXNxblY4bm9LWHR5YlpVZ2tLd2ZESzJjQnBnZ1g1OXFyNG5hTVpFQkljLVZYLWkzM3h5UElxUEZ2WUNSaWV0U3FCRHg4Q0gtcldMcDQxVGdzdHZJTFhaalB2OENZeGlB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 25, 2026",
+      "text": "Live updates: Global oil prices fall to lowest level since before the US-Iran war",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 25, 2026",
+      "text": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOF80czFQcXBRYXkxVXBiV0lDaXJwVUIxLVpvcHMyckk5bEozX1dydW9nd1dtakVmR0l2ZEg1RkpLSXdBak5lRkR1VDlDaVBsVkdTXzJ3YmJycnMzaXEteEFZWTUxVmdFdmpmc2FEWEp0djRsc1BOMS1TVlg4cEZnT1A1OExOZkwzdXJIU0std0ZvcTR4V2Q4dmN0UkpwWllJcjJiSU1vamxaQzlmU2FhdDdORGRmSFpK0gG-AUFVX3lxTE1JbnpSb0c3N2hscW9FTkg1eHEzR2JrOE15LWRmTlNNZnZzUmI0SlNQTFlVdWxsWF9YSVpBdldzZTNfX2pDb1B3VENTcHQtNk1kYkNQOVZWZzRvc01aSUhiUm5waXd1aVJaLTEtVkZxa0RJMjI5S0V0ZlNkTHBic1p5Um5WQ29FNzRWNEFjb0ExU3JUMWhfVGF5a0dFOHFqQzVqMGVDdGVUWDVBUE5DNjE0YnMxOXNxZjlEcUtoalE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 25, 2026",
+      "text": "Oil price falls to levels not seen since before Iran war",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlQUl4cDBRTkNOYTJMZzdGeFNiRzBJOG5SY3BTM0c3YU45eXVSTk9PVUpmRmt4My12NzB3dllKLWJrZ01yMDB2dG9rWlg1SU14TEx1MHJjVk5MQQ?oc=5",
+      "hot": false
+    },
+    {
       "date": "Jun 24, 2026",
       "text": "Live updates: Trump again insists Iran agreed to more UN nuclear inspections",
       "source": "CNN",
@@ -54,34 +82,6 @@
       "text": "The Houthis Signal The Possibility Of War With Military Mobilization And Escalating Messages",
       "source": "i24NEWS",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUHVKRWphdFpmRV8zRUN5Tm50dUdNbFJabHMtLVRMNE8wR2Fma21yU3FVMFJOREwydGQ4Rm53OFJPRDZ0bG1LWC1iMFN3ZTEtZTVuRWpEejF0U1lQMmNMSjdWMHhsNDNHRHpaYVZoVUVvX3VBUkw5V2IxNlJIUnNndEp1UFVMTVVyOExxM3dvelREZmNiem5VT2Qzek9TRndsZDdVUjBoVWo0Rmx1Y0otSUNFVjFubGxpS2kxZEVEQ1U2UzI3ZXhxVlhNMWVMQl9fQ3dMRktlUzJmeVNFdHFudnhyaU9aNDVIcDI0eEdvZFlRUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 24, 2026",
-      "text": "Rubio Says US 'Completely Aligned' With Gulf Allies In Iran Talks",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 24, 2026",
-      "text": "Iran war live: Rubio calls Gulf discussions ‘frank’, Iran talks next week",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHdzZEtBU1pnbmd2RUZOcGZUQzJFdWx5RUpTNHR6V3lZX0lmemVhc1dvdEJweTRtckhJZUlaNkFXQi11dFlFUnUtaUpsLTQ5dzJpd2o0a0ctdHBsZ05aMkd1ME5yZVU3Y09xQTA3Nmp1Zk52SnNCYUJfQWlEMUk0WWE5M1JtaWNDc1ZDVDhGTzkzZW1fTFlTeGVCR01ENFctMGZBZnRrWVRXVTQxTXJGc1U3N2RpMlnSAbwBQVVfeXFMTmN4QzhzYzhkRFVWWXV1d1g2RTQtWFFUUVZzcHNIYXZYVFAxNDVwTEgyLUR2YmFyeHVnYzRkLXQtWFpkVGdyV2FyaHBRNHpoaVFFVnNDOVVTT2dfNHB1M3Y1S1ZacEZLa1BLVjZUZ3NoMDR4TVN3Z1hyNU8yS2oweTVSSjI5VzFFOG9RVVM2bm1vOUM4UFZ1YldwNmNyMGVlRER2d2tVbC1iNjdZRWN3T0ctTWNFVWlSVEl2QnI?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 24, 2026",
-      "text": "Pakistan Announces Fresh US-Iran Technical Talks Amid Diplomatic Tensions",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 22, 2026",
-      "text": "Shipping stalls in Strait of Hormuz after Iran declares key waterway shut",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk92UEtzMTNiY3lnUklHTnpqUXpNSm9RZy10enFxd3BYRk1ndVhkWllWd3VuSmk0bS1nQ2p3S2ZVbXRjSjR1MjRWbVcyZnh0bmV5ZDlJM1lhWU9WRVJUX2loMzNlY0xrQU91MzliXzV0eFAzU2QzVGVxNmRYam9heGRfdzNhN3M5S0czeEpReU5QOFhSSTZSVTJINW1sUTFSOW8tQzZXdmFnNlB6UWc2dU1MTzR2a09j0gG-AUFVX3lxTE1ad2NDOXVjVTU3WV9raHhwQ2laT01nRlZJLWFPZXV6OFN4WUhfR2J1Nm1kMnRoMkJRY0gtRm5FNGRiTlRQTkVvUURRaDVFb09Rbl9BMGh6a0ZfR1NWYkNxd25pajRxZVpJY3dtYnFHYkF1MVhpMkxIMHpmeGZvQktPTm1TWVBMV05lbjl1UldpeUFMZlJMc29CTVpIQ1RDSHlSbmdPVlNsYmpVSTF6RU1vQi1DRHNpb0FrQV9RRXc?oc=5",
       "hot": false
     },
     {

@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jun 29, 2026",
+      "text": "Oil prices rise as U.S. and Iran reach deal to halt attacks",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWJRcFBwNnR2cWRJVkJQb3VRQmJiNkI3cHR6X3pGWGU3NWp0YllOaDZUdWdvZ0Z5TldETFgta2U2WUR4Nnh0VEZxQXB0TmJpRWhlM1Y2M1hBSk5PSnFwWlktUGEtNEo4djBOdUlJVklqM1VaWEoxaXRPMnRZbllLNGJaTkh4WUtERUV6MUEzUHJET3lraXNVQjRhbEtFU2150gGmAUFVX3lxTFBZcmZVZ2kzRjRkT1IzYzRMWnBBX25SSklTTk43WXV2VnRQN1k0clNnOHp3YUhIN214clJOU1BONTlOVG1TRXlEMXR3UkpiVURPb24zVjJjblpJUkw4WTVpZ3U4ZnJ6MXNYbEpNcVJPNmVVVGw3MlBJU1pybWlqN3BjbTNzVFRUV3JxQXZxaVpEXzJiQ0NxeVlTTWJ0UVZVc1hTNkdNTUE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 29, 2026",
+      "text": "U.S. and Iran agree to halt strikes and meet this week, U.S. official says",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOckhYQlFEYzQ1S2MxdVVvVlg3U3RPemtZTVNNWV9HM1BJU2xSank2QXJHQjlDencwXzBvNkRzZm9sZ3JQbW14b1hUV3BKWkdPZG83UVJQNXB3OTg5enRaU2hkTUdVbWYyMWxvR3RKczZUUlhnelVJNlFPRnpfZFBHUUgzR1lkMEt1RklaUjV5SzIyRGo2Y0dlUnN1VExkaEFDWVRfSg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 29, 2026",
       "text": "June 28, 2026 — Fragile US-Iran ceasefire strained, Bahrain and Kuwait targeted by Tehran",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JcVZwTU9wS3YxN1ZZcHgzWTRxdHpNN2Y0UlRDS1dneHhWQWdWTTNibkUwMGJGTjI1N3ROQWFjSkI3MURHTTNCVXBCS2hDYzc5em51MjNYalBRQ1M0dV9ILTNlTF9CYzFYTzVfTGkyU1RXcUR2alZUbA?oc=5",
@@ -71,20 +85,6 @@
       "hot": false
     },
     {
-      "date": "Jun 28, 2026",
-      "text": "U.S. and Iran exchange strikes, underscoring the fragility of the ceasefire",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSEtEanN5a1QwZnVEQWxWM0dnQm5pSktIWS1iUHlPUjlWeDM4SmJZdkg4dXl6TFVPbktMckhVZTFlanVlZjdVeVZLQTlwdmZrVGFoQ0x3R3BrQkoyQXNLR1ZnVFFXamdIWXFOVzBhS2ltbkFVUERSalBXR2NvQVpvb21CbmJJOHpfX1NGN1lHMzN2dmljbWdrTUhCNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 28, 2026",
-      "text": "Escalating US-Iran strikes threaten interim peace agreement",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjMzVkxxSXh2OVNqNEhNQ0V3Njh5cGdkYnE4VUdwaE5xRU1hRzdvXzRmQXpNQ1NmdE9BbDAwXzBWa05KbnlDU2xLRVRiY2NpdWN1T1RFSk16cHBjSlR6Q3lER1FNblpLd1ZJRlU1QmdTejNpTU12NGxYenRWRlB3aVREX21RRVdwaXkxdVBvM2doTEdZdXpJRE9kZVNMS01WZ2xfU2U1cVk?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jun 26, 2026",
       "text": "How Iran Devastated an American Naval Base—and Caused a U.S. Recalculation",
       "source": "WSJ",
@@ -92,17 +92,17 @@
       "hot": false
     },
     {
-      "date": "Jun 26, 2026",
-      "text": "Trump Threatens More Strikes on Iran’s Kharg Island, Pushes Allies on Strait of Hormuz",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEJkYjV5SWxuU3RxOUo2eHR0ZklpbDhsenVUMXdNNlhmRDRJTW95MVB2LVp4c0VHdWpPaFRRS0JLcHVtM0pyTkdZWUp2bU5aZ3R6enFxb3FRUUQ5SllCNEs2bkh0WmZObjFZT1NPQmswM3lGQThGUEVIdVBUeHZEeTBhcUZxNlpNa1htdW9IeG5PMFZjMFdVMzFHRHFhU3BweWdaS0phNUgxWUw2Z3N3WTlldFh3QQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jun 24, 2026",
       "text": "Another Hormuz? The Red Sea’s Threat to the Global Economy",
       "source": "Council on Foreign Relations",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVGJwUm9MbzR1RUREblM3dEQxcEVsSG11NGVPN1JTczJwY1JhNlIwaDE4MVFrTWo2WWZ6RTI0SlBwNGNEV1pjWlJPZmZLUHZpd3RpWjJZWnJRdlV3akNLR2lrS0N0VlFPRWg5OHc1bVhFdWE1NUhzQW8zRVRVdW1fd1J0bWxtdGFTeVNCV1RR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jun 11, 2026",
+      "text": "Taking Kharg Island would pose risks for US troops",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeVptY3pRQnZwZWticGdhV3dBc0hmZzlvanVBdXp0MFlmcVFDNWlOU2NubENld21zOXhRSm9IUWFFOUgtTWhGaDdaM180b09nN014V1Fnb0VuTDcwNVp5MWxxOHVoWVRqLVZWWGxuQ1luNEZ5LUd6aUtQcGEtTGppMWpXV3VjUVM2dFF3ZFRWY3FTTHlWSU5LNnVhNkxrNWVBN2M1S1ZhcmNkTG1jcmtTQzhjOA?oc=5",
       "hot": false
     },
     {

@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 01, 2026",
+      "text": "Exclusive | Trump Briefed on All-Out War Options in Iran but Opts to Stick With Talks",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDJ0Sk0yaWZoMEZHN1A5TEdPNXRwcmJuU2xvT014bllhdFp2dFZFY1VwOWhLRk5uaHRUSGpvRE05em12enVBOGduY1UwMFpDWmNJMTNFSUNlWFNwbWJva1JXQnE0ekhYVW5zdVE5cjdlbXpkQnhhYmxZNGZQVkowSDNQYTlpdEdsa3NLeE9xZHdQOVlsYy01V3lXdUF6OXJvdmJud3NGU3JvS1EtOXJMYktlOHYtN2tHNGxmaQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 01, 2026",
+      "text": "US Navy deploys another group of ships carrying Marines to Middle East",
+      "source": "NEWS.am",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9WMjRjczBjelkyN3RDeE9Ublpjb1ZMazIwRk5BMGRXR2JFd0NqcXZIWG9rbW4zX2RkU3RWUkZra2NQNm0xdUE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 01, 2026",
       "text": "Iran attacks prompt US review of Middle East military presence",
       "source": "Muslim Network TV",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMmJIR3Bsemp0NjFJeG5IMWxrZkViRVRoQlB2S1lDNHUzNWdUMUZLQlVUVHFYbmpMOFBBSmlWMjlEZEtFX0tKY2VNSVZVYWQ0dGpnUFVqVnc3cTdBVG1kaEFzM3o1R2ZiOTFhVW16eXpOLWpTVnp1WFhwb3Z6U1BsMXpva3FKMmRJX1lKUkdYbGw1VVRNRWgw?oc=5",
@@ -71,17 +85,10 @@
       "hot": false
     },
     {
-      "date": "Jun 30, 2026",
-      "text": "Iran to hold talks with Qatar on MoU deal with US, frozen assets",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXhtX084dWxMeVZmUGc4SklRcG41ZU9RYlJUcW4tZXIwRmdISElvWVgxWlE5bi1ycnpHc0pvSl9JLVF4eWdQU241dmdzQ2Itb1JGd21STS04VkFpVTBtVGFUckgteEpNeC1jNm0zdVdxVGZ2MnR6RmFTejJXTXBtMDVzUEVKcEpPV2xxUV9ZMVlTeUZnal9qeUxJTm9zQ3pFTXNmOVJDRUpQU3dEeXFmcTlqWm_SAboBQVVfeXFMTUItVWQwWHRXaDFnN3drLVBJUkx3YUx2QVVfeVZhcXNrTUtwQ0MzOWFvcU1LbzY4Q1lpWDNLcjFoOVV5WlM3d2tIWE8wN2Yzc1NMTENTcUFxc05UN256OUZwS1pZcXdSX2VCbkcyNm1XZTExT2ROeVlVV2xORUh1SWg5YnllMnNqRHpBR1Rrd0xZdEp0R0R5cl9Bb1l0M0JxSXFOY1lPQjl2S3VOZ3RfZDFQTmpIMVR0SnNR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 30, 2026",
-      "text": "Commercial ship traffic through Strait of Hormuz rises more than 50% over past week",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTzVCdHd3NUIzazVuOVdLcWtScG9NZUJnYTBtU2dteksyX0NJZTlra3JIWE1yLVZCQzFpajk3VEE4OC0wZDZncnFQdy10dXVWSFM0a1dkUjYzYm5mbDBjYndpNGM3NUFMSVVFaV9nazltVEVGS0EyN2pOTXhMbngwMmE5amppMndJZDBqc0tkYURfbmtzWGVUZkgwbmlrOTF4T1BkVTRFc1NGdngwVDdNYXVtZUtzS2hfaV95blpR?oc=5",
+      "date": "Jun 29, 2026",
+      "text": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWJRcFBwNnR2cWRJVkJQb3VRQmJiNkI3cHR6X3pGWGU3NWp0YllOaDZUdWdvZ0Z5TldETFgta2U2WUR4Nnh0VEZxQXB0TmJpRWhlM1Y2M1hBSk5PSnFwWlktUGEtNEo4djBOdUlJVklqM1VaWEoxaXRPMnRZbllLNGJaTkh4WUtERUV6MUEzUHJET3lraXNVQjRhbEtFU2150gGmAUFVX3lxTFBZcmZVZ2kzRjRkT1IzYzRMWnBBX25SSklTTk43WXV2VnRQN1k0clNnOHp3YUhIN214clJOU1BONTlOVG1TRXlEMXR3UkpiVURPb24zVjJjblpJUkw4WTVpZ3U4ZnJ6MXNYbEpNcVJPNmVVVGw3MlBJU1pybWlqN3BjbTNzVFRUV3JxQXZxaVpEXzJiQ0NxeVlTTWJ0UVZVc1hTNkdNTUE?oc=5",
       "hot": false
     },
     {
@@ -103,13 +110,6 @@
       "text": "Taking Kharg Island would pose risks for US troops",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeVptY3pRQnZwZWticGdhV3dBc0hmZzlvanVBdXp0MFlmcVFDNWlOU2NubENld21zOXhRSm9IUWFFOUgtTWhGaDdaM180b09nN014V1Fnb0VuTDcwNVp5MWxxOHVoWVRqLVZWWGxuQ1luNEZ5LUd6aUtQcGEtTGppMWpXV3VjUVM2dFF3ZFRWY3FTTHlWSU5LNnVhNkxrNWVBN2M1S1ZhcmNkTG1jcmtTQzhjOA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Mar 20, 2026",
-      "text": "Thousands of San Diego troops deploy to the Middle East on USS Boxer",
-      "source": "NBC 7 San Diego",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXo2UFM5MldDcVpFZE9nVUo2UjdQMlRUUVY5WEhqZzVFNHFyTjFtb3p3bWZ1REVmUlhfN3VVNTBxTDZzNVFWUmlXYTlTSXRZWm1WejRxTzZnWHdzaWlmTU1ZaFpFZTByNlcydUFUUkRHbkxuQUx3bWVLdEhpYXFTTGp3YVRWeGV3MWdvUHdRMUVFWGxLTy1POFV0S3NoMnVvaUNFS1FlZFR6VHFVRTY5cDM2cjFlZWPSAb8BQVVfeXFMTUpraW5URmxabDNUNHdYVllEZUdKMnh2TWlOSHZfa2lkSVBEb3ZLMjUtM0szNndkLWQzSDNtRHVOX0p4R0h5LVRPMTlsTXl6NG82aG1hbHVaMjdCT2loSThjUnQxalBIbm5VcVI3RFdJSE5wMmZwNnh6VWZOb3ZDUm82LUU0aU40ZDhMNW1qUkFJdXRnaUFUVUtlTFhfM1MzSGg3V09zUHdYc05OazJ6cFRvNlJBLTZZMXgxRm4yVkk?oc=5",
       "hot": false
     }
   ],

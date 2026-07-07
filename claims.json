@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 07, 2026",
+      "text": "Strait of Hormuz: Iran attacks three ships in 24 hours, U.S. says",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tbGNnLW5qNTl0VDktckZlNFVidXJyTFNIQ3hxZnU0V0ppaHpQTnFxOHdOcHRqdVNGZHMxNkxsRTFYOEF4UGFXNFZTUl9oc3JwRWJCZnZaWllYT1EyMm1kX1BUaWZ3cy11VU9zQndSdWRpN1RrZnVFNnhHOE1ldw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 07, 2026",
+      "text": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aQ1paTFppWWhOQ1g5RXF5WDZLZndBZWMwa2JSdWwxZlluZXd4TXdTdUZFeUs5dXhPWmFySGlsY1BIUmxaZjg2RFNTX2gzeTY3UXExN1d0QVZfclhwVEdBNUZ5UWNDTmRMVlJUQUFMMWFJWW930gF6QVVfeXFMUE9sUVFEckJOSEY2ZDJVSHJUa25VQjk1QzJCd1E1TmdQOVAzSzJDMnhxM0UxaExpM3hURE8zSGdFSmdHam9jZW9tRm44YU1salI4N0VWRW0zTWhDZXlMSDZIOVZESEgtUVkzeTlsdXEzNGtmTVc3UHY5N3c?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 07, 2026",
       "text": "Iran war live: No talks on a deal if threats continue, Araghchi warns Trump",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?oc=5",
@@ -71,31 +85,17 @@
       "hot": false
     },
     {
-      "date": "Jul 06, 2026",
-      "text": "Ships Are Moving In and Out of the Persian Gulf, Easing Oil Prices",
-      "source": "GV Wire",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWXA2WXJGMGNGdGFKM1FXSWJmamZzWG1OVUpYZGRGVmdVZHlFaTRtazZ5NXl0OTllTkJjbC1JLWlxMGNqVDRvZkpZUFBmam1TR3VQLW5PTVRLcDU3UDN0RDNtdkc1YnpzSFZBSGRyendONDVmaW9aQkFCVlU1cV9OVFRUVmo5em9LQzN4Ml83ajExdnltcDNHZ3A5MEY?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jul 05, 2026",
-      "text": "Another Aircraft Carrier Is Set To Depart From The Middle East",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTXliUWpaY19xOUVEYUdhWW5YM1Q0OEdTTTU1cUZsaWl3RjVLNV9TUUxQNDlIeE9oQndRUEVvakgxU2dSWktpeHBOdGFMdmlOTXhjTjN3aFZ6b1RfdGsxQ2YyaFZOaGxCR0NpcjlhektHS3R5YU00VjBmdjZiVS1feV9OOFVfRnp4SlFDQnl6S1FzcjNTRkUtOEdqRlNCdEFYemdCVTZJMmM4X2dLNUFmM0RSZ1Q?oc=5",
+      "text": "USS Boxer amphibious group with Pendleton Marines arrives in Middle East",
+      "source": "Times of San Diego",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTRFNE45WnJUSm5kcGR4T1d6N1h1MWhpU2JtcVJpUFM2QlQtal90dGRKQ3V3WWxuT1huZk5hY1BCcnVoVzVRamhqUExpaUEwWkd1cjJOSHp2RW9XZ2VIQWxJMDFHYWJjcElXd1dWUl85WTF3MjhUN1lTNG1sMFpkbk9yMlVQMmMtRW9BWmtzSG9idGhWT2Z2RlJXVDV1Ui0xX2VsSkNZakxoVEI3c0lLUEJR?oc=5",
       "hot": false
     },
     {
-      "date": "Jul 02, 2026",
-      "text": "Iran War Updates: Trump Puts Off ‘Final Determination’ on Iran Proposal",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4amRjY21ZdVRYa29sT1IwbS1fX2VZMjFCenhMNmRqc1BMUDcyVXZKV3JGOWpBYnFlYlJ2XzhjVXhNVThSUU5FX0dIbEc5RVBJQjcxVTkwYU9pS1dBX0t5NDhOcTFtTEk1LTZEaHgxLXdWMTU2Q3dJ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 02, 2026",
-      "text": "US-Iran ceasefire and nuclear talks in 2026",
-      "source": "The House of Commons Library",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mendkdnFhcFlZbEJjUlI5TnlCRVdvZlJmWEdIT29KbEotRjA2ZHNCWTFKNDZFcDk2d0R6SHZyZnFoWVMxT0FjSmhCLTZ5YV9ZMjdoam1Ld0xXUFJlODg5WkJBVFJNVUt2ZEFRelQ5cDV5TktL?oc=5",
+      "date": "Jul 03, 2026",
+      "text": "USS Nimitz: An Aircraft Carrier’s Final Journey",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN2lrM05MMVh0OGJSWnVjNjJiRjBrdUhFSkZJb0NIYlBzQXBFZTNVMmdkdTZncmFhZ2RxcnVodjRCNzhicllOckwtU3R4dThmaHppaDhQNVNrTU95V0RMVUpEalllUS1ZblhoMExnMC1uOTRlMUx3WF9RUFN3NTE2RlU3Nms?oc=5",
       "hot": false
     },
     {

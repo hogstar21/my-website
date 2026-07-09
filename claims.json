@@ -8,6 +8,34 @@
   },
   "breaking_news": [
     {
+      "date": "Jul 09, 2026",
+      "text": "US launches new airstrikes on Iran and Tehran fires back at Gulf Arab states",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 09, 2026",
+      "text": "US launches strikes on Iran for second night, as Tehran targets bases in Kuwait, Bahrain and Qatar",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMXIxUFdtaTVQaE1MQzVoNzVRUXZQSHhRZDFGUDZxZGtEUDF3QXg3V0VkWWhHdk5WZFFTa190c3V1REdaYUZPOFpFc1NvSmZsdnZSZQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 08, 2026",
+      "text": "US and Iran threaten return to war after fiercest exchange of fire since truce",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONlRxOVFtRHI1U3pmLWdYVHJoR2lMS2xZbFlFMzVjdzZUMXMwdl8ycXhGaTNsSEphNUxjbnZTWS0wNHN5ZjJfMEU0dmZrdEZvYU9TY1NPN0hBeTNWQ2h6Q3BaX18xd1ZRSDR0Q3hXS1NNWkdQc3RwZnYwb1h5bjdiVDBCWVpZSS1peU9zNk9jUnNnVFZNei10Z2hpTEJJb1BDSzNNcTg4S2xtbWNK?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 08, 2026",
+      "text": "Houthi Officials: We'll Set Saudi Arabia Back To 1930",
+      "source": "MEMRI | Middle East Media Research Institute",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcU93LW9tQ19sRklPU2M4NHEtZkhRc2tvMUdMbXJ1NFdvZ29SZzNDSHdiWnBOQUZxcTlCQ3Z3ZXJ4d2gyUmdXeGh5aUNyM2x3QzllNUFOSjRzZzNhLWVlSnprSXNUbm4yVlI3cUtGMXFKRk9sREd5YkJvYzN0c2duY18tbzk3TTlxLVZ2blprN2sxMDlGTWdwRk53eE1Ka29zbmhBM2RxLTh4OUM5X0w5OS1PbTIwclVS?oc=5",
+      "hot": false
+    },
+    {
       "date": "Jul 08, 2026",
       "text": "Iran war live: Trump says US may ‘de-nuclearise’ Iran ‘without a deal’",
       "source": "Al Jazeera",
@@ -78,24 +106,10 @@
       "hot": false
     },
     {
-      "date": "Jul 08, 2026",
-      "text": "Live updates: Trump says ceasefire ‘over’ after US and Iran trade strikes",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 08, 2026",
-      "text": "Iran and US trade fire and Trump calls the ceasefire into question",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 07, 2026",
-      "text": "USNI News Fleet and Marine Tracker: July 7, 2026",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ3dEWFBRUlJKd3AwaVZRYllOV2J3T0VhOW1qZVVqQ01RbS1qRVk2VktOUFZyNERqUC1odTdLRVdNWEdyUFVadU44aE1zUE94OUk5bndzUURKa0lraGpMcHdFVHJkQmt2OFJoSXZocVZxNGJ6XzBTRWJNX0ktSDhQV2VsUXRtUQ?oc=5",
+      "date": "Jul 05, 2026",
+      "text": "USS Boxer amphibious group with Pendleton Marines arrives in Middle East",
+      "source": "Times of San Diego",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTRFNE45WnJUSm5kcGR4T1d6N1h1MWhpU2JtcVJpUFM2QlQtal90dGRKQ3V3WWxuT1huZk5hY1BCcnVoVzVRamhqUExpaUEwWkd1cjJOSHp2RW9XZ2VIQWxJMDFHYWJjcElXd1dWUl85WTF3MjhUN1lTNG1sMFpkbk9yMlVQMmMtRW9BWmtzSG9idGhWT2Z2RlJXVDV1Ui0xX2VsSkNZakxoVEI3c0lLUEJR?oc=5",
       "hot": false
     }
   ],

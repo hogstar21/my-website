@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 12, 2026",
+      "text": "U.S launches heaviest strikes in month after Iran declares Strait of Hormuz closed",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUNEd2J3SmxCOVdjblNITm5abTREZkJaOXZIRzFNTWFLaTV4aTBsZnB0MXllclhjQzRZb0ppYWZObmIzeXJ5SkNNNU1QalZPRTZEdFo4Qm1tMVFzSi10YXN4aVMxU2gyOXhhTFE5RE9DUVJLT3JPLXV6OVJ0S3FrTm9jX25HUVJFSmNDZXE4eDZGZ3RVemc4enlVUlFncDh4MXZLUUdWVVpVazc2?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 12, 2026",
       "text": "Iran war live: Tehran attacks Jordan, Gulf states after US bombardment",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?oc=5",
@@ -65,23 +72,16 @@
     },
     {
       "date": "Jul 10, 2026",
-      "text": "Iran updates: Trump says agreed to talks with Tehran, but ceasefire ‘over’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?oc=5",
+      "text": "July 9, 2026 — US-Iran ceasefire crumbles as fresh strikes rock Middle East",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tVUNDY3llSC1wa1hRUi15OUI5Q1hHdDBVeFAzdDBGejVYOWNfRlc2cUhmRnpQcEZBZU4yLXBVNlFnNWFlN3kyMUpUYjJxVGs1b1VaRHJsZEEwb254RzFPSU52ZGlNc0VwbzFHbHF3?oc=5",
       "hot": false
     },
     {
       "date": "Jul 10, 2026",
-      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 09, 2026",
-      "text": "What US Navy Aircraft Carriers And Assault Ships Are In The Middle East?",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUpIZzFwTmZSS0VxZHVYZVFjTU5BLVlSdE5QUEFyc1dOUk9HS1ROXzBHQ1kwZngxM2NkUjZDeXFKdTk4U01oR3BLMzFIdk1rbzEyaW56T1hMQ0FBYnJEYVlhdGc5TzUta2Y4Um9oNzhoMjRNdzNnRzFwRlN1ZDFGMEhFT2pvVWZtN0pYekNQTkpybTRsSkpmajZfSTBlRkZtRW9COXpJcXkydjlSdHIwUEVMQ3ZzZUNjeVlfOC1Ma2Q?oc=5",
+      "text": "Iran updates: Trump says agreed to talks with Tehran, but ceasefire ‘over’",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?oc=5",
       "hot": false
     },
     {

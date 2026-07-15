@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 15, 2026",
+      "text": "US reimposes naval blockade as Trump threatens to ramp up strikes on Iran: ‘You better make a deal’",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRXRFcUsyclY5MjMxYUpXMWNfSEd1bXRoODd4UWJycUFjSFZ1Y0pQTjdJVXd2MG9iUFlxSWRfTXEwRDBuXzlLUEFsTmItOXhTanl2d2t2dXE0T2E0dTVyak1nenFMaFl0UUZIX2RvbWh6OWFvbmllampXUlIwWVN5RS1PbnBkYXpGa05pQUUzSjNvZjlwWDhySnRrSXBlQmVBVjhXTVlyUUtmVDJDZ0ZLVVFqTWYtY1NzcWhOYW15cnh4bEFGOGfSAcsBQVVfeXFMTkZWT0Q1V3laNFB4X0dNQnpWbzNrdUNLaDlWSllFTEdNeUpubW9ndG9XV1BvQlFZbXBmcVBfMG5tX1FQOW9FWjh3UVEza3NOWWU4Y242Qy1uRktmR0ZJdmRkaC1BcEVMWklNVkNVbm4xeG5USWpaSmJLTWZ3eE0xSlpTRmpCNWlrQnpXZnlQM3IyZ1M0R0t2cXBRZWpGUGppMTJIZ3pocnIySXJ3cEtMWXhxY1Y3bXlKc0lVVk1ESFBBWFBrOWt0LVlpckk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 15, 2026",
+      "text": "Trump retreats from shipping toll in Strait of Hormuz",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcDVyZkVVRkMyMXJZdjZPTUpMSm9BNHk4WVZfV25FRndlMDVfbFFvSGlZX2kxNUJMRmlHSnUwbTk5MzlISkxSRWk5MDFBaXA0bzd3WEJDMkZnWm56cG15SEpHdlFEQmZSalpUckZMTHVDbHhfaEhhX1cwWUlZdmNJcm9MbGNXcHpFMXkxaEd0NUJQV0dkY21mZzVpcWZqTnNH?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 15, 2026",
       "text": "July 14, 2026 — US naval blockade of Iranian ports goes into effect",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mclRqN1M1Z0RvTWloR0xWUE5tdlJLQnNuMjVQNnlZNVpSWWgyUmtkMDVodVBzU1RKTnVPbUt6MDJ2Q1B0QS0xeWR1U0RLRW9feEdpQU1CbUw4S3VmMy1PREVGbl9KaFhaa3RFQTFB?oc=5",
@@ -78,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Jul 14, 2026",
-      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 14, 2026",
-      "text": "Trump scraps his Hormuz shipping charge idea but presses ahead with an Iran blockade",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QQXhCN1ZGMlhtS1dkaktwR0lkTUxMenpNTGtBZjFudngySS00LUlUd0RHdy0xSHdVanN1clpBaS1vU1Qzbkc0RUo5bnVrQlk3RzBuZ1BPNERFMnFQZUpHUHRtWTNUX3lXYWhxeg?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 14, 2026",
-      "text": "Live updates: Iran war news; US and Iran intensify conflict, with naval blockade set to resume",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mclRqN1M1Z0RvTWloR0xWUE5tdlJLQnNuMjVQNnlZNVpSWWgyUmtkMDVodVBzU1RKTnVPbUt6MDJ2Q1B0QS0xeWR1U0RLRW9feEdpQU1CbUw4S3VmMy1PREVGbl9KaFhaa3RFQTFB?oc=5",
+      "date": "Jul 13, 2026",
+      "text": "Oil Prices Jump on Worries That Iran War Is Far From Over",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPY3NmMmctUnh2Wm5lWlJ3a19QU1A3OFZlUXNSbUtxcXlIZnEwT1JjS2pmWnd5bWdOeU1Ja0NBaGdWUXNWX19QWFlVSG5pQnRhVVlNRFAyNy1hYW9FWmZRSFo5TnlOdHRLX3k5OVpyTW5FdnBHSi1STm9DOXhSMkNpTE51QUVUNU5KcUtfRzRsV1hKZ3gya0pSSG5DRUk4dVdkU0liM29OUkY3c3gwcGJPODR0T3FXMW1zMnpQSUZHX3B5WnFLcThYYzFUVGNXTmFuYThqV1JvdmxkYV9iaGE2TW9aSXNVNFJINnVMWjJIQVBXb2l4b2Fr?oc=5",
       "hot": false
     },
     {

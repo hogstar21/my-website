@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 15, 2026",
+      "text": "As the US restarts war on Iran, is its weapons stockpile running low?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbmJPTkZYY2F2VkxhRS16dUVGOV95NXprUkFHUWdUWEpWTDU1aFZtMVNCc1pISGlHcGszLVQ4OTA1TEtyR1pSMEFIdDYydlVueWl1RDRmM0hmZm5uLV9BTXZhYVZFQjFxcjI0M1pGNnJmY1pDNzBrOXNoZUlsOE5YaWN2MXRmTXFKYzFkMlJKR3o2ZDN4VXlKaEc0U2VrM0w1WC0yUlkyUHA2M1R50gGyAUFVX3lxTFBmRVRlb0pMQXoxZll2Q2plYzR2aWZBbWhjaE45UkRaSlRxa2h0Nl9EMGNsR1g3dGd4c0RHOWY4RzVrZWZFRGpEdGZsQmZvYnRsWHczZHRpU0NpUFF0anNxUWFPY1U4NF93U0VRYmtfaWJjajYxc0JUU0FOckhHdFdEMU43QW8yaDF3ajNORlNkWm9sQ3U3YkprRVoyNnFDOERHZHhGaHJYemxPLVhpc244dFE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 15, 2026",
       "text": "Iran war live: US unleashes rare daytime attacks killing 7 soldiers",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWVlTLXZEcHJQTnhTMThIRmVQUGlPRk5vT1hNMmstLXNYXzZNWnlLUDJGQWJtUmI0cnlHLWFLZE1yMVctdW5RV0dSVmlWbVlvZFdSeTZrMG1ldmJvczFzUHRfbDlycEJWQ3M0SXlfNWtYZGZveEgzVzMxaVAxcXNxRXRRelpTelY1aXRyTUlHNlZGZk9qNnpNYVd1ZE9JY2RRMVo1eUd1ekliam_SAbABQVVfeXFMUHhaSU1rXzMyNHB2ZTJCbmR6REE5bUJXWDdWMzh6bHhHWnhlbGdlQ2JvVlFJTkVNamxheEU0TmNPR3gyT2syQ3prR0pBQkQ4eUVLcUVRd2x3RU9hb01UbTR6UGo3U3lnNTUxamNnTVRlbzcxaDh5cXBKUi1HUzRETzVjeFRfWGt2cE9RbzRRNndLYUw3VXBGeHVXZFJRLW1GMXNoSUFEQmxGSlRlLUtnRUk?oc=5",
@@ -86,30 +93,23 @@
     },
     {
       "date": "Jul 14, 2026",
-      "text": "After Hormuz, Iran turns to Red Sea gateway as new pressure point",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGg5NkVYV29DZzNPWWdfQnBqVkllT3BZYlpEMkZEb3JmODhYT0JYMVQ5SHc4cEZoMUh5bnp0TC1ITl9JZ1d2VmZ4T2dFcGY3TDVsUFJhbVdpa0w1LUdFM0M3WU90VXZFWnY4QkhyeUc3SmtlQkJYb05OUENvQWxwU2ZnTkVCcTZyRjh3UUtrYlhMVWMtTmVSTmlObnd1SEhsUk5uUk8tLUdEZ21faGhRc3J3?oc=5",
+      "text": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
       "hot": false
     },
     {
-      "date": "Jul 14, 2026",
-      "text": "Middle East experts assess latest escalation in U.S.-Iran conflict",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVzRaMGMwaGtacGx5cXFvQWdvNnRPV2VUdnM5RG5OdG1WUnl3OGRjOTdaQ3RBNklyR1JJV01DRW9ORnRFTTUtcHZvc2w3dlNqRHFCNXB4QXh6UDUyQlNTb19TbkJ6SHBhbEM0cGNhQzdxX29VWThzcWd4ejIwNGJJYjBLbWVEQU11aUhjNEMtcEo1WFNZZGVhN2Z1cG9DcUZP?oc=5",
+      "date": "Jul 01, 2026",
+      "text": "Another amphibious assault ship joins US naval buildup amid Iran talks",
+      "source": "stripes.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSkdxUkQ5UXVrOG1ZQ3FWZE5CNS1mRERrV3g0NzhBcUZpeXQxQ3JZaVo1dkg3cm5DYmdtakpicFkxX21nTmhPN21XOWhWZkRhYnE2N2h1ODZpN2M4amRuVGhtZ2ZJVVAwQWkzMlhnTjh4Yk1yRlZ4M24xM01QQW9Kdy1OQnRvS002UlNmNU9EWTV1TXRjdUhmbjYzdjEtY3E0UG9veDdB?oc=5",
       "hot": false
     },
     {
-      "date": "Jul 05, 2026",
-      "text": "USS Boxer amphibious group with Pendleton Marines arrives in Middle East",
-      "source": "Times of San Diego",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTRFNE45WnJUSm5kcGR4T1d6N1h1MWhpU2JtcVJpUFM2QlQtal90dGRKQ3V3WWxuT1huZk5hY1BCcnVoVzVRamhqUExpaUEwWkd1cjJOSHp2RW9XZ2VIQWxJMDFHYWJjcElXd1dWUl85WTF3MjhUN1lTNG1sMFpkbk9yMlVQMmMtRW9BWmtzSG9idGhWT2Z2RlJXVDV1Ui0xX2VsSkNZakxoVEI3c0lLUEJR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 07, 2026",
-      "text": "June 7-8, 2026 — Ceasefire falters as Israel and Iran trade worst strikes in months",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?oc=5",
+      "date": "Jun 08, 2026",
+      "text": "Iran war updates: Tehran says US seeking no ceasefire or dialogue",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?oc=5",
       "hot": false
     }
   ],

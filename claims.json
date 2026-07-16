@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 16, 2026",
+      "text": "Iran threatens to lash out at Arab neighbors as US ramps up strikes",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jTVhZd0FfWURfdTk2dk1XM0NKMDdlNG1OeW5FSVd0Y3lGTHJmcjBmRVllTGJPbjIwWkFKRUFVOF9uN0MyRUc0LUxrYWJWd1czeWtSZ05iVUxMZVpSOEN5Z1pVZE5CUjVTbDE0OHJISGtudmVtN2JOYnkyV2UzUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 16, 2026",
+      "text": "US launches new wave of strikes against Iran, military says",
+      "source": "Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd0NWdkhsTHE4cjdRekktbW93ZmtwZDcyQU1TbUZKeEc1c1ZPVWZCbkVFbU9HNW1QdHk4eVdQRWJXNjhmcXV2aTVrc3lGSnBBc1RicHBTcWtERjdXLWVYVW5DMy1XNjJhRTRPZDBzWGZzejltN2sybHB5d3liWWVWQ3JtQTY0T2RRaFJKbzJVSk9Hbmd4Yk55eXJtT01mUE1iUHc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 16, 2026",
       "text": "July 15, 2026 — US says new strikes on Iran aimed at protecting vessels in Strait of Hormuz",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?oc=5",
@@ -78,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Jul 16, 2026",
-      "text": "Explainer: Who are the Houthis, Iran’s allies in Yemen?",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlNacW1UNG02N1NsaVBTOTItamQweS1QSk1uRGdYZXNsOERtOXJubEYtMEF6Yk9FcEZEeDFTWXQzdDkxUENUck05ZjJqLXVJRklDQS1jcEd5dXNObFhkUmQtTTNZRU1DTU5CUExram84anBsTGhvVVJnSVZuaGlmMUNPWmt5NTloVXhWOS1fZ1JfQkRsdmpqWUVQR1prbHdoak9qQ2pyLXRtSUZY?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 16, 2026",
-      "text": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYjN5b0F1WEwzX0Y3RTFpdVBhc0JiN2M0Y3RRNHJBMlZHOTZWVThnYWdJUFdGVTRzdjh3dG8teEtCcFBtMXd3OE9tSWZvbGg1M1d2TWl2Yk5hWlNZQ2d5bl9ud3Zad3lhYjJkcFJaRGNsejA2ZnhWM1NfM3JKWFVvaXFBclBSOU5uYUJsZjA1NDBXdFhHNTRublNHcUotTlkxQVNXN2c0VQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 15, 2026",
-      "text": "Trump Leans Toward Expanding U.S. Military Operations in Iran",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVU1pOWZlc0haRHRFZW94VEpMSWVFSWszTkNodnpWdG1OaDRSeElLdXd2UGRVWC0tUGNvdWJrQzdhblBBVTlRbEpnLTBTRmhrYkNIVFZQdl9GbHZQUTIyM05PNENGc194QUtjNnhEbndGZUFRd3E0b2d0dTR0UTVoNFd3LXUwZ3pKR2xCQXhpUTN3a3NrNHVIQ3ZmWklrdUJ0Z09mQ2Zka21mR3c?oc=5",
+      "date": "Jul 14, 2026",
+      "text": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
       "hot": false
     },
     {

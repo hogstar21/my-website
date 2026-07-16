@@ -9,9 +9,23 @@
   "breaking_news": [
     {
       "date": "Jul 16, 2026",
+      "text": "US airstrikes hit northern Iran as it disables ship trying to run the blockade",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc0ZjN3ZmUVdvbVVLMXFrejJubVRQczZPdVF0QkVwQ3B4SkdNWERtQU5Na0NFWGdrZ0pjU0w1MC05SjhpOHRRVDRZY2lDQkFnRERXWGR6QmlIcV9LaDBQcFdhTThxejdyUDFVbDNBZVlfR0I1Vmg1U19HWERQbnBqUFJJSmpoM2w5VDNacHA4RWZSalpUQ0xwTEpKazJMeGM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 16, 2026",
       "text": "Live Updates: Latest from Israel, Iran, and Middle East",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95bW14bHlwVmtPM0lrT2I3X2NlU1BjaHdWQW5HSjFXc2tZTTR0X0hxQW1jUTJ0UGRMZjlydVlFVlQ4cnNJWmg2OEFpZlpXU05Bdjl0TDhWdHdCUC1YZF8zMHIwWXdtRVZiWDBlbFQ5RDQ4QmZWdEFWZlBDN2F3Nm8?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 15, 2026",
+      "text": "U.S. blockades Iranian ports, launches dozens of strikes as Trump seeks control of Strait of Hormuz",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVVHeHVNWkg5bTZGeW83dlJ0LVdxTW4wMGZVWktZTkpscWZYOWVmRVpFb3RGb2hsd2l3MV9aN244X3BfTGdtMnMzQXhnUHVNRHNDZU1HcldZVFpkWHgtMWh0a2lMRk9kVEVld3k3a0pyM3RhUzVHckdmWlFaQkpfQ29LWlZzRkxiaEQ5dWMyZzFTNklk?oc=5",
       "hot": false
     },
     {
@@ -78,31 +92,17 @@
       "hot": false
     },
     {
-      "date": "Jul 15, 2026",
-      "text": "US launches new round of strikes against Iran as escalation threatens shipping",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUFEyN1NxTHNCaG5RT2lOTWY4WWxWd1JQUGpLdV8wY3J0RVp3RmZaN21hcm9YX1A1TWdYc3RMU3BKNV9rd0tqdnM4SEpmamFRLXJIU1NvdnhUYlo5WDFnb2dPY2JfZU5HXzBMR184ei1kSS1zeUthWmltb1VzZWhOR0lCX2FlR0NXSGUxY0gxbVJTVkw2RFo5NnZSVXFhcGYxOUhOS1BJU2gza3VYY3VHT2JEWVV2VHdCdDdmeTRyOElucVF4Mk9r?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 15, 2026",
-      "text": "Live updates: US launches new attacks on Iran as battle for control over Hormuz intensifies",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jul 14, 2026",
-      "text": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
+      "text": "After Hormuz, Iran turns to Red Sea gateway as new pressure point",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGg5NkVYV29DZzNPWWdfQnBqVkllT3BZYlpEMkZEb3JmODhYT0JYMVQ5SHc4cEZoMUh5bnp0TC1ITl9JZ1d2VmZ4T2dFcGY3TDVsUFJhbVdpa0w1LUdFM0M3WU90VXZFWnY4QkhyeUc3SmtlQkJYb05OUENvQWxwU2ZnTkVCcTZyRjh3UUtrYlhMVWMtTmVSTmlObnd1SEhsUk5uUk8tLUdEZ21faGhRc3J3?oc=5",
       "hot": false
     },
     {
-      "date": "Jul 01, 2026",
-      "text": "Another amphibious assault ship joins US naval buildup amid Iran talks",
-      "source": "stripes.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSkdxUkQ5UXVrOG1ZQ3FWZE5CNS1mRERrV3g0NzhBcUZpeXQxQ3JZaVo1dkg3cm5DYmdtakpicFkxX21nTmhPN21XOWhWZkRhYnE2N2h1ODZpN2M4amRuVGhtZ2ZJVVAwQWkzMlhnTjh4Yk1yRlZ4M24xM01QQW9Kdy1OQnRvS002UlNmNU9EWTV1TXRjdUhmbjYzdjEtY3E0UG9veDdB?oc=5",
+      "date": "Jul 05, 2026",
+      "text": "USS Boxer amphibious group with Pendleton Marines arrives in Middle East",
+      "source": "Times of San Diego",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTRFNE45WnJUSm5kcGR4T1d6N1h1MWhpU2JtcVJpUFM2QlQtal90dGRKQ3V3WWxuT1huZk5hY1BCcnVoVzVRamhqUExpaUEwWkd1cjJOSHp2RW9XZ2VIQWxJMDFHYWJjcElXd1dWUl85WTF3MjhUN1lTNG1sMFpkbk9yMlVQMmMtRW9BWmtzSG9idGhWT2Z2RlJXVDV1Ui0xX2VsSkNZakxoVEI3c0lLUEJR?oc=5",
       "hot": false
     },
     {

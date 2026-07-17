@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 17, 2026",
+      "text": "US and Iran attack infrastructure, raising fears of escalation",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRW1QZlpEY3pwOHJJaDF2S2JVZG81S2xuakhndThpb1lLREpreFBCRW1TWTlZeFBGTFRaUER1dWRUU2FlaDlYTU9Yc0hzY3Juby0xSlRxN24yMGZvQ0ktN1NYcjVtZHc5a3F6UXQ5Qnc3aWNDNV84MV8ybWkxemptWEtlS1plM0kxQVNoM3A5RkpkUlZGSEtYbVVTN2RtNkhwc3VWZThNazhDTGpt?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
+      "text": "Satellite images show damage inside Iran’s Bushehr nuclear power plant",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDJHRmloc0pKZTRLSWoxTUI3ekNwQkZ4RjBqNHdVWmdUMDNOYUkxN05pZW5kTVI4dVlramx5XzdGRTIzUER2WmVKTEI1RU9ncEx2ejlBc1FVRU1zOThKc0FnZ1RiUzhHbzRfcGp4bVBFSUFHb3pUaTFhU2lpRzZRSDRXYjlCSFhNUTRLSFlIT2Y2eU5od0VhTlN0REVMRkk2NGk0UGREanFMZWhaYk930gG0AUFVX3lxTE9GZTlyaU1VR2ppWF9xLVJDa2p3UWpqeXZrTnQ3YjloczJFejdqaEozcGJDaWVudnlhSXFTYzh1QjM2NDdZdjA3RGY4cVFlY3VFd0JDRDUwaDF2bFFrRVdGcTltRlg2TmpkR0NvelJfZHZoTnRDOHc4a2l0SEYzb1RCOThUaFJiek5BZ1EtaWhacXBwU2lpb29nRllfcFUtUkQwQkpmaFNaSUN2elpWZ3QtR3FWUg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
       "text": "With ceasefire gone, the question rises: Will Iran war ever end?",
       "source": "The Christian Science Monitor",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zeGlwTDFURm9PM2dpQU0yWWY0bHVrVmpKeUlTT0U1dTFlaTRuSVBRU21CQmhyQmMxdld4YzEtUm1DRExTVk1VekhtOGFsYll6WnNweEM2Ukw3bVBWa3FXem1qejhLME5laDFXUjlRYmQtbDFKWHdNSHo4SdIBlAFBVV95cUxNYXQ1SFVLUVhXNXNweWpSZ3dYQ1RLWnhHSHhQWjRaNVFFRmw4ZnJsUER5OFVpUDExTmY0T082d1pNNkIySnNqZ3JLV09Wc3BfLUFZNFJEZ2U3dmFtZlloMGpBSU5IMi1nV09WZkZ2NUZlaW9KUk9sc3kyQWxuQXFpVGlXVm5RSjRmUXRpX2pXUWhNYTdI?oc=5",
@@ -71,31 +85,17 @@
       "hot": false
     },
     {
-      "date": "Jul 17, 2026",
-      "text": "US attacks southern Iran, as Tehran hits Gulf countries: What’s the latest?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTFnRml2MU4ya1M2Z3lhU3FoaFRNbE56LVA2VzVnMlVsd2lTUllEa3BzTWdHUEktRkxmbGlTeDZ6U2h0eFJObWdGZW9iS21SaWRhaDlrQUVLN0FsY19jX2JmaFdYckd4aXljQWVQMm4xNWZaZklVNG9McDkwbTBGVnc4Znp4azY3VW01QjkyYnNpRTFfSEc3SkoxM0ZJRjdhUmhtSWZGN3l2alo5UFZrZ01R0gG3AUFVX3lxTFBoS1ZZaWFWcjlZSHI1Y3dqT21LMmd2VVZWcjNaSzUzLWJmRm10RndvUGRWZnN6UUdqci0waE1ydXlIVEZHZXJuMEVaTlFfQlh2TnA3TmZpdE1hTmJGRjNoZEQwc3E3U0E3Sm52RXBRU1A4U05DcElaQVh2RC1xS2VfdGlma2pHTmZ0TktjckhyaVpESDNmaDZFanlveTdGTWlRdGZTWEtOeHFJX2pWc3R0cjhoRm1Zcw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jul 16, 2026",
-      "text": "US airstrikes hit northern Iran as it disables ship trying to run the blockade",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc0ZjN3ZmUVdvbVVLMXFrejJubVRQczZPdVF0QkVwQ3B4SkdNWERtQU5Na0NFWGdrZ0pjU0w1MC05SjhpOHRRVDRZY2lDQkFnRERXWGR6QmlIcV9LaDBQcFdhTThxejdyUDFVbDNBZVlfR0I1Vmg1U19HWERQbnBqUFJJSmpoM2w5VDNacHA4RWZSalpUQ0xwTEpKazJMeGM?oc=5",
+      "text": "July 15, 2026 — US says new strikes on Iran aimed at protecting vessels in Strait of Hormuz",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?oc=5",
       "hot": false
     },
     {
-      "date": "Jul 16, 2026",
-      "text": "EXCLUSIVE: Iran tells Houthis to close Red Sea gateway if US hits power network, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNnlkS245LVFESkFHd2V1MjVwTjdoSm9ZZmRWTlRUZ0dBdkN1VlRPUHU0ZXZLbjNVWGVIdGxldS1uVi1TOFctd2VXQy1jeXRmLWhyOVczWmpaRVY1Ml9sVWQ2N3ktdE5iRUNOcTdaWnZmNzdzT1M4NG1jMkNIeFVaa05YSHhRdHZYQ3BDS3lnb2pkYmFpYS1NR2E5WHBuOEFsTWljaDNsWGVqZ1VKSFlaNmd2UkU4aE1Xa29XeDNVcFdZZnh4bjFSQ1NuUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 15, 2026",
-      "text": "Trump resumes Iran port blockade and threatens strikes on energy targets",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1NVbmwxanV3R25iWTRkMnNoY3hRblJYYVdDTU9FSGVrbDJkRDlNazBlbGV2MjBUYlNDX09Mcng5Vk9BdGJRSEIyNGdXdzlZOFV4aTh5N0xBSlB4WklnZ2VvUFc2WENOalA4Z1p0djZXVmFzV3RpMklJekp2U1JYbmxVREk4bTFtR19jQ2pJVzJkQU0xWmtsZzhBOHc5UkYtMGtld1RYUE91ZE9nNFQ5MTdvT2xxY2xoVjdzX2JqMG1uYy1IRTJz?oc=5",
+      "date": "Jul 14, 2026",
+      "text": "Iran Update Special Report, July 13, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnJyek45QXJQSUozQ2Z4OU0xaXZWOHZYejJuZ1JkaVVYU0tEWW8tcUJxb1F0WnlDbzcwV3hYT3BLb2RRZHRtMEZQdng1V0VKNEpscFRaZkFLWUNONV9ZR29mQzZIWDhGQk5KV09BNnIycTNfeW42ZjhiQVZUelNTM0o1bHl6VHJGcDNLSExnOG5OUVhY?oc=5",
       "hot": false
     },
     {

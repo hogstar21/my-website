@@ -9,9 +9,30 @@
   "breaking_news": [
     {
       "date": "Jul 17, 2026",
+      "text": "US hits more bridges in Iran in an expansion of its airstrike campaign",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYXFnZWtOU1NXb01HY2FxbTBsUmJqNDlaa3NORmpyZ0pYVzhSVFZkaUNYTjczY0E1YjhpR1F1OGRoT3dJNnVTMjVuUGJyamVCckJwMi1WY0hJR2NyVGQ0ZDdzbF9LMzgteGZDRGtMd0ZQV211YWF3cHpYLWdhTXZjTXVhTG1zRkRmR3Q1NVdQRWNEb2xhZU0zRTFodmM4ZXc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
+      "text": "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMFU3ZksxNFowRUZpTWUzYXctRndpT0pyS3J5dGRRY0lRTVg2ZmYtYkdHaGZtbTBLcVE5RkplRklBVU1jSE5UZF8zNzMzQS1mam5TYXV5ZFFtWkpkQVdyX3pzbFNWTjdFWVNNUWViRnpHdnpNZ0E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
       "text": "US carries out major strikes on civilian infrastructure in southern Iran",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlcw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 16, 2026",
+      "text": "Coast Guard Ends Middle East Mission, Moves Cutter Squadron to Western Pacific",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS3dUNXZnRFd1d3ZSUlBEaldTYjVFUW9YdThDQzRuNnZtdXl0U2JUNTNGYnBoWkkzdVlqWWw1OFJhZ1RYLUc0WXpSTVNaRGRhbVZkQkg2WjVob1BzSl9odmVIbm5IdnhnSXdISVZtU0FoUDExRTVzdWR1OHA1bnJlRFFadlp1bkp3dHlyX2g2OVdac3BnaE50Y2E5N0U1SkdFREZzRHNwQUs0WGZBd3ZF?oc=5",
       "hot": false
     },
     {
@@ -71,24 +92,10 @@
       "hot": false
     },
     {
-      "date": "Jul 16, 2026",
-      "text": "July 15, 2026 — US says new strikes on Iran aimed at protecting vessels in Strait of Hormuz",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 16, 2026",
-      "text": "Iran War Live Updates: U.S. and Iran Escalate Attacks, While Hinting at Diplomacy",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMFU3ZksxNFowRUZpTWUzYXctRndpT0pyS3J5dGRRY0lRTVg2ZmYtYkdHaGZtbTBLcVE5RkplRklBVU1jSE5UZF8zNzMzQS1mam5TYXV5ZFFtWkpkQVdyX3pzbFNWTjdFWVNNUWViRnpHdnpNZ0E?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 15, 2026",
-      "text": "Trump Leans Toward Expanding U.S. Military Operations in Iran",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVU1pOWZlc0haRHRFZW94VEpMSWVFSWszTkNodnpWdG1OaDRSeElLdXd2UGRVWC0tUGNvdWJrQzdhblBBVTlRbEpnLTBTRmhrYkNIVFZQdl9GbHZQUTIyM05PNENGc194QUtjNnhEbndGZUFRd3E0b2d0dTR0UTVoNFd3LXUwZ3pKR2xCQXhpUTN3a3NrNHVIQ3ZmWklrdUJ0Z09mQ2Zka21mR3c?oc=5",
+      "date": "Jul 14, 2026",
+      "text": "Iran Update Special Report, July 13, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnJyek45QXJQSUozQ2Z4OU0xaXZWOHZYejJuZ1JkaVVYU0tEWW8tcUJxb1F0WnlDbzcwV3hYT3BLb2RRZHRtMEZQdng1V0VKNEpscFRaZkFLWUNONV9ZR29mQzZIWDhGQk5KV09BNnIycTNfeW42ZjhiQVZUelNTM0o1bHl6VHJGcDNLSExnOG5OUVhY?oc=5",
       "hot": false
     },
     {
@@ -103,13 +110,6 @@
       "text": "USS Boxer amphibious group with Pendleton Marines arrives in Middle East",
       "source": "Times of San Diego",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTRFNE45WnJUSm5kcGR4T1d6N1h1MWhpU2JtcVJpUFM2QlQtal90dGRKQ3V3WWxuT1huZk5hY1BCcnVoVzVRamhqUExpaUEwWkd1cjJOSHp2RW9XZ2VIQWxJMDFHYWJjcElXd1dWUl85WTF3MjhUN1lTNG1sMFpkbk9yMlVQMmMtRW9BWmtzSG9idGhWT2Z2RlJXVDV1Ui0xX2VsSkNZakxoVEI3c0lLUEJR?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jun 08, 2026",
-      "text": "Iran war updates: Tehran says US seeking no ceasefire or dialogue",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?oc=5",
       "hot": false
     }
   ],

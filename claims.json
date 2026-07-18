@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 18, 2026",
+      "text": "U.S. and Iran escalate strikes across Mideast",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fLS1XRGYwTGdYR0Z1QmlXYldBUEpkUzAzcVluN3hoa3hFR1FldjlZVUhLUHUtSGVNLTh4ZC11azdDRnUyNlhmXzc5cUZMNE1mV2t3YVB6dnFqVUw3bXM4Uk8yQjNobkJwTWhpRlVnb25XeGdpM3hPcg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 18, 2026",
       "text": "July 17, 2026 — Iran and US widen attacks as renewed conflict shows no sign of de-escalating",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CRTdoVUhnVjkxYTZVWXJCdXRnWXVSZGkyeXJiOEg0MzRzYk9JWkQtbDFPZ3BxSVZMdTVxOG92aEg4YXo1dVdMcG1QNVFVSWJtT0dCU0xFUTY4ekZTYnJzV0szUC10UTlEY1JHRlRB?oc=5",
@@ -44,6 +51,20 @@
     },
     {
       "date": "Jul 17, 2026",
+      "text": "With ceasefire gone, the question rises: Will Iran war ever end?",
+      "source": "The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zeGlwTDFURm9PM2dpQU0yWWY0bHVrVmpKeUlTT0U1dTFlaTRuSVBRU21CQmhyQmMxdld4YzEtUm1DRExTVk1VekhtOGFsYll6WnNweEM2Ukw3bVBWa3FXem1qejhLME5laDFXUjlRYmQtbDFKWHdNSHo4SdIBlAFBVV95cUxNYXQ1SFVLUVhXNXNweWpSZ3dYQ1RLWnhHSHhQWjRaNVFFRmw4ZnJsUER5OFVpUDExTmY0T082d1pNNkIySnNqZ3JLV09Wc3BfLUFZNFJEZ2U3dmFtZlloMGpBSU5IMi1nV09WZkZ2NUZlaW9KUk9sc3kyQWxuQXFpVGlXVm5RSjRmUXRpX2pXUWhNYTdI?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
+      "text": "Oil Prices Set for Biggest Weekly Surge Since April as Iran War Escalates",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbVJ0c0ZxNEhqbnNWN1VJQTNLZ3VkLWNWd2hidEtRRmowSWprVXNCSGdkOVpVemZWcDJvU0pNUFhxalYycTd3RTlPcGdJcEFXM2lBQnV1bjQ2dnJzUVVZSk94cy16M0pjZTBnMWxqaEZlQUlzQ3JPMVlEQ3dmTGVjRXVHZ2xOVm12ZXNURHRjd2p3NlVNM1lhR1NBdGtVVmZtNG5qUUNCMWc1YUJUNFZoUURreVloNU5JM1FxYm1wT2xBLVZPRDhSddIBzgFBVV95cUxNTC1RV1BRVUhVaGFzSXgyTDAzTF9QRDNHR3hXUktiSU45QkkwckxRNW5mQTFoUWk1cEJGZzRNbEFiZFhXcDhLVTdBdnROVDVkYTNuZkg2WWRUTkpPQk4tSUJNUTR1WFJTdjhUdkZ3WHRjQ21QVXI4U2pWVVdZMV9tU0REdGx2SUFtb1VYYWU3X0V5am9CVlVzbE9hdUQxMjN4VnVxVDdOejVMd2tUZFlDczlKcjU3VVNwOTJmZ0Uwckl0OE1OUVB5OFVKWGh1UQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 17, 2026",
       "text": "US launches multiple strikes on Iran, which retaliates against US targets in region",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUFEyN1NxTHNCaG5RT2lOTWY4WWxWd1JQUGpLdV8wY3J0RVp3RmZaN21hcm9YX1A1TWdYc3RMU3BKNV9rd0tqdnM4SEpmamFRLXJIU1NvdnhUYlo5WDFnb2dPY2JfZU5HXzBMR184ei1kSS1zeUthWmltb1VzZWhOR0lCX2FlR0NXSGUxY0gxbVJTVkw2RFo5NnZSVXFhcGYxOUhOS1BJU2gza3VYY3VHT2JEWVV2VHdCdDdmeTRyOElucVF4Mk9r?oc=5",
@@ -75,27 +96,6 @@
       "text": "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMFU3ZksxNFowRUZpTWUzYXctRndpT0pyS3J5dGRRY0lRTVg2ZmYtYkdHaGZtbTBLcVE5RkplRklBVU1jSE5UZF8zNzMzQS1mam5TYXV5ZFFtWkpkQVdyX3pzbFNWTjdFWVNNUWViRnpHdnpNZ0E?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 17, 2026",
-      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 17, 2026",
-      "text": "The U.S. and Iran Creep Toward a Wider War With Escalating Attacks",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZEwyY2dKOW1pdFZ3VkQ0OWRUNTUtQlRVcXJjckZkQW1abEd1ZUNfU2ExTDhMZlhBXzdCYUNoc3FuUlZKVlM2RGZGMFFTQ1U5TzZwRk03MFY5MmtpWHBuMWo0cFBaVVFJOTEwSFliSmtvM1B4ZktLaVNENXZjb1d6eEYwNmxiZVFnZEs1S2c0c3gwSlQtb0lObXdIZnkyMDdTZE10cUdYQXkzT2MxclYwZU1n?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 16, 2026",
-      "text": "EXCLUSIVE: Iran tells Houthis to close Red Sea gateway if US hits power network, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNnlkS245LVFESkFHd2V1MjVwTjdoSm9ZZmRWTlRUZ0dBdkN1VlRPUHU0ZXZLbjNVWGVIdGxldS1uVi1TOFctd2VXQy1jeXRmLWhyOVczWmpaRVY1Ml9sVWQ2N3ktdE5iRUNOcTdaWnZmNzdzT1M4NG1jMkNIeFVaa05YSHhRdHZYQ3BDS3lnb2pkYmFpYS1NR2E5WHBuOEFsTWljaDNsWGVqZ1VKSFlaNmd2UkU4aE1Xa29XeDNVcFdZZnh4bjFSQ1NuUQ?oc=5",
       "hot": false
     },
     {

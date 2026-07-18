@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 18, 2026",
+      "text": "Iran accuses US of striking critical infrastructure as war intensifies",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSk10ZEFwTXRSZS12YXVYU0RhQnJ3eXJFTlVtc2FyRDlpUTdCWl9peDJpMGYzSHdGa0RPSkpQVUYxWnV6b2R4ZFowMER2N21GYkw1dl9SNzVZdjI0bTdTZWpBV2FVMzJzMFlrSTduOW1PbmhqNkFTaGJ4MmFxQVJwcnhwNUVIb21lSzM0STctdWR4MFk2M0hxam1TeTJGOThuNm1GMlhFZkYycHlLZ2JDWtIBtgFBVV95cUxPekM3c1pKVzhKMEZDNXJieE9ydE1IMU5XZHJBYXUzUFA0YVR2RnctUTdST0U2dG94RGZwakRHOUlPYjE2anFQdU10U3cxa3I3NFhPSko1bGRrRFlSc2syTGFnRDZxLUdYSkk4NE95VU1Ga2dwR2lGeUVkSUFBTXVQWldqbFl0V1Z2NVhvSl9PQnYxNC13dHJPNEl5dWpzbm1pdng3MzhHQXpmcmE4cktVX3JPNDBwUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 18, 2026",
       "text": "Iran war live: 50 killed, 500 wounded in US attacks this month",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?oc=5",
@@ -86,9 +93,9 @@
     },
     {
       "date": "Jul 15, 2026",
-      "text": "Trump Leans Toward Expanding U.S. Military Operations in Iran",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVU1pOWZlc0haRHRFZW94VEpMSWVFSWszTkNodnpWdG1OaDRSeElLdXd2UGRVWC0tUGNvdWJrQzdhblBBVTlRbEpnLTBTRmhrYkNIVFZQdl9GbHZQUTIyM05PNENGc194QUtjNnhEbndGZUFRd3E0b2d0dTR0UTVoNFd3LXUwZ3pKR2xCQXhpUTN3a3NrNHVIQ3ZmWklrdUJ0Z09mQ2Zka21mR3c?oc=5",
+      "text": "Trump won’t rule out Kharg Island takeover: What a US assault could look like",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVm12UmN2LXhhcTlUOEpHWHFrcmU1c1gtN3EwaldRWm8zelFoUkZJSnNpd09rX1dPV1F4NmN1RVdpNXJVbnRXMWk2T1F2RGNpbDJVOEMwQ2thR1d4eUhqb0tpOEsweHN6bmtZdk5vQ3NsUTVFUk5xSm96ZXJHUzFxbG5lZEJBb2tWOVMzdW1LdDQ1Sjh4MlhIVWh2aGFqUEZhMUJiWTdR0gGrAUFVX3lxTE5yV1RfV1k1YkFmbjRyRlhSSGJ3VU9leU14cmxJZjhUMUUyc3pnZGlJVGV5TExLekpyT01xNjVtbmtPc05qR19PRm80VkN1aXNoOXdBVHNpX0lLZ2dabUtKOXJBOENDdGttTnFUOUJqcDJxeVl2bzRnTGhVTnpLZ3llMXRMZmJ5N1k2Ul8wTlBUUzlHdF9EbGs2Tm1sS2lpdVNoU2k1ZUhsU3hCTQ?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "Iran Update Special Report, July 13, 2026",
       "source": "Institute for the Study of War",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnJyek45QXJQSUozQ2Z4OU0xaXZWOHZYejJuZ1JkaVVYU0tEWW8tcUJxb1F0WnlDbzcwV3hYT3BLb2RRZHRtMEZQdng1V0VKNEpscFRaZkFLWUNONV9ZR29mQzZIWDhGQk5KV09BNnIycTNfeW42ZjhiQVZUelNTM0o1bHl6VHJGcDNLSExnOG5OUVhY?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 14, 2026",
-      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {

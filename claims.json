@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 19, 2026",
+      "text": "US says another troop killed as Israel warns Tehran’s attacks coming close",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVHFLaklRSVdGWFlqcWlwY1otdVY0RExtSkhnakpkck1KcFo5MG44ejdfWjFkZU1ZWHJTd0xrSm9DTnBQTWJEVTZMQ3RKRjZMNVpMYXFmcmVHT3NMakhfSHhfT3U0bk1JLXNRa2psTUdIUEYyNjFWcm5vSTFNSHY3Ty0xYldJTE9lbEhFeU10ZU9XQnZfd3ZqVQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 19, 2026",
       "text": "Iran Calls on Houthis to Disrupt the Bab el-Mandeb Strait",
       "source": "الحرة",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE84ejF1N1g4VC1Qc2x2MldrNUM3SnVwNWt5Uzh6dUNKenJZN2Jld2NQVmFkYzBCMVhfQ0s1S1lZSmZsQQ?oc=5",
@@ -71,38 +78,31 @@
       "hot": false
     },
     {
-      "date": "Jul 19, 2026",
-      "text": "Iran war live: US bombs Iran; Trump says soldiers killed ‘a sad thing’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "US bombs Iran again as Trump mourns two soldiers killed in Jordan",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 18, 2026",
-      "text": "Iran War Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMzBFRnhWbGIwdEpFcVJVd251LTBDMXRMS01VRmNFNUVaZlo0ZzlDWjhsOUlqVVdHYk95V2JJVFlvNWxCck0tWWRyMkhLNkZ0anVzM0dnM1BsUzZMYzNROWQ3SVRWNGNxOUU4VFdwV1JQaDJpWVE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 18, 2026",
-      "text": "Iran strikes US allies, Brent crude oil prices continue to rise",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUnhZMXNZSF9WWDFpVFJJWURlcnpUbjVJR0d4RWpkMXVGd0RfVVFhN3FRQ0M4Zk5nRmo3cVd1ZmFnajNzU2xvd2ZnRWlUUmNkTTlxWThwNThQWkJubG5aVmozTFllVmdLZk5xeHNsSHV0STFkOHZnZmZGVllnMlZFS1VkMzMyUQ?oc=5",
+      "date": "Jul 17, 2026",
+      "text": "US launches multiple strikes on Iran, which retaliates against US targets in region",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUFEyN1NxTHNCaG5RT2lOTWY4WWxWd1JQUGpLdV8wY3J0RVp3RmZaN21hcm9YX1A1TWdYc3RMU3BKNV9rd0tqdnM4SEpmamFRLXJIU1NvdnhUYlo5WDFnb2dPY2JfZU5HXzBMR184ei1kSS1zeUthWmltb1VzZWhOR0lCX2FlR0NXSGUxY0gxbVJTVkw2RFo5NnZSVXFhcGYxOUhOS1BJU2gza3VYY3VHT2JEWVV2VHdCdDdmeTRyOElucVF4Mk9r?oc=5",
       "hot": false
     },
     {
       "date": "Jul 17, 2026",
-      "text": "The U.S.-Iran battle over the Strait of Hormuz raises risks for global waterways",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV19JQjNsbG9UTjhwaFJDdU9waGppMDRfenJsUmJWNFczUERHV0lIMFR1Z28zalN3UzVlaUx6dHVCc0lBU1g4Y1hic19NLWc0UkFLSUxFdksxV09GM0R5QlhON252RHFwb3B5MVNlaUJoX0pPNFFtbUpPVUg2d20tYjV4MGlvSnNwc0Nib01jMGg?oc=5",
+      "text": "Oil Prices Set for Biggest Weekly Surge Since April as Iran War Escalates",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbVJ0c0ZxNEhqbnNWN1VJQTNLZ3VkLWNWd2hidEtRRmowSWprVXNCSGdkOVpVemZWcDJvU0pNUFhxalYycTd3RTlPcGdJcEFXM2lBQnV1bjQ2dnJzUVVZSk94cy16M0pjZTBnMWxqaEZlQUlzQ3JPMVlEQ3dmTGVjRXVHZ2xOVm12ZXNURHRjd2p3NlVNM1lhR1NBdGtVVmZtNG5qUUNCMWc1YUJUNFZoUURreVloNU5JM1FxYm1wT2xBLVZPRDhSddIBzgFBVV95cUxNTC1RV1BRVUhVaGFzSXgyTDAzTF9QRDNHR3hXUktiSU45QkkwckxRNW5mQTFoUWk1cEJGZzRNbEFiZFhXcDhLVTdBdnROVDVkYTNuZkg2WWRUTkpPQk4tSUJNUTR1WFJTdjhUdkZ3WHRjQ21QVXI4U2pWVVdZMV9tU0REdGx2SUFtb1VYYWU3X0V5am9CVlVzbE9hdUQxMjN4VnVxVDdOejVMd2tUZFlDczlKcjU3VVNwOTJmZ0Uwckl0OE1OUVB5OFVKWGh1UQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 14, 2026",
+      "text": "Middle East experts assess latest escalation in U.S.-Iran conflict",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVzRaMGMwaGtacGx5cXFvQWdvNnRPV2VUdnM5RG5OdG1WUnl3OGRjOTdaQ3RBNklyR1JJV01DRW9ORnRFTTUtcHZvc2w3dlNqRHFCNXB4QXh6UDUyQlNTb19TbkJ6SHBhbEM0cGNhQzdxX29VWThzcWd4ejIwNGJJYjBLbWVEQU11aUhjNEMtcEo1WFNZZGVhN2Z1cG9DcUZP?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 13, 2026",
+      "text": "FACT FOCUS: A look at US and Iranian claims of control over the Strait of Hormuz",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWlBxNlp0WGpNMjQ1S3NfNFJIVXB4SV9EVnFJLTItalZGTFMxekx0VVZ0bWNMRDRFdGxHVjV4eFpkeDhEZzltN2N1VnlYLUsyeTN4bEVzNUlBU3M3WE1veDNXa0NXMkxHS042cVRudVM1U01mVGt0M0lEQ2pvdTEtRjF1Q2tmbnhlWjNmaGJEVjA?oc=5",
       "hot": false
     },
     {

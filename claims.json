@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 20, 2026",
+      "text": "July 19, 2026 - US begins ninth night of strikes, Iran claims new wave of missiles launched",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44bXlOcmpkb0k1N2ZtY2htQTFydkdHUXZ2THZMS3NGTEY3RXJKS1NiYVNuUUlKVGpzX0MzaElmbHZ5TDQ2MGhweGRPOWFnOHk2SWJiTThFVmluRjY3SGdFMGVKdzE1VFZNam5SdnNn?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "US military says it’s carrying out its 10th consecutive night of strikes on Iran",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
       "text": "Live updates: Trump warns of strong retaliation against Iran after recent US troop deaths",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?oc=5",
@@ -89,20 +103,6 @@
       "text": "Houthis impose Saudi naval blockade, opening new front in US-Iran war",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbmtOemhMR1UtaVNoMENBMHltNEpKTWJNekRXUEtSa3hidndTM0VZVnRoTEJlV2ZENWtkYVFCUkJtSk8zdFhPeEJQSXRNMS1vWC03N2NJek14WklXdzhNZWkzMnZRUFpGcHg2OXotaHpyVW9jblFTYUM4U2lGcXFWa1NFbnZSQnpreVF6OXVhMW1oeHdIdkFNMjBJa09UZGgycjRkMjZ6Z1dxNC10enJIVDZJdlVSQjRxQlBZc05Tdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "'Waiting for their arrival': Iran dares US ground invasion on Kharg Island",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMHl3aFRCRmVnbmMwUDZuZzk4ZEFiWUF0cVVPWVhsZnFsNEFQZUExNHJsYmo3V09JaFdvMEl0NUNxdURwMU1ZbEV6T0FoT3VKZGxZdHJRRzBpcXMwVFMzeGhUR3otTzJ1Z0xqSG13SjI1TGtKYWpncnQxSzVubXVPdFdoRk9ZZ3VIOUdHdGtMUVQxRXd5SWZYdGVLLTVSMEZlS2MxblUtcEc4Q3hETVVLX0NDMEpkTWs1MkROWUFxOU5qR3pZTUc2UlVvaUNJbW4zUUtseVEwUndrc3BmVENwTGRnQ1lqUdIB6wFBVV95cUxPRGhyXzVmb1pINDRuRlJ1TVlQZGpzdjBmVm5zcWFrM2tEYURTTnJaT3dFeGRfZm5JNjRjODc2MEk0djQyNWR6UlhfM1dRYkZWTWF4ZUs2eWFwS1lqMlNOTUVnQnF2aFlnSVRBYTdHMWpUa3doRW8tS05naWNNLVA0R2JSZHVXMVFpTUNRcDVwTzdQOEZZaDdrMHJKckNybG1MdVJ6dlNfblVvZmJ5UXpwS3l2M1psQmtLZWx1NklDaGhueHdwdktLbXdzWF9jcUxUNmdTZ1FPb3F1TWQ4WGRRVHNBTTNFai01MzZJ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "Iran's Houthi allies in Yemen declare maritime embargo against Saudi Arabia",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQNmR4TENuTURCWDVJZHhFZU5OTWZTNHpVQ1NEc2hQR1htb01UOGFxeGZvUjVFQnRIZGxYUVZJeDZ6VWUwbW9QbE9OZTZXWTFjbmRRbEJtRlFlQ0tibnM4eU9VeTY1cXpBa29SLWVYaXZvMjBYZGfSAXtBVV95cUxQYTNvZU5JelkxUVNubGR1NkJoOTVicnpEeENLSWlPdUlNRDdnMGlTeWNnZmdHRGZQRHhNeWF5WmdMbmpDcUFOV3dWTlZ2dW5Ud2hmY20wOG8yNy0xRW1DajhzaHNxNlQ0NHRRWl9EYlVUa25kUTIza0MwUkE?oc=5",
       "hot": false
     },
     {

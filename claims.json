@@ -9,6 +9,41 @@
   "breaking_news": [
     {
       "date": "Jul 20, 2026",
+      "text": "US bombing of Iran expands as American troops killed and Tehran retaliates against the Gulf states",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "Iran war live: IRGC warns against US invasion; Hamas names new leader",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "US strikes Iran for ninth consecutive day as more ships targeted in Strait of Hormuz",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTDZKSkxjeG5LdmpyUkpXdDZZS0NMOHNXZHdYQU1YWHJkQk92S21LSDVxZ1BnVU5IcFpOR2wwb21qMTM1aFg1SXExenJzZ3lIV0xFcmtkOXR1LXJMLUhfeDBLbklObzNwLVdaeExXMlhsc2t4TG9aZXJuTG11bEFxOUlSajBrMzk5MWdKai1aOGV0dnh5YnNtTC1jN3dXQlE1d1BXWkVPM3plQzYyVDE2dG5sVVViZ2VJWGFBdXU4aFFWOE1ZSkM5a3ZRU1RwRExDZ0xqZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "Why oil prices haven't gone crazy despite 5 months of US-Iran war",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWljTmhtaTVPdmZTRkZFLVFDSkpiYlhTWkZidlprdlZhQW1KOW9aY3daeWkxdm5RaVgxX0k1aVY2N3ZWQk9Hald6X29aeE5jdHFuT0RxWXpCbkJCWkJHaHJqZWVXb09aYmFrWHhKZGNfa2pzeTY5RHJkR0lYUTZQbGZXRm50dXVyQjJBbS1ETVFEOUlVR2lwcGk4dWFJTlpyeFUxeVNRNHdCcEVKdWVXLVRJQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "Iran war: US conducts strikes for 9th night in a row",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQi0zUlByVmtyRkFtTHBDM1BhNUt0eGNPVG5ocG5nOHRPUFpWcmZzVGxEeFN5XzdkZTNRSkVvclBnam1LdjZkSTF1VG93Zl9XdDIwRDdlcmpzRC0yQk9KTk5zYVg2VFNlSUlxMUh6elZCU0twZnV3ZUFLMU1sUTdxeHJmMjdGREd0RHIzLVR4WnY?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
       "text": "US launches more airstrikes against Iran after announcing another death of a service member",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?oc=5",
@@ -54,41 +89,6 @@
       "text": "Iran War Live Updates: Another U.S. Service Member Is Killed as Two Sides Edge Toward Wider War",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbmViUUFFckx5RUFieFpDdVFUb2hrazdyVkJuRUFfcXpEQV9xbURPal9ucHY2a2pjV0p5d3lEMFZGR01VekxzanpkZUZoQ0Z2WHdzZF8tbEZqeThTUDU3c3pVd2tRMG5tX1c3T1dyRDlOSkZjRnl4eGtFeHFKNTlRbA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "Few tankers enter Hormuz to load oil, LNG floating storage rises, data shows",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "US military launches new airstrikes to ‘swiftly punish’ Iran for deaths of US troops",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "Deaths of 2 U.S. Troops in Jordan Brings American Toll in the War With Iran to 16",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcVRXVlVqTjdFemN0RXZhN1dhS0FOOUJSQnJRVU5iTkx1Yjc0blVvUVduTVEwc2VhVFhFdnJVdms4OEppdnJEMHdNeGpNcWdKQ3ItdmVEWTVTbllEbHdiQzk5WHo5Ry1pdkEzVkVIM3BKaVNkVVlSQU54MVotNnI2UEhfNjNYVlpiQUU4SzcycC1aYmM?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 19, 2026",
-      "text": "US says another troop killed as Israel warns Tehran’s attacks coming close",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVHFLaklRSVdGWFlqcWlwY1otdVY0RExtSkhnakpkck1KcFo5MG44ejdfWjFkZU1ZWHJTd0xrSm9DTnBQTWJEVTZMQ3RKRjZMNVpMYXFmcmVHT3NMakhfSHhfT3U0bk1JLXNRa2psTUdIUEYyNjFWcm5vSTFNSHY3Ty0xYldJTE9lbEhFeU10ZU9XQnZfd3ZqVQ?oc=5",
       "hot": false
     },
     {

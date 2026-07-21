@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Jul 21, 2026",
+      "text": "Hegseth, Caine appear before Senate as Iran war escalates",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEtLcUJfSEVjZ1I4WTU2cnNYenZrVVlBUEFHLXJSVTJZUjg5UzBuT094dVlYV1A1bjlVQXZDek91ZzlkelRvLWhOd1MwX3kwR3ZCOS1XbWF2M2xITHRtV0w2bVVnMmkyWkpQd2ZxWFJIcGVoN3dtNU9ndi1VOEo0Z2s5cE5BOW9KRktySHBvN0xGUlg4d2JGWlpJWmNVQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 21, 2026",
+      "text": "Ships shun Strait of Hormuz as renewed fighting strains key oil corridor",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeEk2Zm5POEJxc1pKdEF2T3dmeWFjMnUxR0xOX3JISFYtMkUtcUVZdnRtR1hUZFVua2ZTZ3VVTk9udXhXbW9wcHUxUm5GZWpZRmEzY2dfNUlVSHNrcHVMdFNZRnh5NzloeGJ1WlJCYUhDaDJTZmZWWUF1QW8yNkFFZ2d4alhrUTg0QWxLVEpocDBlb3VFNnB1TWdKTmhqZFE3QmfSAacBQVVfeXFMTmNPTGItQm12RGRzWWdFaGp4RVhvcG1abVp2NWxiVUdEWnpLMHdpbW4xazBzc1pEd2RHMkx4UU50QjFrUnVaTC14eXdFN1lGU01UTWdQTXZRazlCRmdVdk9hWDNXOFR5dTBGVExuUzlHT2J4VmlKVkVpR1loZnptbkdiMXBDdTlUM2xxbFZKV1RUR19CVFZLcmxKZU5jOWNVMC1VUXFzWkE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 21, 2026",
       "text": "Pentagon Withheld Dozens of U.S. Military Injuries in Iran War",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeThlaHp1WlFJWWlZWmdKSUE1azhyc1dNZDlqQlFqd09VQXJ1RUlNLXF0OEJfeUhzdnZRYnl1REV5UjlUVmd5T2RKTFdnV3VCTlVGd3NzYTJTRkszMnhQUjY2SmdaSnBaSGFhU3V4bWo4dGlibHl3aUZ4c1g3a0NyRmxRMEp1VlNvekE?oc=5",
@@ -89,20 +103,6 @@
       "text": "Inflation fears are back in the spotlight as the Middle East conflict keeps oil prices elevated, analysts say",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzgxYTV0TzdnZnRlcUJKbU9mYV9nYWJyNGtwLWluSGJCNlF0aXJDNjFmT3NTT2pJVzFqOERiWFJ3ejhZN084TGRZdXp5UFlJOW9qcWNjdVloRlFQY3M5MUQxdS11VjRJbGxuM3lqQkloTkRIUnlnYnFOc0VtV0FJc3BIR19NYV8zNTBpMl9rMllVNGFqUWlrRllqUmhtdFd0NEtQUNIBqgFBVV95cUxPR2d0TnhsOXBzVWIwQTU0bWJWYlhKd2czNHlPZ2k2OWxEOVF4RWEwNjYxVHN4Q0NDNkdPZlpCNkJvemNsQnUwWVBlLXpYdmVxNEtaaGN4Y0t4U2dYVzEyQnRfdTRYczd6WHpUMFBWVTdJcUdhVkN2U0pLTGk5MkVXdDdxbmF0YTJqU19ib0tkYnczTEpLNEx2NTFXTjBEcWpfTWNHaHlMMjZCQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "Where Are The Aircraft Carriers: July 20, 2026",
-      "source": "TWZ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WelgxRlI4R3BkYm8xSmZWSi1nWVRwUE9DODh5MHZuWDlNb010NG8ybUJTdnJGekp1emRYLW1GVERmaFRPZUR4eE1CYjZaelMyeXBsRlVqYmU1Ri03QjNIUFNmeW9UbDN3V3NyYUZaVmZ1NG5Ka3dn?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "Why oil prices haven't gone crazy despite 5 months of US-Iran war",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWljTmhtaTVPdmZTRkZFLVFDSkpiYlhTWkZidlprdlZhQW1KOW9aY3daeWkxdm5RaVgxX0k1aVY2N3ZWQk9Hald6X29aeE5jdHFuT0RxWXpCbkJCWkJHaHJqZWVXb09aYmFrWHhKZGNfa2pzeTY5RHJkR0lYUTZQbGZXRm50dXVyQjJBbS1ETVFEOUlVR2lwcGk4dWFJTlpyeFUxeVNRNHdCcEVKdWVXLVRJQQ?oc=5",
       "hot": false
     },
     {

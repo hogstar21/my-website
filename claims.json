@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Jul 29, 2026",
+      "text": "Iran-US latest: US, Saudi strikes hit Iran-backed militias in Iraq",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YckJpcDBudkpkWmZoNDJ6VkdfcUFHVmJzVk5WVTMyRHU5MExGSjlGeV9CQl9DWXJpbHFjVlB1Q0hRSlV4cmtmWUR2ejR3TE54dmdYemZlQ3J6dmtzYUc1dWRpVjc4dERNQzBIajROMDRvMU1NZ09oR1k1dHJaSHM?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 29, 2026",
       "text": "Live updates: Trump says Iran ‘going to get a beating’ as fresh fighting shatters calm",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Jul 29, 2026",
-      "text": "Iran war live: 20 killed in US-Saudi attack on Iraq; IRGC targets Jordan",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 29, 2026",
-      "text": "Iran war live: US, Saudi forces attack Iraq; IRGC fires missiles at Jordan",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?oc=5",
+      "date": "Jul 26, 2026",
+      "text": "Pentagon reports more than 600 Iran war casualties in quiet database update",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRjZuN2tOUWVfbmppRExOaEJ5NXFvREZybXlkb3hlWTFzTU16R0N0UERhQUhndjdvVzV2SnBxRlgzN09sOHBrU2oxOG5vQTVoX0kzeUFJM1lldmgxaXZSUUcxbEJNemtxLTlJVThXVEpNV09OeHdxZTNMUGFpMW1feFhlZGtPeGdReGNWVUVPN1RkZnZ5aUQwSVJ3?oc=5",
       "hot": false
     },
     {
@@ -101,7 +101,7 @@
     {
       "date": "Jul 20, 2026",
       "text": "Iran operations intensify as thousands more San Diego troops arrive off coast",
-      "source": "KPBS",
+      "source": "kpbs.org",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRUckhBYWtsMGM5S1daQ0pLN0xwRW1vaWxvanB1WS1JZ29WU3Rpb1c0WWJVYmNzWDBRLS1WaDlsOENmZkdwamljTWlYbmV4bEo5N3dxdU1yUmxxVFhjMVN2NE43ZGVEM3k3WVRTcHQ2dkhWYmVhb1E2Y3lpN2VQWC1KdHN3QXJyMXFNMHZpRS1raTRGQ3ZEbEg4LXNvdWtVbG5McHJpdnR1MHFjODhpcVpOckdqV3BCSEg1Q2NnT1A?oc=5",
       "hot": false
     },

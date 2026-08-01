@@ -9,9 +9,30 @@
   "breaking_news": [
     {
       "date": "Aug 01, 2026",
+      "text": "Yemen's Houthis say no plans to tax vessels in Red Sea despite blockade",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBSUpRYjl6bnRuaWtvVnVUdDRNWi16TVJXc0UzQTJGYzhDS28wclA3enBlT0k0UjN4dVdZNmxtMm9sOVpyalVyMGJMVE1vY0ZTUjBoMHE3THlDUmtk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 01, 2026",
       "text": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 31, 2026",
+      "text": "U.S. Marines Conduct Marksmanship Training Aboard USS Boxer",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjBFd0lNSEFDdWR1VHZVUnFydW1tblZwTUZTX01OOEduYlFSVllCMjNQUnlwWmZOTTVuWDJveGhKU2p0cjRoN254WHhINXUyOGdTYU5IZG0za0RVUzdiWTRTaG85bTdNaFhqMnQtN2tiLU5HaEpjSmgxaHhKbGR2WDlLVWU3MVZydlcyWm9XVXBpVHFTc0V1ZmNrbk4?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 31, 2026",
+      "text": "US tightens military and financial pressure as Iran talks falter",
+      "source": "iranintl.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrWHB6UXh0ZXZVZkJ1QnFVUFZPdUpidmZpY0ZyU3p2b1NpRFREbHN1dFR6ZVNtWUpIWXd4SU9TY0VJSzN1RU81YTMwRWl5N3piMkE?oc=5",
       "hot": false
     },
     {
@@ -57,13 +78,6 @@
       "hot": false
     },
     {
-      "date": "Jul 31, 2026",
-      "text": "Iran war live: IRGC claims ‘retaliatory attack’ on Kuwait",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnozb3A4QTd5YjUzMXNBWmF1NmFuWTFFcHlIR1VDT2tEaHdjMUM2NjA5dW5TOG1JSEF1TlF6aXcwTGg2YnlNSEc3MGJ1ekFhZ0t1LWpDSlJock0xRXd3SkFpMmxEOXFSZzhhYndFNTl2cUMyTE9JLS15Z1VGcGJlRHpCaXNoaElFZDlrM1pwS0VFTzdPR1E1TVg0SEo2ZE1zWW0tSXFhc9IBrAFBVV95cUxQWlN0LWdCVkZUaXVOSUpMeEkwdTY0QklrOFR1dmQ3OXZyR3JJMkdkWEdYYUtUaGx3eUd0ZzM2R1JoSkJELW11Wmp0LTAyMVFnNVhUdFBiMlQ5UTkzejBhUHg1MlBsUTlrVGJKdlBBT0R1ZzgzeDNoRE1XSG15NjN4MGpfWkYxMjl2SHdkekRBR1A4b0RuS1l5U0RiRE9pWVBZbHBLOXc3cFQyVWtX?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jul 29, 2026",
       "text": "US says Iran trying to 'derail ongoing ceasefire talks' as strikes resume",
       "source": "France 24",
@@ -89,20 +103,6 @@
       "text": "US strikes Iran as widening war engulfs more countries",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 27, 2026",
-      "text": "Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNWxxNDU1SHBqVXozbmd1VHRWYVpQWGVqVUVTUHVlakJjS2lKMHBCbDJCS1hucGROTV90dUhuNS1mUEdKVEtBZjR2b1FwSFZJejdVLWR3WFMxWGV6NVk5YWFOa2o3ZHdnX1R2enpyRm53YnBmRmZyS2trSjFiQ2VSbjZQZ2JhbTdRbnh0RVlleDhYTmtUUjJWN0JpTV9lNXU1X3cwazNYcHhzZkNic1hQdTdxMXZEaEM5MDhQZA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "Iran operations intensify as thousands more San Diego troops arrive off coast",
-      "source": "kpbs.org",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRUckhBYWtsMGM5S1daQ0pLN0xwRW1vaWxvanB1WS1JZ29WU3Rpb1c0WWJVYmNzWDBRLS1WaDlsOENmZkdwamljTWlYbmV4bEo5N3dxdU1yUmxxVFhjMVN2NE43ZGVEM3k3WVRTcHQ2dkhWYmVhb1E2Y3lpN2VQWC1KdHN3QXJyMXFNMHZpRS1raTRGQ3ZEbEg4LXNvdWtVbG5McHJpdnR1MHFjODhpcVpOckdqV3BCSEg1Q2NnT1A?oc=5",
       "hot": false
     },
     {

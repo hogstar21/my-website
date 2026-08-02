@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 02, 2026",
+      "text": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LY2JjZElLTGFUT0wxcXhvbnJFd2taYzlXaUhRNWNwOUFvbFBLX3MtWnhWeXpHUUlxRjBJcWwyaktlVnBOVmxPdFJSSUhIa0FZQmU2VU5zTHdVN0VXdVVWMWFrZUVBSlgwcXc3cXliY2FkVWNYbkdGX0dB0gF_QVVfeXFMTnJKWHBaeTFfYUZ3RHoyMWx0c0NWSFpsc1ZZUzZoN3JiRUFla3FfVDFVMllZcHplSTRmRExUMHU4aG16T29MOGluZ1RyOFJ5ME13aktEZUJ0c01OQmlaUzRNRHFYblNGOE0xVVc2WG1lcWZkLWpDTGsxS0Z3blVvSQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 02, 2026",
+      "text": "As Trump balks again, Iran smells 'blood in the water' and looks to exploit its strategic advantage",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHpOSHkxekhja2J2VnFKMHJoYzRzUndZQ3NESE03UHhVTXgtMFZHT2F0RV9fbGFZM0Z5bUhwdXBmaWdEdnVVTGVZcDl2SmtGN0pJNVFwcDZYeHlxdjZ5MXBlNTJZYkt6WUJHc19GUUlTX1pRV1ZtSTNTanpZQmlVV1ZTMWhrZURDNy1ySk5tQ2o4TXctZlQ3Y3JISWFZLWtOZmc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 02, 2026",
       "text": "Can the U.S. Navy Continue Replenishment at Sea for Its Iran and Houthi Operations?",
       "source": "Middle East Forum",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjNDSXlrRFRvV3d4Tkx5aXlIOFY4MmFjMUUwdzVfVk5xZzVUS2tzRHNfbDVzNmxnSGdhM0dOMzlSR3BMVDVPbHQ1Si0wX0hsdjVpS1B3X1Q1ZjlQN1pMV3VoN29odlpEbEhsZ29iTWU0RHZzdnJKWDJob1dxYlFpbkRVZHBIRGlDYkVSeTdrMVdmSm9SWHVIWEE5bkUxY0dtM2EtQW1Lb0M4cGdIa2c3QWpIMWI2Y20xX1E?oc=5",
@@ -85,24 +99,10 @@
       "hot": false
     },
     {
-      "date": "Aug 01, 2026",
-      "text": "Live updates: US-Iran war; Trump says he’s canceling planned attacks",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?oc=5",
-      "hot": false
-    },
-    {
       "date": "Jul 31, 2026",
-      "text": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
-      "source": "news.usni.org",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFg2VUdLSVRRclNHYVVfNEQ2SWx6amVDZmVZWnlCbHVJWXVmTXA3N2NnRHR6am5uQzROemR2bEhpSmNfZWVoVGxDMExrS1d4S0JFM1dDUzRDWWYzZjFKNWNrb05uOG5rcVpkalYtMV8tWUcweXJTQUFRcWo4bklIUzZfOF9KNjBwak5GaV9USmpGeVEycHEzSG5EVGRkYzVqaDJnXzVJZk0zWlpaZ3lzYjh5YVY?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 29, 2026",
-      "text": "US strikes Iran as widening war engulfs more countries",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
+      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
+      "source": "EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
       "hot": false
     },
     {

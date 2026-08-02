@@ -9,9 +9,23 @@
   "breaking_news": [
     {
       "date": "Aug 02, 2026",
+      "text": "Trump says he's cancelling Iran strikes, deal pending",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSFBsdWJiVHQ4bXFuTkRZRnpxOWx3Y28wRFZRblRCT3JoMm9QY1FiMFdFc0tuRnJ2aTlXS1ZSQnpBRl9CdHNXbkh6TXRPVnBqNW4yUm55ZnAxVU1tb01JQ0p3TWszWkFWb0p2VFRJWFZmd3BSbUhjTDgwRVF5VC1VbHZCYkFMYlJ3Ykg0SkJrV1pabGx3bnhQb0MzUk4?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 02, 2026",
       "text": "Iran war live: Trump cancels attack, calls for a ‘rapid’ deal on Hormuz",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 01, 2026",
+      "text": "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY0xkTkdvNzZhc2duTEtSRjlfU2pFU29qOVJPNGVET0hMdlN4T0ZEb1NETW5BQk9Wa3kxVHJkMVdaamhtVzNLN0xTODAtU1Zwd0k3R2w0OG5HeTh6c2hSMkJkS19SLUdjSUw0SlhXakQzWnlxRTZUX2JMNkFaWmJESGZyX3N2azZuQTlxWGVGcWtBeHZGTXVGa1pJZEU3Q0ky0gGmAUFVX3lxTE9aMkFQazYxeWY5MURiM1pqLXd0RjNXckJuZFR2azREZ2NPeFNNNUJBU0doTFotRjFjb0sxQ2ZDWkJrYUtXanFua1E4Q2tNZW9pQ0RtZEhVMk5FeEI3ZngzSzEyR2hqakhlVEhDMTFPOV9DZ0U5aFV3V0haSVN3SjBEaF9NU0ZlcnRndU5wN2Qtc0FXa3RjemxvTXV5SHVOVXR1M2lybFE?oc=5",
       "hot": false
     },
     {
@@ -71,45 +85,31 @@
       "hot": false
     },
     {
-      "date": "Aug 01, 2026",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 01, 2026",
-      "text": "The US war on Iran is spinning out of control | Mohamad Bazzi",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 01, 2026",
-      "text": "Iran war live: Tehran attacks Kuwait, threatens region with ‘flames of war’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 01, 2026",
-      "text": "Iran's overlapping power centers make ending the war more complicated",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EV0ZiNXN0YzBMR3psTXA1UFlhckd1SWxNR0FBSmRRQlhxNi1FVEdDWkhydHZ5RGM2QmNOM3NsN0dJLWtIN0MwSzBSdVVDT1RxcEh4S0Z1MFRpc21ienVQS041UjBKZDRreWlvODZfZzMtM1lTVGfSAXtBVV95cUxNc013d0w4SWlnUTdxanU1RzNDdHJvT0N6SWJMNTdwYzNLbEpWZTFrWGh3SG5BM1BWZEtiZ3RsVEl6Wm83b3JjT2JWZlU2MEh3UWwxVGZyUHRDMk5WeENGRWFJSXlvTHlaV1hYcWJxbzV3TC1UV1hFQ3FpRWM?oc=5",
+      "date": "Jul 31, 2026",
+      "text": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFg2VUdLSVRRclNHYVVfNEQ2SWx6amVDZmVZWnlCbHVJWXVmTXA3N2NnRHR6am5uQzROemR2bEhpSmNfZWVoVGxDMExrS1d4S0JFM1dDUzRDWWYzZjFKNWNrb05uOG5rcVpkalYtMV8tWUcweXJTQUFRcWo4bklIUzZfOF9KNjBwak5GaV9USmpGeVEycHEzSG5EVGRkYzVqaDJnXzVJZk0zWlpaZ3lzYjh5YVY?oc=5",
       "hot": false
     },
     {
       "date": "Jul 31, 2026",
-      "text": "U.S. Marines Conduct Marksmanship Training Aboard USS Boxer",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjBFd0lNSEFDdWR1VHZVUnFydW1tblZwTUZTX01OOEduYlFSVllCMjNQUnlwWmZOTTVuWDJveGhKU2p0cjRoN254WHhINXUyOGdTYU5IZG0za0RVUzdiWTRTaG85bTdNaFhqMnQtN2tiLU5HaEpjSmgxaHhKbGR2WDlLVWU3MVZydlcyWm9XVXBpVHFTc0V1ZmNrbk4?oc=5",
+      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
+      "source": "EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
       "hot": false
     },
     {
       "date": "Jul 29, 2026",
-      "text": "EXCLUSIVE: Yemen's Houthis considering fees for ships sailing through Red Sea, sources say",
+      "text": "US strikes Iran as widening war engulfs more countries",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZzFWSEJjR1NNV3libHZfdlE0dkVfbW9jdG5VX3NpbEg4OGJQSllPQ2RsZmoyNXFjVEFMZkdoME5wRHZMS3NrZlEzT2JUT2hPVXZnQkROOTV0YVJIQk80cEw2ODNKWnlMcmNXYVVFcng4UlVEOVUzYWkzYVhCU19HaHVnQ0JSQzVzSE9OQjdDYzNDRjZiWXZQeDlMandraXA3d1NtRzhHVWRBMlA3NExVblNTY3dYbUpXb2pjVnRkcGhEWWU1U0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 20, 2026",
+      "text": "Iran operations intensify as thousands more San Diego troops arrive off coast",
+      "source": "KPBS",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRUckhBYWtsMGM5S1daQ0pLN0xwRW1vaWxvanB1WS1JZ29WU3Rpb1c0WWJVYmNzWDBRLS1WaDlsOENmZkdwamljTWlYbmV4bEo5N3dxdU1yUmxxVFhjMVN2NE43ZGVEM3k3WVRTcHQ2dkhWYmVhb1E2Y3lpN2VQWC1KdHN3QXJyMXFNMHZpRS1raTRGQ3ZEbEg4LXNvdWtVbG5McHJpdnR1MHFjODhpcVpOckdqV3BCSEg1Q2NnT1A?oc=5",
       "hot": false
     }
   ],

@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 04, 2026",
+      "text": "Iran war updates: Trump says talks ongoing, says ‘last chance’ for a deal",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 04, 2026",
+      "text": "Iran war live: Qatar says diplomatic efforts ongoing; vessel hit in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTd3c0hZM1BYS2M5NXNHcERxemtBcEFPZjBrdWVERGVEUkNLTnhtSTgtX3VDbVdZd3ZzSFNiLVlQMTdMemlqVDdYUHdwaGxrMDRtUEVmeHFrb0Z2MjZYVDVfMktsc0dlczVmQThGZmdITUhVR2xXX1JHaklKV1dHbjBrTWFzNWl4WkxVcG8wSnNnWlNGOUNKZWk4VWdMV1ZpSi04Wl9HSm1ibDlNenRIMmVPcnlKQdIBuwFBVV95cUxPMVRmd25CaE9fcWpyT08zMUw3MFdhSnlrcjNkdE5LRE9yOUFjSWI4cE0yLUY0UFFJQjFNZ1VCcTRHX3pqNlMtY2FBd0dzMUJjdERDdGY1N1N4QkZMTnk2THE1SC1FWFFCb1AydVM1eERmdnNlMUptRFBFQURfOEZfUWFiUElxeEJNbVJXYkRvUjlvamdyVXVxb1VSZlo0Sl93WDZpZklib1JreTY2cm41djdRUWs0bXBpcEFR?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 04, 2026",
       "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?oc=5",
@@ -19,6 +33,13 @@
       "text": "Status of US-Iran talks uncertain as ship struck in Hormuz",
       "source": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 03, 2026",
+      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
+      "source": "EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
       "hot": false
     },
     {
@@ -68,27 +89,6 @@
       "text": "Iran Denies Talks With the U.S. Are Back On. Trump Insists They Are",
       "source": "Time Magazine",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMGVSTFoweE40Y2VoYXJKQldReElpY014QXRnbV9ZQlRUb0xUalJMMHRqSlI5MGZiMDFlNHlMeHowcTJoZWxsQ194Wmhqakd6N0NydGJ1NjFDeHBjX3FsRUNMOUdPSjR5OWxYeDdLZ2hIMjVYaU9QLTAzRndjZTVGMFo0OTZZVlZjNzNYWjV2aVhoM0lnUjZDNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 03, 2026",
-      "text": "Live Updates: Despite Trump's remarks, no new negotiations with Iran are planned, U.S. officials tell CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1dLLUtEN1BOZURoRGtpQ1JYaDRibllHa25fRHBpNXlrSUdLV1N3NzVETUFZN3FXTFZlUTB2dmJWd1hSWUNRdDdVcUNnTmNfTTgtVXd1eTJ3WmNoRWxrY2FhcFdlX1d4bUxQdzVIcWM5RHNHNDBsOEN0TjFVTGN5ZHMtZkJ2SW5JTVJLWC04YzJmRG9CTlM5MGRVdzFTNVNYcVVOcGlzeFlSamc?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 03, 2026",
-      "text": "Defending America",
-      "source": "National Review",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOS3BsR3B5dmNybDVoYXVPc0JMd3BaZ0lCZTZmdTA2OWVZMUV3Z2VBbUFxTS1JcEROQW9hZlc4d2RlaGpWSDQtTldidG1HWVVZbU4zVldxd1Y3VS1Bb0NzbktmVnpkN2N1TjN1cndwV2g2ZFpSSGI5Z1dB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 03, 2026",
-      "text": "Iran and Oman Hold Talks on Reopening the Strait of Hormuz",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcmtpMFZCdHdaTnJDVDBwbWhTQlZ6NGo2c09uYUl0TjYxRkZlaTR5RjlYSWZob0U5blUzWTJhNk43ZTl5SHhRYWJ4eVlGSnc3dVNuMzJpQTdQenNkYUNkNHJ3bkFXZmNCQ1J5T3V2dUFsMmZFdHlaN0NKUzJKTmxKTThVTDI5U05kbjl2bTgxMDVGaFRiU3hqRklkdw?oc=5",
       "hot": false
     },
     {

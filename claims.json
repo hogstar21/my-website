@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Aug 10, 2026",
+      "text": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORnZkQ2Y1clBwaWMwOFZYa1BHb1pwOWxYNWhwbFJIc3BtR05fR2ozSkZfWkhld2huZktkWmFFaEJkSFVrZ1k5RE1kU1REWEFwTi1lMEoyeE4xQ1ItTmJVMzlqVU1SMGNhMWR2Q0tkOVh4ZVExdWpXTS1lRWR2TFdpWEk1bDNTaVBaMWc0LUJ1SDN1OUIy0gGaAUFVX3lxTE5PUWVhLWtoMEVPcmx0SE1aSEs3VjBUSGZCWEdWanNWOUFZNDZKLXF2TmN5Ty1lc0w2dnFvWTNDYTVJQ1E2UmFkWlduMFZnY0I4cnF0YXlGNDRhUXdFYkJ6WDZYWWJoc2gzNng0M3YtYnVsWFkzZmF6QjlycHcyb3VyeGxiVHhKWXFXd2RGVnRFQkVGa0RRdWRuN0E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 10, 2026",
       "text": "Iran says strait won't open until the U.S. \"corrects\" behavior",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?oc=5",
@@ -71,17 +78,10 @@
       "hot": false
     },
     {
-      "date": "Aug 09, 2026",
-      "text": "Live Updates: Latest from Israel, Iran, and Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Eb0x2cEc3NkRmU2ZIaVl6WkgzY2I2Y2lMSm9tdXFHRnk4bTNtRFJCZUZuT0JfMmlGMEdlMTJoVS16dXhSVW9sUjM4YmtmNzZvR3p0UWRwdzhUbjJFV1Y0bC1PZDVtQ0lTajhZcTVnQ1JqN3VJQXJwU3VvZmUwbTA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 09, 2026",
-      "text": "Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
+      "date": "Aug 08, 2026",
+      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "source": "Encyclopedia Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {
@@ -99,10 +99,10 @@
       "hot": false
     },
     {
-      "date": "Aug 07, 2026",
-      "text": "Saudi expects imminent two-pronged attack from Iran's allies, official says",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3M0RkZsT0JHNHhwVXVvVURQZWs0R1hMbHFpa0RsdXE4MjNaME9lUXc4bXc1M1J4em93djJwZ3U4bS1UczdEaVJDRENsYXlYS2xJQ19ZeTVmRU1mLTBxWHFySVIzRjh3OG5JWFU5b1BpNjYtUlFDNzllUG56Tm9VcTgyYUExX1FzZ3ltLWxXNEE2R3NYZ2I4bTRRUFZtbm5WQUo2UDc2X2hUb3ZaOUpvdVVFWFdQdmx0NXFaeHl3XzdjQQ?oc=5",
+      "date": "Aug 04, 2026",
+      "text": "Iran War Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?oc=5",
       "hot": false
     },
     {

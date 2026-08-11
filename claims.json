@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Aug 11, 2026",
+      "text": "Gulf shipping traffic via Strait of Hormuz falls to six vessels",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3lVMjZBYTN2WlJSTnRXUVlyRmd5dXYxNnV0ekRtTUg4VEF5cC0yM3NoV1lNNEhoTF9wandNSUNLMEFyeHNnU0w4Z2NuOXhKUzdCMlAtdms2SGxpV0t0WGNlcl9MaTdYSTZVMlh5bGVBM0ZnNUVCcVhKWWF2VU1sdTVadEV6M2s0X0tWWF9wWWhlV3h2dlBSaUFHM2VMNTdy?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 11, 2026",
+      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
+      "source": "EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 11, 2026",
+      "text": "Six killed in Houthi attack on cargo ship in Bab el-Mandeb Strait",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcEwybXAzTldRQjJSZ0dueUsxdE9EQ1BqNHFzZXF1ZUVaVnh5cFlmcUdObi1SYks4dHhreWJubTFfeGM1WEFKU0VVakp0Vng4NHRqMlF4N3hyOWlnT2VBTl9xd2NYUjgxc0pEWi10N2s2TnZzeHFyWjI0QU9sVFVnekNZMXI0WlQxWVdWM2lVeVZKQTRXN1JOWnh4Q194M2vSAaQBQVVfeXFMUENPdERRNk81OEpCbjN1NWlyYnMyLUdKSmtKMkRlUnIzN25FWVliay1fQ0dXQkMtLWFpR2xRM29vLTM0cHQ2U2owaHdUYXptcXAzdjQ2aU15QW5ZZlVtUk01ODZYUHAyOUMtTkxnTXBnUC0wVlRGZXU1cWNMRmhCb0RkQXJ1TzlQZG8zdEx2eG90WEdpYm5SQjhMS0FNOThXbzhmWU8?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 11, 2026",
       "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
       "source": "Encyclopedia Britannica",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
@@ -78,31 +99,10 @@
       "hot": false
     },
     {
-      "date": "Aug 11, 2026",
-      "text": "Houthi missile strike on commercial ship in Bab el-Mandeb kills two Pakistanis, one Indonesian",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OaHpJODVVdHRZR2RzZWdJWmhpbzJ6dHI0Q1Y1ZHFBLW5ZaXJvNW1GR004QUJKTkgzT1EydUdBWWpvdDJMckV1Z2IxeThaNDlJMWZMS1dfWXJvWDJL?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 09, 2026",
-      "text": "Iran war updates: Trump says US ‘only semi-negotiating’ ⁠with Tehran",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 07, 2026",
-      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Jul 20, 2026",
-      "text": "Iran operations intensify as thousands more San Diego troops arrive off coast",
-      "source": "KPBS",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRUckhBYWtsMGM5S1daQ0pLN0xwRW1vaWxvanB1WS1JZ29WU3Rpb1c0WWJVYmNzWDBRLS1WaDlsOENmZkdwamljTWlYbmV4bEo5N3dxdU1yUmxxVFhjMVN2NE43ZGVEM3k3WVRTcHQ2dkhWYmVhb1E2Y3lpN2VQWC1KdHN3QXJyMXFNMHZpRS1raTRGQ3ZEbEg4LXNvdWtVbG5McHJpdnR1MHFjODhpcVpOckdqV3BCSEg1Q2NnT1A?oc=5",
+      "date": "Aug 10, 2026",
+      "text": "Images - 11th MEU Marines, Sailors Conduct Marksmanship Training Aboard USS Boxer",
+      "source": "DVIDS",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOek5zdl9DSzVOS3A3dEY4djhUR3hFMFBlRDY0NHFpZFJMY181aGVGWDgzaTByQms4c0dwSGNOemY5MklJaXRTSUJiODg0dzlMRDdkMVJNc2V3S1pMQ1ljMzlSbHpPWlhOYUIteGlWdXlpZGVnaDdmR3RKeUF5cUthM1ByS2lodndNS3ZZdDRWdGpsSzVGZGxnNm5EUkxfZ2VEeERoSmt5RV9GeFZ1UTlJ?oc=5",
       "hot": false
     },
     {

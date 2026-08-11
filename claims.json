@@ -23,6 +23,20 @@
     },
     {
       "date": "Aug 10, 2026",
+      "text": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV1JKTXJBd3g5dVkxa0VWVXNPcVRSY2ZwNmFGNnAyUzM5dDlqcFRwdFYxODBUb3I2YnBqM2hKQW4zWVJwU1VXZzF4RWlmSjZOYlh4U1VydlNPS2wwd0RTUEUxUHlsTElrWXQ5R041R2tqVVl1bzFsNVdpVHVBLXpERmo4NF9zaDFrVGlDV05VYjlvaVE2bmcwR21vWjk0aEZnRnpqS0ZQRHlkVExyUThpNC1IVEXSAboBQVVfeXFMT1YwQURrRTJkLWdZcVdDRklJRmFkNDJnTF83aDNxZllMbXJMbzNCUlY2NFhvb1lCbklvaFozdFN6UTd2WHp3dG1VeEdmSTB0TkpsOEdINFFoN09ONmVLLTdmQllZcHBNNTI1WWRqb0djY25sVi13Tm95SnJpeFBLWHJrRm54Sm9kOFlnYnFKaGxmRzZVTE5Id2pzVnBvaUtCczRBaTdlcktiZXc0eTVGOTRVMEF0ZXFXcG5B?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 10, 2026",
+      "text": "Iran-backed Houthis strike Red Sea port of Mocha, threatening shipping routes",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ2lQcjJnWEdBSWcxR0xXODhzOEZlTnJPdEZUeDVlcFFJQ0tHS1ZrYWJ6bEY1T2JDT0UtWmZnMTFwV1d5NVZsQkwwYWlmWkVkR3ZMeFAyelFBYW1ibzRub0xMYzYwYXB5aFVyVXhib0l2bHpXVFEzWEJDWnNBZzZBS1hYa1lGak54b0JvOTRFUGx4cmZBdUFkT1RWQ1ZnLUpjb2FTZFVaalQxMEpINmFWN21FMHRNTU1EdWxhLW9DempSbzA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 10, 2026",
       "text": "Trump Responds as Iran Says U.S. Must Meet These Six Demands If Strait of Hormuz Is to Reopen",
       "source": "Time Magazine",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVXJwYzdVX3cxakR4S1ZjYkpXYTBlZlBlMFUyVjZEQ1RNNnR1SkxVNjVjelNueUJuTmQyRjFfbnF5YUk3MTdleEw0dFRnT3JSeklpUkthMGdpTm81blM3Y1VwMlFVNDhZbF8xRlQzQkZRNFBaQ2pkMHNhQ2xGTGZxU3QzdkdKY051ZjQ5YmRCYW1jX09oVmc?oc=5",
@@ -78,13 +92,6 @@
       "hot": false
     },
     {
-      "date": "Aug 10, 2026",
-      "text": "Iran war live: Tehran says ‘no military solution’ to Hormuz reopening",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcUxCdUo1QURKdmlMbUFyUC1IQ0Uwd0pCQnI4RW5COEdfWERyVTJBWkZkNG94Y1lzOW1KYTJ1cFk4UWNUR1RVdldscEhpNU8tczNNSkViNUdnZEM0ZlVwMC1BSldXMVRkMmNfeGVhd3FURUdyZC1JRC1Md00ydTZhd1NudnpfM2IwN1phMDk3MHB0UFMxZWtwbDJNY0h4Q1R1OGcxbGpsV1dwc21BeE5ReFV6N3FoN25tNVFaaNIBwgFBVV95cUxNXzFrQnYyUjVkeUVsRkl4UVRKVjViSndGM1FEbTduS1dmZjV1Z0VHc2lFSkU5MWc1OTRITTJEamRHalRzUlZrb0ZYUXBCR0xVenVoWWE5aE5vdjFGWUs0QXJmQ0NKZ1lSTWI2WTNQN2J3N05QdnhmcTVnOElBckk2U05KNlljYmU5elNNRU1zMm1oUlJNeU50cUhVQnQ3MXJ6NmJVZURwLUJ5OWVVOVdwaEZ5QjhiZVQyNU45THl2NnJTdw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 08, 2026",
       "text": "Yemen Teeters on Civil War as Regional Stability Hangs in the Balance",
       "source": "The New York Times",
@@ -94,15 +101,8 @@
     {
       "date": "Aug 07, 2026",
       "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "energynow.com",
+      "source": "EnergyNow.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 07, 2026",
-      "text": "Houthi strikes in Yemen as Saudi Arabia braces for attacks: What we know",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVy1aejJVOTJEdzhFTzNTUV80eUpJUnh1ZjRzcE1BMm1ueDF3XzZOMmVDTWVWVzc2S29kTDdBVUhoQTE0Mm1OTkdDYmpnUVBGT3h1MFkwQWFuM3pVcW9xOW9YSGJweklEMTdEM0hnSFBKQTI0RXpRUWRxNHdLYkxhZWhaaTFWRkxycDlvUmhIOXlseTQ4ZkdJbzFmWEtVcWVELTBmV2NlOU85TXE4NW5SSzVB0gG3AUFVX3lxTE5CTGxzYlNCcC1aMTA2Qk1RYTBaVjlNZnRKdWs5QWJMbDMyR3A2SWo3NmhOaXBHbkFfZUxFSXVOMm9CNU5KYmNBZUw0dmRua0NFTnhJdkZYMzBEXzJfWmpKWnF0dktQTnU0OUFYbnA5S0FTQjFzaDlacG1NNi1xOENqVVBUYXYwQmNZeEVMRUZHYVJ5OE5hWGRyX24zLVo4WUNtWU9TbE91NVJYcVdrYmhJLVhiUG9qOA?oc=5",
       "hot": false
     },
     {

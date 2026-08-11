@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 11, 2026",
+      "text": "Live Updates: U.S. and Iran close to a \"peace arrangement or a deal,\" Pakistan says",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 11, 2026",
+      "text": "Oil Prices Rise to $90 a Barrel Over U.S.-Iran Stalemate",
+      "source": "nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU3NHamJ4eFBXT1cwMEYzU01tNG9ZbmdiOXhjWmtEUGlMQVJiQUR5QVJYZnpwQUw1UDd5VXExWlBkNXIxOU1PZlRVYldtMkMxdEhaS2gyVm5ydTkzUGFseDhHcHpSVlZRUndyd29nblFTREdrN3pSTGNOSFctejg3TQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 11, 2026",
       "text": "Houthi attack on small cargo ship in Red Sea kills three crew members, sources say",
       "source": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSURtU0FxazNSZWRITkpUbGp3SDRFemExTERkeHk0c3B6c0hoT3Vaa2lJNGxqZ3pjdmIxX1k0Y0M2cWlxOTRlSGE1WF9WT1V0eUdWd1poSEZObm1kdHpyS24xVU9jNUdubXpTQUpjOURBTERkYTFUNjF0aFAwYXZ0cTN0bVZadW5ub0JBWElFa1lMNlpvZWFYQ1lB?oc=5",
@@ -78,30 +92,16 @@
       "hot": false
     },
     {
-      "date": "Aug 10, 2026",
-      "text": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd2ZVSzhLT01KMUc3Y2FsR1dBZkhnQU9RZ3ptS1BIZks4bHQ2OXotNUxaSlI0c1VNcEU5eF84LXc2emxYQmN5a3dfTGNURVBYVmxGal9MTExscmMyMXFkWEtKRFpwMXV6UXc?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 09, 2026",
-      "text": "Iran war updates: Trump says US ‘only semi-negotiating’ ⁠with Tehran",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 08, 2026",
-      "text": "Sailors on the USS Abraham Lincoln reportedly dealing with poor conditions, weak morale, families say",
-      "source": "Task & Purpose",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mWEFKYV9nQVMwblpCVG94UUlYdjVUNDZHc0JJU01leE5RZWR1RFNQOFkxZmVsMVNFNFo2aTJoQmJEWTdDeTFyZW1Sck54bVZHeC1sVXJpSG5mWkdtMFJVNEltSmJnbV80OUtpZ0VSYXdjV2dJM0NMRTJZbw?oc=5",
+      "text": "Hopes for Hormuz deal fade as Trump demands Iranian reparations",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmFvNGYwRDFRdHZrdWhBOWR0ZmVCdkZTSzRROXVNMG1UX1Azb04xa3ZCbEtYNkl4eFhSZG16b0xYeHNyd2tTdHhGWXFUTXJ6WFNVRjg3bmZYOEhEeHNaNHh4NU9qN0RQYXY3ZG13Qzh6Mk1LNG9jaGZraUZwRHVKY0hMZlFWUTdMOEpoaTRuemlPWEFJZUhsYk5TaUpNdWFqR1dId3NCM0xvYS1SNlNBMg?oc=5",
       "hot": false
     },
     {
       "date": "Jul 20, 2026",
       "text": "Iran operations intensify as thousands more San Diego troops arrive off coast",
-      "source": "KPBS",
+      "source": "kpbs.org",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRUckhBYWtsMGM5S1daQ0pLN0xwRW1vaWxvanB1WS1JZ29WU3Rpb1c0WWJVYmNzWDBRLS1WaDlsOENmZkdwamljTWlYbmV4bEo5N3dxdU1yUmxxVFhjMVN2NE43ZGVEM3k3WVRTcHQ2dkhWYmVhb1E2Y3lpN2VQWC1KdHN3QXJyMXFNMHZpRS1raTRGQ3ZEbEg4LXNvdWtVbG5McHJpdnR1MHFjODhpcVpOckdqV3BCSEg1Q2NnT1A?oc=5",
       "hot": false
     },

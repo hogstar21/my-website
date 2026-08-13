@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Aug 13, 2026",
+      "text": "IDF surprised by Iran's post-war recovery, despite history",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XRVpSUlR3a1dveFM2VE91bEZ1YnVfeHdUY2p6S2RtSS1fbjk4Tlk4WFNkR25CZnhHTGVLUEZGd1RCNlhSc3h6aVJUempVeXhzY19nLUVwc1F4R1BnTmZ4VF9rUWVzWmdSSUY4WHln?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 13, 2026",
       "text": "Live Updates: Tehran says Strait of Hormuz \"under Iran's control\" after Trump threatens U.S. might \"keep it\"",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2RHTTJfTFBtYldWN0p1aFl6bWNhQ3FHc3VLVUVodGl4SmY1RGZuTmhFNjRWZjBpLUlvaktWVnhpQ2FFZHJZYV9SeWVGVFNaZ0VKQ2xLNF9LVnAwOVE2MFhBUTlaWm1TZFFELW53bC1vekluLXlHanRTdE9aU3ZpWG9aRmhvUDdiMTFoUzlkcFFvcWVscTA3YWxaZDBIbi1xbkVaMURGVFpPTXY0WEcwWTBn?oc=5",
@@ -92,13 +99,6 @@
       "hot": false
     },
     {
-      "date": "Aug 11, 2026",
-      "text": "USS Abraham Lincoln families press Navy leaders over sailors’ mental health",
-      "source": "stripes.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd3pDVUFXUHpjQ2pfQWxKVFRrWUtJbWllX0JFU1ZGRkgweU5EMFYzYlNvcW9ORW5kcUFiaXlHUS1LN1BEZDFnWGF2ZFJyVFgyX3lUMzRzbE9lSHBqLUJkXzk2N1FnZDJydHRhS3Y5b00zTjhIVGxyd0ozX2lGOGhwX0FQRmM1Z2ZUR0U2ZXZaMGZnc3B2c2tRc3RmODRQM1JIdWJKSGNIaHdhci1faUlfd3hPMEFWeDV3V19ZOQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 10, 2026",
       "text": "Images - 11th MEU Marines, Sailors Conduct Marksmanship Training Aboard USS Boxer",
       "source": "DVIDS",
@@ -108,7 +108,7 @@
     {
       "date": "Jul 20, 2026",
       "text": "Middle East: Civilians again under fire as US-Iran strikes continue",
-      "source": "news.un.org",
+      "source": "UN News",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwVkdrelFxQ1lOV3MxZFA0ZVRwM1JIMVpzNkEzVlFnaThsWFJFNGpZTjJBM1kxczNvMzVJWVJrRVQwc181ZW5sdk9BSkhtVjdDN29qZUdIZw?oc=5",
       "hot": false
     }

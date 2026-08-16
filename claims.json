@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 16, 2026",
+      "text": "Scoop: Inside Trump's secret backchannel to Iran's Revolutionary Guard",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNmlGYThLTGZyUDE3b3o2RU9HWU5iRlBFRnRNb1NXU2prci1YYVlKRGdjVi1NbTJwZEtsWEhuMHdUTkVtaTJVWTlxSWgwNTMtcHB1NGdIcElvUmVnUWNoTmJQTnNNUDl5NjJxVHRTdmF1d0J1Ni1MWUZaUnA5bFpnUg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 16, 2026",
+      "text": "Bab el-Mandeb Strait faces growing threat as Houthi attacks raise fears of a second Hormuz",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWZ4Y3pCY2JPd1Q3NDhQem9ueXlmOVFzX05Rb20zcVNacTdSRHd0REU1LUJiUlJ3MW5qWlNtOVlOOU8yZmd5UHRESE1odm5NMkFqWFlPdlZ2YXowdl80TGZ1d0VRc0l5OHRjMnVnQlFZSkwtajBZZFFISFNaNmpISDNWd2N0bVVhNnY1M1IxOWstWGpKb1ZOcFJOTFk0UUNJYWJQclhhZG8yNFdfN205TFpn0gG3AUFVX3lxTFBMbVBaay1Kal9NaTNkb0p3MlU5eWY1YVNOSjlERXl2ckxqZHNuU3h1a0JzUjFXUzRWSVdrbzRYd2RJaGpWNU9uSnhGYmVtZVFkVUk2TVpjRGRZbDRFNkpnWUttTmV1MkhhU2JZb1JvRlYtRXdtSEtfUU9QRWduaUIxVU5TR25IaG1YS0xqaGMtZVJveFRUUVlDbnE3T0pxQW9ZZV9rSnI3d0NuRXJYY0Qxc1IxQWFLMA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 16, 2026",
       "text": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZMk5oem5hWUk0WHRRT1RZMDlxcDdiOHEtcm5zNktkZWNyeU8zSFJ5TG5fcWo5dUtZMjJWaS1PX1pzNnc3VU5KbHJnSVRIQU8tM1Z0ckFwaE5pRzBoS2ZEYmtTaE1GWHVXR1hFV1ZwdG9yNnlzZVkyQjh6NUFiMWM?oc=5",
@@ -78,17 +92,10 @@
       "hot": false
     },
     {
-      "date": "Aug 15, 2026",
-      "text": "Iran war live: Tehran says Hormuz under its control, Lebanon slams Israel",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 14, 2026",
-      "text": "Low oil prices now ‘goal No. 1’ in Iran war, Vance says, as U.S. threatens new economic pressure",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1RjRkdfWFhDa19XeVdJTExnYzQwX0ZJdFBnYzlkMVhfWXdPNFRxWVJVcUlMLTdtZ3NudmVvQTI4Mm1EZ25Lb25oelpLX0dyVl81TEpkbndwTTBhMzRUM052VmdVdnRGcjl5dUlhNUVfX1FJcU5fX3BRVmp1T3JUTUcxMWZFcExEdFE5dXVZSlN1TlNBQ0FYdEJPRFJOVXZvbmF6andjdEdnMDhjNXpjOXFZaw?oc=5",
+      "text": "U.S. Marines Conduct TRAP Drill Aboard USS Boxer",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRzhVaHFLbVVSUXpwTHc5YjRTamRYNWFKYk03a0hzdUdqWDJKUUJhT0EtTHV6VGNqWF9vUHNOdEVwTmR3dVRncG4wSXBaY3piUVozbDhwc3ctMWxVVkZrX1NjMWJIcXVydlNENUU2SnBHeHk4U29IVUpCYWFWckx1Qk9ZQlRfT05RaUdlRm9B?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "Will all-out war in Yemen reignite as the Houthis escalate attacks?",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNUx1NlFUQ0lkSkpES0NkeXpmYlQ3anlWLVQtSi1CSTNaTUJRVGlpM3F0RFdTX0U0c19QNGFqZlE1Y1g0Z2FjZnRCSVIzYklRYTZfcUMyWjBRbHltY0w3WUxrSXJZX3RUaGNyRUkwZmhGNnpXM21DTG5naWs0WEFvM01EcFZpaEllSFdpeGwtTHU4LV8ySWF6U25iNlduVDZ5WWVRSF930gGrAUFVX3lxTE5wd1RXTmdZalhXRHlxQXd0TXNyR1NwaGdkR0xLb3pQUmRYYlhQZnEzNXVzVDZpVm1hSENhQnVzTFhrU1daeVQtUkY3ZmNGTzlkV2E3X2VROEVRWWVKNjZhTXFTZGRyYjNOczVvT3VIanJNLTdfU3VBUy1GcDNORGp4ZVRYVXRxX2hrVVhlbzIyaHVCWUxDOENNdEtGSVFsam9JUzJSQVNSbTl2dw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 12, 2026",
-      "text": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3Z2SnhPazVIQnhtS1Q4MnZZY0l4N0thOE9IMDVYdFJYYXRrQWxCellTNlowMnc5RDdqdmNzZEo4WHlKNjQ1OTRyTGR3TWxGTS1VdEdhRlZoWGdTeUF0MERkYnJiRFVoNFF4Rk1tMElRdFNHZnpyZ3VUby0xU2VLNXJaXzJ5YjRJZldiQTVXOWZONWpkTVpVbk94d3ZsVzlndmpGSUdpaWlMMUdsbFNEYWtvc9IBuAFBVV95cUxPNmM5RlF4c0I0VlZZTS1Sbmo2ejBFS3B4RnBsUUV5TVpSS3E5QnpFeUkzSlk0S29ZaEQzNWZESWRyVE5fWlUycVJmZDZYR0VGNVZTVzF6dFVMZ2ZIMmJKT2JHaURuMVZIYTNuMFY2MlZCMmdUMnZlQWxyOTRzNlUtTzc0SlZTUHkzV2ZzRHJzRlBGZVRCTkFJM2N1eWlsNFpxVm1UWFZrNF9TdzJUa2EzXzZfVUZQdDN6?oc=5",
       "hot": false
     },
     {

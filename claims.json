@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 17, 2026",
+      "text": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY2NlVlR2SVhHWjF2ZXpRWEk4aU9jZzRTZDdqN1RxeHJfWlJnUHNMY0llNWtibFktbTdRVk53dng5MW9MYlNYaTdKdVpmVlp6QW1qSFI3YkhDLW9KejljdDVncDNpVlZvTUkxWmxmM3hwbWI2d1BnYm1aUlh4ZHZpOGNLYXNLTy1mbjc0bWxRbHVMQzFpU0pab3dEX3pLU1Zz?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 17, 2026",
+      "text": "Iran working to finalize Hormuz agreement with Oman",
+      "source": "Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeDhXYkl6MVhHVEQtY2lpN1BxZkhYOUdadEFMTWhfUmdnakU4bE11VHpnY2JiY19RS2ctZExoOWdjRFRpc1dPM0hkTjNyV3N1RkNfVkJFZ3VVcUNvemVNUFprYXhDTWltQ2hsLWxxSUJDQWoxaWVTWEVEcGdXc2hXY2piOU1hZ2pxbGpsLXBxM3h2dlprRUZXZDBGLVY1QkQzcm9fQXJxcEVWS0E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 17, 2026",
       "text": "Live updates: Trump threatens Oman as US-Iran agreement expires",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
@@ -78,31 +92,10 @@
       "hot": false
     },
     {
-      "date": "Aug 17, 2026",
-      "text": "Iran war live: Tehran-US MoU set to expire; Hamas’s al-Khayya meets Kushner",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajc0X21UVGdUWS1qckcwbjdlcnludDY1d0NucnQyX0ptT0s5bkcwYmhwdjh6d25DMVUxV1k0cEZZVmJtaVZ1SW5NdVBQU3JxbEp4b3V2bTN6aVhkbVhKMnRvV3JaTWc2Yl9UUDlicWNoNUtfTDlEREJ1OFhNY1RpTWwxdFcxQnFkQmZ6bTdzWGF5OVBWdi1rWm5NNml3NXJUeUFPaHVjMGc1dUQyQ1h2WGFya0hOdFNOWlhTZU9Gd9IBxAFBVV95cUxQYWtBWkZHRFdvNFpGU09ySVlxcExPZS1MRGw4M1RRc1JmYk45Q2oxTFBldEFnYWlxZlM0UWQzblNuY1A0amt4enBYcDk3cUlmQlZWdTdyYXQzZmVqbjFoQkt0UTFRa2swZGx5T3pGRU5OS3BFZktHVG9wWl9aZW1LSTNhQUU5bWhBNkZKTXRnVHdUZ3p1SHdweU12YU1wVG1TdElSSFNTWEx0NklrZGl0R3lsU0RwUVV3WURNcFgwcWZPY1pN?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 15, 2026",
-      "text": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
-      "source": "centcom.mil",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFdHbHo4TFZzLXdXd01XNmp4XzRQVl9vTmdMOFc4dml3aTVzX1lfajBLTHFNdXFkR2VkUGlzOEszcENDZ25jeUQ0RUtnWm9saGpkdUVBSXNTVHVyUmpLMkkySUJ4LUZnbUVYR0ppdGF1ZVp4VDlnRmx4STJoZ3hnNmN1cFNYVkRhVzZVM0ZQcVJLNk9pTHo4WEFGN1EyWTRsS1pXWFlMTURoRzZieURFbERBSjhSR19iUHcxdFd3?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 15, 2026",
-      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 13, 2026",
-      "text": "Will all-out war in Yemen reignite as the Houthis escalate attacks?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNUx1NlFUQ0lkSkpES0NkeXpmYlQ3anlWLVQtSi1CSTNaTUJRVGlpM3F0RFdTX0U0c19QNGFqZlE1Y1g0Z2FjZnRCSVIzYklRYTZfcUMyWjBRbHltY0w3WUxrSXJZX3RUaGNyRUkwZmhGNnpXM21DTG5naWs0WEFvM01EcFZpaEllSFdpeGwtTHU4LV8ySWF6U25iNlduVDZ5WWVRSF930gGrAUFVX3lxTE5wd1RXTmdZalhXRHlxQXd0TXNyR1NwaGdkR0xLb3pQUmRYYlhQZnEzNXVzVDZpVm1hSENhQnVzTFhrU1daeVQtUkY3ZmNGTzlkV2E3X2VROEVRWWVKNjZhTXFTZGRyYjNOczVvT3VIanJNLTdfU3VBUy1GcDNORGp4ZVRYVXRxX2hrVVhlbzIyaHVCWUxDOENNdEtGSVFsam9JUzJSQVNSbTl2dw?oc=5",
+      "date": "Aug 16, 2026",
+      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "source": "Encyclopedia Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {
@@ -110,6 +103,13 @@
       "text": "Iranian-backed Houthis kill 6 in attack on vessel, and other developments in the Mideast",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORXhISUZDNXVZTlFMeWpOeGVEUDVsYWZKYkFQV2tmaXVSSW45SW5RZmtyeGQtaVIxMlVGdVZVNm5vemI5Rm9yMS1xMFc4Q0kzcTN4UThPTnF1anVDd1FSdWlIdEY2SWM2bkRiZ0VQQVQxOUJ4dXl2U2pIZFZOWVJyQ0NrelJvSlJsUWlpOHhxeFBSa0V6Y1BYb3dvaXQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Jul 27, 2026",
+      "text": "Iran-Backed Houthis Expand Conflict With Red Sea Blockade",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0pMS296bWU1WFFKSHYwbkdRN1RFVTZHQ1h4Znp3djJ6eHBRdTNFOHVIZ011OUdNZWdjeDhPZWluZENhZmZTR1JsSmhiWC12MjRqejdUcG1rM0FWVnlOd3J4NkJlNjVIdDVDRGEtY283aDQ3UGhQTU1CSVhZcDBkQw?oc=5",
       "hot": false
     }
   ],

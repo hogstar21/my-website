@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Aug 17, 2026",
+      "text": "U.S. and Iran Blow Through Deadline to Agree to a Broad Deal to End War",
+      "source": "nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Hb3RNTTBQcDhMM3VPRGVZYUNZVktEVXdib1dqVGFaN05PemFhelg1US1SM3VXWXdfeS1JYWtyUlVGOXktVndIS1hSbHA0TEl3Z3d5Z1dQWklHVGNVMEhkQnNnVXdMd1ZCc3ZyTmtJYVM2ZTdZWGMxT19ZeG5Pbzg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 17, 2026",
       "text": "Iran’s Secret Plan to Escalate the War",
       "source": "WSJ",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTVZDZEJGTmI4U0t3MkVja0N0Z3BhYlpfRzNYYUZRODZOb0RoQ050UFNFaTJfSGRmQm9OTUdtWmtoMVdXT0dxR0RWUThPOFhSU0t0OTA5SUR2U2F3dXd6TTJrcVpvOUd1Z25kVlB5bnhsSXc1d3NnOA?oc=5",
@@ -85,17 +92,10 @@
       "hot": false
     },
     {
-      "date": "Aug 15, 2026",
-      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 12, 2026",
-      "text": "Iranian-backed Houthis kill 6 in attack on vessel, and other developments in the Mideast",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORXhISUZDNXVZTlFMeWpOeGVEUDVsYWZKYkFQV2tmaXVSSW45SW5RZmtyeGQtaVIxMlVGdVZVNm5vemI5Rm9yMS1xMFc4Q0kzcTN4UThPTnF1anVDd1FSdWlIdEY2SWM2bkRiZ0VQQVQxOUJ4dXl2U2pIZFZOWVJyQ0NrelJvSlJsUWlpOHhxeFBSa0V6Y1BYb3dvaXQ?oc=5",
+      "date": "Aug 16, 2026",
+      "text": "Bab el-Mandeb Strait faces growing threat as Houthi attacks raise fears of a second Hormuz",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWZ4Y3pCY2JPd1Q3NDhQem9ueXlmOVFzX05Rb20zcVNacTdSRHd0REU1LUJiUlJ3MW5qWlNtOVlOOU8yZmd5UHRESE1odm5NMkFqWFlPdlZ2YXowdl80TGZ1d0VRc0l5OHRjMnVnQlFZSkwtajBZZFFISFNaNmpISDNWd2N0bVVhNnY1M1IxOWstWGpKb1ZOcFJOTFk0UUNJYWJQclhhZG8yNFdfN205TFpn0gG3AUFVX3lxTFBMbVBaay1Kal9NaTNkb0p3MlU5eWY1YVNOSjlERXl2ckxqZHNuU3h1a0JzUjFXUzRWSVdrbzRYd2RJaGpWNU9uSnhGYmVtZVFkVUk2TVpjRGRZbDRFNkpnWUttTmV1MkhhU2JZb1JvRlYtRXdtSEtfUU9QRWduaUIxVU5TR25IaG1YS0xqaGMtZVJveFRUUVlDbnE3T0pxQW9ZZV9rSnI3d0NuRXJYY0Qxc1IxQWFLMA?oc=5",
       "hot": false
     },
     {
@@ -108,7 +108,7 @@
     {
       "date": "Jul 27, 2026",
       "text": "Iran-Backed Houthis Expand Conflict With Red Sea Blockade",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0pMS296bWU1WFFKSHYwbkdRN1RFVTZHQ1h4Znp3djJ6eHBRdTNFOHVIZ011OUdNZWdjeDhPZWluZENhZmZTR1JsSmhiWC12MjRqejdUcG1rM0FWVnlOd3J4NkJlNjVIdDVDRGEtY283aDQ3UGhQTU1CSVhZcDBkQw?oc=5",
       "hot": false
     }

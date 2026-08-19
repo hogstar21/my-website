@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Aug 18, 2026",
+      "text": "Nukes all around? A fraying U.S. nuclear umbrella is pushing allies to weigh defense options, raising risk of a proliferation cascade",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOHJ3Vml6SGdsS1hWTUJaMzh1cUtKYmFSQmFNYlM3VDgyakg1MllScldMWnRQUGxsV1R0b2xyZFpFZXBoVUJMbkZUbHpVSi1rR3JDVm8yVzhURVhZb21hN1FuZ284ZzU5aHFuWS1VOXpZWjdYQTRuQkRXeDRnbERJNXA4WF9NaWFQeHZNTmU0MGfSAZYBQVVfeXFMUFhramZycDZfZUlERWpqUm1WM1psd0tkeDc4NUswSW5aNTZNczZfdW5fZG9WOEoza3lnQXlrUzRXS095Y1lvZXdJNWxWOEVsSld0M0dLUVQ1WWpOb1kzQVFCTkNoczRwU01qNXdtVHF1eU9hdTNlQlVTY3M0cHdkelphYUdIVllPYzdGOFVTTXRDOERUSnNB?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 18, 2026",
       "text": "Live updates: Trump says no talks are taking place as Tehran accuses US of ‘squeezing’ Iran for concessions",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fR1lNM2lVdG9Kak5IZkdlRWgzQzNVUHVrRU85ZUZ5MzJNX2hkcktWdkt6aW9jMmhjRDhEbUxnQktEbHQxXzFMbGQyT2xtYTJmQ2E0VDU0NTRBOHpuRjNCQW0xZmlVWENybGgzVGd3?oc=5",
@@ -85,17 +92,17 @@
       "hot": false
     },
     {
-      "date": "Aug 18, 2026",
-      "text": "Ship attacked during Strait of Hormuz transit and other news from the Middle East",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
+      "date": "Aug 17, 2026",
+      "text": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3Z3QTdaRnU3UHlPeS05NHc5dG5UOFlneWlWU2dqbkFZTjEwLWhnczNMeDd5bmRxbzVmYi1kNTRCOVhsaE1vYVZGZUQ2dThqWTZPNXdJVkppLUJ5NV9VMHNQZXdRSEFGSGtaUjU2V1Z4M0tzYmZqY01fdUl2ZGpGdEcwc213a2NUTXNwcWlUUGtadmNpT1NxSFpDV3JLQ3BF?oc=5",
       "hot": false
     },
     {
       "date": "Aug 17, 2026",
-      "text": "U.S. and Iran Blow Through Deadline to Agree to a Broad Deal to End War",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Hb3RNTTBQcDhMM3VPRGVZYUNZVktEVXdib1dqVGFaN05PemFhelg1US1SM3VXWXdfeS1JYWtyUlVGOXktVndIS1hSbHA0TEl3Z3d5Z1dQWklHVGNVMEhkQnNnVXdMd1ZCc3ZyTmtJYVM2ZTdZWGMxT19ZeG5Pbzg?oc=5",
+      "text": "USS Benfold Leaves Japan After Returning from Power Failure Repairs",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYnlLNjNndTJsaDVlaE9TXzBWRmNXNEpEcDFLaUhqRmdUQVJEaTV2aFcxUEF0Mi1uUTJDbnlNcUJxU19EYmxKQlZya1VMaE5mTjVjTlREQTQyQi03bnNEcXhiQldTcDlyWjdJN1Vjdm83aXRNclRKdExKS3ZuRHFXcUJ1UzhOYTBuUkJjOUQ3RnVTS1dwYWh2WXREQW5kVjdKa2c?oc=5",
       "hot": false
     },
     {
@@ -103,13 +110,6 @@
       "text": "Bab el-Mandeb Strait faces growing threat as Houthi attacks raise fears of a second Hormuz",
       "source": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWZ4Y3pCY2JPd1Q3NDhQem9ueXlmOVFzX05Rb20zcVNacTdSRHd0REU1LUJiUlJ3MW5qWlNtOVlOOU8yZmd5UHRESE1odm5NMkFqWFlPdlZ2YXowdl80TGZ1d0VRc0l5OHRjMnVnQlFZSkwtajBZZFFISFNaNmpISDNWd2N0bVVhNnY1M1IxOWstWGpKb1ZOcFJOTFk0UUNJYWJQclhhZG8yNFdfN205TFpn0gG3AUFVX3lxTFBMbVBaay1Kal9NaTNkb0p3MlU5eWY1YVNOSjlERXl2ckxqZHNuU3h1a0JzUjFXUzRWSVdrbzRYd2RJaGpWNU9uSnhGYmVtZVFkVUk2TVpjRGRZbDRFNkpnWUttTmV1MkhhU2JZb1JvRlYtRXdtSEtfUU9QRWduaUIxVU5TR25IaG1YS0xqaGMtZVJveFRUUVlDbnE3T0pxQW9ZZV9rSnI3d0NuRXJYY0Qxc1IxQWFLMA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 15, 2026",
-      "text": "US aircraft carrier expected to relieve USS Lincoln in Middle East",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTndHZXpXcVRSNzVXWlBuX2VZRW9xMVBEUTR5NmlYYWgzU0taZk9pTTJ3b2lsT3NyMkVHS0tKcFNzazVXMEtNMk1yWEFyVnhvY05WLUlhVW1KN0d4SXpMaHVFZWdkak9pUXVhdU9iMlctVU4wMm4tTnlHTV9TeklsX0JHUDBTRG1qUU5YUzR4bE9Edm1lUlBYMjJJakU3QndDb3lyNnhBYzlGX2fSAbABQVVfeXFMTVU1QWRCRlA0bUJuMll3U0ZrZWNuRVhycWFncWNINlBhUllnd3FNdnlBMVl5TU5vcU1hYW9TeGh0OW1mZG5SVk52Q0F2ajVkaUN4eGxLRVJ4TVpvYWtUblZLUkd2a21yRUVuNjBubVpuMEJZTmxSdXVmU05EOGYwNFJ0aGw2QXc3MjJyWjl2MDh3bVl1WDBTeThMNmw0WDBrVnhKbjhEWHRiLUs3N0lXdVU?oc=5",
       "hot": false
     }
   ],

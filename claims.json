@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Aug 19, 2026",
+      "text": "Trump says US has no talks planned with Iran and other news from the Middle East",
+      "source": "apnews.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 19, 2026",
+      "text": "Iran reportedly weighs attacks on U.S. targets in Europe as UAE severs trade with Tehran",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xWXltSkJ1VVdJSDBqRktHbUd0bjg0cG5KcjhudGFwaUFCLUk2cUxndEpIalBiUndYRzM2azBKU1Q3VUdwTjZhNjM3SHVCS0Y1Ym9qSy1rSzlMUDMxb0lSLUxfekhvdHdPVlUtdnln0gFzQVVfeXFMTklBNnA3QkJxbGljbGpEei1oYnVWeWJ2Z1hjRjNaY0M0ZGlMR0xHa3ZlUEJrcEhBWG5qWHZ2Tk5KMWJPMkpQZFl1U0R2cnI1TngyQWVrY1NadEx6YUR3dTUxdGEtY2V3S3REdDA5bHNzRHZOVQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 19, 2026",
       "text": "August 18, 2026 - Trump says no talks underway with Iran, UAE detects ‘missile threat’",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fR1lNM2lVdG9Kak5IZkdlRWgzQzNVUHVrRU85ZUZ5MzJNX2hkcktWdkt6aW9jMmhjRDhEbUxnQktEbHQxXzFMbGQyT2xtYTJmQ2E0VDU0NTRBOHpuRjNCQW0xZmlVWENybGgzVGd3?oc=5",
@@ -78,31 +92,17 @@
       "hot": false
     },
     {
-      "date": "Aug 18, 2026",
-      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
-      "source": "cnn.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 18, 2026",
-      "text": "Trump says no talks scheduled with Iran as he teases action in Hormuz Strait",
-      "source": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMmNIbjN3eXVyMkpCaFZaMHg0NHNPQUhEQjM2QmNTTllUdFhENXNabXp0SGl6LUtodTE3WGFmN2FhaHVsbndwUTVIWXlVMjA3NTJ3MklSa1BPUS1mTFR5VjUyUzdfenpfWXNZZlM0S05SekstNlA2RDFoYjFjN1d2QkhhWFUtTFlYMDdLZEFjaWlhNWwzMTFTX2MtOWzSAaIBQVVfeXFMUHRPcHFyUW0ya1NIS241cXhCaXdmRl9QZ2JSWEJwUWYycXBXU0tpb2tFdFM3LXRBUXVIdkJJNUl6VmlDYVhNQjZxX2dOdWdYYXU0akx1QUlZY0JkVW1HeUc2c2tFZjN4bzZIUG55WlpXOERpOU0tbHVFWU9mNFJfcHpqZkRpWGU3QVVVVTFUZ1hkTmZNS3RyZ3dGNm04Wk55SWFB?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 17, 2026",
-      "text": "US Officials Deny Reported Hygiene Products Shortage on USS Boxer",
-      "source": "Military.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXFuYlE2UGU2MFVRbXRlZ1VCZGJUVTRhUHU0V1R0aUNEUTh5eWFXQ0FzOG1HZW1EOGllUnpFa0QzQzZRSExyWHRNY3k0ZDNaU3gzNGtwd3I4VXFlR1Zqa0RLUkp1U3VGcC1ESU1PYWhUNjdWdkVxajVLbVF6YW40REw4WnkySXg0RF80S281S01fQQ?oc=5",
+      "text": "Iran’s Secret Plan to Escalate the War",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTVZDZEJGTmI4U0t3MkVja0N0Z3BhYlpfRzNYYUZRODZOb0RoQ050UFNFaTJfSGRmQm9OTUdtWmtoMVdXT0dxR0RWUThPOFhSU0t0OTA5SUR2U2F3dXd6TTJrcVpvOUd1Z25kVlB5bnhsSXc1d3NnOA?oc=5",
       "hot": false
     },
     {
-      "date": "Aug 17, 2026",
-      "text": "USS Benfold Leaves Japan After Returning from Power Failure Repairs",
-      "source": "USNI News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYnlLNjNndTJsaDVlaE9TXzBWRmNXNEpEcDFLaUhqRmdUQVJEaTV2aFcxUEF0Mi1uUTJDbnlNcUJxU19EYmxKQlZya1VMaE5mTjVjTlREQTQyQi03bnNEcXhiQldTcDlyWjdJN1Vjdm83aXRNclRKdExKS3ZuRHFXcUJ1UzhOYTBuUkJjOUQ3RnVTS1dwYWh2WXREQW5kVjdKa2c?oc=5",
+      "date": "Aug 16, 2026",
+      "text": "Top Admiral Praises Sailors but Concedes Hardships After Visit to U.S.S. Lincoln",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR0tOV2pQTFhJRmJNekpVdmxYOEdRYVd2bDBWM2dDVktacHNJQ2h6cENVWS1XNVZIaHRoeXZGc242cXQyNjZiNmFoNFBSX3dRZkZGMkF5TUhYNm5OS3Zyb042dWlsb2JOdnByb3lRQThCUkFoWjlyX0NxYXB3aEJwRkFR?oc=5",
       "hot": false
     },
     {

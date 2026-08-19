@@ -9,9 +9,23 @@
   "breaking_news": [
     {
       "date": "Aug 19, 2026",
+      "text": "August 18, 2026 - Trump says no talks underway with Iran, UAE detects ‘missile threat’",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fR1lNM2lVdG9Kak5IZkdlRWgzQzNVUHVrRU85ZUZ5MzJNX2hkcktWdkt6aW9jMmhjRDhEbUxnQktEbHQxXzFMbGQyT2xtYTJmQ2E0VDU0NTRBOHpuRjNCQW0xZmlVWENybGgzVGd3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 19, 2026",
       "text": "Iran war live: Trump denies Iran talks, Tehran claims US ‘begging’",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 18, 2026",
+      "text": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
+      "source": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQll2LTZWcThSeTZYWjFBZXE0dVUxSl95V0RVdVhyVGRoZ2x3U28xcmxLWkFEN3ZVSnV1TVZaamh1UHBJd28xT19LN1JBNXdydndscmVqUHBPSUtkaXdBbFRyTnJKZGNlSmtQUnNhX0pka1VKS2xHVEdrTkd6U1o5MFd30gGHAUFVX3lxTE9JSG4tT1c5eF9DUEtCeVF6V1pYWnUtai1uY2hnNERGZ25hR2Y0OHBKR2l2b1dtcEhpaDRxWmdYMWlYMFUzRUJWb0VXTE0wUUczbktXV0Y2alc2RzdfT3hZU1FIUHVreFE0aDNvUS1mSTRBNmk0MEZReWZya3BybHhxTUhPN0RiVQ?oc=5",
       "hot": false
     },
     {
@@ -78,31 +92,17 @@
       "hot": false
     },
     {
-      "date": "Aug 18, 2026",
-      "text": "Iran war live: Mediators waiting for Iran-Oman Hormuz deal, Qatar says",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 18, 2026",
-      "text": "Trump says US has no planned talks with Iran and other news from the Middle East",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 18, 2026",
-      "text": "U.S.-Iran Updates: Kushner says Iran not interested in deal that \"makes sense\" for U.S. as stalemate continues",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
+      "date": "Aug 17, 2026",
+      "text": "US Officials Deny Reported Hygiene Products Shortage on USS Boxer",
+      "source": "Military.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXFuYlE2UGU2MFVRbXRlZ1VCZGJUVTRhUHU0V1R0aUNEUTh5eWFXQ0FzOG1HZW1EOGllUnpFa0QzQzZRSExyWHRNY3k0ZDNaU3gzNGtwd3I4VXFlR1Zqa0RLUkp1U3VGcC1ESU1PYWhUNjdWdkVxajVLbVF6YW40REw4WnkySXg0RF80S281S01fQQ?oc=5",
       "hot": false
     },
     {
       "date": "Aug 17, 2026",
-      "text": "Iran’s Secret Plan to Escalate the War",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTVZDZEJGTmI4U0t3MkVja0N0Z3BhYlpfRzNYYUZRODZOb0RoQ050UFNFaTJfSGRmQm9OTUdtWmtoMVdXT0dxR0RWUThPOFhSU0t0OTA5SUR2U2F3dXd6TTJrcVpvOUd1Z25kVlB5bnhsSXc1d3NnOA?oc=5",
+      "text": "USS Benfold Leaves Japan After Returning from Power Failure Repairs",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYnlLNjNndTJsaDVlaE9TXzBWRmNXNEpEcDFLaUhqRmdUQVJEaTV2aFcxUEF0Mi1uUTJDbnlNcUJxU19EYmxKQlZya1VMaE5mTjVjTlREQTQyQi03bnNEcXhiQldTcDlyWjdJN1Vjdm83aXRNclRKdExKS3ZuRHFXcUJ1UzhOYTBuUkJjOUQ3RnVTS1dwYWh2WXREQW5kVjdKa2c?oc=5",
       "hot": false
     },
     {

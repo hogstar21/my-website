@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "Aug 26, 2026",
+      "text": "The U.S. is escalating its economic war on Iran. Here’s what that means.",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFhyNjFOLW5mSzZtUWJNYTRoUEFlQjU0MlY2RVQyOXgzREtXdDJERWdNc2xHWUVvajFYb0RtcVRJTENUQ2QtMlB0cGhIWndIanBNVmVTZExUUU5yUTduMmNfNzZRWXFNb093UlJUTVYzYWlud3V1LWhnNlIyVTFKaUx3Z0x4RDlNN0tTNDd2Y3hEanp2Q29KcmhLaElURzRxLUx1aEIxQk9hZ042NGc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 25, 2026",
+      "text": "Trump: Mines fully removed from Strait of Hormuz",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9va1JQWnZ4dEZoTTQwSzhwa0E5MnpRMTBkaXp0THRHYW80cHdwMGw1RXYzYllUTzh2MmlrY1dDMjVfTEdGeUVMZmhfdHdfU3Ayc0VITm9zeGxjQUllLVhPdEZrY05LWkwxdmhPQ1FNZDE0NGt5Z1E?oc=5",
+      "hot": false
+    },
+    {
       "date": "Aug 25, 2026",
       "text": "USS Abraham Lincoln headed for port in Thailand after 250 days at sea",
       "source": "USA Today",
@@ -71,24 +85,10 @@
       "hot": false
     },
     {
-      "date": "Aug 25, 2026",
-      "text": "Ship disabled by attack in Strait of Hormuz and other news from around the Middle East",
-      "source": "Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQOTdDMzNvTjN2YUV3VTM2R2t6V1l3Y2ZkYWNxbFpFSk5TVHhFek1SUGhZRDRHOTE5eXJLdTZfQjJSRFM2OEFocEhkNHNSWEJ0SDQ3MzdnX25hVF9OSmxhbmZzcXc2WVQ2UnBVUGE0Xy1ubU0yUGlDY2hFMjNjc3RpNFNHZExGUWZvZ0Q5d1kyWlA1MDl4TEI4S0hCZXlKQnJKUTliaVRkcWN0WjJzWUVvM2xJVUU1eHBCUXRYMDFLTThCTHlWdlRIS000dWhJTmxhUnc2ekE4SlJYSm9vZnlhSE9SQ29ZUml3aHp3MEVqRGFWWlI0amQ2Y2p0aXk3M0lIbFUzczNvdTB0QkU?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Aug 25, 2026",
-      "text": "Iran war live: Pakistan reports progress on restoring US-Iran MoU",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?oc=5",
-      "hot": false
-    },
-    {
       "date": "Aug 24, 2026",
-      "text": "Trump Threatens More Strikes on Iran’s Kharg Island, Pushes Allies on Strait of Hormuz",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEJkYjV5SWxuU3RxOUo2eHR0ZklpbDhsenVUMXdNNlhmRDRJTW95MVB2LVp4c0VHdWpPaFRRS0JLcHVtM0pyTkdZWUp2bU5aZ3R6enFxb3FRUUQ5SllCNEs2bkh0WmZObjFZT1NPQmswM3lGQThGUEVIdVBUeHZEeTBhcUZxNlpNa1htdW9IeG5PMFZjMFdVMzFHRHFhU3BweWdaS0phNUgxWUw2Z3N3WTlldFh3QQ?oc=5",
+      "text": "San Diego’s USS Boxer to undergo $150 million upgrade when it returns from Middle East",
+      "source": "San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNEJOUU9mYUZSXzF3V0d3eEFDSmFzV2hMbzhmMGN5cnRjeEd3dERRdVJaZzlud1JYbDREZDJXWTBrLUpGSG54WHhIeWpDSW5kajJyNUJyNk81bHVEMnFkT0RKeHZtZ0xXb1B0cGtVdDlKWmR3Vk9oaUVHQlBfT3VfYklQTTRPcFNSdkdLUjltVEpxSHZDcWt4OFhESkkzN2FSVXRXNzZXQWItaTF2S0ticHpYak1yVkVGUDZYaTd6bFFQN3lfYlY2UHpmSWFuUQ?oc=5",
       "hot": false
     },
     {

@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Sep 04, 2026",
+      "text": "How new Houthi threat changed the face of shipping in the Red Sea",
+      "source": "TradeWinds News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOenJQeGVqSXlNQWN0b3pXSzY5cnNhWXZsNW9nR3V1UmdtMDg1RUR3cDNNTzc5YVNsRnF4RmdlRVBPdDZMampsMDU5Y3ZiRjh6Z09sRDFKX0pNdWg5ejFKZjF1RG9HRnBMQlZJNFdzX0REYjB4d3I3VDE4dERqWC1QSjJ1cnVZTUVkU3ZMYWdwMlhlUjBBdmE0NjNvVTZYRDdMUVVkUmRwZnlnVDBaRDFpVElTWXY1NjA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 04, 2026",
       "text": "A More Confident Iran Emerges After Six Months of War With the U.S.",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGh6Z3ViZTAtdGRLRldNc3hwZmhwc2hXWjVyTElFMU9hdUZjRHk5UWtUUXVMT1Y0NmVGcEdvQ2FteGFzUi1zLVdhLS1wNDZZczhPS0tzVUxOMlJPQW9XeE9kUFgtQUl4SEJySkMwbk95Szh1UGNPdmlJaC02T1hiTWE1OE5EN1lT?oc=5",
@@ -99,17 +106,10 @@
       "hot": false
     },
     {
-      "date": "Sep 03, 2026",
-      "text": "How much oil is going through Hormuz? Why data doesn’t match US claims",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUR3eWFQV0UzMDJtdmowMjNJYVRoeTdyQnlSb0I1SlVxVjIwdEVRR3NGZVU3Z2RpV3k2Qkx2TFFKcVhhOXJqX29mX3BqQTc0MWxiSG9wakJKNGlveFlodHpKVTFVUWx6MDRMbFhsX1NrTUR5X2xYTHV4cVg2TlVpcnZBNkhtcm5ST1BocHp2TW5QT0k2NmQ0TjhHMHg0V0dfMUJNbUF3ZDRMN2V50gGyAUFVX3lxTE9wMnpRWlhSVnlKMUYyV1cwRW9fTDFkMmxhVzJReFpWaGxIZ1J3WjAzSHFRT0dSODM2bmtLb25XR1pFTHZvTHZDeFkySS1FMnNlT1RzQTI4Tk1rZHZSS2RnQ3FyaHd4T01LWElsSF9SSWdkckE5UUZJdmM2aXp0bEtHZmh2UmlTaEIxUXlYOUwyTEJsOW5RVVFIX3l5ZXBRRzhEQlJoTTY2ZWNxeFpKckZkVEE?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 03, 2026",
-      "text": "Iran attacks Kuwait with missiles and drones after US strikes",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3JKaGh4eWVCeWFMcUVYaEUzUUhrMG05Q3gtREsydnc2ajZoY2Z2LXkwSWFCZmlTMVZWaUVRV3FxeUJkREN5bGR0QzRFb25jMVdWMXBnMkVqODYzdzQtRTBXT0s0S0tPMUxkc3hDZWVSN3JJdTROejZ1b0NHUHB5WE1LcXVrZw?oc=5",
+      "date": "Sep 02, 2026",
+      "text": "US-Iran strikes raise fears of renewed war across the Middle East",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
       "hot": false
     }
   ],

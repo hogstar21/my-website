@@ -9,6 +9,34 @@
   "breaking_news": [
     {
       "date": "Sep 09, 2026",
+      "text": "Iran Signals Readiness to Escalate Fight in Face of Rising U.S. Pressure",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdW1lN2hjSFlvN24zcWNhcTlQNGUyb3pkQ3JwZTdIeGU3eTB1bGJaSncyM293ZWRGM0F4QlFoN01FeHFOUjZ6d1k1cHJ6ZGVPdlB5WDY5YTBPV1hYUWRMRVNXNi1aNjlaaG9EVG5NbTlEMS0wbER6X3ZaSWlUNGFtYTd5NWhZR2VwNjZBUTloOA?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 09, 2026",
+      "text": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 09, 2026",
+      "text": "U.S. forces hit IRGC-linked oil tankers as oil nears $100 a barrel",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVJza1YxaXdiMHRhZU1XaHpDTFE2emZ0UDhJWkQ3LWdnOG1YZkNRUndZcTJJdW9UZFdsOUI2eldad0pmR1JKS1JUM1p2MUhOdllOd1Y0X2tTUDh2aXFvQ3Z0Sk5XYkNiSzM5VEVHM3VEaWdPdlpIM2hUamVqeVhxTVU2cjh6OXo2eVJzcG1aQXNHQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 09, 2026",
+      "text": "‘Surge in construction’ at suspected Iranian nuclear site, analysts say, as US considers ways to strike deep underground",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVDFpdHc1TzhMNHE4V2hIOG5IamF6aVBKVS1fVG5TX0lIZUFqVXVPbVhVV2tnWkZ2ZnM5WDNwWURYUGg1cGNqVDB5RmtSd1R4VEVPalh2bl9rb2ZlUDNXcVd2dnJxbVVZb05zdXRONDBZZDduS2hXUkh0S1VzNjNfYlRPbTVMUjV6b2FjbmNWV0llTXRFdGtsQkRzRFl3UFduOWFF?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 09, 2026",
       "text": "Iran war live: US, Iran attack oil tankers; crude heads to $100",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGRvY3RUVHlVT1NoWDA0d2pZLTV5TjF4TG5UOVRtZGhlcHAtVFVhY2pPVFk2MUJSdEl6U2ZZSjNTQjlJd1otUGNQMjNRT1BMa2NvNDlEdThYXy1DOVB0WGJEaS1FN0RzYVBmendOTkRXQ0hhdEVlSkpSMDRyMU5kUmprSWlwYVJJV0pMVWxXSVRMV195T2VJN0l3WGR0enhTbGN2N3BDbkR6a3pCV1hCZVFwM3lLQXVV0gG-AUFVX3lxTFBZVkRPczZnZnVlUEJVSFhpeUlhTDdvZWh6dHJ4M2VCd3VlbmtIXzVJdXhtdzhJczNpTWNjSmdsWU9KVWExWkZnbW1NdW5obUtJUDZZSlJqRkxocGJtNXJULUpmNWdfN1NER0dubG1BSm1XX2I4VVlsVnpNOWZEajZqSTlXOXdNNXNvMXhVc2tieE5rODhVWGtHQnFocDRmSWhUUXlIdmhJTHhXOUhzVTVVQjlrNlhrbWZMN2ZVZmc?oc=5",
@@ -33,6 +61,13 @@
       "text": "Iran war updates: US hits Iranian tankers, Iran attacks US army in Jordan",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 08, 2026",
+      "text": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQcXFTQzJlWGRBYmdVMnQzbVVFS2k0M3Z2MXdTNnF5T0ZiSzdXQzBaZ01tZTNFSTZVQWRSbTl6TWdZU3d5bDJTZFpHbllFUFlNVVZRdFZxcFljQm1ENmNxaVlnd091aW5kVnpXOHVVZUNJNzd6aHNTYVlR?oc=5",
       "hot": false
     },
     {
@@ -64,45 +99,10 @@
       "hot": false
     },
     {
-      "date": "Sep 08, 2026",
-      "text": "War expands as Houthis attack Saudi cities and US strikes Iranian tankers",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 08, 2026",
-      "text": "U.S. strikes Iranian tankers after attempted attacks on Navy warship",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMldfZlUwY0FCWmkxTF9kZmlRak9fai1nQlpjUC01bmxabUZzaGV3N2NNN1J1aVZIa0Ftc0l3RS1mc2pkeTJxSVNiLU5EaGNBTkN6NG9ZRWJmTWFOY1JhS3A5elZTbjA2dzRlRE9VUTktdjk0MWZMVTFNWUp5NmhVYXpqeWZCQ0l3a3Y5T2x4aDNud2ZuWmdwdDRZeUEyWGtTRGtzRXFWRW83NWRQR3Jncw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 08, 2026",
-      "text": "US Hit Targets Near Iran’s Kharg Island, Fox News Says",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU2U5czFNOVJmRm52ek1qdDlZQVVJeEF4TnNqR3Vabi1iMzFKQmVlNVptdWFuc3NLTnpZYmM0Ukc3ODBrMXVnSllzUFkzcHpEMVZnOGx6ZTBEMk5JWFBMTmNLQl9OX3czUDBaMTlSbC1uTHZYeUE0WDJKQW9VSWFlN3FjR0NZcWFVT1dub0I3STNSUXU1MGE1WG5qbDhyY1J0aHFNTWIzTzBVOFZnOTJpOWdnNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 08, 2026",
-      "text": "Iran war live: US slaps aviation sanctions; UK bans Israel settlement goods",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 08, 2026",
-      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-      "source": "Amnesty International",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 08, 2026",
-      "text": "U.S.-Iran War Updates: Oil nears $100 a barrel as Strait of Hormuz stalemate keeps ship traffic down",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVJza1YxaXdiMHRhZU1XaHpDTFE2emZ0UDhJWkQ3LWdnOG1YZkNRUndZcTJJdW9UZFdsOUI2eldad0pmR1JKS1JUM1p2MUhOdllOd1Y0X2tTUDh2aXFvQ3Z0Sk5XYkNiSzM5VEVHM3VEaWdPdlpIM2hUamVqeVhxTVU2cjh6OXo2eVJzcG1aQXNHQQ?oc=5",
+      "date": "Sep 07, 2026",
+      "text": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {

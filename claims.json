@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "Sep 14, 2026",
+      "text": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkdWRTVPYmhhU0JEMzRYay1oaUF2Wjh2bllaTmgtSUE3QlpOZUtaSWd2WDVoRnkwYmZTMVlSZ2E4bVdYdl81TXF6TDRqbURlaXMyU3ZOTXFLNlhaRE9qTms5UDJNNC1tQy1POVFjUXBqNHdXQmZNTHJKYV84QWp0UzNTSVhnLUt3dUZVUVZqT0FuYXU4Y0F1OGFVOUtaRnJVUG5qYTYwSXJCa1NEUGJUb0VyY1F2WHlkQkHSAb8BQVVfeXFMTWRfblJYLTZiSV81MlE0Vjl5NmhiRkFYdFBfTjZGck5MZmZRUHZpbUI1Q2lwclNCVXNjNUZSdFdYZnFFVkpXT2ZjMldOM1R5OVVWOFRRdllvaU1fcjFTQnIteVJQWnlWdktHREV4ekJYcm9IYTNKR0hqVHZnWlF3UHI2bEhWMzNKbjYybkN4dXJrVHk2Z0UwVFZoYjluVXpuYW12R3ZyZnJMQ1Vram1TUWNCbmFpRVdCTjhxTU5Xa3M?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 13, 2026",
+      "text": "Diplomacy stumbles with postponement of meeting on Strait of Hormuz proposal",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUmxSZmUzZzdYUkJrQ2l3RzRTQklHdjFOWmVYZ2NDcmZmOW9UUVBoZkk0bC0wcHhveWNHNldiU2E0WV9PYkFtWGVaUUdMVUlieFBZMVRjVHFkTTZ6YjVWXzVLUlA2QXE2LURQczRJN010RGR1Y3Jkb0JpS1lhdF9fZVdJT0hMV3A5QXNNcllfalNoem0wS3VMNUlNQUgwbG9sUU1XN2R1aUpkaXZDekZ6bnlqN2RiN0t3X3d3?oc=5",
+      "hot": false
+    },
+    {
       "date": "Sep 13, 2026",
       "text": "Iran war live: Houthi vehicles in Dhubab, Mocha hit by Yemen’s army",
       "source": "Al Jazeera",
@@ -72,23 +86,16 @@
     },
     {
       "date": "Sep 12, 2026",
-      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
+      "text": "Iran Finds Escalation Is Fruitful Path to Leverage in War With U.S.",
+      "source": "nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeGt3bmM5Z3hRbkRTZlVJbUhxRnY2YmdMNUVJVHRaNTNJeXlYYzNNdFNZcW9qdjBta0Q5cDNTUWxfZjZVUzdNRUV1U0VVNERzeERvUE5VS3p0VTk3V3JkN3JjV01tOU1va2Z1djJxbU1LbHlPVkFBZzRsb054Z1dhOXcwOGV4LWVBaElIa1U2bnE0akJJZTlwMms5MUU?oc=5",
       "hot": false
     },
     {
-      "date": "Sep 12, 2026",
-      "text": "Iran Update, September 11, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 12, 2026",
-      "text": "Trump sees Iran war ending soon after midterm elections, predicts oil prices will then fall sharply",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnNmT0R6dktjR19lNm1jYUVSaTk5dmJTTWhsZXNoeVFwT2haX0JRZFBhT3lXUTA2V3Myem1NTEEwQ2RNRGZMcVdnaTYxZzlySVJyaW82Mm1TcmRjQmRJSmc0ZXV5V3V6TE90RjlVc3JPS1hMdG95dS05R1lMNFV3OWc5bmtPQlJzTkhod3lBRnFLZklfeVlJSXpKVkMzd9IBowFBVV95cUxPU3BrdUFqUUl0UkctWHNVOXFjcUZFWkZaYlFXWlJTNGJrQWpjMTNERXdxX09Oa0IxQmVqTzZsSDdkZl9MQS1JaTlsa1prbWdxNkZ4aGhZOEZjeExHd0Vjc095QXBXaWpuRjZSZV8xaGZpUFpKSklQM3dESXVOSGtYNWs4NFQzR1doRmtzaXFjcEtqbHVkS3A3VWIyZlZsenVZTXFB?oc=5",
+      "date": "Sep 11, 2026",
+      "text": "'Small price to pay': What has Trump said about oil prices during the Iran war? - ABC News",
+      "source": "Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdFlkZHY5dnVXMEZ2S2p2ZkVOOUFuTl9FU1hENTBOeVUxbThUNW82Vi1wVkNpbVViRks4RlpFVENjQ2ZZQ3FwWEZlX2w0RUw3UnBTUnNKQ1lYNVJURkZxTlVROHZjeVJXSjh1cVFmN1JRMWY2eFFKUloxT3VQRVJzbnFLaTJOcUk4dzUzVUVDUHN4QkHSAZgBQVVfeXFMTnBmX3dmamlfZGpGQmIycVl3UTRDNTFsak1TdkNLR3VBdUJ5d1FEZUgyeTVSQ3FadzNoMDVOQV9EMllIN0FNU3hRRUdKaVVxRXJieENwNXNUTS1qNjFuYnFTUEl5WFJRLS1HYnpaN0JsYkdyeGdSdnR2MU5uUE9EckNiQ3NvQkNHNWVZYlBHakFSQjQ0Ujd2bDk?oc=5",
       "hot": false
     },
     {
@@ -96,13 +103,6 @@
       "text": "Scoop: MBS urged Trump to strike Houthis amid Red Sea threat",
       "source": "Axios",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4c1pTQTlsM2RTNkhPSl9hTktNX1hJeDZFZUpoVE9mUUNubTFxTGtLNFd3MmxFWWZEcWNGMmxycmd6dkZDOTYxNXZua3lUc0tHQ3BmRWdfNWNnc1N5RmVTM3dSQktOOV96bDlRQUg1cW8yX1AwOHk4a0N3?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 09, 2026",
-      "text": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
       "hot": false
     },
     {

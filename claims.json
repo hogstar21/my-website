@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "Sep 21, 2026",
+      "text": "Iran war live: Tehran warns US against new strikes; fighting rages in Yemen",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVzJrZ1NJdmRaZ2drbFBiSlE2WEpQTUtkX1NiVTlRTG5yVE54MXhIWFZKR0thdTF0RzI1NldwRUpFdGZwTjNlLVNMOXA4TEVQV0QxSjFJcURoVG1vWjBkckc0cEFDeG81MnVyOGE5TG1fVlNNOHExNmN4NGpPSzNoUGVmWmxXcUJqQWdteFRyN3JJTVJFalBDY0NKM1BGa0wtb08zWDVLNXlvM2FxdVdKUFI2OWtDMUNfT0JWRVcxcVXSAcYBQVVfeXFMUDJHemVRSDFibC00SUI2OG1xNmVqMzFwWmVEZHJqMU5lUVN5bTZYQnpjLW5nVExXZ08tRDYxbGVRMGYtd2NoZzc3cDZvYW9raE42WkY0ZUdNa0tXSUhETnJ6OUtmUmFFMjl5U2FCcDdEVmdwcUxhQXo4dVplSEJmWjZUQTFsQ05zN3F5THotU2Z5TjF3Q1Y4TGxjLTFmdER5b2hKTk93VHNWOFYzaDhLRXNaVURKT0tSSy1FSWtmOGNDQXZwX29B?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 21, 2026",
+      "text": "Vessels trickle through Strait of Hormuz as Middle East conflict persists",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHdMbF8wY2pMdE0tcHdWa3l5dkc5MGpKWVJEZW9VUnV2UTFlaTlVbVpOZ1pQN245SWZOLU4zWDd3ODlBTUhhZmlmaE1jUGltMzRKUF9xRl9CT2ZpMnNxcXkxOXdQeHJHajFzMkpoNWVnS3N6X3ExamF1ejcyQ3I1LW5DVHRXTXQ5MVVtTEE1cmtxLWhGMURaZ19pajA1blpROVVxRXQ3MHE4Zy1BLUVybldpUm01NU0?oc=5",
+      "hot": false
+    },
+    {
       "date": "Sep 20, 2026",
       "text": "Middle East braces for more violence as Iran claims US is planning to renew bombing campaign",
       "source": "The Guardian",
@@ -65,23 +79,9 @@
     },
     {
       "date": "Sep 19, 2026",
-      "text": "Oil prices are high but could be much worse. Trump has China’s Xi to thank for that",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZS1uVExKbkFEcHpfQ19mc3hFQVZVaEtDdWdZS2RzSWltbFNoMXVUTzhweDBURFBsQXJGYmE5a1MwWkctWG03SG5ZYTd0dDhKLWUxdElNRGgwTmVyTmhoMl9YOW1XVnU5TlJtV3lwU2lqUWcyeFlSNWFjUVhOY3VLVVZ0dk53MDJ6ejFF?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 19, 2026",
-      "text": "Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnI2ZkE2b21KUWo1ZC1YTzRaUlFuTm9HOW9abVFEc19Wc1BzbEh6cDhKdXBRNWphUmotVTJPWERFT2o4bW5VaUVZTThGcFpmNzBEcFAtQUQ1bjVpcGxsYnFMWHJYMzNIOXRTcHZOcV84UGlKTXlvemw5WXk2QWRBclZEQUFUcGpxdkh6TGVxQ19BUllvQWdEdkdlX3p3dm8?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 18, 2026",
-      "text": "By nearly every metric, the U.S. is losing the Iran war",
+      "text": "More U.S. troops have died amid Iran war than Pentagon has disclosed publicly",
       "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?oc=5",
       "hot": false
     },
     {
@@ -93,9 +93,9 @@
     },
     {
       "date": "Sep 18, 2026",
-      "text": "Hormuz traffic below 10-day average, LNG vessels reappear outside strait",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNUxiUzdsYTJRdFoyOG1oY0FHU0daRGxzTzhwQVhiYXg1ZUpEVDM4Rk1td01IZEV2Z0VDVVlTY0hHTElnTnZ1cnNuMWxDWUZCWjNhYmpZVkN1bFAyZ1RtT0xQVko0OExlUm9wc3lFNjZNNnU1eE1DcjlmTkZQY2ZuWkFvUGEwTnNZOVhqdmh1dlRsZk1nd3I3emo1dnRybG51Z09xMTR4a3lPak9WbDFsd25qTVEtSFVVTmpKZkZ0OUlFYXpT?oc=5",
+      "text": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tZlBZZ1NnUnFqdmhqR0JDZkVwQlJ6ZTlZQ25LdFdjX2JYa3VOTlFWZXZQUWtseE5XMDlpRVJIczJxMzlQVkx6VWFVaEpJLXljNWJlc3V0aDdWUTA?oc=5",
       "hot": false
     },
     {

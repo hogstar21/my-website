@@ -9,6 +9,13 @@
   "breaking_news": [
     {
       "date": "Sep 22, 2026",
+      "text": "Oil erases losses after Trump says Iran war could be settled after midterms",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU1tZnZwTkhweW9HMkM5cDFMMjB3YUY1ZFdaN3ZfRzktSEhudU5wYzVPVVNZcDhIVFBZaWNBT2ItVFo1VmJPZUZETmRzR1pUU3Z1Qk1Nc0Y1dmNSRTNPZ2RBeUkySDBGcGJGMlFxa1JTLUI2SDVTYXgyX2JIX3NzUXZLbm1Kcmt2enRjSThGaVItRVJCb09jOENjVU95NGdoam5RUS1fZlg0cUtCNVA0N2N3?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 22, 2026",
       "text": "Iran war live: Tehran decries ‘cowardly’ US-Israel attack; civilian deaths",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXdSNjVvOUhQbm9XZ2xSR2lRZXBfLVVDd2VUQm96RGFOSXZVdUFTc0VRWndsRUtseTBlR3hQa010Unlaa2xNTlNhcHNyX2p3MVJtZ1ZGR2NoVE0tN1JSaDY2dGtVZkV3OXdqdzYxTkR5VGUya3htYmZEMkxYeUhaMGprS0l1a1ZFMi04YmVHeUNOTnJNeHBuRmxaUW0tclh2aFh6ekp3bm5sVWRTZ3dIeUJSVjRlT1Y5N3fSAb8BQVVfeXFMTnU3cXBNVTZkd0RVTUhyRlpGbzh3Y1FEMVRNUjVwSGpSeGsybEZiNGdPUVk2UDdzOG9NemJubmRDeXJiblFIOHNxbmF0bnNRMUxhX0tkaFVUREExUkk5NnVrQV82Q3YwVTJRQ0wwemlEYTZpZ2JoRF8zbE51eXQtLS1LR2tuNTNPWFpocC1rcFNoR1lKZFdOcGpuUnpVV2tENTZmYXU1TXJabFQ0dmVTRm1IODBDVnh1eFdDY3QtUFE?oc=5",
@@ -85,20 +92,6 @@
       "hot": false
     },
     {
-      "date": "Sep 20, 2026",
-      "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "britannica.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 19, 2026",
-      "text": "Iran Update, September 18, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHZTUm5LQTliUnR6YXpoNzE5b2NWMDc4VVpRS1c5QXk5QmRBZ3pBTXJpX1lYSUhTbG1vdUFnLVp0NjYwUGdQUF9VMlU1UGhZMDBxbnJMZXFsWVNqMkQ4c0pJbGVTZXhibXlkVGY0UkpNZG80ZzVBMDZhVFZjYmluZDRCWVpTRHM?oc=5",
-      "hot": false
-    },
-    {
       "date": "Sep 18, 2026",
       "text": "As Houthis grab Bab al-Mandeb, US appears willing to watch from sidelines",
       "source": "Al Jazeera",
@@ -108,8 +101,15 @@
     {
       "date": "Sep 03, 2026",
       "text": "Navy video shows life aboard USS Boxer as it enforces Iran blockade",
-      "source": "Times of San Diego",
+      "source": "timesofsandiego.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXR3ZnM5WkFwajBUUTY2U3B4N2NiVUtfUTVDeXZYLWVGVWJJZjNTMVotZDNBNGluM2tic0VYNzhCZ1dvQVF6dHVXbUh4NnZCUmFmZE0ySXBOS2Z6TVhGMGxIbE9qclc1MmFJWGVfcndJUEZBdTh0Tk9BakliVzdjVVU4R3dIZFczNl9lLWdEeVdiTmNjV0QtTUk5RQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Aug 18, 2026",
+      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
       "hot": false
     }
   ],

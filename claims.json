@@ -8,6 +8,20 @@
   },
   "breaking_news": [
     {
+      "date": "Sep 26, 2026",
+      "text": "Crude oil prices slide after Iranian and US negotiators discuss opening Strait of Hormuz",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU1JDOTdYWWZROGVYOWIzMnhmeU5aeVM1MUpKLVB4R1FWMWVCZFJRM3N2cWlHdmhaZVFiTVlxTUVaV1NrTWlXTTh6SDdkV2hobmFLc3RRMXNPcG1oUE9UQ0NqOWZMd1hsOTh2UjkyWXVKTGNNclZCamkzQ2RKeG1uaXl5M3Y5LW5O?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 25, 2026",
+      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?oc=5",
+      "hot": false
+    },
+    {
       "date": "Sep 25, 2026",
       "text": "Iran war live: Allies in Riyadh as Iran says nuclear programme ‘peaceful’",
       "source": "Al Jazeera",
@@ -57,27 +71,6 @@
       "hot": false
     },
     {
-      "date": "Sep 25, 2026",
-      "text": "Oil slides as US-Iran truce hopes outweigh Houthi attacks on Saudi Arabia",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 25, 2026",
-      "text": "Iran Proposes 7-Day Plan to End War",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZNjJzT2M3cmx3aVBfd2c3ZmptNmhmVW5PeE94UEVqS0RkZ3pWN3pjQ2oweFUyMkxVN1A1NU5iOUxNUEpuTzZ5TFNIR0UzUE9Nd1pIUDdDanZnclRxUGUyMzJCejNrcl9fRWpnNlg3cEh5bXh5OGIzNm1R?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 24, 2026",
-      "text": "Shipping traffic via Strait of Hormuz stays lower than 10-day average, data shows",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNklscWtES21ucjBWM3pFTEtlWFJxQy0wSGZid3RYUUQ5OHVyNTZINXJBTENHb0FWUGZoVElaUzBVTksxVnRLd0VyMWJJYlZqX2RNWHc3dXhObzMtNHhwT3BGeTU2VHhwRjFmcHlLd0kxbTJDUU5BWjd5c1NSdk9EZEJkUmg0U3JjZWJSamNxX3paWGN5NjNBOHBycUhDdWNSbzVFNEs0cUZTUVVnY3lxRUdQejVOVmpwbWg2RF9VdnI1UG1YRm1kODdpbw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Sep 23, 2026",
       "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
       "source": "Britannica",
@@ -94,8 +87,15 @@
     {
       "date": "Sep 22, 2026",
       "text": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-      "source": "Africa Center for Strategic Studies",
+      "source": "africacenter.org",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Sep 20, 2026",
+      "text": "U.S. embassies across Middle East issue security alerts for Americans",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?oc=5",
       "hot": false
     },
     {
@@ -108,7 +108,7 @@
     {
       "date": "Sep 03, 2026",
       "text": "Navy video shows life aboard USS Boxer as it enforces Iran blockade",
-      "source": "Times of San Diego",
+      "source": "timesofsandiego.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXR3ZnM5WkFwajBUUTY2U3B4N2NiVUtfUTVDeXZYLWVGVWJJZjNTMVotZDNBNGluM2tic0VYNzhCZ1dvQVF6dHVXbUh4NnZCUmFmZE0ySXBOS2Z6TVhGMGxIbE9qclc1MmFJWGVfcndJUEZBdTh0Tk9BakliVzdjVVU4R3dIZFczNl9lLWdEeVdiTmNjV0QtTUk5RQ?oc=5",
       "hot": false
     }

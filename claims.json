@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Oct 03, 2026",
+      "text": "Scoop: Trump's top national security aides meet secretly at Camp David on Iran, Yemen",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ04yLVlmSXJITnRJSzBjNlRlZExWTnJNN0piSlNCaGQ4b053VjBCa2xTd0lVYVYwT29PRVNIckplVTFWWjVYMXNJdmpJWEozRmkzVlNKTk1vbVVmX1Zvd29KNzNOaFZfQU5zOUxuYmdGZkhBN0JmQmJ4ZndLdHZTQTIzMkFpdWsy?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 03, 2026",
+      "text": "US military plans to deploy more forces to Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxVWtWRUQ1YWwxWTBqNjZ3enl6SlVQSFFIM1BaMXBVeENhZVZONjhlRWhsZS1yQnhDS0JTYjFSRURhZ3hTXzBfNF93RXkxUktLSXRjTTJTSEJGcmh4T0dDMXRtR2lodndtdFE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 03, 2026",
       "text": "Iran war live: Oil tankers attacked in Hormuz, reports UK maritime agency",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa1VIS3ZuMjVWckRFYnZtcHc3cms4NzJwUGxYTUNfcWFTdDU1V2JBbHBreHcxU3RIWUxzQjBVNEowakotTzhtOF9NMzFFRkIyZUxBYkJTM2F4a1NvbWlHdFVvQ0pwaV9hcUlmRkpIS2Etc1JDRnZzQmJLd1JFVndXY1V0cjJFcUwtMTJ2a1ZuT3pLZ0FmWlp3S29ka3I5RE95VjZJVFpXRmFrOFp0LVBPZGpTZmJ1cGg1WWxKUtIBwgFBVV95cUxObzg1V185MmNCZ3V4QnN6NmZFWFo3N0dMMlFzdEFiOUhldTZEZDh4VFlsZ2NBRTI1Vk1vSnhYcTE5Qkd6ekN0SXRQbFY2MGpXX2pUVWFTWUJ3LWNrbDBUZE9QaC1OSm5NNkRlWXFpWEVrbVZlblItZTYzU29QLXZqQ3pYTDZHbkZSTWFUOVhTR0IxYkJLQUUwdEFOX0MzZi1FNVpkQkk0dDhWekk2LXFzNUZwTmlPQWdEYkFQLWgwRk8tZw?oc=5",
@@ -93,23 +107,9 @@
     },
     {
       "date": "Oct 01, 2026",
-      "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 01, 2026",
-      "text": "Another Marine amphibious group departs San Diego for Middle East",
-      "source": "Times of San Diego",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWEU0em9yYzhXOEVES0hNbGFkbVh5LWJNTmVJakpTRVhGV3I3ekdNekRkaC1xTnFSRV8tbElwamV6WWR4YTRLSUdJWEFxQk1IUFMxNU5oUUZDenZNVVBpNTBDUFltNGFhTVRVM0R1VkRHZ21zYUxUdUhmRGtoRlhRNjJPMmExWThzV0dYOGJBcXlKbGlTU0pKNzgzcjVYLWY2c2VObjRSZlZtUk9VdUhZ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 01, 2026",
-      "text": "Oil Is Flowing From the Persian Gulf, but Prices Remain High. Why?",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGlvYzdkVTBnbjdZMk9zbTBMQmUyd2s3R0hQQ2lEcEt6TThtZXZLNjhKT3dpSlZVMWVpUlZ0N1hMNUliX25kdERmRkNHU2JmNF9hVUV3VDQ0M3p6c0ZSUTk1QTh1U0FBTm9uVkI4R1J2MDVKOEJsanB4akpDZkNuT2txa1NiXzF3NDQzeE5DUmd6S1RMMlFHSg?oc=5",
+      "text": "Crude oil exports from strait of Hormuz largely return to pre-war levels",
+      "source": "theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcGNCX0VlMWRST1A0YVJxWVlHTGI2VGE2UUtRZXpnTTMwQW0zWmpDakdpTUI3ZFcwd0VLQ0xMemFfRkg1VkdjUGh1YUppeVNTdkZSbFVPX3lhMjZSR3ZITVJObHRJdC0ycklwUmF2d042VU5UeHlWWm1KNVJuVUQ4VW9PNHpfZHVRRW5iMzRiekdxWWhmWE42R011RXF6SjZUZktEdjZQZVdObkJXbVZqSlR3?oc=5",
       "hot": false
     }
   ],

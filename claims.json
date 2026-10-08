@@ -8,6 +8,41 @@
   },
   "breaking_news": [
     {
+      "date": "Oct 08, 2026",
+      "text": "Images - U.S. Sailors, Marines Hold Worship Service Aboard USS Boxer",
+      "source": "DVIDS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY0xySE82emlqczh2U2RNYTJ1bFJubG8wRVd4UmFGODhPSFVpT2dUTlRsXzdwbUVFcUZ6RmVJQ21ZcUJHQ3FmeXpfLWNabmJxM05oaXFNekNsQ3hHbUZtY29EcDd2NXdqTlA2UWJkel9qOG9YbVlCYnJMeEk5a3ltVkxaVEhoMjE1SXVwVmVZd2JXQTZIaWd2QzVqRQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 08, 2026",
+      "text": "Oil rises as Middle East supply concerns persist amid shipping attacks",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlloTmR5SkZfME9kcjlVcENtQzFrdmc2cnJfTWthWWJYcFIwZFFGNUs5Y2Y2TkR0MjE2STZ3WXktSXJRRmRiXzZYTnQ4clNNZlNQempZRzFPTERYUXpFM1d0SUJoUzFyN3FLRTg0d3UtckZWbWpWM01DNVJIUEdBTTkyd0dFaDgwX0llWXBtMXV1dVROdXUwVUF6VG9Ca3BReDdJTzNhT0d3RjcwUVF5TS12N1ZWNzJXdlRz?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 07, 2026",
+      "text": "Trump Is Considering a Plan to Strike Iran Before the Midterms",
+      "source": "The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORktCQ0RoRGwtZWlpMjd6bTJGX2RMX1BNSUJBYnZacmRlS3ZpdmcxSGdkRjVpWXR0eVZPQi1NUTM2WDh1cHFHUnp1VWpUQzQ5Rk5icEk3czgwajFTVV91amp5NUpaWVpldmtXejZqZlRBRndrV1lEaVE3dEIwcE1BR0d6eTN5ZHZ6ZXFWazVDTS1CZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 07, 2026",
+      "text": "U.S. Carrier Expected to Make Port Call in Yokosuka, First in 4 Years",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalBTVFFKMVVQVmhDbERyQV9nWmhzMHVJdk1XOUVWWWYwOGM4dThsWUVnYWtKRkt1ZUdmSXJpVFEwcHRxUHQtb1d4Rm13RW1QWThlT08tYUpFcy13eS1uT3ROc1QxdzVOTjRpdjJPRHVPVG1tYkNDV2p0RDZtc0lsdllfN3FJRk1GVWwwNlRLMGZoVkVTaVE2LWlCcEdYQ1JiX1E?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 07, 2026",
+      "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?oc=5",
+      "hot": false
+    },
+    {
       "date": "Oct 07, 2026",
       "text": "Yemen war live: Houthi attacks on two Saudi airports kill three civilians",
       "source": "Al Jazeera",
@@ -71,45 +106,10 @@
       "hot": false
     },
     {
-      "date": "Oct 07, 2026",
-      "text": "Iran war updates: Saudi-led forces down Houthi missile in Khamis Mushait",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 06, 2026",
-      "text": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVBSNGFOb3E2OHVIVVA1clg4SGhRMmhUWWpsVXZiSlhMVFBNVFpaaXlvcjlqZGVBUl8xMDF3R1B5ZmlrZFhlUW9lR0pOWnRuVlN0ZGdULWJFMDRtbzZBRENfeFNnQ25jLWFhYnFwb1dmb09tYWw0cXBCSnVjOVlVd2NZU1p1MmdMTG9WaTcyRHhkcHJwc3BiTnduXy1lVkRXZzhPM08tVy1KdEdxYzJoWktTOTJqOWNCVnfSAb8BQVVfeXFMTkMyQk51UHJId1VhQkxYb1RzRnN1ZU5nZkd6NEF5SEVzTUtLODNlbGd2RWdPSFhhMjlzbGRUWmZLekNfcDBka2pCUEpkOTJsQkxiVjJubUpaZnNqODlRTFlVOHpEX052RnNFZ2lHQXpldU5aaWhlZVl3enBEdHE5cHE3T0hFQ3JQcUtrQXczOGxXWnk3dTVPZGRHcTVsSXhFLS1xX1oyMkxJQ0NZWi1xR3BCY3BTV3VjRkdvUkN6M2s?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 06, 2026",
-      "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 06, 2026",
-      "text": "US EIA hikes oil price forecasts again as Iran war drains global stockpile",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
-      "hot": false
-    },
-    {
       "date": "Oct 05, 2026",
       "text": "Yemeni government forces seize strategic strait from Houthis",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSVotTm16YzZEU2xvWHNOcjllZVU1RlNYZjBoUnMzWThDbHRLUmJpUE16d0lSR00xcXRBNXppSGcwZHpjNGd6azFjeVBWSHV5T3lZWG9mZEdMRmhBYzVhMF9seTQ2UnZTa201X3hHb2o1ZHN5alNJRmFPcUdvaWVnX1ZKWFZVYmwyS2huNHg2bG1TNlVNT3RuUk5Mbi1naHRFaFQ0YjRKZ0YtVVUta3V2Q1dmQzN5bTlkZmpV?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 01, 2026",
-      "text": "Another Marine amphibious group departs San Diego for Middle East",
-      "source": "Times of San Diego",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWEU0em9yYzhXOEVES0hNbGFkbVh5LWJNTmVJakpTRVhGV3I3ekdNekRkaC1xTnFSRV8tbElwamV6WWR4YTRLSUdJWEFxQk1IUFMxNU5oUUZDenZNVVBpNTBDUFltNGFhTVRVM0R1VkRHZ21zYUxUdUhmRGtoRlhRNjJPMmExWThzV0dYOGJBcXlKbGlTU0pKNzgzcjVYLWY2c2VObjRSZlZtUk9VdUhZ?oc=5",
       "hot": false
     }
   ],

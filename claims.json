@@ -9,6 +9,27 @@
   "breaking_news": [
     {
       "date": "Oct 19, 2026",
+      "text": "USNI News Fleet and Marine Tracker: Oct. 19, 2026",
+      "source": "USNI News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTm1IZ3lHMmtBNUxLN2ZrSFdJSHM4eWV5S25sNlZadzFaRmhrZFVfc01yVl84NjBwSGlFekQ3TzFKZkZYc1dGcWFoOWhzTEJORmhPM0xKREZIMTBfbVhseFlrUjNlR1lvOGE0ZGZPTnpOQTVYMHY1bUlZc3l3bEdrWEJHVThOZw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 19, 2026",
+      "text": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 19, 2026",
+      "text": "Live - Tehran hosts diplomatic visits with Pakistan’s top general due after Lavrov",
+      "source": "Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 19, 2026",
       "text": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms.",
       "source": "Business Insider",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcThTSklPLUcwNHR0VTRuYVpNeHAxSWUtWlloYTd6ZVYyTFJaS1JmS1gxM1lzTFBxM3pNdzlJV1NpUWJPbTRlMnFZN1dVSzlRQThPZG5ncVh2bEgwSEc5ZlJTQzlNUFFhRFR3bktNeC1sMHJTRHpIQmsxUWxubW5BR0hOWEVDMXhrb041dmo2eHBuMld2V1UwVg?oc=5",
@@ -51,6 +72,13 @@
     },
     {
       "date": "Oct 18, 2026",
+      "text": "Why Iran-US negotiations keep failing",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSzJfRTJ4WDA0NTdUSmF4MVVvZzNNMVVUaTJRZkkybFNuTVg3dGtHV0RDTGFvM2V2dWk5YnpRSjFQSHdmZFdWZVdPLWJWYjFRWXFSWkVQWERDcW5CeWNXQ2M1U0pxZ1ZkNXkyT016Zk1lRElfVVBCRDAwVVIwOHZqMlpSYlFFWlpzOGtv0gGQAUFVX3lxTE03ZnQySURobzdsN3VPTHdqQXI3YnVYZ2RxemJaX21kUG9pYjZYTF9LbWpvM3doM3UwUG05RldmSVRGeFlQTVVYQnRMOVJPS0s1aWFfdklESXFUcE9hSlJsRFNtMTVBX1dNUmozS1NyOWsweWtsN25DM25qNzZucERDdWNna0RtMURjR1c3NW50Ug?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 18, 2026",
       "text": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
@@ -71,20 +99,6 @@
       "hot": false
     },
     {
-      "date": "Oct 18, 2026",
-      "text": "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTjVoekNKSmw2RVRNS0h1WmV3SFVkUlUwUnFyX2ZqeExKMlk5aTQxWTdGSFBVbXFTUGZWSTNqejcxMk40TGlVdHBoS2RTTU5yMWFTOUhTZW0xVDhkNi02MVRKOUphdlNoenVBVkVoZm5uMTA1Umk2a0NJTzdHQkNyYzhsR0drUWlaSDdBZW5oQzg5WEnSAZgBQVVfeXFMT3ZIMWthWE1pMkRGSXlkZnpvRHRVd1NMc2hqOFIzN2RIUkNVX3E5OW9zNGh1WjVUMk9jYWlybldaWXRUay1ONmc3T3dKMkdxRDFnLXM1Nm1tblNvSmxUZ3paOTU4VjlGeE40bmY1THJ2M25Ua1NUUHplUmp1WUpwLXhPc0M1ZGM0eG1qSFRMSGtxVTZucTh3Qjk?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 18, 2026",
-      "text": "Live - Trump threatens to ‘finish the job’ against Iran, endorses Netanyahu",
-      "source": "Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
-      "hot": false
-    },
-    {
       "date": "Oct 15, 2026",
       "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
       "source": "Britannica",
@@ -92,24 +106,10 @@
       "hot": false
     },
     {
-      "date": "Oct 14, 2026",
-      "text": "Iran shifting tactics to step up attacks on shipping before US vote, officials say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5",
-      "hot": false
-    },
-    {
       "date": "Oct 01, 2026",
       "text": "Another Marine amphibious group departs San Diego for Middle East",
       "source": "Times of San Diego",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWEU0em9yYzhXOEVES0hNbGFkbVh5LWJNTmVJakpTRVhGV3I3ekdNekRkaC1xTnFSRV8tbElwamV6WWR4YTRLSUdJWEFxQk1IUFMxNU5oUUZDenZNVVBpNTBDUFltNGFhTVRVM0R1VkRHZ21zYUxUdUhmRGtoRlhRNjJPMmExWThzV0dYOGJBcXlKbGlTU0pKNzgzcjVYLWY2c2VObjRSZlZtUk9VdUhZ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Sep 02, 2026",
-      "text": "Iran’s currency hits record low – as it happened | US-Israel war on Iran",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSzZVWDVzQWpvZzQ4VHBUdWV1bk91YTI4VnB4QlVkSV9qbW50azBRTU51bnB4aDZCZkk2TmtpUjhiNk1rR0FOVVZKZ1JEZXNIVUxVUzlSYVhOVV9EVF9IVW1ueXBrNVh2OXRrc2x2TE5yVUg5V2N6LVd2djdZc0VZeUlaUlFBUEZNVU83dkFPcWRVa3FldGFkc3g2UnF2OTJwRXR4akFsUWdQejhBUURZXzVkNHV2ZEt3N21vQU9CREM5UndQOXNPYXlza3RSYVAyMWlrYVlITGFTZ0JOemM5a1RB?oc=5",
       "hot": false
     }
   ],

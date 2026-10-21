@@ -9,9 +9,37 @@
   "breaking_news": [
     {
       "date": "Oct 21, 2026",
+      "text": "Iran sets red lines for US talks: Lift sanctions, end threats — 'not a gram' of uranium leaves",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNWhDWEhOMGk5UnBGUWRwMW9yeVEwNXZkMEJJSFFuazF4NnV1ZHIyTE1lMFRJSjdZZF9BMGZNci1ROWpyUEtrZl9nVTNzd0ZXMDVvX09jaU1qNHdUYmM4VHhnOVA4am1fR05HbUJwOUpKcHpoUXFsN19FQ0lzd1k4ZHFjUGE?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 21, 2026",
+      "text": "Iran war live: US warns peace deal with Tehran is extremely difficult",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUDdudll1aUxJTEdvMlBrZGRqSENudHVWUy1HQml2LUM3TVZzUl96bUZSMTFSU1dtUGdKUkxZRkFwc3U5UzF5X0kzRDVoQm4wWkpjVWNlaHZpWkZQZEdOTTl3cnVjbF90UGJMZ1pGSU5CX0pjdUZlcnpabm1YYU1CcGN4djhIdWdkUHpob1RxTTQ2Um9id0tGRER4OTZMTUFvb1dNSnlpMW1aaFR4Z2RXVmNQUjFxbE5YRTl30gHAAUFVX3lxTFA2cERpMnJnd201QmtUaWV2aGQ4R0I2RDZYYVRRUUhtMi05ZllYOXpMbXN3b081RTNGa09tOTBJaENxcUtsYkhtLXRaU1AwbUhCTjNDQW5wY2R5NmU0U2ZPZXpfU3dMUXlGcE9raGRLcWp3RHZGeVNqOER2NkpJaUk0SDlVUV9mM1hHdG9mSjBqQ0xqSVdMN2wzdWxvaFNSTHpsSU1mV3U3NjlTTGFOM2haVEJsR0J2ZU9hMkRBYkFWaw?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 21, 2026",
       "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkeU9OS2VJM0NIeXJhWFg5TVIyb0RfQkFodEhvZU5QcGY1bnBZbGJ5R2JBM1dHSDNCTVM5aUNNVlNzbmxTQU1PS056YmhYWkhNTEhsNFVmTW5MMVBCaWQzbzlSMjhtYndtY0E2RFk1TVp5d3FISDZiNjVVOHR0dGc?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 20, 2026",
+      "text": "A Look at Iran’s Kharg Island and Energy Sector",
+      "source": "EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNHlkMUhxMm9oc192ZkZuZWZWSW1NSTE0LUpjZlU3T1dsNmF1U3pWTFhjRlRCTEgtUlpuMnUxbUQ5X056c05uZDQyUnlkYVlMU1d5UlE1QkFRb25OamFPUW1RYUE5Z2lDTTFBSnY5aERBT0NwbnRHX0V2UGNWd3pqQ2FsQUpSUQ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 20, 2026",
+      "text": "Trump admin sees escalating risk from Houthis, prompting unprecedented wave of warnings - ABC News",
+      "source": "Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQXpOVEcwRGUtd1lTdy1tSE0yZXZOMnRCN3JjYVlSWUE5SEVJMndUYVJSc1p6b0tnOXZPa1ZTNUNmTjVlcU1mZ2NYaC05QkJ6RXIzcDN0RVZiYnB0QlFzZktwQVA3d2hURzY1MmtZTUVvVWtOTnJTc2k5Z2paUGRxSnpidWVBYVdkS0VLRnJ4XzdKMTBEaHNfWVNxMGlXVW1kWmd6NXFvWm5rTm5veUdpY09B0gG3AUFVX3lxTFAzRW95Y1ZGOWgzbFVwT1NwU1IzNFlqc3V2SkVtN2s0QTEyV3lzdzd6azQ0M1NnQXJfc2M2c0VrdWl4UGR1MHV0TWZmYzg3MWFac0NTMkJFQzFVNjhKOVZGY0dDWm5JbjhicDRGZUUtRThTaWlsWG5fd080b2VkbldmWjhDbFp1RmJ4QnhDR3NUQTNjWHM0QzgwT2hETHhZQjMzYy1UeHZ0Z0tZNDRtemJqQk9LUE9oNA?oc=5",
       "hot": false
     },
     {
@@ -71,38 +99,10 @@
       "hot": false
     },
     {
-      "date": "Oct 20, 2026",
-      "text": "Iran prolongs talks in stalemate to influence US midterms, officials say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUEYwdEFGeHhKUmdIMXF2VEppVElubGVKYlNlbk5xRGlnY1pVMEFsc0pma1ZGOGdOXzFBWUVCWHVab2MxQ2t5ZlNGRG1oZkdCMENnOFktSm1OakZNUUZJX0w2ZHJmM1ZLV2JyS245RjFoUVNPTmZ3dVNfNDNWemZ2V3dZdTFZdmFwdTJhRVdjODhObHZIbXp5c181UFdKOVJTX2o0LWFDN3E3dm1TOGpj?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 20, 2026",
-      "text": "Iran war live: Qatar says Iran-US talks ongoing",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 20, 2026",
-      "text": "Iran issues warning to US as Qatar prepares to announce regional defense agreement",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTUFPUFpGU3BuOGJsTXlVcDdTQ3NzNnZLQjdOd0c5ME5Ta3AtVzBwZ1RKRUtDY2QtLW1wMllqY3R1ZzJVSk5wRUxEUE1fZHdrYXNwZFBxTGZ2OWlMYVlRanNtUzNwU1Y4SlpBS2lfbFBqMGR4Y3ZUYWJVUzVhZlhlcFVvdjhLSGs?oc=5",
-      "hot": false
-    },
-    {
       "date": "Oct 19, 2026",
-      "text": "Saudi Arabia targets Houthis to counter Iran’s influence in Yemen",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xQi1lUVhkd2xpd1locFVZRUV5YURqX1pzNjRDZ1NQT2JCZnkyWkRqT29Mc2lJYm40X1phanp4Nkw1RzAteFlrUkw2QjFUdThPMjN6bC03cw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 19, 2026",
-      "text": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+      "text": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms.",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcThTSklPLUcwNHR0VTRuYVpNeHAxSWUtWlloYTd6ZVYyTFJaS1JmS1gxM1lzTFBxM3pNdzlJV1NpUWJPbTRlMnFZN1dVSzlRQThPZG5ncVh2bEgwSEc5ZlJTQzlNUFFhRFR3bktNeC1sMHJTRHpIQmsxUWxubW5BR0hOWEVDMXhrb041dmo2eHBuMld2V1UwVg?oc=5",
       "hot": false
     },
     {

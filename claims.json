@@ -9,6 +9,20 @@
   "breaking_news": [
     {
       "date": "Oct 24, 2026",
+      "text": "LIVE: Hundreds of families displaced in Hebron amid ongoing Israeli raids",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdEQ3dDlXS3dlUDRVbThyWHBYODlFYVI0TzZwVmlVT1NGNTUxd2hpUlFtcndING95SUFTNGVZZzhoYUNvR0ZXRVF3dkdEMWEzYnAzdDZGQVA2bld1ODZ1WGxoS0dCQ1BwVjZJS2NtVmRWZ1drb3AzUlVYVnRNYno3WEhfWXpXV2xKWWhwV0MzRktUYVQwVHBHTzRkVTR2X2pXWE80Qkl6eDJsNHgxQVo2bF9XSTBMd2lVQUtz0gHAAUFVX3lxTE9vSTZXbnZFVVAwem5GaFpCNng3VVVYU19jOXFqN1ZoNWduY19UblA4aTB6WUt5UV9ZZ1cyRGNFRGh0WXBSdWpLX3FXLUN5NlFzZ0ZhYV9maUcxZC12cVNUZVRnYUxGNTZkT2lIc1B0aWdGdF9LeXlmNW80Y3ZmMno5ZGZObHRqcFM2anB0b1NPLTUyTTJUaWpLbkNYV3ZLUVdCaHlPNlVqNzRTa0VpeTJCaGtURnFqSzR3YkVLS0RENg?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 24, 2026",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85NlA1SmNrMExBRGxIeWlSS3U2a2NMU2t5dE9ZUGllc3RtVi1HY0V1ckx2eUtBck5wS1hOU2trZFVoR1RJQTdUMXNQcWlGOEJuaEN1NVk5MWRQWVIxVk1UZ29wLXA3SWZvcTFFRUVGQXljdXUyN01MX09DUUFZelk?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Oct 24, 2026",
       "text": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYmtHSXQwRFhlWlZKbTU2TEhPODc5MERFTG9feGQwRUY1ZklES2JWS3UxTUxOelgxRExOSFdUWEJnVFFDX284OHNsZWxIUzBVRzdINlpRRVhIYlBTN3A4Q2JrYWFrZVZ0MEZGRXVXVXVKTW82dmgwRWROUHFXcVVPU0oxdkljc3lldHc?oc=5",
@@ -78,30 +92,16 @@
       "hot": false
     },
     {
-      "date": "Oct 23, 2026",
-      "text": "Signs point to renewed major US military ops against Iran",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQXzJsRWozNW5fQmVfZDdweGxRZDAxM25mcHJpem54aHphR1lMTkJadlU3cllBcU95WnVZbUZkWEY0aUloOUFuS0VtNk11eHNwcnZILTluNFR0d0RvdWxlcTVWQjhwalNXTEhuRWhtaTJMUF9QTDlzZEN6MUozUjR1WlpXek5paDJqSGZYYzZJRWdES3RNRFVMb3ZGY0ZLTGlCRFk2THpYNA?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Oct 23, 2026",
-      "text": "Saudi Arabia Postpones UN Forum Until 2027 Amid Regional Tensions",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-      "hot": false
-    },
-    {
       "date": "Oct 22, 2026",
-      "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "source": "Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "text": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGZHWmZzVnVTd2gtaTI5U1YtMnNQcU5FMnp5YzlMQnhkQnh4Ri1ZVUFfc1J6WTBTUFZtbXZCWG1XYmRLMFJnSkNkNHdFSDc3dU0xNHJaam03UHBNVnNhUWE2X2ZpaWJOTG1BWFhqaVJfclNFdTFWNFlVNTZUbnBvU0lJWGJvY1VKRlY3UnVBWld3SG1sSUc0Qjd0QTZuVEYtTXV6TGpzVkpERWRZYkdJX1ZOVEctQ2ppZVNjU0JKcXhvLUhDZWJOdklZQTdGUQ?oc=5",
       "hot": false
     },
     {
       "date": "Oct 19, 2026",
       "text": "USNI News Fleet and Marine Tracker: Oct. 19, 2026",
-      "source": "USNI News",
+      "source": "U.S. Naval Institute",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTm1IZ3lHMmtBNUxLN2ZrSFdJSHM4eWV5S25sNlZadzFaRmhrZFVfc01yVl84NjBwSGlFekQ3TzFKZkZYc1dGcWFoOWhzTEJORmhPM0xKREZIMTBfbVhseFlrUjNlR1lvOGE0ZGZPTnpOQTVYMHY1bUlZc3l3bEdrWEJHVThOZw?oc=5",
       "hot": false
     },

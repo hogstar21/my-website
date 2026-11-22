@@ -9,9 +9,30 @@
   "breaking_news": [
     {
       "date": "Nov 22, 2026",
+      "text": "Iran war live: US ‘defeated’ and cannot dictate peace deal terms – Tehran",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONUdmdEJGUnZfMzVyUjZSNGF6VjBWNkd3d1NWM1d2SEZUNTV6aVRjLVR4X1pKbmtMRHp2R1NjQ1JzOGRTVVdBQ2ZHcmJ5bHZvczR6OC1wV3luZEFpSVlJZ2FUcERvaGQzRUswb1lkRFpMcFlzTW85MmVvQkxhNldua3dKWmZBcXk2Nk15QkZPWENhNzNDUjNBMkEtcUxXZVNZWWRwMlE2T3JyZE12ZmowcXgxZ1JKeGhfcVBGdEtBUlI5Z9IBxwFBVV95cUxOTTdmYm1DcmxqeU9HQ1I4UWZnNzAyeFpZdWU4ejZEbFJNcHhWcXpRS2gwVW1oU1lGaDBCVzE1ZUV2M0pHY2ppY2ktVTF5MzI3WG9PVDZDR05XTUY3MURoZFQwenRZTm1wZ2ZScHZFNmh1NUJUWVVoeDltbGtoWkdQSDB4RjVFRHItWDJEOW1HM3dsZnFpdVZsR3NvVW1WMVNUWExtYVEycEtianlfTWItLU9KSF96R3pCSXhhNmgzbjRSMHZhcVJZ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Nov 22, 2026",
+      "text": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMXFHbkduUzVMeUJDQmhwWmJiOHVuUVpXLXlRSGtndXNHZkwyQUdZdERSZF9HTWgtckotNEhhNzhkSWZuVVN1VTZPMDE5SDk3d2I0cHpROUZ5TGNrY196NU5SWE9zV0xReFhJNjBCWkZZbzBFdXNNRS1YZ2dyNVgtbVdFM29tZXlTeFRuSFk1MDBIdlU?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Nov 22, 2026",
       "text": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONUdmdEJGUnZfMzVyUjZSNGF6VjBWNkd3d1NWM1d2SEZUNTV6aVRjLVR4X1pKbmtMRHp2R1NjQ1JzOGRTVVdBQ2ZHcmJ5bHZvczR6OC1wV3luZEFpSVlJZ2FUcERvaGQzRUswb1lkRFpMcFlzTW85MmVvQkxhNldua3dKWmZBcXk2Nk15QkZPWENhNzNDUjNBMkEtcUxXZVNZWWRwMlE2T3JyZE12ZmowcXgxZ1JKeGhfcVBGdEtBUlI5Z9IBxwFBVV95cUxOTTdmYm1DcmxqeU9HQ1I4UWZnNzAyeFpZdWU4ejZEbFJNcHhWcXpRS2gwVW1oU1lGaDBCVzE1ZUV2M0pHY2ppY2ktVTF5MzI3WG9PVDZDR05XTUY3MURoZFQwenRZTm1wZ2ZScHZFNmh1NUJUWVVoeDltbGtoWkdQSDB4RjVFRHItWDJEOW1HM3dsZnFpdVZsR3NvVW1WMVNUWExtYVEycEtianlfTWItLU9KSF96R3pCSXhhNmgzbjRSMHZhcVJZ?oc=5",
+      "hot": false
+    },
+    {
+      "date": "Nov 21, 2026",
+      "text": "Iran Update, November 21, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSDZQUDRjYXR3VVpxSklSOVNPbzQzcnZRRnM2bFRRTURva0wtdXdnXzJILXhFZ3JObFo2WG1XSEN3elYxcktQZmI1cDQ2OWsyRDNmNGhLbW5jaXdOQjVEcDVvekVKbGo2a0VldndDZzI5cGdYSFllbmtPcmQ5eE9rbXhqOGpHQQ?oc=5",
       "hot": false
     },
     {
@@ -64,17 +85,10 @@
       "hot": false
     },
     {
-      "date": "Nov 21, 2026",
-      "text": "Iran war live: 2 tankers reported hit by unknown projectiles off Oman coast",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTlptbkY5QlNoN2RFRUVGNjR5ejNtdU5Gajg4cm83SlJGRWpqT0dUZlhmM1YxdDREUzRQeFVnMmdJbkxIejNJaG5ldVdVQVVRWW51ZzU3ZGR1b0NudUFDeVBBcGtmamt2VlRjNUNOdHdHazNzYTNsUHpNa3F3VW52ODVCeXZoNHp3QmZydVhrdVlIMlJQcHAtZFVOV1FDOE1CMWtROXExZEM3Z2vSAbABQVVfeXFMUEVWQk9oeDRnbTRxZG9zc1o2SFp2WC1pRThTNXVIR2pkbmw3QWlLX1NiN1JkUlFLenM2YzIzNjlaQ0htZmp0dGd6TVJ0RGNIZ0VKai01RWZVd0VKeE9ZYTBEcWV6TmJsNDBGT2tUX2p1YUZNdTlhMUxDS0MzUUlidm9GN0xCZ1F4SGNvVnBNYzZuaUl5NURJQVpXMmx4TjlxcURWZENadlp5cVhtTUhuNHg?oc=5",
-      "hot": false
-    },
-    {
       "date": "Nov 20, 2026",
-      "text": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
+      "text": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
       "hot": false
     },
     {
@@ -82,13 +96,6 @@
       "text": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Nov 18, 2026",
-      "text": "Carrier USS George Washington Leaves Middle East After Three Months",
-      "source": "U.S. Naval Institute",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMHJULXBpSVhWeEllMUJEdUhaYW1jQ29ETm95VGNhU2t6UHlFalYzbERqMGxFTmtWdGFKSVNzSzNIbDdZX0EyRncxSVlWRGlfbGNPQkpwbnowMmVUVnZLQVZVQkZLOEZrZ3BFOVJXR3hYM2lvb1VTd3IwV05FcTg2YlkybmVQZHpycWRsd0hPd1VzOTRlSHlGaWdETV8wQlVkaGc?oc=5",
       "hot": false
     },
     {
@@ -103,13 +110,6 @@
       "text": "USNI News Fleet and Marine Tracker: Nov. 16, 2026",
       "source": "USNI News",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmtHN2NVSWlJRzY3MjM5UlBSMXpMUzVUd09JY1djcUhkUjNkUk84TjJYaTQtbS1UUnBtTTk5N0VIT1FtVF9xM0hCLUNnWl80cjF1SXRmc0Y4aDJyNmhLWFZQR3JRWElxYUQ4OTZDcnNvd0wwVjVEWmdDa0JIdWJjVlh6eThpQQ?oc=5",
-      "hot": false
-    },
-    {
-      "date": "Nov 12, 2026",
-      "text": "U.S., Iran and Israel Agree to Cease-Fire",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4NjZQcHJQaDBaRTlzNEZ5dDJTR1UyWUJibWxBWFhFUjdfd1NFdzZpeGF3YUpObHc2OU5sZjNwa2o5dHZXVEViUV9sUTNzR1JCYzI3VWZqUGxaMGxFUDN3VVpVWjdCWjBCV2hzSXI5SzFGVU0?oc=5",
       "hot": false
     }
   ],
